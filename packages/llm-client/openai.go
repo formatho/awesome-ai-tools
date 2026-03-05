@@ -13,6 +13,9 @@ import (
 	"time"
 )
 
+// Helper for errors.As
+var _ = errors.As
+
 // RetryableError represents an error that can be retried
 type RetryableError struct {
 	Err    error
@@ -210,9 +213,9 @@ func (p *OpenAIProvider) doRequest(ctx context.Context, req Request) (*Response,
 		return nil, fmt.Errorf("failed to parse response: %w", err)
 	}
 
-	// Check for error
+	// Check for error and convert to appropriate error type
 	if openAIResp.Error != nil {
-		return nil, fmt.Errorf("OpenAI API error: %s (code: %s)", openAIResp.Error.Message, openAIResp.Error.Code)
+		return nil, p.convertAPIError(httpResp.StatusCode, openAIResp.Error)
 	}
 
 	// Convert to our response format
@@ -234,6 +237,44 @@ func (p *OpenAIProvider) doRequest(ctx context.Context, req Request) (*Response,
 			},
 		},
 	}, nil
+}
+
+// convertAPIError converts OpenAI API errors to our error types
+func (p *OpenAIProvider) convertAPIError(statusCode int, apiErr *struct {
+	Message string `json:"message"`
+	Type    string `json:"type"`
+	Code    string `json:"code"`
+}) error {
+	errCode := apiErr.Code
+	if errCode == "" {
+		errCode = apiErr.Type
+	}
+
+	switch errCode {
+	case "invalid_api_key", "authentication_error":
+		return &AuthenticationError{
+			Provider: "openai",
+			Message:  apiErr.Message,
+		}
+	case "rate_limit_exceeded", "insufficient_quota":
+		return &RateLimitError{
+			Provider: "openai",
+			Message:  apiErr.Message,
+		}
+	case "model_not_found", "invalid_model":
+		return &ModelNotFoundError{
+			Provider: "openai",
+			Model:    "", // Could extract from request
+		}
+	case "context_length_exceeded":
+		return &ContextLengthExceededError{
+			Provider: "openai",
+			Message:  apiErr.Message,
+		}
+	}
+
+	// Fallback to generic error
+	return fmt.Errorf("OpenAI API error: %s (code: %s)", apiErr.Message, errCode)
 }
 
 // shouldRetry checks if an error is retryable

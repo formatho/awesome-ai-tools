@@ -1,17 +1,56 @@
 // Package llm provides a unified interface for multiple LLM providers.
 //
-// Example usage:
+// This library offers a simple, consistent API for working with different LLM providers
+// (OpenAI, Anthropic, Ollama, etc.) with built-in retry logic, streaming support, and
+// comprehensive error handling.
+//
+// # Quick Start
+//
+// Create a client and make a simple completion:
 //
 //	client := llm.NewClient(llm.Config{
-//	    Provider: "openai",
+//	    Provider: llm.ProviderOpenAI,
 //	    Model:    "gpt-4o",
 //	    APIKey:   os.Getenv("OPENAI_API_KEY"),
 //	})
 //
-//	response, err := client.Complete(ctx, llm.Request{
+//	llm.RegisterOpenAI(client, llm.OpenAIConfig{
+//	    APIKey: os.Getenv("OPENAI_API_KEY"),
+//	})
+//
+//	response, err := client.Simple(context.Background(), "Hello!")
+//
+// # Streaming
+//
+// For real-time token streaming:
+//
+//	stream, err := client.Stream(ctx, llm.Request{
 //	    Messages: []llm.Message{
-//	        {Role: "user", Content: "Hello!"},
+//	        {Role: "user", Content: "Tell me a story"},
 //	    },
+//	})
+//
+//	for chunk := range stream {
+//	    fmt.Print(chunk.Delta.Content)
+//	}
+//
+// # Error Handling
+//
+// The library provides typed errors for better error handling:
+//
+//	if llm.IsRateLimitError(err) {
+//	    // Handle rate limiting
+//	}
+//
+// # Retry Logic
+//
+// Automatic retry with exponential backoff for transient failures:
+//
+//	client := llm.NewClient(llm.Config{
+//	    Provider:   llm.ProviderOpenAI,
+//	    Model:      "gpt-4o",
+//	    APIKey:     os.Getenv("OPENAI_API_KEY"),
+//	    MaxRetries: 3, // Retry 3 times (4 total attempts)
 //	})
 package llm
 

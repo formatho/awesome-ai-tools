@@ -4,17 +4,18 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/formatho/agent-orchestrator/packages/llm-client.svg)](https://pkg.go.dev/github.com/formatho/agent-orchestrator/packages/llm-client)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/formatho/agent-orchestrator/packages/llm-client)](https://goreportcard.com/report/github.com/formatho/agent-orchestrator/packages/llm-client)
 
 ---
 
-## Features
+## Why go-llm-client?
 
-- ✅ **Multi-provider** — OpenAI, Anthropic, Ollama, local models
-- ✅ **Unified interface** — Same API for all providers
-- ✅ **Streaming support** — Real-time token streaming
-- ✅ **Token counting** — Accurate token counting per provider
-- ✅ **Retry logic** — Exponential backoff on failures (429, 500, 502, 503, 504)
-- ✅ **Per-request override** — Change provider/model per request
+- **🔄 Multi-provider** — Same API for OpenAI, Anthropic, Ollama, and local models
+- **⚡ Streaming support** — Real-time token streaming for responsive UX
+- **🔁 Auto-retry** — Exponential backoff on transient failures (429, 500, etc.)
+- **🎯 Type-safe errors** — Catch specific error types (rate limit, auth, context length)
+- **📊 Token counting** — Built-in token estimation per provider
+- **🔧 Per-request override** — Change provider/model on the fly
 
 ---
 
@@ -42,12 +43,19 @@ import (
 )
 
 func main() {
+    // Create client
     client := llm.NewClient(llm.Config{
         Provider: llm.ProviderOpenAI,
         Model:    "gpt-4o",
         APIKey:   os.Getenv("OPENAI_API_KEY"),
     })
 
+    // Register OpenAI provider
+    llm.RegisterOpenAI(client, llm.OpenAIConfig{
+        APIKey: os.Getenv("OPENAI_API_KEY"),
+    })
+
+    // Simple completion
     response, err := client.Simple(context.Background(), "Hello, world!")
     if err != nil {
         panic(err)
@@ -57,10 +65,34 @@ func main() {
 }
 ```
 
-### Streaming
+---
+
+## Examples
+
+The [`examples/`](./examples/) directory contains complete working examples:
+
+| Example | Description |
+|---------|-------------|
+| [basic-usage](./examples/basic-usage) | Simple completion |
+| [streaming](./examples/streaming) | Real-time token streaming |
+| [error-handling](./examples/error-handling) | Type-safe error handling |
+| [retry-configuration](./examples/retry-configuration) | Custom retry behavior |
+| [concurrent](./examples/concurrent) | Multiple concurrent requests |
+
+Run any example:
+```bash
+cd examples/basic-usage
+go run main.go
+```
+
+---
+
+## Features
+
+### ✅ Streaming
 
 ```go
-ch, err := client.Stream(ctx, llm.Request{
+stream, err := client.Stream(ctx, llm.Request{
     Messages: []llm.Message{
         {Role: "user", Content: "Tell me a story"},
     },
@@ -69,7 +101,7 @@ if err != nil {
     panic(err)
 }
 
-for chunk := range ch {
+for chunk := range stream {
     fmt.Print(chunk.Delta.Content)
     if chunk.Finished {
         break
@@ -77,7 +109,24 @@ for chunk := range ch {
 }
 ```
 
-### Per-Request Provider Override
+### ✅ Error Handling
+
+```go
+_, err := client.Simple(ctx, "Hello")
+if err != nil {
+    if llm.IsAuthenticationError(err) {
+        // Handle invalid API key
+    } else if llm.IsRateLimitError(err) {
+        // Handle rate limiting
+    } else if llm.IsModelNotFoundError(err) {
+        // Handle invalid model
+    } else if llm.IsContextLengthError(err) {
+        // Handle context length exceeded
+    }
+}
+```
+
+### ✅ Per-Request Override
 
 ```go
 // Default is OpenAI, but use Anthropic for this request
@@ -90,40 +139,13 @@ response, err := client.Complete(ctx, llm.Request{
 })
 ```
 
-### Ollama (Local)
+### ✅ Retry Configuration
 
-```go
-client := llm.NewClient(llm.Config{
-    Provider: llm.ProviderOllama,
-    Model:    "llama3",
-    BaseURL:  "http://localhost:11434",
-})
-```
-
----
-
-## Configuration
-
-```go
-type Config struct {
-    Provider   Provider  // openai, anthropic, ollama, local
-    Model      string    // Model to use
-    APIKey     string    // API key (if required)
-    BaseURL    string    // Custom endpoint
-    MaxRetries int       // Retry count (default: 3)
-    Timeout    int       // Request timeout in seconds
-    Debug      bool      // Enable debug logging
-}
-```
-
-### Retry Behavior
-
-The client automatically retries on transient failures with exponential backoff:
+The client automatically retries on transient failures:
 
 - **Retryable errors:** 429 (rate limit), 500, 502, 503, 504
-- **Backoff:** 1s, 2s, 4s, ... (exponential)
+- **Backoff:** Exponential (1s, 2s, 4s, ...)
 - **Default:** 3 retries (4 total attempts)
-- **Configurable:** Set `MaxRetries` in config
 
 ```go
 client := llm.NewClient(llm.Config{
