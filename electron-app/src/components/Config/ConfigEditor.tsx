@@ -6,6 +6,7 @@ const configSections = [
   { id: 'api', label: 'API', icon: Code },
   { id: 'models', label: 'LLM Models', icon: Cpu },
   { id: 'agents', label: 'Agents', icon: Settings },
+  { id: 'skills', label: 'Skills', icon: Zap },
   { id: 'notifications', label: 'Notifications', icon: Settings },
 ]
 
@@ -455,6 +456,33 @@ export default function ConfigEditor() {
               <ConfigField label="Max Concurrent Agents" type="number" value={config.agents.maxConcurrent} onChange={(v) => updateConfig('agents', 'maxConcurrent', v)} />
               <ConfigField label="Default Model" type="text" value={config.agents.defaultModel} onChange={(v) => updateConfig('agents', 'defaultModel', v)} />
               <ConfigField label="Default Temperature" type="number" value={config.agents.defaultTemperature} onChange={(v) => updateConfig('agents', 'defaultTemperature', v)} step="0.1" />
+            </ConfigSection>
+          )}
+
+          {activeSection === 'skills' && (
+            <ConfigSection title="Skills Management">
+              <div className="space-y-4">
+                <p className="text-text-secondary">
+                  Create and manage agent skills using markdown. Skills define capabilities and permissions for agents.
+                </p>
+                <a
+                  href="#/skills"
+                  className="btn-primary inline-flex items-center"
+                >
+                  <Zap className="w-4 h-4 mr-2" />
+                  Open Skills Editor
+                </a>
+                
+                <div className="mt-6 p-4 bg-surface-hover rounded-lg border border-border">
+                  <h4 className="font-semibold mb-2">Quick Tips</h4>
+                  <ul className="text-sm text-text-secondary space-y-2">
+                    <li>• Skills are defined in markdown format</li>
+                    <li>• Each skill has a name, description, and permissions</li>
+                    <li>• Permissions control what actions the skill can perform</li>
+                    <li>• Skills can be assigned to agents to give them capabilities</li>
+                  </ul>
+                </div>
+              </div>
             </ConfigSection>
           )}
 

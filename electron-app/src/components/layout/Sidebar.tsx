@@ -5,7 +5,8 @@ import {
   CheckSquare, 
   Clock, 
   Settings,
-  Activity
+  Activity,
+  Zap
 } from 'lucide-react'
 
 const navItems = [
@@ -13,6 +14,7 @@ const navItems = [
   { path: '/agents', icon: Users, label: 'Agents' },
   { path: '/todos', icon: CheckSquare, label: 'TODOs' },
   { path: '/cron', icon: Clock, label: 'Cron Jobs' },
+  { path: '/skills', icon: Zap, label: 'Skills' },
   { path: '/config', icon: Settings, label: 'Config' },
 ]
 

@@ -5,6 +5,7 @@ import AgentDetail from '../components/Agents/AgentDetail'
 import TODOList from '../components/TODOs/TODOList'
 import CronList from '../components/Cron/CronList'
 import ConfigEditor from '../components/Config/ConfigEditor'
+import SkillsEditor from '../components/Skills/SkillsEditor'
 
 export default function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ export default function AppRoutes() {
       <Route path="/todos" element={<TODOList />} />
       <Route path="/cron" element={<CronList />} />
       <Route path="/config" element={<ConfigEditor />} />
+      <Route path="/skills" element={<SkillsEditor />} />
     </Routes>
   )
 }
