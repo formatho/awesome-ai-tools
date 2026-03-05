@@ -22,3 +22,22 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Build outputs - NEVER commit these!
+release/
+dist-electron/
+*.dmg
+*.zip
+*.AppImage
+*.exe
+*.deb
+*.rpm
+*.blockmap
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Backend binary
+backend/server
