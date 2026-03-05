@@ -104,4 +104,9 @@ export const healthAPI = {
   check: () => api.get('/health'),
 }
 
+export const chatAPI = {
+  history: (agentId: string) => api.get(`/agents/${agentId}/chat`),
+  send: (agentId: string, message: string) => api.post(`/agents/${agentId}/chat`, { message }),
+}
+
 export default api

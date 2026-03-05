@@ -1,10 +1,11 @@
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
-import { agentsAPI, todosAPI, cronAPI, configAPI, healthAPI } from '../lib/api'
+import { agentsAPI, todosAPI, cronAPI, configAPI, healthAPI, chatAPI } from '../lib/api'
 
 // Query keys
 export const queryKeys = {
   agents: ['agents'] as const,
   agent: (id: string) => ['agents', id] as const,
+  chat: (agentId: string) => ['chat', agentId] as const,
   todos: (filters?: { status?: string; priority?: string }) => ['todos', filters] as const,
   todo: (id: string) => ['todos', id] as const,
   cronJobs: ['cron'] as const,
@@ -76,6 +77,32 @@ export function useAgentMutations() {
     delete: deleteMutation,
     start: startMutation,
     stop: stopMutation,
+  }
+}
+
+// Chat hooks
+export function useChat(agentId: string) {
+  return useQuery({
+    queryKey: queryKeys.chat(agentId),
+    queryFn: () => chatAPI.history(agentId),
+    select: (response) => response.data,
+    enabled: !!agentId,
+  })
+}
+
+export function useChatMutations() {
+  const queryClient = useQueryClient()
+
+  const sendMutation = useMutation({
+    mutationFn: ({ agentId, message }: { agentId: string; message: string }) =>
+      chatAPI.send(agentId, message),
+    onSuccess: (_, { agentId }) => {
+      queryClient.invalidateQueries({ queryKey: queryKeys.chat(agentId) })
+    },
+  })
+
+  return {
+    send: sendMutation,
   }
 }
 

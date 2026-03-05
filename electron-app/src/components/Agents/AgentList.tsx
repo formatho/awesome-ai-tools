@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { Search, Plus, Filter, MoreVertical, Play, Pause, Trash2, X } from 'lucide-react'
+import { Search, Plus, Filter, MoreVertical, Play, Pause, Trash2, X, MessageSquare } from 'lucide-react'
 import { useAgents, useAgentMutations } from '../../hooks/useAPI'
 
 interface Agent {
@@ -367,6 +367,13 @@ function AgentCard({ agent, onToggle, onDelete }: { agent: Agent; onToggle: () =
           </div>
 
           <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+            <Link 
+              to={`/agents/${agent.id}/chat`}
+              className="p-2 hover:bg-surface-hover rounded-lg text-text-muted hover:text-accent"
+              title="Chat with agent"
+            >
+              <MessageSquare className="w-4 h-4" />
+            </Link>
             <button 
               onClick={onToggle}
               className="p-2 hover:bg-surface-hover rounded-lg text-text-muted hover:text-text-primary"

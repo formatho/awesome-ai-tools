@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Play, Pause, Trash2, Settings, Activity, Clock, CheckCircle, XCircle } from 'lucide-react'
+import { ArrowLeft, Play, Pause, Trash2, Settings, Activity, Clock, CheckCircle, XCircle, MessageSquare } from 'lucide-react'
 
 const mockAgentDetail = {
   id: '1',
@@ -59,6 +59,13 @@ export default function AgentDetail() {
           </div>
 
           <div className="flex items-center gap-2">
+            <Link 
+              to={`/agents/${agent.id}/chat`}
+              className="btn-primary"
+            >
+              <MessageSquare className="w-4 h-4 mr-2" />
+              Chat
+            </Link>
             <button className="btn-secondary">
               <Settings className="w-4 h-4 mr-2" />
               Configure

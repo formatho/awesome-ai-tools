@@ -20,7 +20,43 @@ jobs:
         uses: golangci/golangci-lint-action@v4
         with:
           version: latest
-          working-directory: .
+          working-directory: packages/llm-client
+      
+      - name: golangci-lint (agent-pool)
+        uses: golangci/golangci-lint-action@v4
+        with:
+          version: latest
+          working-directory: packages/agent-pool
+      
+      - name: golangci-lint (agent-skills)
+        uses: golangci/golangci-lint-action@v4
+        with:
+          version: latest
+          working-directory: packages/agent-skills
+      
+      - name: golangci-lint (todo-queue)
+        uses: golangci/golangci-lint-action@v4
+        with:
+          version: latest
+          working-directory: packages/todo-queue
+      
+      - name: golangci-lint (cron-agents)
+        uses: golangci/golangci-lint-action@v4
+        with:
+          version: latest
+          working-directory: packages/cron-agents
+      
+      - name: golangci-lint (agent-config)
+        uses: golangci/golangci-lint-action@v4
+        with:
+          version: latest
+          working-directory: packages/agent-config
+      
+      - name: golangci-lint (backend)
+        uses: golangci/golangci-lint-action@v4
+        with:
+          version: latest
+          working-directory: backend
 
   test:
     runs-on: ubuntu-latest
@@ -38,7 +74,7 @@ jobs:
             if [ -f "${module}go.mod" ]; then
               echo "Testing ${module}..."
               cd ${module}
-              go test -v -coverprofile=coverage.out ./...
+              go test -v -timeout 60s -coverprofile=coverage.out ./...
               if [ -f coverage.out ]; then
                 mkdir -p ../../coverage
                 cp coverage.out "../../coverage/$(basename ${module%/}).out"

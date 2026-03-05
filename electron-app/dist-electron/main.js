@@ -1,12 +1,13 @@
-import { nativeImage as h, Tray as f, Menu as u, app as i, BrowserWindow as r, ipcMain as s } from "electron";
+import { nativeImage as w, Tray as T, Menu as v, app as s, BrowserWindow as f, ipcMain as d } from "electron";
 import n from "path";
-import { fileURLToPath as l } from "url";
-const g = n.dirname(l(import.meta.url));
-let t = null;
-function b(e) {
-  const d = n.join(g, "../public/icon.png"), m = h.createFromPath(d).resize({ width: 16, height: 16 });
-  t = new f(m);
-  const p = u.buildFromTemplate([
+import { fileURLToPath as h } from "url";
+import { spawn as E } from "child_process";
+const D = n.dirname(h(import.meta.url));
+let r = null;
+function P(e) {
+  const c = n.join(D, "../public/icon.png"), l = w.createFromPath(c).resize({ width: 16, height: 16 });
+  r = new T(l);
+  const m = v.buildFromTemplate([
     {
       label: "Open Agent Orchestrator",
       click: () => {
@@ -36,22 +37,22 @@ function b(e) {
     {
       label: "Quit",
       click: () => {
-        i.quit();
+        s.quit();
       }
     }
   ]);
-  return t.setToolTip("Agent Orchestrator"), t.setContextMenu(p), t.on("click", () => {
+  return r.setToolTip("Agent Orchestrator"), r.setContextMenu(m), r.on("click", () => {
     e && (e.isVisible() ? e.hide() : (e.show(), e.focus()));
-  }), t;
+  }), r;
 }
-const a = n.dirname(l(import.meta.url));
+const a = n.dirname(h(import.meta.url));
 process.env.DIST_ELECTRON = n.join(a, "../");
 process.env.DIST = n.join(a, "../dist");
 process.env.VITE_PUBLIC = process.env.VITE_PUBLIC || n.join(a, "../public");
-let o = null;
-const w = n.join(a, "./preload.js");
-function c() {
-  return o = new r({
+let o = null, t = null;
+const _ = n.join(a, "./preload.js");
+function b() {
+  return o = new f({
     width: 1400,
     height: 900,
     minWidth: 1e3,
@@ -62,7 +63,7 @@ function c() {
     frame: !1,
     titleBarStyle: "hiddenInset",
     webPreferences: {
-      preload: w,
+      preload: _,
       nodeIntegration: !1,
       contextIsolation: !0
     }
@@ -70,22 +71,58 @@ function c() {
     o?.webContents.send("main-process-message", (/* @__PURE__ */ new Date()).toLocaleString());
   }), process.env.VITE_DEV_SERVER_URL ? (o.loadURL(process.env.VITE_DEV_SERVER_URL), o.webContents.openDevTools()) : o.loadFile(n.join(process.env.DIST || "", "index.html")), o;
 }
-i.on("window-all-closed", () => {
-  process.platform !== "darwin" && (i.quit(), o = null);
+s.on("window-all-closed", () => {
+  process.platform !== "darwin" && (k(), s.quit(), o = null);
 });
-i.on("activate", () => {
-  r.getAllWindows().length === 0 && c();
+s.on("activate", () => {
+  f.getAllWindows().length === 0 && b();
 });
-s.on("window-minimize", () => {
+d.on("window-minimize", () => {
   o?.minimize();
 });
-s.on("window-maximize", () => {
+d.on("window-maximize", () => {
   o?.isMaximized() ? o.unmaximize() : o?.maximize();
 });
-s.on("window-close", () => {
+d.on("window-close", () => {
   o?.close();
 });
-s.handle("window-is-maximized", () => o?.isMaximized() || !1);
-i.whenReady().then(() => {
-  c(), b(o);
+d.handle("window-is-maximized", () => o?.isMaximized() || !1);
+function B() {
+  return new Promise((e, c) => {
+    if (process.env.BACKEND_URL)
+      return console.log("🔗 Using external backend:", process.env.BACKEND_URL), e();
+    const p = !s.isPackaged;
+    if (p && !process.env.START_BACKEND)
+      return console.log("🔧 Dev mode: assuming backend is running separately"), e();
+    const l = p ? n.join(a, "../../backend/bin/server") : n.join(process.resourcesPath, "backend", "server"), m = s.getPath("userData"), u = n.join(m, "agent-orchestrator.db"), g = ":18765";
+    console.log("🚀 Starting backend..."), console.log("   Binary:", l), console.log("   DB Path:", u), console.log("   Port:", g), t = E(l, [], {
+      env: {
+        ...process.env,
+        DB_PATH: u,
+        PORT: g
+      },
+      stdio: ["ignore", "pipe", "pipe"]
+    }), t.stdout?.on("data", (i) => {
+      console.log(`[Backend] ${i.toString().trim()}`);
+    }), t.stderr?.on("data", (i) => {
+      console.error(`[Backend Error] ${i.toString().trim()}`);
+    }), t.on("error", (i) => {
+      console.error("Failed to start backend:", i), c(i);
+    }), setTimeout(() => {
+      t && !t.killed ? (console.log("✅ Backend started successfully"), e()) : c(new Error("Backend process died immediately"));
+    }, 1e3);
+  });
+}
+function k() {
+  t && (console.log("🛑 Stopping backend..."), t.kill(), t = null);
+}
+s.whenReady().then(async () => {
+  try {
+    await B(), b(), P(o);
+  } catch (e) {
+    console.error("Failed to start app:", e), s.quit();
+  }
+});
+s.on("will-quit", () => {
+  k();
 });
