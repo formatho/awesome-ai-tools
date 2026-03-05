@@ -26,6 +26,7 @@ type Server struct {
 	todoSvc   *services.TODOService
 	cronSvc   *services.CronService
 	configSvc *services.ConfigService
+	chatSvc   *services.ChatService
 
 	// Handlers
 	agentH  *handlers.AgentHandler
@@ -33,6 +34,7 @@ type Server struct {
 	cronH   *handlers.CronHandler
 	configH *handlers.ConfigHandler
 	systemH *handlers.SystemHandler
+	chatH   *handlers.ChatHandler
 
 	// WebSocket upgrader
 	upgrader fastws.FastHTTPUpgrader
@@ -49,6 +51,7 @@ func NewServer(db *sql.DB) *fiber.App {
 	todoSvc := services.NewTODOService(db, hub)
 	cronSvc := services.NewCronService(db, hub)
 	configSvc := services.NewConfigService(db)
+	chatSvc := services.NewChatService(db, agentSvc, configSvc)
 
 	// Create handlers
 	agentH := handlers.NewAgentHandler(agentSvc)
@@ -56,6 +59,7 @@ func NewServer(db *sql.DB) *fiber.App {
 	cronH := handlers.NewCronHandler(cronSvc)
 	configH := handlers.NewConfigHandler(configSvc)
 	systemH := handlers.NewSystemHandler(agentSvc, todoSvc, cronSvc)
+	chatH := handlers.NewChatHandler(chatSvc)
 
 	// Create Fiber app
 	app := fiber.New(fiber.Config{
@@ -72,11 +76,13 @@ func NewServer(db *sql.DB) *fiber.App {
 		todoSvc:   todoSvc,
 		cronSvc:   cronSvc,
 		configSvc: configSvc,
+		chatSvc:   chatSvc,
 		agentH:    agentH,
 		todoH:     todoH,
 		cronH:     cronH,
 		configH:   configH,
 		systemH:   systemH,
+		chatH:     chatH,
 		upgrader: fastws.FastHTTPUpgrader{
 			ReadBufferSize:  1024,
 			WriteBufferSize: 1024,
@@ -140,6 +146,10 @@ func (s *Server) setupRoutes() {
 	agents.Post("/:id/stop", s.agentH.Stop)
 	agents.Post("/:id/pause", s.agentH.Pause)
 	agents.Post("/:id/resume", s.agentH.Resume)
+	// Chat routes (nested under agent)
+	agents.Get("/:id/chat", s.chatH.GetHistory)
+	agents.Post("/:id/chat", s.chatH.SendMessage)
+	agents.Delete("/:id/chat", s.chatH.ClearHistory)
 
 	// TODO routes
 	todos := api.Group("/todos")
@@ -172,4 +182,9 @@ func (s *Server) setupRoutes() {
 	system := api.Group("/system")
 	system.Get("/status", s.systemH.Status)
 	system.Get("/health", s.systemH.Health)
+
+	// Chat routes (nested under agents)
+	agents.Post("/:id/chat", s.chatH.SendMessage)
+	agents.Get("/:id/chat", s.chatH.GetHistory)
+	agents.Delete("/:id/chat", s.chatH.ClearHistory)
 }

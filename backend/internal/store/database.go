@@ -130,6 +130,17 @@ func RunMigrations(db *sql.DB) error {
 			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 		)`,
 		`INSERT OR IGNORE INTO config (id, updated_at) VALUES ('default', CURRENT_TIMESTAMP)`,
+
+		`CREATE TABLE IF NOT EXISTS chat_messages (
+			id TEXT PRIMARY KEY,
+			agent_id TEXT NOT NULL,
+			role TEXT NOT NULL,
+			content TEXT NOT NULL,
+			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			FOREIGN KEY (agent_id) REFERENCES agents(id) ON DELETE CASCADE
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_chat_agent ON chat_messages(agent_id)`,
+		`CREATE INDEX IF NOT EXISTS idx_chat_created ON chat_messages(created_at)`,
 	}
 
 	for i, migration := range migrations {
