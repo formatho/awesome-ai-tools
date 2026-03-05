@@ -1,0 +1,130 @@
+// Package handlers provides HTTP handlers for the REST API.
+package handlers
+
+import (
+	"strconv"
+
+	"github.com/formatho/agent-orchestrator/backend/internal/models"
+	"github.com/formatho/agent-orchestrator/backend/internal/services"
+	"github.com/gofiber/fiber/v2"
+)
+
+// AgentHandler handles agent-related requests.
+type AgentHandler struct {
+	service *services.AgentService
+}
+
+// NewAgentHandler creates a new agent handler.
+func NewAgentHandler(service *services.AgentService) *AgentHandler {
+	return &AgentHandler{service: service}
+}
+
+// List returns all agents.
+func (h *AgentHandler) List(c *fiber.Ctx) error {
+	agents, err := h.service.List()
+	if err != nil {
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+	return c.JSON(agents)
+}
+
+// Get returns a single agent.
+func (h *AgentHandler) Get(c *fiber.Ctx) error {
+	id := c.Params("id")
+	agent, err := h.service.Get(id)
+	if err != nil {
+		if models.IsNotFoundError(err) {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+	return c.JSON(agent)
+}
+
+// Create creates a new agent.
+func (h *AgentHandler) Create(c *fiber.Ctx) error {
+	var req models.AgentCreate
+	if err := c.BodyParser(&req); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": "Invalid request body"})
+	}
+
+	agent, err := h.service.Create(&req)
+	if err != nil {
+		if appErr, ok := err.(*models.AppError); ok && appErr.Code == "VALIDATION_ERROR" {
+			return c.Status(400).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	return c.Status(201).JSON(agent)
+}
+
+// Update updates an agent.
+func (h *AgentHandler) Update(c *fiber.Ctx) error {
+	id := c.Params("id")
+	var req models.AgentUpdate
+	if err := c.BodyParser(&req); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": "Invalid request body"})
+	}
+
+	agent, err := h.service.Update(id, &req)
+	if err != nil {
+		if models.IsNotFoundError(err) {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	return c.JSON(agent)
+}
+
+// Delete deletes an agent.
+func (h *AgentHandler) Delete(c *fiber.Ctx) error {
+	id := c.Params("id")
+	if err := h.service.Delete(id); err != nil {
+		if models.IsNotFoundError(err) {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+	return c.Status(204).Send(nil)
+}
+
+// Pause pauses an agent.
+func (h *AgentHandler) Pause(c *fiber.Ctx) error {
+	id := c.Params("id")
+	agent, err := h.service.Pause(id)
+	if err != nil {
+		if models.IsNotFoundError(err) {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+	return c.JSON(agent)
+}
+
+// Resume resumes an agent.
+func (h *AgentHandler) Resume(c *fiber.Ctx) error {
+	id := c.Params("id")
+	agent, err := h.service.Resume(id)
+	if err != nil {
+		if models.IsNotFoundError(err) {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+	return c.JSON(agent)
+}
+
+// parseBoolParam parses a boolean query parameter.
+func parseBoolParam(c *fiber.Ctx, key string, defaultValue bool) bool {
+	val := c.Query(key)
+	if val == "" {
+		return defaultValue
+	}
+	b, err := strconv.ParseBool(val)
+	if err != nil {
+		return defaultValue
+	}
+	return b
+}

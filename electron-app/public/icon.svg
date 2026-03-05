@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="48" fill="#0f0f0f"/>
+  <rect x="32" y="32" width="192" height="192" rx="32" fill="#1a1a1a" stroke="#2a2a2a" stroke-width="4"/>
+  <g transform="translate(64, 64)">
+    <!-- Activity/Network icon -->
+    <circle cx="64" cy="64" r="24" fill="#3b82f6"/>
+    <circle cx="24" cy="44" r="12" fill="#3b82f6" opacity="0.7"/>
+    <circle cx="104" cy="44" r="12" fill="#3b82f6" opacity="0.7"/>
+    <circle cx="44" cy="104" r="12" fill="#3b82f6" opacity="0.7"/>
+    <circle cx="84" cy="104" r="12" fill="#3b82f6" opacity="0.7"/>
+    <!-- Connection lines -->
+    <line x1="36" y1="54" x2="54" y2="60" stroke="#3b82f6" stroke-width="3" opacity="0.5"/>
+    <line x1="92" y1="54" x2="74" y2="60" stroke="#3b82f6" stroke-width="3" opacity="0.5"/>
+    <line x1="52" y1="94" x2="56" y2="80" stroke="#3b82f6" stroke-width="3" opacity="0.5"/>
+    <line x1="76" y1="94" x2="72" y2="80" stroke="#3b82f6" stroke-width="3" opacity="0.5"/>
+  </g>
+</svg>
