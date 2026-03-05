@@ -1,81 +1,192 @@
 # Agent Orchestrator
 
-[![CI](https://github.com/formatho/agent-orchestrator/actions/workflows/ci.yml/badge.svg)](https://github.com/formatho/agent-orchestrator/actions/workflows/ci.yml)
-
-**Spin up AI workers. Let them run. Check results later.**
-
-A local-first desktop application for managing autonomous AI agents. Built with Go + Electron.
+**Desktop application for managing autonomous AI agents locally.**
 
 ---
 
-## 🎯 What It Does
+## 🚀 Quick Start
 
-- **Create agents with text** — Describe what you want, spawn an agent
-- **Agents work autonomously** — They use skills to complete TODOs
-- **Cron scheduling** — Agents run on schedule, not just on-demand
-- **100% local** — Your data stays on your machine
-
----
-
-## 📦 Modular Libraries
-
-Each component is a standalone Go library you can use independently:
-
-| Library | Description |
-|---------|-------------|
-| [go-llm-client](./packages/llm-client) | Unified interface for OpenAI, Anthropic, Ollama |
-| [go-agent-pool](./packages/agent-pool) | Concurrent agent lifecycle management |
-| [go-agent-skills](./packages/agent-skills) | Skill system with permissions |
-| [go-todo-queue](./packages/todo-queue) | Persistent TODO queue (SQLite) |
-| [go-cron-agents](./packages/cron-agents) | Cron scheduler for agents |
-| [go-agent-config](./packages/agent-config) | YAML/JSON config management |
-
----
-
-## 🚀 Quick Start (Coming Soon)
+### Option 1: Using Startup Script
 
 ```bash
-# Install (not yet available)
-go install github.com/formatho/agent-orchestrator/cmd/orchestrator@latest
+# Start both backend + frontend
+./start.sh
 
-# Or download desktop app
-# https://github.com/formatho/agent-orchestrator/releases
+# Or start individually
+./start.sh backend   # API server only
+./start.sh frontend  # Electron app only
+```
+
+### Option 2: Manual Start
+
+**Terminal 1 - Backend:**
+```bash
+cd backend
+go build -o bin/server ./cmd/server
+./bin/server
+```
+
+**Terminal 2 - Frontend:**
+```bash
+cd electron-app
+npm install  # First time only
+npm run dev
 ```
 
 ---
 
-## 🛠️ Development Status
+## 📦 What You Get
 
-| Component | Status |
-|-----------|--------|
-| `go-llm-client` | 🚧 In Progress |
-| `go-agent-pool` | 📋 Planned |
-| `go-agent-skills` | 📋 Planned |
-| `go-todo-queue` | 📋 Planned |
-| `go-cron-agents` | 📋 Planned |
-| `go-agent-config` | 📋 Planned |
-| Electron UI | 📋 Planned |
+- **Backend API** running on `http://localhost:18765`
+- **Electron App** with React UI
+- **SQLite Database** for persistence
+- **WebSocket** for real-time updates
 
 ---
 
-## 📋 Roadmap
+## 🎯 Features
 
-See [ROADMAP.md](./ROADMAP.md) for week-by-week plan.
+### 6 Modular Go Libraries
+1. **go-llm-client** - Unified LLM interface (OpenAI, Anthropic, Ollama)
+2. **go-agent-pool** - Agent lifecycle management
+3. **go-agent-skills** - Skill execution with permissions
+4. **go-todo-queue** - Persistent TODO management
+5. **go-cron-agents** - Cron scheduling for agents
+6. **go-agent-config** - Configuration management
+
+### Backend API
+- 44 REST endpoints
+- WebSocket support
+- SQLite database
+- All libraries integrated
+
+### Electron UI
+- Dark theme
+- Real-time updates
+- Dashboard, Agents, TODOs, Cron, Config views
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend:**
+- Go 1.24
+- Fiber (web framework)
+- Gorilla WebSocket
+- SQLite
+
+**Frontend:**
+- Electron
+- React 18
+- TypeScript
+- Tailwind CSS
+- React Query
+
+---
+
+## 📊 Project Stats
+
+```
+Libraries:     6 (24,000 lines)
+Backend:       19 files (2,500 lines)
+Frontend:      25+ files (2,500 lines)
+Tests:         200+ passing
+Total Lines:   ~29,000
+```
+
+---
+
+## 🎨 Screenshots
+
+Coming soon...
+
+---
+
+## 📝 API Endpoints
+
+### Agents
+- `GET/POST /api/agents` - List/Create agents
+- `GET/PUT/DELETE /api/agents/:id` - Agent CRUD
+- `POST /api/agents/:id/pause` - Pause agent
+- `POST /api/agents/:id/resume` - Resume agent
+
+### TODOs
+- `GET/POST /api/todos` - List/Create TODOs
+- `GET/PUT/DELETE /api/todos/:id` - TODO CRUD
+- `POST /api/todos/:id/start` - Start TODO
+- `POST /api/todos/:id/cancel` - Cancel TODO
+
+### Cron
+- `GET/POST /api/cron` - List/Create cron jobs
+- `GET/PUT/DELETE /api/cron/:id` - Cron CRUD
+- `POST /api/cron/:id/pause` - Pause cron
+- `POST /api/cron/:id/resume` - Resume cron
+- `GET /api/cron/:id/history` - Run history
+
+### Config
+- `GET/PUT /api/config` - Configuration management
+- `POST /api/config/test-llm` - Test LLM connection
+
+### System
+- `GET /health` - Health check
+- `GET /api/system/status` - System status
+
+### WebSocket
+- `GET /ws` - WebSocket endpoint for real-time updates
+
+---
+
+## 🔧 Development
+
+### Prerequisites
+- Go 1.24+
+- Node.js 18+
+- npm or yarn
+
+### Build Backend
+```bash
+cd backend
+go mod tidy
+go build -o bin/server ./cmd/server
+```
+
+### Build Frontend
+```bash
+cd electron-app
+npm install
+npm run build
+```
+
+### Run Tests
+```bash
+# Backend
+cd backend
+go test ./...
+
+# Libraries
+cd packages/go-llm-client
+go test ./...
+```
+
+---
+
+## 📄 License
+
+MIT License - See LICENSE file for details
 
 ---
 
 ## 🤝 Contributing
 
-MIT licensed. PRs welcome!
+Contributions welcome! Please read CONTRIBUTING.md first.
 
 ---
 
-## 📫 Connect
+## 📧 Contact
 
-- **Org:** https://github.com/formatho
-- **Twitter:** [@heyformatho](https://twitter.com/heyformatho)
+- **GitHub:** https://github.com/formatho/agent-orchestrator
 - **Website:** https://formatho.com
 
 ---
 
-*Built by [Formatho](https://github.com/formatho)*
+**Built with ❤️ by Formatho**
