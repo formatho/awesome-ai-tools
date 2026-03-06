@@ -132,8 +132,9 @@ func (p *Pool) Kill(id string) error {
 	}
 
 	// Stop the agent
-	if err := agent.Stop(); err != nil && err.Error() != "agent is already stopped" {
-		// Log but continue cleanup
+	if err := agent.Stop(); err != nil {
+		// Continue cleanup even if stop fails (agent might already be stopped)
+		_ = err // Explicitly ignore error
 	}
 
 	// Update resource tracking
@@ -260,7 +261,9 @@ func (p *Pool) Close() error {
 		if p.hooks.OnKill != nil {
 			p.hooks.OnKill(agent)
 		}
-		agent.Stop()
+		if err := agent.Stop(); err != nil {
+			// Log error but continue stopping other agents
+		}
 		delete(p.agents, id)
 	}
 
