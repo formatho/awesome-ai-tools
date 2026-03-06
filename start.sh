@@ -5,7 +5,9 @@
 
 set -e
 
-PROJECT_ROOT="/Users/studio/sandbox/formatho/agent-orchestrator"
+# Get the script's directory and resolve to absolute path
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_ROOT="$SCRIPT_DIR"
 BACKEND_DIR="$PROJECT_ROOT/backend"
 FRONTEND_DIR="$PROJECT_ROOT/electron-app"
 
