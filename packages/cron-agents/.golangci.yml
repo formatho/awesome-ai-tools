@@ -1,0 +1,23 @@
+linters-settings:
+  govet:
+    disable:
+      - fieldalignment
+
+linters:
+  enable:
+    - errcheck
+    - gofmt
+    - goimports
+    - govet
+    - staticcheck
+    - ineffassign
+    - typecheck
+    - unused
+
+issues:
+  exclude-dirs:
+    - vendor
+  exclude-rules:
+    - path: _test\.go
+      linters:
+        - errcheck
