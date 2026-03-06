@@ -164,8 +164,8 @@ func TestNoChoicesInResponse(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusOK)
 		json.NewEncoder(w).Encode(openAIResponse{
-			ID:      "test",
-			Model:   "gpt-4o",
+			ID:    "test",
+			Model: "gpt-4o",
 			Choices: []struct {
 				Index        int     `json:"index"`
 				Message      Message `json:"message"`

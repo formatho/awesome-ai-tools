@@ -40,18 +40,18 @@ func (s *FileSkill) Execute(ctx context.Context, action string, params map[strin
 	if !ok {
 		return agent.Result{}, agent.NewExecutionError("file", action, "missing required parameter: path")
 	}
-	
+
 	path, ok := pathRaw.(string)
 	if !ok {
 		return agent.Result{}, agent.NewExecutionError("file", action, "parameter 'path' must be a string")
 	}
-	
+
 	// Resolve and validate path
 	fullPath, err := s.resolvePath(path)
 	if err != nil {
 		return agent.Result{}, agent.NewExecutionError("file", action, err.Error())
 	}
-	
+
 	switch action {
 	case "read":
 		return s.readFile(ctx, fullPath)
@@ -62,7 +62,7 @@ func (s *FileSkill) Execute(ctx context.Context, action string, params map[strin
 	case "list":
 		return s.listFiles(ctx, fullPath, params)
 	default:
-		return agent.Result{}, agent.NewExecutionError("file", action, 
+		return agent.Result{}, agent.NewExecutionError("file", action,
 			fmt.Sprintf("unknown action: %s", action))
 	}
 }
@@ -74,20 +74,20 @@ func (s *FileSkill) resolvePath(path string) (string, error) {
 	if err != nil {
 		return "", fmt.Errorf("failed to resolve path: %w", err)
 	}
-	
+
 	// If base directory is set, ensure path is within it
 	if s.BaseDir != "" {
 		baseAbs, err := filepath.Abs(s.BaseDir)
 		if err != nil {
 			return "", fmt.Errorf("failed to resolve base directory: %w", err)
 		}
-		
+
 		// Check if path is within base directory
 		if !strings.HasPrefix(absPath, baseAbs) {
 			return "", fmt.Errorf("path '%s' is outside allowed directory '%s'", path, s.BaseDir)
 		}
 	}
-	
+
 	return absPath, nil
 }
 
@@ -98,12 +98,12 @@ func (s *FileSkill) readFile(ctx context.Context, path string) (agent.Result, er
 		return agent.Result{}, ctx.Err()
 	default:
 	}
-	
+
 	content, err := os.ReadFile(path)
 	if err != nil {
 		return agent.Result{}, agent.NewExecutionError("file", "read", err.Error())
 	}
-	
+
 	return agent.Result{
 		Success: true,
 		Data:    string(content),
@@ -122,34 +122,34 @@ func (s *FileSkill) writeFile(ctx context.Context, path string, params map[strin
 		return agent.Result{}, ctx.Err()
 	default:
 	}
-	
+
 	contentRaw, ok := params["content"]
 	if !ok {
 		return agent.Result{}, agent.NewExecutionError("file", "write", "missing required parameter: content")
 	}
-	
+
 	content, ok := contentRaw.(string)
 	if !ok {
 		return agent.Result{}, agent.NewExecutionError("file", "write", "parameter 'content' must be a string")
 	}
-	
+
 	// Check if we should create parent directories
 	mkdir := false
 	if v, ok := params["mkdir"].(bool); ok {
 		mkdir = v
 	}
-	
+
 	if mkdir {
 		if err := os.MkdirAll(filepath.Dir(path), 0755); err != nil {
-			return agent.Result{}, agent.NewExecutionError("file", "write", 
+			return agent.Result{}, agent.NewExecutionError("file", "write",
 				fmt.Sprintf("failed to create parent directories: %s", err))
 		}
 	}
-	
+
 	if err := os.WriteFile(path, []byte(content), 0644); err != nil {
 		return agent.Result{}, agent.NewExecutionError("file", "write", err.Error())
 	}
-	
+
 	return agent.Result{
 		Success: true,
 		Message: fmt.Sprintf("successfully wrote %d bytes to %s", len(content), path),
@@ -167,19 +167,19 @@ func (s *FileSkill) deleteFile(ctx context.Context, path string, params map[stri
 		return agent.Result{}, ctx.Err()
 	default:
 	}
-	
+
 	// Check if recursive delete
 	recursive := false
 	if v, ok := params["recursive"].(bool); ok {
 		recursive = v
 	}
-	
+
 	// Check if path exists
 	info, err := os.Stat(path)
 	if err != nil {
 		return agent.Result{}, agent.NewExecutionError("file", "delete", err.Error())
 	}
-	
+
 	if info.IsDir() {
 		if recursive {
 			err = os.RemoveAll(path)
@@ -189,11 +189,11 @@ func (s *FileSkill) deleteFile(ctx context.Context, path string, params map[stri
 	} else {
 		err = os.Remove(path)
 	}
-	
+
 	if err != nil {
 		return agent.Result{}, agent.NewExecutionError("file", "delete", err.Error())
 	}
-	
+
 	return agent.Result{
 		Success: true,
 		Message: fmt.Sprintf("successfully deleted %s", path),
@@ -212,15 +212,15 @@ func (s *FileSkill) listFiles(ctx context.Context, path string, params map[strin
 		return agent.Result{}, ctx.Err()
 	default:
 	}
-	
+
 	// Check if recursive
 	recursive := false
 	if v, ok := params["recursive"].(bool); ok {
 		recursive = v
 	}
-	
+
 	var files []map[string]any
-	
+
 	if recursive {
 		err := filepath.Walk(path, func(walkPath string, info os.FileInfo, err error) error {
 			if err != nil {
@@ -242,7 +242,7 @@ func (s *FileSkill) listFiles(ctx context.Context, path string, params map[strin
 		if err != nil {
 			return agent.Result{}, agent.NewExecutionError("file", "list", err.Error())
 		}
-		
+
 		for _, entry := range entries {
 			info, err := entry.Info()
 			if err != nil {
@@ -256,7 +256,7 @@ func (s *FileSkill) listFiles(ctx context.Context, path string, params map[strin
 			})
 		}
 	}
-	
+
 	return agent.Result{
 		Success: true,
 		Data:    files,

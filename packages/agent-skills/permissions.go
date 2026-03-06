@@ -10,7 +10,7 @@ type Config struct {
 	// Allowed is a list of skill:action patterns that are permitted.
 	// Use "*" to allow all actions for a skill, or "*" as the skill to allow all.
 	Allowed []string `json:"allowed"`
-	
+
 	// Denied is a list of skill:action patterns that are explicitly blocked.
 	// Denied patterns always override allowed patterns.
 	Denied []string `json:"denied"`
@@ -37,7 +37,7 @@ func (p *PermissionChecker) CheckPermission(skillName, action string) error {
 	// Build the full identifier
 	skillAction := fmt.Sprintf("%s:%s", skillName, action)
 	skillAny := fmt.Sprintf("%s:*", skillName)
-	
+
 	// First check if explicitly denied
 	for _, pattern := range p.config.Denied {
 		if pattern == "*" ||
@@ -46,7 +46,7 @@ func (p *PermissionChecker) CheckPermission(skillName, action string) error {
 			strings.HasPrefix(pattern, "*:") {
 			// Check if this global deny pattern matches
 			if pattern == "*" || pattern == skillAny || pattern == skillAction {
-				return NewPermissionDeniedError(skillName, action, 
+				return NewPermissionDeniedError(skillName, action,
 					fmt.Sprintf("action '%s' is explicitly denied by configuration", skillAction))
 			}
 			// Check pattern like "*:delete" which denies delete on all skills
@@ -59,13 +59,13 @@ func (p *PermissionChecker) CheckPermission(skillName, action string) error {
 			}
 		}
 	}
-	
+
 	// If no allowed list specified, deny by default
 	if len(p.config.Allowed) == 0 {
 		return NewPermissionDeniedError(skillName, action,
 			"no actions are allowed (empty allowed list)")
 	}
-	
+
 	// Check if allowed
 	for _, pattern := range p.config.Allowed {
 		switch pattern {
@@ -96,7 +96,7 @@ func (p *PermissionChecker) CheckPermission(skillName, action string) error {
 			}
 		}
 	}
-	
+
 	// Not found in allowed list
 	return NewPermissionDeniedError(skillName, action,
 		fmt.Sprintf("action '%s' is not in the allowed list", skillAction))

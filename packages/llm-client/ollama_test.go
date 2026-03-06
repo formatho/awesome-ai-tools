@@ -30,8 +30,8 @@ func TestOllamaProvider_Complete(t *testing.T) {
 
 				w.WriteHeader(http.StatusOK)
 				json.NewEncoder(w).Encode(ollamaResponse{
-					Model:    "llama3.2",
-					Done:     true,
+					Model: "llama3.2",
+					Done:  true,
 					Message: struct {
 						Role    string `json:"role"`
 						Content string `json:"content"`
@@ -476,7 +476,7 @@ func TestOllamaProvider_DefaultModel(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		var req ollamaRequest
 		json.NewDecoder(r.Body).Decode(&req)
-		
+
 		// Should default to llama3.2
 		assert.Equal(t, "llama3.2", req.Model)
 
@@ -508,7 +508,7 @@ func TestOllamaProvider_DefaultModel(t *testing.T) {
 
 func TestOllamaProvider_DefaultBaseURL(t *testing.T) {
 	provider := NewOllamaProvider(OllamaConfig{})
-	
+
 	// Should default to localhost:11434
 	assert.Equal(t, "http://localhost:11434", provider.baseURL)
 }
@@ -645,7 +645,7 @@ func TestOllamaProvider_SpecialCases(t *testing.T) {
 		server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 			var req ollamaRequest
 			json.NewDecoder(r.Body).Decode(&req)
-			
+
 			assert.Len(t, req.Messages, 4)
 			assert.Equal(t, "system", req.Messages[0].Role)
 			assert.Equal(t, "user", req.Messages[1].Role)

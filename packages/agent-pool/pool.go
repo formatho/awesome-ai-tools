@@ -8,22 +8,22 @@ import (
 
 // Common errors
 var (
-	ErrPoolFull          = errors.New("pool has reached maximum agent capacity")
-	ErrAgentNotFound     = errors.New("agent not found")
-	ErrAgentExists       = errors.New("agent with this ID already exists")
-	ErrMemoryLimit       = errors.New("memory limit exceeded")
-	ErrCPULimit          = errors.New("CPU limit exceeded")
-	ErrPoolClosed        = errors.New("pool is closed")
+	ErrPoolFull      = errors.New("pool has reached maximum agent capacity")
+	ErrAgentNotFound = errors.New("agent not found")
+	ErrAgentExists   = errors.New("agent with this ID already exists")
+	ErrMemoryLimit   = errors.New("memory limit exceeded")
+	ErrCPULimit      = errors.New("CPU limit exceeded")
+	ErrPoolClosed    = errors.New("pool is closed")
 )
 
 // Pool manages a collection of concurrent agents
 type Pool struct {
-	config  Config
-	agents  map[string]*Agent
-	mu      sync.RWMutex
-	hooks   LifecycleHooks
-	closed  bool
-	stopCh  chan struct{}
+	config Config
+	agents map[string]*Agent
+	mu     sync.RWMutex
+	hooks  LifecycleHooks
+	closed bool
+	stopCh chan struct{}
 
 	// Resource tracking
 	usedMemory int64
@@ -323,18 +323,18 @@ func (p *Pool) checkAgentHealth() {
 
 // Stats returns pool statistics
 type Stats struct {
-	TotalAgents  int
-	Running      int
-	Paused       int
-	Idle         int
-	Stopped      int
-	Error        int
-	Complete     int
-	UsedMemory   int64
-	UsedCPU      int
-	MaxAgents    int
-	MemoryLimit  int64
-	CPULimit     int
+	TotalAgents int
+	Running     int
+	Paused      int
+	Idle        int
+	Stopped     int
+	Error       int
+	Complete    int
+	UsedMemory  int64
+	UsedCPU     int
+	MaxAgents   int
+	MemoryLimit int64
+	CPULimit    int
 }
 
 // GetStats returns current pool statistics

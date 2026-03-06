@@ -66,17 +66,17 @@ var aliases = map[string]string{
 
 // predefinedTimezones maps common timezone aliases.
 var predefinedTimezones = map[string]string{
-	"UTC":   "UTC",
-	"GMT":   "GMT",
-	"EST":   "America/New_York",
-	"PST":   "America/Los_Angeles",
-	"PDT":   "America/Los_Angeles",
-	"CST":   "America/Chicago",
-	"IST":   "Asia/Kolkata",
-	"JST":   "Asia/Tokyo",
-	"CET":   "Europe/Paris",
-	"BST":   "Europe/London",
-	"AEST":  "Australia/Sydney",
+	"UTC":  "UTC",
+	"GMT":  "GMT",
+	"EST":  "America/New_York",
+	"PST":  "America/Los_Angeles",
+	"PDT":  "America/Los_Angeles",
+	"CST":  "America/Chicago",
+	"IST":  "Asia/Kolkata",
+	"JST":  "Asia/Tokyo",
+	"CET":  "Europe/Paris",
+	"BST":  "Europe/London",
+	"AEST": "Australia/Sydney",
 }
 
 // Parse parses a cron expression (standard or alias).
@@ -178,14 +178,14 @@ func (ps *ParsedSchedule) Describe() string {
 // describeAlias returns a description for alias expressions.
 func describeAlias(alias string) string {
 	descriptions := map[string]string{
-		"@yearly":    "once a year (January 1 at midnight)",
-		"@annually":  "once a year (January 1 at midnight)",
-		"@monthly":   "once a month (1st at midnight)",
-		"@weekly":    "once a week (Sunday at midnight)",
-		"@daily":     "every day at midnight",
-		"@midnight":  "every day at midnight",
-		"@hourly":    "every hour",
-		"@everymin":  "every minute",
+		"@yearly":   "once a year (January 1 at midnight)",
+		"@annually": "once a year (January 1 at midnight)",
+		"@monthly":  "once a month (1st at midnight)",
+		"@weekly":   "once a week (Sunday at midnight)",
+		"@daily":    "every day at midnight",
+		"@midnight": "every day at midnight",
+		"@hourly":   "every hour",
+		"@everymin": "every minute",
 	}
 
 	if desc, ok := descriptions[strings.ToLower(alias)]; ok {
@@ -324,20 +324,20 @@ func CreateMonthlyCron(day, hour, minute int) string {
 
 // ScheduleBuilder provides a fluent interface for building cron expressions.
 type ScheduleBuilder struct {
-	minute string
-	hour   string
-	day    string
-	month  string
+	minute  string
+	hour    string
+	day     string
+	month   string
 	weekday string
 }
 
 // NewScheduleBuilder creates a new schedule builder.
 func NewScheduleBuilder() *ScheduleBuilder {
 	return &ScheduleBuilder{
-		minute: "*",
-		hour:   "*",
-		day:    "*",
-		month:  "*",
+		minute:  "*",
+		hour:    "*",
+		day:     "*",
+		month:   "*",
 		weekday: "*",
 	}
 }

@@ -31,11 +31,11 @@ type Scheduler struct {
 	running   map[string]bool
 	executors map[string]JobExecutor
 
-	mu        sync.RWMutex
-	ctx       context.Context
-	cancel    context.CancelFunc
-	started   bool
-	wg        sync.WaitGroup
+	mu      sync.RWMutex
+	ctx     context.Context
+	cancel  context.CancelFunc
+	started bool
+	wg      sync.WaitGroup
 }
 
 // SchedulerOption is a functional option for configuring the scheduler.
@@ -197,7 +197,7 @@ func (s *Scheduler) AddJob(job Job) error {
 	// Add to memory
 	s.jobs[job.ID] = &job
 
-	s.log("info", "job added", 
+	s.log("info", "job added",
 		Field{Key: "job_id", Value: job.ID},
 		Field{Key: "schedule", Value: job.Schedule},
 		Field{Key: "next_run", Value: job.NextRun},
@@ -241,7 +241,7 @@ func (s *Scheduler) RemoveJob(id string) error {
 
 	// Remove from database
 	if err := s.store.DeleteJob(id); err != nil {
-		s.log("error", "failed to delete job from database", 
+		s.log("error", "failed to delete job from database",
 			Field{Key: "job_id", Value: id},
 			Field{Key: "error", Value: err.Error()},
 		)
@@ -321,7 +321,7 @@ func (s *Scheduler) ResumeJob(id string) error {
 		return fmt.Errorf("failed to save job: %w", err)
 	}
 
-	s.log("info", "job resumed", 
+	s.log("info", "job resumed",
 		Field{Key: "job_id", Value: id},
 		Field{Key: "next_run", Value: job.NextRun},
 	)
@@ -406,7 +406,7 @@ func (j *jobWrapper) Run() {
 // executeJob executes a job and records the result.
 func (s *Scheduler) executeJob(job *Job) {
 	s.mu.Lock()
-	
+
 	// Check if already running (skip concurrent execution)
 	if s.running[job.ID] {
 		s.mu.Unlock()

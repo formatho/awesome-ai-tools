@@ -101,7 +101,7 @@ export const configAPI = {
 }
 
 export const healthAPI = {
-  check: () => api.get('/health'),
+  check: () => api.get('/health', { baseURL: API_BASE_URL.replace('/api', '') }),
 }
 
 export const chatAPI = {

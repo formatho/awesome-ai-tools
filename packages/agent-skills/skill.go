@@ -11,13 +11,13 @@ import (
 type Result struct {
 	// Success indicates whether the execution completed successfully
 	Success bool `json:"success"`
-	
+
 	// Data contains the result data from the skill execution
 	Data any `json:"data,omitempty"`
-	
+
 	// Message provides a human-readable description of the result
 	Message string `json:"message,omitempty"`
-	
+
 	// Metadata contains additional information about the execution
 	Metadata map[string]any `json:"metadata,omitempty"`
 }
@@ -35,10 +35,10 @@ func (r Result) JSON() string {
 type Action struct {
 	// Skill is the name of the skill to execute
 	Skill string `json:"skill"`
-	
+
 	// Action is the specific action to perform within the skill
 	Action string `json:"action"`
-	
+
 	// Params are the parameters for the action
 	Params map[string]any `json:"params,omitempty"`
 }
@@ -48,10 +48,10 @@ type Action struct {
 type Skill interface {
 	// Name returns the unique identifier for this skill
 	Name() string
-	
+
 	// Actions returns the list of actions this skill supports
 	Actions() []string
-	
+
 	// Execute performs the specified action with the given parameters
 	Execute(ctx context.Context, action string, params map[string]any) (Result, error)
 }

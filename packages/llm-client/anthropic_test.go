@@ -339,7 +339,7 @@ func TestAnthropicProvider_Stream(t *testing.T) {
 			name: "successful streaming",
 			serverHandler: func(w http.ResponseWriter, r *http.Request) {
 				assert.Equal(t, "POST", r.Method)
-				
+
 				flusher, ok := w.(http.Flusher)
 				if !ok {
 					t.Fatal("Expected flusher")
@@ -561,8 +561,8 @@ func TestAnthropicProvider_ErrorHandling(t *testing.T) {
 		server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 			w.WriteHeader(http.StatusOK)
 			json.NewEncoder(w).Encode(anthropicResponse{
-				ID:      "test",
-				Model:   "claude-3-5-sonnet-20241022",
+				ID:    "test",
+				Model: "claude-3-5-sonnet-20241022",
 				Content: []struct {
 					Type string `json:"type"`
 					Text string `json:"text"`
@@ -589,7 +589,7 @@ func TestAnthropicProvider_DefaultModel(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		var req anthropicRequest
 		json.NewDecoder(r.Body).Decode(&req)
-		
+
 		// Should default to claude-3-5-sonnet-20241022
 		assert.Equal(t, "claude-3-5-sonnet-20241022", req.Model)
 
@@ -623,7 +623,7 @@ func TestAnthropicProvider_DefaultMaxTokens(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		var req anthropicRequest
 		json.NewDecoder(r.Body).Decode(&req)
-		
+
 		// Should default to 4096 when not specified
 		assert.Equal(t, 4096, req.MaxTokens)
 
@@ -792,7 +792,7 @@ func TestAnthropicProvider_SpecialCases(t *testing.T) {
 		server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 			var req anthropicRequest
 			json.NewDecoder(r.Body).Decode(&req)
-			
+
 			// System should be extracted and not in messages
 			assert.Equal(t, "You are helpful", req.System)
 			assert.Len(t, req.Messages, 3) // 2 user messages + 1 assistant message

@@ -14,12 +14,12 @@ import (
 
 func TestOpenAIProvider_Complete(t *testing.T) {
 	tests := []struct {
-		name           string
-		serverHandler  func(w http.ResponseWriter, r *http.Request)
-		request        Request
-		expectedError  bool
-		expectedResp   *Response
-		validateError  func(t *testing.T, err error)
+		name          string
+		serverHandler func(w http.ResponseWriter, r *http.Request)
+		request       Request
+		expectedError bool
+		expectedResp  *Response
+		validateError func(t *testing.T, err error)
 	}{
 		{
 			name: "successful completion",
@@ -308,17 +308,17 @@ func TestOpenAIProvider_Complete(t *testing.T) {
 
 func TestOpenAIProvider_Stream(t *testing.T) {
 	tests := []struct {
-		name          string
-		serverHandler func(w http.ResponseWriter, r *http.Request)
-		request       Request
+		name           string
+		serverHandler  func(w http.ResponseWriter, r *http.Request)
+		request        Request
 		expectedChunks []string
-		expectedError bool
+		expectedError  bool
 	}{
 		{
 			name: "successful streaming",
 			serverHandler: func(w http.ResponseWriter, r *http.Request) {
 				assert.Equal(t, "POST", r.Method)
-				
+
 				flusher, ok := w.(http.Flusher)
 				if !ok {
 					t.Fatal("Expected flusher")
@@ -327,8 +327,8 @@ func TestOpenAIProvider_Stream(t *testing.T) {
 				chunks := []string{"Hello", " ", "world", "!"}
 				for _, chunk := range chunks {
 					data := map[string]interface{}{
-						"id":      "test-stream",
-						"model":   "gpt-4o",
+						"id":    "test-stream",
+						"model": "gpt-4o",
 						"choices": []map[string]interface{}{
 							{
 								"index": 0,
@@ -362,8 +362,8 @@ func TestOpenAIProvider_Stream(t *testing.T) {
 				}
 
 				data := map[string]interface{}{
-					"id":      "test-stream",
-					"model":   "gpt-4o",
+					"id":    "test-stream",
+					"model": "gpt-4o",
 					"choices": []map[string]interface{}{
 						{
 							"index": 0,
@@ -392,8 +392,8 @@ func TestOpenAIProvider_Stream(t *testing.T) {
 				}
 
 				data := map[string]interface{}{
-					"id":      "test-stream",
-					"model":   "gpt-4o",
+					"id":    "test-stream",
+					"model": "gpt-4o",
 					"error": map[string]string{
 						"message": "Stream error",
 						"type":    "error",
@@ -547,8 +547,8 @@ func TestOpenAIProvider_ErrorHandling(t *testing.T) {
 		server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 			w.WriteHeader(http.StatusOK)
 			json.NewEncoder(w).Encode(openAIResponse{
-				ID:      "test",
-				Model:   "gpt-4o",
+				ID:    "test",
+				Model: "gpt-4o",
 				Choices: []struct {
 					Index        int     `json:"index"`
 					Message      Message `json:"message"`
@@ -577,7 +577,7 @@ func TestOpenAIProvider_DefaultModel(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		var req openAIRequest
 		json.NewDecoder(r.Body).Decode(&req)
-		
+
 		// Should default to gpt-4o when no model specified
 		assert.Equal(t, "gpt-4o", req.Model)
 
@@ -713,7 +713,7 @@ func TestOpenAIProvider_SpecialCases(t *testing.T) {
 		server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 			var req openAIRequest
 			json.NewDecoder(r.Body).Decode(&req)
-			
+
 			assert.Len(t, req.Messages, 4)
 			assert.Equal(t, "system", req.Messages[0].Role)
 			assert.Equal(t, "user", req.Messages[1].Role)

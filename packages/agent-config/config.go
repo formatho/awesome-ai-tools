@@ -8,31 +8,31 @@ package agentconfig
 type LLMConfig struct {
 	// Provider is the LLM provider (e.g., "openai", "anthropic", "ollama")
 	Provider string `yaml:"provider" json:"provider" toml:"provider"`
-	
+
 	// Model is the model identifier (e.g., "gpt-4o", "claude-3-opus")
 	Model string `yaml:"model" json:"model" toml:"model"`
-	
+
 	// Temperature controls randomness (0.0 to 2.0)
 	Temperature *float64 `yaml:"temperature" json:"temperature" toml:"temperature"`
-	
+
 	// MaxTokens is the maximum tokens in the response
 	MaxTokens *int `yaml:"max_tokens" json:"max_tokens" toml:"max_tokens"`
-	
+
 	// TopP controls diversity via nucleus sampling
 	TopP *float64 `yaml:"top_p" json:"top_p" toml:"top_p"`
-	
+
 	// FrequencyPenalty reduces repetition (0.0 to 2.0)
 	FrequencyPenalty *float64 `yaml:"frequency_penalty" json:"frequency_penalty" toml:"frequency_penalty"`
-	
+
 	// PresencePenalty encourages new topics (0.0 to 2.0)
 	PresencePenalty *float64 `yaml:"presence_penalty" json:"presence_penalty" toml:"presence_penalty"`
-	
+
 	// StopSequences are sequences where generation stops
 	StopSequences []string `yaml:"stop_sequences" json:"stop_sequences" toml:"stop_sequences"`
-	
+
 	// BaseURL is the API base URL (for custom endpoints)
 	BaseURL string `yaml:"base_url" json:"base_url" toml:"base_url"`
-	
+
 	// APIKey is the API key (can also be set via environment)
 	APIKey string `yaml:"api_key" json:"api_key" toml:"api_key"`
 }
@@ -42,7 +42,7 @@ type LLMConfig struct {
 type SkillsConfig struct {
 	// Allowed is the whitelist of permitted skills
 	Allowed []string `yaml:"allowed" json:"allowed" toml:"allowed"`
-	
+
 	// Denied is the blacklist of forbidden skills
 	Denied []string ` json:"denied" yaml:"denied" toml:"denied"`
 }
@@ -52,28 +52,28 @@ type SkillsConfig struct {
 type AgentConfig struct {
 	// Name is the unique identifier for the agent
 	Name string `yaml:"-" json:"-" toml:"-"`
-	
+
 	// LLM contains LLM-specific overrides
 	LLM *LLMConfig `yaml:"llm" json:"llm" toml:"llm"`
-	
+
 	// Skills defines what capabilities the agent has
 	Skills *SkillsConfig `yaml:"skills" json:"skills" toml:"skills"`
-	
+
 	// Timeout is the maximum execution time in seconds
 	Timeout *int `yaml:"timeout" json:"timeout" toml:"timeout"`
-	
+
 	// MaxRetries is the number of retry attempts
 	MaxRetries *int `yaml:"max_retries" json:"max_retries" toml:"max_retries"`
-	
+
 	// MaxConcurrentTasks limits parallel task execution
 	MaxConcurrentTasks *int `yaml:"max_concurrent_tasks" json:"max_concurrent_tasks" toml:"max_concurrent_tasks"`
-	
+
 	// Debug enables verbose logging for this agent
 	Debug *bool `yaml:"debug" json:"debug" toml:"debug"`
-	
+
 	// Enabled determines if the agent is active
 	Enabled *bool `yaml:"enabled" json:"enabled" toml:"enabled"`
-	
+
 	// Metadata contains arbitrary additional configuration
 	Metadata map[string]interface{} `yaml:"metadata" json:"metadata" toml:"metadata"`
 }
@@ -83,16 +83,16 @@ type AgentConfig struct {
 type GlobalConfig struct {
 	// LLM contains default LLM settings
 	LLM *LLMConfig `yaml:"llm" json:"llm" toml:"llm"`
-	
+
 	// Timeout is the default timeout in seconds
 	Timeout int `yaml:"timeout" json:"timeout" toml:"timeout"`
-	
+
 	// MaxRetries is the default number of retries
 	MaxRetries int `yaml:"max_retries" json:"max_retries" toml:"max_retries"`
-	
+
 	// Debug enables verbose logging globally
 	Debug bool `yaml:"debug" json:"debug" toml:"debug"`
-	
+
 	// MaxConcurrentTasks is the default concurrency limit
 	MaxConcurrentTasks int `yaml:"max_concurrent_tasks" json:"max_concurrent_tasks" toml:"max_concurrent_tasks"`
 }
@@ -102,7 +102,7 @@ type GlobalConfig struct {
 type Config struct {
 	// Global holds default settings for all agents
 	Global GlobalConfig `yaml:"global" json:"global" toml:"global"`
-	
+
 	// Agents contains agent-specific configurations
 	Agents map[string]*AgentConfig `yaml:"agents" json:"agents" toml:"agents"`
 }
@@ -184,16 +184,16 @@ func mergeLLMConfig(base *LLMConfig, override *LLMConfig) *LLMConfig {
 	}
 
 	merged := &LLMConfig{
-		Provider:          base.Provider,
-		Model:             base.Model,
-		BaseURL:           base.BaseURL,
-		APIKey:            base.APIKey,
-		Temperature:       base.Temperature,
-		MaxTokens:         base.MaxTokens,
-		TopP:              base.TopP,
-		FrequencyPenalty:  base.FrequencyPenalty,
-		PresencePenalty:   base.PresencePenalty,
-		StopSequences:     base.StopSequences,
+		Provider:         base.Provider,
+		Model:            base.Model,
+		BaseURL:          base.BaseURL,
+		APIKey:           base.APIKey,
+		Temperature:      base.Temperature,
+		MaxTokens:        base.MaxTokens,
+		TopP:             base.TopP,
+		FrequencyPenalty: base.FrequencyPenalty,
+		PresencePenalty:  base.PresencePenalty,
+		StopSequences:    base.StopSequences,
 	}
 
 	// Apply overrides

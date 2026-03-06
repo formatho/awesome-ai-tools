@@ -72,27 +72,27 @@ const (
 
 // Message represents a single message in a conversation
 type Message struct {
-	Role    string `json:"role"`    // "system", "user", "assistant"
-	Content string `json:"content"` // Message content
+	Role    string `json:"role"`           // "system", "user", "assistant"
+	Content string `json:"content"`        // Message content
 	Name    string `json:"name,omitempty"` // Optional name for function calling
 }
 
 // Request represents a completion request
 type Request struct {
-	Messages  []Message `json:"messages"`
-	Model     string    `json:"model,omitempty"`     // Override default model
-	Provider  Provider  `json:"provider,omitempty"`  // Override default provider
-	MaxTokens int       `json:"max_tokens,omitempty"`
-	Temperature float64 `json:"temperature,omitempty"`
+	Messages    []Message `json:"messages"`
+	Model       string    `json:"model,omitempty"`    // Override default model
+	Provider    Provider  `json:"provider,omitempty"` // Override default provider
+	MaxTokens   int       `json:"max_tokens,omitempty"`
+	Temperature float64   `json:"temperature,omitempty"`
 
 	// Streaming
 	Stream bool `json:"stream,omitempty"`
 
 	// Advanced
-	TopP        float64 `json:"top_p,omitempty"`
-	Stop        []string `json:"stop,omitempty"`
-	FrequencyPenalty float64 `json:"frequency_penalty,omitempty"`
-	PresencePenalty  float64 `json:"presence_penalty,omitempty"`
+	TopP             float64  `json:"top_p,omitempty"`
+	Stop             []string `json:"stop,omitempty"`
+	FrequencyPenalty float64  `json:"frequency_penalty,omitempty"`
+	PresencePenalty  float64  `json:"presence_penalty,omitempty"`
 }
 
 // Response represents a completion response
@@ -113,9 +113,9 @@ type Usage struct {
 
 // Choice represents a single completion choice
 type Choice struct {
-	Index        int      `json:"index"`
-	Message      Message  `json:"message"`
-	FinishReason string   `json:"finish_reason"`
+	Index        int     `json:"index"`
+	Message      Message `json:"message"`
+	FinishReason string  `json:"finish_reason"`
 }
 
 // StreamChunk represents a streaming response chunk
@@ -127,10 +127,10 @@ type StreamChunk struct {
 
 // Config represents client configuration
 type Config struct {
-	Provider  Provider `json:"provider"`
-	Model     string   `json:"model"`
-	APIKey    string   `json:"api_key"`
-	BaseURL   string   `json:"base_url,omitempty"` // For custom endpoints
+	Provider Provider `json:"provider"`
+	Model    string   `json:"model"`
+	APIKey   string   `json:"api_key"`
+	BaseURL  string   `json:"base_url,omitempty"` // For custom endpoints
 
 	// Retry configuration
 	MaxRetries int `json:"max_retries,omitempty"`
@@ -142,7 +142,7 @@ type Config struct {
 
 // Client is the main LLM client interface
 type Client struct {
-	config Config
+	config    Config
 	providers map[Provider]ProviderClient
 }
 

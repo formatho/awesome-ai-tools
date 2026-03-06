@@ -8,8 +8,8 @@ import (
 
 // ValidationError represents a single validation error.
 type ValidationError struct {
-	Field   string // The field that failed validation
-	Message string // Human-readable error message
+	Field   string      // The field that failed validation
+	Message string      // Human-readable error message
 	Value   interface{} // The invalid value (optional)
 }
 
@@ -339,7 +339,7 @@ func isValidName(name string) bool {
 	if name == "" {
 		return false
 	}
-	
+
 	for _, r := range name {
 		if !isAlphaNumeric(r) && r != '-' && r != '_' {
 			return false

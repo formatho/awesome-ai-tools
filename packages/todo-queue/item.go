@@ -139,15 +139,15 @@ func (i *Item) clone() *Item {
 	}
 
 	result := &Item{
-		ID:            i.ID,
-		Priority:      i.Priority,
-		Description:   i.Description,
-		Status:        i.Status,
-		Result:        i.Result,
-		Error:         i.Error,
-		RetryCount:    i.RetryCount,
-		CreatedAt:     i.CreatedAt,
-		UpdatedAt:     i.UpdatedAt,
+		ID:          i.ID,
+		Priority:    i.Priority,
+		Description: i.Description,
+		Status:      i.Status,
+		Result:      i.Result,
+		Error:       i.Error,
+		RetryCount:  i.RetryCount,
+		CreatedAt:   i.CreatedAt,
+		UpdatedAt:   i.UpdatedAt,
 	}
 
 	if i.StartedAt != nil {

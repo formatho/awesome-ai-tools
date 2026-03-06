@@ -161,8 +161,8 @@ func (m *Manager) SetGlobal(global GlobalConfig) error {
 
 	// Create a temporary config for validation
 	tempConfig := &Config{
-		Global:  global,
-		Agents:  m.config.Agents,
+		Global: global,
+		Agents: m.config.Agents,
 	}
 
 	if err := m.validator.Validate(tempConfig); err != nil {
@@ -464,15 +464,15 @@ func (a *AgentConfig) DeepCopy() *AgentConfig {
 
 	if a.LLM != nil {
 		copy.LLM = &LLMConfig{
-			Provider:          a.LLM.Provider,
-			Model:             a.LLM.Model,
-			BaseURL:           a.LLM.BaseURL,
-			APIKey:            a.LLM.APIKey,
-			Temperature:       a.LLM.Temperature,
-			MaxTokens:         a.LLM.MaxTokens,
-			TopP:              a.LLM.TopP,
-			FrequencyPenalty:  a.LLM.FrequencyPenalty,
-			PresencePenalty:   a.LLM.PresencePenalty,
+			Provider:         a.LLM.Provider,
+			Model:            a.LLM.Model,
+			BaseURL:          a.LLM.BaseURL,
+			APIKey:           a.LLM.APIKey,
+			Temperature:      a.LLM.Temperature,
+			MaxTokens:        a.LLM.MaxTokens,
+			TopP:             a.LLM.TopP,
+			FrequencyPenalty: a.LLM.FrequencyPenalty,
+			PresencePenalty:  a.LLM.PresencePenalty,
 		}
 		if len(a.LLM.StopSequences) > 0 {
 			copy.LLM.StopSequences = append([]string{}, a.LLM.StopSequences...)

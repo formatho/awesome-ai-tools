@@ -18,7 +18,7 @@ type Watcher struct {
 	callback func()
 
 	// debounce timer
-	timer   *time.Timer
+	timer    *time.Timer
 	debounce time.Duration
 }
 
@@ -48,10 +48,10 @@ func NewWatcher(path string, callback func(), opts ...WatcherOption) (*Watcher, 
 	}
 
 	w := &Watcher{
-		watcher:   fsWatcher,
-		filePath:  absPath,
-		callback:  callback,
-		debounce:  100 * time.Millisecond, // default debounce
+		watcher:  fsWatcher,
+		filePath: absPath,
+		callback: callback,
+		debounce: 100 * time.Millisecond, // default debounce
 	}
 
 	// Apply options

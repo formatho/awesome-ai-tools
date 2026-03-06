@@ -16,11 +16,11 @@ type ShellSkill struct {
 	// DefaultTimeout is the default timeout for command execution.
 	// Default is 60 seconds if not set.
 	DefaultTimeout time.Duration
-	
+
 	// AllowedCommands is a whitelist of allowed commands.
 	// If empty, all commands are allowed (subject to ShellRunner validation).
 	AllowedCommands []string
-	
+
 	// ForbiddenCommands is a blacklist of forbidden commands.
 	// These commands will always be blocked.
 	ForbiddenCommands []string
@@ -54,7 +54,7 @@ func (s *ShellSkill) Execute(ctx context.Context, action string, params map[stri
 	case "run":
 		return s.run(ctx, params)
 	default:
-		return agent.Result{}, agent.NewExecutionError("shell", action, 
+		return agent.Result{}, agent.NewExecutionError("shell", action,
 			fmt.Sprintf("unknown action: %s", action))
 	}
 }
@@ -66,17 +66,17 @@ func (s *ShellSkill) run(ctx context.Context, params map[string]any) (agent.Resu
 	if !ok {
 		return agent.Result{}, agent.NewExecutionError("shell", "run", "missing required parameter: command")
 	}
-	
+
 	command, ok := cmdRaw.(string)
 	if !ok {
 		return agent.Result{}, agent.NewExecutionError("shell", "run", "parameter 'command' must be a string")
 	}
-	
+
 	// Security check: validate command
 	if err := s.validateCommand(command); err != nil {
 		return agent.Result{}, agent.NewExecutionError("shell", "run", err.Error())
 	}
-	
+
 	// Get timeout from params or use default
 	timeout := s.DefaultTimeout
 	if timeoutMs, ok := params["timeout"].(float64); ok {
@@ -85,40 +85,40 @@ func (s *ShellSkill) run(ctx context.Context, params map[string]any) (agent.Resu
 	if timeout == 0 {
 		timeout = 60 * time.Second
 	}
-	
+
 	// Create context with timeout
 	ctx, cancel := context.WithTimeout(ctx, timeout)
 	defer cancel()
-	
+
 	// Determine shell and args based on OS
 	var cmd *exec.Cmd
 	shell := "/bin/sh"
 	flag := "-c"
-	
+
 	// Check if a specific shell is requested
 	if shellPath, ok := params["shell"].(string); ok {
 		shell = shellPath
 	}
-	
+
 	// Build command
 	cmd = exec.CommandContext(ctx, shell, flag, command)
-	
+
 	// Set working directory if specified
 	if cwd, ok := params["cwd"].(string); ok {
 		cmd.Dir = cwd
 	}
-	
+
 	// Set environment variables if specified
 	if env, ok := params["env"].(map[string]any); ok {
 		// Start with current environment
 		cmd.Env = append(cmd.Env, s.envMapToList(env)...)
 	}
-	
+
 	// Capture both stdout and stderr
 	startTime := time.Now()
 	output, err := cmd.CombinedOutput()
 	duration := time.Since(startTime)
-	
+
 	// Check for context cancellation
 	if ctx.Err() == context.DeadlineExceeded {
 		return agent.Result{
@@ -133,7 +133,7 @@ func (s *ShellSkill) run(ctx context.Context, params map[string]any) (agent.Resu
 			},
 		}, agent.NewExecutionError("shell", "run", "command timed out")
 	}
-	
+
 	// Check for context cancellation
 	if ctx.Err() == context.Canceled {
 		return agent.Result{
@@ -146,7 +146,7 @@ func (s *ShellSkill) run(ctx context.Context, params map[string]any) (agent.Resu
 			},
 		}, agent.NewExecutionError("shell", "run", "command was cancelled")
 	}
-	
+
 	// Build result
 	result := agent.Result{
 		Success: err == nil,
@@ -158,23 +158,23 @@ func (s *ShellSkill) run(ctx context.Context, params map[string]any) (agent.Resu
 			"timedOut": false,
 		},
 	}
-	
+
 	// Handle command error
 	if err != nil {
 		if exitErr, ok := err.(*exec.ExitError); ok {
 			result.Metadata["exitCode"] = exitErr.ExitCode()
-			result.Message = fmt.Sprintf("command exited with code %d: %s", 
+			result.Message = fmt.Sprintf("command exited with code %d: %s",
 				exitErr.ExitCode(), strings.TrimSpace(string(output)))
 		} else {
 			result.Message = fmt.Sprintf("command failed: %s", err.Error())
 		}
 	}
-	
+
 	// Include exit code if successful
 	if err == nil {
 		result.Metadata["exitCode"] = 0
 	}
-	
+
 	return result, nil
 }
 
@@ -186,7 +186,7 @@ func (s *ShellSkill) validateCommand(command string) error {
 			return fmt.Errorf("command contains forbidden pattern: %s", forbidden)
 		}
 	}
-	
+
 	// If allowed commands list is set, check it
 	if len(s.AllowedCommands) > 0 {
 		allowed := false
@@ -200,7 +200,7 @@ func (s *ShellSkill) validateCommand(command string) error {
 			return fmt.Errorf("command not in allowed list: %s", command)
 		}
 	}
-	
+
 	return nil
 }
 

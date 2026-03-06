@@ -10,10 +10,10 @@ import (
 // Runner is the skill execution engine that manages skill registration
 // and executes skills with permission checking.
 type Runner struct {
-	mu       sync.RWMutex
-	skills   map[string]Skill
-	checker  *PermissionChecker
-	config   Config
+	mu      sync.RWMutex
+	skills  map[string]Skill
+	checker *PermissionChecker
+	config  Config
 }
 
 // NewRunner creates a new skill runner with the given configuration.
@@ -59,7 +59,7 @@ func (r *Runner) GetSkill(name string) Skill {
 func (r *Runner) ListSkills() []string {
 	r.mu.RLock()
 	defer r.mu.RUnlock()
-	
+
 	names := make([]string, 0, len(r.skills))
 	for name := range r.skills {
 		names = append(names, name)
@@ -79,12 +79,12 @@ func (r *Runner) Execute(ctx context.Context, action Action) (Result, error) {
 	if skill == nil {
 		return Result{}, NewSkillNotFoundError(action.Skill)
 	}
-	
+
 	// Check permissions
 	if err := r.checker.CheckPermission(action.Skill, action.Action); err != nil {
 		return Result{}, err
 	}
-	
+
 	// Validate that the action is supported
 	if !r.isActionSupported(skill, action.Action) {
 		return Result{}, NewExecutionError(
@@ -94,7 +94,7 @@ func (r *Runner) Execute(ctx context.Context, action Action) (Result, error) {
 				action.Skill, action.Action, strings.Join(skill.Actions(), ", ")),
 		)
 	}
-	
+
 	// Execute the skill action
 	result, err := skill.Execute(ctx, action.Action, action.Params)
 	if err != nil {
@@ -104,7 +104,7 @@ func (r *Runner) Execute(ctx context.Context, action Action) (Result, error) {
 		}
 		return Result{}, err
 	}
-	
+
 	return result, nil
 }
 

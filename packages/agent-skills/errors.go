@@ -23,9 +23,9 @@ func (e *SkillNotFoundError) Error() string {
 // PermissionDeniedError is returned when an action is not permitted
 // by the permission configuration.
 type PermissionDeniedError struct {
-	Skill   string
-	Action  string
-	Reason  string
+	Skill  string
+	Action string
+	Reason string
 }
 
 // NewPermissionDeniedError creates a new PermissionDeniedError.

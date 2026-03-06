@@ -40,10 +40,10 @@ func TestParser(t *testing.T) {
 	parser := NewParser()
 
 	tests := []struct {
-		name      string
-		expr      string
-		wantErr   bool
-		wantType  string
+		name     string
+		expr     string
+		wantErr  bool
+		wantType string
 	}{
 		{"standard cron", "0 9 * * *", false, "standard"},
 		{"hourly alias", "@hourly", false, "alias"},
@@ -416,9 +416,9 @@ func TestSchedulerPauseResume(t *testing.T) {
 // TestSchedulerExecution tests job execution.
 func TestSchedulerExecution(t *testing.T) {
 	config := testConfig()
-	
+
 	var execCount int64
-	
+
 	scheduler, err := NewScheduler(config, WithExecutor(func(ctx context.Context, job *Job) (interface{}, error) {
 		atomic.AddInt64(&execCount, 1)
 		return "executed", nil
@@ -506,9 +506,9 @@ func TestSchedulerRetry(t *testing.T) {
 // TestSchedulerRunJob tests manual job triggering.
 func TestSchedulerRunJob(t *testing.T) {
 	config := testConfig()
-	
+
 	var executed int64
-	
+
 	scheduler, err := NewScheduler(config, WithExecutor(func(ctx context.Context, job *Job) (interface{}, error) {
 		atomic.StoreInt64(&executed, 1)
 		return "done", nil

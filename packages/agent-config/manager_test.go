@@ -36,13 +36,13 @@ func TestManager_New(t *testing.T) {
 		wantErr bool
 	}{
 		{
-			name:   "nil config creates default",
-			config: nil,
+			name:    "nil config creates default",
+			config:  nil,
 			wantErr: false,
 		},
 		{
-			name:   "valid config",
-			config: NewConfig(),
+			name:    "valid config",
+			config:  NewConfig(),
 			wantErr: false,
 		},
 		{

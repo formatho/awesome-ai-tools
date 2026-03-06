@@ -340,11 +340,11 @@ func (q *Queue) Retry(id string) error {
 	}
 
 	updates := map[string]interface{}{
-		"status":        StatusPending,
-		"retry_count":   item.RetryCount + 1,
-		"error":         "",
-		"completed_at":  nil,
-		"started_at":    nil,
+		"status":       StatusPending,
+		"retry_count":  item.RetryCount + 1,
+		"error":        "",
+		"completed_at": nil,
+		"started_at":   nil,
 	}
 
 	if err := q.store.Update(id, updates); err != nil {

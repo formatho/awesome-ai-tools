@@ -16,7 +16,7 @@ type WebSkill struct {
 	// Timeout is the maximum duration for HTTP requests.
 	// Default is 30 seconds if not set.
 	Timeout time.Duration
-	
+
 	// UserAgent is the User-Agent header sent with requests.
 	UserAgent string
 }
@@ -45,7 +45,7 @@ func (s *WebSkill) Execute(ctx context.Context, action string, params map[string
 	case "fetch":
 		return s.fetch(ctx, params)
 	default:
-		return agent.Result{}, agent.NewExecutionError("web", action, 
+		return agent.Result{}, agent.NewExecutionError("web", action,
 			fmt.Sprintf("unknown action: %s", action))
 	}
 }
@@ -57,36 +57,36 @@ func (s *WebSkill) fetch(ctx context.Context, params map[string]any) (agent.Resu
 	if !ok {
 		return agent.Result{}, agent.NewExecutionError("web", "fetch", "missing required parameter: url")
 	}
-	
+
 	url, ok := urlRaw.(string)
 	if !ok {
 		return agent.Result{}, agent.NewExecutionError("web", "fetch", "parameter 'url' must be a string")
 	}
-	
+
 	// Create HTTP client with timeout
 	timeout := s.Timeout
 	if timeout == 0 {
 		timeout = 30 * time.Second
 	}
-	
+
 	client := &http.Client{
 		Timeout: timeout,
 	}
-	
+
 	// Create request with context
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
-		return agent.Result{}, agent.NewExecutionError("web", "fetch", 
+		return agent.Result{}, agent.NewExecutionError("web", "fetch",
 			fmt.Sprintf("failed to create request: %s", err))
 	}
-	
+
 	// Set User-Agent
 	userAgent := s.UserAgent
 	if userAgent == "" {
 		userAgent = "agent-skills/1.0"
 	}
 	req.Header.Set("User-Agent", userAgent)
-	
+
 	// Add custom headers if provided
 	if headers, ok := params["headers"].(map[string]any); ok {
 		for key, value := range headers {
@@ -95,30 +95,30 @@ func (s *WebSkill) fetch(ctx context.Context, params map[string]any) (agent.Resu
 			}
 		}
 	}
-	
+
 	// Execute request
 	startTime := time.Now()
 	resp, err := client.Do(req)
 	if err != nil {
-		return agent.Result{}, agent.NewExecutionError("web", "fetch", 
+		return agent.Result{}, agent.NewExecutionError("web", "fetch",
 			fmt.Sprintf("request failed: %s", err))
 	}
 	defer resp.Body.Close()
-	
+
 	// Read response body
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return agent.Result{}, agent.NewExecutionError("web", "fetch", 
+		return agent.Result{}, agent.NewExecutionError("web", "fetch",
 			fmt.Sprintf("failed to read response: %s", err))
 	}
-	
+
 	duration := time.Since(startTime)
-	
+
 	// Build result
 	result := agent.Result{
 		Success: resp.StatusCode >= 200 && resp.StatusCode < 300,
 		Data:    string(body),
-		Message: fmt.Sprintf("HTTP %d %s - %d bytes in %v", 
+		Message: fmt.Sprintf("HTTP %d %s - %d bytes in %v",
 			resp.StatusCode, resp.Status, len(body), duration),
 		Metadata: map[string]any{
 			"url":        url,
@@ -129,13 +129,13 @@ func (s *WebSkill) fetch(ctx context.Context, params map[string]any) (agent.Resu
 			"headers":    s.headersToMap(resp.Header),
 		},
 	}
-	
+
 	// Include error message for non-success status codes
 	if !result.Success {
-		result.Message = fmt.Sprintf("HTTP request failed with status %d: %s", 
+		result.Message = fmt.Sprintf("HTTP request failed with status %d: %s",
 			resp.StatusCode, resp.Status)
 	}
-	
+
 	return result, nil
 }
 
