@@ -61,13 +61,13 @@ func NewZAIProvider(config ZAIConfig) *ZAIProvider {
 
 // zaiRequest represents the request body for z.ai API
 type zaiRequest struct {
-	Model            string    `json:"model"`
-	Messages         []Message `json:"messages"`
-	MaxTokens        int       `json:"max_tokens,omitempty"`
-	Temperature      float64   `json:"temperature,omitempty"`
-	TopP             float64   `json:"top_p,omitempty"`
-	Stop             []string  `json:"stop,omitempty"`
-	Stream           bool      `json:"stream,omitempty"`
+	Model       string    `json:"model"`
+	Messages    []Message `json:"messages"`
+	MaxTokens   int       `json:"max_tokens,omitempty"`
+	Temperature float64   `json:"temperature,omitempty"`
+	TopP        float64   `json:"top_p,omitempty"`
+	Stop        []string  `json:"stop,omitempty"`
+	Stream      bool      `json:"stream,omitempty"`
 }
 
 // zaiResponse represents the response from z.ai API
@@ -134,13 +134,13 @@ func (p *ZAIProvider) doRequest(ctx context.Context, req Request) (*Response, er
 	}
 
 	zaiReq := zaiRequest{
-		Model:            model,
-		Messages:         req.Messages,
-		MaxTokens:        req.MaxTokens,
-		Temperature:      req.Temperature,
-		TopP:             req.TopP,
-		Stop:             req.Stop,
-		Stream:           false,
+		Model:       model,
+		Messages:    req.Messages,
+		MaxTokens:   req.MaxTokens,
+		Temperature: req.Temperature,
+		TopP:        req.TopP,
+		Stop:        req.Stop,
+		Stream:      false,
 	}
 
 	body, err := json.Marshal(zaiReq)
@@ -286,13 +286,13 @@ func (p *ZAIProvider) Stream(ctx context.Context, req Request) (<-chan StreamChu
 	}
 
 	zaiReq := zaiRequest{
-		Model:            model,
-		Messages:         req.Messages,
-		MaxTokens:        req.MaxTokens,
-		Temperature:      req.Temperature,
-		TopP:             req.TopP,
-		Stop:             req.Stop,
-		Stream:           true,
+		Model:       model,
+		Messages:    req.Messages,
+		MaxTokens:   req.MaxTokens,
+		Temperature: req.Temperature,
+		TopP:        req.TopP,
+		Stop:        req.Stop,
+		Stream:      true,
 	}
 
 	body, err := json.Marshal(zaiReq)

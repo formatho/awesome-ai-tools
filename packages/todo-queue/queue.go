@@ -402,6 +402,11 @@ func (q *Queue) CheckDependencies(id string) (bool, []string, error) {
 	q.mu.RLock()
 	defer q.mu.RUnlock()
 
+	return q.checkDependenciesUnlocked(id)
+}
+
+// checkDependenciesUnlocked is an internal method that checks dependencies without locking.
+func (q *Queue) checkDependenciesUnlocked(id string) (bool, []string, error) {
 	item, err := q.store.Get(id)
 	if err != nil {
 		return false, nil, fmt.Errorf("failed to get item: %w", err)
@@ -429,8 +434,9 @@ func (q *Queue) CheckDependencies(id string) (bool, []string, error) {
 }
 
 // checkDependenciesReady is an internal method to check if dependencies are met.
+// NOTE: This method does NOT acquire locks - caller must hold appropriate lock.
 func (q *Queue) checkDependenciesReady(id string) (bool, error) {
-	ready, _, err := q.CheckDependencies(id)
+	ready, _, err := q.checkDependenciesUnlocked(id)
 	return ready, err
 }
 
@@ -445,8 +451,8 @@ func (q *Queue) updateBlockedDependents(completedID string) {
 	for _, item := range items {
 		for _, depID := range item.Dependencies {
 			if depID == completedID {
-				// Check if all dependencies are now met
-				ready, _ := q.checkDependenciesReady(item.ID)
+				// Check if all dependencies are now met (use public method which acquires lock)
+				ready, _, _ := q.CheckDependencies(item.ID)
 				if ready {
 					_ = q.store.Update(item.ID, map[string]interface{}{
 						"status": StatusPending,

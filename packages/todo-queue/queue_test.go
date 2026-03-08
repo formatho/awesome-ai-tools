@@ -284,7 +284,17 @@ func TestComplete(t *testing.T) {
 }
 
 func TestFail(t *testing.T) {
-	q := newTestQueue(t)
+	// Create queue without retries to test final failure
+	tmpFile := t.TempDir() + "/test.db"
+	q, err := New(Config{
+		DBPath:      tmpFile,
+		MaxRetries:  0, // Disable retries for this test
+		AutoMigrate: true,
+	})
+	if err != nil {
+		t.Fatalf("Failed to create queue: %v", err)
+	}
+	defer q.Close()
 
 	item, err := q.Add("Test task")
 	if err != nil {
@@ -543,7 +553,17 @@ func TestUnblock(t *testing.T) {
 }
 
 func TestStats(t *testing.T) {
-	q := newTestQueue(t)
+	// Create queue without retries to test proper failure counting
+	tmpFile := t.TempDir() + "/test.db"
+	q, err := New(Config{
+		DBPath:      tmpFile,
+		MaxRetries:  0, // Disable retries for this test
+		AutoMigrate: true,
+	})
+	if err != nil {
+		t.Fatalf("Failed to create queue: %v", err)
+	}
+	defer q.Close()
 
 	// Add items
 	item1, _ := q.Add("Task 1")
@@ -584,15 +604,35 @@ func TestStats(t *testing.T) {
 }
 
 func TestRetry(t *testing.T) {
-	q := newTestQueue(t)
+	// Create queue with 1 retry to test manual retry after exhausting auto-retries
+	tmpFile := t.TempDir() + "/test.db"
+	q, err := New(Config{
+		DBPath:      tmpFile,
+		MaxRetries:  1, // Only 1 auto-retry
+		AutoMigrate: true,
+	})
+	if err != nil {
+		t.Fatalf("Failed to create queue: %v", err)
+	}
+	defer q.Close()
 
-	item, _ := q.Add("Task to retry")
+	item, err := q.Add("Task to retry")
+	if err != nil {
+		t.Fatalf("Failed to add item: %v", err)
+	}
 	q.Start(item.ID)
-	q.Fail(item.ID, "Failed")
-	q.Fail(item.ID, "Failed again") // Exhaust auto-retries
+	q.Fail(item.ID, "Failed")      // First fail - auto-retry to pending
+	q.Start(item.ID)
+	q.Fail(item.ID, "Failed again") // Second fail - now actually fails (retry exhausted)
+
+	// Verify item is now failed
+	failed, _ := q.Get(item.ID)
+	if failed.Status != StatusFailed {
+		t.Fatalf("Expected status failed after exhausting retries, got %s", failed.Status)
+	}
 
 	// Manual retry
-	err := q.Retry(item.ID)
+	err = q.Retry(item.ID)
 	if err != nil {
 		t.Fatalf("Failed to retry item: %v", err)
 	}
