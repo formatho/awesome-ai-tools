@@ -10,10 +10,9 @@ import (
 
 // Queue manages a priority queue of TODO items with SQLite persistence.
 type Queue struct {
-	store     *Store
-	config    Config
-	mu        sync.RWMutex
-	updatedAt time.Time
+	store  *Store
+	config Config
+	mu     sync.RWMutex
 }
 
 // New creates a new Queue with the given configuration.
@@ -449,7 +448,7 @@ func (q *Queue) updateBlockedDependents(completedID string) {
 				// Check if all dependencies are now met
 				ready, _ := q.checkDependenciesReady(item.ID)
 				if ready {
-					q.store.Update(item.ID, map[string]interface{}{
+					_ = q.store.Update(item.ID, map[string]interface{}{
 						"status": StatusPending,
 						"error":  "",
 					})

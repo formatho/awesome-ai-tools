@@ -198,7 +198,11 @@ func TestContextCancellation(t *testing.T) {
 		time.Sleep(2 * time.Second) // Slow response
 		w.WriteHeader(http.StatusOK)
 	}))
-	defer server.Close()
+	// Close server in background to avoid blocking
+	go func() {
+		time.Sleep(500 * time.Millisecond)
+		server.Close()
+	}()
 
 	provider := NewOpenAIProvider(OpenAIConfig{
 		APIKey:  "test-key",
