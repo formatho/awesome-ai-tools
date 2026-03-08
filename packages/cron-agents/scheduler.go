@@ -152,7 +152,9 @@ func (s *Scheduler) handleMissedRun(job *Job) {
 			return
 		}
 		job.NextRun = nextRun
-		s.store.SaveJob(job)
+		if err := s.store.SaveJob(job); err != nil {
+			s.log("error", "failed to save job after run", Field{Key: "job_id", Value: job.ID}, Field{Key: "error", Value: err.Error()})
+		}
 	}
 }
 

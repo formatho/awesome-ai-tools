@@ -284,10 +284,10 @@ func (s *HistoryStore) GetHistory(jobID string, limit int) ([]RunHistory, error)
 			h.CompletedAt = completedAt.Time
 		}
 		if resultJSON.Valid && resultJSON.String != "" {
-			json.Unmarshal([]byte(resultJSON.String), &h.Result)
+			_ = json.Unmarshal([]byte(resultJSON.String), &h.Result)
 		}
 		if metadataJSON.Valid && metadataJSON.String != "" {
-			json.Unmarshal([]byte(metadataJSON.String), &h.Metadata)
+			_ = json.Unmarshal([]byte(metadataJSON.String), &h.Metadata)
 		}
 
 		histories = append(histories, h)
@@ -507,10 +507,10 @@ func (s *HistoryStore) LoadJob(id string) (*Job, error) {
 		job.NextRun = nextRun.Time
 	}
 	if todoJSON.Valid && todoJSON.String != "" {
-		json.Unmarshal([]byte(todoJSON.String), &job.TODO)
+		_ = json.Unmarshal([]byte(todoJSON.String), &job.TODO)
 	}
 	if metadataJSON.Valid && metadataJSON.String != "" {
-		json.Unmarshal([]byte(metadataJSON.String), &job.Metadata)
+		_ = json.Unmarshal([]byte(metadataJSON.String), &job.Metadata)
 	}
 
 	return &job, nil
@@ -563,10 +563,10 @@ func (s *HistoryStore) LoadAllJobs() ([]Job, error) {
 			job.NextRun = nextRun.Time
 		}
 		if todoJSON.Valid && todoJSON.String != "" {
-			json.Unmarshal([]byte(todoJSON.String), &job.TODO)
+			_ = json.Unmarshal([]byte(todoJSON.String), &job.TODO)
 		}
 		if metadataJSON.Valid && metadataJSON.String != "" {
-			json.Unmarshal([]byte(metadataJSON.String), &job.Metadata)
+			_ = json.Unmarshal([]byte(metadataJSON.String), &job.Metadata)
 		}
 
 		jobs = append(jobs, job)
@@ -615,10 +615,10 @@ func (s *HistoryStore) scanHistories(rows *sql.Rows) ([]RunHistory, error) {
 			h.CompletedAt = completedAt.Time
 		}
 		if resultJSON.Valid && resultJSON.String != "" {
-			json.Unmarshal([]byte(resultJSON.String), &h.Result)
+			_ = json.Unmarshal([]byte(resultJSON.String), &h.Result)
 		}
 		if metadataJSON.Valid && metadataJSON.String != "" {
-			json.Unmarshal([]byte(metadataJSON.String), &h.Metadata)
+			_ = json.Unmarshal([]byte(metadataJSON.String), &h.Metadata)
 		}
 
 		histories = append(histories, h)
