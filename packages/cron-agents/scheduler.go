@@ -435,7 +435,9 @@ func (s *Scheduler) executeJob(job *Job) {
 	}
 
 	// Record start
-	s.store.AddRun(history)
+	if err := s.store.AddRun(history); err != nil {
+		s.log("error", "failed to record run start", Field{Key: "job_id", Value: job.ID}, Field{Key: "error", Value: err.Error()})
+	}
 
 	// Execute with retry logic
 	var result interface{}
@@ -494,7 +496,7 @@ func (s *Scheduler) executeJob(job *Job) {
 		history.Status = StatusSuccess
 	}
 
-	s.store.UpdateRun(history)
+	_ = s.store.UpdateRun(history)
 
 	// Update job
 	s.mu.Lock()
@@ -503,7 +505,9 @@ func (s *Scheduler) executeJob(job *Job) {
 		job.NextRun = job.parsedSchedule.Next(time.Now().In(job.GetLocation()))
 	}
 	job.UpdatedAt = time.Now()
-	s.store.SaveJob(job)
+	if err := s.store.SaveJob(job); err != nil {
+		s.log("error", "failed to save job after run", Field{Key: "job_id", Value: job.ID}, Field{Key: "error", Value: err.Error()})
+	}
 	delete(s.running, job.ID)
 	s.mu.Unlock()
 
