@@ -239,7 +239,3 @@ func ptrFloat64(v float64) *float64 {
 func ptrInt(v int) *int {
 	return &v
 }
-
-func ptrBool(v bool) *bool {
-	return &v
-}
