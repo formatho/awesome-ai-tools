@@ -1,37 +1,55 @@
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Play, Pause, Trash2, Settings, Activity, Clock, CheckCircle, XCircle, MessageSquare } from 'lucide-react'
-
-const mockAgentDetail = {
-  id: '1',
-  name: 'code-reviewer',
-  type: 'Code Analysis',
-  status: 'running',
-  createdAt: '2026-01-15',
-  lastActive: '2 min ago',
-  tasksCompleted: 156,
-  tasksFailed: 3,
-  uptime: '12d 4h 32m',
-  config: {
-    model: 'gpt-4',
-    temperature: 0.7,
-    maxTokens: 2000,
-  },
-  recentTasks: [
-    { id: 1, type: 'Review', status: 'completed', duration: '45s', time: '2 min ago' },
-    { id: 2, type: 'Review', status: 'completed', duration: '32s', time: '8 min ago' },
-    { id: 3, type: 'Review', status: 'failed', duration: '12s', time: '15 min ago' },
-    { id: 4, type: 'Review', status: 'completed', duration: '58s', time: '22 min ago' },
-    { id: 5, type: 'Review', status: 'completed', duration: '41s', time: '35 min ago' },
-  ],
-}
+import { ArrowLeft, Play, Pause, Trash2, Settings, Activity, Clock, CheckCircle, XCircle, MessageSquare, Loader2 } from 'lucide-react'
+import { useAgent, useAgentMutations } from '../../hooks/useAPI'
 
 export default function AgentDetail() {
   const { id } = useParams()
+  const { data: agent, isLoading, error } = useAgent(id || '')
+  const mutations = useAgentMutations()
 
-  // In a real app, you would fetch agent data based on id
-  // For now, using mock data but id is available for API calls
-  console.debug('Viewing agent:', id)
-  const agent = mockAgentDetail
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-64">
+        <Loader2 className="w-8 h-8 animate-spin text-accent" />
+      </div>
+    )
+  }
+
+  if (error || !agent) {
+    return (
+      <div className="card text-center py-12">
+        <p className="text-error">Failed to load agent. Please check if the backend is running.</p>
+        <Link to="/agents" className="btn-secondary mt-4 inline-block">
+          Back to Agents
+        </Link>
+      </div>
+    )
+  }
+
+  const handleToggle = async () => {
+    if (agent.status === 'running') {
+      await mutations.stop.mutateAsync(agent.id)
+    } else {
+      await mutations.start.mutateAsync(agent.id)
+    }
+  }
+
+  const handleDelete = async () => {
+    if (confirm(`Are you sure you want to delete agent "${agent.name}"?`)) {
+      await mutations.delete.mutateAsync(agent.id)
+    }
+  }
+
+  // Calculate uptime from started_at if available
+  const getUptime = () => {
+    if (!agent.started_at) return 'Not started'
+    const started = new Date(agent.started_at)
+    const now = new Date()
+    const diffMs = now.getTime() - started.getTime()
+    const hours = Math.floor(diffMs / (1000 * 60 * 60))
+    const mins = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60))
+    return `${hours}h ${mins}m`
+  }
 
   return (
     <div className="space-y-6 animate-fade-in">
@@ -45,14 +63,14 @@ export default function AgentDetail() {
       <div className="card">
         <div className="flex items-start justify-between">
           <div className="flex items-center gap-4">
-            <div className="w-16 h-16 rounded-xl bg-accent/20 flex items-center justify-center">
-              <span className="text-2xl font-bold text-accent">{agent.name.charAt(0).toUpperCase()}</span>
+            <div className={`w-16 h-16 rounded-xl flex items-center justify-center ${agent.status === 'running' ? 'bg-success/20' : agent.status === 'error' ? 'bg-error/20' : 'bg-accent/20'}`}>
+              <span className={`text-2xl font-bold ${agent.status === 'running' ? 'text-success' : agent.status === 'error' ? 'text-error' : 'text-accent'}`}>{agent.name.charAt(0).toUpperCase()}</span>
             </div>
             <div>
               <h1 className="text-2xl font-bold">{agent.name}</h1>
-              <p className="text-text-secondary">{agent.type}</p>
+              <p className="text-text-secondary">{agent.provider || 'Agent'} {agent.model && `• ${agent.model}`}</p>
               <div className="flex items-center gap-2 mt-2">
-                <span className={`status-dot ${agent.status === 'running' ? 'online' : 'offline'}`} />
+                <span className={`status-dot ${agent.status === 'running' ? 'online' : agent.status === 'error' ? 'error' : 'offline'}`} />
                 <span className="text-sm capitalize">{agent.status}</span>
               </div>
             </div>
@@ -71,29 +89,34 @@ export default function AgentDetail() {
               Configure
             </button>
             {agent.status === 'running' ? (
-              <button className="btn-secondary">
-                <Pause className="w-4 h-4 mr-2" />
+              <button onClick={handleToggle} className="btn-secondary" disabled={mutations.stop.isPending}>
+                {mutations.stop.isPending ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <Pause className="w-4 h-4 mr-2" />}
                 Stop
               </button>
             ) : (
-              <button className="btn-primary">
-                <Play className="w-4 h-4 mr-2" />
+              <button onClick={handleToggle} className="btn-primary" disabled={mutations.start.isPending}>
+                {mutations.start.isPending ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <Play className="w-4 h-4 mr-2" />}
                 Start
               </button>
             )}
-            <button className="btn-ghost text-error hover:bg-error/10">
+            <button onClick={handleDelete} className="btn-ghost text-error hover:bg-error/10" disabled={mutations.delete.isPending}>
               <Trash2 className="w-4 h-4" />
             </button>
           </div>
         </div>
+        {agent.error && (
+          <div className="mt-4 p-3 bg-error/10 border border-error/20 rounded-lg text-error text-sm">
+            {agent.error}
+          </div>
+        )}
       </div>
 
       {/* Stats Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <StatCard icon={Activity} label="Tasks Completed" value={agent.tasksCompleted.toString()} color="text-success" />
-        <StatCard icon={XCircle} label="Tasks Failed" value={agent.tasksFailed.toString()} color="text-error" />
-        <StatCard icon={Clock} label="Uptime" value={agent.uptime} color="text-accent" />
-        <StatCard icon={CheckCircle} label="Success Rate" value="98.1%" color="text-success" />
+        <StatCard icon={Activity} label="Status" value={agent.status} color={agent.status === 'running' ? 'text-success' : agent.status === 'error' ? 'text-error' : 'text-text-muted'} />
+        <StatCard icon={Clock} label="Uptime" value={getUptime()} color="text-accent" />
+        <StatCard icon={CheckCircle} label="Provider" value={agent.provider || 'N/A'} color="text-success" />
+        <StatCard icon={XCircle} label="Model" value={agent.model || 'N/A'} color="text-text-secondary" />
       </div>
 
       {/* Content Grid */}
@@ -102,29 +125,38 @@ export default function AgentDetail() {
         <div className="card">
           <h2 className="text-lg font-semibold mb-4">Configuration</h2>
           <div className="space-y-3">
-            <ConfigItem label="Model" value={agent.config.model} />
-            <ConfigItem label="Temperature" value={agent.config.temperature.toString()} />
-            <ConfigItem label="Max Tokens" value={agent.config.maxTokens.toString()} />
-            <ConfigItem label="Created" value={agent.createdAt} />
+            <ConfigItem label="ID" value={agent.id} />
+            <ConfigItem label="Provider" value={agent.provider || 'N/A'} />
+            <ConfigItem label="Model" value={agent.model || 'N/A'} />
+            <ConfigItem label="Created" value={new Date(agent.created_at).toLocaleString()} />
+            <ConfigItem label="Updated" value={new Date(agent.updated_at).toLocaleString()} />
+            {agent.started_at && <ConfigItem label="Started" value={new Date(agent.started_at).toLocaleString()} />}
+            {agent.stopped_at && <ConfigItem label="Stopped" value={new Date(agent.stopped_at).toLocaleString()} />}
           </div>
         </div>
 
-        {/* Recent Tasks */}
+        {/* Status Info */}
         <div className="card">
-          <h2 className="text-lg font-semibold mb-4">Recent Tasks</h2>
-          <div className="space-y-2">
-            {agent.recentTasks.map((task) => (
-              <div key={task.id} className="flex items-center justify-between p-2 rounded-lg hover:bg-surface-hover">
-                <div className="flex items-center gap-3">
-                  <span className={`status-dot ${task.status === 'completed' ? 'online' : 'error'}`} />
-                  <span className="text-sm">{task.type}</span>
-                </div>
-                <div className="flex items-center gap-4 text-sm text-text-muted">
-                  <span>{task.duration}</span>
-                  <span>{task.time}</span>
-                </div>
+          <h2 className="text-lg font-semibold mb-4">Status Information</h2>
+          <div className="space-y-3">
+            <div className="flex items-center justify-between py-2 border-b border-border">
+              <span className="text-text-secondary">Current Status</span>
+              <span className={`flex items-center gap-2`}>
+                <span className={`status-dot ${agent.status === 'running' ? 'online' : agent.status === 'error' ? 'error' : 'offline'}`} />
+                <span className="capitalize">{agent.status}</span>
+              </span>
+            </div>
+            {agent.error && (
+              <div className="p-3 bg-error/10 border border-error/20 rounded-lg text-error text-sm">
+                <strong>Error:</strong> {agent.error}
               </div>
-            ))}
+            )}
+            {!agent.error && agent.status === 'idle' && (
+              <p className="text-text-muted text-sm">Agent is idle and ready to start.</p>
+            )}
+            {agent.status === 'running' && (
+              <p className="text-success text-sm">Agent is currently running and processing tasks.</p>
+            )}
           </div>
         </div>
       </div>
