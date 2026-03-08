@@ -621,7 +621,7 @@ func TestRetry(t *testing.T) {
 		t.Fatalf("Failed to add item: %v", err)
 	}
 	q.Start(item.ID)
-	q.Fail(item.ID, "Failed")      // First fail - auto-retry to pending
+	q.Fail(item.ID, "Failed") // First fail - auto-retry to pending
 	q.Start(item.ID)
 	q.Fail(item.ID, "Failed again") // Second fail - now actually fails (retry exhausted)
 
