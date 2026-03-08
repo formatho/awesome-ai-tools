@@ -35,7 +35,6 @@ type Scheduler struct {
 	ctx     context.Context
 	cancel  context.CancelFunc
 	started bool
-	wg      sync.WaitGroup
 }
 
 // SchedulerOption is a functional option for configuring the scheduler.
