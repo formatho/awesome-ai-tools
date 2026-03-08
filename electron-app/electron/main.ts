@@ -102,23 +102,18 @@ function startBackend(): Promise<void> {
       console.log('🔗 Using external backend:', process.env.BACKEND_URL)
       return resolve()
     }
-    
-    // In dev mode without BACKEND_URL, assume backend is managed separately
+
     const isDev = !app.isPackaged
-    if (isDev && !process.env.START_BACKEND) {
-      console.log('🔧 Dev mode: assuming backend is running separately')
-      return resolve()
-    }
-    
-    // In production: backend is at process.resourcesPath/backend/server
     const backendExe = isDev
       ? path.join(__dirname, '../../backend/bin/server')
       : path.join(process.resourcesPath, 'backend', 'server')
-    
+
     const userDataPath = app.getPath('userData')
-    const dbPath = path.join(userDataPath, 'agent-orchestrator.db')
-    const port = ':18765'
-    
+    const dbPath = isDev
+      ? path.join(__dirname, '../../data/agent-orchestrator.db')
+      : path.join(userDataPath, 'agent-orchestrator.db')
+    const port = '18765'
+
     console.log('🚀 Starting backend...')
     console.log('   Binary:', backendExe)
     console.log('   DB Path:', dbPath)

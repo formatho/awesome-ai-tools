@@ -6,11 +6,14 @@ import { useAgents, useAgentMutations } from '../../hooks/useAPI'
 interface Agent {
   id: string
   name: string
-  type: string
+  provider?: string
   model?: string
   status: 'running' | 'idle' | 'error'
-  lastActive: string
-  tasksCompleted: number
+  created_at: string
+  updated_at: string
+  started_at?: string
+  stopped_at?: string
+  error?: string
 }
 
 const AVAILABLE_MODELS = [
@@ -351,14 +354,14 @@ function AgentCard({ agent, onToggle, onDelete }: { agent: Agent; onToggle: () =
             <Link to={`/agents/${agent.id}`} className="font-medium text-text-primary hover:text-accent">
               {agent.name}
             </Link>
-            <p className="text-sm text-text-muted">{agent.type} {agent.model && `• ${agent.model}`}</p>
+            <p className="text-sm text-text-muted">{agent.provider || 'Agent'} {agent.model && `• ${agent.model}`}</p>
           </div>
         </div>
 
         <div className="flex items-center gap-6">
           <div className="text-right hidden sm:block">
-            <p className="text-sm text-text-secondary">{agent.tasksCompleted} tasks</p>
-            <p className="text-xs text-text-muted">Last active: {agent.lastActive}</p>
+            <p className="text-sm text-text-secondary">{agent.status}</p>
+            <p className="text-xs text-text-muted">Updated: {new Date(agent.updated_at).toLocaleDateString()}</p>
           </div>
 
           <div className="flex items-center gap-2">
