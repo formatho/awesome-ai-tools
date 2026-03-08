@@ -14,10 +14,10 @@ import (
 
 // ChatService handles chat operations.
 type ChatService struct {
-	db         *sql.DB
-	agentSvc   *AgentService
-	configSvc  *ConfigService
-	llmClient  *llmclient.Client
+	db        *sql.DB
+	agentSvc  *AgentService
+	configSvc *ConfigService
+	llmClient *llmclient.Client
 }
 
 // NewChatService creates a new chat service.

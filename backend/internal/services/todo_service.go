@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	"github.com/formatho/agent-orchestrator/backend/internal/api/websocket"
+	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	todoqueue "github.com/formatho/agent-orchestrator/packages/todo-queue"
 	"github.com/google/uuid"
 )
@@ -81,16 +81,16 @@ func (s *TODOService) List() ([]*models.TODO, error) {
 		}
 
 		if skills.Valid && skills.String != "" {
-			json.Unmarshal([]byte(skills.String), &t.Skills)
+			_ = json.Unmarshal([]byte(skills.String), &t.Skills)
 		}
 		if deps.Valid && deps.String != "" {
-			json.Unmarshal([]byte(deps.String), &t.Dependencies)
+			_ = json.Unmarshal([]byte(deps.String), &t.Dependencies)
 		}
 		if config.Valid && config.String != "" {
-			json.Unmarshal([]byte(config.String), &t.Config)
+			_ = json.Unmarshal([]byte(config.String), &t.Config)
 		}
 		if result.Valid && result.String != "" {
-			json.Unmarshal([]byte(result.String), &t.Result)
+			_ = json.Unmarshal([]byte(result.String), &t.Result)
 		}
 
 		todos = append(todos, t)
@@ -142,16 +142,16 @@ func (s *TODOService) Get(id string) (*models.TODO, error) {
 	}
 
 	if skills.Valid && skills.String != "" {
-		json.Unmarshal([]byte(skills.String), &t.Skills)
+		_ = json.Unmarshal([]byte(skills.String), &t.Skills)
 	}
 	if deps.Valid && deps.String != "" {
-		json.Unmarshal([]byte(deps.String), &t.Dependencies)
+		_ = json.Unmarshal([]byte(deps.String), &t.Dependencies)
 	}
 	if config.Valid && config.String != "" {
-		json.Unmarshal([]byte(config.String), &t.Config)
+		_ = json.Unmarshal([]byte(config.String), &t.Config)
 	}
 	if result.Valid && result.String != "" {
-		json.Unmarshal([]byte(result.String), &t.Result)
+		_ = json.Unmarshal([]byte(result.String), &t.Result)
 	}
 
 	return t, nil

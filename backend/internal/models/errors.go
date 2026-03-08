@@ -25,11 +25,11 @@ func (e *AppError) Unwrap() error {
 
 // Common errors.
 var (
-	ErrNotFound       = &AppError{Code: "NOT_FOUND", Message: "Resource not found"}
-	ErrBadRequest     = &AppError{Code: "BAD_REQUEST", Message: "Invalid request"}
-	ErrInternal       = &AppError{Code: "INTERNAL_ERROR", Message: "Internal server error"}
-	ErrUnauthorized   = &AppError{Code: "UNAUTHORIZED", Message: "Unauthorized"}
-	ErrConflict       = &AppError{Code: "CONFLICT", Message: "Resource conflict"}
+	ErrNotFound     = &AppError{Code: "NOT_FOUND", Message: "Resource not found"}
+	ErrBadRequest   = &AppError{Code: "BAD_REQUEST", Message: "Invalid request"}
+	ErrInternal     = &AppError{Code: "INTERNAL_ERROR", Message: "Internal server error"}
+	ErrUnauthorized = &AppError{Code: "UNAUTHORIZED", Message: "Unauthorized"}
+	ErrConflict     = &AppError{Code: "CONFLICT", Message: "Resource conflict"}
 )
 
 // ErrValidation creates a validation error.

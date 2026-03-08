@@ -4,6 +4,7 @@ package api
 import (
 	"database/sql"
 
+	fastws "github.com/fasthttp/websocket"
 	"github.com/formatho/agent-orchestrator/backend/internal/api/handlers"
 	"github.com/formatho/agent-orchestrator/backend/internal/api/websocket"
 	"github.com/formatho/agent-orchestrator/backend/internal/services"
@@ -11,15 +12,14 @@ import (
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/logger"
 	"github.com/gofiber/fiber/v2/middleware/recover"
-	fastws "github.com/fasthttp/websocket"
 	"github.com/valyala/fasthttp"
 )
 
 // Server represents the API server.
 type Server struct {
-	app    *fiber.App
-	db     *sql.DB
-	hub    *websocket.Hub
+	app *fiber.App
+	db  *sql.DB
+	hub *websocket.Hub
 
 	// Services
 	agentSvc  *services.AgentService

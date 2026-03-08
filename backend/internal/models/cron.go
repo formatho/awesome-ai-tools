@@ -15,23 +15,23 @@ const (
 
 // Cron represents a scheduled job.
 type Cron struct {
-	ID          string                 `json:"id"`
-	Name        string                 `json:"name"`
-	Schedule    string                 `json:"schedule"` // Cron expression
-	Timezone    string                 `json:"timezone,omitempty"`
-	Status      CronStatus             `json:"status"`
-	AgentID     string                 `json:"agent_id"`
-	TaskName    string                 `json:"task_name,omitempty"`
-	TaskConfig  map[string]interface{} `json:"task_config,omitempty"`
-	LastRunAt   *time.Time             `json:"last_run_at,omitempty"`
-	NextRunAt   *time.Time             `json:"next_run_at,omitempty"`
-	LastResult  string                 `json:"last_result,omitempty"`
-	LastError   string                 `json:"last_error,omitempty"`
-	RunCount    int                    `json:"run_count"`
-	SuccessCount int                   `json:"success_count"`
-	FailCount   int                    `json:"fail_count"`
-	CreatedAt   time.Time              `json:"created_at"`
-	UpdatedAt   time.Time              `json:"updated_at"`
+	ID           string                 `json:"id"`
+	Name         string                 `json:"name"`
+	Schedule     string                 `json:"schedule"` // Cron expression
+	Timezone     string                 `json:"timezone,omitempty"`
+	Status       CronStatus             `json:"status"`
+	AgentID      string                 `json:"agent_id"`
+	TaskName     string                 `json:"task_name,omitempty"`
+	TaskConfig   map[string]interface{} `json:"task_config,omitempty"`
+	LastRunAt    *time.Time             `json:"last_run_at,omitempty"`
+	NextRunAt    *time.Time             `json:"next_run_at,omitempty"`
+	LastResult   string                 `json:"last_result,omitempty"`
+	LastError    string                 `json:"last_error,omitempty"`
+	RunCount     int                    `json:"run_count"`
+	SuccessCount int                    `json:"success_count"`
+	FailCount    int                    `json:"fail_count"`
+	CreatedAt    time.Time              `json:"created_at"`
+	UpdatedAt    time.Time              `json:"updated_at"`
 }
 
 // CronCreate is the request body for creating a new cron job.

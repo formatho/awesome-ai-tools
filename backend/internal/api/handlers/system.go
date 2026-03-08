@@ -72,11 +72,11 @@ func (h *SystemHandler) Status(c *fiber.Ctx) error {
 			"by_status": cronCounts,
 		},
 		"resources": fiber.Map{
-			"goroutines":   runtime.NumGoroutine(),
-			"go_version":   runtime.Version(),
-			"memory_mb":    mem.Alloc / 1024 / 1024,
+			"goroutines":    runtime.NumGoroutine(),
+			"go_version":    runtime.Version(),
+			"memory_mb":     mem.Alloc / 1024 / 1024,
 			"sys_memory_mb": mem.Sys / 1024 / 1024,
-			"num_cpu":      runtime.NumCPU(),
+			"num_cpu":       runtime.NumCPU(),
 		},
 	})
 }

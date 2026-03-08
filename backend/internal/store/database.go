@@ -155,24 +155,24 @@ func RunMigrations(db *sql.DB) error {
 		BEGIN
 			UPDATE agents SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 		END`
-	db.Exec(trigger)
+	_, _ = db.Exec(trigger)
 
 	// Add work_dir column if it doesn't exist (migration for existing databases)
-	db.Exec(`ALTER TABLE agents ADD COLUMN work_dir TEXT DEFAULT '~/sandbox'`)
+	_, _ = db.Exec(`ALTER TABLE agents ADD COLUMN work_dir TEXT DEFAULT '~/sandbox'`)
 
 	trigger = `CREATE TRIGGER IF NOT EXISTS update_todo_timestamp 
 		AFTER UPDATE ON todos
 		BEGIN
 			UPDATE todos SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 		END`
-	db.Exec(trigger)
+	_, _ = db.Exec(trigger)
 
 	trigger = `CREATE TRIGGER IF NOT EXISTS update_cron_timestamp 
 		AFTER UPDATE ON cron_jobs
 		BEGIN
 			UPDATE cron_jobs SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 		END`
-	db.Exec(trigger)
+	_, _ = db.Exec(trigger)
 
 	return nil
 }

@@ -6,11 +6,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"sync"
 	"time"
 
-	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	"github.com/formatho/agent-orchestrator/backend/internal/api/websocket"
+	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	agentpool "github.com/formatho/agent-orchestrator/packages/agent-pool"
 	llmclient "github.com/formatho/agent-orchestrator/packages/llm-client"
 	"github.com/google/uuid"
@@ -24,7 +23,6 @@ type AgentService struct {
 	db   *sql.DB
 	hub  *websocket.Hub
 	pool *agentpool.Pool
-	mu   sync.RWMutex
 }
 
 // NewAgentService creates a new agent service.
@@ -89,10 +87,10 @@ func (s *AgentService) List() ([]*models.Agent, error) {
 		}
 
 		if config.Valid && config.String != "" {
-			json.Unmarshal([]byte(config.String), &a.Config)
+			_ = json.Unmarshal([]byte(config.String), &a.Config)
 		}
 		if metadata.Valid && metadata.String != "" {
-			json.Unmarshal([]byte(metadata.String), &a.Metadata)
+			_ = json.Unmarshal([]byte(metadata.String), &a.Metadata)
 		}
 
 		agents = append(agents, a)
@@ -141,10 +139,10 @@ func (s *AgentService) Get(id string) (*models.Agent, error) {
 	}
 
 	if config.Valid && config.String != "" {
-		json.Unmarshal([]byte(config.String), &a.Config)
+		_ = json.Unmarshal([]byte(config.String), &a.Config)
 	}
 	if metadata.Valid && metadata.String != "" {
-		json.Unmarshal([]byte(metadata.String), &a.Metadata)
+		_ = json.Unmarshal([]byte(metadata.String), &a.Metadata)
 	}
 
 	return a, nil

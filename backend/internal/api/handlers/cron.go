@@ -118,7 +118,7 @@ func (h *CronHandler) Resume(c *fiber.Ctx) error {
 // GetHistory returns the execution history for a cron job.
 func (h *CronHandler) GetHistory(c *fiber.Ctx) error {
 	id := c.Params("id")
-	
+
 	limit := 50
 	if l := c.Query("limit"); l != "" {
 		if parsed, err := strconv.Atoi(l); err == nil && parsed > 0 {

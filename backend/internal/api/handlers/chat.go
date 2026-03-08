@@ -20,7 +20,7 @@ func NewChatHandler(chatSvc *services.ChatService) *ChatHandler {
 // GetHistory returns the chat history for an agent.
 func (h *ChatHandler) GetHistory(c *fiber.Ctx) error {
 	agentID := c.Params("id")
-	
+
 	messages, err := h.chatSvc.GetHistory(agentID)
 	if err != nil {
 		if models.IsNotFoundError(err) {

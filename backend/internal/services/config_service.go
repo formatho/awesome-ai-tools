@@ -45,13 +45,13 @@ func (s *ConfigService) Get() (*models.Config, error) {
 	}
 
 	if llmConfig.Valid && llmConfig.String != "" {
-		json.Unmarshal([]byte(llmConfig.String), &c.LLMConfig)
+		_ = json.Unmarshal([]byte(llmConfig.String), &c.LLMConfig)
 	}
 	if defaults.Valid && defaults.String != "" {
-		json.Unmarshal([]byte(defaults.String), &c.Defaults)
+		_ = json.Unmarshal([]byte(defaults.String), &c.Defaults)
 	}
 	if settings.Valid && settings.String != "" {
-		json.Unmarshal([]byte(settings.String), &c.Settings)
+		_ = json.Unmarshal([]byte(settings.String), &c.Settings)
 	}
 
 	return c, nil

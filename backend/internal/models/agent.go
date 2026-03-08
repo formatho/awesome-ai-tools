@@ -9,11 +9,11 @@ import (
 type AgentStatus string
 
 const (
-	AgentStatusIdle     AgentStatus = "idle"
-	AgentStatusRunning  AgentStatus = "running"
-	AgentStatusPaused   AgentStatus = "paused"
-	AgentStatusStopped  AgentStatus = "stopped"
-	AgentStatusError    AgentStatus = "error"
+	AgentStatusIdle    AgentStatus = "idle"
+	AgentStatusRunning AgentStatus = "running"
+	AgentStatusPaused  AgentStatus = "paused"
+	AgentStatusStopped AgentStatus = "stopped"
+	AgentStatusError   AgentStatus = "error"
 )
 
 // Agent represents an AI agent in the system.

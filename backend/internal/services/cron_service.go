@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	"github.com/formatho/agent-orchestrator/backend/internal/api/websocket"
+	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	cronagents "github.com/formatho/agent-orchestrator/packages/cron-agents"
 	"github.com/google/uuid"
 )
@@ -75,7 +75,7 @@ func (s *CronService) List() ([]*models.Cron, error) {
 		}
 
 		if taskConfig.Valid && taskConfig.String != "" {
-			json.Unmarshal([]byte(taskConfig.String), &c.TaskConfig)
+			_ = json.Unmarshal([]byte(taskConfig.String), &c.TaskConfig)
 		}
 
 		jobs = append(jobs, c)
@@ -126,7 +126,7 @@ func (s *CronService) Get(id string) (*models.Cron, error) {
 	}
 
 	if taskConfig.Valid && taskConfig.String != "" {
-		json.Unmarshal([]byte(taskConfig.String), &c.TaskConfig)
+		_ = json.Unmarshal([]byte(taskConfig.String), &c.TaskConfig)
 	}
 
 	return c, nil
@@ -295,7 +295,7 @@ func (s *CronService) GetHistory(id string, limit int) ([]*models.CronHistory, e
 		h.Error = errMsg.String
 
 		if metadata.Valid && metadata.String != "" {
-			json.Unmarshal([]byte(metadata.String), &h.Metadata)
+			_ = json.Unmarshal([]byte(metadata.String), &h.Metadata)
 		}
 
 		history = append(history, h)

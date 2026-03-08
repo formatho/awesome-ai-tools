@@ -2,8 +2,6 @@
 package handlers
 
 import (
-	"strconv"
-
 	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	"github.com/formatho/agent-orchestrator/backend/internal/services"
 	"github.com/gofiber/fiber/v2"
@@ -140,17 +138,4 @@ func (h *AgentHandler) Stop(c *fiber.Ctx) error {
 		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
 	}
 	return c.JSON(agent)
-}
-
-// parseBoolParam parses a boolean query parameter.
-func parseBoolParam(c *fiber.Ctx, key string, defaultValue bool) bool {
-	val := c.Query(key)
-	if val == "" {
-		return defaultValue
-	}
-	b, err := strconv.ParseBool(val)
-	if err != nil {
-		return defaultValue
-	}
-	return b
 }
