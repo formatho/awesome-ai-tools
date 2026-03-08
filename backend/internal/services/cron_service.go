@@ -30,6 +30,10 @@ func NewCronService(db *sql.DB, hub *websocket.Hub) *CronService {
 
 // List returns all cron jobs.
 func (s *CronService) List() ([]*models.Cron, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
 	query := `SELECT id, name, schedule, timezone, status, agent_id, task_name, task_config,
 		last_run_at, next_run_at, last_result, last_error, run_count, success_count, fail_count,
 		created_at, updated_at
@@ -82,6 +86,10 @@ func (s *CronService) List() ([]*models.Cron, error) {
 
 // Get returns a single cron job by ID.
 func (s *CronService) Get(id string) (*models.Cron, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
 	query := `SELECT id, name, schedule, timezone, status, agent_id, task_name, task_config,
 		last_run_at, next_run_at, last_result, last_error, run_count, success_count, fail_count,
 		created_at, updated_at
@@ -128,6 +136,11 @@ func (s *CronService) Get(id string) (*models.Cron, error) {
 func (s *CronService) Create(req *models.CronCreate) (*models.Cron, error) {
 	if err := req.Validate(); err != nil {
 		return nil, err
+	}
+
+	// Check if database is available
+	if s.db == nil {
+		return nil, ErrNoDatabase
 	}
 
 	id := uuid.New().String()

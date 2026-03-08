@@ -24,6 +24,16 @@ func NewConfigService(db *sql.DB) *ConfigService {
 
 // Get returns the current configuration.
 func (s *ConfigService) Get() (*models.Config, error) {
+	// Return default config if no database available
+	if s.db == nil {
+		return &models.Config{
+			ID:        "default",
+			LLMConfig: &models.LLMConfig{},
+			Defaults:  make(map[string]interface{}),
+			Settings:  make(map[string]interface{}),
+		}, nil
+	}
+
 	query := `SELECT id, llm_config, defaults, settings, updated_at FROM config WHERE id = 'default'`
 
 	c := &models.Config{}
@@ -49,6 +59,10 @@ func (s *ConfigService) Get() (*models.Config, error) {
 
 // Update updates the configuration.
 func (s *ConfigService) Update(req *models.ConfigUpdate) (*models.Config, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
 	now := time.Now().UTC()
 	query := `UPDATE config SET updated_at = ?`
 	args := []interface{}{now}

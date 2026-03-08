@@ -1,15 +1,19 @@
 import { Users, CheckSquare, Clock, Activity, TrendingUp, AlertCircle } from 'lucide-react'
-import { useAgents } from '../../hooks/useAPI'
+import { useAgents, useTODOs } from '../../hooks/useAPI'
 
 export default function Dashboard() {
   const { data: agents } = useAgents()
+  const { data: todos } = useTODOs({ status: 'pending' })
 
   // Count active agents (status === 'running')
   const activeAgentsCount = agents?.filter((agent: { status: string }) => agent.status === 'running').length ?? 0
 
+  // Count pending TODOs
+  const pendingTodosCount = todos?.length ?? 0
+
   const stats = [
     { label: 'Active Agents', value: activeAgentsCount.toString(), icon: Users, color: 'text-accent', change: '+2' },
-    { label: 'Pending TODOs', value: '24', icon: CheckSquare, color: 'text-warning', change: '-5' },
+    { label: 'Pending TODOs', value: pendingTodosCount.toString(), icon: CheckSquare, color: 'text-warning', change: '-5' },
     { label: 'Cron Jobs', value: '8', icon: Clock, color: 'text-success', change: '0' },
     { label: 'Tasks Today', value: '156', icon: Activity, color: 'text-accent', change: '+12' },
   ]

@@ -1,0 +1,112 @@
+# Agent Orchestrator Configuration Example
+# Copy this file to agents.yaml and customize for your needs
+
+# Server settings
+server:
+  host: "localhost"
+  port: 18765
+  api_prefix: "/api"
+
+# Database settings
+database:
+  type: "sqlite"
+  path: "./data/agent-orchestrator.db"
+
+# WebSocket settings
+websocket:
+  enabled: true
+  path: "/ws"
+
+# Default LLM provider settings
+llm:
+  default_provider: "openai"
+  providers:
+    openai:
+      api_key: "${OPENAI_API_KEY}"
+      default_model: "gpt-4o-mini"
+      timeout: 60s
+    anthropic:
+      api_key: "${ANTHROPIC_API_KEY}"
+      default_model: "claude-3-5-sonnet-latest"
+      timeout: 60s
+    ollama:
+      base_url: "http://localhost:11434"
+      default_model: "llama3.2"
+      timeout: 120s
+
+# Example Agents
+agents:
+  - name: "task-assistant"
+    description: "General purpose task assistant"
+    provider: "openai"
+    model: "gpt-4o-mini"
+    system_prompt: |
+      You are a helpful task management assistant.
+      Help users organize and track their tasks efficiently.
+    skills:
+      - "file"
+      - "web"
+    max_tokens: 4096
+    temperature: 0.7
+
+  - name: "code-reviewer"
+    description: "Code review and analysis assistant"
+    provider: "anthropic"
+    model: "claude-3-5-sonnet-latest"
+    system_prompt: |
+      You are an expert code reviewer.
+      Analyze code for quality, security, and best practices.
+    skills:
+      - "file"
+      - "shell"
+    max_tokens: 8192
+    temperature: 0.3
+
+  - name: "research-agent"
+    description: "Web research and summarization"
+    provider: "openai"
+    model: "gpt-4o-mini"
+    system_prompt: |
+      You are a research assistant.
+      Search the web and summarize findings clearly.
+    skills:
+      - "web"
+      - "file"
+    max_tokens: 4096
+    temperature: 0.5
+
+# Example Cron Jobs
+crons:
+  - name: "daily-summary"
+    description: "Generate daily task summary"
+    schedule: "0 9 * * *"  # Every day at 9 AM
+    agent: "task-assistant"
+    enabled: true
+    action: "generate_summary"
+
+  - name: "weekly-cleanup"
+    description: "Clean up completed tasks older than 30 days"
+    schedule: "0 0 * * 0"  # Every Sunday at midnight
+    agent: "task-assistant"
+    enabled: true
+    action: "cleanup_old_tasks"
+
+# Default TODO priorities
+priorities:
+  - "critical"
+  - "high"
+  - "medium"
+  - "low"
+
+# Default TODO statuses
+statuses:
+  - "pending"
+  - "in_progress"
+  - "completed"
+  - "cancelled"
+
+# Logging settings
+logging:
+  level: "info"
+  format: "json"
+  output: "stdout"

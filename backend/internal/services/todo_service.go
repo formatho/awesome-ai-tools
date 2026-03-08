@@ -35,6 +35,10 @@ func NewTODOService(db *sql.DB, hub *websocket.Hub) *TODOService {
 
 // List returns all TODOs.
 func (s *TODOService) List() ([]*models.TODO, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
 	query := `SELECT id, title, description, status, priority, progress, agent_id,
 		skills, dependencies, config, result, error,
 		created_at, updated_at, started_at, completed_at
@@ -97,6 +101,10 @@ func (s *TODOService) List() ([]*models.TODO, error) {
 
 // Get returns a single TODO by ID.
 func (s *TODOService) Get(id string) (*models.TODO, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
 	query := `SELECT id, title, description, status, priority, progress, agent_id,
 		skills, dependencies, config, result, error,
 		created_at, updated_at, started_at, completed_at
@@ -153,6 +161,11 @@ func (s *TODOService) Get(id string) (*models.TODO, error) {
 func (s *TODOService) Create(req *models.TODOCreate) (*models.TODO, error) {
 	if err := req.Validate(); err != nil {
 		return nil, err
+	}
+
+	// Check if database is available
+	if s.db == nil {
+		return nil, ErrNoDatabase
 	}
 
 	id := uuid.New().String()

@@ -4,6 +4,7 @@ package services
 import (
 	"database/sql"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"sync"
 	"time"
@@ -14,6 +15,9 @@ import (
 	llmclient "github.com/formatho/agent-orchestrator/packages/llm-client"
 	"github.com/google/uuid"
 )
+
+// ErrNoDatabase is returned when database is not available (e.g., in tests)
+var ErrNoDatabase = errors.New("database not available")
 
 // AgentService handles agent operations.
 type AgentService struct {
@@ -40,6 +44,10 @@ func NewAgentService(db *sql.DB, hub *websocket.Hub) *AgentService {
 
 // List returns all agents.
 func (s *AgentService) List() ([]*models.Agent, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
 	query := `SELECT id, name, status, provider, model, system_prompt, work_dir, config, metadata,
 		created_at, updated_at, started_at, stopped_at, error
 		FROM agents ORDER BY created_at DESC`
@@ -95,6 +103,10 @@ func (s *AgentService) List() ([]*models.Agent, error) {
 
 // Get returns a single agent by ID.
 func (s *AgentService) Get(id string) (*models.Agent, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
 	query := `SELECT id, name, status, provider, model, system_prompt, work_dir, config, metadata,
 		created_at, updated_at, started_at, stopped_at, error
 		FROM agents WHERE id = ?`
@@ -142,6 +154,11 @@ func (s *AgentService) Get(id string) (*models.Agent, error) {
 func (s *AgentService) Create(req *models.AgentCreate) (*models.Agent, error) {
 	if err := req.Validate(); err != nil {
 		return nil, err
+	}
+
+	// Check if database is available
+	if s.db == nil {
+		return nil, ErrNoDatabase
 	}
 
 	id := uuid.New().String()
@@ -318,6 +335,11 @@ func (s *AgentService) updateStatus(id string, status models.AgentStatus) (*mode
 // to "idle" status. This is called on service initialization to handle the case
 // where the application was restarted while agents were marked as running.
 func (s *AgentService) resetStaleRunningAgents() {
+	// Skip if no database connection (e.g., in tests)
+	if s.db == nil {
+		return
+	}
+
 	now := time.Now().UTC()
 
 	// Reset all running and paused agents to idle, with an error message

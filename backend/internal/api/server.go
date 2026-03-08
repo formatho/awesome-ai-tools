@@ -182,9 +182,4 @@ func (s *Server) setupRoutes() {
 	system := api.Group("/system")
 	system.Get("/status", s.systemH.Status)
 	system.Get("/health", s.systemH.Health)
-
-	// Chat routes (nested under agents)
-	agents.Post("/:id/chat", s.chatH.SendMessage)
-	agents.Get("/:id/chat", s.chatH.GetHistory)
-	agents.Delete("/:id/chat", s.chatH.ClearHistory)
 }

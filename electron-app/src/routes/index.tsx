@@ -13,8 +13,8 @@ export default function AppRoutes() {
     <Routes>
       <Route path="/" element={<Dashboard />} />
       <Route path="/agents" element={<AgentList />} />
-      <Route path="/agents/:id" element={<AgentDetail />} />
       <Route path="/agents/:id/chat" element={<ChatPage />} />
+      <Route path="/agents/:id" element={<AgentDetail />} />
       <Route path="/todos" element={<TODOList />} />
       <Route path="/cron" element={<CronList />} />
       <Route path="/config" element={<ConfigEditor />} />
