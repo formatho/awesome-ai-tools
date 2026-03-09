@@ -25,7 +25,7 @@ type ZAIProvider struct {
 // ZAIConfig is configuration for z.ai provider
 type ZAIConfig struct {
 	APIKey     string
-	BaseURL    string // Optional, defaults to https://open.bigmodel.cn/api/paas/v4
+	BaseURL    string // Optional, defaults to https://api.z.ai/api/coding/paas/v4
 	Timeout    int    // Timeout in seconds
 	MaxRetries int    // Max retry attempts (default: 3)
 	Debug      bool
@@ -35,7 +35,7 @@ type ZAIConfig struct {
 func NewZAIProvider(config ZAIConfig) *ZAIProvider {
 	baseURL := config.BaseURL
 	if baseURL == "" {
-		baseURL = "https://open.bigmodel.cn/api/paas/v4"
+		baseURL = "https://api.z.ai/api/coding/paas/v4"
 	}
 
 	timeout := config.Timeout
@@ -70,6 +70,14 @@ type zaiRequest struct {
 	Stream      bool      `json:"stream,omitempty"`
 }
 
+// zaiMessage represents a message with optional reasoning content (GLM-specific)
+type zaiMessage struct {
+	Role             string `json:"role"`
+	Content          string `json:"content"`
+	ReasoningContent string `json:"reasoning_content,omitempty"` // GLM-specific: reasoning tokens
+	Name             string `json:"name,omitempty"`
+}
+
 // zaiResponse represents the response from z.ai API
 type zaiResponse struct {
 	ID      string `json:"id"`
@@ -77,10 +85,10 @@ type zaiResponse struct {
 	Created int64  `json:"created"`
 	Model   string `json:"model"`
 	Choices []struct {
-		Index        int     `json:"index"`
-		Message      Message `json:"message"`
-		Delta        Message `json:"delta,omitempty"`
-		FinishReason string  `json:"finish_reason"`
+		Index        int        `json:"index"`
+		Message      zaiMessage `json:"message"`
+		Delta        zaiMessage `json:"delta,omitempty"`
+		FinishReason string     `json:"finish_reason"`
 	} `json:"choices"`
 	Usage Usage `json:"usage"`
 	Error *struct {
@@ -203,15 +211,29 @@ func (p *ZAIProvider) doRequest(ctx context.Context, req Request) (*Response, er
 	}
 
 	choice := zaiResp.Choices[0]
+
+	// Handle GLM-specific reasoning_content: use it if content is empty
+	content := choice.Message.Content
+	if content == "" && choice.Message.ReasoningContent != "" {
+		content = choice.Message.ReasoningContent
+	}
+
+	// Convert zaiMessage to Message
+	msg := Message{
+		Role:    choice.Message.Role,
+		Content: content,
+		Name:    choice.Message.Name,
+	}
+
 	return &Response{
 		ID:      zaiResp.ID,
 		Model:   zaiResp.Model,
-		Content: choice.Message.Content,
+		Content: content,
 		Usage:   zaiResp.Usage,
 		Choices: []Choice{
 			{
 				Index:        choice.Index,
-				Message:      choice.Message,
+				Message:      msg,
 				FinishReason: choice.FinishReason,
 			},
 		},
@@ -394,8 +416,19 @@ func (p *ZAIProvider) Stream(ctx context.Context, req Request) (<-chan StreamChu
 			// Send chunk
 			if len(zaiResp.Choices) > 0 {
 				choice := zaiResp.Choices[0]
+
+				// Handle GLM-specific reasoning_content in streaming
+				deltaContent := choice.Delta.Content
+				if deltaContent == "" && choice.Delta.ReasoningContent != "" {
+					deltaContent = choice.Delta.ReasoningContent
+				}
+
 				chunk := StreamChunk{
-					Delta:    choice.Delta,
+					Delta: Message{
+						Role:    choice.Delta.Role,
+						Content: deltaContent,
+						Name:    choice.Delta.Name,
+					},
 					Finished: choice.FinishReason != "",
 				}
 
