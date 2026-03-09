@@ -5,6 +5,7 @@ import { agentsAPI, todosAPI, cronAPI, configAPI, healthAPI, chatAPI } from '../
 export const queryKeys = {
   agents: ['agents'] as const,
   agent: (id: string) => ['agents', id] as const,
+  agentLogs: (id: string) => ['agents', id, 'logs'] as const,
   chat: (agentId: string) => ['chat', agentId] as const,
   todos: (filters?: { status?: string; priority?: string }) => ['todos', filters] as const,
   todo: (id: string) => ['todos', id] as const,
@@ -29,6 +30,16 @@ export function useAgent(id: string) {
     queryFn: () => agentsAPI.get(id),
     select: (response) => response.data,
     enabled: !!id,
+  })
+}
+
+export function useAgentLogs(id: string) {
+  return useQuery({
+    queryKey: queryKeys.agentLogs(id),
+    queryFn: () => agentsAPI.logs(id),
+    select: (response) => response.data,
+    enabled: !!id,
+    refetchInterval: 2000, // Poll every 2 seconds for new logs
   })
 }
 

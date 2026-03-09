@@ -11,7 +11,7 @@ const configSections = [
 ]
 
 interface ModelConfig {
-  provider: 'openai' | 'anthropic' | 'ollama'
+  provider: 'openai' | 'anthropic' | 'ollama' | 'zai'
   modelName: string
   apiKey: string
   temperature: number
@@ -86,6 +86,7 @@ const PROVIDERS = [
   { value: 'openai', label: 'OpenAI' },
   { value: 'anthropic', label: 'Anthropic' },
   { value: 'ollama', label: 'Ollama (Local)' },
+  { value: 'zai', label: 'Z.ai (GLM)' },
 ]
 
 const MODELS_BY_PROVIDER: Record<string, Array<{ value: string; label: string }>> = {
@@ -107,6 +108,11 @@ const MODELS_BY_PROVIDER: Record<string, Array<{ value: string; label: string }>
     { value: 'codellama', label: 'Code Llama' },
     { value: 'mistral', label: 'Mistral' },
     { value: 'mixtral', label: 'Mixtral' },
+  ],
+  zai: [
+    { value: 'glm-4.7', label: 'GLM-4.7' },
+    { value: 'glm-4', label: 'GLM-4' },
+    { value: 'glm-3-turbo', label: 'GLM-3 Turbo' },
   ],
 }
 
@@ -307,7 +313,7 @@ export default function ConfigEditor() {
                   <select
                     value={config.models.default.provider}
                     onChange={(e) => {
-                      const provider = e.target.value as 'openai' | 'anthropic' | 'ollama'
+                      const provider = e.target.value as 'openai' | 'anthropic' | 'ollama' | 'zai'
                       const defaultModel = MODELS_BY_PROVIDER[provider][0].value
                       updateModelConfig('provider', provider)
                       updateModelConfig('modelName', defaultModel)
@@ -364,17 +370,17 @@ export default function ConfigEditor() {
                   </div>
                 )}
 
-                {/* Base URL for Ollama */}
-                {config.models.default.provider === 'ollama' && (
+                {/* Base URL for Ollama or ZAI */}
+                {(config.models.default.provider === 'ollama' || config.models.default.provider === 'zai') && (
                   <div>
                     <label className="block text-sm font-medium text-text-secondary mb-2">
-                      Ollama Base URL
+                      {config.models.default.provider === 'ollama' ? 'Ollama Base URL' : 'Z.ai Base URL'}
                     </label>
                     <input
                       type="text"
-                      value={config.models.default.baseUrl || 'http://localhost:11434'}
+                      value={config.models.default.baseUrl || (config.models.default.provider === 'ollama' ? 'http://localhost:11434' : 'https://open.bigmodel.cn/api/paas/v4')}
                       onChange={(e) => updateModelConfig('baseUrl', e.target.value)}
-                      placeholder="http://localhost:11434"
+                      placeholder={config.models.default.provider === 'ollama' ? 'http://localhost:11434' : 'https://open.bigmodel.cn/api/paas/v4'}
                       className="input w-full"
                     />
                   </div>

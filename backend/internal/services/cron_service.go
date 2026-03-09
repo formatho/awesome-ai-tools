@@ -28,18 +28,29 @@ func NewCronService(db *sql.DB, hub *websocket.Hub) *CronService {
 	}
 }
 
-// List returns all cron jobs.
-func (s *CronService) List() ([]*models.Cron, error) {
+// List returns all cron jobs. Optionally filtered by organization_id.
+func (s *CronService) List(orgID *string) ([]*models.Cron, error) {
 	if s.db == nil {
 		return nil, ErrNoDatabase
 	}
 
-	query := `SELECT id, name, schedule, timezone, status, agent_id, task_name, task_config,
-		last_run_at, next_run_at, last_result, last_error, run_count, success_count, fail_count,
-		created_at, updated_at
-		FROM cron_jobs ORDER BY created_at DESC`
+	var query string
+	var args []interface{}
 
-	rows, err := s.db.Query(query)
+	if orgID != nil && *orgID != "" {
+		query = `SELECT id, name, schedule, timezone, status, agent_id, organization_id, task_name, task_config,
+			last_run_at, next_run_at, last_result, last_error, run_count, success_count, fail_count,
+			created_at, updated_at
+			FROM cron_jobs WHERE organization_id = ? ORDER BY created_at DESC`
+		args = append(args, *orgID)
+	} else {
+		query = `SELECT id, name, schedule, timezone, status, agent_id, organization_id, task_name, task_config,
+			last_run_at, next_run_at, last_result, last_error, run_count, success_count, fail_count,
+			created_at, updated_at
+			FROM cron_jobs ORDER BY created_at DESC`
+	}
+
+	rows, err := s.db.Query(query, args...)
 	if err != nil {
 		return nil, err
 	}
@@ -48,12 +59,12 @@ func (s *CronService) List() ([]*models.Cron, error) {
 	var jobs []*models.Cron
 	for rows.Next() {
 		c := &models.Cron{}
-		var taskName, lastResult, lastError sql.NullString
+		var taskName, lastResult, lastError, orgID sql.NullString
 		var lastRunAt, nextRunAt sql.NullTime
 		var taskConfig sql.NullString
 
 		err := rows.Scan(
-			&c.ID, &c.Name, &c.Schedule, &c.Timezone, &c.Status, &c.AgentID, &taskName, &taskConfig,
+			&c.ID, &c.Name, &c.Schedule, &c.Timezone, &c.Status, &c.AgentID, &orgID, &taskName, &taskConfig,
 			&lastRunAt, &nextRunAt, &lastResult, &lastError, &c.RunCount, &c.SuccessCount, &c.FailCount,
 			&c.CreatedAt, &c.UpdatedAt,
 		)
@@ -61,6 +72,7 @@ func (s *CronService) List() ([]*models.Cron, error) {
 			return nil, err
 		}
 
+		c.OrganizationID = orgID.String
 		c.TaskName = taskName.String
 		c.LastResult = lastResult.String
 		c.LastError = lastError.String
@@ -90,18 +102,18 @@ func (s *CronService) Get(id string) (*models.Cron, error) {
 		return nil, ErrNoDatabase
 	}
 
-	query := `SELECT id, name, schedule, timezone, status, agent_id, task_name, task_config,
+	query := `SELECT id, name, schedule, timezone, status, agent_id, organization_id, task_name, task_config,
 		last_run_at, next_run_at, last_result, last_error, run_count, success_count, fail_count,
 		created_at, updated_at
 		FROM cron_jobs WHERE id = ?`
 
 	c := &models.Cron{}
-	var taskName, lastResult, lastError sql.NullString
+	var taskName, lastResult, lastError, orgID sql.NullString
 	var lastRunAt, nextRunAt sql.NullTime
 	var taskConfig sql.NullString
 
 	err := s.db.QueryRow(query, id).Scan(
-		&c.ID, &c.Name, &c.Schedule, &c.Timezone, &c.Status, &c.AgentID, &taskName, &taskConfig,
+		&c.ID, &c.Name, &c.Schedule, &c.Timezone, &c.Status, &c.AgentID, &orgID, &taskName, &taskConfig,
 		&lastRunAt, &nextRunAt, &lastResult, &lastError, &c.RunCount, &c.SuccessCount, &c.FailCount,
 		&c.CreatedAt, &c.UpdatedAt,
 	)
@@ -112,6 +124,7 @@ func (s *CronService) Get(id string) (*models.Cron, error) {
 		return nil, err
 	}
 
+	c.OrganizationID = orgID.String
 	c.TaskName = taskName.String
 	c.LastResult = lastResult.String
 	c.LastError = lastError.String
@@ -153,10 +166,10 @@ func (s *CronService) Create(req *models.CronCreate) (*models.Cron, error) {
 
 	taskConfigJSON, _ := json.Marshal(req.TaskConfig)
 
-	query := `INSERT INTO cron_jobs (id, name, schedule, timezone, status, agent_id, task_name, task_config, created_at, updated_at)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+	query := `INSERT INTO cron_jobs (id, name, schedule, timezone, status, agent_id, organization_id, task_name, task_config, created_at, updated_at)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 
-	_, err := s.db.Exec(query, id, req.Name, req.Schedule, timezone, status, req.AgentID,
+	_, err := s.db.Exec(query, id, req.Name, req.Schedule, timezone, status, req.AgentID, req.OrganizationID,
 		req.TaskName, string(taskConfigJSON), now, now)
 	if err != nil {
 		return nil, err
@@ -196,6 +209,10 @@ func (s *CronService) Update(id string, req *models.CronUpdate) (*models.Cron, e
 	if req.AgentID != nil {
 		query += `, agent_id = ?`
 		args = append(args, *req.AgentID)
+	}
+	if req.OrganizationID != nil {
+		query += `, organization_id = ?`
+		args = append(args, *req.OrganizationID)
 	}
 	if req.TaskName != nil {
 		query += `, task_name = ?`

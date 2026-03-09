@@ -33,18 +33,29 @@ func NewTODOService(db *sql.DB, hub *websocket.Hub) *TODOService {
 	}
 }
 
-// List returns all TODOs.
-func (s *TODOService) List() ([]*models.TODO, error) {
+// List returns all TODOs. Optionally filtered by organization_id.
+func (s *TODOService) List(orgID *string) ([]*models.TODO, error) {
 	if s.db == nil {
 		return nil, ErrNoDatabase
 	}
 
-	query := `SELECT id, title, description, status, priority, progress, agent_id,
-		skills, dependencies, config, result, error,
-		created_at, updated_at, started_at, completed_at
-		FROM todos ORDER BY priority DESC, created_at DESC`
+	var query string
+	var args []interface{}
 
-	rows, err := s.db.Query(query)
+	if orgID != nil && *orgID != "" {
+		query = `SELECT id, title, description, status, priority, progress, agent_id, organization_id,
+			skills, dependencies, config, result, error,
+			created_at, updated_at, started_at, completed_at
+			FROM todos WHERE organization_id = ? ORDER BY priority DESC, created_at DESC`
+		args = append(args, *orgID)
+	} else {
+		query = `SELECT id, title, description, status, priority, progress, agent_id, organization_id,
+			skills, dependencies, config, result, error,
+			created_at, updated_at, started_at, completed_at
+			FROM todos ORDER BY priority DESC, created_at DESC`
+	}
+
+	rows, err := s.db.Query(query, args...)
 	if err != nil {
 		return nil, err
 	}
@@ -53,12 +64,12 @@ func (s *TODOService) List() ([]*models.TODO, error) {
 	var todos []*models.TODO
 	for rows.Next() {
 		t := &models.TODO{}
-		var description, agentID, skills, deps, config, result, todoError sql.NullString
+		var description, agentID, orgID, skills, deps, config, result, todoError sql.NullString
 		var startedAt, completedAt sql.NullTime
 
 		err := rows.Scan(
 			&t.ID, &t.Title, &description, &t.Status, &t.Priority, &t.Progress, &agentID,
-			&skills, &deps, &config, &result, &todoError,
+			&orgID, &skills, &deps, &config, &result, &todoError,
 			&t.CreatedAt, &t.UpdatedAt, &startedAt, &completedAt,
 		)
 		if err != nil {
@@ -69,6 +80,7 @@ func (s *TODOService) List() ([]*models.TODO, error) {
 		if agentID.Valid {
 			t.AgentID = &agentID.String
 		}
+		t.OrganizationID = orgID.String
 		t.Error = todoError.String
 
 		t.StartedAt = &startedAt.Time
@@ -105,18 +117,18 @@ func (s *TODOService) Get(id string) (*models.TODO, error) {
 		return nil, ErrNoDatabase
 	}
 
-	query := `SELECT id, title, description, status, priority, progress, agent_id,
+	query := `SELECT id, title, description, status, priority, progress, agent_id, organization_id,
 		skills, dependencies, config, result, error,
 		created_at, updated_at, started_at, completed_at
 		FROM todos WHERE id = ?`
 
 	t := &models.TODO{}
-	var description, agentID, skills, deps, config, result, todoError sql.NullString
+	var description, agentID, orgID, skills, deps, config, result, todoError sql.NullString
 	var startedAt, completedAt sql.NullTime
 
 	err := s.db.QueryRow(query, id).Scan(
 		&t.ID, &t.Title, &description, &t.Status, &t.Priority, &t.Progress, &agentID,
-		&skills, &deps, &config, &result, &todoError,
+		&orgID, &skills, &deps, &config, &result, &todoError,
 		&t.CreatedAt, &t.UpdatedAt, &startedAt, &completedAt,
 	)
 	if err == sql.ErrNoRows {
@@ -130,6 +142,7 @@ func (s *TODOService) Get(id string) (*models.TODO, error) {
 	if agentID.Valid {
 		t.AgentID = &agentID.String
 	}
+	t.OrganizationID = orgID.String
 	t.Error = todoError.String
 
 	t.StartedAt = &startedAt.Time
@@ -176,8 +189,8 @@ func (s *TODOService) Create(req *models.TODOCreate) (*models.TODO, error) {
 	depsJSON, _ := json.Marshal(req.Dependencies)
 	configJSON, _ := json.Marshal(req.Config)
 
-	query := `INSERT INTO todos (id, title, description, status, priority, agent_id, skills, dependencies, config, created_at, updated_at)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+	query := `INSERT INTO todos (id, title, description, status, priority, agent_id, organization_id, skills, dependencies, config, created_at, updated_at)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 
 	var agentID interface{}
 	if req.AgentID != nil {
@@ -185,7 +198,7 @@ func (s *TODOService) Create(req *models.TODOCreate) (*models.TODO, error) {
 	}
 
 	_, err := s.db.Exec(query, id, req.Title, req.Description, status, req.Priority,
-		agentID, string(skillsJSON), string(depsJSON), string(configJSON), now, now)
+		agentID, req.OrganizationID, string(skillsJSON), string(depsJSON), string(configJSON), now, now)
 	if err != nil {
 		return nil, err
 	}
@@ -226,6 +239,10 @@ func (s *TODOService) Update(id string, req *models.TODOUpdate) (*models.TODO, e
 	if req.AgentID != nil {
 		query += `, agent_id = ?`
 		args = append(args, *req.AgentID)
+	}
+	if req.OrganizationID != nil {
+		query += `, organization_id = ?`
+		args = append(args, *req.OrganizationID)
 	}
 	if req.Skills != nil {
 		skillsJSON, _ := json.Marshal(req.Skills)

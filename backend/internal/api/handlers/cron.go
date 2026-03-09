@@ -18,9 +18,15 @@ func NewCronHandler(service *services.CronService) *CronHandler {
 	return &CronHandler{service: service}
 }
 
-// List returns all cron jobs.
+// List returns all cron jobs. Supports organization filtering via X-Organization-ID header.
 func (h *CronHandler) List(c *fiber.Ctx) error {
-	jobs, err := h.service.List()
+	var orgID *string
+	orgIDHeader := c.Get("X-Organization-ID")
+	if orgIDHeader != "" {
+		orgID = &orgIDHeader
+	}
+
+	jobs, err := h.service.List(orgID)
 	if err != nil {
 		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
 	}

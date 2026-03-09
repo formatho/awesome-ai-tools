@@ -27,6 +27,7 @@ type Server struct {
 	cronSvc   *services.CronService
 	configSvc *services.ConfigService
 	chatSvc   *services.ChatService
+	orgSvc    *services.OrgService
 
 	// Handlers
 	agentH  *handlers.AgentHandler
@@ -35,6 +36,7 @@ type Server struct {
 	configH *handlers.ConfigHandler
 	systemH *handlers.SystemHandler
 	chatH   *handlers.ChatHandler
+	orgH    *handlers.OrgHandler
 
 	// WebSocket upgrader
 	upgrader fastws.FastHTTPUpgrader
@@ -52,6 +54,7 @@ func NewServer(db *sql.DB) *fiber.App {
 	cronSvc := services.NewCronService(db, hub)
 	configSvc := services.NewConfigService(db)
 	chatSvc := services.NewChatService(db, agentSvc, configSvc)
+	orgSvc := services.NewOrgService(db)
 
 	// Create handlers
 	agentH := handlers.NewAgentHandler(agentSvc)
@@ -60,6 +63,7 @@ func NewServer(db *sql.DB) *fiber.App {
 	configH := handlers.NewConfigHandler(configSvc)
 	systemH := handlers.NewSystemHandler(agentSvc, todoSvc, cronSvc)
 	chatH := handlers.NewChatHandler(chatSvc)
+	orgH := handlers.NewOrgHandler(orgSvc)
 
 	// Create Fiber app
 	app := fiber.New(fiber.Config{
@@ -77,12 +81,14 @@ func NewServer(db *sql.DB) *fiber.App {
 		cronSvc:   cronSvc,
 		configSvc: configSvc,
 		chatSvc:   chatSvc,
+		orgSvc:    orgSvc,
 		agentH:    agentH,
 		todoH:     todoH,
 		cronH:     cronH,
 		configH:   configH,
 		systemH:   systemH,
 		chatH:     chatH,
+		orgH:      orgH,
 		upgrader: fastws.FastHTTPUpgrader{
 			ReadBufferSize:  1024,
 			WriteBufferSize: 1024,
@@ -146,6 +152,7 @@ func (s *Server) setupRoutes() {
 	agents.Post("/:id/stop", s.agentH.Stop)
 	agents.Post("/:id/pause", s.agentH.Pause)
 	agents.Post("/:id/resume", s.agentH.Resume)
+	agents.Get("/:id/logs", s.agentH.Logs)
 	// Chat routes (nested under agent)
 	agents.Get("/:id/chat", s.chatH.GetHistory)
 	agents.Post("/:id/chat", s.chatH.SendMessage)
@@ -182,4 +189,15 @@ func (s *Server) setupRoutes() {
 	system := api.Group("/system")
 	system.Get("/status", s.systemH.Status)
 	system.Get("/health", s.systemH.Health)
+
+	// Organization routes
+	orgs := api.Group("/organizations")
+	orgs.Get("/", s.orgH.List)
+	orgs.Post("/", s.orgH.Create)
+	orgs.Get("/:id", s.orgH.Get)
+	orgs.Put("/:id", s.orgH.Update)
+	orgs.Delete("/:id", s.orgH.Delete)
+	orgs.Get("/slug/:slug", s.orgH.GetBySlug)
+	orgs.Get("/owner/:ownerId", s.orgH.GetByOwner)
+	orgs.Post("/switch", s.orgH.SwitchOrganization)
 }

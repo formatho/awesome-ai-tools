@@ -16,9 +16,15 @@ func NewTODOHandler(service *services.TODOService) *TODOHandler {
 	return &TODOHandler{service: service}
 }
 
-// List returns all TODOs.
+// List returns all TODOs. Supports organization filtering via X-Organization-ID header.
 func (h *TODOHandler) List(c *fiber.Ctx) error {
-	todos, err := h.service.List()
+	var orgID *string
+	orgIDHeader := c.Get("X-Organization-ID")
+	if orgIDHeader != "" {
+		orgID = &orgIDHeader
+	}
+
+	todos, err := h.service.List(orgID)
 	if err != nil {
 		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
 	}

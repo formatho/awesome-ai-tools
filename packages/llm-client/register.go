@@ -16,3 +16,8 @@ func RegisterAnthropic(client *Client, config AnthropicConfig) {
 func RegisterOllama(client *Client, config OllamaConfig) {
 	client.SetProvider(ProviderOllama, NewOllamaProvider(config))
 }
+
+// RegisterZAI registers the z.ai provider with the client
+func RegisterZAI(client *Client, config ZAIConfig) {
+	client.SetProvider(ProviderZAI, NewZAIProvider(config))
+}

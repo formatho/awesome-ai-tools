@@ -2,6 +2,8 @@
 package handlers
 
 import (
+	"strconv"
+
 	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	"github.com/formatho/agent-orchestrator/backend/internal/services"
 	"github.com/gofiber/fiber/v2"
@@ -17,9 +19,15 @@ func NewAgentHandler(service *services.AgentService) *AgentHandler {
 	return &AgentHandler{service: service}
 }
 
-// List returns all agents.
+// List returns all agents. Supports organization filtering via X-Organization-ID header.
 func (h *AgentHandler) List(c *fiber.Ctx) error {
-	agents, err := h.service.List()
+	var orgID *string
+	orgIDHeader := c.Get("X-Organization-ID")
+	if orgIDHeader != "" {
+		orgID = &orgIDHeader
+	}
+
+	agents, err := h.service.List(orgID)
 	if err != nil {
 		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
 	}
@@ -138,4 +146,26 @@ func (h *AgentHandler) Stop(c *fiber.Ctx) error {
 		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
 	}
 	return c.JSON(agent)
+}
+
+// Logs returns logs for an agent.
+func (h *AgentHandler) Logs(c *fiber.Ctx) error {
+	id := c.Params("id")
+
+	// Parse query parameters for filtering and pagination
+	limit := 100
+	if limitParam := c.Query("limit"); limitParam != "" {
+		if l, err := strconv.Atoi(limitParam); err == nil && l > 0 && l <= 1000 {
+			limit = l
+		}
+	}
+
+	logs, err := h.service.GetLogs(id, limit)
+	if err != nil {
+		if models.IsNotFoundError(err) {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+	return c.JSON(logs)
 }

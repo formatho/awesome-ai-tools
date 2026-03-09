@@ -68,6 +68,7 @@ const (
 	ProviderAnthropic Provider = "anthropic"
 	ProviderOllama    Provider = "ollama"
 	ProviderLocal     Provider = "local"
+	ProviderZAI       Provider = "zai"
 )
 
 // Message represents a single message in a conversation

@@ -119,6 +119,11 @@ func (s *ConfigService) TestLLM(req *models.LLMTestRequest) (*models.LLMTestResp
 		provider = llmclient.NewOllamaProvider(llmclient.OllamaConfig{
 			BaseURL: req.BaseURL,
 		})
+	case "zai":
+		provider = llmclient.NewZAIProvider(llmclient.ZAIConfig{
+			APIKey:  req.APIKey,
+			BaseURL: req.BaseURL,
+		})
 	default:
 		return &models.LLMTestResponse{
 			Success: false,

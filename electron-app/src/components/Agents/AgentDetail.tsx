@@ -1,10 +1,11 @@
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, Play, Pause, Trash2, Settings, Activity, Clock, CheckCircle, XCircle, MessageSquare, Loader2 } from 'lucide-react'
-import { useAgent, useAgentMutations } from '../../hooks/useAPI'
+import { ArrowLeft, Play, Pause, Trash2, Settings, Activity, Clock, CheckCircle, XCircle, MessageSquare, Loader2, Terminal, Info, AlertTriangle, AlertCircle } from 'lucide-react'
+import { useAgent, useAgentLogs, useAgentMutations } from '../../hooks/useAPI'
 
 export default function AgentDetail() {
   const { id } = useParams()
   const { data: agent, isLoading, error } = useAgent(id || '')
+  const { data: logs, isLoading: logsLoading } = useAgentLogs(id || '')
   const mutations = useAgentMutations()
 
   if (isLoading) {
@@ -159,6 +160,39 @@ export default function AgentDetail() {
             )}
           </div>
         </div>
+
+        {/* Agent Logs */}
+        <div className="card lg:col-span-2">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-lg font-semibold flex items-center gap-2">
+              <Terminal className="w-5 h-5" />
+              Agent Logs
+            </h2>
+            {logs && logs.length > 0 && (
+              <span className="text-sm text-text-muted">{logs.length} entries</span>
+            )}
+          </div>
+
+          {logsLoading ? (
+            <div className="flex items-center justify-center py-8">
+              <Loader2 className="w-6 h-6 animate-spin text-accent" />
+            </div>
+          ) : !logs || logs.length === 0 ? (
+            <div className="text-center py-8 text-text-muted">
+              <Terminal className="w-12 h-12 mx-auto mb-3 opacity-50" />
+              <p>No logs available for this agent</p>
+              <p className="text-sm mt-1">Logs will appear here when the agent starts</p>
+            </div>
+          ) : (
+            <div className="bg-background rounded-lg border border-border overflow-hidden max-h-96 overflow-y-auto">
+              <div className="divide-y divide-border">
+                {logs.map((log) => (
+                  <LogEntry key={log.id} log={log} />
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )
@@ -185,6 +219,66 @@ function ConfigItem({ label, value }: { label: string; value: string }) {
     <div className="flex items-center justify-between py-2 border-b border-border last:border-0">
       <span className="text-text-secondary">{label}</span>
       <span className="font-mono text-sm">{value}</span>
+    </div>
+  )
+}
+
+function LogEntry({ log }: { log: { id: string; level: string; message: string; created_at: string; metadata?: Record<string, unknown> | null } }) {
+  const getLevelIcon = () => {
+    switch (log.level) {
+      case 'info':
+        return <Info className="w-4 h-4 text-info" />
+      case 'warn':
+        return <AlertTriangle className="w-4 h-4 text-warn" />
+      case 'error':
+        return <AlertCircle className="w-4 h-4 text-error" />
+      default:
+        return <Terminal className="w-4 h-4 text-text-muted" />
+    }
+  }
+
+  const getLevelColor = () => {
+    switch (log.level) {
+      case 'info':
+        return 'bg-info/10 border-info/20 text-info'
+      case 'warn':
+        return 'bg-warn/10 border-warn/20 text-warn'
+      case 'error':
+        return 'bg-error/10 border-error/20 text-error'
+      default:
+        return 'bg-surface-hover border-border text-text-secondary'
+    }
+  }
+
+  const formatTimestamp = (timestamp: string) => {
+    const date = new Date(timestamp)
+    return date.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' })
+  }
+
+  return (
+    <div className="p-3 hover:bg-surface-hover transition-colors">
+      <div className="flex items-start gap-3">
+        <div className={`p-1 rounded border ${getLevelColor()} shrink-0`}>
+          {getLevelIcon()}
+        </div>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 mb-1">
+            <span className="text-xs font-mono text-text-muted uppercase">{log.level}</span>
+            <span className="text-xs text-text-muted">{formatTimestamp(log.created_at)}</span>
+          </div>
+          <p className="text-sm font-mono break-words">{log.message}</p>
+          {log.metadata && Object.keys(log.metadata).length > 0 && (
+            <details className="mt-2 text-xs">
+              <summary className="cursor-pointer text-text-muted hover:text-text-primary">
+                Metadata
+              </summary>
+              <pre className="mt-2 p-2 bg-background rounded overflow-x-auto">
+                {JSON.stringify(log.metadata, null, 2)}
+              </pre>
+            </details>
+          )}
+        </div>
+      </div>
     </div>
   )
 }

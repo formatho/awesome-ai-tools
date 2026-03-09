@@ -40,17 +40,27 @@ func NewAgentService(db *sql.DB, hub *websocket.Hub) *AgentService {
 	return service
 }
 
-// List returns all agents.
-func (s *AgentService) List() ([]*models.Agent, error) {
+// List returns all agents. Optionally filtered by organization_id.
+func (s *AgentService) List(orgID *string) ([]*models.Agent, error) {
 	if s.db == nil {
 		return nil, ErrNoDatabase
 	}
 
-	query := `SELECT id, name, status, provider, model, system_prompt, work_dir, config, metadata,
-		created_at, updated_at, started_at, stopped_at, error
-		FROM agents ORDER BY created_at DESC`
+	var query string
+	var args []interface{}
 
-	rows, err := s.db.Query(query)
+	if orgID != nil && *orgID != "" {
+		query = `SELECT id, name, status, provider, model, system_prompt, work_dir, organization_id, config, metadata,
+			created_at, updated_at, started_at, stopped_at, error
+			FROM agents WHERE organization_id = ? ORDER BY created_at DESC`
+		args = append(args, *orgID)
+	} else {
+		query = `SELECT id, name, status, provider, model, system_prompt, work_dir, organization_id, config, metadata,
+			created_at, updated_at, started_at, stopped_at, error
+			FROM agents ORDER BY created_at DESC`
+	}
+
+	rows, err := s.db.Query(query, args...)
 	if err != nil {
 		return nil, err
 	}
@@ -61,11 +71,11 @@ func (s *AgentService) List() ([]*models.Agent, error) {
 		a := &models.Agent{}
 		var config, metadata sql.NullString
 		var startedAt, stoppedAt sql.NullTime
-		var provider, model, systemPrompt, workDir, agentError sql.NullString
+		var provider, model, systemPrompt, workDir, orgID, agentError sql.NullString
 
 		err := rows.Scan(
 			&a.ID, &a.Name, &a.Status, &provider, &model, &systemPrompt, &workDir,
-			&config, &metadata, &a.CreatedAt, &a.UpdatedAt,
+			&orgID, &config, &metadata, &a.CreatedAt, &a.UpdatedAt,
 			&startedAt, &stoppedAt, &agentError,
 		)
 		if err != nil {
@@ -76,14 +86,13 @@ func (s *AgentService) List() ([]*models.Agent, error) {
 		a.Model = model.String
 		a.SystemPrompt = systemPrompt.String
 		a.WorkDir = workDir.String
+		a.OrganizationID = orgID.String
 		a.Error = agentError.String
-		a.StartedAt = &startedAt.Time
-		if !startedAt.Valid {
-			a.StartedAt = nil
+		if startedAt.Valid {
+			a.StartedAt = &startedAt.Time
 		}
-		a.StoppedAt = &stoppedAt.Time
-		if !stoppedAt.Valid {
-			a.StoppedAt = nil
+		if stoppedAt.Valid {
+			a.StoppedAt = &stoppedAt.Time
 		}
 
 		if config.Valid && config.String != "" {
@@ -105,18 +114,18 @@ func (s *AgentService) Get(id string) (*models.Agent, error) {
 		return nil, ErrNoDatabase
 	}
 
-	query := `SELECT id, name, status, provider, model, system_prompt, work_dir, config, metadata,
+	query := `SELECT id, name, status, provider, model, system_prompt, work_dir, organization_id, config, metadata,
 		created_at, updated_at, started_at, stopped_at, error
 		FROM agents WHERE id = ?`
 
 	a := &models.Agent{}
 	var config, metadata sql.NullString
 	var startedAt, stoppedAt sql.NullTime
-	var provider, model, systemPrompt, workDir, agentError sql.NullString
+	var provider, model, systemPrompt, workDir, orgID, agentError sql.NullString
 
 	err := s.db.QueryRow(query, id).Scan(
 		&a.ID, &a.Name, &a.Status, &provider, &model, &systemPrompt, &workDir,
-		&config, &metadata, &a.CreatedAt, &a.UpdatedAt,
+		&orgID, &config, &metadata, &a.CreatedAt, &a.UpdatedAt,
 		&startedAt, &stoppedAt, &agentError,
 	)
 	if err == sql.ErrNoRows {
@@ -130,6 +139,7 @@ func (s *AgentService) Get(id string) (*models.Agent, error) {
 	a.Model = model.String
 	a.SystemPrompt = systemPrompt.String
 	a.WorkDir = workDir.String
+	a.OrganizationID = orgID.String
 	a.Error = agentError.String
 	if startedAt.Valid {
 		a.StartedAt = &startedAt.Time
@@ -166,11 +176,11 @@ func (s *AgentService) Create(req *models.AgentCreate) (*models.Agent, error) {
 	configJSON, _ := json.Marshal(req.Config)
 	metadataJSON, _ := json.Marshal(req.Metadata)
 
-	query := `INSERT INTO agents (id, name, status, provider, model, system_prompt, work_dir, config, metadata, created_at, updated_at)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+	query := `INSERT INTO agents (id, name, status, provider, model, system_prompt, work_dir, organization_id, config, metadata, created_at, updated_at)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 
 	_, err := s.db.Exec(query, id, req.Name, status, req.Provider, req.Model,
-		req.SystemPrompt, req.WorkDir, string(configJSON), string(metadataJSON), now, now)
+		req.SystemPrompt, req.WorkDir, req.OrganizationID, string(configJSON), string(metadataJSON), now, now)
 	if err != nil {
 		return nil, err
 	}
@@ -216,6 +226,10 @@ func (s *AgentService) Update(id string, req *models.AgentUpdate) (*models.Agent
 	if req.WorkDir != nil {
 		query += `, work_dir = ?`
 		args = append(args, *req.WorkDir)
+	}
+	if req.OrganizationID != nil {
+		query += `, organization_id = ?`
+		args = append(args, *req.OrganizationID)
 	}
 	if req.Config != nil {
 		configJSON, _ := json.Marshal(req.Config)
@@ -375,4 +389,66 @@ func (s *AgentService) CreateLLMClient(agent *models.Agent, apiKey string) (llmc
 	default:
 		return nil, fmt.Errorf("unsupported LLM provider: %s", provider)
 	}
+}
+
+// GetLogs returns logs for an agent, ordered by most recent first.
+func (s *AgentService) GetLogs(agentID string, limit int) ([]*models.AgentLog, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
+	// Validate limit
+	if limit <= 0 || limit > 1000 {
+		limit = 100
+	}
+
+	query := `SELECT id, agent_id, level, message, metadata, created_at
+		FROM agent_logs WHERE agent_id = ?
+		ORDER BY created_at DESC LIMIT ?`
+
+	rows, err := s.db.Query(query, agentID, limit)
+	if err != nil {
+		return nil, err
+	}
+	defer rows.Close()
+
+	var logs []*models.AgentLog
+	for rows.Next() {
+		log := &models.AgentLog{}
+		var metadata sql.NullString
+
+		err := rows.Scan(&log.ID, &log.AgentID, &log.Level, &log.Message, &metadata, &log.CreatedAt)
+		if err != nil {
+			return nil, err
+		}
+
+		if metadata.Valid && metadata.String != "" {
+			_ = json.Unmarshal([]byte(metadata.String), &log.Metadata)
+		}
+
+		logs = append(logs, log)
+	}
+
+	return logs, nil
+}
+
+// AddLog adds a log entry for an agent.
+func (s *AgentService) AddLog(agentID string, level models.LogLevel, message string, metadata map[string]interface{}) error {
+	if s.db == nil {
+		return ErrNoDatabase
+	}
+
+	id := uuid.New().String()
+	now := time.Now().UTC()
+	metadataJSON, _ := json.Marshal(metadata)
+
+	query := `INSERT INTO agent_logs (id, agent_id, level, message, metadata, created_at)
+		VALUES (?, ?, ?, ?, ?, ?)`
+
+	_, err := s.db.Exec(query, id, agentID, level, message, string(metadataJSON), now)
+	if err != nil {
+		return err
+	}
+
+	return nil
 }

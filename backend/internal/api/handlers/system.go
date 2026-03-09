@@ -29,9 +29,9 @@ func NewSystemHandler(agentSvc *services.AgentService, todoSvc *services.TODOSer
 // Status returns the system status.
 func (h *SystemHandler) Status(c *fiber.Ctx) error {
 	// Get counts
-	agents, _ := h.agentSvc.List()
-	todos, _ := h.todoSvc.List()
-	crons, _ := h.cronSvc.List()
+	agents, _ := h.agentSvc.List(nil)
+	todos, _ := h.todoSvc.List(nil)
+	crons, _ := h.cronSvc.List(nil)
 
 	// Count by status
 	agentCounts := make(map[string]int)

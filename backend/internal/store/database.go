@@ -41,6 +41,20 @@ func InitDB(path string) (*sql.DB, error) {
 // RunMigrations creates all necessary tables if they don't exist.
 func RunMigrations(db *sql.DB) error {
 	migrations := []string{
+		// Organizations table
+		`CREATE TABLE IF NOT EXISTS organizations (
+			id TEXT PRIMARY KEY,
+			name TEXT NOT NULL,
+			slug TEXT NOT NULL UNIQUE,
+			owner_id TEXT NOT NULL,
+			settings TEXT,
+			metadata TEXT,
+			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_organizations_slug ON organizations(slug)`,
+		`CREATE INDEX IF NOT EXISTS idx_organizations_owner ON organizations(owner_id)`,
+
 		`CREATE TABLE IF NOT EXISTS agents (
 			id TEXT PRIMARY KEY,
 			name TEXT NOT NULL,
@@ -49,6 +63,7 @@ func RunMigrations(db *sql.DB) error {
 			model TEXT,
 			system_prompt TEXT,
 			work_dir TEXT DEFAULT '~/sandbox',
+			organization_id TEXT,
 			config TEXT,
 			metadata TEXT,
 			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -68,6 +83,7 @@ func RunMigrations(db *sql.DB) error {
 			priority INTEGER NOT NULL DEFAULT 0,
 			progress INTEGER NOT NULL DEFAULT 0,
 			agent_id TEXT,
+			organization_id TEXT,
 			skills TEXT,
 			dependencies TEXT,
 			config TEXT,
@@ -76,8 +92,7 @@ func RunMigrations(db *sql.DB) error {
 			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 			started_at DATETIME,
-			completed_at DATETIME,
-			FOREIGN KEY (agent_id) REFERENCES agents(id) ON DELETE SET NULL
+			completed_at DATETIME
 		)`,
 		`CREATE INDEX IF NOT EXISTS idx_todos_status ON todos(status)`,
 		`CREATE INDEX IF NOT EXISTS idx_todos_priority ON todos(priority)`,
@@ -91,6 +106,7 @@ func RunMigrations(db *sql.DB) error {
 			timezone TEXT DEFAULT 'UTC',
 			status TEXT NOT NULL DEFAULT 'active',
 			agent_id TEXT NOT NULL,
+			organization_id TEXT,
 			task_name TEXT,
 			task_config TEXT,
 			last_run_at DATETIME,
@@ -101,8 +117,7 @@ func RunMigrations(db *sql.DB) error {
 			success_count INTEGER NOT NULL DEFAULT 0,
 			fail_count INTEGER NOT NULL DEFAULT 0,
 			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-			FOREIGN KEY (agent_id) REFERENCES agents(id) ON DELETE CASCADE
+			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 		)`,
 		`CREATE INDEX IF NOT EXISTS idx_cron_status ON cron_jobs(status)`,
 		`CREATE INDEX IF NOT EXISTS idx_cron_next_run ON cron_jobs(next_run_at)`,
@@ -141,6 +156,18 @@ func RunMigrations(db *sql.DB) error {
 		)`,
 		`CREATE INDEX IF NOT EXISTS idx_chat_agent ON chat_messages(agent_id)`,
 		`CREATE INDEX IF NOT EXISTS idx_chat_created ON chat_messages(created_at)`,
+
+		`CREATE TABLE IF NOT EXISTS agent_logs (
+			id TEXT PRIMARY KEY,
+			agent_id TEXT NOT NULL,
+			level TEXT NOT NULL,
+			message TEXT NOT NULL,
+			metadata TEXT,
+			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			FOREIGN KEY (agent_id) REFERENCES agents(id) ON DELETE CASCADE
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_logs_agent ON agent_logs(agent_id)`,
+		`CREATE INDEX IF NOT EXISTS idx_logs_created ON agent_logs(created_at)`,
 	}
 
 	for i, migration := range migrations {
@@ -159,6 +186,24 @@ func RunMigrations(db *sql.DB) error {
 
 	// Add work_dir column if it doesn't exist (migration for existing databases)
 	_, _ = db.Exec(`ALTER TABLE agents ADD COLUMN work_dir TEXT DEFAULT '~/sandbox'`)
+
+	// Add organization_id columns for existing databases
+	_, _ = db.Exec(`ALTER TABLE agents ADD COLUMN organization_id TEXT`)
+	_, _ = db.Exec(`ALTER TABLE todos ADD COLUMN organization_id TEXT`)
+	_, _ = db.Exec(`ALTER TABLE cron_jobs ADD COLUMN organization_id TEXT`)
+
+	// Create indexes for organization_id if they don't exist
+	_, _ = db.Exec(`CREATE INDEX IF NOT EXISTS idx_agents_organization ON agents(organization_id)`)
+	_, _ = db.Exec(`CREATE INDEX IF NOT EXISTS idx_todos_organization ON todos(organization_id)`)
+	_, _ = db.Exec(`CREATE INDEX IF NOT EXISTS idx_cron_organization ON cron_jobs(organization_id)`)
+
+	// Add update timestamp trigger for organizations
+	orgTrigger := `CREATE TRIGGER IF NOT EXISTS update_org_timestamp
+		AFTER UPDATE ON organizations
+		BEGIN
+			UPDATE organizations SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+		END`
+	_, _ = db.Exec(orgTrigger)
 
 	trigger = `CREATE TRIGGER IF NOT EXISTS update_todo_timestamp 
 		AFTER UPDATE ON todos
