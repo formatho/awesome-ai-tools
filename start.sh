@@ -41,6 +41,16 @@ build_backend() {
     echo "  Building for linux-amd64..."
     GOOS=linux GOARCH=amd64 go build -o bin/agent-orchestrator-server-linux-amd64 ./cmd/server
 
+    # Update packaged Electron apps if they exist
+    if [ -d "$FRONTEND_DIR/release/mac-arm64" ]; then
+        echo "  Updating packaged mac-arm64 app..."
+        cp bin/agent-orchestrator-server-darwin-arm64 "$FRONTEND_DIR/release/mac-arm64/Agent Orchestrator.app/Contents/Resources/backend/server"
+    fi
+    if [ -d "$FRONTEND_DIR/release/mac" ]; then
+        echo "  Updating packaged mac-amd64 app..."
+        cp bin/agent-orchestrator-server-darwin-amd64 "$FRONTEND_DIR/release/mac/Agent Orchestrator.app/Contents/Resources/backend/server"
+    fi
+
     echo "✅ Backend build complete"
 }
 
