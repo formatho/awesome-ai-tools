@@ -33,7 +33,11 @@ func (s *OrgService) List() ([]*models.Organization, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if cerr := rows.Close(); cerr != nil {
+			fmt.Printf("Warning: failed to close rows: %v\n", cerr)
+		}
+	}()
 
 	var orgs []*models.Organization
 	for rows.Next() {
@@ -134,7 +138,11 @@ func (s *OrgService) GetByOwner(ownerID string) ([]*models.Organization, error) 
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if cerr := rows.Close(); cerr != nil {
+			fmt.Printf("Warning: failed to close rows: %v\n", cerr)
+		}
+	}()
 
 	var orgs []*models.Organization
 	for rows.Next() {

@@ -51,7 +51,11 @@ func (s *ChatService) GetHistory(agentID string) ([]*models.ChatMessage, error) 
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if cerr := rows.Close(); cerr != nil {
+			fmt.Printf("Warning: failed to close rows: %v\n", cerr)
+		}
+	}()
 
 	var messages []*models.ChatMessage
 	for rows.Next() {

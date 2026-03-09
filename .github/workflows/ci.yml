@@ -75,7 +75,7 @@ jobs:
             if [ -f "${module}go.mod" ]; then
               echo "Testing ${module}..."
               cd ${module}
-              go test -v -timeout 60s -coverprofile=coverage.out ./...
+              CI=true go test -v -timeout 60s -coverprofile=coverage.out ./...
               if [ -f coverage.out ]; then
                 mkdir -p ../../coverage
                 cp coverage.out "../../coverage/$(basename ${module%/}).out"
@@ -83,6 +83,14 @@ jobs:
               cd - > /dev/null
             fi
           done
+      
+      - name: Test backend module
+        run: |
+          echo "Testing backend..."
+          cd backend
+          CI=true go test -v -timeout 60s -coverprofile=coverage.out ./...
+          mkdir -p ../../coverage
+          cp coverage.out "../../coverage/backend.out"
       
       - name: Check coverage
         run: |

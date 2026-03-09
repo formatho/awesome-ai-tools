@@ -3,6 +3,7 @@ package services
 import (
 	"database/sql"
 	"encoding/json"
+	"fmt"
 	"time"
 
 	"github.com/formatho/agent-orchestrator/backend/internal/api/websocket"
@@ -54,7 +55,11 @@ func (s *CronService) List(orgID *string) ([]*models.Cron, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if cerr := rows.Close(); cerr != nil {
+			fmt.Printf("Warning: failed to close rows: %v\n", cerr)
+		}
+	}()
 
 	var jobs []*models.Cron
 	for rows.Next() {
@@ -289,7 +294,11 @@ func (s *CronService) GetHistory(id string, limit int) ([]*models.CronHistory, e
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if cerr := rows.Close(); cerr != nil {
+			fmt.Printf("Warning: failed to close rows: %v\n", cerr)
+		}
+	}()
 
 	var history []*models.CronHistory
 	for rows.Next() {

@@ -3,6 +3,7 @@ package services
 import (
 	"database/sql"
 	"encoding/json"
+	"fmt"
 	"time"
 
 	"github.com/formatho/agent-orchestrator/backend/internal/api/websocket"
@@ -59,7 +60,11 @@ func (s *TODOService) List(orgID *string) ([]*models.TODO, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if cerr := rows.Close(); cerr != nil {
+			fmt.Printf("Warning: failed to close rows: %v\n", cerr)
+		}
+	}()
 
 	var todos []*models.TODO
 	for rows.Next() {

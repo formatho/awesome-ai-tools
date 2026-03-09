@@ -6,13 +6,19 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"os"
 	"testing"
 	"time"
 )
 
-// Test Local LLM Integration with Agent Orchestrator
+// TestLocalLLM_AgentResponse tests local LLM integration (requires LM Studio running on port 1234 and server on port 18765)
 func TestLocalLLM_AgentResponse(t *testing.T) {
 	t.Log("=== Testing Agent Response with Local LLM ===")
+
+	// Skip in CI environments where these services are not available
+	if os.Getenv("CI") == "true" {
+		t.Skip("Skipping local LLM test in CI environment")
+	}
 
 	// 1. Check if LM Studio is running
 	t.Log("Step 1: Check LM Studio availability")
@@ -147,8 +153,13 @@ func TestLocalLLM_AgentResponse(t *testing.T) {
 	t.Log("✅ Local LLM integration test passed!")
 }
 
-// Benchmark Local LLM Response Time
+// BenchmarkLocalLLM_ResponseTime benchmarks local LLM response time (requires LM Studio running on port 1234)
 func BenchmarkLocalLLM_ResponseTime(b *testing.B) {
+	// Skip in CI environments where LM Studio is not available
+	if os.Getenv("CI") == "true" {
+		b.Skip("Skipping benchmark in CI environment")
+	}
+
 	modelID := "qwen/qwen3.5-35b-a3b"
 
 	for i := 0; i < b.N; i++ {
@@ -168,9 +179,14 @@ func BenchmarkLocalLLM_ResponseTime(b *testing.B) {
 	}
 }
 
-// Test Multiple Agents with Different Models
+// TestMultiModel_Agents tests multiple agents with different models (requires server running on port 18765)
 func TestMultiModel_Agents(t *testing.T) {
 	t.Log("=== Testing Multiple Agents with Different Models ===")
+
+	// Skip in CI environments where the server is not available
+	if os.Getenv("CI") == "true" {
+		t.Skip("Skipping multi-model test in CI environment")
+	}
 
 	models := []string{
 		"qwen/qwen3.5-35b-a3b",
