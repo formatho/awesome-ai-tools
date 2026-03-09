@@ -34,6 +34,10 @@ func main() {
 	if port == "" {
 		port = ":18765"
 	}
+	// Ensure port has colon prefix for Listen
+	if port != "" && port[0] != ':' {
+		port = ":" + port
+	}
 
 	log.Printf("🚀 Server starting on http://localhost%s", port)
 	log.Printf("📊 API: http://localhost%s/api", port)
