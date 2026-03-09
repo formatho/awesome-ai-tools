@@ -15,56 +15,49 @@ jobs:
       
       - uses: actions/setup-go@v5
         with:
-          go-version: '1.23'
+          go-version: '1.24'
       
       - name: golangci-lint
         uses: golangci/golangci-lint-action@v4
         with:
-          version: latest
+          version: v2.11.2
           working-directory: packages/llm-client
-          args: --skip-dirs=vendor
       
       - name: golangci-lint (agent-pool)
         uses: golangci/golangci-lint-action@v4
         with:
-          version: latest
+          version: v2.11.2
           working-directory: packages/agent-pool
-          args: --skip-dirs=vendor
       
       - name: golangci-lint (agent-skills)
         uses: golangci/golangci-lint-action@v4
         with:
-          version: latest
+          version: v2.11.2
           working-directory: packages/agent-skills
-          args: --skip-dirs=vendor
       
       - name: golangci-lint (todo-queue)
         uses: golangci/golangci-lint-action@v4
         with:
-          version: latest
+          version: v2.11.2
           working-directory: packages/todo-queue
-          args: --skip-dirs=vendor
       
       - name: golangci-lint (cron-agents)
         uses: golangci/golangci-lint-action@v4
         with:
-          version: latest
+          version: v2.11.2
           working-directory: packages/cron-agents
-          args: --skip-dirs=vendor
       
       - name: golangci-lint (agent-config)
         uses: golangci/golangci-lint-action@v4
         with:
-          version: latest
+          version: v2.11.2
           working-directory: packages/agent-config
-          args: --skip-dirs=vendor
       
       - name: golangci-lint (backend)
         uses: golangci/golangci-lint-action@v4
         with:
-          version: latest
+          version: v2.11.2
           working-directory: backend
-          args: --skip-dirs=vendor
 
   test:
     runs-on: ubuntu-latest
@@ -73,7 +66,7 @@ jobs:
       
       - uses: actions/setup-go@v5
         with:
-          go-version: '1.23'
+          go-version: '1.24'
       
       - name: Run tests
         run: |
@@ -127,7 +120,7 @@ jobs:
       
       - uses: actions/setup-go@v5
         with:
-          go-version: '1.23'
+          go-version: '1.24'
       
       - name: Build
         run: |
