@@ -378,9 +378,9 @@ export default function ConfigEditor() {
                     </label>
                     <input
                       type="text"
-                      value={config.models.default.baseUrl || (config.models.default.provider === 'ollama' ? 'http://localhost:11434' : 'https://open.bigmodel.cn/api/paas/v4')}
+                      value={config.models.default.baseUrl || (config.models.default.provider === 'ollama' ? 'http://localhost:11434' : 'https://api.z.ai/api/coding/paas/v4')}
                       onChange={(e) => updateModelConfig('baseUrl', e.target.value)}
-                      placeholder={config.models.default.provider === 'ollama' ? 'http://localhost:11434' : 'https://open.bigmodel.cn/api/paas/v4'}
+                      placeholder={config.models.default.provider === 'ollama' ? 'http://localhost:11434' : 'https://api.z.ai/api/coding/paas/v4'}
                       className="input w-full"
                     />
                   </div>
