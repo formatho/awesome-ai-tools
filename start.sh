@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Agent Orchestrator Startup Script
-# Usage: ./start.sh [backend|frontend|all]
+# Usage: ./start.sh [backend|frontend|all|build]
 
 set -e
 
@@ -10,6 +10,65 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$SCRIPT_DIR"
 BACKEND_DIR="$PROJECT_ROOT/backend"
 FRONTEND_DIR="$PROJECT_ROOT/electron-app"
+
+build_backend() {
+    echo "📦 Building Backend (all platforms)..."
+    cd "$BACKEND_DIR"
+
+    # Detect current platform
+    CURRENT_OS=$(uname -s | tr '[:upper:]' '[:lower:]')
+    CURRENT_ARCH=$(uname -m)
+    if [ "$CURRENT_ARCH" = "arm64" ]; then
+        CURRENT_ARCH="arm64"
+    else
+        CURRENT_ARCH="amd64"
+    fi
+
+    # Build for current platform (fast, for development)
+    echo "  Building for $CURRENT_OS-$CURRENT_ARCH..."
+    go build -o bin/server ./cmd/server
+
+    # Build all platforms for Electron packaging
+    echo "  Building for darwin-arm64..."
+    GOOS=darwin GOARCH=arm64 go build -o bin/agent-orchestrator-server-darwin-arm64 ./cmd/server
+
+    echo "  Building for darwin-amd64..."
+    GOOS=darwin GOARCH=amd64 go build -o bin/agent-orchestrator-server-darwin-amd64 ./cmd/server
+
+    echo "  Building for linux-arm64..."
+    GOOS=linux GOARCH=arm64 go build -o bin/agent-orchestrator-server-linux-arm64 ./cmd/server
+
+    echo "  Building for linux-amd64..."
+    GOOS=linux GOARCH=amd64 go build -o bin/agent-orchestrator-server-linux-amd64 ./cmd/server
+
+    echo "✅ Backend build complete"
+}
+
+build_frontend() {
+    echo "📦 Building Frontend..."
+    cd "$FRONTEND_DIR"
+
+    # Install dependencies if needed
+    if [ ! -d "node_modules" ]; then
+        echo "  Installing dependencies..."
+        npm install
+    fi
+
+    echo "  Building React app..."
+    npm run build
+
+    echo "✅ Frontend build complete"
+}
+
+build_all() {
+    echo "🔨 Building Everything..."
+    echo ""
+    build_backend
+    echo ""
+    build_frontend
+    echo ""
+    echo "✅ All builds complete!"
+}
 
 start_backend() {
     echo "🔧 Starting Backend API Server..."
@@ -79,15 +138,19 @@ case "${1:-all}" in
     frontend)
         start_frontend
         ;;
+    build)
+        build_all
+        ;;
     all)
         start_all
         ;;
     *)
-        echo "Usage: $0 [backend|frontend|all]"
+        echo "Usage: $0 [backend|frontend|all|build]"
         echo ""
         echo "  backend  - Start only the Go API server"
         echo "  frontend - Start only the Electron app"
         echo "  all      - Start both (default)"
+        echo "  build    - Build backend (all platforms) and frontend"
         exit 1
         ;;
 esac

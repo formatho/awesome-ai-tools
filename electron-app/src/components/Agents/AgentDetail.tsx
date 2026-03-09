@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, Play, Pause, Trash2, Settings, Activity, Clock, CheckCircle, XCircle, MessageSquare, Loader2, Terminal, Info, AlertTriangle, AlertCircle } from 'lucide-react'
 import { useAgent, useAgentLogs, useAgentMutations } from '../../hooks/useAPI'
+import type { AgentLog } from '../../types'
 
 export default function AgentDetail() {
   const { id } = useParams()
@@ -186,7 +187,7 @@ export default function AgentDetail() {
           ) : (
             <div className="bg-background rounded-lg border border-border overflow-hidden max-h-96 overflow-y-auto">
               <div className="divide-y divide-border">
-                {logs.map((log) => (
+                {logs.map((log: AgentLog) => (
                   <LogEntry key={log.id} log={log} />
                 ))}
               </div>
@@ -223,7 +224,7 @@ function ConfigItem({ label, value }: { label: string; value: string }) {
   )
 }
 
-function LogEntry({ log }: { log: { id: string; level: string; message: string; created_at: string; metadata?: Record<string, unknown> | null } }) {
+function LogEntry({ log }: { log: AgentLog }) {
   const getLevelIcon = () => {
     switch (log.level) {
       case 'info':
