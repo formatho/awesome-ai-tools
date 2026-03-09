@@ -17,7 +17,6 @@ linters:
     - govet
     - staticcheck
     - ineffassign
-    - typecheck
     - unused
 
 issues:
