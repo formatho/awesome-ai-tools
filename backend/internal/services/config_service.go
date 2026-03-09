@@ -124,6 +124,21 @@ func (s *ConfigService) TestLLM(req *models.LLMTestRequest) (*models.LLMTestResp
 			APIKey:  req.APIKey,
 			BaseURL: req.BaseURL,
 		})
+	case "groq", "mistral", "openrouter":
+		// Use gollm for these providers
+		gollmProvider, err := llmclient.NewGollmProvider(llmclient.GollmConfig{
+			Provider: providerType,
+			Model:    req.Model,
+			APIKey:   req.APIKey,
+			BaseURL:  req.BaseURL,
+		})
+		if err != nil {
+			return &models.LLMTestResponse{
+				Success: false,
+				Message: fmt.Sprintf("Failed to create gollm provider: %v", err),
+			}, nil
+		}
+		provider = gollmProvider
 	default:
 		return &models.LLMTestResponse{
 			Success: false,

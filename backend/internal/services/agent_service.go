@@ -390,6 +390,21 @@ func (s *AgentService) CreateLLMClient(agent *models.Agent, apiKey string) (llmc
 		return llmclient.NewZAIProvider(llmclient.ZAIConfig{
 			APIKey: apiKey,
 		}), nil
+	case "ollama":
+		return llmclient.NewOllamaProvider(llmclient.OllamaConfig{
+			BaseURL: agent.BaseURL,
+		}), nil
+	case "groq", "mistral", "openrouter":
+		// Use gollm for these providers
+		client, err := llmclient.NewGollmProvider(llmclient.GollmConfig{
+			Provider: provider,
+			Model:    agent.Model,
+			APIKey:   apiKey,
+		})
+		if err != nil {
+			return nil, fmt.Errorf("failed to create gollm provider: %w", err)
+		}
+		return client, nil
 	default:
 		return nil, fmt.Errorf("unsupported LLM provider: %s", provider)
 	}

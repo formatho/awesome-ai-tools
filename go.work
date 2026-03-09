@@ -1,4 +1,4 @@
-go 1.23
+go 1.25.0
 
 use (
 	./backend
@@ -6,6 +6,7 @@ use (
 	./packages/agent-pool
 	./packages/agent-skills
 	./packages/cron-agents
+	./packages/goagent
 	./packages/llm-client
 	./packages/todo-queue
 )
