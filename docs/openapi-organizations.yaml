@@ -1,0 +1,358 @@
+openapi: 3.0.0
+info:
+  title: Agent Orchestrator API - Organizations
+  description: |
+    Organization management API for Agent Orchestrator.
+    Provides multi-tenancy support with organization-based isolation of resources.
+  version: 1.0.0
+  contact:
+    name: Formatho
+    url: https://formatho.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: http://localhost:18765/api
+    description: Local development server
+  - url: https://api.formatho.com/api
+    description: Production server
+
+tags:
+  - name: organizations
+    description: Organization management operations
+
+paths:
+  /organizations:
+    get:
+      tags:
+        - organizations
+      summary: List all organizations
+      description: Retrieve a list of all organizations
+      operationId: listOrganizations
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Organization'
+    post:
+      tags:
+        - organizations
+      summary: Create a new organization
+      description: Create a new organization with the specified details
+      operationId: createOrganization
+      parameters:
+        - name: X-Owner-ID
+          in: header
+          description: ID of the organization owner
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrganizationCreate'
+      responses:
+        '201':
+          description: Organization created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Organization'
+        '400':
+          description: Invalid request body
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /organizations/{id}:
+    get:
+      tags:
+        - organizations
+      summary: Get organization by ID
+      description: Retrieve a specific organization by its ID
+      operationId: getOrganization
+      parameters:
+        - name: id
+          in: path
+          description: Organization ID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Organization'
+        '404':
+          description: Organization not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    put:
+      tags:
+        - organizations
+      summary: Update an organization
+      description: Update an existing organization's details
+      operationId: updateOrganization
+      parameters:
+        - name: id
+          in: path
+          description: Organization ID
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrganizationUpdate'
+      responses:
+        '200':
+          description: Organization updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Organization'
+        '404':
+          description: Organization not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    delete:
+      tags:
+        - organizations
+      summary: Delete an organization
+      description: Delete an organization by ID
+      operationId: deleteOrganization
+      parameters:
+        - name: id
+          in: path
+          description: Organization ID
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Organization deleted successfully
+        '404':
+          description: Organization not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /organizations/slug/{slug}:
+    get:
+      tags:
+        - organizations
+      summary: Get organization by slug
+      description: Retrieve an organization by its slug
+      operationId: getOrganizationBySlug
+      parameters:
+        - name: slug
+          in: path
+          description: Organization slug
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Organization'
+        '404':
+          description: Organization not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /organizations/owner/{ownerId}:
+    get:
+      tags:
+        - organizations
+      summary: Get organizations by owner
+      description: Retrieve all organizations for a specific owner
+      operationId: getOrganizationsByOwner
+      parameters:
+        - name: ownerId
+          in: path
+          description: Owner user ID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Organization'
+
+  /organizations/switch:
+    post:
+      tags:
+        - organizations
+      summary: Switch active organization
+      description: Switch the active organization for the current user
+      operationId: switchOrganization
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrganizationSwitch'
+      responses:
+        '200':
+          description: Organization switched successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  organization:
+                    $ref: '#/components/schemas/Organization'
+                  organizationId:
+                    type: string
+        '404':
+          description: Organization not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+components:
+  schemas:
+    Organization:
+      type: object
+      required:
+        - id
+        - name
+        - slug
+        - owner_id
+        - created_at
+        - updated_at
+      properties:
+        id:
+          type: string
+          description: Unique organization identifier (UUID)
+          format: uuid
+        name:
+          type: string
+          description: Organization name
+        slug:
+          type: string
+          description: URL-friendly organization identifier
+        owner_id:
+          type: string
+          description: ID of the organization owner
+          format: uuid
+        settings:
+          type: object
+          description: Organization settings
+          additionalProperties: true
+        metadata:
+          type: object
+          description: Additional organization metadata
+          additionalProperties: true
+        created_at:
+          type: string
+          format: date-time
+          description: Creation timestamp
+        updated_at:
+          type: string
+          format: date-time
+          description: Last update timestamp
+
+    OrganizationCreate:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          description: Organization name
+          example: "My Company"
+        slug:
+          type: string
+          description: URL-friendly identifier (auto-generated if not provided)
+          example: "my-company"
+        settings:
+          type: object
+          description: Organization settings
+          example:
+            max_agents: 10
+            max_todos: 100
+        metadata:
+          type: object
+          description: Additional metadata
+          example:
+            tier: "premium"
+            trial: false
+
+    OrganizationUpdate:
+      type: object
+      properties:
+        name:
+          type: string
+          description: New organization name
+          example: "Updated Company Name"
+        settings:
+          type: object
+          description: Updated organization settings
+          example:
+            max_agents: 20
+        metadata:
+          type: object
+          description: Updated metadata
+          example:
+            tier: "enterprise"
+
+    OrganizationSwitch:
+      type: object
+      required:
+        - organization_id
+      properties:
+        organization_id:
+          type: string
+          description: ID of the organization to switch to
+          format: uuid
+          example: "123e4567-e89b-12d3-a456-426614174000"
+
+    Error:
+      type: object
+      required:
+        - error
+      properties:
+        error:
+          type: string
+          description: Error message
+          example: "organization not found"
+
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      description: JWT token authentication (not yet implemented)
+
+security:
+  - BearerAuth: []

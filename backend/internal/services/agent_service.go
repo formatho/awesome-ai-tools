@@ -386,6 +386,10 @@ func (s *AgentService) CreateLLMClient(agent *models.Agent, apiKey string) (llmc
 			APIKey: apiKey,
 			Model:  agent.Model,
 		}), nil
+	case "zai":
+		return llmclient.NewZAIProvider(llmclient.ZAIConfig{
+			APIKey: apiKey,
+		}), nil
 	default:
 		return nil, fmt.Errorf("unsupported LLM provider: %s", provider)
 	}
