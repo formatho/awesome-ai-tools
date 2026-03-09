@@ -1,6 +1,6 @@
 module github.com/formatho/agent-orchestrator/packages/goagent
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/Protocol-Lattice/go-agent v1.11.3
