@@ -36,6 +36,7 @@ func setupOrgFilteringDB(t *testing.T) (*sql.DB, string, string, string, string)
 			status TEXT NOT NULL DEFAULT 'idle',
 			provider TEXT,
 			model TEXT,
+			base_url TEXT,
 			system_prompt TEXT,
 			work_dir TEXT DEFAULT '~/sandbox',
 			organization_id TEXT,
