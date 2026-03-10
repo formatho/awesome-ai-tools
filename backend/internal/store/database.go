@@ -61,6 +61,7 @@ func RunMigrations(db *sql.DB) error {
 			status TEXT NOT NULL DEFAULT 'idle',
 			provider TEXT,
 			model TEXT,
+			base_url TEXT,
 			system_prompt TEXT,
 			work_dir TEXT DEFAULT '~/sandbox',
 			organization_id TEXT,
@@ -184,15 +185,7 @@ func RunMigrations(db *sql.DB) error {
 		END`
 	_, _ = db.Exec(trigger)
 
-	// Add work_dir column if it doesn't exist (migration for existing databases)
-	_, _ = db.Exec(`ALTER TABLE agents ADD COLUMN work_dir TEXT DEFAULT '~/sandbox'`)
-
-	// Add organization_id columns for existing databases
-	_, _ = db.Exec(`ALTER TABLE agents ADD COLUMN organization_id TEXT`)
-	_, _ = db.Exec(`ALTER TABLE todos ADD COLUMN organization_id TEXT`)
-	_, _ = db.Exec(`ALTER TABLE cron_jobs ADD COLUMN organization_id TEXT`)
-
-	// Create indexes for organization_id if they don't exist
+	// Create indexes for organization_id (these are safe to run multiple times with IF NOT EXISTS)
 	_, _ = db.Exec(`CREATE INDEX IF NOT EXISTS idx_agents_organization ON agents(organization_id)`)
 	_, _ = db.Exec(`CREATE INDEX IF NOT EXISTS idx_todos_organization ON todos(organization_id)`)
 	_, _ = db.Exec(`CREATE INDEX IF NOT EXISTS idx_cron_organization ON cron_jobs(organization_id)`)

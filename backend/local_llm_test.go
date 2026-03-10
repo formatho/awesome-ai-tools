@@ -15,8 +15,8 @@ import (
 func TestLocalLLM_AgentResponse(t *testing.T) {
 	t.Log("=== Testing Agent Response with Local LLM ===")
 
-	// Skip in CI environments where these services are not available
-	if os.Getenv("CI") == "true" {
+	// Skip in CI environments or if services are not available
+	if os.Getenv("CI") == "true" || os.Getenv("SKIP_LOCAL_LLM_TEST") == "true" {
 		t.Skip("Skipping local LLM test in CI environment")
 	}
 
