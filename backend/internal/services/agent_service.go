@@ -69,17 +69,28 @@ func (s *AgentService) List(orgID *string) ([]*models.Agent, error) {
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if cerr := rows.Close(); cerr != nil {
+			fmt.Printf("Warning: failed to close rows: %v\n", cerr)
+		}
+	}()
 
 	var agents []*models.Agent
 	for rows.Next() {
 		a := &models.Agent{}
 		var config, metadata sql.NullString
 		var startedAt, stoppedAt sql.NullTime
+<<<<<<< HEAD
 		var provider, model, systemPrompt, baseURL, workDir, orgID, agentError sql.NullString
 
 		err := rows.Scan(
 			&a.ID, &a.Name, &a.Status, &provider, &model, &systemPrompt, &baseURL, &workDir,
+=======
+		var provider, model, baseURL, systemPrompt, workDir, orgID, agentError sql.NullString
+
+		err := rows.Scan(
+			&a.ID, &a.Name, &a.Status, &provider, &model, &baseURL, &systemPrompt, &workDir,
+>>>>>>> dc61828bb4bd059655b7cd4563a8d6a12995df1b
 			&orgID, &config, &metadata, &a.CreatedAt, &a.UpdatedAt,
 			&startedAt, &stoppedAt, &agentError,
 		)
@@ -89,6 +100,7 @@ func (s *AgentService) List(orgID *string) ([]*models.Agent, error) {
 
 		a.Provider = provider.String
 		a.Model = model.String
+		a.BaseURL = baseURL.String
 		a.SystemPrompt = systemPrompt.String
 		a.BaseURL = baseURL.String
 		a.WorkDir = workDir.String
@@ -120,17 +132,28 @@ func (s *AgentService) Get(id string) (*models.Agent, error) {
 		return nil, ErrNoDatabase
 	}
 
+<<<<<<< HEAD
 	query := `SELECT id, name, status, provider, model, system_prompt, base_url, work_dir, organization_id, config, metadata,
+=======
+	query := `SELECT id, name, status, provider, model, base_url, system_prompt, work_dir, organization_id, config, metadata,
+>>>>>>> dc61828bb4bd059655b7cd4563a8d6a12995df1b
 		created_at, updated_at, started_at, stopped_at, error
 		FROM agents WHERE id = ?`
 
 	a := &models.Agent{}
 	var config, metadata sql.NullString
 	var startedAt, stoppedAt sql.NullTime
+<<<<<<< HEAD
 	var provider, model, systemPrompt, baseURL, workDir, orgID, agentError sql.NullString
 
 	err := s.db.QueryRow(query, id).Scan(
 		&a.ID, &a.Name, &a.Status, &provider, &model, &systemPrompt, &baseURL, &workDir,
+=======
+	var provider, model, baseURL, systemPrompt, workDir, orgID, agentError sql.NullString
+
+	err := s.db.QueryRow(query, id).Scan(
+		&a.ID, &a.Name, &a.Status, &provider, &model, &baseURL, &systemPrompt, &workDir,
+>>>>>>> dc61828bb4bd059655b7cd4563a8d6a12995df1b
 		&orgID, &config, &metadata, &a.CreatedAt, &a.UpdatedAt,
 		&startedAt, &stoppedAt, &agentError,
 	)
@@ -143,6 +166,7 @@ func (s *AgentService) Get(id string) (*models.Agent, error) {
 
 	a.Provider = provider.String
 	a.Model = model.String
+	a.BaseURL = baseURL.String
 	a.SystemPrompt = systemPrompt.String
 	a.BaseURL = baseURL.String
 	a.WorkDir = workDir.String
@@ -183,11 +207,19 @@ func (s *AgentService) Create(req *models.AgentCreate) (*models.Agent, error) {
 	configJSON, _ := json.Marshal(req.Config)
 	metadataJSON, _ := json.Marshal(req.Metadata)
 
+<<<<<<< HEAD
 	query := `INSERT INTO agents (id, name, status, provider, model, system_prompt, base_url, work_dir, organization_id, config, metadata, created_at, updated_at)
 		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 
 	_, err := s.db.Exec(query, id, req.Name, status, req.Provider, req.Model,
 		req.SystemPrompt, "", req.WorkDir, req.OrganizationID, string(configJSON), string(metadataJSON), now, now)
+=======
+	query := `INSERT INTO agents (id, name, status, provider, model, base_url, system_prompt, work_dir, organization_id, config, metadata, created_at, updated_at)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+
+	_, err := s.db.Exec(query, id, req.Name, status, req.Provider, req.Model,
+		req.BaseURL, req.SystemPrompt, req.WorkDir, req.OrganizationID, string(configJSON), string(metadataJSON), now, now)
+>>>>>>> dc61828bb4bd059655b7cd4563a8d6a12995df1b
 	if err != nil {
 		return nil, err
 	}
@@ -225,6 +257,10 @@ func (s *AgentService) Update(id string, req *models.AgentUpdate) (*models.Agent
 	if req.Model != nil {
 		query += `, model = ?`
 		args = append(args, *req.Model)
+	}
+	if req.BaseURL != nil {
+		query += `, base_url = ?`
+		args = append(args, *req.BaseURL)
 	}
 	if req.SystemPrompt != nil {
 		query += `, system_prompt = ?`
@@ -466,7 +502,11 @@ func (s *AgentService) GetLogs(agentID string, limit int) ([]*models.AgentLog, e
 	if err != nil {
 		return nil, err
 	}
-	defer rows.Close()
+	defer func() {
+		if cerr := rows.Close(); cerr != nil {
+			fmt.Printf("Warning: failed to close rows: %v\n", cerr)
+		}
+	}()
 
 	var logs []*models.AgentLog
 	for rows.Next() {

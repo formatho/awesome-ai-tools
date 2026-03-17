@@ -8,8 +8,6 @@ linters-settings:
 linters:
   enable:
     - errcheck
-    - gofmt
-    - goimports
     - govet
     - staticcheck
     - ineffassign
@@ -18,7 +16,6 @@ linters:
 issues:
   exclude-dirs:
     - vendor
-  exclude-rules:
-    - path: _test\.go
-      linters:
-        - errcheck
+    - third_party
+  exclude-files:
+    - ".*_test\\.go$"

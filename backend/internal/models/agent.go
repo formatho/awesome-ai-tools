@@ -23,6 +23,7 @@ type Agent struct {
 	Status         AgentStatus            `json:"status"`
 	Provider       string                 `json:"provider,omitempty"`
 	Model          string                 `json:"model,omitempty"`
+	BaseURL        string                 `json:"base_url,omitempty"`
 	SystemPrompt   string                 `json:"system_prompt,omitempty"`
 	BaseURL        string                 `json:"base_url,omitempty"`
 	WorkDir        string                 `json:"work_dir,omitempty"`
@@ -42,6 +43,7 @@ type AgentCreate struct {
 	Name           string                 `json:"name"`
 	Provider       string                 `json:"provider,omitempty"`
 	Model          string                 `json:"model,omitempty"`
+	BaseURL        string                 `json:"base_url,omitempty"`
 	SystemPrompt   string                 `json:"system_prompt,omitempty"`
 	WorkDir        string                 `json:"work_dir,omitempty"`
 	OrganizationID string                 `json:"organization_id,omitempty"`
@@ -54,6 +56,7 @@ type AgentUpdate struct {
 	Name           *string                `json:"name,omitempty"`
 	Provider       *string                `json:"provider,omitempty"`
 	Model          *string                `json:"model,omitempty"`
+	BaseURL        *string                `json:"base_url,omitempty"`
 	SystemPrompt   *string                `json:"system_prompt,omitempty"`
 	WorkDir        *string                `json:"work_dir,omitempty"`
 	OrganizationID *string                `json:"organization_id,omitempty"`
