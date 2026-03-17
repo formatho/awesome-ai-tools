@@ -33,6 +33,16 @@ func setupTestApp(t *testing.T) (*fiber.App, *services.OrgService) {
 			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
 			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
 		);
+
+		CREATE TABLE IF NOT EXISTS user_org_members (
+			id TEXT PRIMARY KEY,
+			user_id TEXT NOT NULL,
+			organization_id TEXT NOT NULL,
+			role TEXT NOT NULL,
+			status TEXT NOT NULL DEFAULT 'active',
+			joined_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE
+		);
 	`)
 	require.NoError(t, err)
 

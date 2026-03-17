@@ -168,6 +168,93 @@ func RunMigrations(db *sql.DB) error {
 		)`,
 		`CREATE INDEX IF NOT EXISTS idx_logs_agent ON agent_logs(agent_id)`,
 		`CREATE INDEX IF NOT EXISTS idx_logs_created ON agent_logs(created_at)`,
+
+		// Users table
+		`CREATE TABLE IF NOT EXISTS users (
+			id TEXT PRIMARY KEY,
+			email TEXT NOT NULL UNIQUE,
+			name TEXT NOT NULL,
+			password_hash TEXT,
+			avatar_url TEXT,
+			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_users_email ON users(email)`,
+
+		// Organization members table
+		`CREATE TABLE IF NOT EXISTS user_org_members (
+			id TEXT PRIMARY KEY,
+			user_id TEXT NOT NULL,
+			organization_id TEXT NOT NULL,
+			role TEXT NOT NULL DEFAULT 'member',
+			status TEXT NOT NULL DEFAULT 'active',
+			joined_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			metadata TEXT,
+			FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+			FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE,
+			UNIQUE(user_id, organization_id)
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_org_members_user ON user_org_members(user_id)`,
+		`CREATE INDEX IF NOT EXISTS idx_org_members_org ON user_org_members(organization_id)`,
+		`CREATE INDEX IF NOT EXISTS idx_org_members_role ON user_org_members(role)`,
+
+		// Team invitations table
+		`CREATE TABLE IF NOT EXISTS invitations (
+			id TEXT PRIMARY KEY,
+			email TEXT NOT NULL,
+			user_id TEXT,
+			organization_id TEXT NOT NULL,
+			role TEXT NOT NULL DEFAULT 'member',
+			status TEXT NOT NULL DEFAULT 'pending',
+			token TEXT NOT NULL UNIQUE,
+			message TEXT,
+			expires_at DATETIME NOT NULL,
+			sent_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			accepted_at DATETIME,
+			rejected_at DATETIME,
+			cancelled_at DATETIME,
+			created_by TEXT NOT NULL,
+			FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE,
+			FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE SET NULL,
+			FOREIGN KEY (created_by) REFERENCES users(id)
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_invitations_org ON invitations(organization_id)`,
+		`CREATE INDEX IF NOT EXISTS idx_invitations_email ON invitations(email)`,
+		`CREATE INDEX IF NOT EXISTS idx_invitations_token ON invitations(token)`,
+		`CREATE INDEX IF NOT EXISTS idx_invitations_status ON invitations(status)`,
+
+		// Permissions table
+		`CREATE TABLE IF NOT EXISTS permissions (
+			id TEXT PRIMARY KEY,
+			user_id TEXT NOT NULL,
+			organization_id TEXT NOT NULL,
+			permission TEXT NOT NULL,
+			granted_by TEXT NOT NULL,
+			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+			FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE,
+			FOREIGN KEY (granted_by) REFERENCES users(id),
+			UNIQUE(user_id, organization_id, permission)
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_permissions_user ON permissions(user_id)`,
+		`CREATE INDEX IF NOT EXISTS idx_permissions_org ON permissions(organization_id)`,
+		`CREATE INDEX IF NOT EXISTS idx_permissions_perm ON permissions(permission)`,
+
+		// Permission templates table
+		`CREATE TABLE IF NOT EXISTS permission_templates (
+			id TEXT PRIMARY KEY,
+			name TEXT NOT NULL UNIQUE,
+			description TEXT,
+			permissions TEXT NOT NULL,
+			created_by TEXT NOT NULL,
+			organization_id TEXT,
+			is_default INTEGER NOT NULL DEFAULT 0,
+			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			FOREIGN KEY (created_by) REFERENCES users(id),
+			FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_perm_templates_org ON permission_templates(organization_id)`,
 	}
 
 	for i, migration := range migrations {
@@ -183,6 +270,9 @@ func RunMigrations(db *sql.DB) error {
 			UPDATE agents SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 		END`
 	_, _ = db.Exec(trigger)
+
+	// Add base_url column if it doesn't exist (migration for existing databases)
+	_, _ = db.Exec(`ALTER TABLE agents ADD COLUMN base_url TEXT DEFAULT ''`)
 
 	// Add work_dir column if it doesn't exist (migration for existing databases)
 	_, _ = db.Exec(`ALTER TABLE agents ADD COLUMN work_dir TEXT DEFAULT '~/sandbox'`)

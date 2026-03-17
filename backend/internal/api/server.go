@@ -28,15 +28,20 @@ type Server struct {
 	configSvc *services.ConfigService
 	chatSvc   *services.ChatService
 	orgSvc    *services.OrgService
+	stateSvc  *services.StateService
 
 	// Handlers
-	agentH  *handlers.AgentHandler
-	todoH   *handlers.TODOHandler
-	cronH   *handlers.CronHandler
-	configH *handlers.ConfigHandler
-	systemH *handlers.SystemHandler
-	chatH   *handlers.ChatHandler
-	orgH    *handlers.OrgHandler
+	agentH     *handlers.AgentHandler
+	todoH      *handlers.TODOHandler
+	cronH      *handlers.CronHandler
+	configH    *handlers.ConfigHandler
+	systemH    *handlers.SystemHandler
+	chatH      *handlers.ChatHandler
+	orgH       *handlers.OrgHandler
+	stateH     *handlers.StateHandler
+	authH      *handlers.AuthHandlerFiber
+	teamInvH   *handlers.TeamInvitationHandler
+	teamPermH  *handlers.TeamPermissionsHandler
 
 	// WebSocket upgrader
 	upgrader fastws.FastHTTPUpgrader
@@ -55,6 +60,7 @@ func NewServer(db *sql.DB) *fiber.App {
 	configSvc := services.NewConfigService(db)
 	chatSvc := services.NewChatService(db, agentSvc, configSvc)
 	orgSvc := services.NewOrgService(db)
+	stateSvc := services.NewStateService(db)
 
 	// Create handlers
 	agentH := handlers.NewAgentHandler(agentSvc)
@@ -64,6 +70,16 @@ func NewServer(db *sql.DB) *fiber.App {
 	systemH := handlers.NewSystemHandler(agentSvc, todoSvc, cronSvc)
 	chatH := handlers.NewChatHandler(chatSvc)
 	orgH := handlers.NewOrgHandler(orgSvc)
+	stateH := handlers.NewStateHandler(stateSvc)
+	authH := handlers.NewAuthHandlerFiber()
+
+	// Create auth service for team handlers and Fiber auth handler
+	authSvc := services.NewAuthService(db)
+
+	// Create team handlers
+	mockEmailSender := &services.MockEmailSender{}
+	invitationSvc := services.NewInvitationService(db, mockEmailSender)
+	permissionSvc := services.NewPermissionService(db)
 
 	// Create Fiber app
 	app := fiber.New(fiber.Config{
@@ -71,7 +87,7 @@ func NewServer(db *sql.DB) *fiber.App {
 		ServerHeader: "Agent-Orchestrator",
 	})
 
-	// Create server instance for WebSocket
+	// Create server instance
 	server := &Server{
 		app:       app,
 		db:        db,
@@ -82,6 +98,8 @@ func NewServer(db *sql.DB) *fiber.App {
 		configSvc: configSvc,
 		chatSvc:   chatSvc,
 		orgSvc:    orgSvc,
+		stateH:    stateH,
+		authH:     authH,
 		agentH:    agentH,
 		todoH:     todoH,
 		cronH:     cronH,
@@ -89,6 +107,8 @@ func NewServer(db *sql.DB) *fiber.App {
 		systemH:   systemH,
 		chatH:     chatH,
 		orgH:      orgH,
+		teamInvH:  handlers.NewTeamInvitationHandler(invitationSvc, authSvc),
+		teamPermH: handlers.NewTeamPermissionsHandler(permissionSvc, authSvc),
 		upgrader: fastws.FastHTTPUpgrader{
 			ReadBufferSize:  1024,
 			WriteBufferSize: 1024,
@@ -190,6 +210,18 @@ func (s *Server) setupRoutes() {
 	system.Get("/status", s.systemH.Status)
 	system.Get("/health", s.systemH.Health)
 
+	// Auth endpoints - Login is public, others require authentication
+	auth := api.Group("/auth")
+	
+	// Public login endpoint (no auth required)
+	auth.Post("/login", s.authH.Login)
+	
+	// Protected auth routes (require authentication for logout/refresh/me)
+	protectedAuth := api.Group("/auth").Use(s.authH.RequireAuth())
+	protectedAuth.Post("/logout", s.authH.Logout)
+	protectedAuth.Post("/refresh", s.authH.RefreshToken)
+	protectedAuth.Get("/me", s.authH.CurrentUser)
+
 	// Organization routes
 	orgs := api.Group("/organizations")
 	orgs.Get("/", s.orgH.List)
@@ -200,4 +232,53 @@ func (s *Server) setupRoutes() {
 	orgs.Get("/slug/:slug", s.orgH.GetBySlug)
 	orgs.Get("/owner/:ownerId", s.orgH.GetByOwner)
 	orgs.Post("/switch", s.orgH.SwitchOrganization)
+
+	// Organization member management
+	members := orgs.Group("/:id/members")
+	members.Get("/", s.orgH.ListMembers)
+	members.Post("/", s.orgH.InviteMember)
+	members.Get("/:userId", s.orgH.GetMember)
+	members.Patch("/:userId/role", s.orgH.UpdateMemberRole)
+	members.Delete("/:userId", s.orgH.RemoveMember)
+
+	// Kick endpoint (alias for remove with explicit action)
+	orgs.Delete("/:id/members/:userId/kick", s.orgH.KickMember)
+
+	// Team invitations (manual registration)
+	teamInv := api.Group("/team/invitations")
+	teamInv.Post("/", s.teamInvH.CreateInvitation)
+	teamInv.Get("/", s.teamInvH.ListInvitations)
+	teamInv.Get("/:id", s.teamInvH.GetInvitation)
+	teamInv.Delete("/:id", s.teamInvH.CancelInvitation)
+	teamInv.Post("/accept", s.teamInvH.AcceptInvitation)
+	teamInv.Post("/reject/:id", s.teamInvH.RejectInvitation)
+	teamInv.Get("/verify-token", s.teamInvH.VerifyToken)
+	teamInv.Get("/stats", s.teamInvH.GetStats)
+
+	// Team permissions (manual registration)
+	teamPerm := api.Group("/team/permissions")
+	teamPerm.Get("/check", s.teamPermH.CheckPermission)
+	teamPerm.Post("/grant", s.teamPermH.GrantPermission)
+	teamPerm.Delete("/revoke", s.teamPermH.RevokePermission)
+	teamPerm.Get("/user/:userId/org/:orgId", s.teamPermH.GetUserPermissions)
+	teamPerm.Get("/resource/:orgId/resource/:resource", s.teamPermH.GetResourcePermissions)
+	teamPerm.Get("/bulk-check", s.teamPermH.BulkCheckPermissions)
+	teamPerm.Post("/templates", s.teamPermH.CreatePermissionTemplate)
+	teamPerm.Get("/templates", s.teamPermH.ListPermissionTemplates)
+	teamPerm.Get("/templates/:id", s.teamPermH.GetPermissionTemplate)
+	teamPerm.Put("/templates/:id", s.teamPermH.UpdatePermissionTemplate)
+	teamPerm.Delete("/templates/:id", s.teamPermH.DeletePermissionTemplate)
+
+	// State Persistence Management (NEW - Phase 4 Feature)
+	state := api.Group("/agent-state")
+	state.Post("/", s.stateH.SaveState)
+	state.Get("/:agentID", s.stateH.GetAgentState)
+	state.Get("/:agentID/history", s.stateH.GetAgentStateHistory)
+	state.Patch("/:agentID", s.stateH.UpdateAgentState)
+	state.Delete("/:agentID", s.stateH.DeleteAgentState)
+	state.Get("/:agentID/export", s.stateH.ExportAgentState)
+
+	// State summary and metrics endpoints
+	api.Get("/agent-states", s.stateH.GetAgentStatesSummary)
+	api.Get("/agent-state/metrics", s.stateH.GetStateMetrics)
 }

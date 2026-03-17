@@ -37,6 +37,7 @@ func setupOrgFilteringDB(t *testing.T) (*sql.DB, string, string, string, string)
 			provider TEXT,
 			model TEXT,
 			system_prompt TEXT,
+			base_url TEXT DEFAULT '',
 			work_dir TEXT DEFAULT '~/sandbox',
 			organization_id TEXT,
 			config TEXT,

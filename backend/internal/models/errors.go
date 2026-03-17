@@ -53,3 +53,35 @@ func IsNotFoundError(err error) bool {
 	}
 	return false
 }
+
+// IsConflictError checks if error is a conflict error.
+func IsConflictError(err error) bool {
+	var appErr *AppError
+	if errors.As(err, &appErr) {
+		return appErr.Code == "CONFLICT"
+	}
+	return false
+}
+
+// IsBadRequestError checks if error is a bad request error.
+func IsBadRequestError(err error) bool {
+	var appErr *AppError
+	if errors.As(err, &appErr) {
+		return appErr.Code == "BAD_REQUEST" || appErr.Code == "VALIDATION_ERROR"
+	}
+	return false
+}
+
+// IsUnauthorizedError checks if error is an unauthorized error.
+func IsUnauthorizedError(err error) bool {
+	var appErr *AppError
+	if errors.As(err, &appErr) {
+		return appErr.Code == "UNAUTHORIZED"
+	}
+	return false
+}
+
+// NewAppError creates a new application error with code and message.
+func NewAppError(code, msg string) *AppError {
+	return &AppError{Code: code, Message: msg}
+}

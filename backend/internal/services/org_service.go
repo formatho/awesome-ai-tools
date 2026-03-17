@@ -5,6 +5,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
+	"time"
 
 	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	"github.com/google/uuid"
@@ -280,19 +281,225 @@ func (s *OrgService) Delete(id string) error {
 	}
 
 	// Check if organization exists
-	_, err := s.Get(id)
-	if err != nil {
+	if _, err := s.Get(id); err != nil {
 		return err
 	}
 
+	// Check if organization has members before deleting
+	var memberCount int64
+	var query string
+	query = `SELECT COUNT(*) FROM user_org_members WHERE organization_id = ?`
+	err := s.db.QueryRow(query, id).Scan(&memberCount)
+	if err != nil {
+		return fmt.Errorf("failed to count members: %w", err)
+	}
+	if memberCount > 0 {
+		return models.NewAppError("CONFLICT", "cannot delete organization with members")
+	}
+
 	// Delete organization
-	query := `DELETE FROM organizations WHERE id = ?`
+	query = `DELETE FROM organizations WHERE id = ?`
 	_, err = s.db.Exec(query, id)
 	if err != nil {
 		return fmt.Errorf("failed to delete organization: %w", err)
 	}
 
 	return nil
+}
+
+// ListMembers returns all members of an organization.
+func (s *OrgService) ListMembers(orgID string) ([]models.UserOrgMember, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
+	// Verify organization exists
+	_, err := s.Get(orgID)
+	if err != nil {
+		return nil, err
+	}
+
+	query := `SELECT id, user_id, organization_id, role, status, joined_at, metadata 
+	          FROM user_org_members WHERE organization_id = ?`
+	rows, err := s.db.Query(query, orgID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to list members: %w", err)
+	}
+	defer rows.Close()
+
+	var members []models.UserOrgMember
+	for rows.Next() {
+		var member models.UserOrgMember
+		var metadataJSON []byte
+		
+		err := rows.Scan(&member.ID, &member.UserID, &member.OrganizationID, 
+			&member.Role, &member.Status, &member.JoinedAt, &metadataJSON)
+		if err != nil {
+			return nil, fmt.Errorf("failed to scan member: %w", err)
+		}
+
+		if len(metadataJSON) > 0 {
+			json.Unmarshal(metadataJSON, &member.Metadata)
+		}
+
+		members = append(members, member)
+	}
+
+	return members, nil
+}
+
+// InviteMember invites a new member to an organization.
+func (s *OrgService) InviteMember(orgID string, req *models.UserOrgMemberCreate) (*models.UserOrgMember, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
+	// Verify organization exists
+	if _, err := s.Get(orgID); err != nil {
+		return nil, err
+	}
+
+	member := &models.UserOrgMember{
+		ID:             uuid.New().String(),
+		UserID:         req.UserID,
+		OrganizationID: orgID,
+		Role:           req.Role,
+		Status:         "pending", // default status for invitations
+		JoinedAt:       time.Now(),
+		Metadata:       req.Metadata,
+	}
+
+	if member.Status == "" {
+		member.Status = "pending"
+	}
+
+	// Check if user already exists in organization (by email or user_id)
+	var existingCount int64
+	var err error
+	err = s.db.QueryRow(`SELECT COUNT(*) FROM user_org_members 
+		WHERE organization_id = ? AND (user_id = ? OR metadata->>'email' = ?)`,		orgID, req.UserID, req.Email).Scan(&existingCount)
+	if err != nil {
+		return nil, fmt.Errorf("failed to check existing members: %w", err)
+	}
+
+	if existingCount > 0 {
+		return nil, models.NewAppError("CONFLICT", "member already exists in organization")
+	}
+
+	metadataJSON, _ := json.Marshal(req.Metadata)
+	query := `INSERT INTO user_org_members (id, user_id, organization_id, role, status, joined_at, metadata) 
+	          VALUES (?, ?, ?, ?, ?, ?, ?)`
+	result, err := s.db.Exec(query, member.ID, member.UserID, orgID, member.Role, member.Status, member.JoinedAt, metadataJSON)
+	if err != nil {
+		return nil, fmt.Errorf("failed to invite member: %w", err)
+	}
+
+	rowsAffected, _ := result.RowsAffected()
+	if rowsAffected == 0 {
+		return nil, models.NewAppError("CONFLICT", "failed to create member")
+	}
+
+	return member, nil
+}
+
+// GetMember returns a specific member of an organization.
+func (s *OrgService) GetMember(orgID string, userID string) (*models.UserOrgMember, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
+	query := `SELECT id, user_id, organization_id, role, status, joined_at, metadata 
+	          FROM user_org_members WHERE organization_id = ? AND user_id = ?`
+	var member models.UserOrgMember
+	var metadataJSON []byte
+	
+	err := s.db.QueryRow(query, orgID, userID).Scan(&member.ID, &member.UserID, 
+		&member.OrganizationID, &member.Role, &member.Status, &member.JoinedAt, &metadataJSON)
+	if err == sql.ErrNoRows {
+		return nil, models.NewAppError("NOT_FOUND", "member not found")
+	}
+	if err != nil {
+		return nil, fmt.Errorf("failed to get member: %w", err)
+	}
+
+	if len(metadataJSON) > 0 {
+		json.Unmarshal(metadataJSON, &member.Metadata)
+	}
+
+	return &member, nil
+}
+
+// UpdateMemberRole updates a member's role.
+func (s *OrgService) UpdateMemberRole(orgID string, userID string, req *models.MemberRoleUpdate) (*models.UserOrgMember, error) {
+	if s.db == nil {
+		return nil, ErrNoDatabase
+	}
+
+	query := `SELECT id, user_id, organization_id, role, status, joined_at, metadata 
+	          FROM user_org_members WHERE organization_id = ? AND user_id = ?`
+	var member models.UserOrgMember
+	var metadataJSON []byte
+	
+	err := s.db.QueryRow(query, orgID, userID).Scan(&member.ID, &member.UserID, 
+		&member.OrganizationID, &member.Role, &member.Status, &member.JoinedAt, &metadataJSON)
+	if err == sql.ErrNoRows {
+		return nil, models.NewAppError("NOT_FOUND", "member not found")
+	}
+	if err != nil {
+		return nil, fmt.Errorf("failed to get member: %w", err)
+	}
+
+	if len(metadataJSON) > 0 {
+		json.Unmarshal(metadataJSON, &member.Metadata)
+	}
+
+	member.Role = req.Role
+	
+	updateQuery := `UPDATE user_org_members SET role = ?, updated_at = ? WHERE organization_id = ? AND user_id = ?`
+	result, err := s.db.Exec(updateQuery, member.Role, time.Now(), orgID, userID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to update member role: %w", err)
+	}
+
+	rowsAffected, _ := result.RowsAffected()
+	if rowsAffected == 0 {
+		return nil, models.NewAppError("NOT_FOUND", "member not found")
+	}
+
+	return &member, nil
+}
+
+// RemoveMember removes a member from an organization.
+func (s *OrgService) RemoveMember(orgID string, userID string) error {
+	if s.db == nil {
+		return ErrNoDatabase
+	}
+
+	query := `DELETE FROM user_org_members WHERE organization_id = ? AND user_id = ?`
+	result, err := s.db.Exec(query, orgID, userID)
+	if err != nil {
+		return fmt.Errorf("failed to remove member: %w", err)
+	}
+
+	rowsAffected, _ := result.RowsAffected()
+	if rowsAffected == 0 {
+		return models.NewAppError("NOT_FOUND", "member not found")
+	}
+
+	return nil
+}
+
+// HasUserService checks if a user service is available for fetching user details.
+// This is a stub method that always returns false for now.
+func (s *OrgService) HasUserService() bool {
+	return false
+}
+
+// GetUserByID fetches user details by user ID.
+// This is a stub method that always returns nil for now.
+// In the future, this would query a users table or external user service.
+func (s *OrgService) GetUserByID(userID string) (*models.User, error) {
+	return nil, models.NewAppError("NOT_FOUND", "user service not available")
 }
 
 // Helper functions

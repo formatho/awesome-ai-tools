@@ -4,8 +4,10 @@ go 1.25.0
 
 require (
 	github.com/Protocol-Lattice/go-agent v1.11.3
-	github.com/formatho/agent-orchestrator/packages/llm-client v0.0.0-20260309150459-6c4b9526f44a
+	github.com/formatho/agent-orchestrator/packages/llm-client v0.0.0
 )
+
+replace github.com/formatho/agent-orchestrator/packages/llm-client => ../llm-client
 
 require (
 	cloud.google.com/go v0.115.0 // indirect

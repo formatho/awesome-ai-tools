@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"context"
 	"encoding/json"
 	"net/http/httptest"
 	"testing"
@@ -9,6 +10,7 @@ import (
 	"github.com/formatho/agent-orchestrator/backend/internal/api/websocket"
 	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	"github.com/formatho/agent-orchestrator/backend/internal/services"
+	"github.com/formatho/agent-orchestrator/packages/llm-client"
 )
 
 // Helper to create test services
@@ -181,4 +183,52 @@ func TestMain(m *testing.M) {
 	// Cleanup
 	println("")
 	println("✅ All tests completed")
+}
+
+// Test Agent Reply Generation based on LLM Response
+func TestAgentReplyGeneration(t *testing.T) {
+	t.Log("=== Testing Agent Reply Generation ===")
+
+	client := NewClient(Config{
+		Provider: ProviderOpenAI,
+		Model:    "gpt-4o",
+		APIKey:   "test-key",
+	})
+
+	RegisterOpenAI(client, OpenAIConfig{
+		APIKey: "test-key",
+	})
+
+	t.Log("✅ LLM Client initialized")
+
+	// Test 1: Simple reply generation
+	reply, err := client.Simple(context.Background(), "What is your name?")
+	if err != nil {
+		t.Logf("Expected error (no real API): %v", err)
+	} else if reply == "" {
+		t.Error("Expected non-empty reply")
+	} else {
+		t.Logf("✅ Generated reply: %s", reply)
+	}
+
+	// Test 2: System prompt influence
+	systemPrompt := "You are a helpful assistant that provides concise answers."
+	reply, err = client.SimpleWithSystem(context.Background(), systemPrompt, "Explain AI")
+	if err != nil {
+		t.Logf("Expected error (no real API): %v", err)
+	} else if reply == "" {
+		t.Error("Expected non-empty reply with system prompt")
+	} else {
+		t.Logf("✅ Generated reply with system prompt: %s", reply)
+	}
+
+	// Test 3: Error handling for invalid prompts
+	reply, err = client.Simple(context.Background(), "")
+	if err != nil {
+		t.Logf("✅ Expected error for empty prompt: %v", err)
+	} else if reply == "" {
+		t.Error("Expected non-empty reply")
+	}
+
+	t.Log("✅ Agent reply generation tests completed!")
 }

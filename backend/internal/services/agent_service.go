@@ -2,15 +2,18 @@
 package services
 
 import (
+	"context"
 	"database/sql"
 	"encoding/json"
 	"errors"
 	"fmt"
+	"os"
 	"time"
 
 	"github.com/formatho/agent-orchestrator/backend/internal/api/websocket"
 	"github.com/formatho/agent-orchestrator/backend/internal/models"
 	agentpool "github.com/formatho/agent-orchestrator/packages/agent-pool"
+	agentrunner "github.com/formatho/agent-orchestrator/packages/agent-runner"
 	llmclient "github.com/formatho/agent-orchestrator/packages/llm-client"
 	"github.com/google/uuid"
 )
@@ -20,17 +23,19 @@ var ErrNoDatabase = errors.New("database not available")
 
 // AgentService handles agent operations.
 type AgentService struct {
-	db   *sql.DB
-	hub  *websocket.Hub
-	pool *agentpool.Pool
+	db      *sql.DB
+	hub     *websocket.Hub
+	pool    *agentpool.Pool
+	runner  *agentrunner.AgentRunner
 }
 
 // NewAgentService creates a new agent service.
 func NewAgentService(db *sql.DB, hub *websocket.Hub) *AgentService {
 	service := &AgentService{
-		db:   db,
-		hub:  hub,
-		pool: agentpool.New(agentpool.Config{MaxAgents: 100}),
+		db:     db,
+		hub:    hub,
+		pool:   agentpool.New(agentpool.Config{MaxAgents: 100}),
+		runner: agentrunner.NewAgentRunner(),
 	}
 
 	// Reset any agents that are marked as "running" but aren't actually running
@@ -50,12 +55,12 @@ func (s *AgentService) List(orgID *string) ([]*models.Agent, error) {
 	var args []interface{}
 
 	if orgID != nil && *orgID != "" {
-		query = `SELECT id, name, status, provider, model, system_prompt, work_dir, organization_id, config, metadata,
+		query = `SELECT id, name, status, provider, model, system_prompt, base_url, work_dir, organization_id, config, metadata,
 			created_at, updated_at, started_at, stopped_at, error
 			FROM agents WHERE organization_id = ? ORDER BY created_at DESC`
 		args = append(args, *orgID)
 	} else {
-		query = `SELECT id, name, status, provider, model, system_prompt, work_dir, organization_id, config, metadata,
+		query = `SELECT id, name, status, provider, model, system_prompt, base_url, work_dir, organization_id, config, metadata,
 			created_at, updated_at, started_at, stopped_at, error
 			FROM agents ORDER BY created_at DESC`
 	}
@@ -71,10 +76,10 @@ func (s *AgentService) List(orgID *string) ([]*models.Agent, error) {
 		a := &models.Agent{}
 		var config, metadata sql.NullString
 		var startedAt, stoppedAt sql.NullTime
-		var provider, model, systemPrompt, workDir, orgID, agentError sql.NullString
+		var provider, model, systemPrompt, baseURL, workDir, orgID, agentError sql.NullString
 
 		err := rows.Scan(
-			&a.ID, &a.Name, &a.Status, &provider, &model, &systemPrompt, &workDir,
+			&a.ID, &a.Name, &a.Status, &provider, &model, &systemPrompt, &baseURL, &workDir,
 			&orgID, &config, &metadata, &a.CreatedAt, &a.UpdatedAt,
 			&startedAt, &stoppedAt, &agentError,
 		)
@@ -85,6 +90,7 @@ func (s *AgentService) List(orgID *string) ([]*models.Agent, error) {
 		a.Provider = provider.String
 		a.Model = model.String
 		a.SystemPrompt = systemPrompt.String
+		a.BaseURL = baseURL.String
 		a.WorkDir = workDir.String
 		a.OrganizationID = orgID.String
 		a.Error = agentError.String
@@ -114,17 +120,17 @@ func (s *AgentService) Get(id string) (*models.Agent, error) {
 		return nil, ErrNoDatabase
 	}
 
-	query := `SELECT id, name, status, provider, model, system_prompt, work_dir, organization_id, config, metadata,
+	query := `SELECT id, name, status, provider, model, system_prompt, base_url, work_dir, organization_id, config, metadata,
 		created_at, updated_at, started_at, stopped_at, error
 		FROM agents WHERE id = ?`
 
 	a := &models.Agent{}
 	var config, metadata sql.NullString
 	var startedAt, stoppedAt sql.NullTime
-	var provider, model, systemPrompt, workDir, orgID, agentError sql.NullString
+	var provider, model, systemPrompt, baseURL, workDir, orgID, agentError sql.NullString
 
 	err := s.db.QueryRow(query, id).Scan(
-		&a.ID, &a.Name, &a.Status, &provider, &model, &systemPrompt, &workDir,
+		&a.ID, &a.Name, &a.Status, &provider, &model, &systemPrompt, &baseURL, &workDir,
 		&orgID, &config, &metadata, &a.CreatedAt, &a.UpdatedAt,
 		&startedAt, &stoppedAt, &agentError,
 	)
@@ -138,6 +144,7 @@ func (s *AgentService) Get(id string) (*models.Agent, error) {
 	a.Provider = provider.String
 	a.Model = model.String
 	a.SystemPrompt = systemPrompt.String
+	a.BaseURL = baseURL.String
 	a.WorkDir = workDir.String
 	a.OrganizationID = orgID.String
 	a.Error = agentError.String
@@ -176,11 +183,11 @@ func (s *AgentService) Create(req *models.AgentCreate) (*models.Agent, error) {
 	configJSON, _ := json.Marshal(req.Config)
 	metadataJSON, _ := json.Marshal(req.Metadata)
 
-	query := `INSERT INTO agents (id, name, status, provider, model, system_prompt, work_dir, organization_id, config, metadata, created_at, updated_at)
-		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+	query := `INSERT INTO agents (id, name, status, provider, model, system_prompt, base_url, work_dir, organization_id, config, metadata, created_at, updated_at)
+		VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 
 	_, err := s.db.Exec(query, id, req.Name, status, req.Provider, req.Model,
-		req.SystemPrompt, req.WorkDir, req.OrganizationID, string(configJSON), string(metadataJSON), now, now)
+		req.SystemPrompt, "", req.WorkDir, req.OrganizationID, string(configJSON), string(metadataJSON), now, now)
 	if err != nil {
 		return nil, err
 	}
@@ -281,20 +288,62 @@ func (s *AgentService) Resume(id string) (*models.Agent, error) {
 // Start starts an agent (alias for Resume).
 func (s *AgentService) Start(id string) (*models.Agent, error) {
 	now := time.Now().UTC()
-	if _, err := s.Get(id); err != nil {
-		return nil, err
-	}
 
-	query := `UPDATE agents SET status = ?, updated_at = ?, started_at = ? WHERE id = ?`
-	_, err := s.db.Exec(query, models.AgentStatusRunning, now, now, id)
-	if err != nil {
-		return nil, err
-	}
-
+	// Get the agent from database
 	agent, err := s.Get(id)
 	if err != nil {
 		return nil, err
 	}
+
+	// Create the agent in the runner if it doesn't exist
+	ctx := context.Background()
+
+	// Build agent config
+	config := agentrunner.AgentConfig{
+		Provider:     agent.Provider,
+		Model:        agent.Model,
+		APIKey:       s.getAPIKey(agent.Provider),
+		BaseURL:      agent.BaseURL,
+		MaxTokens:    4096, // Default max tokens
+		SystemPrompt: agent.SystemPrompt,
+		MemoryLimit:  8,    // Default memory limit
+	}
+
+	// Create agent in runner
+	_, err = s.runner.CreateAgent(ctx, id, config)
+	if err != nil {
+		// If agent already exists, that's okay - just continue
+		if !errors.Is(err, agentrunner.ErrAgentAlreadyExists) {
+			return nil, fmt.Errorf("failed to create agent in runner: %w", err)
+		}
+	}
+
+	// Start the agent with an initial prompt
+	initialPrompt := agent.SystemPrompt
+	if initialPrompt == "" {
+		initialPrompt = "You are now active and ready to help."
+	}
+
+	_, err = s.runner.Start(ctx, id, initialPrompt)
+	if err != nil {
+		return nil, fmt.Errorf("failed to start agent in runner: %w", err)
+	}
+
+	// Update database status
+	query := `UPDATE agents SET status = ?, updated_at = ?, started_at = ? WHERE id = ?`
+	_, err = s.db.Exec(query, models.AgentStatusRunning, now, now, id)
+	if err != nil {
+		return nil, err
+	}
+
+	// Get updated agent
+	agent, err = s.Get(id)
+	if err != nil {
+		return nil, err
+	}
+
+	// Start a goroutine to monitor and sync status
+	go s.monitorAgentStatus(id)
 
 	s.hub.BroadcastAgentStatus(id, models.AgentStatusRunning)
 	return agent, nil
@@ -369,45 +418,33 @@ func (s *AgentService) resetStaleRunningAgents() {
 	}
 }
 
-// CreateLLMClient creates an LLM client for the agent.
+// CreateLLMClient creates an LLM client for the agent using gollm library.
 func (s *AgentService) CreateLLMClient(agent *models.Agent, apiKey string) (llmclient.ProviderClient, error) {
 	provider := agent.Provider
 	if provider == "" {
 		provider = "openai"
 	}
 
-	switch provider {
-	case "openai":
-		return llmclient.NewOpenAIProvider(llmclient.OpenAIConfig{
-			APIKey: apiKey,
-		}), nil
-	case "anthropic":
-		return llmclient.NewAnthropicProvider(llmclient.AnthropicConfig{
-			APIKey: apiKey,
-			Model:  agent.Model,
-		}), nil
-	case "zai":
-		return llmclient.NewZAIProvider(llmclient.ZAIConfig{
-			APIKey: apiKey,
-		}), nil
-	case "ollama":
-		return llmclient.NewOllamaProvider(llmclient.OllamaConfig{
-			BaseURL: agent.BaseURL,
-		}), nil
-	case "groq", "mistral", "openrouter":
-		// Use gollm for these providers
-		client, err := llmclient.NewGollmProvider(llmclient.GollmConfig{
-			Provider: provider,
-			Model:    agent.Model,
-			APIKey:   apiKey,
-		})
-		if err != nil {
-			return nil, fmt.Errorf("failed to create gollm provider: %w", err)
-		}
-		return client, nil
-	default:
-		return nil, fmt.Errorf("unsupported LLM provider: %s", provider)
+	// Use gollm for all providers
+	config := llmclient.GollmConfig{
+		Provider: provider,
+		Model:    agent.Model,
+		APIKey:   apiKey,
+		BaseURL:  agent.BaseURL,
 	}
+
+	// For zai provider, use openrouter with custom base URL if needed
+	if provider == "zai" && agent.BaseURL != "" {
+		config.Provider = "openrouter"
+		config.BaseURL = agent.BaseURL
+	}
+
+	client, err := llmclient.NewGollmProvider(config)
+	if err != nil {
+		return nil, fmt.Errorf("failed to create gollm provider: %w", err)
+	}
+
+	return client, nil
 }
 
 // GetLogs returns logs for an agent, ordered by most recent first.
@@ -470,4 +507,69 @@ func (s *AgentService) AddLog(agentID string, level models.LogLevel, message str
 	}
 
 	return nil
+}
+
+// getAPIKey retrieves the API key for a given provider from environment variables.
+func (s *AgentService) getAPIKey(provider string) string {
+	switch provider {
+	case "openai":
+		return os.Getenv("OPENAI_API_KEY")
+	case "anthropic":
+		return os.Getenv("ANTHROPIC_API_KEY")
+	case "zai":
+		return os.Getenv("ZAI_API_KEY")
+	case "groq":
+		return os.Getenv("GROQ_API_KEY")
+	case "mistral":
+		return os.Getenv("MISTRAL_API_KEY")
+	case "openrouter":
+		return os.Getenv("OPENROUTER_API_KEY")
+	default:
+		return ""
+	}
+}
+
+// monitorAgentStatus monitors an agent's status in the runner and syncs it to the database.
+func (s *AgentService) monitorAgentStatus(agentID string) {
+	ticker := time.NewTicker(5 * time.Second)
+	defer ticker.Stop()
+
+	for {
+		select {
+		case <-ticker.C:
+			// Get status from runner
+			status, err := s.runner.GetStatus(agentID)
+			if err != nil {
+				// Agent not in runner, mark as stopped in database
+				s.updateStatus(agentID, models.AgentStatusIdle)
+				return
+			}
+
+			// Sync status to database based on runner status
+			var newStatus models.AgentStatus
+			switch status.Status {
+			case agentrunner.StatusRunning:
+				newStatus = models.AgentStatusRunning
+			case agentrunner.StatusPaused:
+				newStatus = models.AgentStatusPaused
+			case agentrunner.StatusStopped, agentrunner.StatusComplete:
+				newStatus = models.AgentStatusIdle
+			case agentrunner.StatusError:
+				newStatus = models.AgentStatusError
+			default:
+				newStatus = models.AgentStatusIdle
+			}
+
+			// Update database if status changed
+			agent, err := s.Get(agentID)
+			if err == nil && agent.Status != newStatus {
+				s.updateStatus(agentID, newStatus)
+			}
+
+			// If agent is stopped or complete, stop monitoring
+			if status.Status == agentrunner.StatusStopped || status.Status == agentrunner.StatusComplete {
+				return
+			}
+		}
+	}
 }

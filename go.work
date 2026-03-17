@@ -4,6 +4,7 @@ use (
 	./backend
 	./packages/agent-config
 	./packages/agent-pool
+	./packages/agent-runner
 	./packages/agent-skills
 	./packages/cron-agents
 	./packages/goagent

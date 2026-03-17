@@ -93,56 +93,36 @@ func (s *ConfigService) Update(req *models.ConfigUpdate) (*models.Config, error)
 	return s.Get()
 }
 
-// TestLLM tests an LLM connection.
+// TestLLM tests an LLM connection using gollm library.
 func (s *ConfigService) TestLLM(req *models.LLMTestRequest) (*models.LLMTestResponse, error) {
 	start := time.Now()
 	ctx, cancel := context.WithTimeout(context.Background(), 30*time.Second)
 	defer cancel()
 
-	var provider llmclient.ProviderClient
 	providerType := req.Provider
 	if providerType == "" {
 		providerType = "openai"
 	}
 
-	switch providerType {
-	case "openai":
-		provider = llmclient.NewOpenAIProvider(llmclient.OpenAIConfig{
-			APIKey: req.APIKey,
-		})
-	case "anthropic":
-		provider = llmclient.NewAnthropicProvider(llmclient.AnthropicConfig{
-			APIKey: req.APIKey,
-			Model:  req.Model,
-		})
-	case "ollama":
-		provider = llmclient.NewOllamaProvider(llmclient.OllamaConfig{
-			BaseURL: req.BaseURL,
-		})
-	case "zai":
-		provider = llmclient.NewZAIProvider(llmclient.ZAIConfig{
-			APIKey:  req.APIKey,
-			BaseURL: req.BaseURL,
-		})
-	case "groq", "mistral", "openrouter":
-		// Use gollm for these providers
-		gollmProvider, err := llmclient.NewGollmProvider(llmclient.GollmConfig{
-			Provider: providerType,
-			Model:    req.Model,
-			APIKey:   req.APIKey,
-			BaseURL:  req.BaseURL,
-		})
-		if err != nil {
-			return &models.LLMTestResponse{
-				Success: false,
-				Message: fmt.Sprintf("Failed to create gollm provider: %v", err),
-			}, nil
-		}
-		provider = gollmProvider
-	default:
+	// Use gollm for all providers
+	config := llmclient.GollmConfig{
+		Provider: providerType,
+		Model:    req.Model,
+		APIKey:   req.APIKey,
+		BaseURL:  req.BaseURL,
+	}
+
+	// For zai provider, use openrouter with custom base URL if needed
+	if providerType == "zai" && req.BaseURL != "" {
+		config.Provider = "openrouter"
+		config.BaseURL = req.BaseURL
+	}
+
+	provider, err := llmclient.NewGollmProvider(config)
+	if err != nil {
 		return &models.LLMTestResponse{
 			Success: false,
-			Message: fmt.Sprintf("Unsupported provider: %s", providerType),
+			Message: fmt.Sprintf("Failed to create gollm provider: %v", err),
 		}, nil
 	}
 

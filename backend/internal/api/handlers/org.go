@@ -213,3 +213,187 @@ func (h *OrgHandler) SwitchOrganization(c *fiber.Ctx) error {
 		"organizationId": org.ID,
 	})
 }
+
+// ListMembers returns all members of an organization.
+// @Summary List organization members
+// @Description Get all team members for an organization
+// @Tags organizations
+// @Accept json
+// @Produce json
+// @Param id path string true "Organization ID"
+// @Success 200 {array} models.UserOrgMember
+// @Failure 404 {object} fiber.Map
+// @Router /api/organizations/{id}/members [get]
+func (h *OrgHandler) ListMembers(c *fiber.Ctx) error {
+	id := c.Params("id")
+	members, err := h.service.ListMembers(id)
+	if err != nil {
+		if appErr, ok := err.(*models.AppError); ok && appErr.Code == "NOT_FOUND" {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	// Include user details if available
+	result := make([]fiber.Map, len(members))
+	for i, member := range members {
+		userData := fiber.Map{
+			"id":           member.ID,
+			"user_id":      member.UserID,
+			"role":         member.Role,
+			"status":       member.Status,
+			"joined_at":    member.JoinedAt,
+			"metadata":     member.Metadata,
+		}
+		
+		// Try to get user details from service if available
+		if h.service.HasUserService() {
+			user, err := h.service.GetUserByID(member.UserID)
+			if err == nil && user != nil {
+				userData["email"] = user.Email
+				userData["name"] = user.Name
+				userData["avatar_url"] = user.AvatarURL
+			}
+		}
+		
+		result[i] = userData
+	}
+
+	return c.JSON(result)
+}
+
+// InviteMember invites a new member to an organization by email.
+// @Summary Invite team member
+// @Description Send invitation to join the organization via email
+// @Tags organizations
+// @Accept json
+// @Produce json
+// @Param id path string true "Organization ID"
+// @Param invite body models.UserOrgMemberCreate true "Invitation data"
+// @Success 201 {object} models.UserOrgMember
+// @Failure 400 {object} fiber.Map
+// @Failure 404 {object} fiber.Map
+// @Router /api/organizations/{id}/members [post]
+func (h *OrgHandler) InviteMember(c *fiber.Ctx) error {
+	id := c.Params("id")
+	var req models.UserOrgMemberCreate
+	if err := c.BodyParser(&req); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": "Invalid request body"})
+	}
+
+	if err := req.Validate(); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	member, err := h.service.InviteMember(id, &req)
+	if err != nil {
+		if appErr, ok := err.(*models.AppError); ok && appErr.Code == "NOT_FOUND" {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		if appErr, ok := err.(*models.AppError); ok && appErr.Code == "CONFLICT" {
+			return c.Status(409).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	return c.Status(201).JSON(member)
+}
+
+// GetMember returns a specific member of an organization.
+// @Summary Get team member
+// @Description Get details about a specific team member
+// @Tags organizations
+// @Accept json
+// @Produce json
+// @Param id path string true "Organization ID"
+// @Param userId path string true "User ID"
+// @Success 200 {object} models.UserOrgMember
+// @Failure 404 {object} fiber.Map
+// @Router /api/organizations/{id}/members/{userId} [get]
+func (h *OrgHandler) GetMember(c *fiber.Ctx) error {
+	orgID := c.Params("id")
+	userID := c.Params("userId")
+	
+	member, err := h.service.GetMember(orgID, userID)
+	if err != nil {
+		return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	return c.JSON(member)
+}
+
+// UpdateMemberRole updates a team member's role.
+// @Summary Update member role
+// @Description Change the role of a team member within an organization
+// @Tags organizations
+// @Accept json
+// @Produce json
+// @Param id path string true "Organization ID"
+// @Param userId path string true "User ID"
+// @Param update body models.MemberRoleUpdate true "Role update data"
+// @Success 200 {object} models.UserOrgMember
+// @Failure 400 {object} fiber.Map
+// @Failure 404 {object} fiber.Map
+// @Router /api/organizations/{id}/members/{userId}/role [patch]
+func (h *OrgHandler) UpdateMemberRole(c *fiber.Ctx) error {
+	orgID := c.Params("id")
+	userID := c.Params("userId")
+	
+	var req models.MemberRoleUpdate
+	if err := c.BodyParser(&req); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": "Invalid request body"})
+	}
+
+	if err := req.Validate(); err != nil {
+		return c.Status(400).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	member, err := h.service.UpdateMemberRole(orgID, userID, &req)
+	if err != nil {
+		if appErr, ok := err.(*models.AppError); ok && appErr.Code == "NOT_FOUND" {
+			return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+		}
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	return c.JSON(member)
+}
+
+// RemoveMember removes a team member from an organization.
+// @Summary Remove team member
+// @Description Remove a user from the organization (they lose access)
+// @Tags organizations
+// @Accept json
+// @Produce json
+// @Param id path string true "Organization ID"
+// @Param userId path string true "User ID to remove"
+// @Success 204
+// @Failure 404 {object} fiber.Map
+// @Router /api/organizations/{id}/members/{userId} [delete]
+func (h *OrgHandler) RemoveMember(c *fiber.Ctx) error {
+	orgID := c.Params("id")
+	userID := c.Params("userId")
+	
+	err := h.service.RemoveMember(orgID, userID)
+	if err != nil {
+		return c.Status(404).JSON(fiber.Map{"error": err.Error()})
+	}
+
+	return c.SendStatus(204)
+}
+
+// KickMember is an alias for RemoveMember (for API clarity).
+// @Summary Kick team member
+// @Description Kick a user from the organization immediately
+// @Tags organizations
+// @Accept json
+// @Produce json
+// @Param id path string true "Organization ID"
+// @Param userId path string true "User ID to kick"
+// @Success 204
+// @Failure 404 {object} fiber.Map
+// @Router /api/organizations/{id}/members/{userId}/kick [delete]
+func (h *OrgHandler) KickMember(c *fiber.Ctx) error {
+	return h.RemoveMember(c)
+}
+

@@ -41,33 +41,25 @@ func NewAgentService() *AgentService {
 	}
 }
 
-// CreateAgent creates a new go-agent with the given configuration
+// CreateAgent creates a new go-agent with the given configuration using gollm library
 func (s *AgentService) CreateAgent(ctx context.Context, id string, config AgentConfig) (*goagent.Agent, error) {
-	// Create LLM provider
-	var provider llmclient.ProviderClient
-	var err error
+	// Create LLM provider using gollm for all providers
+	gollmConfig := llmclient.GollmConfig{
+		Provider: config.Provider,
+		Model:    config.Model,
+		APIKey:   config.APIKey,
+		BaseURL:  config.BaseURL,
+	}
 
-	switch config.Provider {
-	case "openai":
-		provider = llmclient.NewOpenAIProvider(llmclient.OpenAIConfig{
-			APIKey: config.APIKey,
-		})
-	case "anthropic":
-		provider = llmclient.NewAnthropicProvider(llmclient.AnthropicConfig{
-			APIKey: config.APIKey,
-			Model:  config.Model,
-		})
-	case "ollama":
-		provider = llmclient.NewOllamaProvider(llmclient.OllamaConfig{
-			BaseURL: config.BaseURL,
-		})
-	case "zai":
-		provider = llmclient.NewZAIProvider(llmclient.ZAIConfig{
-			APIKey:  config.APIKey,
-			BaseURL: config.BaseURL,
-		})
-	default:
-		return nil, fmt.Errorf("unsupported provider: %s", config.Provider)
+	// For zai provider, use openrouter with custom base URL if needed
+	if config.Provider == "zai" && config.BaseURL != "" {
+		gollmConfig.Provider = "openrouter"
+		gollmConfig.BaseURL = config.BaseURL
+	}
+
+	provider, err := llmclient.NewGollmProvider(gollmConfig)
+	if err != nil {
+		return nil, fmt.Errorf("failed to create gollm provider: %w", err)
 	}
 
 	// Create go-agent adapter

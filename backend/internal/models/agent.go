@@ -24,6 +24,7 @@ type Agent struct {
 	Provider       string                 `json:"provider,omitempty"`
 	Model          string                 `json:"model,omitempty"`
 	SystemPrompt   string                 `json:"system_prompt,omitempty"`
+	BaseURL        string                 `json:"base_url,omitempty"`
 	WorkDir        string                 `json:"work_dir,omitempty"`
 	OrganizationID string                 `json:"organization_id,omitempty"`
 	Config         map[string]interface{} `json:"config,omitempty"`
