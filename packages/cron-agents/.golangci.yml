@@ -8,8 +8,6 @@ linters-settings:
 linters:
   enable:
     - errcheck
-    - gofmt
-    - goimports
     - govet
     - staticcheck
     - ineffassign
@@ -21,6 +19,11 @@ linters:
       - path: _test\.go
         linters:
           - errcheck
+
+formatters:
+  enable:
+    - gofmt
+    - goimports
 
 issues:
   max-issues-per-linter: 0
