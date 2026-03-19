@@ -14,8 +14,9 @@ linters:
     - unused
 
 issues:
-  exclude-dirs:
-    - vendor
-    - third_party
-  exclude-files:
-    - ".*_test\\.go$"
+  exclusions:
+    paths:
+      - vendor
+      - third_party
+    files:
+      - ".*_test\\.go$"
