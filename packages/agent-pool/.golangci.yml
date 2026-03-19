@@ -18,8 +18,6 @@ linters:
     - staticcheck
     - ineffassign
     - unused
-
-issues:
   exclusions:
     paths:
       - vendor
@@ -27,3 +25,7 @@ issues:
       - path: _test\.go
         linters:
           - errcheck
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0

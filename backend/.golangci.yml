@@ -12,11 +12,11 @@ linters:
     - staticcheck
     - ineffassign
     - unused
-
-issues:
   exclusions:
     paths:
       - vendor
       - third_party
-    files:
-      - ".*_test\\.go$"
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
