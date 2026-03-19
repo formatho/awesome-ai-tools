@@ -1,15 +1,15 @@
 version: "2"
 
-linters-settings:
-  govet:
-    disable:
-      - fieldalignment
-  staticcheck:
-    checks:
-      - all
-      - -SA9003
-
 linters:
+  settings:
+    govet:
+      disable:
+        - fieldalignment
+    staticcheck:
+      checks:
+        - all
+        - -SA9003
+
   enable:
     - errcheck
     - govet
