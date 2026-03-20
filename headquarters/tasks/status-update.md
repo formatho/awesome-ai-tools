@@ -12,7 +12,7 @@
 ### Backend Compilation FIXED! 🎉
 - Fixed all compilation errors in `state_handler.go` and `auth_handler.go`
 - Successfully built backend binary: `/formatho-backend-test`
-- Started backend service on **port 8080** (PID running)
+- Started backend service on **port 18765** (PID running)
 
 ### Test Results:
 ```bash
