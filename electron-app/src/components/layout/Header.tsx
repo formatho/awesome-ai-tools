@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
-import { Minus, Square, X, Maximize2 } from 'lucide-react'
+import { Minus, Square, X, Maximize2, PlayCircle } from 'lucide-react'
+import { startTour, isTourCompleted } from '../../lib/productTour'
 
 declare global {
   interface Window {
@@ -14,6 +15,7 @@ declare global {
 
 export default function Header() {
   const [isMaximized, setIsMaximized] = useState(false)
+  const [tourCompleted, setTourCompleted] = useState(false)
 
   useEffect(() => {
     const checkMaximized = async () => {
@@ -23,6 +25,7 @@ export default function Header() {
       }
     }
     checkMaximized()
+    setTourCompleted(isTourCompleted())
   }, [])
 
   const handleMaximize = async () => {
@@ -33,11 +36,24 @@ export default function Header() {
     }
   }
 
+  const handleStartTour = () => {
+    startTour()
+  }
+
   return (
     <header className="h-12 bg-surface border-b border-border flex items-center justify-between px-4 drag-region">
       {/* Window Title */}
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-3">
         <span className="text-sm text-text-secondary">Agent Orchestrator</span>
+        {!tourCompleted && (
+          <button
+            onClick={handleStartTour}
+            className="no-drag flex items-center gap-1.5 px-2 py-1 text-xs bg-accent/10 text-accent rounded-md hover:bg-accent/20 transition-colors"
+          >
+            <PlayCircle className="w-3.5 h-3.5" />
+            Start Tour
+          </button>
+        )}
       </div>
 
       {/* Window Controls */}

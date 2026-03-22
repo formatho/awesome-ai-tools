@@ -6,21 +6,23 @@ import {
   Clock, 
   Settings,
   Activity,
-  Zap
+  Zap,
+  Sparkles
 } from 'lucide-react'
 
 const navItems = [
-  { path: '/', icon: LayoutDashboard, label: 'Dashboard' },
-  { path: '/agents', icon: Users, label: 'Agents' },
-  { path: '/todos', icon: CheckSquare, label: 'TODOs' },
-  { path: '/cron', icon: Clock, label: 'Cron Jobs' },
-  { path: '/skills', icon: Zap, label: 'Skills' },
-  { path: '/config', icon: Settings, label: 'Config' },
+  { path: '/', icon: LayoutDashboard, label: 'Dashboard', tourId: 'tour-dashboard-nav' },
+  { path: '/tutorial', icon: Sparkles, label: 'Tutorial', highlight: true, tourId: 'tour-tutorial-nav' },
+  { path: '/agents', icon: Users, label: 'Agents', tourId: 'tour-agents-nav' },
+  { path: '/todos', icon: CheckSquare, label: 'TODOs', tourId: 'tour-todos-nav' },
+  { path: '/cron', icon: Clock, label: 'Cron Jobs', tourId: 'tour-cron-nav' },
+  { path: '/skills', icon: Zap, label: 'Skills', tourId: 'tour-skills-nav' },
+  { path: '/config', icon: Settings, label: 'Config', tourId: 'tour-config-nav' },
 ]
 
 export default function Sidebar() {
   return (
-    <aside className="w-64 bg-surface border-r border-border flex flex-col h-full">
+    <aside id="tour-sidebar" className="w-64 bg-surface border-r border-border flex flex-col h-full">
       {/* Logo */}
       <div className="p-4 border-b border-border">
         <div className="flex items-center gap-2">
@@ -37,12 +39,16 @@ export default function Sidebar() {
           <NavLink
             key={item.path}
             to={item.path}
+            id={item.tourId}
             className={({ isActive }) =>
-              `sidebar-item ${isActive ? 'active' : ''}`
+              `sidebar-item ${isActive ? 'active' : ''} ${item.highlight ? 'text-accent' : ''}`
             }
           >
-            <item.icon className="w-5 h-5" />
+            <item.icon className={`w-5 h-5 ${item.highlight ? 'text-accent' : ''}`} />
             <span>{item.label}</span>
+            {item.highlight && (
+              <span className="ml-auto text-xs bg-accent/20 text-accent px-1.5 py-0.5 rounded">NEW</span>
+            )}
           </NavLink>
         ))}
       </nav>

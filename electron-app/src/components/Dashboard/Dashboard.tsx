@@ -1,9 +1,17 @@
-import { Users, CheckSquare, Clock, Activity, TrendingUp, AlertCircle } from 'lucide-react'
+import { Users, CheckSquare, Clock, Activity, TrendingUp, AlertCircle, PlayCircle } from 'lucide-react'
 import { useAgents, useTODOs } from '../../hooks/useAPI'
+import { startTour, isTourCompleted, shouldShowTour } from '../../lib/productTour'
+import { useState, useEffect } from 'react'
 
 export default function Dashboard() {
   const { data: agents } = useAgents()
   const { data: todos } = useTODOs({ status: 'pending' })
+  const [showTourPrompt, setShowTourPrompt] = useState(false)
+
+  // Check if we should show the tour prompt
+  useEffect(() => {
+    setShowTourPrompt(shouldShowTour())
+  }, [])
 
   // Count active agents (status === 'running')
   const activeAgentsCount = agents?.filter((agent: { status: string }) => agent.status === 'running').length ?? 0
@@ -28,13 +36,46 @@ export default function Dashboard() {
   return (
     <div className="space-y-6 animate-fade-in">
       {/* Page Header */}
-      <div>
+      <div id="tour-welcome">
         <h1 className="text-2xl font-bold text-text-primary">Dashboard</h1>
         <p className="text-text-secondary mt-1">Overview of your agents, tasks, and system status</p>
       </div>
 
+      {/* Tour Prompt Banner */}
+      {showTourPrompt && (
+        <div className="card bg-gradient-to-r from-accent/10 to-success/10 border-accent/20 flex items-center justify-between">
+          <div className="flex items-center gap-4">
+            <div className="w-10 h-10 rounded-lg bg-accent/20 flex items-center justify-center">
+              <PlayCircle className="w-5 h-5 text-accent" />
+            </div>
+            <div>
+              <h3 className="font-semibold text-text-primary">New here? Take a quick tour!</h3>
+              <p className="text-sm text-text-secondary">Learn how to create agents, assign tasks, and monitor progress in just 2 minutes.</p>
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={() => setShowTourPrompt(false)}
+              className="btn-ghost text-sm text-text-secondary hover:text-text-primary"
+            >
+              Maybe Later
+            </button>
+            <button
+              onClick={() => {
+                setShowTourPrompt(false)
+                startTour()
+              }}
+              className="btn-primary text-sm flex items-center gap-2"
+            >
+              <PlayCircle className="w-4 h-4" />
+              Start Tour
+            </button>
+          </div>
+        </div>
+      )}
+
       {/* Stats Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div id="tour-dashboard-stats" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {stats.map((stat) => (
           <div key={stat.label} className="card">
             <div className="flex items-center justify-between">
@@ -56,7 +97,7 @@ export default function Dashboard() {
       {/* Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Recent Activity */}
-        <div className="card">
+        <div id="tour-activity-feed" className="card">
           <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
             <TrendingUp className="w-5 h-5 text-accent" />
             Recent Activity
@@ -94,7 +135,7 @@ export default function Dashboard() {
       </div>
 
       {/* Quick Actions */}
-      <div className="card">
+      <div id="tour-quick-actions" className="card">
         <h2 className="text-lg font-semibold mb-4">Quick Actions</h2>
         <div className="flex flex-wrap gap-3">
           <button className="btn-primary">
@@ -109,6 +150,15 @@ export default function Dashboard() {
             <Clock className="w-4 h-4 mr-2 inline" />
             Schedule Cron
           </button>
+          {!isTourCompleted() && (
+            <button 
+              onClick={startTour}
+              className="btn-secondary flex items-center gap-2"
+            >
+              <PlayCircle className="w-4 h-4" />
+              Start Tour
+            </button>
+          )}
         </div>
       </div>
     </div>
