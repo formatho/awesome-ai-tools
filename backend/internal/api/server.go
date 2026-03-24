@@ -22,26 +22,30 @@ type Server struct {
 	hub *websocket.Hub
 
 	// Services
-	agentSvc  *services.AgentService
-	todoSvc   *services.TODOService
-	cronSvc   *services.CronService
-	configSvc *services.ConfigService
-	chatSvc   *services.ChatService
-	orgSvc    *services.OrgService
-	stateSvc  *services.StateService
+	agentSvc       *services.AgentService
+	todoSvc        *services.TODOService
+	cronSvc        *services.CronService
+	configSvc      *services.ConfigService
+	chatSvc        *services.ChatService
+	orgSvc         *services.OrgService
+	stateSvc       *services.StateService
+	newsletterSvc  *services.NewsletterService
 
 	// Handlers
-	agentH     *handlers.AgentHandler
-	todoH      *handlers.TODOHandler
-	cronH      *handlers.CronHandler
-	configH    *handlers.ConfigHandler
-	systemH    *handlers.SystemHandler
-	chatH      *handlers.ChatHandler
-	orgH       *handlers.OrgHandler
-	stateH     *handlers.StateHandler
-	authH      *handlers.AuthHandlerFiber
-	teamInvH   *handlers.TeamInvitationHandler
-	teamPermH  *handlers.TeamPermissionsHandler
+	agentH       *handlers.AgentHandler
+	todoH        *handlers.TODOHandler
+	cronH        *handlers.CronHandler
+	configH      *handlers.ConfigHandler
+	systemH      *handlers.SystemHandler
+	chatH        *handlers.ChatHandler
+	orgH         *handlers.OrgHandler
+	stateH       *handlers.StateHandler
+	authH        *handlers.AuthHandlerFiber
+	teamInvH     *handlers.TeamInvitationHandler
+	teamPermH    *handlers.TeamPermissionsHandler
+	stripeH      *handlers.StripeHandler
+	analyticsH   *handlers.AnalyticsHandler
+	newsletterH  *handlers.NewsletterHandler
 
 	// WebSocket upgrader
 	upgrader fastws.FastHTTPUpgrader
@@ -76,10 +80,28 @@ func NewServer(db *sql.DB) *fiber.App {
 	// Create auth service for team handlers and Fiber auth handler
 	authSvc := services.NewAuthService(db)
 
+	// Create subscription service
+	subSvc := services.NewSubscriptionService(db)
+
+	// Create analytics service
+	analyticsSvc := services.NewAnalyticsService(db)
+
+	// Create newsletter service
+	newsletterSvc := services.NewNewsletterService(db)
+
 	// Create team handlers
 	mockEmailSender := &services.MockEmailSender{}
 	invitationSvc := services.NewInvitationService(db, mockEmailSender)
 	permissionSvc := services.NewPermissionService(db)
+
+	// Create Stripe handler with subscription service and analytics
+	stripeH := handlers.NewStripeHandler(authSvc, subSvc, analyticsSvc)
+
+	// Create analytics handler
+	analyticsH := handlers.NewAnalyticsHandler(analyticsSvc, subSvc)
+
+	// Create newsletter handler
+	newsletterH := handlers.NewNewsletterHandler(newsletterSvc)
 
 	// Create Fiber app
 	app := fiber.New(fiber.Config{
@@ -89,26 +111,30 @@ func NewServer(db *sql.DB) *fiber.App {
 
 	// Create server instance
 	server := &Server{
-		app:       app,
-		db:        db,
-		hub:       hub,
-		agentSvc:  agentSvc,
-		todoSvc:   todoSvc,
-		cronSvc:   cronSvc,
-		configSvc: configSvc,
-		chatSvc:   chatSvc,
-		orgSvc:    orgSvc,
-		stateH:    stateH,
-		authH:     authH,
-		agentH:    agentH,
-		todoH:     todoH,
-		cronH:     cronH,
-		configH:   configH,
-		systemH:   systemH,
-		chatH:     chatH,
-		orgH:      orgH,
-		teamInvH:  handlers.NewTeamInvitationHandler(invitationSvc, authSvc),
-		teamPermH: handlers.NewTeamPermissionsHandler(permissionSvc, authSvc),
+		app:           app,
+		db:            db,
+		hub:           hub,
+		agentSvc:      agentSvc,
+		todoSvc:       todoSvc,
+		cronSvc:       cronSvc,
+		configSvc:     configSvc,
+		chatSvc:       chatSvc,
+		orgSvc:        orgSvc,
+		newsletterSvc: newsletterSvc,
+		stateH:        stateH,
+		authH:         authH,
+		agentH:        agentH,
+		todoH:         todoH,
+		cronH:         cronH,
+		configH:       configH,
+		systemH:       systemH,
+		chatH:         chatH,
+		orgH:          orgH,
+		teamInvH:      handlers.NewTeamInvitationHandler(invitationSvc, authSvc),
+		teamPermH:     handlers.NewTeamPermissionsHandler(permissionSvc, authSvc),
+		stripeH:       stripeH,
+		analyticsH:    analyticsH,
+		newsletterH:   newsletterH,
 		upgrader: fastws.FastHTTPUpgrader{
 			ReadBufferSize:  1024,
 			WriteBufferSize: 1024,
@@ -281,4 +307,41 @@ func (s *Server) setupRoutes() {
 	// State summary and metrics endpoints
 	api.Get("/agent-states", s.stateH.GetAgentStatesSummary)
 	api.Get("/agent-state/metrics", s.stateH.GetStateMetrics)
+
+	// Stripe payment routes (protected)
+	stripe := api.Group("/stripe").Use(s.authH.RequireAuth())
+	stripe.Post("/checkout", s.stripeH.CreateCheckoutSession)
+	stripe.Post("/portal", s.stripeH.CreatePortalSession)
+	stripe.Get("/subscription", s.stripeH.GetSubscriptionStatus)
+	stripe.Get("/payments", s.stripeH.GetPaymentHistory)
+	stripe.Get("/pricing", s.stripeH.GetPricing)
+
+	// Stripe webhook (public - verified by signature)
+	s.app.Post("/api/stripe/webhook", s.stripeH.HandleWebhook)
+
+	// Analytics routes - Conversion Funnel Tracking
+	// Public tracking endpoints (no auth required for anonymous tracking)
+	analyticsPublic := api.Group("/analytics")
+	analyticsPublic.Post("/track", s.analyticsH.TrackEvent)
+	analyticsPublic.Post("/track/pricing-view", s.analyticsH.TrackPricingView)
+	analyticsPublic.Post("/track/checkout-click", s.analyticsH.TrackCheckoutClick)
+	analyticsPublic.Post("/track/checkout-cancel", s.analyticsH.TrackCheckoutCancel)
+
+	// Protected analytics endpoints (require authentication)
+	analyticsProtected := api.Group("/analytics").Use(s.authH.RequireAuth())
+	analyticsProtected.Post("/track/checkout-start", s.analyticsH.TrackCheckoutStart)
+	analyticsProtected.Post("/track/checkout-success", s.analyticsH.TrackCheckoutSuccess)
+	analyticsProtected.Get("/funnel", s.analyticsH.GetFunnel)
+	analyticsProtected.Get("/funnel/summary", s.analyticsH.GetFunnelSummary)
+	analyticsProtected.Get("/funnel/daily", s.analyticsH.GetDailyStats)
+	analyticsProtected.Get("/dashboard", s.analyticsH.GetDashboard)
+	analyticsProtected.Get("/session/:sessionId", s.analyticsH.GetSessionEvents)
+
+	// Newsletter subscription routes (public)
+	newsletter := api.Group("/newsletter")
+	newsletter.Post("/subscribe", s.newsletterH.Subscribe)
+	newsletter.Post("/unsubscribe", s.newsletterH.Unsubscribe)
+	newsletter.Get("/stats", s.newsletterH.GetStats)
+	newsletter.Get("/recent", s.newsletterH.GetRecentSubscribers)
+	newsletter.Get("/export", s.newsletterH.ExportSubscribers)
 }

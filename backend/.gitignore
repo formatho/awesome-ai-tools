@@ -25,3 +25,5 @@ configs/local.yaml
 # Logs
 *.log
 logs/
+certs/
+*.pem

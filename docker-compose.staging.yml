@@ -1,0 +1,52 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: agent-orchestrator-staging
+    ports:
+      - "18765:18765"
+    environment:
+      - ENV=staging
+      - PORT=18765
+      - DATABASE_URL=file:/data/agent_orchestrator.db
+      - LOG_LEVEL=debug
+    volumes:
+      # Persist database
+      - staging-data:/data
+      # Mount environment file
+      - ./.env.staging:/root/.env:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:18765/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - staging-network
+
+  # Optional: Nginx reverse proxy for SSL (for future HTTPS task)
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: agent-orchestrator-nginx
+  #   ports:
+  #     - "443:443"
+  #   volumes:
+  #     - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #     - ./nginx/ssl:/etc/nginx/ssl:ro
+  #   depends_on:
+  #     - backend
+  #   networks:
+  #     - staging-network
+
+volumes:
+  staging-data:
+    driver: local
+    name: agent-orchestrator-staging-data
+
+networks:
+  staging-network:
+    driver: bridge
+    name: agent-orchestrator-staging-network

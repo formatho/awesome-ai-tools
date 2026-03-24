@@ -7,11 +7,13 @@ import TODOList from '../components/TODOs/TODOList'
 import CronList from '../components/Cron/CronList'
 import ConfigEditor from '../components/Config/ConfigEditor'
 import SkillsEditor from '../components/Skills/SkillsEditor'
+import Tutorial from '../components/Tutorial/Tutorial'
 
 export default function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
+      <Route path="/tutorial" element={<Tutorial />} />
       <Route path="/agents" element={<AgentList />} />
       <Route path="/agents/:id/chat" element={<ChatPage />} />
       <Route path="/agents/:id" element={<AgentDetail />} />

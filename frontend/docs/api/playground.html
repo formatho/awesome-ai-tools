@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Playground - Agent Orchestrator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+        }
+
+        .playground-container {
+            display: grid;
+            grid-template-columns: 300px 1fr 1fr;
+            height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: #2c3e50;
+            color: white;
+            padding: 1.5rem;
+            overflow-y: auto;
+        }
+
+        .sidebar h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(255,255,255,0.2);
+        }
+
+        .endpoint-list {
+            list-style: none;
+        }
+
+        .endpoint-list li {
+            margin-bottom: 0.5rem;
+        }
+
+        .endpoint-btn {
+            width: 100%;
+            padding: 0.75rem;
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: white;
+            text-align: left;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .endpoint-btn:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .endpoint-btn.active {
+            background: #3498db;
+        }
+
+        .method-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .get { background: #61affe; }
+        .post { background: #49cc90; }
+        .put { background: #fca130; }
+        .delete { background: #f93e3e; }
+        .patch { background: #50e3c2; }
+
+        /* Request Panel */
+        .request-panel {
+            background: white;
+            padding: 1.5rem;
+            overflow-y: auto;
+            border-right: 1px solid #dee2e6;
+        }
+
+        .panel-header {
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #f1f3f5;
+        }
+
+        .panel-header h3 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #495057;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 0.95rem;
+            font-family: 'Courier New', monospace;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+        }
+
+        textarea.form-control {
+            min-height: 200px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .send-btn {
+            width: 100%;
+            padding: 1rem;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .send-btn:hover {
+            background: #2980b9;
+        }
+
+        .send-btn:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+        }
+
+        /* Response Panel */
+        .response-panel {
+            background: white;
+            padding: 1.5rem;
+            overflow-y: auto;
+        }
+
+        .response-status {
+            padding: 0.75rem 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .status-loading {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+        }
+
+        .response-body {
+            background: #2d2d2d;
+            color: #ccc;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            max-height: 600px;
+            overflow-y: auto;
+        }
+
+        .response-tabs {
+            display: flex;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f1f3f5;
+        }
+
+        .response-tab {
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            font-weight: 500;
+            color: #6c757d;
+        }
+
+        .response-tab.active {
+            color: #3498db;
+            border-bottom-color: #3498db;
+        }
+
+        .tab-panel {
+            display: none;
+        }
+
+        .tab-panel.active {
+            display: block;
+        }
+
+        .info-text {
+            color: #6c757d;
+            font-style: italic;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .auth-section {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 1.5rem;
+        }
+
+        .auth-section h4 {
+            margin-bottom: 0.75rem;
+            color: #495057;
+        }
+
+        /* Code formatting */
+        .json-key { color: #9cdcfe; }
+        .json-string { color: #ce9178; }
+        .json-number { color: #b5cea8; }
+        .json-boolean { color: #569cd6; }
+        .json-null { color: #569cd6; }
+
+        /* Environment selector */
+        .env-selector {
+            margin-bottom: 1rem;
+        }
+
+        .env-selector select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="playground-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>🧪 API Playground</h2>
+            
+            <div class="env-selector">
+                <label style="color: rgba(255,255,255,0.7); font-size: 0.85rem;">Environment</label>
+                <select id="environment" onchange="updateBaseUrl()">
+                    <option value="http://localhost:18765">Development (localhost)</option>
+                    <option value="https://api.formatho.com">Production</option>
+                </select>
+            </div>
+
+            <h3 style="font-size: 0.9rem; margin-top: 1rem; margin-bottom: 0.75rem; color: rgba(255,255,255,0.7);">ENDPOINTS</h3>
+            
+            <ul class="endpoint-list">
+                <li><button class="endpoint-btn" onclick="loadEndpoint('list-agents')"><span class="method-badge get">GET</span>List Agents</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('create-agent')"><span class="method-badge post">POST</span>Create Agent</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('get-agent')"><span class="method-badge get">GET</span>Get Agent</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('update-agent')"><span class="method-badge put">PUT</span>Update Agent</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('delete-agent')"><span class="method-badge delete">DEL</span>Delete Agent</button></li>
+                
+                <li style="margin-top: 1rem;"><button class="endpoint-btn" onclick="loadEndpoint('list-todos')"><span class="method-badge get">GET</span>List TODOs</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('create-todo')"><span class="method-badge post">POST</span>Create TODO</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('start-todo')"><span class="method-badge post">POST</span>Start TODO</button></li>
+                
+                <li style="margin-top: 1rem;"><button class="endpoint-btn" onclick="loadEndpoint('list-crons')"><span class="method-badge get">GET</span>List Cron Jobs</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('create-cron')"><span class="method-badge post">POST</span>Create Cron</button></li>
+                
+                <li style="margin-top: 1rem;"><button class="endpoint-btn" onclick="loadEndpoint('list-orgs')"><span class="method-badge get">GET</span>List Orgs</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('create-org')"><span class="method-badge post">POST</span>Create Org</button></li>
+                
+                <li style="margin-top: 1rem;"><button class="endpoint-btn" onclick="loadEndpoint('system-status')"><span class="method-badge get">GET</span>System Status</button></li>
+                <li><button class="endpoint-btn" onclick="loadEndpoint('health-check')"><span class="method-badge get">GET</span>Health Check</button></li>
+            </ul>
+        </div>
+
+        <!-- Request Panel -->
+        <div class="request-panel">
+            <div class="panel-header">
+                <h3 id="endpoint-title">Select an Endpoint</h3>
+                <p id="endpoint-description" style="color: #6c757d; margin-top: 0.5rem;">Choose an endpoint from the sidebar to get started</p>
+            </div>
+
+            <div id="request-form" style="display: none;">
+                <div class="auth-section">
+                    <h4>🔐 Authentication</h4>
+                    <div class="form-group" style="margin-bottom: 0;">
+                        <input type="text" id="api-key" class="form-control" placeholder="Enter your API key (Bearer token)">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>URL</label>
+                    <input type="text" id="request-url" class="form-control" readonly>
+                </div>
+
+                <div class="form-group">
+                    <label>Method</label>
+                    <input type="text" id="request-method" class="form-control" readonly>
+                </div>
+
+                <div class="form-group" id="headers-group">
+                    <label>Headers</label>
+                    <textarea id="request-headers" class="form-control" rows="4">{
+  "Content-Type": "application/json"
+}</textarea>
+                </div>
+
+                <div class="form-group" id="body-group">
+                    <label>Request Body (JSON)</label>
+                    <textarea id="request-body" class="form-control" rows="10"></textarea>
+                </div>
+
+                <button class="send-btn" onclick="sendRequest()">🚀 Send Request</button>
+            </div>
+        </div>
+
+        <!-- Response Panel -->
+        <div class="response-panel">
+            <div class="panel-header">
+                <h3>Response</h3>
+            </div>
+
+            <div id="response-status" style="display: none;"></div>
+
+            <div class="response-tabs" id="response-tabs" style="display: none;">
+                <div class="response-tab active" onclick="showResponseTab('body')">Body</div>
+                <div class="response-tab" onclick="showResponseTab('headers')">Headers</div>
+            </div>
+
+            <div id="tab-body" class="tab-panel active">
+                <div id="response-body" class="response-body">
+                    <p class="info-text">Response will appear here after you send a request</p>
+                </div>
+            </div>
+
+            <div id="tab-headers" class="tab-panel">
+                <div id="response-headers" class="response-body">
+                    <p class="info-text">Headers will appear here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let baseUrl = 'http://localhost:18765';
+        let currentEndpoint = null;
+
+        const endpoints = {
+            'list-agents': {
+                title: 'List Agents',
+                description: 'Retrieve all agents',
+                method: 'GET',
+                path: '/api/agents',
+                hasBody: false,
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'create-agent': {
+                title: 'Create Agent',
+                description: 'Create a new AI agent',
+                method: 'POST',
+                path: '/api/agents',
+                hasBody: true,
+                body: {
+                    name: 'My Agent',
+                    provider: 'openai',
+                    model: 'gpt-4o',
+                    system_prompt: 'You are a helpful assistant.',
+                    work_dir: '~/sandbox'
+                },
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'get-agent': {
+                title: 'Get Agent',
+                description: 'Get agent by ID',
+                method: 'GET',
+                path: '/api/agents/{id}',
+                hasBody: false,
+                params: ['id'],
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'update-agent': {
+                title: 'Update Agent',
+                description: 'Update agent configuration',
+                method: 'PUT',
+                path: '/api/agents/{id}',
+                hasBody: true,
+                params: ['id'],
+                body: {
+                    name: 'Updated Agent Name',
+                    system_prompt: 'New system prompt'
+                },
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'delete-agent': {
+                title: 'Delete Agent',
+                description: 'Delete an agent',
+                method: 'DELETE',
+                path: '/api/agents/{id}',
+                hasBody: false,
+                params: ['id'],
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'list-todos': {
+                title: 'List TODOs',
+                description: 'Retrieve all TODO tasks',
+                method: 'GET',
+                path: '/api/todos',
+                hasBody: false,
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'create-todo': {
+                title: 'Create TODO',
+                description: 'Create a new TODO task',
+                method: 'POST',
+                path: '/api/todos',
+                hasBody: true,
+                body: {
+                    title: 'New Task',
+                    description: 'Task description',
+                    priority: 5,
+                    skills: ['python']
+                },
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'start-todo': {
+                title: 'Start TODO',
+                description: 'Start executing a TODO',
+                method: 'POST',
+                path: '/api/todos/{id}/start',
+                hasBody: false,
+                params: ['id'],
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'list-crons': {
+                title: 'List Cron Jobs',
+                description: 'Retrieve all cron jobs',
+                method: 'GET',
+                path: '/api/cron',
+                hasBody: false,
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'create-cron': {
+                title: 'Create Cron Job',
+                description: 'Create a new scheduled job',
+                method: 'POST',
+                path: '/api/cron',
+                hasBody: true,
+                body: {
+                    name: 'Daily Backup',
+                    schedule: '0 2 * * *',
+                    timezone: 'UTC',
+                    task_name: 'backup'
+                },
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'list-orgs': {
+                title: 'List Organizations',
+                description: 'Retrieve all organizations',
+                method: 'GET',
+                path: '/api/organizations',
+                hasBody: false,
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'create-org': {
+                title: 'Create Organization',
+                description: 'Create a new organization',
+                method: 'POST',
+                path: '/api/organizations',
+                hasBody: true,
+                body: {
+                    name: 'My Company',
+                    slug: 'my-company'
+                },
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-Owner-ID': 'your-user-id'
+                }
+            },
+            'system-status': {
+                title: 'System Status',
+                description: 'Get system health and metrics',
+                method: 'GET',
+                path: '/api/system/status',
+                hasBody: false,
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            },
+            'health-check': {
+                title: 'Health Check',
+                description: 'Simple health check endpoint',
+                method: 'GET',
+                path: '/health',
+                hasBody: false,
+                headers: {}
+            }
+        };
+
+        function updateBaseUrl() {
+            baseUrl = document.getElementById('environment').value;
+            if (currentEndpoint) {
+                updateRequestForm(currentEndpoint);
+            }
+        }
+
+        function loadEndpoint(endpointId) {
+            currentEndpoint = endpoints[endpointId];
+            
+            // Update active button
+            document.querySelectorAll('.endpoint-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Show request form
+            document.getElementById('request-form').style.display = 'block';
+            
+            updateRequestForm(currentEndpoint);
+        }
+
+        function updateRequestForm(endpoint) {
+            document.getElementById('endpoint-title').textContent = endpoint.title;
+            document.getElementById('endpoint-description').textContent = endpoint.description;
+            
+            let path = endpoint.path;
+            if (endpoint.params) {
+                endpoint.params.forEach(param => {
+                    path = path.replace(`{${param}}`, `<${param}>`);
+                });
+            }
+            
+            document.getElementById('request-url').value = baseUrl + path;
+            document.getElementById('request-method').value = endpoint.method;
+            document.getElementById('request-headers').value = JSON.stringify(endpoint.headers, null, 2);
+            
+            const bodyGroup = document.getElementById('body-group');
+            const bodyTextarea = document.getElementById('request-body');
+            
+            if (endpoint.hasBody) {
+                bodyGroup.style.display = 'block';
+                bodyTextarea.value = JSON.stringify(endpoint.body, null, 2);
+            } else {
+                bodyGroup.style.display = 'none';
+            }
+        }
+
+        async function sendRequest() {
+            const apiKey = document.getElementById('api-key').value;
+            let url = document.getElementById('request-url').value;
+            const method = document.getElementById('request-method').value;
+            const headersText = document.getElementById('request-headers').value;
+            const bodyText = document.getElementById('request-body').value;
+
+            // Parse headers
+            let headers;
+            try {
+                headers = JSON.parse(headersText);
+            } catch (e) {
+                showResponse('error', 'Invalid JSON in headers');
+                return;
+            }
+
+            // Add auth header if API key provided
+            if (apiKey) {
+                headers['Authorization'] = `Bearer ${apiKey}`;
+            }
+
+            // Prepare request options
+            const options = {
+                method: method,
+                headers: headers
+            };
+
+            if (['POST', 'PUT', 'PATCH'].includes(method)) {
+                try {
+                    options.body = bodyText;
+                    JSON.parse(bodyText); // Validate JSON
+                } catch (e) {
+                    showResponse('error', 'Invalid JSON in request body');
+                    return;
+                }
+            }
+
+            // Show loading state
+            showResponse('loading', 'Sending request...');
+            document.getElementById('response-tabs').style.display = 'flex';
+
+            try {
+                const response = await fetch(url, options);
+                const responseHeaders = {};
+                response.headers.forEach((value, key) => {
+                    responseHeaders[key] = value;
+                });
+
+                let responseBody;
+                const contentType = response.headers.get('content-type');
+                if (contentType && contentType.includes('application/json')) {
+                    responseBody = await response.json();
+                } else {
+                    responseBody = await response.text();
+                }
+
+                // Show response
+                const statusType = response.ok ? 'success' : 'error';
+                showResponse(statusType, `${response.status} ${response.statusText}`, responseBody, responseHeaders);
+
+            } catch (error) {
+                showResponse('error', 'Request Failed', { error: error.message });
+            }
+        }
+
+        function showResponse(type, status, body = null, headers = null) {
+            const statusDiv = document.getElementById('response-status');
+            const bodyDiv = document.getElementById('response-body');
+            const headersDiv = document.getElementById('response-headers');
+            const tabsDiv = document.getElementById('response-tabs');
+
+            statusDiv.style.display = 'block';
+            statusDiv.className = `response-status status-${type}`;
+            statusDiv.textContent = status;
+
+            if (body !== null) {
+                tabsDiv.style.display = 'flex';
+                bodyDiv.innerHTML = formatJSON(body);
+                
+                if (headers) {
+                    headersDiv.innerHTML = formatJSON(headers);
+                }
+            } else {
+                tabsDiv.style.display = 'none';
+                bodyDiv.innerHTML = '<p class="info-text">No response body</p>';
+            }
+        }
+
+        function formatJSON(obj) {
+            const json = JSON.stringify(obj, null, 2);
+            return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, (match) => {
+                let cls = 'json-number';
+                if (/^"/.test(match)) {
+                    if (/:$/.test(match)) {
+                        cls = 'json-key';
+                    } else {
+                        cls = 'json-string';
+                    }
+                } else if (/true|false/.test(match)) {
+                    cls = 'json-boolean';
+                } else if (/null/.test(match)) {
+                    cls = 'json-null';
+                }
+                return '<span class="' + cls + '">' + match + '</span>';
+            });
+        }
+
+        function showResponseTab(tab) {
+            document.querySelectorAll('.response-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+            
+            event.target.classList.add('active');
+            document.getElementById('tab-' + tab).classList.add('active');
+        }
+    </script>
+</body>
+</html>

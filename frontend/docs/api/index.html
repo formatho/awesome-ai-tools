@@ -1,0 +1,2336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Orchestrator API Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .sidebar h1 {
+            padding: 0 1.5rem 1rem;
+            font-size: 1.5rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 1rem;
+        }
+
+        .sidebar nav {
+            padding: 0 1rem;
+        }
+
+        .sidebar nav a {
+            display: block;
+            padding: 0.5rem 1rem;
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            border-radius: 4px;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .sidebar nav a:hover {
+            background: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+        .sidebar nav a.active {
+            background: #3498db;
+            color: white;
+        }
+
+        .nav-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .nav-section-title {
+            padding: 0.5rem 1rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.5);
+            letter-spacing: 0.05em;
+            font-weight: 600;
+        }
+
+        /* Main content */
+        .main-content {
+            flex: 1;
+            margin-left: 280px;
+            padding: 2rem 3rem;
+            max-width: 1200px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #3498db;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            color: #34495e;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            margin: 1.5rem 0 0.5rem;
+            color: #34495e;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        /* Endpoint cards */
+        .endpoint-card {
+            background: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .endpoint-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #f1f3f5;
+        }
+
+        .method {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-right: 0.75rem;
+            min-width: 70px;
+            text-align: center;
+        }
+
+        .method.get { background: #61affe; color: white; }
+        .method.post { background: #49cc90; color: white; }
+        .method.put { background: #fca130; color: white; }
+        .method.delete { background: #f93e3e; color: white; }
+        .method.patch { background: #50e3c2; color: white; }
+
+        .endpoint-path {
+            font-family: 'Courier New', monospace;
+            font-size: 1.1rem;
+            color: #2c3e50;
+        }
+
+        /* Code blocks */
+        pre {
+            background: #2d2d2d;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+
+        pre code {
+            color: #ccc;
+        }
+
+        :not(pre) > code {
+            background: #f1f3f5;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            color: #c7254e;
+        }
+
+        /* Try it out section */
+        .try-it {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+        }
+
+        .try-it h4 {
+            margin-top: 0;
+            color: #495057;
+        }
+
+        .try-it-input {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .try-it-input input {
+            flex: 1;
+            padding: 0.5rem 1rem;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+
+        .try-it-input button {
+            padding: 0.5rem 1.5rem;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .try-it-input button:hover {
+            background: #2980b9;
+        }
+
+        .try-it-input button:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+        }
+
+        .response-box {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 1rem;
+            max-height: 400px;
+            overflow: auto;
+            display: none;
+        }
+
+        .response-box.visible {
+            display: block;
+        }
+
+        .response-status {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .response-status.success { color: #27ae60; }
+        .response-status.error { color: #e74c3c; }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid #f1f3f5;
+            margin: 1.5rem 0 1rem;
+        }
+
+        .tab {
+            padding: 0.5rem 1.5rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            font-weight: 500;
+            color: #6c757d;
+            transition: all 0.3s;
+        }
+
+        .tab:hover {
+            color: #3498db;
+        }
+
+        .tab.active {
+            color: #3498db;
+            border-bottom-color: #3498db;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Info boxes */
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .warning-box {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        .success-box {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 4px;
+        }
+
+        /* Parameter tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            background: white;
+        }
+
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        th {
+            background: #f8f9fa;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        td code {
+            background: #f1f3f5;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+        }
+
+        /* Badge */
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            border-radius: 3px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+
+        .badge.required { background: #e74c3c; color: white; }
+        .badge.optional { background: #95a5a6; color: white; }
+        .badge.new { background: #27ae60; color: white; }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar">
+            <h1>📚 API Docs</h1>
+            <nav>
+                <div class="nav-section">
+                    <div class="nav-section-title">Getting Started</div>
+                    <a href="#overview" class="active">Overview</a>
+                    <a href="#authentication">Authentication</a>
+                    <a href="#quick-start">Quick Start</a>
+                </div>
+                
+                <div class="nav-section">
+                    <div class="nav-section-title">Core Resources</div>
+                    <a href="#agents">Agents</a>
+                    <a href="#todos">TODOs</a>
+                    <a href="#cron">Cron Jobs</a>
+                    <a href="#organizations">Organizations</a>
+                </div>
+
+                <div class="nav-section">
+                    <div class="nav-section-title">Team Management</div>
+                    <a href="#team-members">Team Members</a>
+                    <a href="#team-invitations">Invitations</a>
+                    <a href="#team-permissions">Permissions</a>
+                </div>
+
+                <div class="nav-section">
+                    <div class="nav-section-title">Advanced</div>
+                    <a href="#state-persistence">State Persistence</a>
+                    <a href="#chat">Agent Chat</a>
+                    <a href="#websockets">WebSocket</a>
+                </div>
+
+                <div class="nav-section">
+                    <div class="nav-section-title">Billing</div>
+                    <a href="#stripe">Stripe Integration</a>
+                    <a href="#analytics">Analytics</a>
+                </div>
+
+                <div class="nav-section">
+                    <div class="nav-section-title">System</div>
+                    <a href="#config">Configuration</a>
+                    <a href="#system">System Status</a>
+                    <a href="#errors">Error Handling</a>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Overview -->
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>Welcome to the Agent Orchestrator API documentation. This comprehensive guide covers all endpoints for managing AI agents, task queues, cron jobs, organizations, team management, billing, and more.</p>
+
+                <div class="info-box">
+                    <strong>Base URLs:</strong><br>
+                    <code>Development: http://localhost:18765/api</code><br>
+                    <code>Production: https://api.formatho.com/api</code>
+                </div>
+
+                <h3>Key Features</h3>
+                <ul style="margin-left: 2rem; margin-bottom: 1rem;">
+                    <li>🤖 <strong>Agent Management</strong> - Create, configure, and control AI agents</li>
+                    <li>✅ <strong>TODO Queue</strong> - Priority-based task management</li>
+                    <li>⏰ <strong>Cron Scheduling</strong> - Automated recurring tasks</li>
+                    <li>🏢 <strong>Organizations</strong> - Multi-tenant architecture</li>
+                    <li>👥 <strong>Team Management</strong> - Invite members and manage permissions</li>
+                    <li>💾 <strong>State Persistence</strong> - Save and restore agent state</li>
+                    <li>💳 <strong>Stripe Billing</strong> - Subscription and payment management</li>
+                    <li>📊 <strong>Analytics</strong> - Conversion funnel tracking</li>
+                    <li>🔄 <strong>WebSocket</strong> - Real-time updates</li>
+                </ul>
+
+                <h3>API Version</h3>
+                <p>Current version: <strong>v1.0.0</strong></p>
+            </section>
+
+            <!-- Authentication -->
+            <section id="authentication">
+                <h2>Authentication</h2>
+                
+                <div class="warning-box">
+                    <strong>Note:</strong> Authentication is currently in development. Most endpoints support both authenticated and public access. Organization-based filtering requires proper authentication headers.
+                </div>
+
+                <h3>Bearer Token Authentication</h3>
+                <p>Most API endpoints require authentication using a Bearer token in the Authorization header:</p>
+
+                <pre><code class="language-http">Authorization: Bearer &lt;your-api-key&gt;</code></pre>
+
+                <h3>Getting Your API Key</h3>
+                <ol style="margin-left: 2rem; margin-bottom: 1rem;">
+                    <li>Sign up or log in to your Agent Orchestrator account</li>
+                    <li>Navigate to Settings → API Keys</li>
+                    <li>Generate a new API key</li>
+                    <li>Store it securely - you won't be able to see it again</li>
+                </ol>
+
+                <h3>Authentication Endpoints</h3>
+                
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/auth/login</span>
+                        <span class="badge optional">Public</span>
+                    </div>
+                    <p>Authenticate and receive access/refresh tokens.</p>
+                    
+                    <div class="tabs">
+                        <div class="tab active" data-tab="request">Request</div>
+                        <div class="tab" data-tab="response">Response</div>
+                        <div class="tab" data-tab="example">Examples</div>
+                    </div>
+                    
+                    <div class="tab-content active" data-content="request">
+                        <pre><code class="language-json">{
+  "email": "user@example.com",
+  "password": "your-password"
+}</code></pre>
+                    </div>
+                    
+                    <div class="tab-content" data-content="response">
+                        <pre><code class="language-json">{
+  "access_token": "eyJhbGciOiJIUzI1NiIs...",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIs...",
+  "expires_in": 3600,
+  "token_type": "Bearer"
+}</code></pre>
+                    </div>
+                    
+                    <div class="tab-content" data-content="example">
+                        <h4>JavaScript</h4>
+                        <pre><code class="language-javascript">const response = await fetch('http://localhost:18765/api/auth/login', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    email: 'user@example.com',
+    password: 'your-password'
+  })
+});
+
+const data = await response.json();
+localStorage.setItem('access_token', data.access_token);</code></pre>
+                        
+                        <h4>Python</h4>
+                        <pre><code class="language-python">import requests
+
+response = requests.post(
+    'http://localhost:18765/api/auth/login',
+    json={
+        'email': 'user@example.com',
+        'password': 'your-password'
+    }
+)
+
+data = response.json()
+access_token = data['access_token']</code></pre>
+                        
+                        <h4>Go</h4>
+                        <pre><code class="language-go">package main
+
+import (
+    "bytes"
+    "encoding/json"
+    "net/http"
+)
+
+type LoginRequest struct {
+    Email    string `json:"email"`
+    Password string `json:"password"`
+}
+
+func login() (string, error) {
+    reqBody := LoginRequest{
+        Email:    "user@example.com",
+        Password: "your-password",
+    }
+    
+    body, _ := json.Marshal(reqBody)
+    resp, err := http.Post(
+        "http://localhost:18765/api/auth/login",
+        "application/json",
+        bytes.NewBuffer(body),
+    )
+    if err != nil {
+        return "", err
+    }
+    defer resp.Body.Close()
+    
+    var data map[string]interface{}
+    json.NewDecoder(resp.Body).Decode(&data)
+    
+    return data["access_token"].(string), nil
+}</code></pre>
+                    </div>
+                </div>
+
+                <h3>Other Auth Endpoints</h3>
+                
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/auth/logout</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Logout and invalidate current session.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/auth/refresh</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Refresh access token using refresh token.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/auth/me</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Get current authenticated user details.</p>
+                </div>
+            </section>
+
+            <!-- Quick Start -->
+            <section id="quick-start">
+                <h2>Quick Start Guide</h2>
+                
+                <h3>1. Create an Agent</h3>
+                <pre><code class="language-javascript">const response = await fetch('http://localhost:18765/api/agents', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer YOUR_API_KEY'
+  },
+  body: JSON.stringify({
+    name: 'My First Agent',
+    provider: 'openai',
+    model: 'gpt-4o',
+    system_prompt: 'You are a helpful assistant.',
+    work_dir: '~/sandbox'
+  })
+});
+
+const agent = await response.json();
+console.log('Created agent:', agent.id);</code></pre>
+
+                <h3>2. Create a TODO Task</h3>
+                <pre><code class="language-python">import requests
+
+todo = requests.post(
+    'http://localhost:18765/api/todos',
+    headers={'Authorization': f'Bearer {api_key}'},
+    json={
+        'title': 'Analyze sales data',
+        'description': 'Process Q4 sales CSV and generate insights',
+        'priority': 5,
+        'agent_id': agent_id,
+        'skills': ['python', 'data-analysis']
+    }
+).json()
+
+print(f'Created TODO: {todo["id"]}')</code></pre>
+
+                <h3>3. Start the Task</h3>
+                <pre><code class="language-go">resp, err := http.Post(
+    fmt.Sprintf("http://localhost:18765/api/todos/%s/start", todoID),
+    "application/json",
+    nil,
+)</code></pre>
+
+                <h3>4. Monitor Progress via WebSocket</h3>
+                <pre><code class="language-javascript">const ws = new WebSocket('ws://localhost:18765/ws');
+
+ws.onmessage = (event) => {
+  const data = JSON.parse(event.data);
+  console.log('Update:', data);
+  
+  if (data.type === 'todo_status' && data.todo_id === todoId) {
+    console.log(`Task ${data.todo_id} is now ${data.status}`);
+  }
+};</code></pre>
+            </section>
+
+            <!-- Agents -->
+            <section id="agents">
+                <h2>Agents</h2>
+                <p>Agents are AI-powered workers that execute tasks. Each agent has its own configuration, system prompt, and work directory.</p>
+
+                <h3>Agent States</h3>
+                <ul style="margin-left: 2rem; margin-bottom: 1rem;">
+                    <li><code>idle</code> - Agent is ready to accept tasks</li>
+                    <li><code>running</code> - Agent is actively executing a task</li>
+                    <li><code>paused</code> - Agent execution is paused</li>
+                    <li><code>stopped</code> - Agent has been stopped</li>
+                    <li><code>error</code> - Agent encountered an error</li>
+                </ul>
+
+                <!-- List Agents -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agents</span>
+                    </div>
+                    <p>Retrieve all agents. Optionally filter by organization.</p>
+
+                    <div class="tabs">
+                        <div class="tab active" data-tab="params">Parameters</div>
+                        <div class="tab" data-tab="example">Examples</div>
+                    </div>
+
+                    <div class="tab-content active" data-content="params">
+                        <h4>Headers</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>X-Organization-ID</code></td>
+                                    <td>string (UUID)</td>
+                                    <td>Optional: Filter agents by organization</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-content" data-content="example">
+                        <h4>JavaScript</h4>
+                        <pre><code class="language-javascript">const response = await fetch('http://localhost:18765/api/agents', {
+  headers: {
+    'Authorization': 'Bearer YOUR_API_KEY',
+    'X-Organization-ID': 'org-uuid-here'
+  }
+});
+
+const agents = await response.json();</code></pre>
+
+                        <h4>Python</h4>
+                        <pre><code class="language-python">import requests
+
+response = requests.get(
+    'http://localhost:18765/api/agents',
+    headers={
+        'Authorization': 'Bearer YOUR_API_KEY',
+        'X-Organization-ID': 'org-uuid-here'
+    }
+)
+
+agents = response.json()</code></pre>
+
+                        <h4>Go</h4>
+                        <pre><code class="language-go">req, _ := http.NewRequest("GET", "http://localhost:18765/api/agents", nil)
+req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
+req.Header.Set("X-Organization-ID", "org-uuid-here")
+
+client := &http.Client{}
+resp, _ := client.Do(req)</code></pre>
+                    </div>
+                </div>
+
+                <!-- Create Agent -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/agents</span>
+                    </div>
+                    <p>Create a new agent.</p>
+
+                    <div class="tabs">
+                        <div class="tab active" data-tab="params">Parameters</div>
+                        <div class="tab" data-tab="example">Examples</div>
+                    </div>
+
+                    <div class="tab-content active" data-content="params">
+                        <h4>Request Body</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Field</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>name</code> <span class="badge required">Required</span></td>
+                                    <td>string</td>
+                                    <td>Agent name</td>
+                                </tr>
+                                <tr>
+                                    <td><code>provider</code> <span class="badge required">Required</span></td>
+                                    <td>string</td>
+                                    <td>LLM provider: openai, anthropic, ollama</td>
+                                </tr>
+                                <tr>
+                                    <td><code>model</code> <span class="badge required">Required</span></td>
+                                    <td>string</td>
+                                    <td>Model identifier (e.g., gpt-4o, claude-3-opus)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>system_prompt</code></td>
+                                    <td>string</td>
+                                    <td>System instructions for the agent</td>
+                                </tr>
+                                <tr>
+                                    <td><code>work_dir</code></td>
+                                    <td>string</td>
+                                    <td>Working directory for agent tasks</td>
+                                </tr>
+                                <tr>
+                                    <td><code>organization_id</code></td>
+                                    <td>string (UUID)</td>
+                                    <td>Organization to assign agent to</td>
+                                </tr>
+                                <tr>
+                                    <td><code>config</code></td>
+                                    <td>object</td>
+                                    <td>Additional configuration options</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-content" data-content="example">
+                        <h4>JavaScript</h4>
+                        <pre><code class="language-javascript">const agent = await fetch('http://localhost:18765/api/agents', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer YOUR_API_KEY'
+  },
+  body: JSON.stringify({
+    name: 'Data Analyst Agent',
+    provider: 'openai',
+    model: 'gpt-4o',
+    system_prompt: 'You are a data analysis expert.',
+    work_dir: '~/data-projects',
+    config: {
+      max_tokens: 4096,
+      temperature: 0.7
+    }
+  })
+}).then(r => r.json());</code></pre>
+
+                        <h4>Python</h4>
+                        <pre><code class="language-python">import requests
+
+agent = requests.post(
+    'http://localhost:18765/api/agents',
+    headers={'Authorization': 'Bearer YOUR_API_KEY'},
+    json={
+        'name': 'Data Analyst Agent',
+        'provider': 'openai',
+        'model': 'gpt-4o',
+        'system_prompt': 'You are a data analysis expert.',
+        'work_dir': '~/data-projects',
+        'config': {
+            'max_tokens': 4096,
+            'temperature': 0.7
+        }
+    }
+).json()</code></pre>
+
+                        <h4>Go</h4>
+                        <pre><code class="language-go">type CreateAgentRequest struct {
+    Name         string                 `json:"name"`
+    Provider     string                 `json:"provider"`
+    Model        string                 `json:"model"`
+    SystemPrompt string                 `json:"system_prompt"`
+    WorkDir      string                 `json:"work_dir"`
+    Config       map[string]interface{} `json:"config"`
+}
+
+reqBody := CreateAgentRequest{
+    Name:         "Data Analyst Agent",
+    Provider:     "openai",
+    Model:        "gpt-4o",
+    SystemPrompt: "You are a data analysis expert.",
+    WorkDir:      "~/data-projects",
+    Config: map[string]interface{}{
+        "max_tokens": 4096,
+        "temperature": 0.7,
+    },
+}
+
+body, _ := json.Marshal(reqBody)
+req, _ := http.NewRequest(
+    "POST",
+    "http://localhost:18765/api/agents",
+    bytes.NewBuffer(body),
+)
+req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
+req.Header.Set("Content-Type", "application/json")
+
+client := &http.Client{}
+resp, _ := client.Do(req)</code></pre>
+                    </div>
+                </div>
+
+                <!-- Other Agent Endpoints -->
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agents/{id}</span>
+                    </div>
+                    <p>Get a specific agent by ID.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method put">PUT</span>
+                        <span class="endpoint-path">/api/agents/{id}</span>
+                    </div>
+                    <p>Update an agent's configuration.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/agents/{id}</span>
+                    </div>
+                    <p>Delete an agent.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/agents/{id}/start</span>
+                    </div>
+                    <p>Start an idle agent.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/agents/{id}/stop</span>
+                    </div>
+                    <p>Stop a running agent.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/agents/{id}/pause</span>
+                    </div>
+                    <p>Pause a running agent.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/agents/{id}/resume</span>
+                    </div>
+                    <p>Resume a paused agent.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agents/{id}/logs</span>
+                    </div>
+                    <p>Retrieve agent execution logs.</p>
+                </div>
+            </section>
+
+            <!-- TODOs -->
+            <section id="todos">
+                <h2>TODOs</h2>
+                <p>TODOs are tasks that agents execute. They support priority levels, dependencies, and skill requirements.</p>
+
+                <h3>TODO States</h3>
+                <ul style="margin-left: 2rem; margin-bottom: 1rem;">
+                    <li><code>pending</code> - Task is waiting to be queued</li>
+                    <li><code>queued</code> - Task is in the execution queue</li>
+                    <li><code>running</code> - Task is being executed</li>
+                    <li><code>completed</code> - Task finished successfully</li>
+                    <li><code>failed</code> - Task encountered an error</li>
+                    <li><code>cancelled</code> - Task was cancelled</li>
+                </ul>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/todos</span>
+                    </div>
+                    <p>List all TODOs. Optionally filter by organization.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/todos</span>
+                    </div>
+                    <p>Create a new TODO task.</p>
+
+                    <div class="tabs">
+                        <div class="tab active" data-tab="params">Parameters</div>
+                        <div class="tab" data-tab="example">Examples</div>
+                    </div>
+
+                    <div class="tab-content active" data-content="params">
+                        <h4>Request Body</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Field</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>title</code> <span class="badge required">Required</span></td>
+                                    <td>string</td>
+                                    <td>Task title</td>
+                                </tr>
+                                <tr>
+                                    <td><code>description</code></td>
+                                    <td>string</td>
+                                    <td>Detailed task description</td>
+                                </tr>
+                                <tr>
+                                    <td><code>priority</code></td>
+                                    <td>integer</td>
+                                    <td>Priority level (1-10, default: 5)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>agent_id</code></td>
+                                    <td>string (UUID)</td>
+                                    <td>Assign to specific agent</td>
+                                </tr>
+                                <tr>
+                                    <td><code>organization_id</code></td>
+                                    <td>string (UUID)</td>
+                                    <td>Organization for the task</td>
+                                </tr>
+                                <tr>
+                                    <td><code>skills</code></td>
+                                    <td>array of strings</td>
+                                    <td>Required skills (e.g., ["python", "data-analysis"])</td>
+                                </tr>
+                                <tr>
+                                    <td><code>dependencies</code></td>
+                                    <td>array of strings</td>
+                                    <td>TODO IDs that must complete first</td>
+                                </tr>
+                                <tr>
+                                    <td><code>config</code></td>
+                                    <td>object</td>
+                                    <td>Task-specific configuration</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-content" data-content="example">
+                        <h4>JavaScript</h4>
+                        <pre><code class="language-javascript">const todo = await fetch('http://localhost:18765/api/todos', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer YOUR_API_KEY'
+  },
+  body: JSON.stringify({
+    title: 'Process customer data',
+    description: 'Clean and analyze customer CSV export',
+    priority: 7,
+    skills: ['python', 'pandas', 'data-cleaning'],
+    config: {
+      input_file: '/data/customers.csv',
+      output_format: 'json'
+    }
+  })
+}).then(r => r.json());</code></pre>
+
+                        <h4>Python</h4>
+                        <pre><code class="language-python">import requests
+
+todo = requests.post(
+    'http://localhost:18765/api/todos',
+    headers={'Authorization': 'Bearer YOUR_API_KEY'},
+    json={
+        'title': 'Process customer data',
+        'description': 'Clean and analyze customer CSV export',
+        'priority': 7,
+        'skills': ['python', 'pandas', 'data-cleaning'],
+        'config': {
+            'input_file': '/data/customers.csv',
+            'output_format': 'json'
+        }
+    }
+).json()</code></pre>
+
+                        <h4>Go</h4>
+                        <pre><code class="language-go">reqBody := map[string]interface{}{
+    "title":       "Process customer data",
+    "description": "Clean and analyze customer CSV export",
+    "priority":    7,
+    "skills":      []string{"python", "pandas", "data-cleaning"},
+    "config": map[string]interface{}{
+        "input_file":    "/data/customers.csv",
+        "output_format": "json",
+    },
+}
+
+body, _ := json.Marshal(reqBody)
+req, _ := http.NewRequest(
+    "POST",
+    "http://localhost:18765/api/todos",
+    bytes.NewBuffer(body),
+)
+req.Header.Set("Authorization", "Bearer YOUR_API_KEY")
+req.Header.Set("Content-Type", "application/json")
+
+client := &http.Client{}
+resp, _ := client.Do(req)</code></pre>
+                    </div>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/todos/{id}</span>
+                    </div>
+                    <p>Get a specific TODO by ID.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method put">PUT</span>
+                        <span class="endpoint-path">/api/todos/{id}</span>
+                    </div>
+                    <p>Update a TODO task.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/todos/{id}</span>
+                    </div>
+                    <p>Delete a TODO task.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/todos/{id}/start</span>
+                    </div>
+                    <p>Start executing a pending TODO.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/todos/{id}/cancel</span>
+                    </div>
+                    <p>Cancel a running TODO.</p>
+                </div>
+            </section>
+
+            <!-- Cron Jobs -->
+            <section id="cron">
+                <h2>Cron Jobs</h2>
+                <p>Schedule recurring tasks for agents using standard cron syntax.</p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/cron</span>
+                    </div>
+                    <p>List all cron jobs.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/cron</span>
+                    </div>
+                    <p>Create a new cron job.</p>
+
+                    <div class="tabs">
+                        <div class="tab active" data-tab="params">Parameters</div>
+                        <div class="tab" data-tab="example">Examples</div>
+                    </div>
+
+                    <div class="tab-content active" data-content="params">
+                        <h4>Request Body</h4>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Field</th>
+                                    <th>Type</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>name</code> <span class="badge required">Required</span></td>
+                                    <td>string</td>
+                                    <td>Job name</td>
+                                </tr>
+                                <tr>
+                                    <td><code>schedule</code> <span class="badge required">Required</span></td>
+                                    <td>string</td>
+                                    <td>Cron expression (e.g., "0 0 * * *" for daily)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>timezone</code></td>
+                                    <td>string</td>
+                                    <td>Timezone (default: UTC)</td>
+                                </tr>
+                                <tr>
+                                    <td><code>agent_id</code></td>
+                                    <td>string (UUID)</td>
+                                    <td>Agent to execute the job</td>
+                                </tr>
+                                <tr>
+                                    <td><code>task_name</code></td>
+                                    <td>string</td>
+                                    <td>Task identifier</td>
+                                </tr>
+                                <tr>
+                                    <td><code>task_config</code></td>
+                                    <td>object</td>
+                                    <td>Task configuration</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-content" data-content="example">
+                        <h4>JavaScript</h4>
+                        <pre><code class="language-javascript">const cron = await fetch('http://localhost:18765/api/cron', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer YOUR_API_KEY'
+  },
+  body: JSON.stringify({
+    name: 'Daily Backup',
+    schedule: '0 2 * * *', // 2 AM daily
+    timezone: 'America/New_York',
+    agent_id: 'agent-uuid',
+    task_name: 'backup',
+    task_config: {
+      target: '/backups/daily',
+      retention_days: 30
+    }
+  })
+}).then(r => r.json());</code></pre>
+
+                        <h4>Cron Syntax Reference</h4>
+                        <pre><code class="language-text">┌───────────── minute (0 - 59)
+│ ┌───────────── hour (0 - 23)
+│ │ ┌───────────── day of month (1 - 31)
+│ │ │ ┌───────────── month (1 - 12)
+│ │ │ │ ┌───────────── day of week (0 - 6) (Sunday = 0)
+│ │ │ │ │
+* * * * *</code></pre>
+                        
+                        <h4>Common Examples</h4>
+                        <ul style="margin-left: 2rem; margin-top: 1rem;">
+                            <li><code>0 0 * * *</code> - Every day at midnight</li>
+                            <li><code>0 */2 * * *</code> - Every 2 hours</li>
+                            <li><code>0 9 * * 1</code> - Every Monday at 9 AM</li>
+                            <li><code>0 0 1 * *</code> - First day of every month</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/cron/{id}</span>
+                    </div>
+                    <p>Get a specific cron job.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method put">PUT</span>
+                        <span class="endpoint-path">/api/cron/{id}</span>
+                    </div>
+                    <p>Update a cron job.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/cron/{id}</span>
+                    </div>
+                    <p>Delete a cron job.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/cron/{id}/pause</span>
+                    </div>
+                    <p>Pause a cron job.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/cron/{id}/resume</span>
+                    </div>
+                    <p>Resume a paused cron job.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/cron/{id}/history</span>
+                    </div>
+                    <p>Get execution history for a cron job.</p>
+                </div>
+            </section>
+
+            <!-- Organizations -->
+            <section id="organizations">
+                <h2>Organizations</h2>
+                <p>Organizations enable multi-tenant architecture, allowing you to group agents, tasks, and team members.</p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/organizations</span>
+                    </div>
+                    <p>List all organizations.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/organizations</span>
+                    </div>
+                    <p>Create a new organization.</p>
+
+                    <div class="info-box">
+                        <strong>Required Header:</strong> <code>X-Owner-ID</code> - The user ID of the organization owner
+                    </div>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/organizations/{id}</span>
+                    </div>
+                    <p>Get organization details.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method put">PUT</span>
+                        <span class="endpoint-path">/api/organizations/{id}</span>
+                    </div>
+                    <p>Update organization.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/organizations/{id}</span>
+                    </div>
+                    <p>Delete organization.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/organizations/slug/{slug}</span>
+                    </div>
+                    <p>Get organization by slug.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/organizations/owner/{ownerId}</span>
+                    </div>
+                    <p>Get organizations by owner.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/organizations/switch</span>
+                    </div>
+                    <p>Switch active organization context.</p>
+                </div>
+            </section>
+
+            <!-- Team Members -->
+            <section id="team-members">
+                <h2>Team Members</h2>
+                <p>Manage team members within organizations.</p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/organizations/{id}/members</span>
+                    </div>
+                    <p>List all members in an organization.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/organizations/{id}/members</span>
+                    </div>
+                    <p>Invite a member to the organization.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/organizations/{id}/members/{userId}</span>
+                    </div>
+                    <p>Get specific member details.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method patch">PATCH</span>
+                        <span class="endpoint-path">/api/organizations/{id}/members/{userId}/role</span>
+                    </div>
+                    <p>Update member role.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/organizations/{id}/members/{userId}</span>
+                    </div>
+                    <p>Remove member from organization.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/organizations/{id}/members/{userId}/kick</span>
+                    </div>
+                    <p>Kick member from organization (alias for remove).</p>
+                </div>
+            </section>
+
+            <!-- Team Invitations -->
+            <section id="team-invitations">
+                <h2>Team Invitations</h2>
+                <p>Manage team invitations for organizations.</p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/team/invitations</span>
+                    </div>
+                    <p>Create a new team invitation.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/invitations</span>
+                    </div>
+                    <p>List all invitations.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/invitations/{id}</span>
+                    </div>
+                    <p>Get specific invitation.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/team/invitations/{id}</span>
+                    </div>
+                    <p>Cancel an invitation.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/team/invitations/accept</span>
+                    </div>
+                    <p>Accept an invitation.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/team/invitations/reject/{id}</span>
+                    </div>
+                    <p>Reject an invitation.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/invitations/verify-token</span>
+                    </div>
+                    <p>Verify invitation token validity.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/invitations/stats</span>
+                    </div>
+                    <p>Get invitation statistics.</p>
+                </div>
+            </section>
+
+            <!-- Team Permissions -->
+            <section id="team-permissions">
+                <h2>Team Permissions</h2>
+                <p>Fine-grained permission management for team members.</p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/permissions/check</span>
+                    </div>
+                    <p>Check if a user has a specific permission.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/team/permissions/grant</span>
+                    </div>
+                    <p>Grant a permission to a user.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/team/permissions/revoke</span>
+                    </div>
+                    <p>Revoke a permission from a user.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/permissions/user/{userId}/org/{orgId}</span>
+                    </div>
+                    <p>Get all permissions for a user in an organization.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/permissions/resource/{orgId}/resource/{resource}</span>
+                    </div>
+                    <p>Get all permissions for a specific resource.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/permissions/bulk-check</span>
+                    </div>
+                    <p>Check multiple permissions at once.</p>
+                </div>
+
+                <h3>Permission Templates</h3>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/team/permissions/templates</span>
+                    </div>
+                    <p>Create a permission template.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/permissions/templates</span>
+                    </div>
+                    <p>List all permission templates.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/team/permissions/templates/{id}</span>
+                    </div>
+                    <p>Get specific permission template.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method put">PUT</span>
+                        <span class="endpoint-path">/api/team/permissions/templates/{id}</span>
+                    </div>
+                    <p>Update permission template.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/team/permissions/templates/{id}</span>
+                    </div>
+                    <p>Delete permission template.</p>
+                </div>
+            </section>
+
+            <!-- State Persistence -->
+            <section id="state-persistence">
+                <h2>State Persistence</h2>
+                <p>Save and restore agent state for long-running tasks or checkpointing. <span class="badge new">NEW</span></p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/agent-state</span>
+                    </div>
+                    <p>Save agent state.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agent-state/{agentID}</span>
+                    </div>
+                    <p>Get current agent state.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agent-state/{agentID}/history</span>
+                    </div>
+                    <p>Get agent state history.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method patch">PATCH</span>
+                        <span class="endpoint-path">/api/agent-state/{agentID}</span>
+                    </div>
+                    <p>Update agent state.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/agent-state/{agentID}</span>
+                    </div>
+                    <p>Delete agent state.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agent-state/{agentID}/export</span>
+                    </div>
+                    <p>Export agent state for backup.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agent-states</span>
+                    </div>
+                    <p>Get summary of all agent states.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agent-state/metrics</span>
+                    </div>
+                    <p>Get state storage metrics.</p>
+                </div>
+            </section>
+
+            <!-- Agent Chat -->
+            <section id="chat">
+                <h2>Agent Chat</h2>
+                <p>Direct chat interface with agents for interactive tasks.</p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/agents/{id}/chat</span>
+                    </div>
+                    <p>Get chat history for an agent.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/agents/{id}/chat</span>
+                    </div>
+                    <p>Send a message to an agent.</p>
+
+                    <div class="tabs">
+                        <div class="tab active" data-tab="example">Examples</div>
+                    </div>
+
+                    <div class="tab-content active" data-content="example">
+                        <h4>JavaScript</h4>
+                        <pre><code class="language-javascript">const response = await fetch('http://localhost:18765/api/agents/agent-id/chat', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer YOUR_API_KEY'
+  },
+  body: JSON.stringify({
+    message: 'Analyze the latest sales data and provide insights'
+  })
+});
+
+const reply = await response.json();
+console.log('Agent reply:', reply.content);</code></pre>
+                    </div>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method delete">DELETE</span>
+                        <span class="endpoint-path">/api/agents/{id}/chat</span>
+                    </div>
+                    <p>Clear chat history for an agent.</p>
+                </div>
+            </section>
+
+            <!-- WebSocket -->
+            <section id="websockets">
+                <h2>WebSocket</h2>
+                <p>Real-time updates for agent activities, TODO status, and cron executions.</p>
+
+                <h3>Connection</h3>
+                <pre><code class="language-javascript">const ws = new WebSocket('ws://localhost:18765/ws');
+
+ws.onopen = () => {
+  console.log('Connected to WebSocket');
+};
+
+ws.onmessage = (event) => {
+  const data = JSON.parse(event.data);
+  handleMessage(data);
+};
+
+ws.onerror = (error) => {
+  console.error('WebSocket error:', error);
+};
+
+ws.onclose = () => {
+  console.log('WebSocket disconnected');
+};</code></pre>
+
+                <h3>Event Types</h3>
+
+                <h4>Agent Status Update</h4>
+                <pre><code class="language-json">{
+  "type": "agent_status",
+  "agent_id": "uuid",
+  "status": "running",
+  "timestamp": "2026-03-22T16:30:00Z"
+}</code></pre>
+
+                <h4>TODO Status Update</h4>
+                <pre><code class="language-json">{
+  "type": "todo_status",
+  "todo_id": "uuid",
+  "status": "completed",
+  "progress": 100,
+  "timestamp": "2026-03-22T16:35:00Z"
+}</code></pre>
+
+                <h4>Cron Execution</h4>
+                <pre><code class="language-json">{
+  "type": "cron_execution",
+  "cron_id": "uuid",
+  "status": "success",
+  "timestamp": "2026-03-22T17:00:00Z"
+}</code></pre>
+
+                <h3>Python Example</h3>
+                <pre><code class="language-python">import websocket
+import json
+
+def on_message(ws, message):
+    data = json.loads(message)
+    
+    if data['type'] == 'agent_status':
+        print(f"Agent {data['agent_id']} is now {data['status']}")
+    elif data['type'] == 'todo_status':
+        print(f"TODO {data['todo_id']}: {data['status']} ({data.get('progress', 0)}%)")
+
+ws = websocket.WebSocketApp(
+    'ws://localhost:18765/ws',
+    on_message=on_message
+)
+
+ws.run_forever()</code></pre>
+
+                <h3>Go Example</h3>
+                <pre><code class="language-go">package main
+
+import (
+    "encoding/json"
+    "log"
+    "github.com/gorilla/websocket"
+)
+
+func main() {
+    conn, _, err := websocket.DefaultDialer.Dial("ws://localhost:18765/ws", nil)
+    if err != nil {
+        log.Fatal(err)
+    }
+    defer conn.Close()
+
+    for {
+        _, message, err := conn.ReadMessage()
+        if err != nil {
+            log.Println("read:", err)
+            return
+        }
+
+        var data map[string]interface{}
+        json.Unmarshal(message, &data)
+
+        switch data["type"] {
+        case "agent_status":
+            log.Printf("Agent %s: %s", data["agent_id"], data["status"])
+        case "todo_status":
+            log.Printf("TODO %s: %s", data["todo_id"], data["status"])
+        }
+    }
+}</code></pre>
+            </section>
+
+            <!-- Stripe Integration -->
+            <section id="stripe">
+                <h2>Stripe Integration</h2>
+                <p>Subscription and payment management via Stripe.</p>
+
+                <div class="warning-box">
+                    <strong>Authentication Required:</strong> All Stripe endpoints (except webhook) require authentication.
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/stripe/checkout</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Create a Stripe checkout session.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/stripe/portal</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Create a customer portal session for managing subscriptions.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/stripe/subscription</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Get current subscription status.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/stripe/payments</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Get payment history.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/stripe/pricing</span>
+                    </div>
+                    <p>Get available pricing plans.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/stripe/webhook</span>
+                        <span class="badge optional">Public</span>
+                    </div>
+                    <p>Stripe webhook endpoint (verified by signature).</p>
+                </div>
+            </section>
+
+            <!-- Analytics -->
+            <section id="analytics">
+                <h2>Analytics</h2>
+                <p>Conversion funnel tracking and analytics. <span class="badge new">NEW</span></p>
+
+                <h3>Public Tracking Endpoints</h3>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/analytics/track</span>
+                    </div>
+                    <p>Track a generic event.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/analytics/track/pricing-view</span>
+                    </div>
+                    <p>Track pricing page view.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/analytics/track/checkout-click</span>
+                    </div>
+                    <p>Track checkout button click.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/analytics/track/checkout-cancel</span>
+                    </div>
+                    <p>Track checkout cancellation.</p>
+                </div>
+
+                <h3>Protected Analytics Endpoints</h3>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/analytics/track/checkout-start</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Track checkout start.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/analytics/track/checkout-success</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Track successful checkout.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/analytics/funnel</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Get conversion funnel data.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/analytics/funnel/summary</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Get funnel summary statistics.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/analytics/funnel/daily</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Get daily funnel statistics.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/analytics/dashboard</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Get analytics dashboard data.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/analytics/session/{sessionId}</span>
+                        <span class="badge required">Auth</span>
+                    </div>
+                    <p>Get events for a specific session.</p>
+                </div>
+            </section>
+
+            <!-- Configuration -->
+            <section id="config">
+                <h2>Configuration</h2>
+                <p>Manage LLM and system configuration.</p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/config</span>
+                    </div>
+                    <p>Get current configuration.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method put">PUT</span>
+                        <span class="endpoint-path">/api/config</span>
+                    </div>
+                    <p>Update configuration.</p>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method post">POST</span>
+                        <span class="endpoint-path">/api/config/test-llm</span>
+                    </div>
+                    <p>Test LLM configuration.</p>
+
+                    <div class="tabs">
+                        <div class="tab active" data-tab="example">Examples</div>
+                    </div>
+
+                    <div class="tab-content active" data-content="example">
+                        <pre><code class="language-javascript">const testResult = await fetch('http://localhost:18765/api/config/test-llm', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer YOUR_API_KEY'
+  },
+  body: JSON.stringify({
+    provider: 'openai',
+    model: 'gpt-4o',
+    api_key: 'sk-your-openai-key'
+  })
+}).then(r => r.json());
+
+if (testResult.success) {
+  console.log('LLM configuration is valid');
+} else {
+  console.error('LLM test failed:', testResult.error);
+}</code></pre>
+                    </div>
+                </div>
+            </section>
+
+            <!-- System Status -->
+            <section id="system">
+                <h2>System Status</h2>
+                <p>Monitor system health and resource usage.</p>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/system/status</span>
+                    </div>
+                    <p>Get comprehensive system status.</p>
+
+                    <div class="tabs">
+                        <div class="tab active" data-tab="response">Response</div>
+                    </div>
+
+                    <div class="tab-content active" data-content="response">
+                        <pre><code class="language-json">{
+  "uptime_seconds": 86400,
+  "started_at": "2026-03-21T16:30:00Z",
+  "version": "1.0.0",
+  "counts": {
+    "agents": 12,
+    "todos": 45,
+    "crons": 5
+  },
+  "resources": {
+    "goroutines": 25,
+    "memory_mb": 256,
+    "num_cpu": 8
+  }
+}</code></pre>
+                    </div>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/api/system/health</span>
+                    </div>
+                    <p>Simple health check endpoint.</p>
+
+                    <pre><code class="language-json">{
+  "status": "ok",
+  "timestamp": "2026-03-22T16:30:00Z"
+}</code></pre>
+                </div>
+
+                <div class="endpoint-card">
+                    <div class="endpoint-header">
+                        <span class="method get">GET</span>
+                        <span class="endpoint-path">/health</span>
+                    </div>
+                    <p>Root health check (for load balancers).</p>
+                </div>
+            </section>
+
+            <!-- Error Handling -->
+            <section id="errors">
+                <h2>Error Handling</h2>
+
+                <h3>Error Response Format</h3>
+                <p>All errors follow a consistent format:</p>
+                <pre><code class="language-json">{
+  "error": "Description of what went wrong"
+}</code></pre>
+
+                <h3>HTTP Status Codes</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Code</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>200</code></td>
+                            <td>OK - Request successful</td>
+                        </tr>
+                        <tr>
+                            <td><code>201</code></td>
+                            <td>Created - Resource created successfully</td>
+                        </tr>
+                        <tr>
+                            <td><code>204</code></td>
+                            <td>No Content - Success with no response body</td>
+                        </tr>
+                        <tr>
+                            <td><code>400</code></td>
+                            <td>Bad Request - Invalid input or missing required field</td>
+                        </tr>
+                        <tr>
+                            <td><code>401</code></td>
+                            <td>Unauthorized - Authentication required</td>
+                        </tr>
+                        <tr>
+                            <td><code>403</code></td>
+                            <td>Forbidden - Insufficient permissions</td>
+                        </tr>
+                        <tr>
+                            <td><code>404</code></td>
+                            <td>Not Found - Resource doesn't exist</td>
+                        </tr>
+                        <tr>
+                            <td><code>500</code></td>
+                            <td>Internal Server Error - Server error</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Common Error Messages</h3>
+                <ul style="margin-left: 2rem; margin-bottom: 1rem;">
+                    <li><code>"name is required"</code> - Missing required field</li>
+                    <li><code>"organization not found"</code> - Invalid organization ID</li>
+                    <li><code>"agent not found"</code> - Invalid agent ID</li>
+                    <li><code>"todo not found"</code> - Invalid TODO ID</li>
+                    <li><code>"cron job not found"</code> - Invalid cron job ID</li>
+                    <li><code>"unauthorized"</code> - Missing or invalid authentication</li>
+                    <li><code>"permission denied"</code> - User lacks required permissions</li>
+                </ul>
+
+                <h3>Error Handling Example</h3>
+                <pre><code class="language-javascript">try {
+  const response = await fetch('http://localhost:18765/api/agents', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer YOUR_API_KEY'
+    },
+    body: JSON.stringify({ name: 'Test Agent' })
+  });
+
+  if (!response.ok) {
+    const error = await response.json();
+    throw new Error(error.error || 'Request failed');
+  }
+
+  const agent = await response.json();
+  console.log('Created agent:', agent);
+} catch (error) {
+  console.error('Failed to create agent:', error.message);
+}</code></pre>
+            </section>
+
+            <!-- SDKs and Libraries -->
+            <section id="sdks">
+                <h2>SDKs & Libraries</h2>
+
+                <h3>Official SDKs</h3>
+                <p>Coming soon! Official SDKs for JavaScript/TypeScript, Python, and Go are in development.</p>
+
+                <h3>Community Libraries</h3>
+                <p>Check our <a href="https://github.com/formatho/agent-orchestrator" style="color: #3498db;">GitHub repository</a> for community-maintained libraries and integrations.</p>
+            </section>
+
+            <!-- Support -->
+            <section id="support">
+                <h2>Support</h2>
+
+                <div class="success-box">
+                    <strong>Need help?</strong> We're here for you!
+                    <ul style="margin-top: 0.5rem; margin-left: 2rem;">
+                        <li>📖 <strong>Documentation:</strong> <a href="https://docs.formatho.com" style="color: #3498db;">https://docs.formatho.com</a></li>
+                        <li>💻 <strong>GitHub:</strong> <a href="https://github.com/formatho/agent-orchestrator" style="color: #3498db;">https://github.com/formatho/agent-orchestrator</a></li>
+                        <li>📧 <strong>Email:</strong> <a href="mailto:support@formatho.com" style="color: #3498db;">support@formatho.com</a></li>
+                        <li>💬 <strong>Discord:</strong> Join our community for real-time support</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Changelog -->
+            <section id="changelog">
+                <h2>Changelog</h2>
+
+                <h3>v1.0.0 (2026-03-09)</h3>
+                <ul style="margin-left: 2rem;">
+                    <li>Initial API release</li>
+                    <li>Agent management endpoints</li>
+                    <li>TODO queue management</li>
+                    <li>Cron job scheduling</li>
+                    <li>Organization support with filtering</li>
+                    <li>WebSocket real-time updates</li>
+                    <li>Team management features</li>
+                    <li>State persistence for agents</li>
+                    <li>Stripe billing integration</li>
+                    <li>Analytics and conversion tracking</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
+    <script>
+        // Tab functionality
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                const tabContainer = tab.parentElement;
+                const contentContainer = tabContainer.parentElement;
+                
+                // Remove active from all tabs in this container
+                tabContainer.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                
+                // Hide all content in this container
+                contentContainer.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                
+                // Show selected content
+                const contentId = tab.getAttribute('data-tab') || tab.getAttribute('data-content');
+                const content = contentContainer.querySelector(`[data-content="${contentId}"]`);
+                if (content) content.classList.add('active');
+            });
+        });
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('.sidebar nav a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    
+                    // Update active state
+                    document.querySelectorAll('.sidebar nav a').forEach(l => l.classList.remove('active'));
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Update active nav on scroll
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            let currentSection = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (window.pageYOffset >= sectionTop - 100) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            document.querySelectorAll('.sidebar nav a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Try it out functionality
+        document.querySelectorAll('.try-it-input button').forEach(button => {
+            button.addEventListener('click', async () => {
+                const tryItDiv = button.closest('.try-it');
+                const input = tryItDiv.querySelector('input');
+                const responseBox = tryItDiv.querySelector('.response-box');
+                const statusDiv = responseBox.querySelector('.response-status');
+                const bodyDiv = responseBox.querySelector('.response-body');
+                
+                button.disabled = true;
+                button.textContent = 'Loading...';
+                
+                try {
+                    const response = await fetch(input.value, {
+                        headers: {
+                            'Authorization': 'Bearer YOUR_API_KEY'
+                        }
+                    });
+                    
+                    const data = await response.json();
+                    
+                    statusDiv.className = `response-status ${response.ok ? 'success' : 'error'}`;
+                    statusDiv.textContent = `${response.status} ${response.statusText}`;
+                    bodyDiv.textContent = JSON.stringify(data, null, 2);
+                } catch (error) {
+                    statusDiv.className = 'response-status error';
+                    statusDiv.textContent = 'Error';
+                    bodyDiv.textContent = error.message;
+                } finally {
+                    button.disabled = false;
+                    button.textContent = 'Send Request';
+                    responseBox.classList.add('visible');
+                    Prism.highlightAll();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

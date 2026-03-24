@@ -16,6 +16,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/mattn/go-sqlite3 v1.14.22
 	github.com/stretchr/testify v1.11.1
+	github.com/stripe/stripe-go/v84 v84.4.1
 	github.com/valyala/fasthttp v1.58.0
 )
 
