@@ -30,6 +30,7 @@ type Server struct {
 	orgSvc         *services.OrgService
 	stateSvc       *services.StateService
 	newsletterSvc  *services.NewsletterService
+	betaSvc        *services.BetaSignupService
 
 	// Handlers
 	agentH       *handlers.AgentHandler
@@ -46,6 +47,7 @@ type Server struct {
 	stripeH      *handlers.StripeHandler
 	analyticsH   *handlers.AnalyticsHandler
 	newsletterH  *handlers.NewsletterHandler
+	betaH        *handlers.BetaSignupHandler
 
 	// WebSocket upgrader
 	upgrader fastws.FastHTTPUpgrader
@@ -89,6 +91,9 @@ func NewServer(db *sql.DB) *fiber.App {
 	// Create newsletter service
 	newsletterSvc := services.NewNewsletterService(db)
 
+	// Create beta signup service
+	betaSvc := services.NewBetaSignupService(db)
+
 	// Create team handlers
 	mockEmailSender := &services.MockEmailSender{}
 	invitationSvc := services.NewInvitationService(db, mockEmailSender)
@@ -102,6 +107,9 @@ func NewServer(db *sql.DB) *fiber.App {
 
 	// Create newsletter handler
 	newsletterH := handlers.NewNewsletterHandler(newsletterSvc)
+
+	// Create beta signup handler
+	betaH := handlers.NewBetaSignupHandler(betaSvc)
 
 	// Create Fiber app
 	app := fiber.New(fiber.Config{
@@ -121,6 +129,7 @@ func NewServer(db *sql.DB) *fiber.App {
 		chatSvc:       chatSvc,
 		orgSvc:        orgSvc,
 		newsletterSvc: newsletterSvc,
+		betaSvc:       betaSvc,
 		stateH:        stateH,
 		authH:         authH,
 		agentH:        agentH,
@@ -135,6 +144,7 @@ func NewServer(db *sql.DB) *fiber.App {
 		stripeH:       stripeH,
 		analyticsH:    analyticsH,
 		newsletterH:   newsletterH,
+		betaH:         betaH,
 		upgrader: fastws.FastHTTPUpgrader{
 			ReadBufferSize:  1024,
 			WriteBufferSize: 1024,
@@ -344,4 +354,13 @@ func (s *Server) setupRoutes() {
 	newsletter.Get("/stats", s.newsletterH.GetStats)
 	newsletter.Get("/recent", s.newsletterH.GetRecentSubscribers)
 	newsletter.Get("/export", s.newsletterH.ExportSubscribers)
+
+	// Beta signup routes (public for signup, protected for admin)
+	beta := api.Group("/beta-signup")
+	beta.Post("/", s.betaH.Signup)
+	beta.Get("/", s.betaH.List)
+	beta.Get("/stats", s.betaH.GetStats)
+	beta.Get("/:id", s.betaH.Get)
+	beta.Patch("/:id/status", s.betaH.UpdateStatus)
+	beta.Delete("/:id", s.betaH.Delete)
 }

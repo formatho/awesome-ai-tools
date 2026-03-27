@@ -256,6 +256,23 @@ func RunMigrations(db *sql.DB) error {
 			FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE
 		)`,
 		`CREATE INDEX IF NOT EXISTS idx_perm_templates_org ON permission_templates(organization_id)`,
+
+		// Beta signups table
+		`CREATE TABLE IF NOT EXISTS beta_signups (
+			id TEXT PRIMARY KEY,
+			name TEXT NOT NULL,
+			email TEXT NOT NULL UNIQUE,
+			role TEXT,
+			use_case TEXT,
+			status TEXT NOT NULL DEFAULT 'pending',
+			notes TEXT,
+			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			reviewed_at DATETIME
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_beta_signups_email ON beta_signups(email)`,
+		`CREATE INDEX IF NOT EXISTS idx_beta_signups_status ON beta_signups(status)`,
+		`CREATE INDEX IF NOT EXISTS idx_beta_signups_created ON beta_signups(created_at)`,
 	}
 
 	for i, migration := range migrations {
