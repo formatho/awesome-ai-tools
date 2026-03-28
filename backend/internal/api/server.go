@@ -31,6 +31,7 @@ type Server struct {
 	stateSvc       *services.StateService
 	newsletterSvc  *services.NewsletterService
 	betaSvc        *services.BetaSignupService
+	betaFeedbackSvc *services.BetaFeedbackService
 
 	// Handlers
 	agentH       *handlers.AgentHandler
@@ -48,6 +49,7 @@ type Server struct {
 	analyticsH   *handlers.AnalyticsHandler
 	newsletterH  *handlers.NewsletterHandler
 	betaH        *handlers.BetaSignupHandler
+	betaFeedbackH *handlers.BetaFeedbackHandler
 
 	// WebSocket upgrader
 	upgrader fastws.FastHTTPUpgrader
@@ -94,6 +96,9 @@ func NewServer(db *sql.DB) *fiber.App {
 	// Create beta signup service
 	betaSvc := services.NewBetaSignupService(db)
 
+	// Create beta feedback service
+	betaFeedbackSvc := services.NewBetaFeedbackService(db)
+
 	// Create team handlers
 	mockEmailSender := &services.MockEmailSender{}
 	invitationSvc := services.NewInvitationService(db, mockEmailSender)
@@ -110,6 +115,9 @@ func NewServer(db *sql.DB) *fiber.App {
 
 	// Create beta signup handler
 	betaH := handlers.NewBetaSignupHandler(betaSvc)
+
+	// Create beta feedback handler
+	betaFeedbackH := handlers.NewBetaFeedbackHandler(betaFeedbackSvc)
 
 	// Create Fiber app
 	app := fiber.New(fiber.Config{
@@ -130,6 +138,7 @@ func NewServer(db *sql.DB) *fiber.App {
 		orgSvc:        orgSvc,
 		newsletterSvc: newsletterSvc,
 		betaSvc:       betaSvc,
+		betaFeedbackSvc: betaFeedbackSvc,
 		stateH:        stateH,
 		authH:         authH,
 		agentH:        agentH,
@@ -145,6 +154,7 @@ func NewServer(db *sql.DB) *fiber.App {
 		analyticsH:    analyticsH,
 		newsletterH:   newsletterH,
 		betaH:         betaH,
+		betaFeedbackH: betaFeedbackH,
 		upgrader: fastws.FastHTTPUpgrader{
 			ReadBufferSize:  1024,
 			WriteBufferSize: 1024,
@@ -363,4 +373,13 @@ func (s *Server) setupRoutes() {
 	beta.Get("/:id", s.betaH.Get)
 	beta.Patch("/:id/status", s.betaH.UpdateStatus)
 	beta.Delete("/:id", s.betaH.Delete)
+
+	// Beta feedback routes (public for submission, protected for admin)
+	feedback := api.Group("/beta-feedback")
+	feedback.Post("/", s.betaFeedbackH.Submit)
+	feedback.Get("/", s.betaFeedbackH.List)
+	feedback.Get("/stats", s.betaFeedbackH.GetStats)
+	feedback.Get("/:id", s.betaFeedbackH.Get)
+	feedback.Patch("/:id/status", s.betaFeedbackH.UpdateStatus)
+	feedback.Delete("/:id", s.betaFeedbackH.Delete)
 }

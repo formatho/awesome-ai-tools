@@ -273,6 +273,31 @@ func RunMigrations(db *sql.DB) error {
 		`CREATE INDEX IF NOT EXISTS idx_beta_signups_email ON beta_signups(email)`,
 		`CREATE INDEX IF NOT EXISTS idx_beta_signups_status ON beta_signups(status)`,
 		`CREATE INDEX IF NOT EXISTS idx_beta_signups_created ON beta_signups(created_at)`,
+
+		// Beta feedback table
+		`CREATE TABLE IF NOT EXISTS beta_feedback (
+			id TEXT PRIMARY KEY,
+			user_email TEXT NOT NULL,
+			user_name TEXT NOT NULL,
+			category TEXT NOT NULL,
+			subject TEXT NOT NULL,
+			message TEXT NOT NULL,
+			rating INTEGER,
+			status TEXT NOT NULL DEFAULT 'new',
+			priority TEXT NOT NULL DEFAULT 'medium',
+			tags TEXT DEFAULT '[]',
+			page_url TEXT,
+			user_agent TEXT,
+			screenshot TEXT,
+			response TEXT,
+			created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+			resolved_at DATETIME
+		)`,
+		`CREATE INDEX IF NOT EXISTS idx_beta_feedback_email ON beta_feedback(user_email)`,
+		`CREATE INDEX IF NOT EXISTS idx_beta_feedback_category ON beta_feedback(category)`,
+		`CREATE INDEX IF NOT EXISTS idx_beta_feedback_status ON beta_feedback(status)`,
+		`CREATE INDEX IF NOT EXISTS idx_beta_feedback_created ON beta_feedback(created_at)`,
 	}
 
 	for i, migration := range migrations {

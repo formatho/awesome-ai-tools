@@ -47,15 +47,16 @@ func (s *BetaSignupService) GetByID(id string) (*models.BetaSignup, error) {
 
 	signup := &models.BetaSignup{}
 	var reviewedAt sql.NullTime
+	var role, useCase, notes sql.NullString
 
 	err := s.db.QueryRow(query, id).Scan(
 		&signup.ID,
 		&signup.Name,
 		&signup.Email,
-		&signup.Role,
-		&signup.UseCase,
+		&role,
+		&useCase,
 		&signup.Status,
-		&signup.Notes,
+		&notes,
 		&signup.CreatedAt,
 		&signup.UpdatedAt,
 		&reviewedAt,
@@ -71,6 +72,15 @@ func (s *BetaSignupService) GetByID(id string) (*models.BetaSignup, error) {
 	if reviewedAt.Valid {
 		signup.ReviewedAt = &reviewedAt.Time
 	}
+	if role.Valid {
+		signup.Role = role.String
+	}
+	if useCase.Valid {
+		signup.UseCase = useCase.String
+	}
+	if notes.Valid {
+		signup.Notes = notes.String
+	}
 
 	return signup, nil
 }
@@ -85,15 +95,16 @@ func (s *BetaSignupService) GetByEmail(email string) (*models.BetaSignup, error)
 
 	signup := &models.BetaSignup{}
 	var reviewedAt sql.NullTime
+	var role, useCase, notes sql.NullString
 
 	err := s.db.QueryRow(query, email).Scan(
 		&signup.ID,
 		&signup.Name,
 		&signup.Email,
-		&signup.Role,
-		&signup.UseCase,
+		&role,
+		&useCase,
 		&signup.Status,
-		&signup.Notes,
+		&notes,
 		&signup.CreatedAt,
 		&signup.UpdatedAt,
 		&reviewedAt,
@@ -108,6 +119,15 @@ func (s *BetaSignupService) GetByEmail(email string) (*models.BetaSignup, error)
 
 	if reviewedAt.Valid {
 		signup.ReviewedAt = &reviewedAt.Time
+	}
+	if role.Valid {
+		signup.Role = role.String
+	}
+	if useCase.Valid {
+		signup.UseCase = useCase.String
+	}
+	if notes.Valid {
+		signup.Notes = notes.String
 	}
 
 	return signup, nil
@@ -145,15 +165,16 @@ func (s *BetaSignupService) List(status string) ([]*models.BetaSignup, error) {
 	for rows.Next() {
 		signup := &models.BetaSignup{}
 		var reviewedAt sql.NullTime
+		var role, useCase, notes sql.NullString
 
 		err := rows.Scan(
 			&signup.ID,
 			&signup.Name,
 			&signup.Email,
-			&signup.Role,
-			&signup.UseCase,
+			&role,
+			&useCase,
 			&signup.Status,
-			&signup.Notes,
+			&notes,
 			&signup.CreatedAt,
 			&signup.UpdatedAt,
 			&reviewedAt,
@@ -164,6 +185,15 @@ func (s *BetaSignupService) List(status string) ([]*models.BetaSignup, error) {
 
 		if reviewedAt.Valid {
 			signup.ReviewedAt = &reviewedAt.Time
+		}
+		if role.Valid {
+			signup.Role = role.String
+		}
+		if useCase.Valid {
+			signup.UseCase = useCase.String
+		}
+		if notes.Valid {
+			signup.Notes = notes.String
 		}
 
 		signups = append(signups, signup)
