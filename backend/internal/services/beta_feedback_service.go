@@ -2,6 +2,7 @@ package services
 
 import (
 	"database/sql"
+	"encoding/json"
 	"fmt"
 	"time"
 
@@ -9,7 +10,7 @@ import (
 	"github.com/google/uuid"
 )
 
-// BetaFeedbackService handles beta feedback business logic
+// BetaFeedbackService handles beta feedback operations
 type BetaFeedbackService struct {
 	db *sql.DB
 }
@@ -19,211 +20,223 @@ func NewBetaFeedbackService(db *sql.DB) *BetaFeedbackService {
 	return &BetaFeedbackService{db: db}
 }
 
-// Create creates a new beta feedback entry
-func (s *BetaFeedbackService) Create(feedback *models.BetaFeedback) (*models.BetaFeedback, error) {
-	if feedback.ID == "" {
-		feedback.ID = uuid.New().String()
+// Create adds new feedback
+func (s *BetaFeedbackService) Create(req *models.BetaFeedbackRequest) (*models.BetaFeedback, error) {
+	id := uuid.New().String()
+	now := time.Now().UTC()
+
+	// Convert tags to JSON string for storage
+	tagsJSON := "[]"
+	if len(req.Tags) > 0 {
+		tagsBytes, err := json.Marshal(req.Tags)
+		if err != nil {
+			return nil, fmt.Errorf("failed to marshal tags: %w", err)
+		}
+		tagsJSON = string(tagsBytes)
 	}
 
 	query := `
-		INSERT INTO beta_feedback (
-			id, type, rating, title, description, email, name, priority,
-			browser, steps_to_reproduce, expected_behavior, actual_behavior,
-			attachments, status, beta_tester_id, created_at, updated_at
-		) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17)
-		RETURNING id
+		INSERT INTO beta_feedback (id, user_email, user_name, category, subject, message, rating, status, priority, tags, page_url, user_agent, screenshot, created_at, updated_at)
+		VALUES (?, ?, ?, ?, ?, ?, ?, 'new', 'medium', ?, ?, ?, ?, ?, ?)
 	`
 
-	attachmentsJSON, _ := jsonMarshal(feedback.Attachments)
-
-	err := s.db.QueryRow(
-		query,
-		feedback.ID,
-		feedback.Type,
-		feedback.Rating,
-		feedback.Title,
-		feedback.Description,
-		feedback.Email,
-		feedback.Name,
-		feedback.Priority,
-		feedback.Browser,
-		feedback.StepsToReproduce,
-		feedback.ExpectedBehavior,
-		feedback.ActualBehavior,
-		attachmentsJSON,
-		feedback.Status,
-		feedback.BetaTesterID,
-		feedback.CreatedAt,
-		feedback.UpdatedAt,
-	).Scan(&feedback.ID)
-
+	_, err := s.db.Exec(query,
+		id,
+		req.UserEmail,
+		req.UserName,
+		req.Category,
+		req.Subject,
+		req.Message,
+		req.Rating,
+		tagsJSON,
+		req.PageURL,
+		req.UserAgent,
+		req.Screenshot,
+		now,
+		now,
+	)
 	if err != nil {
-		return nil, fmt.Errorf("error creating feedback: %w", err)
+		return nil, fmt.Errorf("failed to create feedback: %w", err)
 	}
 
-	return feedback, nil
+	return s.GetByID(id)
 }
 
 // GetByID retrieves feedback by ID
 func (s *BetaFeedbackService) GetByID(id string) (*models.BetaFeedback, error) {
 	query := `
-		SELECT id, type, rating, title, description, email, name, priority,
-			   browser, steps_to_reproduce, expected_behavior, actual_behavior,
-			   attachments, status, resolution, assigned_to, beta_tester_id,
-			   created_at, updated_at, resolved_at
+		SELECT id, user_email, user_name, category, subject, message, rating, status, priority, tags, page_url, user_agent, screenshot, response, created_at, updated_at, resolved_at
 		FROM beta_feedback
-		WHERE id = $1
+		WHERE id = ?
 	`
 
 	feedback := &models.BetaFeedback{}
-	var attachmentsJSON []byte
+	var tags, response sql.NullString
 	var resolvedAt sql.NullTime
 
 	err := s.db.QueryRow(query, id).Scan(
 		&feedback.ID,
-		&feedback.Type,
+		&feedback.UserEmail,
+		&feedback.UserName,
+		&feedback.Category,
+		&feedback.Subject,
+		&feedback.Message,
 		&feedback.Rating,
-		&feedback.Title,
-		&feedback.Description,
-		&feedback.Email,
-		&feedback.Name,
-		&feedback.Priority,
-		&feedback.Browser,
-		&feedback.StepsToReproduce,
-		&feedback.ExpectedBehavior,
-		&feedback.ActualBehavior,
-		&attachmentsJSON,
 		&feedback.Status,
-		&feedback.Resolution,
-		&feedback.AssignedTo,
-		&feedback.BetaTesterID,
+		&feedback.Priority,
+		&tags,
+		&feedback.PageURL,
+		&feedback.UserAgent,
+		&feedback.Screenshot,
+		&response,
 		&feedback.CreatedAt,
 		&feedback.UpdatedAt,
 		&resolvedAt,
 	)
 
+	if err == sql.ErrNoRows {
+		return nil, fmt.Errorf("feedback not found")
+	}
 	if err != nil {
-		return nil, fmt.Errorf("error getting feedback: %w", err)
+		return nil, fmt.Errorf("failed to get feedback: %w", err)
 	}
 
+	// Parse tags from JSON
+	if tags.Valid {
+		var tagList []string
+		if err := json.Unmarshal([]byte(tags.String), &tagList); err == nil {
+			feedback.Tags = tagList
+		}
+	}
+
+	if response.Valid {
+		feedback.Response = response.String
+	}
 	if resolvedAt.Valid {
 		feedback.ResolvedAt = &resolvedAt.Time
-	}
-
-	if len(attachmentsJSON) > 0 {
-		jsonUnmarshal(attachmentsJSON, &feedback.Attachments)
 	}
 
 	return feedback, nil
 }
 
 // List retrieves feedback with optional filters
-func (s *BetaFeedbackService) List(status, feedbackType, priority string) ([]*models.BetaFeedback, error) {
-	query := `
-		SELECT id, type, rating, title, description, email, name, priority,
-			   browser, steps_to_reproduce, expected_behavior, actual_behavior,
-			   attachments, status, resolution, assigned_to, beta_tester_id,
-			   created_at, updated_at, resolved_at
-		FROM beta_feedback
-		WHERE 1=1
-	`
-	args := []interface{}{}
-	argNum := 1
+func (s *BetaFeedbackService) List(status, category string, limit int) ([]*models.BetaFeedback, error) {
+	var query string
+	var args []interface{}
 
-	if status != "" {
-		query += fmt.Sprintf(" AND status = $%d", argNum)
-		args = append(args, status)
-		argNum++
+	if status != "" && category != "" {
+		query = `
+			SELECT id, user_email, user_name, category, subject, message, rating, status, priority, tags, page_url, user_agent, screenshot, response, created_at, updated_at, resolved_at
+			FROM beta_feedback
+			WHERE status = ? AND category = ?
+			ORDER BY created_at DESC
+			LIMIT ?
+		`
+		args = []interface{}{status, category, limit}
+	} else if status != "" {
+		query = `
+			SELECT id, user_email, user_name, category, subject, message, rating, status, priority, tags, page_url, user_agent, screenshot, response, created_at, updated_at, resolved_at
+			FROM beta_feedback
+			WHERE status = ?
+			ORDER BY created_at DESC
+			LIMIT ?
+		`
+		args = []interface{}{status, limit}
+	} else if category != "" {
+		query = `
+			SELECT id, user_email, user_name, category, subject, message, rating, status, priority, tags, page_url, user_agent, screenshot, response, created_at, updated_at, resolved_at
+			FROM beta_feedback
+			WHERE category = ?
+			ORDER BY created_at DESC
+			LIMIT ?
+		`
+		args = []interface{}{category, limit}
+	} else {
+		query = `
+			SELECT id, user_email, user_name, category, subject, message, rating, status, priority, tags, page_url, user_agent, screenshot, response, created_at, updated_at, resolved_at
+			FROM beta_feedback
+			ORDER BY created_at DESC
+			LIMIT ?
+		`
+		args = []interface{}{limit}
 	}
-
-	if feedbackType != "" {
-		query += fmt.Sprintf(" AND type = $%d", argNum)
-		args = append(args, feedbackType)
-		argNum++
-	}
-
-	if priority != "" {
-		query += fmt.Sprintf(" AND priority = $%d", argNum)
-		args = append(args, priority)
-		argNum++
-	}
-
-	query += " ORDER BY created_at DESC"
 
 	rows, err := s.db.Query(query, args...)
 	if err != nil {
-		return nil, fmt.Errorf("error listing feedback: %w", err)
+		return nil, fmt.Errorf("failed to list feedback: %w", err)
 	}
 	defer rows.Close()
 
-	var feedbacks []*models.BetaFeedback
+	var feedbackList []*models.BetaFeedback
 	for rows.Next() {
 		feedback := &models.BetaFeedback{}
-		var attachmentsJSON []byte
+		var tags, response sql.NullString
 		var resolvedAt sql.NullTime
 
 		err := rows.Scan(
 			&feedback.ID,
-			&feedback.Type,
+			&feedback.UserEmail,
+			&feedback.UserName,
+			&feedback.Category,
+			&feedback.Subject,
+			&feedback.Message,
 			&feedback.Rating,
-			&feedback.Title,
-			&feedback.Description,
-			&feedback.Email,
-			&feedback.Name,
-			&feedback.Priority,
-			&feedback.Browser,
-			&feedback.StepsToReproduce,
-			&feedback.ExpectedBehavior,
-			&feedback.ActualBehavior,
-			&attachmentsJSON,
 			&feedback.Status,
-			&feedback.Resolution,
-			&feedback.AssignedTo,
-			&feedback.BetaTesterID,
+			&feedback.Priority,
+			&tags,
+			&feedback.PageURL,
+			&feedback.UserAgent,
+			&feedback.Screenshot,
+			&response,
 			&feedback.CreatedAt,
 			&feedback.UpdatedAt,
 			&resolvedAt,
 		)
-
 		if err != nil {
-			return nil, fmt.Errorf("error scanning feedback: %w", err)
+			return nil, fmt.Errorf("failed to scan feedback: %w", err)
 		}
 
+		// Parse tags from JSON
+		if tags.Valid {
+			var tagList []string
+			if err := json.Unmarshal([]byte(tags.String), &tagList); err == nil {
+				feedback.Tags = tagList
+			}
+		}
+
+		if response.Valid {
+			feedback.Response = response.String
+		}
 		if resolvedAt.Valid {
 			feedback.ResolvedAt = &resolvedAt.Time
 		}
 
-		if len(attachmentsJSON) > 0 {
-			jsonUnmarshal(attachmentsJSON, &feedback.Attachments)
-		}
-
-		feedbacks = append(feedbacks, feedback)
+		feedbackList = append(feedbackList, feedback)
 	}
 
-	return feedbacks, nil
+	return feedbackList, nil
 }
 
-// UpdateStatus updates feedback status
-func (s *BetaFeedbackService) UpdateStatus(id, status, resolution, assignedTo string) (*models.BetaFeedback, error) {
-	query := `
-		UPDATE beta_feedback
-		SET status = $1, resolution = $2, assigned_to = $3, updated_at = $4
-	`
-	args := []interface{}{status, resolution, assignedTo, time.Now()}
-	argNum := 5
+// UpdateStatus updates the status of feedback
+func (s *BetaFeedbackService) UpdateStatus(id string, status string, response string) (*models.BetaFeedback, error) {
+	now := time.Now().UTC()
 
+	var resolvedAt interface{}
 	if status == "resolved" || status == "closed" {
-		query += fmt.Sprintf(", resolved_at = $%d", argNum)
-		args = append(args, time.Now())
-		argNum++
+		resolvedAt = now
+	} else {
+		resolvedAt = nil
 	}
 
-	query += fmt.Sprintf(" WHERE id = $%d RETURNING id", argNum)
-	args = append(args, id)
+	query := `
+		UPDATE beta_feedback
+		SET status = ?, response = ?, resolved_at = ?, updated_at = ?
+		WHERE id = ?
+	`
 
-	err := s.db.QueryRow(query, args...).Scan(&id)
+	_, err := s.db.Exec(query, status, response, resolvedAt, now, id)
 	if err != nil {
-		return nil, fmt.Errorf("error updating feedback: %w", err)
+		return nil, fmt.Errorf("failed to update feedback status: %w", err)
 	}
 
 	return s.GetByID(id)
@@ -232,79 +245,69 @@ func (s *BetaFeedbackService) UpdateStatus(id, status, resolution, assignedTo st
 // GetStats retrieves feedback statistics
 func (s *BetaFeedbackService) GetStats() (*models.BetaFeedbackStats, error) {
 	stats := &models.BetaFeedbackStats{
-		ByType:     make(map[string]int),
+		ByCategory: make(map[string]int),
 		ByStatus:   make(map[string]int),
-		ByPriority: make(map[string]int),
 	}
 
 	// Total count
-	err := s.db.QueryRow("SELECT COUNT(*) FROM beta_feedback").Scan(&stats.Total)
+	err := s.db.QueryRow(`SELECT COUNT(*) FROM beta_feedback`).Scan(&stats.TotalFeedback)
 	if err != nil {
-		return nil, fmt.Errorf("error getting total count: %w", err)
-	}
-
-	// By type
-	rows, err := s.db.Query("SELECT type, COUNT(*) FROM beta_feedback GROUP BY type")
-	if err != nil {
-		return nil, fmt.Errorf("error getting by type: %w", err)
-	}
-	defer rows.Close()
-	for rows.Next() {
-		var typ string
-		var count int
-		rows.Scan(&typ, &count)
-		stats.ByType[typ] = count
-	}
-
-	// By status
-	rows, err = s.db.Query("SELECT status, COUNT(*) FROM beta_feedback GROUP BY status")
-	if err != nil {
-		return nil, fmt.Errorf("error getting by status: %w", err)
-	}
-	defer rows.Close()
-	for rows.Next() {
-		var status string
-		var count int
-		rows.Scan(&status, &count)
-		stats.ByStatus[status] = count
-	}
-
-	// By priority
-	rows, err = s.db.Query("SELECT priority, COUNT(*) FROM beta_feedback GROUP BY priority")
-	if err != nil {
-		return nil, fmt.Errorf("error getting by priority: %w", err)
-	}
-	defer rows.Close()
-	for rows.Next() {
-		var priority string
-		var count int
-		rows.Scan(&priority, &count)
-		stats.ByPriority[priority] = count
+		return nil, fmt.Errorf("failed to get total feedback: %w", err)
 	}
 
 	// Average rating
-	err = s.db.QueryRow("SELECT AVG(rating) FROM beta_feedback WHERE rating > 0").Scan(&stats.AverageRating)
+	err = s.db.QueryRow(`SELECT COALESCE(AVG(rating), 0) FROM beta_feedback WHERE rating > 0`).Scan(&stats.AverageRating)
 	if err != nil && err != sql.ErrNoRows {
-		return nil, fmt.Errorf("error getting average rating: %w", err)
+		return nil, fmt.Errorf("failed to get average rating: %w", err)
 	}
 
-	// Recent count (last 7 days)
-	sevenDaysAgo := time.Now().AddDate(0, 0, -7)
-	err = s.db.QueryRow("SELECT COUNT(*) FROM beta_feedback WHERE created_at > $1", sevenDaysAgo).Scan(&stats.RecentCount)
+	// Count by category
+	rows, err := s.db.Query(`SELECT category, COUNT(*) FROM beta_feedback GROUP BY category`)
 	if err != nil {
-		return nil, fmt.Errorf("error getting recent count: %w", err)
+		return nil, fmt.Errorf("failed to get category counts: %w", err)
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		var category string
+		var count int
+		if err := rows.Scan(&category, &count); err != nil {
+			return nil, err
+		}
+		stats.ByCategory[category] = count
+	}
+
+	// Count by status
+	rows, err = s.db.Query(`SELECT status, COUNT(*) FROM beta_feedback GROUP BY status`)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get status counts: %w", err)
+	}
+	defer rows.Close()
+
+	for rows.Next() {
+		var status string
+		var count int
+		if err := rows.Scan(&status, &count); err != nil {
+			return nil, err
+		}
+		stats.ByStatus[status] = count
+	}
+
+	// Recent feedback (last 7 days)
+	weekAgo := time.Now().UTC().AddDate(0, 0, -7)
+	err = s.db.QueryRow(`SELECT COUNT(*) FROM beta_feedback WHERE created_at >= ?`, weekAgo).Scan(&stats.RecentFeedback)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get recent feedback: %w", err)
 	}
 
 	return stats, nil
 }
 
-// Helper functions
-func jsonMarshal(v interface{}) ([]byte, error) {
-	// Implement or use encoding/json
-	return []byte("[]"), nil
-}
-
-func jsonUnmarshal(data []byte, v interface{}) error {
-	// Implement or use encoding/json
+// Delete removes feedback
+func (s *BetaFeedbackService) Delete(id string) error {
+	_, err := s.db.Exec(`DELETE FROM beta_feedback WHERE id = ?`, id)
+	if err != nil {
+		return fmt.Errorf("failed to delete feedback: %w", err)
+	}
 	return nil
 }

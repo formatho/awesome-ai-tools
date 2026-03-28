@@ -2,53 +2,46 @@ package models
 
 import "time"
 
-// BetaFeedback represents a beta tester's feedback
+// BetaFeedback represents feedback from beta testers
 type BetaFeedback struct {
-	ID               string    `json:"id" db:"id"`
-	Type             string    `json:"type" db:"type"` // bug, feature, testimonial, general
-	Rating           int       `json:"rating" db:"rating"` // 1-5
-	Title            string    `json:"title" db:"title"`
-	Description      string    `json:"description" db:"description"`
-	Email            string    `json:"email" db:"email"`
-	Name             string    `json:"name" db:"name"`
-	Priority         string    `json:"priority" db:"priority"` // low, medium, high, critical
-	Browser          string    `json:"browser" db:"browser"`
-	StepsToReproduce string    `json:"steps_to_reproduce,omitempty" db:"steps_to_reproduce"`
-	ExpectedBehavior string    `json:"expected_behavior,omitempty" db:"expected_behavior"`
-	ActualBehavior   string    `json:"actual_behavior,omitempty" db:"actual_behavior"`
-	Attachments      []string  `json:"attachments,omitempty" db:"attachments"`
-	Status           string    `json:"status" db:"status"` // new, in_progress, resolved, closed
-	Resolution       string    `json:"resolution,omitempty" db:"resolution"`
-	AssignedTo       string    `json:"assigned_to,omitempty" db:"assigned_to"`
-	BetaTesterID     string    `json:"beta_tester_id,omitempty" db:"beta_tester_id"`
-	CreatedAt        time.Time `json:"created_at" db:"created_at"`
-	UpdatedAt        time.Time `json:"updated_at" db:"updated_at"`
-	ResolvedAt       *time.Time `json:"resolved_at,omitempty" db:"resolved_at"`
+	ID           string     `json:"id"`
+	UserEmail    string     `json:"user_email"`
+	UserName     string     `json:"user_name"`
+	Category     string     `json:"category"` // bug, feature_request, testimonial, general
+	Subject      string     `json:"subject"`
+	Message      string     `json:"message"`
+	Rating       int        `json:"rating,omitempty"` // 1-5 stars
+	Status       string     `json:"status"` // new, acknowledged, in_progress, resolved, closed
+	Priority     string     `json:"priority"` // low, medium, high, critical
+	Response     string     `json:"response,omitempty"`
+	Tags         []string   `json:"tags,omitempty"`
+	UserAgent    string     `json:"user_agent,omitempty"`
+	PageURL      string     `json:"page_url,omitempty"`
+	Screenshot   string     `json:"screenshot,omitempty"` // Base64 encoded or URL
+	CreatedAt    time.Time  `json:"created_at"`
+	UpdatedAt    time.Time  `json:"updated_at"`
+	ResolvedAt   *time.Time `json:"resolved_at,omitempty"`
 }
 
-// BetaFeedbackRequest is the request body for submitting feedback
+// BetaFeedbackRequest represents the request body for submitting feedback
 type BetaFeedbackRequest struct {
-	Type              string   `json:"type"`
-	Rating            int      `json:"rating"`
-	Title             string   `json:"title" validate:"required"`
-	Description       string   `json:"description" validate:"required"`
-	Email             string   `json:"email" validate:"required,email"`
-	Name              string   `json:"name"`
-	Priority          string   `json:"priority"`
-	Browser           string   `json:"browser"`
-	StepsToReproduce  string   `json:"steps_to_reproduce"`
-	ExpectedBehavior  string   `json:"expected_behavior"`
-	ActualBehavior    string   `json:"actual_behavior"`
-	Attachments       []string `json:"attachments"`
-	BetaTesterID      string   `json:"beta_tester_id"`
+	UserEmail  string   `json:"user_email" validate:"required,email"`
+	UserName   string   `json:"user_name" validate:"required"`
+	Category   string   `json:"category" validate:"required,oneof=bug feature_request testimonial general"`
+	Subject    string   `json:"subject" validate:"required"`
+	Message    string   `json:"message" validate:"required"`
+	Rating     int      `json:"rating,omitempty" validate:"omitempty,min=1,max=5"`
+	Tags       []string `json:"tags,omitempty"`
+	UserAgent  string   `json:"user_agent,omitempty"`
+	PageURL    string   `json:"page_url,omitempty"`
+	Screenshot string   `json:"screenshot,omitempty"`
 }
 
-// BetaFeedbackStats represents statistics about beta feedback
+// BetaFeedbackStats represents statistics about feedback
 type BetaFeedbackStats struct {
-	Total         int            `json:"total"`
-	ByType        map[string]int `json:"by_type"`
-	ByStatus      map[string]int `json:"by_status"`
-	ByPriority    map[string]int `json:"by_priority"`
-	AverageRating float64        `json:"average_rating"`
-	RecentCount   int            `json:"recent_count"` // Last 7 days
+	TotalFeedback   int            `json:"total_feedback"`
+	ByCategory      map[string]int `json:"by_category"`
+	ByStatus        map[string]int `json:"by_status"`
+	AverageRating   float64        `json:"average_rating"`
+	RecentFeedback  int            `json:"recent_feedback"` // Last 7 days
 }
