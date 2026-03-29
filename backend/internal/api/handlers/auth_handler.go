@@ -1,6 +1,11 @@
 package handlers
 
 import (
+	"crypto/hmac"
+	"crypto/sha256"
+	"encoding/base64"
+	"encoding/json"
+	"fmt"
 	"net/http"
 	"strings"
 	"time"
@@ -172,39 +177,105 @@ func NewJWTManager() *JWTManager {
 func (m *JWTManager) GenerateToken(userID int64, email string, role string) (string, time.Time, error) {
 	expiresAt := time.Now().Add(24 * time.Hour) // 24 hour expiry
 	
-	// Simplified JWT generation using base64 encoding for demonstration
-	// In production, use a proper JWT library like github.com/golang-jwt/jwt/v5
-	tokenData := map[string]interface{}{
-		"user_id": userID,
-		"email":   email,
-		"role":    role,
-		"exp":     expiresAt.Unix(),
-		"iat":     time.Now().Unix(),
-	}
-
-	// Base64 encode the token data (NOT SECURE - use proper JWT library in production)
-	token := "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9." + 
-			base64Encode(tokenData["user_id"].(int64)) + "." +
-			base64Encode(email) + "." +
-			base64Encode(role)
-
+	// Proper JWT generation using base64 URL encoding
+	// Format: header.payload.signature
+	// Header (fixed for HS256)
+	header := base64URLEncode([]byte(`{"alg":"HS256","typ":"JWT"}`))
+	
+	// Payload with user claims and expiration
+	payload := base64URLEncode([]byte(fmt.Sprintf(`{
+		"user_id": %d,
+		"email": "%s",
+		"role": "%s",
+		"exp": %d,
+		"iat": %d,
+		"iss": "agent-orchestrator"
+	}`, userID, email, role, expiresAt.Unix(), time.Now().Unix())))
+	
+	// Create unsigned token for signature
+	unsignedToken := header + "." + payload
+	
+	// Simple HMAC signature (NOT SECURE for production - use proper JWT library)
+	signature := base64URLEncode(hmac256([]byte(unsignedToken), m.signingKey))
+	
+	token := unsignedToken + "." + signature
 	return token, expiresAt, nil
 }
 
 // ValidateToken validates a JWT token and returns user information
 func (m *JWTManager) ValidateToken(token string) (int64, string, string, error) {
-	// Simplified validation - in production would verify signature and expiration
-	// For now, just parse the base64 encoded segments
-	return 1, "user@example.com", "admin", nil
+	// Parse JWT token: header.payload.signature
+	parts := strings.Split(token, ".")
+	if len(parts) != 3 {
+		return 0, "", "", fmt.Errorf("invalid token format")
+	}
+
+	header, payload, signature := parts[0], parts[1], parts[2]
+	
+	// Decode payload
+	payloadData, err := base64URLDecode(payload)
+	if err != nil {
+		return 0, "", "", fmt.Errorf("invalid payload: %v", err)
+	}
+	
+	// Verify signature (simplified - in production would use proper JWT validation)
+	expectedSignature := base64URLEncode(hmac256([]byte(header+"."+payload), m.signingKey))
+	if signature != expectedSignature {
+		return 0, "", "", fmt.Errorf("invalid signature")
+	}
+	
+	// Parse payload JSON
+	var claims struct {
+		UserID int64  `json:"user_id"`
+		Email  string `json:"email"`
+		Role   string `json:"role"`
+		Exp    int64  `json:"exp"`
+		Iat    int64  `json:"iat"`
+		Iss    string `json:"iss"`
+	}
+	
+	if err := json.Unmarshal(payloadData, &claims); err != nil {
+		return 0, "", "", fmt.Errorf("invalid claims: %v", err)
+	}
+	
+	// Check expiration
+	if time.Now().Unix() > claims.Exp {
+		return 0, "", "", fmt.Errorf("token expired")
+	}
+	
+	return claims.UserID, claims.Email, claims.Role, nil
 }
 
-func base64Encode(data interface{}) string {
-	switch v := data.(type) {
-	case int64:
-		return string(rune(v))
-	case string:
-		return v
-	default:
-		return ""
+// base64URLEncode encodes data using base64 URL encoding
+func base64URLEncode(data []byte) string {
+	encoded := base64.StdEncoding.EncodeToString(data)
+	// Replace URL-unsafe characters and remove padding
+	encoded = strings.ReplaceAll(encoded, "+", "-")
+	encoded = strings.ReplaceAll(encoded, "/", "_")
+	encoded = strings.ReplaceAll(encoded, "=", "")
+	return encoded
+}
+
+// base64URLDecode decodes base64 URL encoded data
+func base64URLDecode(data string) ([]byte, error) {
+	// Add padding back if needed
+	switch len(data) % 4 {
+	case 2:
+		data += "=="
+	case 3:
+		data += "="
 	}
+	
+	// Replace URL-safe characters back to standard base64
+	data = strings.ReplaceAll(data, "-", "+")
+	data = strings.ReplaceAll(data, "_", "/")
+	
+	return base64.StdEncoding.DecodeString(data)
+}
+
+// hmac256 creates HMAC-SHA256 signature
+func hmac256(data, key []byte) []byte {
+	h := hmac.New(sha256.New, key)
+	h.Write(data)
+	return h.Sum(nil)
 }

@@ -368,7 +368,7 @@ func (h *AnalyticsHandler) GetDashboard(c *fiber.Ctx) error {
 	// Get last 7 days daily stats
 	endDate := time.Now()
 	startDate := endDate.AddDate(0, 0, -7)
-	
+
 	dailyStats, err := h.analyticsSvc.GetDailyFunnelStats(c.Context(), models.FunnelQuery{
 		StartDate:  startDate,
 		EndDate:    endDate,
@@ -381,6 +381,47 @@ func (h *AnalyticsHandler) GetDashboard(c *fiber.Ctx) error {
 	return c.JSON(fiber.Map{
 		"summary":      summary,
 		"daily_trend":  dailyStats,
+		"last_updated": time.Now(),
+	})
+}
+
+// GetABTestResults returns results for a specific A/B test
+func (h *AnalyticsHandler) GetABTestResults(c *fiber.Ctx) error {
+	_, ok := c.Locals("user_id").(string)
+	if !ok {
+		return c.Status(401).JSON(fiber.Map{"error": "User not authenticated"})
+	}
+
+	testID := c.Params("testId")
+	if testID == "" {
+		return c.Status(400).JSON(fiber.Map{"error": "test_id is required"})
+	}
+
+	// Get A/B test results from service
+	results, err := h.analyticsSvc.GetABTestResults(c.Context(), testID)
+	if err != nil {
+		return c.Status(500).JSON(fiber.Map{"error": "Failed to get A/B test results"})
+	}
+
+	return c.JSON(results)
+}
+
+// GetAllABTests returns summary of all active A/B tests
+func (h *AnalyticsHandler) GetAllABTests(c *fiber.Ctx) error {
+	_, ok := c.Locals("user_id").(string)
+	if !ok {
+		return c.Status(401).JSON(fiber.Map{"error": "User not authenticated"})
+	}
+
+	// Get all A/B test summaries
+	tests, err := h.analyticsSvc.GetAllABTests(c.Context())
+	if err != nil {
+		return c.Status(500).JSON(fiber.Map{"error": "Failed to get A/B tests"})
+	}
+
+	return c.JSON(fiber.Map{
+		"tests":        tests,
+		"total":        len(tests),
 		"last_updated": time.Now(),
 	})
 }

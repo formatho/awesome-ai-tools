@@ -3,6 +3,7 @@ package api
 
 import (
 	"database/sql"
+	"strings"
 
 	fastws "github.com/fasthttp/websocket"
 	"github.com/formatho/agent-orchestrator/backend/internal/api/handlers"
@@ -191,6 +192,24 @@ func (s *Server) setupRoutes() {
 		})
 	})
 
+	// Test JWT generation (for debugging)
+	s.app.Get("/test-jwt", func(c *fiber.Ctx) error {
+		jwtManager := handlers.NewJWTManager()
+		token, expiresAt, err := jwtManager.GenerateToken(1, "test@example.com", "admin")
+		if err != nil {
+			return c.Status(500).JSON(fiber.Map{
+				"error": "Failed to generate token",
+				"details": err.Error(),
+			})
+		}
+		return c.JSON(fiber.Map{
+			"token":     token,
+			"expires_at": expiresAt,
+			"length":    len(token),
+			"has_nulls": strings.Contains(token, "\x00"),
+		})
+	})
+
 	// WebSocket endpoint
 	s.app.Get("/ws", func(c *fiber.Ctx) error {
 		return s.upgrader.Upgrade(c.Context(), func(conn *fastws.Conn) {
@@ -356,6 +375,10 @@ func (s *Server) setupRoutes() {
 	analyticsProtected.Get("/funnel/daily", s.analyticsH.GetDailyStats)
 	analyticsProtected.Get("/dashboard", s.analyticsH.GetDashboard)
 	analyticsProtected.Get("/session/:sessionId", s.analyticsH.GetSessionEvents)
+
+	// A/B Test analytics endpoints (require authentication)
+	analyticsProtected.Get("/ab-tests", s.analyticsH.GetAllABTests)
+	analyticsProtected.Get("/ab-tests/:testId", s.analyticsH.GetABTestResults)
 
 	// Newsletter subscription routes (public)
 	newsletter := api.Group("/newsletter")

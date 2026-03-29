@@ -37,6 +37,9 @@ const (
 	EventUpgrade         AnalyticsEventType = "upgrade"
 	EventDowngrade       AnalyticsEventType = "downgrade"
 	EventChurn           AnalyticsEventType = "churn"
+
+	// A/B Test events
+	EventABTest          AnalyticsEventType = "ab_test"
 )
 
 // FunnelStage represents a stage in the conversion funnel
@@ -147,4 +150,46 @@ func GetFunnelStage(eventType AnalyticsEventType) FunnelStage {
 	default:
 		return FunnelStageAwareness
 	}
+}
+
+// ABTestResults represents the results of an A/B test
+type ABTestResults struct {
+	TestID                 string            `json:"test_id"`
+	TestName               string            `json:"test_name"`
+	Hypothesis             string            `json:"hypothesis"`
+	StartTime              time.Time         `json:"start_time"`
+	EndTime                time.Time         `json:"end_time"`
+	Status                 string            `json:"status"` // running, completed, paused
+	Variants               []ABTestVariant   `json:"variants"`
+	Winner                 string            `json:"winner,omitempty"`
+	StatisticalSignificance float64           `json:"statistical_significance"` // 0.0 to 1.0
+	TotalVisitors          int64             `json:"total_visitors"`
+	TotalConversions       int64             `json:"total_conversions"`
+	ExpectedLift           float64           `json:"expected_lift"`
+	ActualLift             float64           `json:"actual_lift"`
+}
+
+// ABTestVariant represents a single variant in an A/B test
+type ABTestVariant struct {
+	VariantID      string  `json:"variant_id"`
+	VariantName    string  `json:"variant_name"`
+	Visitors       int64   `json:"visitors"`
+	Conversions    int64   `json:"conversions"`
+	ConversionRate float64 `json:"conversion_rate"`
+	TrafficWeight  float64 `json:"traffic_weight"` // e.g., 0.5 for 50%
+}
+
+// ABTestSummary represents a summary of an A/B test for listing
+type ABTestSummary struct {
+	TestID           string    `json:"test_id"`
+	TestName         string    `json:"test_name"`
+	Hypothesis       string    `json:"hypothesis"`
+	StartDate        time.Time `json:"start_date"`
+	Status           string    `json:"status"`
+	TotalVisitors    int64     `json:"total_visitors"`
+	TotalConversions int64     `json:"total_conversions"`
+	ConversionRate   float64   `json:"conversion_rate"`
+	ExpectedLift     float64   `json:"expected_lift"`
+	TrafficSplit     string    `json:"traffic_split"`
+	TargetMetric     string    `json:"target_metric"`
 }

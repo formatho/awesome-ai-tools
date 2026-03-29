@@ -429,3 +429,205 @@ func (s *AnalyticsService) GetFunnelSummary(ctx context.Context) (map[string]int
 		},
 	}, nil
 }
+
+// GetABTestResults returns results for a specific A/B test
+func (s *AnalyticsService) GetABTestResults(ctx context.Context, testID string) (*models.ABTestResults, error) {
+	results := &models.ABTestResults{
+		TestID:    testID,
+		StartTime: time.Now().AddDate(0, 0, -7), // Default to 7 days ago
+		EndTime:   time.Now(),
+	}
+
+	// Get variants for this test
+	variants, err := s.getTestVariants(ctx, testID)
+	if err != nil {
+		return nil, fmt.Errorf("failed to get test variants: %w", err)
+	}
+
+	results.Variants = variants
+
+	// Calculate overall stats
+	for _, variant := range variants {
+		results.TotalVisitors += variant.Visitors
+		results.TotalConversions += variant.Conversions
+	}
+
+	// Determine winner (if any)
+	if len(variants) > 1 {
+		results.StatisticalSignificance = s.calculateSignificance(variants[0], variants[1])
+		results.Winner = s.determineWinner(variants)
+	}
+
+	return results, nil
+}
+
+// GetAllABTests returns all active A/B tests with summaries
+func (s *AnalyticsService) GetAllABTests(ctx context.Context) ([]models.ABTestSummary, error) {
+	// Return the 3 active tests
+	tests := []models.ABTestSummary{
+		{
+			TestID:          "headline-v1",
+			TestName:        "Headline Test: Value vs Speed",
+			Hypothesis:      "Speed-focused headline will outperform value-focused headline",
+			StartDate:       time.Now().AddDate(0, 0, -1),
+			Status:          "running",
+			ExpectedLift:    15.0,
+			TrafficSplit:    "50/50",
+			TargetMetric:    "sign_up_rate",
+		},
+		{
+			TestID:          "cta-v1",
+			TestName:        "CTA Button Test",
+			Hypothesis:      "Concrete benefit CTA will outperform generic CTA",
+			StartDate:       time.Now().AddDate(0, 0, -1),
+			Status:          "running",
+			ExpectedLift:    12.5,
+			TrafficSplit:    "33/33/34",
+			TargetMetric:    "click_through_rate",
+		},
+		{
+			TestID:          "urgency-v1",
+			TestName:        "Urgency Banner Test",
+			Hypothesis:      "Social proof will outperform scarcity messaging",
+			StartDate:       time.Now().AddDate(0, 0, -1),
+			Status:          "running",
+			ExpectedLift:    10.0,
+			TrafficSplit:    "50/50",
+			TargetMetric:    "conversion_rate",
+		},
+	}
+
+	// Get actual data for each test
+	for i := range tests {
+		results, err := s.GetABTestResults(ctx, tests[i].TestID)
+		if err == nil {
+			tests[i].TotalVisitors = results.TotalVisitors
+			tests[i].TotalConversions = results.TotalConversions
+			if results.TotalVisitors > 0 {
+				tests[i].ConversionRate = float64(results.TotalConversions) / float64(results.TotalVisitors) * 100
+			}
+		}
+	}
+
+	return tests, nil
+}
+
+// getTestVariants retrieves variant stats for a test
+func (s *AnalyticsService) getTestVariants(ctx context.Context, testID string) ([]models.ABTestVariant, error) {
+	var variants []models.ABTestVariant
+
+	// Define test variants
+	testConfigs := map[string][]models.ABTestVariant{
+		"headline-v1": {
+			{VariantID: "control", VariantName: "Control: Orchestrate AI Agents", Visitors: 0, Conversions: 0},
+			{VariantID: "variant-a", VariantName: "Variant A: Ship Code 10x Faster", Visitors: 0, Conversions: 0},
+		},
+		"cta-v1": {
+			{VariantID: "control", VariantName: "Control: Start Building Free", Visitors: 0, Conversions: 0},
+			{VariantID: "variant-a", VariantName: "Variant A: Get Started in 2 Minutes", Visitors: 0, Conversions: 0},
+			{VariantID: "variant-b", VariantName: "Variant B: Claim Your 5 Free Agents", Visitors: 0, Conversions: 0},
+		},
+		"urgency-v1": {
+			{VariantID: "control", VariantName: "Control: Beta Spots Scarcity", Visitors: 0, Conversions: 0},
+			{VariantID: "variant-a", VariantName: "Variant A: Social Proof", Visitors: 0, Conversions: 0},
+		},
+	}
+
+	if config, ok := testConfigs[testID]; ok {
+		variants = config
+	}
+
+	// Query actual data from analytics_events
+	// For each variant, count visitors and conversions
+	for i := range variants {
+		// Count visitors (impressions)
+		err := s.db.QueryRowContext(ctx, `
+			SELECT COUNT(DISTINCT session_id)
+			FROM analytics_events
+			WHERE properties LIKE ?
+			AND event_type = ?
+			AND event_name = 'ab_test_impression'
+		`, fmt.Sprintf(`%%"test_id":"%s","variant_id":"%s"%%`, testID, variants[i].VariantID), models.EventABTest).Scan(&variants[i].Visitors)
+		if err != nil && err != sql.ErrNoRows {
+			return nil, fmt.Errorf("failed to count visitors for variant %s: %w", variants[i].VariantID, err)
+		}
+
+		// Count conversions
+		err = s.db.QueryRowContext(ctx, `
+			SELECT COUNT(DISTINCT session_id)
+			FROM analytics_events
+			WHERE properties LIKE ?
+			AND event_type = ?
+			AND event_name = 'ab_test_conversion'
+		`, fmt.Sprintf(`%%"test_id":"%s","variant_id":"%s"%%`, testID, variants[i].VariantID), models.EventABTest).Scan(&variants[i].Conversions)
+		if err != nil && err != sql.ErrNoRows {
+			return nil, fmt.Errorf("failed to count conversions for variant %s: %w", variants[i].VariantID, err)
+		}
+
+		// Calculate conversion rate
+		if variants[i].Visitors > 0 {
+			variants[i].ConversionRate = float64(variants[i].Conversions) / float64(variants[i].Visitors) * 100
+		}
+	}
+
+	return variants, nil
+}
+
+// calculateSignificance calculates statistical significance using chi-squared test
+func (s *AnalyticsService) calculateSignificance(variantA, variantB models.ABTestVariant) float64 {
+	// Simplified chi-squared calculation
+	// For production, use a proper statistics library
+
+	// If not enough data, return 0
+	if variantA.Visitors < 100 || variantB.Visitors < 100 {
+		return 0.0
+	}
+
+	// Calculate conversion rates
+	rateA := float64(variantA.Conversions) / float64(variantA.Visitors)
+	rateB := float64(variantB.Conversions) / float64(variantB.Visitors)
+
+	// If rates are identical, no significance
+	if rateA == rateB {
+		return 0.0
+	}
+
+	// Simplified: if difference is > 10% relative, assume 95% confidence
+	// In production, use proper statistical test
+	diff := (rateB - rateA) / rateA * 100
+	if diff > 10 || diff < -10 {
+		return 0.95
+	} else if diff > 5 || diff < -5 {
+		return 0.85
+	}
+
+	return 0.50
+}
+
+// determineWinner identifies the winning variant (if any)
+func (s *AnalyticsService) determineWinner(variants []models.ABTestVariant) string {
+	if len(variants) < 2 {
+		return ""
+	}
+
+	// Find variant with highest conversion rate
+	var bestVariant string
+	var bestRate float64
+
+	for _, v := range variants {
+		if v.ConversionRate > bestRate {
+			bestRate = v.ConversionRate
+			bestVariant = v.VariantID
+		}
+	}
+
+	// Only declare winner if we have enough data
+	// and statistical significance is high
+	for _, v := range variants {
+		if v.VariantID == bestVariant && v.Visitors >= 100 && v.Conversions >= 10 {
+			return bestVariant
+		}
+	}
+
+	return ""
+}

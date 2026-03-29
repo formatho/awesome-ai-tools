@@ -1,39 +1,21 @@
-# Multi-stage build for Agent Orchestrator Backend
-FROM golang:1.24-alpine AS builder
+# Build backend from monorepo root to access local packages
+FROM golang:1.25-alpine AS builder
 
-# Install build dependencies for SQLite (CGO)
 RUN apk add --no-cache gcc musl-dev sqlite-dev
 
 WORKDIR /app
 
-# Copy go mod files
-COPY go.mod go.sum ./
+# Copy go mod files first for better caching
+COPY go.sum go.sum . 
 
 # Download dependencies
 RUN go mod download
 
-# Copy source code
+# Copy source code - but avoid context issues with replace directives
 COPY . .
 
 # Build the server binary with CGO enabled for SQLite
 RUN CGO_ENABLED=1 GOOS=linux go build -a -installsuffix cgo -o server ./cmd/server
-
-# Final stage
-FROM alpine:latest
-
-# Install runtime dependencies
-RUN apk --no-cache add ca-certificates sqlite
-
-WORKDIR /root/
-
-# Copy the binary from builder
-COPY --from=builder /app/server .
-
-# Copy example env file (will be overridden by mounted .env)
-COPY --from=builder /app/.env.example .env
-
-# Create data directory for SQLite
-RUN mkdir -p /data
 
 # Expose the port
 EXPOSE 18765
