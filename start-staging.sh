@@ -17,7 +17,7 @@ echo "================================================"
 echo ""
 
 # Configuration
-STAGING_PORT=8080
+STAGING_PORT=18765
 STAGING_DB="agent_orchestrator_staging.db"
 ENV_FILE=".env.staging"
 BACKEND_DIR="/Users/studio/sandbox/formatho/agent-orchestrator/backend"

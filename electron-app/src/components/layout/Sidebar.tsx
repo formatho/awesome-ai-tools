@@ -1,9 +1,9 @@
 import { NavLink } from 'react-router-dom'
-import { 
-  LayoutDashboard, 
-  Users, 
-  CheckSquare, 
-  Clock, 
+import {
+  LayoutDashboard,
+  Users,
+  CheckSquare,
+  Clock,
   Settings,
   Activity,
   Zap,
@@ -15,6 +15,7 @@ const navItems = [
   { path: '/tutorial', icon: Sparkles, label: 'Tutorial', highlight: true, tourId: 'tour-tutorial-nav' },
   { path: '/agents', icon: Users, label: 'Agents', tourId: 'tour-agents-nav' },
   { path: '/todos', icon: CheckSquare, label: 'TODOs', tourId: 'tour-todos-nav' },
+  { path: '/todos/queue', icon: Activity, label: 'TODO Queue', tourId: 'tour-todo-queue-nav' },
   { path: '/cron', icon: Clock, label: 'Cron Jobs', tourId: 'tour-cron-nav' },
   { path: '/skills', icon: Zap, label: 'Skills', tourId: 'tour-skills-nav' },
   { path: '/config', icon: Settings, label: 'Config', tourId: 'tour-config-nav' },
