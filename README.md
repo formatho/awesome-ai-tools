@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026--04--02-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-45-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-65-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -27,16 +27,16 @@
 
 | Tool | Description | Category | Pricing |
 |------|-------------|----------|---------|
-| [Dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development | Agents & Automation | Freemium |
-| [RAGFlow](https://github.com/infiniflow/ragflow) | Open-source RAG engine with agent capabilities | Developer Tools | Free |
-| [OpenHands](https://github.com/OpenHands/OpenHands) | AI-driven development platform | Developer Tools | Free |
-| [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | Fine-tuning platform for 100+ LLMs | Open Source Models | Free |
-| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework for AI software companies | Agents & Automation | Free |
-| [Unsloth](https://github.com/unslothai/unsloth) | Web UI for training open models locally | Open Source Models | Freemium |
-| [Deer-Flow](https://github.com/bytedance/deer-flow) | Long-horizon superagent for research & coding | Agents & Automation | Free |
-| [ChatTTS](https://github.com/2noise/ChatTTS) | Generative speech model for dialogue | Audio & Music | Free |
-| [AgentGPT](https://github.com/reworkd/AgentGPT) | Deploy autonomous AI agents in browser | Agents & Automation | Freemium |
-| [Khoj](https://github.com/khoj-ai/khoj) | Self-hostable AI second brain | Productivity | Freemium |
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Accessible AI for everyone - autonomous agent platform | Agents & Automation | Free |
+| [Ollama](https://github.com/ollama/ollama) | Run Llama 2, Mistral, and other LLMs locally | LLMs & Chatbots | Free |
+| [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Browser interface for Stable Diffusion | Image Generation | Free |
+| [Transformers](https://github.com/huggingface/transformers) | State-of-the-art ML for PyTorch, TensorFlow, JAX | Developer Tools | Free |
+| [Prompts.chat](https://github.com/f/prompts.chat) | Community-driven AI prompts collection | Productivity | Free |
+| [Langflow](https://github.com/langflow-ai/langflow) | Visual framework for multi-agent & RAG apps | Agents & Automation | Freemium |
+| [Open-WebUI](https://github.com/open-webui/open-webui) | User-friendly AI interface for Ollama & OpenAI | LLMs & Chatbots | Free |
+| [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Modular diffusion model GUI with nodes | Image Generation | Free |
+| [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of LLM apps with Agents & RAG | Productivity | Free |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | Web data API for AI applications | Developer Tools | Freemium |
 
 ---
 
@@ -44,8 +44,12 @@
 
 | Tool | Description | Tags | Pricing | Stars |
 |------|-------------|------|---------|-------|
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Accessible AI for everyone - autonomous agent platform | `agent` `autonomous` `automation` | Free | 183.0k |
 | [Dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development | `agent` `workflow` `llm` | Freemium | 135.4k |
+| [Langflow](https://github.com/langflow-ai/langflow) | Visual framework for multi-agent & RAG applications | `agent` `visual` `rag` `no-code` | Freemium | 146.5k |
 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework for AI software companies | `agent` `multi-agent` `framework` | Free | 66.5k |
+| [Browser-Use](https://github.com/browser-use/browser-use) | Make websites accessible for AI agents | `browser` `automation` `agent` | Free | 85.5k |
+| [Autogen](https://github.com/microsoft/autogen) | Programming framework for agentic AI by Microsoft | `agent` `framework` `multi-agent` | Free | 56.6k |
 | [Deer-Flow](https://github.com/bytedance/deer-flow) | Long-horizon superagent for research, coding & creation | `agent` `research` `coding` | Free | 56.0k |
 | [AgentGPT](https://github.com/reworkd/AgentGPT) | Assemble, configure, and deploy autonomous AI agents | `agent` `browser` `autonomous` | Freemium | 35.9k |
 | [Hello Agents](https://github.com/datawhalechina/hello-agents) | Comprehensive tutorial on building agents from scratch | `tutorial` `agent` `education` | Free | 32.8k |
@@ -60,6 +64,8 @@
 
 | Tool | Description | Tags | Pricing | Stars |
 |------|-------------|------|---------|-------|
+| [Ollama](https://github.com/ollama/ollama) | Run Llama 2, Mistral, and other LLMs locally | `llm` `local` `inference` | Free | 166.7k |
+| [Open-WebUI](https://github.com/open-webui/open-webui) | User-friendly AI interface for Ollama & OpenAI | `ui` `chat` `ollama` | Free | 129.6k |
 | [Awesome ChatGPT (Chinese)](https://github.com/EmbraceAGI/awesome-chatgpt-zh) | Comprehensive Chinese guide for ChatGPT prompts | `chatgpt` `prompts` `chinese` | Free | 11.5k |
 | [SwitchAI](https://github.com/WSTxda/SwitchAI) | Manage AI digital assistants on Android | `android` `ai-assistant` `mobile` | Free | 1.3k |
 | [AI Anything](https://github.com/KeJunMao/ai-anything) | Create GPT tools without coding | `gpt` `no-code` `tools` | Free | 565 |
@@ -70,8 +76,13 @@
 
 | Tool | Description | Tags | Pricing | Stars |
 |------|-------------|------|---------|-------|
+| [Transformers](https://github.com/huggingface/transformers) | State-of-the-art ML for PyTorch, TensorFlow, JAX | `ml` `pytorch` `tensorflow` | Free | 158.7k |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | Web data API for AI applications | `crawler` `scraper` `api` `llm` | Freemium | 102.5k |
+| [llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ for efficient deployment | `inference` `c++` `llm` `local` | Free | 100.6k |
+| [vllm](https://github.com/vllm-project/vllm) | High-throughput LLM inference and serving engine | `inference` `serving` `production` | Free | 74.9k |
 | [RAGFlow](https://github.com/infiniflow/ragflow) | Open-source RAG engine with agent capabilities | `rag` `llm` `agent` | Free | 76.8k |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | AI-driven development platform | `agent` `coding` `autonomous` | Free | 70.4k |
+| [Mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents | `memory` `agent` `persistence` | Freemium | 51.7k |
 | [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code) | Nano Claude Code-like agent harness | `agent` `claude` `bash` | Free | 46.3k |
 | [JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | AI-driven low-code platform | `low-code` `ai` `code-generation` | Freemium | 45.7k |
 | [Continue](https://github.com/continuedev/continue) | Source-controlled AI checks enforceable in CI | `ide` `coding` `ci-cd` | Free | 32.2k |
@@ -98,6 +109,8 @@
 
 | Tool | Description | Tags | Pricing | Stars |
 |------|-------------|------|---------|-------|
+| [Prompts.chat](https://github.com/f/prompts.chat) | Community-driven AI prompts collection | `prompts` `community` `collection` | Free | 155.9k |
+| [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of LLM apps with Agents & RAG | `llm` `apps` `agent` `rag` | Free | 104.2k |
 | [Khoj](https://github.com/khoj-ai/khoj) | Self-hostable AI second brain | `second-brain` `self-hosted` `rag` | Freemium | 33.8k |
 | [Noi](https://github.com/lencx/Noi) | AI tools launcher with minimal chaos | `launcher` `productivity` | Free | 8.8k |
 | [One-Person Company](https://github.com/cyfyifanchen/one-person-company) | AI tools for solo businesses | `solo-business` `entrepreneurship` | Free | 2.7k |
@@ -111,6 +124,7 @@
 
 | Tool | Description | Tags | Pricing | Stars |
 |------|-------------|------|---------|-------|
+| [LLM Course](https://github.com/mlabonne/llm-course) | Course to get into Large Language Models | `course` `education` `llm` | Free | 77.7k |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Multi-agents LLM financial trading framework | `trading` `agent` `finance` | Free | 45.6k |
 | [Daily Stock Analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | LLM-powered stock analysis for A/H/US markets | `trading` `stock` `llm` | Free | 27.5k |
 | [CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | Leaked system prompts for major AI systems | `prompts` `transparency` | Free | 14.0k |
@@ -125,6 +139,8 @@
 |------|-------------|------|---------|-------|
 | [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | Fine-tuning platform for 100+ LLMs and VLMs | `llm` `fine-tuning` `training` | Free | 69.4k |
 | [Unsloth](https://github.com/unslothai/unsloth) | Web UI for training open models locally | `training` `llm` `local` | Freemium | 58.8k |
+| [GPT4All](https://github.com/nomic-ai/gpt4all) | Run local LLMs on any device | `llm` `local` `privacy` | Free | 77.2k |
+| [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement ChatGPT-like LLM in PyTorch | `tutorial` `llm` `pytorch` | Free | 89.7k |
 | [Happy LLM](https://github.com/datawhalechina/happy-llm) | Build large language models from scratch | `llm` `tutorial` `education` | Free | 28.3k |
 
 ---
@@ -139,13 +155,18 @@
 
 ## 🎨 Image Generation
 
-*No tools added in this category yet. Coming soon!*
+| Tool | Description | Tags | Pricing | Stars |
+|------|-------------|------|---------|-------|
+| [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Browser interface for Stable Diffusion | `image` `stable-diffusion` `web-ui` | Free | 162.1k |
+| [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Modular diffusion model GUI with nodes | `image` `diffusion` `gui` `nodes` | Free | 107.5k |
 
 ---
 
 ## 🎬 Video & Animation
 
-*No tools added in this category yet. Coming soon!*
+| Tool | Description | Tags | Pricing | Stars |
+|------|-------------|------|---------|-------|
+| [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Generate short videos with AI LLM | `video` `generation` `automation` | Free | 54.7k |
 
 ---
 
@@ -153,16 +174,16 @@
 
 Top 10 by GitHub stars:
 
-1. **[Dify](https://github.com/langgenius/dify)** - 135.4k ⭐ - Production-ready agentic workflow platform
-2. **[RAGFlow](https://github.com/infiniflow/ragflow)** - 76.8k ⭐ - Open-source RAG engine
-3. **[OpenHands](https://github.com/OpenHands/OpenHands)** - 70.4k ⭐ - AI-driven development platform
-4. **[LlamaFactory](https://github.com/hiyouga/LlamaFactory)** - 69.4k ⭐ - Fine-tuning for 100+ LLMs
-5. **[MetaGPT](https://github.com/FoundationAgents/MetaGPT)** - 66.5k ⭐ - Multi-agent framework
-6. **[Unsloth](https://github.com/unslothai/unsloth)** - 58.8k ⭐ - Training open models locally
-7. **[Deer-Flow](https://github.com/bytedance/deer-flow)** - 56.0k ⭐ - Long-horizon superagent
-8. **[Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code)** - 46.3k ⭐ - Claude Code agent harness
-9. **[JeecgBoot](https://github.com/jeecgboot/JeecgBoot)** - 45.7k ⭐ - AI-driven low-code platform
-10. **[TradingAgents](https://github.com/TauricResearch/TradingAgents)** - 45.6k ⭐ - Multi-agents trading framework
+1. **[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** - 183.0k ⭐ - Accessible AI for everyone
+2. **[Ollama](https://github.com/ollama/ollama)** - 166.7k ⭐ - Run LLMs locally
+3. **[Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)** - 162.1k ⭐ - Browser interface for Stable Diffusion
+4. **[Transformers](https://github.com/huggingface/transformers)** - 158.7k ⭐ - State-of-the-art ML framework
+5. **[Prompts.chat](https://github.com/f/prompts.chat)** - 155.9k ⭐ - Community prompts collection
+6. **[Langflow](https://github.com/langflow-ai/langflow)** - 146.5k ⭐ - Visual framework for agents
+7. **[Dify](https://github.com/langgenius/dify)** - 135.4k ⭐ - Agentic workflow platform
+8. **[Open-WebUI](https://github.com/open-webui/open-webui)** - 129.6k ⭐ - User-friendly AI interface
+9. **[ComfyUI](https://github.com/Comfy-Org/ComfyUI)** - 107.5k ⭐ - Modular diffusion GUI
+10. **[Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** - 104.2k ⭐ - LLM apps collection
 
 ---
 
@@ -200,7 +221,7 @@ We welcome contributions! Please follow these guidelines:
 
 ## 📊 Statistics
 
-- **Total Tools:** 45
+- **Total Tools:** 65
 - **Categories:** 9
 - **Last Updated:** April 2, 2026
 - **Update Frequency:** Every 6 hours
