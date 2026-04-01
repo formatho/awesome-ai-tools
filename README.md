@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026--04--02-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-65-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-66-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -27,6 +27,7 @@
 
 | Tool | Description | Category | Pricing |
 |------|-------------|----------|---------|
+| [OpenClaw Zero Token](https://github.com/linuxhsj/openclaw-zero-token) | Use all major AI models without API tokens | Developer Tools | Free |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Accessible AI for everyone - autonomous agent platform | Agents & Automation | Free |
 | [Ollama](https://github.com/ollama/ollama) | Run Llama 2, Mistral, and other LLMs locally | LLMs & Chatbots | Free |
 | [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Browser interface for Stable Diffusion | Image Generation | Free |
@@ -92,6 +93,7 @@
 | [Windows MCP](https://github.com/CursorTouch/Windows-MCP) | MCP server for computer use in Windows | `mcp` `windows` `automation` | Free | 5.0k |
 | [ACI.dev](https://github.com/aipotheosis-labs/aci) | Tool-calling platform with 600+ integrations | `tool-calling` `mcp` `api` | Freemium | 4.8k |
 | [MCP Context Forge](https://github.com/IBM/mcp-context-forge) | AI gateway and proxy for MCP, A2A, REST/gRPC | `mcp` `gateway` `proxy` | Free | 3.5k |
+| [OpenClaw Zero Token](https://github.com/linuxhsj/openclaw-zero-token) | Use all major AI models without API tokens | `llm` `zero-token` `free` `gateway` | Free | 3.5k |
 | [Agentation](https://github.com/benjitaylor/agentation) | Visual feedback tool for AI agents | `agent` `visualization` | Free | 3.3k |
 | [Harbor](https://github.com/av/harbor) | Complete pre-wired LLM stack | `llm-stack` `deployment` | Free | 2.6k |
 | [Markdownify MCP](https://github.com/zcaceres/markdownify-mcp) | MCP server for converting to Markdown | `mcp` `markdown` | Free | 2.5k |
@@ -221,7 +223,7 @@ We welcome contributions! Please follow these guidelines:
 
 ## 📊 Statistics
 
-- **Total Tools:** 65
+- **Total Tools:** 66
 - **Categories:** 9
 - **Last Updated:** April 2, 2026
 - **Update Frequency:** Every 6 hours

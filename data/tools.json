@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-02T01:27:00+05:30",
-    "total_tools": 65,
+    "last_updated": "2026-04-02T01:45:00+05:30",
+    "total_tools": 66,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -817,6 +817,18 @@
       "pricing": "Freemium",
       "stars": 51696,
       "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true
+    },
+    {
+      "name": "OpenClaw Zero Token",
+      "url": "https://github.com/linuxhsj/openclaw-zero-token",
+      "description": "Use all major AI models (Claude, ChatGPT, Gemini, DeepSeek, Qwen, etc.) without API tokens - browser login only, completely free.",
+      "category": "Developer Tools",
+      "tags": ["llm", "zero-token", "free", "browser", "multi-provider", "gateway"],
+      "pricing": "Free",
+      "stars": 3515,
+      "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true
     }
