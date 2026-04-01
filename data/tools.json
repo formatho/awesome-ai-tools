@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-02T01:45:00+05:30",
+    "last_updated": "2026-04-01T20:23:49.568Z",
     "total_tools": 66,
     "categories": [
       "LLMs & Chatbots",
@@ -13,7 +13,8 @@
       "Research & Data",
       "Agents & Automation",
       "Open Source Models"
-    ]
+    ],
+    "last_freshness_check": "2026-04-01T20:23:49.567Z"
   },
   "tools": [
     {
@@ -21,816 +22,1353 @@
       "url": "https://github.com/langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
       "category": "Agents & Automation",
-      "tags": ["agent", "workflow", "llm", "open-source", "production"],
+      "tags": [
+        "agent",
+        "workflow",
+        "llm",
+        "open-source",
+        "production"
+      ],
       "pricing": "Freemium",
-      "stars": 135369,
+      "stars": 135370,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:04:18Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "RAGFlow",
       "url": "https://github.com/infiniflow/ragflow",
       "description": "Leading open-source Retrieval-Augmented Generation (RAG) engine with agent capabilities.",
       "category": "Developer Tools",
-      "tags": ["rag", "llm", "agent", "open-source", "retrieval"],
+      "tags": [
+        "rag",
+        "llm",
+        "agent",
+        "open-source",
+        "retrieval"
+      ],
       "pricing": "Free",
       "stars": 76812,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T13:36:21Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "OpenHands",
       "url": "https://github.com/OpenHands/OpenHands",
       "description": "AI-driven development platform for autonomous software engineering.",
       "category": "Developer Tools",
-      "tags": ["agent", "coding", "open-source", "autonomous"],
+      "tags": [
+        "agent",
+        "coding",
+        "open-source",
+        "autonomous"
+      ],
       "pricing": "Free",
-      "stars": 70380,
+      "stars": 70381,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:21:41Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "LlamaFactory",
       "url": "https://github.com/hiyouga/LlamaFactory",
       "description": "Unified efficient fine-tuning platform for 100+ LLMs and VLMs.",
       "category": "Open Source Models",
-      "tags": ["llm", "fine-tuning", "open-source", "training"],
+      "tags": [
+        "llm",
+        "fine-tuning",
+        "open-source",
+        "training"
+      ],
       "pricing": "Free",
       "stars": 69350,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T14:40:12Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "MetaGPT",
       "url": "https://github.com/FoundationAgents/MetaGPT",
       "description": "Multi-agent framework for building AI software companies.",
       "category": "Agents & Automation",
-      "tags": ["agent", "multi-agent", "framework", "open-source"],
+      "tags": [
+        "agent",
+        "multi-agent",
+        "framework",
+        "open-source"
+      ],
       "pricing": "Free",
-      "stars": 66545,
+      "stars": 66546,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-01-21T10:12:33Z",
+      "days_since_commit": 70,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Unsloth",
       "url": "https://github.com/unslothai/unsloth",
       "description": "Web UI for training and running open models locally.",
       "category": "Open Source Models",
-      "tags": ["training", "llm", "local", "web-ui", "open-source"],
+      "tags": [
+        "training",
+        "llm",
+        "local",
+        "web-ui",
+        "open-source"
+      ],
       "pricing": "Freemium",
-      "stars": 58827,
+      "stars": 58828,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:52:52Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Deer-Flow",
       "url": "https://github.com/bytedance/deer-flow",
       "description": "Open-source long-horizon superagent for research, coding, and creation.",
       "category": "Agents & Automation",
-      "tags": ["agent", "research", "coding", "open-source", "bytedance"],
+      "tags": [
+        "agent",
+        "research",
+        "coding",
+        "open-source",
+        "bytedance"
+      ],
       "pricing": "Free",
-      "stars": 55974,
+      "stars": 55980,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T15:27:03Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Learn Claude Code",
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Nano Claude Code-like agent harness built from scratch.",
       "category": "Developer Tools",
-      "tags": ["agent", "claude", "bash", "open-source"],
+      "tags": [
+        "agent",
+        "claude",
+        "bash",
+        "open-source"
+      ],
       "pricing": "Free",
-      "stars": 46348,
+      "stars": 46354,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T13:00:52Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "JeecgBoot",
       "url": "https://github.com/jeecgboot/JeecgBoot",
       "description": "AI-driven low-code platform with zero-code and code generation modes.",
       "category": "Developer Tools",
-      "tags": ["low-code", "ai", "code-generation", "enterprise"],
+      "tags": [
+        "low-code",
+        "ai",
+        "code-generation",
+        "enterprise"
+      ],
       "pricing": "Freemium",
       "stars": 45674,
       "language": "Java",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T06:32:05Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "TradingAgents",
       "url": "https://github.com/TauricResearch/TradingAgents",
       "description": "Multi-agents LLM financial trading framework.",
       "category": "Research & Data",
-      "tags": ["trading", "agent", "finance", "llm", "multi-agent"],
+      "tags": [
+        "trading",
+        "agent",
+        "finance",
+        "llm",
+        "multi-agent"
+      ],
       "pricing": "Free",
-      "stars": 45641,
+      "stars": 45644,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-29T19:50:48Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ChatTTS",
       "url": "https://github.com/2noise/ChatTTS",
       "description": "Generative speech model for daily dialogue.",
       "category": "Audio & Music",
-      "tags": ["tts", "speech", "open-source", "dialogue"],
+      "tags": [
+        "tts",
+        "speech",
+        "open-source",
+        "dialogue"
+      ],
       "pricing": "Free",
       "stars": 39011,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-01-18T05:30:01Z",
+      "days_since_commit": 73,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "AgentGPT",
       "url": "https://github.com/reworkd/AgentGPT",
       "description": "Assemble, configure, and deploy autonomous AI agents in your browser.",
       "category": "Agents & Automation",
-      "tags": ["agent", "browser", "autonomous", "no-code"],
+      "tags": [
+        "agent",
+        "browser",
+        "autonomous",
+        "no-code"
+      ],
       "pricing": "Freemium",
       "stars": 35915,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-04-29T01:19:32Z",
+      "days_since_commit": 337,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Khoj",
       "url": "https://github.com/khoj-ai/khoj",
       "description": "Self-hostable AI second brain with custom agents and automations.",
       "category": "Productivity",
-      "tags": ["second-brain", "self-hosted", "agent", "rag"],
+      "tags": [
+        "second-brain",
+        "self-hosted",
+        "agent",
+        "rag"
+      ],
       "pricing": "Freemium",
-      "stars": 33800,
+      "stars": 33801,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-26T03:35:43Z",
+      "days_since_commit": 6,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Hello Agents",
       "url": "https://github.com/datawhalechina/hello-agents",
       "description": "Comprehensive tutorial on building agents from scratch.",
       "category": "Agents & Automation",
-      "tags": ["tutorial", "agent", "education", "chinese"],
+      "tags": [
+        "tutorial",
+        "agent",
+        "education",
+        "chinese"
+      ],
       "pricing": "Free",
-      "stars": 32846,
+      "stars": 32848,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-30T09:37:31Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Continue",
       "url": "https://github.com/continuedev/continue",
       "description": "Source-controlled AI checks enforceable in CI.",
       "category": "Developer Tools",
-      "tags": ["ide", "coding", "ci-cd", "open-source"],
+      "tags": [
+        "ide",
+        "coding",
+        "ci-cd",
+        "open-source"
+      ],
       "pricing": "Free",
       "stars": 32230,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T09:28:02Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "CopilotKit",
       "url": "https://github.com/CopilotKit/CopilotKit",
       "description": "Frontend stack for agents and generative UI (React + Angular).",
       "category": "Developer Tools",
-      "tags": ["frontend", "agent", "ui", "react", "angular"],
+      "tags": [
+        "frontend",
+        "agent",
+        "ui",
+        "react",
+        "angular"
+      ],
       "pricing": "Freemium",
-      "stars": 29909,
+      "stars": 29910,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:20:29Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "AstrBot",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "description": "Agentic IM chatbot infrastructure with multi-platform support.",
       "category": "Agents & Automation",
-      "tags": ["chatbot", "im", "multi-platform", "agent"],
+      "tags": [
+        "chatbot",
+        "im",
+        "multi-platform",
+        "agent"
+      ],
       "pricing": "Free",
       "stars": 28612,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T03:55:55Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Happy LLM",
       "url": "https://github.com/datawhalechina/happy-llm",
       "description": "Build large language models from scratch.",
       "category": "Open Source Models",
-      "tags": ["llm", "tutorial", "education", "chinese"],
+      "tags": [
+        "llm",
+        "tutorial",
+        "education",
+        "chinese"
+      ],
       "pricing": "Free",
-      "stars": 28262,
+      "stars": 28263,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-16T02:21:33Z",
+      "days_since_commit": 16,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "FastGPT",
       "url": "https://github.com/labring/FastGPT",
       "description": "Knowledge-based platform with RAG retrieval and visual workflow orchestration.",
       "category": "Agents & Automation",
-      "tags": ["rag", "workflow", "knowledge-base", "open-source"],
+      "tags": [
+        "rag",
+        "workflow",
+        "knowledge-base",
+        "open-source"
+      ],
       "pricing": "Freemium",
-      "stars": 27589,
+      "stars": 27590,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T14:24:02Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Daily Stock Analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM-powered stock analysis for A/H/US markets with real-time news.",
       "category": "Research & Data",
-      "tags": ["trading", "stock", "llm", "analysis", "automation"],
+      "tags": [
+        "trading",
+        "stock",
+        "llm",
+        "analysis",
+        "automation"
+      ],
       "pricing": "Free",
-      "stars": 27531,
+      "stars": 27534,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T20:04:20Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "CL4R1T4S",
       "url": "https://github.com/elder-plinius/CL4R1T4S",
       "description": "Leaked system prompts for ChatGPT, Gemini, Claude, and more AI systems.",
       "category": "Research & Data",
-      "tags": ["prompts", "transparency", "research"],
+      "tags": [
+        "prompts",
+        "transparency",
+        "research"
+      ],
       "pricing": "Free",
-      "stars": 13960,
+      "stars": 13959,
       "language": null,
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-02-17T15:15:21Z",
+      "days_since_commit": 43,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Awesome ChatGPT (Chinese)",
       "url": "https://github.com/EmbraceAGI/awesome-chatgpt-zh",
       "description": "Comprehensive Chinese guide for ChatGPT prompts and applications.",
       "category": "LLMs & Chatbots",
-      "tags": ["chatgpt", "prompts", "chinese", "guide"],
+      "tags": [
+        "chatgpt",
+        "prompts",
+        "chinese",
+        "guide"
+      ],
       "pricing": "Free",
       "stars": 11518,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2024-11-05T10:24:21Z",
+      "days_since_commit": 512,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Noi",
       "url": "https://github.com/lencx/Noi",
       "description": "AI tools launcher with minimal chaos and maximum flow.",
       "category": "Productivity",
-      "tags": ["launcher", "productivity", "desktop"],
+      "tags": [
+        "launcher",
+        "productivity",
+        "desktop"
+      ],
       "pricing": "Free",
       "stars": 8824,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-02-04T12:11:52Z",
+      "days_since_commit": 56,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Awesome AI Tools",
       "url": "https://github.com/ikaijua/Awesome-AITools",
       "description": "Curated collection of AI-related utilities with community contributions.",
       "category": "Developer Tools",
-      "tags": ["collection", "tools", "community"],
+      "tags": [
+        "collection",
+        "tools",
+        "community"
+      ],
       "pricing": "Free",
       "stars": 5745,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-31T23:21:53Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Awesome MCP Servers",
       "url": "https://github.com/appcypher/awesome-mcp-servers",
       "description": "Curated list of Model Context Protocol servers.",
       "category": "Developer Tools",
-      "tags": ["mcp", "protocol", "agent-tools"],
+      "tags": [
+        "mcp",
+        "protocol",
+        "agent-tools"
+      ],
       "pricing": "Free",
       "stars": 5354,
       "language": null,
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-09-04T20:04:17Z",
+      "days_since_commit": 209,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Windows MCP",
       "url": "https://github.com/CursorTouch/Windows-MCP",
       "description": "MCP server for computer use in Windows.",
       "category": "Developer Tools",
-      "tags": ["mcp", "windows", "automation", "computer-use"],
+      "tags": [
+        "mcp",
+        "windows",
+        "automation",
+        "computer-use"
+      ],
       "pricing": "Free",
       "stars": 4974,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T02:17:31Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ACI.dev",
       "url": "https://github.com/aipotheosis-labs/aci",
       "description": "Open source tool-calling platform connecting 600+ tools via MCP.",
       "category": "Developer Tools",
-      "tags": ["tool-calling", "mcp", "api", "integration"],
+      "tags": [
+        "tool-calling",
+        "mcp",
+        "api",
+        "integration"
+      ],
       "pricing": "Freemium",
       "stars": 4750,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-01-08T15:35:45Z",
+      "days_since_commit": 83,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "MCP Context Forge",
       "url": "https://github.com/IBM/mcp-context-forge",
       "description": "AI gateway and proxy for MCP, A2A, and REST/gRPC APIs.",
       "category": "Developer Tools",
-      "tags": ["mcp", "gateway", "proxy", "enterprise", "ibm"],
+      "tags": [
+        "mcp",
+        "gateway",
+        "proxy",
+        "enterprise",
+        "ibm"
+      ],
       "pricing": "Free",
       "stars": 3502,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:39:53Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Agentation",
       "url": "https://github.com/benjitaylor/agentation",
       "description": "Visual feedback tool for AI agents.",
       "category": "Developer Tools",
-      "tags": ["agent", "visualization", "feedback"],
+      "tags": [
+        "agent",
+        "visualization",
+        "feedback"
+      ],
       "pricing": "Free",
       "stars": 3265,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-25T16:23:39Z",
+      "days_since_commit": 7,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "EvoAgentX",
       "url": "https://github.com/EvoAgentX/EvoAgentX",
       "description": "Self-evolving ecosystem of AI agents.",
       "category": "Agents & Automation",
-      "tags": ["agent", "self-evolving", "ecosystem"],
+      "tags": [
+        "agent",
+        "self-evolving",
+        "ecosystem"
+      ],
       "pricing": "Free",
       "stars": 2690,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-01-07T06:50:09Z",
+      "days_since_commit": 84,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "One-Person Company AI Tools",
       "url": "https://github.com/cyfyifanchen/one-person-company",
       "description": "Continuously updated AI tools for solo businesses.",
       "category": "Productivity",
-      "tags": ["solo-business", "productivity", "entrepreneurship"],
+      "tags": [
+        "solo-business",
+        "productivity",
+        "entrepreneurship"
+      ],
       "pricing": "Free",
       "stars": 2679,
       "language": null,
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-05-08T08:34:16Z",
+      "days_since_commit": 328,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Harbor",
       "url": "https://github.com/av/harbor",
       "description": "Complete pre-wired LLM stack with hundreds of services.",
       "category": "Developer Tools",
-      "tags": ["llm-stack", "deployment", "services"],
+      "tags": [
+        "llm-stack",
+        "deployment",
+        "services"
+      ],
       "pricing": "Free",
-      "stars": 2553,
+      "stars": 2554,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-24T19:26:20Z",
+      "days_since_commit": 8,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "Markdownify MCP",
       "url": "https://github.com/zcaceres/markdownify-mcp",
       "description": "MCP server for converting anything to Markdown.",
       "category": "Developer Tools",
-      "tags": ["mcp", "markdown", "conversion"],
+      "tags": [
+        "mcp",
+        "markdown",
+        "conversion"
+      ],
       "pricing": "Free",
       "stars": 2521,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-27T17:36:02Z",
+      "days_since_commit": 5,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "AI Products All-In-One",
       "url": "https://github.com/TheExplainthis/AI-Products-All-In-One",
       "description": "Curated practical ChatGPT and generative AI tools.",
       "category": "Productivity",
-      "tags": ["collection", "chatgpt", "generative-ai"],
+      "tags": [
+        "collection",
+        "chatgpt",
+        "generative-ai"
+      ],
       "pricing": "Free",
       "stars": 1783,
       "language": null,
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2024-01-14T02:05:56Z",
+      "days_since_commit": 808,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "SwitchAI",
       "url": "https://github.com/WSTxda/SwitchAI",
       "description": "Manage AI digital assistants on Android.",
       "category": "LLMs & Chatbots",
-      "tags": ["android", "ai-assistant", "mobile"],
+      "tags": [
+        "android",
+        "ai-assistant",
+        "mobile"
+      ],
       "pricing": "Free",
       "stars": 1285,
       "language": "Kotlin",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-30T01:51:53Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Awesome AI SDKs",
       "url": "https://github.com/e2b-dev/awesome-ai-sdks",
       "description": "Database of SDKs and frameworks for autonomous AI agents.",
       "category": "Developer Tools",
-      "tags": ["sdk", "framework", "agent", "database"],
+      "tags": [
+        "sdk",
+        "framework",
+        "agent",
+        "database"
+      ],
       "pricing": "Free",
       "stars": 1157,
       "language": null,
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-02-26T10:07:19Z",
+      "days_since_commit": 399,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Coca",
       "url": "https://github.com/phodal/coca",
       "description": "Toolbox for legacy system refactoring and analysis.",
       "category": "Developer Tools",
-      "tags": ["refactoring", "analysis", "code-quality"],
+      "tags": [
+        "refactoring",
+        "analysis",
+        "code-quality"
+      ],
       "pricing": "Free",
       "stars": 977,
       "language": "Go",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-01-06T09:40:33Z",
+      "days_since_commit": 85,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Jupyter MCP Server",
       "url": "https://github.com/datalayer/jupyter-mcp-server",
       "description": "MCP server for Jupyter notebooks.",
       "category": "Developer Tools",
-      "tags": ["mcp", "jupyter", "notebooks"],
+      "tags": [
+        "mcp",
+        "jupyter",
+        "notebooks"
+      ],
       "pricing": "Free",
       "stars": 975,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T11:27:01Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "MTools",
       "url": "https://github.com/HG-ha/MTools",
       "description": "Desktop app for media processing with AI enhancement.",
       "category": "Productivity",
-      "tags": ["desktop", "media", "video", "image", "ai-enhancement"],
+      "tags": [
+        "desktop",
+        "media",
+        "video",
+        "image",
+        "ai-enhancement"
+      ],
       "pricing": "Free",
       "stars": 971,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-15T13:18:50Z",
+      "days_since_commit": 17,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "mcpm.sh",
       "url": "https://github.com/pathintegral-institute/mcpm.sh",
       "description": "CLI MCP package manager and registry.",
       "category": "Developer Tools",
-      "tags": ["mcp", "package-manager", "cli"],
+      "tags": [
+        "mcp",
+        "package-manager",
+        "cli"
+      ],
       "pricing": "Free",
       "stars": 917,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-27T06:06:08Z",
+      "days_since_commit": 5,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "AigoTools",
       "url": "https://github.com/someu/aigotools",
       "description": "Website directory builder with auto-crawling and SEO.",
       "category": "Developer Tools",
-      "tags": ["directory", "seo", "crawling", "i18n"],
+      "tags": [
+        "directory",
+        "seo",
+        "crawling",
+        "i18n"
+      ],
       "pricing": "Free",
       "stars": 653,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-08-01T03:45:07Z",
+      "days_since_commit": 243,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "AI Anything",
       "url": "https://github.com/KeJunMao/ai-anything",
       "description": "Create GPT tools without coding.",
       "category": "LLMs & Chatbots",
-      "tags": ["gpt", "no-code", "tools"],
+      "tags": [
+        "gpt",
+        "no-code",
+        "tools"
+      ],
       "pricing": "Free",
       "stars": 565,
       "language": "Vue",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2023-03-29T01:03:49Z",
+      "days_since_commit": 1099,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Mycoder",
       "url": "https://github.com/bhouston/mycoder",
       "description": "Command-line AI agent for coding tasks.",
       "category": "Developer Tools",
-      "tags": ["cli", "agent", "coding"],
+      "tags": [
+        "cli",
+        "agent",
+        "coding"
+      ],
       "pricing": "Free",
       "stars": 564,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-01-07T16:22:18Z",
+      "days_since_commit": 84,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "AI Infinity",
       "url": "https://github.com/meetpateltech/AI-Infinity",
       "description": "Collection of AI tools for exploring possibilities.",
       "category": "Productivity",
-      "tags": ["collection", "tools"],
+      "tags": [
+        "collection",
+        "tools"
+      ],
       "pricing": "Free",
       "stars": 557,
       "language": null,
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-02-17T15:29:32Z",
+      "days_since_commit": 43,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Tiger",
       "url": "https://github.com/Upsonic/Tiger",
       "description": "Neuralink for AI agents - connects LangChain, Autogen, CrewAI.",
       "category": "Agents & Automation",
-      "tags": ["agent-integration", "langchain", "autogen", "crewai"],
+      "tags": [
+        "agent-integration",
+        "langchain",
+        "autogen",
+        "crewai"
+      ],
       "pricing": "Free",
       "stars": 465,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-02-19T09:40:49Z",
+      "days_since_commit": 406,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Modus",
       "url": "https://github.com/hypermodeinc/modus",
       "description": "Framework for agentic flows powered by WebAssembly.",
       "category": "Developer Tools",
-      "tags": ["agent", "webassembly", "framework"],
+      "tags": [
+        "agent",
+        "webassembly",
+        "framework"
+      ],
       "pricing": "Free",
       "stars": 415,
       "language": "Go",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-09-11T14:09:23Z",
+      "days_since_commit": 202,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Awesome AI",
       "url": "https://github.com/lencx/awesome-ai",
       "description": "Curated list of awesome AI resources.",
       "category": "Research & Data",
-      "tags": ["collection", "resources"],
+      "tags": [
+        "collection",
+        "resources"
+      ],
       "pricing": "Free",
       "stars": 362,
       "language": null,
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2023-06-02T19:29:08Z",
+      "days_since_commit": 1034,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "AskAI Tools",
       "url": "https://github.com/askaitools/askaitools-community-edition",
       "description": "Search engine tailored for AI products.",
       "category": "Research & Data",
-      "tags": ["search", "ai-products"],
+      "tags": [
+        "search",
+        "ai-products"
+      ],
       "pricing": "Freemium",
       "stars": 358,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2024-07-11T13:03:36Z",
+      "days_since_commit": 629,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "description": "Accessible AI for everyone - autonomous agent platform.",
       "category": "Agents & Automation",
-      "tags": ["agent", "autonomous", "automation", "production"],
+      "tags": [
+        "agent",
+        "autonomous",
+        "automation",
+        "production"
+      ],
       "pricing": "Free",
       "stars": 183027,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:24:41Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Ollama",
       "url": "https://github.com/ollama/ollama",
       "description": "Get up and running with Llama 2, Mistral, and other large language models locally.",
       "category": "LLMs & Chatbots",
-      "tags": ["llm", "local", "inference", "models"],
+      "tags": [
+        "llm",
+        "local",
+        "inference",
+        "models"
+      ],
       "pricing": "Free",
       "stars": 166698,
       "language": "Go",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:50:23Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Stable Diffusion WebUI",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "description": "Browser-based interface for Stable Diffusion image generation.",
       "category": "Image Generation",
-      "tags": ["image", "stable-diffusion", "web-ui", "generation"],
+      "tags": [
+        "image",
+        "stable-diffusion",
+        "web-ui",
+        "generation"
+      ],
       "pricing": "Free",
       "stars": 162074,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-02T07:00:53Z",
+      "days_since_commit": 30,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "Transformers",
       "url": "https://github.com/huggingface/transformers",
       "description": "State-of-the-art Machine Learning for PyTorch, TensorFlow, and JAX.",
       "category": "Developer Tools",
-      "tags": ["ml", "pytorch", "tensorflow", "huggingface"],
+      "tags": [
+        "ml",
+        "pytorch",
+        "tensorflow",
+        "huggingface"
+      ],
       "pricing": "Free",
       "stars": 158655,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T18:55:57Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Prompts.chat",
       "url": "https://github.com/f/prompts.chat",
       "description": "Share, discover, and collect AI prompts from the community.",
       "category": "Productivity",
-      "tags": ["prompts", "community", "collection", "chatgpt"],
+      "tags": [
+        "prompts",
+        "community",
+        "collection",
+        "chatgpt"
+      ],
       "pricing": "Free",
-      "stars": 155871,
+      "stars": 155884,
       "language": "HTML",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T04:06:54Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Langflow",
       "url": "https://github.com/langflow-ai/langflow",
       "description": "Visual framework for building multi-agent and RAG applications.",
       "category": "Agents & Automation",
-      "tags": ["agent", "visual", "rag", "workflow", "no-code"],
+      "tags": [
+        "agent",
+        "visual",
+        "rag",
+        "workflow",
+        "no-code"
+      ],
       "pricing": "Freemium",
       "stars": 146466,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T20:20:09Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Open-WebUI",
       "url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI interface supporting Ollama, OpenAI API, and more.",
       "category": "LLMs & Chatbots",
-      "tags": ["ui", "chat", "ollama", "openai"],
+      "tags": [
+        "ui",
+        "chat",
+        "ollama",
+        "openai"
+      ],
       "pricing": "Free",
-      "stars": 129554,
+      "stars": 129556,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T12:42:12Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "Powerful and modular diffusion model GUI with graph/nodes interface.",
       "category": "Image Generation",
-      "tags": ["image", "diffusion", "gui", "nodes", "modular"],
+      "tags": [
+        "image",
+        "diffusion",
+        "gui",
+        "nodes",
+        "modular"
+      ],
       "pricing": "Free",
-      "stars": 107506,
+      "stars": 107508,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T03:23:25Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Awesome LLM Apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of LLM apps with AI Agents and RAG implementations.",
       "category": "Productivity",
-      "tags": ["llm", "apps", "agent", "rag", "collection"],
+      "tags": [
+        "llm",
+        "apps",
+        "agent",
+        "rag",
+        "collection"
+      ],
       "pricing": "Free",
-      "stars": 104230,
+      "stars": 104231,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T07:06:35Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
       "description": "Web data API for AI - turn websites into LLM-ready data.",
       "category": "Developer Tools",
-      "tags": ["crawler", "scraper", "api", "llm", "web-data"],
+      "tags": [
+        "crawler",
+        "scraper",
+        "api",
+        "llm",
+        "web-data"
+      ],
       "pricing": "Freemium",
-      "stars": 102461,
+      "stars": 102468,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T11:59:21Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "llama.cpp",
       "url": "https://github.com/ggml-org/llama.cpp",
       "description": "LLM inference in C/C++ for efficient local deployment.",
       "category": "Developer Tools",
-      "tags": ["inference", "c++", "llm", "local", "optimized"],
+      "tags": [
+        "inference",
+        "c++",
+        "llm",
+        "local",
+        "optimized"
+      ],
       "pricing": "Free",
-      "stars": 100575,
+      "stars": 100580,
       "language": "C++",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:54:58Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "LLMs-from-scratch",
       "url": "https://github.com/rasbt/LLMs-from-scratch",
       "description": "Implement a ChatGPT-like LLM in PyTorch step by step.",
       "category": "Open Source Models",
-      "tags": ["tutorial", "llm", "pytorch", "education"],
+      "tags": [
+        "tutorial",
+        "llm",
+        "pytorch",
+        "education"
+      ],
       "pricing": "Free",
-      "stars": 89730,
+      "stars": 89731,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T00:10:16Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Browser-Use",
       "url": "https://github.com/browser-use/browser-use",
       "description": "Make websites accessible for AI agents - automate tasks online.",
       "category": "Agents & Automation",
-      "tags": ["browser", "automation", "agent", "web"],
+      "tags": [
+        "browser",
+        "automation",
+        "agent",
+        "web"
+      ],
       "pricing": "Free",
-      "stars": 85495,
+      "stars": 85498,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-31T18:40:51Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "LLM Course",
       "url": "https://github.com/mlabonne/llm-course",
       "description": "Course to get into Large Language Models with roadmaps and Colab notebooks.",
       "category": "Research & Data",
-      "tags": ["course", "education", "llm", "tutorial"],
+      "tags": [
+        "course",
+        "education",
+        "llm",
+        "tutorial"
+      ],
       "pricing": "Free",
       "stars": 77661,
       "language": null,
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-02-05T13:09:26Z",
+      "days_since_commit": 55,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "GPT4All",
       "url": "https://github.com/nomic-ai/gpt4all",
       "description": "Run local LLMs on any device - open-source and commercially available.",
       "category": "Open Source Models",
-      "tags": ["llm", "local", "privacy", "cross-platform"],
+      "tags": [
+        "llm",
+        "local",
+        "privacy",
+        "cross-platform"
+      ],
       "pricing": "Free",
       "stars": 77232,
       "language": "C++",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-05-27T20:05:19Z",
+      "days_since_commit": 309,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "vllm",
       "url": "https://github.com/vllm-project/vllm",
       "description": "High-throughput and memory-efficient inference and serving engine for LLMs.",
       "category": "Developer Tools",
-      "tags": ["inference", "serving", "production", "optimized"],
+      "tags": [
+        "inference",
+        "serving",
+        "production",
+        "optimized"
+      ],
       "pricing": "Free",
       "stars": 74933,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T19:11:13Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Autogen",
       "url": "https://github.com/microsoft/autogen",
       "description": "Programming framework for agentic AI by Microsoft.",
       "category": "Agents & Automation",
-      "tags": ["agent", "framework", "microsoft", "multi-agent"],
+      "tags": [
+        "agent",
+        "framework",
+        "microsoft",
+        "multi-agent"
+      ],
       "pricing": "Free",
       "stars": 56563,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-03-29T13:31:03Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "MoneyPrinterTurbo",
       "url": "https://github.com/harry0703/MoneyPrinterTurbo",
       "description": "Generate short videos with one click using AI LLM.",
       "category": "Video & Animation",
-      "tags": ["video", "generation", "automation", "llm"],
+      "tags": [
+        "video",
+        "generation",
+        "automation",
+        "llm"
+      ],
       "pricing": "Free",
-      "stars": 54727,
+      "stars": 54729,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2025-12-14T04:02:56Z",
+      "days_since_commit": 108,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Mem0",
       "url": "https://github.com/mem0ai/mem0",
       "description": "Universal memory layer for AI Agents.",
       "category": "Developer Tools",
-      "tags": ["memory", "agent", "persistence", "rag"],
+      "tags": [
+        "memory",
+        "agent",
+        "persistence",
+        "rag"
+      ],
       "pricing": "Freemium",
-      "stars": 51696,
+      "stars": 51698,
       "language": "Python",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T18:22:37Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "OpenClaw Zero Token",
       "url": "https://github.com/linuxhsj/openclaw-zero-token",
       "description": "Use all major AI models (Claude, ChatGPT, Gemini, DeepSeek, Qwen, etc.) without API tokens - browser login only, completely free.",
       "category": "Developer Tools",
-      "tags": ["llm", "zero-token", "free", "browser", "multi-provider", "gateway"],
+      "tags": [
+        "llm",
+        "zero-token",
+        "free",
+        "browser",
+        "multi-provider",
+        "gateway"
+      ],
       "pricing": "Free",
       "stars": 3515,
       "language": "TypeScript",
       "added_date": "2026-04-02",
-      "verified": true
+      "verified": true,
+      "last_commit_date": "2026-04-01T04:00:34Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     }
   ]
 }
