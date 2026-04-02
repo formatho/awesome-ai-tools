@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-02T11:05:57Z",
-    "total_tools": 94,
+    "last_updated": "2026-04-02T11:33:43Z",
+    "total_tools": 95,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -1882,6 +1882,25 @@
       "pricing": "Free",
       "stars": 50,
       "language": "TypeScript",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "RackPeek",
+      "url": "https://github.com/Timmoth/RackPeek",
+      "description": "CLI tool and webui to discover, manage, and document your IT infrastructure and home lab. Track hardware, services, networks, and their relationships.",
+      "category": "Developer Tools",
+      "tags": [
+        "infrastructure",
+        "documentation",
+        "homelab",
+        "cli",
+        "docker"
+      ],
+      "pricing": "Free",
+      "stars": 200,
+      "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "freshness": "🟢 Fresh"
