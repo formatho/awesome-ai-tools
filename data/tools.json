@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-02T02:44:21.153646+00:00",
-    "total_tools": 82,
+    "last_updated": "2026-04-02T14:07:03.117450",
+    "total_tools": 91,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -14,7 +14,7 @@
       "Agents & Automation",
       "Open Source Models"
     ],
-    "last_freshness_check": "2026-04-02T02:19:02.069Z"
+    "last_freshness_check": "2026-04-02T14:07:03.117455"
   },
   "tools": [
     {
@@ -1635,6 +1635,193 @@
       ],
       "pricing": "Open Source",
       "stars": 8669,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "claw-code",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "description": "The fastest repo in history to surpass 100K stars \u2b50. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "harness",
+        "rust",
+        "automation",
+        "development"
+      ],
+      "pricing": "Free",
+      "stars": 135332,
+      "language": "Rust",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
+      "description": "AI agents running research on single-GPU nanochat training automatically.",
+      "category": "Research & Data",
+      "tags": [
+        "agent",
+        "research",
+        "automation",
+        "training",
+        "nanochat"
+      ],
+      "pricing": "Free",
+      "stars": 63770,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.",
+      "category": "Developer Tools",
+      "tags": [
+        "claude-code",
+        "setup",
+        "tools",
+        "productivity",
+        "enterprise"
+      ],
+      "pricing": "Free",
+      "stars": 61385,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "Open-source orchestration for zero-human companies.",
+      "category": "Agents & Automation",
+      "tags": [
+        "orchestration",
+        "automation",
+        "enterprise",
+        "zero-human"
+      ],
+      "pricing": "Free",
+      "stars": 44245,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "CLI-Anything: Making ALL Software Agent-Native.",
+      "category": "Developer Tools",
+      "tags": [
+        "cli",
+        "agent-native",
+        "automation",
+        "universal"
+      ],
+      "pricing": "Free",
+      "stars": 26717,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference.",
+      "category": "Developer Tools",
+      "tags": [
+        "openclaw",
+        "nvidia",
+        "security",
+        "inference",
+        "enterprise"
+      ],
+      "pricing": "Free",
+      "stars": 18139,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "opencli",
+      "url": "https://github.com/jackwener/opencli",
+      "description": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface.",
+      "category": "Developer Tools",
+      "tags": [
+        "cli",
+        "universal",
+        "ai-native",
+        "runtime",
+        "interface"
+      ],
+      "pricing": "Free",
+      "stars": 11044,
+      "language": "TypeScript",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "AutoResearchClaw",
+      "url": "https://github.com/aiming-lab/AutoResearchClaw",
+      "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. \ud83e\udd9e",
+      "category": "Research & Data",
+      "tags": [
+        "research",
+        "autonomous",
+        "automation",
+        "papers",
+        "evolution"
+      ],
+      "pricing": "Free",
+      "stars": 9982,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:00:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Claude Code skills that turn any codebase into an interactive knowledge graph you can explore, search, and ask questions about (Multi-platform e.g., Codex are supported).",
+      "category": "Developer Tools",
+      "tags": [
+        "claude-code",
+        "knowledge-graph",
+        "codebase",
+        "interactive",
+        "search"
+      ],
+      "pricing": "Free",
+      "stars": 7560,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
