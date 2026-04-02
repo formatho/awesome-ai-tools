@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-02T02:19:02.071Z",
-    "total_tools": 67,
+    "last_updated": "2026-04-02T02:36:21Z",
+    "total_tools": 77,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -1390,6 +1390,149 @@
       "verified": true,
       "last_commit_date": "2026-03-25T09:33:55Z",
       "days_since_commit": 7,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Claude HowTo",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "Visual, example-driven guide to Claude Code — from basic concepts to advanced agents with copy-paste templates.",
+      "category": "Developer Tools",
+      "tags": [
+        "claude",
+        "tutorial",
+        "agent",
+        "coding"
+      ],
+      "pricing": "Free",
+      "stars": 15775,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI by Microsoft.",
+      "category": "Audio & Music",
+      "tags": [
+        "voice",
+        "ai",
+        "microsoft",
+        "open-source"
+      ],
+      "pricing": "Free",
+      "stars": 34525,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Last30Days Skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web.",
+      "category": "Research & Data",
+      "tags": [
+        "research",
+        "agent",
+        "skill",
+        "web-search"
+      ],
+      "pricing": "Free",
+      "stars": 17337,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "description": "Real time face swap and one-click video deepfake with only a single image.",
+      "category": "Video & Animation",
+      "tags": [
+        "face-swap",
+        "video",
+        "deepfake",
+        "real-time"
+      ],
+      "pricing": "Free",
+      "stars": 87350,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Oh-My-ClaudeCode",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "description": "Teams-first Multi-agent orchestration for Claude Code.",
+      "category": "Agents & Automation",
+      "tags": [
+        "claude",
+        "multi-agent",
+        "orchestration",
+        "teams"
+      ],
+      "pricing": "Free",
+      "stars": 21076,
+      "language": "TypeScript",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "AI-Scientist-v2",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "description": "Workshop-Level Automated Scientific Discovery via Agentic Tree Search.",
+      "category": "Research & Data",
+      "tags": [
+        "science",
+        "agent",
+        "automation",
+        "research"
+      ],
+      "pricing": "Free",
+      "stars": 4386,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you - adaptive AI agent framework.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "adaptive",
+        "framework"
+      ],
+      "pricing": "Free",
+      "stars": 21709,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Everything Claude Code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "description": "Agent harness performance optimization system with skills, instincts, memory, and security.",
+      "category": "Developer Tools",
+      "tags": [
+        "claude",
+        "agent",
+        "optimization",
+        "skills"
+      ],
+      "pricing": "Free",
+      "stars": 131306,
+      "language": "JavaScript",
+      "added_date": "2026-04-02",
+      "verified": true,
       "freshness": "🟢 Fresh"
     }
   ]
