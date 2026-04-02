@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-02T11:04:55Z",
-    "total_tools": 93,
+    "last_updated": "2026-04-02T11:05:57Z",
+    "total_tools": 94,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -1862,6 +1862,25 @@
       ],
       "pricing": "Free",
       "stars": 100,
+      "language": "TypeScript",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Mission Control",
+      "url": "https://github.com/crshdn/mission-control",
+      "description": "Autonomous Product Engine (APE): AI agents research your market, generate features, and ship code as PRs. Convoy mode, crash recovery, cost tracking, 80+ API endpoints.",
+      "category": "Agents & Automation",
+      "tags": [
+        "autonomous",
+        "product-engine",
+        "ai-agent",
+        "self-hosted",
+        "openclaw"
+      ],
+      "pricing": "Free",
+      "stars": 50,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
