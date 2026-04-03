@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-03T14:11:37.687589",
-    "total_tools": 133,
+    "last_updated": "2026-04-03T20:07:42.929294",
+    "total_tools": 139,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -35,7 +35,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T18:56:10Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Ollama",
@@ -55,7 +55,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T20:07:58Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Stable Diffusion WebUI",
@@ -75,7 +75,7 @@
       "verified": true,
       "last_commit_date": "2026-03-02T07:00:53Z",
       "days_since_commit": 31,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Transformers",
@@ -95,7 +95,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T20:07:17Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Prompts.chat",
@@ -115,7 +115,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T03:58:34Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Langflow",
@@ -136,7 +136,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T20:25:52Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Dify",
@@ -157,7 +157,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T15:52:58Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Open-WebUI",
@@ -177,7 +177,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T13:57:50Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ComfyUI",
@@ -198,7 +198,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T00:22:11Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Awesome LLM Apps",
@@ -219,7 +219,7 @@
       "verified": true,
       "last_commit_date": "2026-04-01T07:06:35Z",
       "days_since_commit": 1,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Firecrawl",
@@ -240,7 +240,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T18:28:43Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "llama.cpp",
@@ -261,7 +261,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T19:55:43Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "LLMs-from-scratch",
@@ -281,7 +281,7 @@
       "verified": true,
       "last_commit_date": "2026-04-01T00:10:16Z",
       "days_since_commit": 1,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Deep-Live-Cam",
@@ -302,7 +302,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T16:40:08Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Browser-Use",
@@ -322,7 +322,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T20:08:51Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "LLM Course",
@@ -342,7 +342,7 @@
       "verified": true,
       "last_commit_date": "2026-02-05T13:09:26Z",
       "days_since_commit": 56,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "GPT4All",
@@ -362,7 +362,7 @@
       "verified": true,
       "last_commit_date": "2025-05-27T20:05:19Z",
       "days_since_commit": 310,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "RAGFlow",
@@ -383,7 +383,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T14:03:02Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "vllm",
@@ -403,7 +403,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T19:59:20Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "OpenHands",
@@ -423,7 +423,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T20:08:41Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "LlamaFactory",
@@ -443,7 +443,7 @@
       "verified": true,
       "last_commit_date": "2026-04-01T14:40:12Z",
       "days_since_commit": 1,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "MetaGPT",
@@ -463,7 +463,7 @@
       "verified": true,
       "last_commit_date": "2026-01-21T10:12:33Z",
       "days_since_commit": 71,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Unsloth",
@@ -484,7 +484,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T20:02:41Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Deer-Flow",
@@ -505,7 +505,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T16:40:08Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Autogen",
@@ -525,7 +525,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T17:23:44Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -545,7 +545,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T13:45:26Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Mem0",
@@ -565,7 +565,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T19:11:53Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Learn Claude Code",
@@ -585,7 +585,7 @@
       "verified": true,
       "last_commit_date": "2026-04-01T13:00:52Z",
       "days_since_commit": 1,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "TradingAgents",
@@ -606,7 +606,7 @@
       "verified": true,
       "last_commit_date": "2026-03-29T19:50:48Z",
       "days_since_commit": 4,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "JeecgBoot",
@@ -626,7 +626,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T07:11:57Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ChatTTS",
@@ -646,7 +646,7 @@
       "verified": true,
       "last_commit_date": "2026-01-18T05:30:01Z",
       "days_since_commit": 74,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "AgentGPT",
@@ -666,7 +666,7 @@
       "verified": true,
       "last_commit_date": "2025-04-29T01:19:32Z",
       "days_since_commit": 338,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "VibeVoice",
@@ -687,7 +687,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T15:52:58Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Khoj",
@@ -707,7 +707,7 @@
       "verified": true,
       "last_commit_date": "2026-03-26T03:35:43Z",
       "days_since_commit": 7,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Hello Agents",
@@ -727,7 +727,7 @@
       "verified": true,
       "last_commit_date": "2026-03-30T09:37:31Z",
       "days_since_commit": 3,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Continue",
@@ -747,7 +747,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T11:03:32Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "CopilotKit",
@@ -768,7 +768,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T20:11:29Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "AstrBot",
@@ -788,7 +788,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T17:26:31Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Happy LLM",
@@ -808,7 +808,7 @@
       "verified": true,
       "last_commit_date": "2026-03-16T02:21:33Z",
       "days_since_commit": 17,
-      "freshness": "\ud83d\udfe1 Recent"
+      "freshness": "🟡 Recent"
     },
     {
       "name": "Daily Stock Analysis",
@@ -829,7 +829,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T15:19:54Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "FastGPT",
@@ -849,7 +849,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T15:10:35Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Oh My Claude Code",
@@ -870,7 +870,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T17:23:44Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "screenpipe",
@@ -888,7 +888,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "Last30Days Skill",
@@ -911,7 +911,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T18:56:10Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "CL4R1T4S",
@@ -930,7 +930,7 @@
       "verified": true,
       "last_commit_date": "2026-02-17T15:15:21Z",
       "days_since_commit": 44,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "memvid",
@@ -949,7 +949,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "Awesome ChatGPT (Chinese)",
@@ -969,7 +969,7 @@
       "verified": true,
       "last_commit_date": "2024-11-05T10:24:21Z",
       "days_since_commit": 513,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Oh My Codex",
@@ -990,7 +990,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T15:19:32Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "tensorzero",
@@ -1009,7 +1009,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "Portkey AI Gateway",
@@ -1031,7 +1031,7 @@
       "verified": true,
       "last_commit_date": "2026-03-25T09:33:55Z",
       "days_since_commit": 8,
-      "freshness": "\ud83d\udfe1 Recent"
+      "freshness": "🟡 Recent"
     },
     {
       "name": "Noi",
@@ -1050,7 +1050,7 @@
       "verified": true,
       "last_commit_date": "2026-02-04T12:11:52Z",
       "days_since_commit": 57,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Awesome AI Tools",
@@ -1069,7 +1069,7 @@
       "verified": true,
       "last_commit_date": "2026-03-31T23:21:53Z",
       "days_since_commit": 1,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "sdk-python",
@@ -1088,7 +1088,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "Awesome MCP Servers",
@@ -1107,7 +1107,7 @@
       "verified": true,
       "last_commit_date": "2025-09-04T20:04:17Z",
       "days_since_commit": 210,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "2026-AI-College-Jobs",
@@ -1126,7 +1126,7 @@
       "language": null,
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "gaianet-node",
@@ -1145,7 +1145,7 @@
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "Windows MCP",
@@ -1165,7 +1165,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T12:13:39Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ACI.dev",
@@ -1185,7 +1185,7 @@
       "verified": true,
       "last_commit_date": "2026-01-08T15:35:45Z",
       "days_since_commit": 84,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Kiln",
@@ -1205,7 +1205,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "speech-to-speech",
@@ -1224,7 +1224,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "AI Scientist v2",
@@ -1245,7 +1245,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T20:08:41Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "AdalFlow",
@@ -1264,7 +1264,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "bRAG-langchain",
@@ -1283,7 +1283,7 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "reasoning-from-scratch",
@@ -1302,12 +1302,12 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "LLM-RL-Visualized",
       "url": "https://github.com/changyeyu/LLM-RL-Visualized",
-      "description": "\ud83c\udf1f100+ \u539f\u521b LLM / RL \u539f\u7406\u56fe\ud83d\udcda\uff0c\u300a\u5927\u6a21\u578b\u7b97\u6cd5\u300b\u4f5c\u8005\u5de8\u732e\uff01\ud83d\udca5\uff08100+  LLM/RL Algorithm Maps \uff09",
+      "description": "🌟100+ 原创 LLM / RL 原理图📚，《大模型算法》作者巨献！💥（100+  LLM/RL Algorithm Maps ）",
       "category": "Research & Data",
       "tags": [
         "llm",
@@ -1321,7 +1321,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "SwarmUI",
@@ -1340,7 +1340,7 @@
       "language": "C#",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "OpenClaw Zero Token",
@@ -1362,7 +1362,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T06:00:35Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "MCP Context Forge",
@@ -1383,7 +1383,7 @@
       "verified": true,
       "last_commit_date": "2026-04-02T17:04:57Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Agentation",
@@ -1402,7 +1402,7 @@
       "verified": true,
       "last_commit_date": "2026-03-25T16:23:39Z",
       "days_since_commit": 8,
-      "freshness": "\ud83d\udfe1 Recent"
+      "freshness": "🟡 Recent"
     },
     {
       "name": "datachain",
@@ -1421,7 +1421,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "EvoAgentX",
@@ -1440,7 +1440,7 @@
       "verified": true,
       "last_commit_date": "2026-01-07T06:50:09Z",
       "days_since_commit": 85,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "One-Person Company AI Tools",
@@ -1459,7 +1459,7 @@
       "verified": true,
       "last_commit_date": "2025-05-08T08:34:16Z",
       "days_since_commit": 329,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Harbor",
@@ -1478,12 +1478,12 @@
       "verified": true,
       "last_commit_date": "2026-04-02T18:58:54Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "plexe",
       "url": "https://github.com/plexe-ai/plexe",
-      "description": "\u2728 Build a machine learning model from a prompt",
+      "description": "✨ Build a machine learning model from a prompt",
       "category": "Developer Tools",
       "tags": [
         "ml",
@@ -1497,7 +1497,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "Markdownify MCP",
@@ -1516,12 +1516,12 @@
       "verified": true,
       "last_commit_date": "2026-04-02T19:48:02Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "agentic-context-engine",
       "url": "https://github.com/kayba-ai/agentic-context-engine",
-      "description": "\ud83e\udde0 Make your agents learn from experience. Now available as a hosted solution at kayba.ai",
+      "description": "🧠 Make your agents learn from experience. Now available as a hosted solution at kayba.ai",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -1535,7 +1535,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "ai-renamer",
@@ -1554,7 +1554,7 @@
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "model2vec",
@@ -1573,7 +1573,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "humanoid-gym",
@@ -1592,7 +1592,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "AI Products All-In-One",
@@ -1611,7 +1611,7 @@
       "verified": true,
       "last_commit_date": "2024-01-14T02:05:56Z",
       "days_since_commit": 809,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "ExtractThinker",
@@ -1630,7 +1630,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "MusicGPT",
@@ -1649,7 +1649,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "rocketride-server",
@@ -1669,7 +1669,7 @@
       "language": "C++",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "SwitchAI",
@@ -1688,7 +1688,7 @@
       "verified": true,
       "last_commit_date": "2026-03-30T01:51:53Z",
       "days_since_commit": 3,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "arkflow",
@@ -1707,7 +1707,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "aideml",
@@ -1726,12 +1726,12 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "EmbedAnything",
       "url": "https://github.com/StarlightSearch/EmbedAnything",
-      "description": "Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust \ud83e\udd80",
+      "description": "Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust 🦀",
       "category": "Developer Tools",
       "tags": [
         "rust",
@@ -1745,7 +1745,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "Awesome AI SDKs",
@@ -1765,7 +1765,7 @@
       "verified": true,
       "last_commit_date": "2025-02-26T10:07:19Z",
       "days_since_commit": 400,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "pruna",
@@ -1784,12 +1784,12 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "SAG",
       "url": "https://github.com/Zleap-AI/SAG",
-      "description": "SAG - SQL\u9a71\u52a8\u7684RAG\u5f15\u64ce \u00b7 \u67e5\u8be2\u65f6\u81ea\u52a8\u6784\u5efa\u77e5\u8bc6\u56fe\u8c31 | SQL-Driven RAG Engine \u00b7 Automatically Build Knowledge Graph During Querying",
+      "description": "SAG - SQL驱动的RAG引擎 · 查询时自动构建知识图谱 | SQL-Driven RAG Engine · Automatically Build Knowledge Graph During Querying",
       "category": "Developer Tools",
       "tags": [
         "sql",
@@ -1803,7 +1803,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "Coca",
@@ -1822,7 +1822,7 @@
       "verified": true,
       "last_commit_date": "2026-01-06T09:40:33Z",
       "days_since_commit": 86,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Jupyter MCP Server",
@@ -1841,7 +1841,7 @@
       "verified": true,
       "last_commit_date": "2026-04-01T20:36:09Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "MTools",
@@ -1862,7 +1862,7 @@
       "verified": true,
       "last_commit_date": "2026-03-15T13:18:50Z",
       "days_since_commit": 18,
-      "freshness": "\ud83d\udfe1 Recent"
+      "freshness": "🟡 Recent"
     },
     {
       "name": "nightingale",
@@ -1881,7 +1881,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "mcpm.sh",
@@ -1900,7 +1900,7 @@
       "verified": true,
       "last_commit_date": "2026-03-27T06:06:08Z",
       "days_since_commit": 6,
-      "freshness": "\ud83d\udfe2 Fresh"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "deepfabric",
@@ -1919,7 +1919,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udd25 New"
+      "freshness": "🔥 New"
     },
     {
       "name": "AigoTools",
@@ -1939,7 +1939,7 @@
       "verified": true,
       "last_commit_date": "2025-08-01T03:45:07Z",
       "days_since_commit": 244,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "AI Anything",
@@ -1958,7 +1958,7 @@
       "verified": true,
       "last_commit_date": "2023-03-29T01:03:49Z",
       "days_since_commit": 1100,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Mycoder",
@@ -1977,7 +1977,7 @@
       "verified": true,
       "last_commit_date": "2026-01-07T16:22:18Z",
       "days_since_commit": 85,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "AI Infinity",
@@ -1995,7 +1995,7 @@
       "verified": true,
       "last_commit_date": "2026-02-17T15:29:32Z",
       "days_since_commit": 44,
-      "freshness": "\ud83d\udfe0 Aging"
+      "freshness": "🟠 Aging"
     },
     {
       "name": "Tiger",
@@ -2015,7 +2015,7 @@
       "verified": true,
       "last_commit_date": "2025-02-19T09:40:49Z",
       "days_since_commit": 407,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Modus",
@@ -2034,7 +2034,7 @@
       "verified": true,
       "last_commit_date": "2025-09-11T14:09:23Z",
       "days_since_commit": 203,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Awesome AI",
@@ -2052,7 +2052,7 @@
       "verified": true,
       "last_commit_date": "2023-06-02T19:29:08Z",
       "days_since_commit": 1035,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "AskAI Tools",
@@ -2070,7 +2070,7 @@
       "verified": true,
       "last_commit_date": "2024-07-11T13:03:36Z",
       "days_since_commit": 630,
-      "freshness": "\ud83d\udd34 Stale"
+      "freshness": "🔴 Stale"
     },
     {
       "name": "learn-coding-agent",
@@ -2086,7 +2086,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2104,7 +2104,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2123,7 +2123,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2142,7 +2142,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2159,7 +2159,7 @@
       "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2177,7 +2177,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2196,7 +2196,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2215,7 +2215,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2233,7 +2233,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2251,7 +2251,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2269,7 +2269,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2287,7 +2287,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2306,7 +2306,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2324,7 +2324,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2343,7 +2343,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2362,7 +2362,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2381,7 +2381,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2400,7 +2400,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2418,7 +2418,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2437,7 +2437,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2455,7 +2455,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2474,7 +2474,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2493,7 +2493,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2510,7 +2510,7 @@
       "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2529,7 +2529,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2546,7 +2546,7 @@
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2564,7 +2564,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2582,7 +2582,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
     },
@@ -2600,9 +2600,135 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "\ud83d\udfe2 Fresh",
+      "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T00:00:00Z",
       "days_since_commit": 0
+    },
+    {
+      "name": "claw-code",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "description": "The fastest repo in history to surpass 100K stars. Built in Rust using oh-my-codex - an AI coding agent platform.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "coding",
+        "rust",
+        "fast",
+        "oh-my-codex"
+      ],
+      "pricing": "Free",
+      "stars": 159161,
+      "language": "Rust",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-02T00:06:12Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "claude-code-best",
+      "url": "https://github.com/claude-code-best/claude-code",
+      "description": "原汁原味 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真",
+      "category": "Agents & Automation",
+      "tags": [
+        "claude",
+        "typescript",
+        "coding",
+        "reliable",
+        "enterprise"
+      ],
+      "pricing": "Free",
+      "stars": 12819,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-03T14:17:58Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "category": "Developer Tools",
+      "tags": [
+        "codex",
+        "code-review",
+        "delegation",
+        "javascript",
+        "openai"
+      ],
+      "pricing": "Free",
+      "stars": 11109,
+      "language": "JavaScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-31T20:04:25Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "claude-code-sourcemap",
+      "url": "https://github.com/ChinaSiro/claude-code-sourcemap",
+      "description": "Source map utilities for Claude Code development and debugging.",
+      "category": "Developer Tools",
+      "tags": [
+        "claude",
+        "sourcemap",
+        "debugging",
+        "typescript",
+        "development"
+      ],
+      "pricing": "Free",
+      "stars": 8233,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-31T08:30:55Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "colleague-skill",
+      "url": "https://github.com/titanwings/colleague-skill",
+      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework.",
+      "category": "Agents & Automation",
+      "tags": [
+        "skill",
+        "ai",
+        "digital-life",
+        "python",
+        "transformation"
+      ],
+      "pricing": "Free",
+      "stars": 6364,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-02T12:40:33Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "emdash",
+      "url": "https://github.com/emdash-cms/emdash",
+      "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress.",
+      "category": "Developer Tools",
+      "tags": [
+        "cms",
+        "typescript",
+        "astro",
+        "full-stack",
+        "wordpress-alternative"
+      ],
+      "pricing": "Free",
+      "stars": 5337,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-03T13:50:53Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     }
   ]
 }
