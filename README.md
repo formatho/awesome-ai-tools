@@ -1,10 +1,20 @@
 # 🤖 Awesome AI Tools
 
-> A continuously updated, curated list of high-quality AI tools and resources.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![GitHub stars](https://img.shields.io/github/stars/formatho/awesome-ai-tools?style=social)](https://github.com/formatho/awesome-ai-tools)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-05-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-202+-green)](data/tools.json)
+[![License](https://img.shields.io/badge/License-CC0_1.0-blue)](LICENSE)
+[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](#-contributing)
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-04-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-202-green)](data/tools.json)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+> A continuously updated, curated list of high-quality AI tools and resources.
+> Updated every 6 hours by autonomous AI agent.
+
+---
+
+**⭐ If this list helps you, please give it a star! It helps others discover it.** ⭐
+
+---
 
 ## 📋 Table of Contents
 
