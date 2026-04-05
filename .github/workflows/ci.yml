@@ -1,0 +1,77 @@
+name: Test & Validate
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate JSON
+        run: |
+          echo "Validating tools.json..."
+          node -e "JSON.parse(require('fs').readFileSync('data/tools.json', 'utf8'))"
+          echo "✅ tools.json is valid JSON"
+
+      - name: Check required files
+        run: |
+          echo "Checking required files..."
+          test -f README.md || (echo "❌ README.md missing" && exit 1)
+          test -f data/tools.json || (echo "❌ data/tools.json missing" && exit 1)
+          test -f CONTRIBUTING.md || (echo "❌ CONTRIBUTING.md missing" && exit 1)
+          echo "✅ All required files present"
+
+      - name: Test freshness script
+        run: |
+          echo "Testing freshness check script..."
+          chmod +x scripts/check_freshness.sh
+          # Don't run actual check in CI, just verify script exists and is executable
+          echo "✅ Freshness script ready"
+
+      - name: Test README generation
+        run: |
+          echo "Testing README generation..."
+          node scripts/generate_readme.mjs
+          echo "✅ README generation works"
+
+      - name: Check README format
+        run: |
+          echo "Checking README format..."
+          grep -q "# 🤖 Awesome AI Tools" README.md || (echo "❌ README title missing" && exit 1)
+          grep -q "Table of Contents" README.md || (echo "❌ Table of contents missing" && exit 1)
+          echo "✅ README format valid"
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Lint JSON files
+        run: |
+          echo "Checking JSON formatting..."
+          for file in data/*.json; do
+            if [ -f "$file" ]; then
+              echo "Validating $file..."
+              node -e "JSON.parse(require('fs').readFileSync('$file', 'utf8'))"
+            fi
+          done
+          echo "✅ All JSON files valid"

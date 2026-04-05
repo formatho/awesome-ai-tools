@@ -1,0 +1,61 @@
+name: Auto-Update Tools
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-tools:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Check freshness
+        run: |
+          chmod +x scripts/check_freshness.sh
+          ./scripts/check_freshness.sh
+
+      - name: Generate README
+        run: node scripts/generate_readme.mjs
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet README.md || echo "readme_changed=true" >> $GITHUB_OUTPUT
+          git diff --quiet data/tools.json || echo "tools_changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.readme_changed == 'true' || steps.check_changes.outputs.tools_changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -m "🤖 Auto-update: Freshness check and README update"
+          git push
+
+      - name: Create issue on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '⚠️ Auto-update workflow failed',
+              body: 'The auto-update workflow failed. Please check the logs:\n\n${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}',
+              labels: ['automation', 'bug']
+            })
