@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-06T20:34:45.901Z",
-    "total_tools": 208,
+    "last_updated": "2026-04-07T02:42:39.678Z",
+    "total_tools": 218,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -17,6 +17,23 @@
     "last_freshness_check": "2026-04-06T20:34:45.901Z"
   },
   "tools": [
+    {
+      "name": "openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "category": "Research & Data",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 349961,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:32:43Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "AutoGPT",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
@@ -34,6 +51,45 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-06T19:31:14Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 182712,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:27:50Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "claw-code",
+      "url": "https://github.com/ultraworkers/claw-code",
+      "description": "The fastest repo in history to surpass 100K stars. Built in Rust using oh-my-codex - an AI coding agent platform.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "coding",
+        "rust",
+        "fast",
+        "oh-my-codex"
+      ],
+      "pricing": "Free",
+      "stars": 173549,
+      "language": "Rust",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T09:38:22Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -118,6 +174,23 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "JavaGuide",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 154678,
+      "language": "Java",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T08:29:58Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "Langflow",
       "url": "https://github.com/langflow-ai/langflow",
       "description": "Visual framework for building multi-agent and RAG applications.",
@@ -136,6 +209,58 @@
       "verified": true,
       "last_commit_date": "2026-04-06T20:29:20Z",
       "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 142500,
+      "language": "JavaScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T03:25:13Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "open-source"
+      ],
+      "pricing": "Free",
+      "stars": 138305,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T19:41:54Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 137322,
+      "language": "Shell",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-02T02:34:37Z",
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -160,6 +285,43 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "open-source"
+      ],
+      "pricing": "Free",
+      "stars": 134562,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-28T16:58:37Z",
+      "days_since_commit": 9,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": "langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 132537,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T19:41:22Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "Open-WebUI",
       "url": "https://github.com/open-webui/open-webui",
       "description": "User-friendly AI interface supporting Ollama, OpenAI API, and more.",
@@ -180,6 +342,58 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 111559,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-25T15:10:49Z",
+      "days_since_commit": 12,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 109851,
+      "language": "Shell",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-04T00:42:02Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "category": "Research & Data",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 108992,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T18:51:14Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "ComfyUI",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "description": "Powerful and modular diffusion model GUI with graph/nodes interface.",
@@ -197,6 +411,27 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-06T20:13:42Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Web data API for AI - turn websites into LLM-ready data.",
+      "category": "Developer Tools",
+      "tags": [
+        "crawler",
+        "scraper",
+        "api",
+        "llm",
+        "web-data"
+      ],
+      "pricing": "Freemium",
+      "stars": 104990,
+      "language": "TypeScript",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-06T17:04:12Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -222,27 +457,6 @@
       "freshness": "🟢 Fresh"
     },
     {
-      "name": "Firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "Web data API for AI - turn websites into LLM-ready data.",
-      "category": "Developer Tools",
-      "tags": [
-        "crawler",
-        "scraper",
-        "api",
-        "llm",
-        "web-data"
-      ],
-      "pricing": "Freemium",
-      "stars": 104990,
-      "language": "TypeScript",
-      "added_date": "2026-04-02",
-      "verified": true,
-      "last_commit_date": "2026-04-06T17:04:12Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
       "name": "llama.cpp",
       "url": "https://github.com/ggml-org/llama.cpp",
       "description": "LLM inference in C/C++ for efficient local deployment.",
@@ -261,6 +475,58 @@
       "verified": true,
       "last_commit_date": "2026-04-06T20:08:46Z",
       "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "gemini-cli",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 100406,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:33:03Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "supabase",
+      "url": "https://github.com/supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "category": "Research & Data",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 100345,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:29:34Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "puppeteer",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "description": "JavaScript API for Chrome and Firefox",
+      "category": "Research & Data",
+      "tags": [
+        "ai-tool"
+      ],
+      "pricing": "Free",
+      "stars": 94026,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-05T02:05:26Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -321,6 +587,102 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-06T02:01:38Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "core",
+      "url": "https://github.com/home-assistant/core",
+      "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "open-source"
+      ],
+      "pricing": "Free",
+      "stars": 86015,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T19:56:30Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 85692,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:23:42Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "category": "Research & Data",
+      "tags": [
+        "ai-tool"
+      ],
+      "pricing": "Free",
+      "stars": 85669,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:26:14Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": " sherlock",
+      "url": "https://github.com/sherlock-project / sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "category": "Developer Tools",
+      "tags": [
+        "AI",
+        "Developer Tools"
+      ],
+      "pricing": "Open Source",
+      "stars": 80089,
+      "language": "Python",
+      "added_date": "2026-04-07T02:42:12.372Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.372Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "category": "Developer Tools",
+      "tags": [
+        "cli",
+        "cti",
+        "cybersecurity",
+        "forensics",
+        "hacktoberfest",
+        "information-gathering",
+        "infosec",
+        "linux",
+        "osint",
+        "pentesting"
+      ],
+      "pricing": "Free",
+      "stars": 80038,
+      "language": "Python",
+      "added_date": "2026-04-04",
+      "verified": true,
+      "last_commit_date": "2026-04-06T05:47:02Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -406,6 +768,76 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "category": "Image Generation",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 74988,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T18:55:58Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 74813,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T18:28:52Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 73464,
+      "language": "Rust",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:26:52Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 72980,
+      "language": "Shell",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-27T05:36:01Z",
+      "days_since_commit": 10,
+      "freshness": "🟡 Recent"
+    },
+    {
       "name": "OpenHands",
       "url": "https://github.com/OpenHands/OpenHands",
       "description": "AI-driven development platform for autonomous software engineering.",
@@ -446,6 +878,24 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "ansible",
+      "url": "https://github.com/ansible/ansible",
+      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 68409,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:03:08Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "MetaGPT",
       "url": "https://github.com/FoundationAgents/MetaGPT",
       "description": "Multi-agent framework for building AI software companies.",
@@ -464,6 +914,87 @@
       "last_commit_date": "2026-01-21T10:12:33Z",
       "days_since_commit": 75,
       "freshness": "🟠 Aging"
+    },
+    {
+      "name": "gpt4free",
+      "url": "https://github.com/xtekky/gpt4free",
+      "description": "The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3",
+      "category": "Open Source Models",
+      "tags": [
+        "free"
+      ],
+      "pricing": "Free",
+      "stars": 65978,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T12:22:26Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "OpenBB",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "category": "Research & Data",
+      "tags": [
+        "ai",
+        "crypto",
+        "derivatives",
+        "economics",
+        "equity",
+        "finance",
+        "fixed-income",
+        "machine-learning",
+        "openbb",
+        "options",
+        "python",
+        "quantitative-finance",
+        "stocks"
+      ],
+      "pricing": "Open Source",
+      "stars": 65489,
+      "language": "Python",
+      "added_date": "2026-04-05T02:39:59.843Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T04:36:14Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 63473,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T08:26:44Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "pathway",
+      "url": "https://github.com/pathwaycom/pathway",
+      "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 63416,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T05:26:24Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Unsloth",
@@ -568,6 +1099,41 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "description": "Build AI Agents, Visually",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 51609,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T19:24:02Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "huginn",
+      "url": "https://github.com/huginn/huginn",
+      "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 49063,
+      "language": "Ruby",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-05T16:06:18Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "Learn Claude Code",
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Nano Claude Code-like agent harness built from scratch.",
@@ -609,6 +1175,23 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "acme.sh",
+      "url": "https://github.com/acmesh-official/acme.sh",
+      "description": "A pure Unix shell script ACME client for SSL / TLS certificate automation",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 46194,
+      "language": "Shell",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-05T02:46:33Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "JeecgBoot",
       "url": "https://github.com/jeecgboot/JeecgBoot",
       "description": "AI-driven low-code platform with zero-code and code generation modes.",
@@ -626,6 +1209,92 @@
       "verified": true,
       "last_commit_date": "2026-04-04T06:20:19Z",
       "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "airflow",
+      "url": "https://github.com/apache/airflow",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 44921,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:32:10Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "bruno",
+      "url": "https://github.com/usebruno/bruno",
+      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "category": "Developer Tools",
+      "tags": [
+        "open-source"
+      ],
+      "pricing": "Free",
+      "stars": 42681,
+      "language": "JavaScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T16:22:44Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "fastlane",
+      "url": "https://github.com/fastlane/fastlane",
+      "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
+      "category": "Research & Data",
+      "tags": [
+        "ai-tool"
+      ],
+      "pricing": "Free",
+      "stars": 41320,
+      "language": "Ruby",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T18:27:18Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "appsmith",
+      "url": "https://github.com/appsmithorg/appsmith",
+      "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+      "category": "Research & Data",
+      "tags": [
+        "ai-tool"
+      ],
+      "pricing": "Free",
+      "stars": 39544,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T19:16:24Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "chatbox",
+      "url": "https://github.com/chatboxai/chatbox",
+      "description": "Powerful AI Client",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "chatbot"
+      ],
+      "pricing": "Free",
+      "stars": 39301,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-02T01:57:49Z",
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -649,24 +1318,47 @@
       "freshness": "🟠 Aging"
     },
     {
-      "name": "AgentGPT",
-      "url": "https://github.com/reworkd/AgentGPT",
-      "description": "Assemble, configure, and deploy autonomous AI agents in your browser.",
-      "category": "Agents & Automation",
+      "name": "system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.",
+      "category": "LLMs & Chatbots",
       "tags": [
-        "agent",
-        "browser",
-        "autonomous",
-        "no-code"
+        "ai",
+        "ai-transparency",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "gemini",
+        "generative-ai",
+        "gpt-5",
+        "grok"
       ],
-      "pricing": "Freemium",
-      "stars": 35939,
-      "language": "TypeScript",
-      "added_date": "2026-04-02",
+      "pricing": "Free",
+      "stars": 37594,
+      "language": null,
+      "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2025-04-29T01:19:32Z",
-      "days_since_commit": 342,
-      "freshness": "🔴 Stale"
+      "last_commit_date": "2026-04-03T16:13:32Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": " VibeVoice",
+      "url": "https://github.com/microsoft / VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "category": "Audio & Music",
+      "tags": [
+        "Audio"
+      ],
+      "pricing": "Open Source",
+      "stars": 36935,
+      "language": "Python",
+      "added_date": "2026-04-07T02:42:12.372Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.372Z",
+      "days_since_commit": 0
     },
     {
       "name": "VibeVoice",
@@ -690,6 +1382,80 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "AgentGPT",
+      "url": "https://github.com/reworkd/AgentGPT",
+      "description": "Assemble, configure, and deploy autonomous AI agents in your browser.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "browser",
+        "autonomous",
+        "no-code"
+      ],
+      "pricing": "Freemium",
+      "stars": 35939,
+      "language": "TypeScript",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2025-04-29T01:19:32Z",
+      "days_since_commit": 342,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "category": "Productivity",
+      "tags": [
+        "ai-tool"
+      ],
+      "pricing": "Free",
+      "stars": 34839,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-05T20:07:56Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "selenium",
+      "url": "https://github.com/SeleniumHQ/selenium",
+      "description": "A browser automation framework and ecosystem.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 34187,
+      "language": "Java",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T17:09:35Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Hello Agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "description": "Comprehensive tutorial on building agents from scratch.",
+      "category": "Agents & Automation",
+      "tags": [
+        "tutorial",
+        "agent",
+        "education",
+        "chinese"
+      ],
+      "pricing": "Free",
+      "stars": 33949,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-03-30T09:37:31Z",
+      "days_since_commit": 7,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "Khoj",
       "url": "https://github.com/khoj-ai/khoj",
       "description": "Self-hostable AI second brain with custom agents and automations.",
@@ -710,23 +1476,20 @@
       "freshness": "🟡 Recent"
     },
     {
-      "name": "Hello Agents",
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "description": "Comprehensive tutorial on building agents from scratch.",
+      "name": "agents",
+      "url": "https://github.com/wshobson/agents",
+      "description": "Intelligent automation and multi-agent orchestration for Claude Code",
       "category": "Agents & Automation",
       "tags": [
-        "tutorial",
-        "agent",
-        "education",
-        "chinese"
+        "agent"
       ],
       "pricing": "Free",
-      "stars": 33949,
+      "stars": 33069,
       "language": "Python",
-      "added_date": "2026-04-02",
+      "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-03-30T09:37:31Z",
-      "days_since_commit": 7,
+      "last_commit_date": "2026-04-03T21:05:57Z",
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -771,6 +1534,31 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "ZeroClaw",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw",
+      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "agentic",
+        "ai",
+        "infra",
+        "ml",
+        "openclaw",
+        "os",
+        "rust",
+        "personal-assistant"
+      ],
+      "pricing": "Free",
+      "stars": 29601,
+      "language": "Rust",
+      "added_date": "2026-04-05",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:15:30Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "AstrBot",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "description": "Agentic IM chatbot infrastructure with multi-platform support.",
@@ -788,6 +1576,40 @@
       "verified": true,
       "last_commit_date": "2026-04-06T17:20:53Z",
       "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "python-telegram-bot",
+      "url": "https://github.com/python-telegram-bot/python-telegram-bot",
+      "description": "We have made you a wrapper you can't refuse",
+      "category": "Research & Data",
+      "tags": [
+        "ai-tool"
+      ],
+      "pricing": "Free",
+      "stars": 29009,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-05T09:57:29Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "MoneyPrinterV2",
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "category": "Research & Data",
+      "tags": [
+        "ai-tool"
+      ],
+      "pricing": "Free",
+      "stars": 28561,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-04T15:13:48Z",
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -811,6 +1633,23 @@
       "freshness": "🟡 Recent"
     },
     {
+      "name": " hermes-agent",
+      "url": "https://github.com/NousResearch / hermes-agent",
+      "description": "The agent that grows with you",
+      "category": "Agents & Automation",
+      "tags": [
+        "Agent"
+      ],
+      "pricing": "Open Source",
+      "stars": 28292,
+      "language": "Python",
+      "added_date": "2026-04-07T02:42:12.372Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.372Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "Daily Stock Analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM-powered stock analysis for A/H/US markets with real-time news.",
@@ -829,6 +1668,50 @@
       "verified": true,
       "last_commit_date": "2026-04-05T03:35:01Z",
       "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes"
+      ],
+      "pricing": "Free",
+      "stars": 27840,
+      "language": "Python",
+      "added_date": "2026-04-04",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:20:01Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "budibase",
+      "url": "https://github.com/Budibase/budibase",
+      "description": "AI agents, automations and apps that run your operations. Model agnostic.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 27806,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T19:56:09Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -852,6 +1735,120 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "sim",
+      "url": "https://github.com/simstudioai/sim",
+      "description": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 27606,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:28:22Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": " onyx",
+      "url": "https://github.com/onyx-dot-app / onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "Chatbot",
+        "Open Source"
+      ],
+      "pricing": "Open Source",
+      "stars": 25503,
+      "language": "Python",
+      "added_date": "2026-04-07T02:42:12.372Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.372Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "onyx",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "ai-chat",
+        "chatgpt",
+        "chatui",
+        "enterprise-search",
+        "gen-ai",
+        "information-retrieval",
+        "llm",
+        "llm-ui",
+        "nextjs"
+      ],
+      "pricing": "Free",
+      "stars": 25414,
+      "language": "Python",
+      "added_date": "2026-04-04",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:33:04Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "xiaozhi-esp32",
+      "url": "https://github.com/78/xiaozhi-esp32",
+      "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "chatbot"
+      ],
+      "pricing": "Free",
+      "stars": 25411,
+      "language": "C++",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-03T06:14:35Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "kotaemon",
+      "url": "https://github.com/Cinnamon/kotaemon",
+      "description": "An open-source RAG-based tool for chatting with your documents.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "chatbot"
+      ],
+      "pricing": "Free",
+      "stars": 25252,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-03T11:28:24Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": " oh-my-claudecode",
+      "url": "https://github.com/Yeachan-Heo / oh-my-claudecode",
+      "description": "Teams-first Multi-agent orchestration for Claude Code",
+      "category": "Agents & Automation",
+      "tags": [
+        "Agent",
+        "Code"
+      ],
+      "pricing": "Open Source",
+      "stars": 25124,
+      "language": "TypeScript",
+      "added_date": "2026-04-07T02:42:12.372Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.372Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "Oh My Claude Code",
       "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
       "description": "Teams-first Multi-agent orchestration for Claude Code",
@@ -873,24 +1870,226 @@
       "freshness": "🟢 Fresh"
     },
     {
-      "name": "screenpipe",
-      "url": "https://github.com/screenpipe/screenpipe",
-      "description": "Run agents that work for you in the background based on what you do",
-      "category": "Agents & Automation",
+      "name": " openscreen",
+      "url": "https://github.com/siddharthvaddem / openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.",
+      "category": "Developer Tools",
       "tags": [
-        "agent",
-        "automation",
-        "background",
-        "productivity"
+        "Demo"
       ],
       "pricing": "Open Source",
-      "stars": 18043,
-      "language": "Rust",
+      "stars": 24138,
+      "language": "TypeScript",
+      "added_date": "2026-04-07T02:42:12.371Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.371Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "openscreen",
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. ",
+      "category": "Developer Tools",
+      "tags": [
+        "electron",
+        "open-source",
+        "pixijs",
+        "screen-capture",
+        "screen-recorder",
+        "typescript",
+        "free"
+      ],
+      "pricing": "Free",
+      "stars": 23802,
+      "language": "TypeScript",
+      "added_date": "2026-04-04",
+      "verified": true,
+      "last_commit_date": "2026-04-06T05:56:56Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "repomix",
+      "url": "https://github.com/yamadashy/repomix",
+      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "llm",
+        "chatbot"
+      ],
+      "pricing": "Free",
+      "stars": 23141,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:03:39Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "agentscope",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "description": "Build and run agents you can see, understand and trust.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 23057,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-02T04:08:34Z",
+      "days_since_commit": 4,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "description": "Awesome list of design tools and resources",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai-tools"
+      ],
+      "pricing": "Free",
+      "stars": 21876,
+      "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T20:12:57Z",
+      "last_commit_date": "2026-04-06T16:20:28Z",
       "days_since_commit": 0
+    },
+    {
+      "name": " claude-howto",
+      "url": "https://github.com/luongnv89 / claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "category": "Agents & Automation",
+      "tags": [
+        "Agent",
+        "Code"
+      ],
+      "pricing": "Open Source",
+      "stars": 21484,
+      "language": "Python",
+      "added_date": "2026-04-07T02:42:12.371Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.371Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "category": "Agents & Automation",
+      "tags": [
+        "claude-code",
+        "guide",
+        "tutorial",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 21234,
+      "language": "Python",
+      "added_date": "2026-04-04",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:19:51Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "AionUi",
+      "url": "https://github.com/iOfficeAI/AionUi",
+      "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "free"
+      ],
+      "pricing": "Free",
+      "stars": 21112,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T17:59:47Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "awesome-n8n-templates",
+      "url": "https://github.com/enescingoz/awesome-n8n-templates",
+      "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "chatbot",
+        "free"
+      ],
+      "pricing": "Free",
+      "stars": 20899,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-24T20:13:36Z",
+      "days_since_commit": 13,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": "MaxKB",
+      "url": "https://github.com/1Panel-dev/MaxKB",
+      "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 20651,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-03T13:49:06Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "coze-studio",
+      "url": "https://github.com/coze-dev/coze-studio",
+      "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 20414,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-03T00:56:20Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "chatbot",
+      "url": "https://github.com/vercel/chatbot",
+      "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "chatbot"
+      ],
+      "pricing": "Free",
+      "stars": 20048,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-01T22:11:39Z",
+      "days_since_commit": 4,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Last30Days Skill",
@@ -916,64 +2115,77 @@
       "freshness": "🟢 Fresh"
     },
     {
-      "name": "CL4R1T4S",
-      "url": "https://github.com/elder-plinius/CL4R1T4S",
-      "description": "Leaked system prompts for ChatGPT, Gemini, Claude, and more AI systems.",
-      "category": "Research & Data",
-      "tags": [
-        "prompts",
-        "transparency",
-        "research"
-      ],
-      "pricing": "Free",
-      "stars": 14025,
-      "language": null,
-      "added_date": "2026-04-02",
-      "verified": true,
-      "last_commit_date": "2026-02-17T15:15:21Z",
-      "days_since_commit": 48,
-      "freshness": "🟠 Aging"
-    },
-    {
-      "name": "memvid",
-      "url": "https://github.com/memvid/memvid",
-      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "name": "eliza",
+      "url": "https://github.com/elizaOS/eliza",
+      "description": "Autonomous agents for everyone",
       "category": "Agents & Automation",
       "tags": [
-        "agent",
-        "memory",
-        "rag",
-        "serverless",
-        "memory-layer"
+        "agent"
       ],
-      "pricing": "Open Source",
-      "stars": 14480,
+      "pricing": "Free",
+      "stars": 18109,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
-      "last_commit_date": "2026-03-16T13:23:51Z",
-      "days_since_commit": 21
+      "last_commit_date": "2026-04-06T03:51:00Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
-      "name": "Awesome ChatGPT (Chinese)",
-      "url": "https://github.com/EmbraceAGI/awesome-chatgpt-zh",
-      "description": "Comprehensive Chinese guide for ChatGPT prompts and applications.",
-      "category": "LLMs & Chatbots",
+      "name": "screenpipe",
+      "url": "https://github.com/screenpipe/screenpipe",
+      "description": "Run agents that work for you in the background based on what you do",
+      "category": "Agents & Automation",
       "tags": [
-        "chatgpt",
-        "prompts",
-        "chinese",
-        "guide"
+        "agent",
+        "automation",
+        "background",
+        "productivity"
+      ],
+      "pricing": "Open Source",
+      "stars": 18043,
+      "language": "Rust",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T20:12:57Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "Open-source Claude implementation and alternatives",
+      "category": "Agents & Automation",
+      "tags": [
+        "claude",
+        "typescript"
       ],
       "pricing": "Free",
-      "stars": 11515,
-      "language": "Python",
-      "added_date": "2026-04-02",
+      "stars": 17782,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2024-11-05T10:24:21Z",
-      "days_since_commit": 517,
-      "freshness": "🔴 Stale"
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T16:43:10Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": " oh-my-codex",
+      "url": "https://github.com/Yeachan-Heo / oh-my-codex",
+      "description": "OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.",
+      "category": "Agents & Automation",
+      "tags": [
+        "Agent",
+        "Code"
+      ],
+      "pricing": "Open Source",
+      "stars": 17588,
+      "language": "TypeScript",
+      "added_date": "2026-04-07T02:42:12.371Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.371Z",
+      "days_since_commit": 0
     },
     {
       "name": "Oh My Codex",
@@ -997,25 +2209,215 @@
       "freshness": "🟢 Fresh"
     },
     {
-      "name": "tensorzero",
-      "url": "https://github.com/tensorzero/tensorzero",
-      "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
-      "category": "Developer Tools",
+      "name": "leon",
+      "url": "https://github.com/leon-ai/leon",
+      "description": "🧠 Leon is your open-source personal assistant.",
+      "category": "Research & Data",
       "tags": [
+        "ai-tool"
+      ],
+      "pricing": "Free",
+      "stars": 17138,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T05:21:04Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "WeClone",
+      "url": "https://github.com/xming521/WeClone",
+      "description": "🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案  ",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
         "llm",
-        "llmops",
-        "platform",
-        "observability",
-        "evaluation"
+        "chatbot"
+      ],
+      "pricing": "Free",
+      "stars": 16488,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-29T03:25:23Z",
+      "days_since_commit": 8,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": "ai-pdf-chatbot-langchain",
+      "url": "https://github.com/mayooear/ai-pdf-chatbot-langchain",
+      "description": "AI PDF chatbot agent built with LangChain & LangGraph ",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "chatbot"
+      ],
+      "pricing": "Free",
+      "stars": 16436,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-27T16:04:05Z",
+      "days_since_commit": 10,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": " timesfm",
+      "url": "https://github.com/google-research / timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "category": "Open Source Models",
+      "tags": [
+        "AI",
+        "Developer Tools"
       ],
       "pricing": "Open Source",
-      "stars": 11185,
+      "stars": 15211,
+      "language": "Python",
+      "added_date": "2026-04-07T02:42:12.372Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.372Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "category": "Open Source Models",
+      "tags": [
+        "python",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 15151,
+      "language": "Python",
+      "added_date": "2026-04-04",
+      "verified": true,
+      "last_commit_date": "2026-04-03T00:26:33Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "memvid",
+      "url": "https://github.com/memvid/memvid",
+      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "memory",
+        "rag",
+        "serverless",
+        "memory-layer"
+      ],
+      "pricing": "Open Source",
+      "stars": 14480,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
+      "freshness": "🟡 Recent",
+      "last_commit_date": "2026-03-16T13:23:51Z",
+      "days_since_commit": 21
+    },
+    {
+      "name": "claude-code-best",
+      "url": "https://github.com/claude-code-best/claude-code",
+      "description": "原汁原味 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真",
+      "category": "Agents & Automation",
+      "tags": [
+        "claude",
+        "typescript",
+        "coding",
+        "reliable",
+        "enterprise"
+      ],
+      "pricing": "Free",
+      "stars": 14157,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T15:57:03Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "CL4R1T4S",
+      "url": "https://github.com/elder-plinius/CL4R1T4S",
+      "description": "Leaked system prompts for ChatGPT, Gemini, Claude, and more AI systems.",
+      "category": "Research & Data",
+      "tags": [
+        "prompts",
+        "transparency",
+        "research"
+      ],
+      "pricing": "Free",
+      "stars": 14025,
+      "language": null,
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-02-17T15:15:21Z",
+      "days_since_commit": 48,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "category": "Developer Tools",
+      "tags": [
+        "codex",
+        "code-review",
+        "delegation",
+        "javascript",
+        "openai"
+      ],
+      "pricing": "Free",
+      "stars": 12240,
+      "language": "JavaScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-31T20:04:25Z",
+      "days_since_commit": 6,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Awesome ChatGPT (Chinese)",
+      "url": "https://github.com/EmbraceAGI/awesome-chatgpt-zh",
+      "description": "Comprehensive Chinese guide for ChatGPT prompts and applications.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "chatgpt",
+        "prompts",
+        "chinese",
+        "guide"
+      ],
+      "pricing": "Free",
+      "stars": 11515,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2024-11-05T10:24:21Z",
+      "days_since_commit": 517,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "learn-coding-agent",
+      "url": "https://github.com/sanbuphy/learn-coding-agent",
+      "description": "Learn AI coding agent development and techniques",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 11390,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T20:23:13Z",
-      "days_since_commit": 0
+      "last_commit_date": "2026-04-01T10:55:06Z",
+      "days_since_commit": 5
     },
     {
       "name": "Portkey AI Gateway",
@@ -1040,6 +2442,27 @@
       "freshness": "🟡 Recent"
     },
     {
+      "name": "tensorzero",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "description": "TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.",
+      "category": "Developer Tools",
+      "tags": [
+        "llm",
+        "llmops",
+        "platform",
+        "observability",
+        "evaluation"
+      ],
+      "pricing": "Open Source",
+      "stars": 11185,
+      "language": "Rust",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T20:23:13Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "Noi",
       "url": "https://github.com/lencx/Noi",
       "description": "AI tools launcher with minimal chaos and maximum flow.",
@@ -1057,6 +2480,107 @@
       "last_commit_date": "2026-02-04T12:11:52Z",
       "days_since_commit": 61,
       "freshness": "🟠 Aging"
+    },
+    {
+      "name": "claude-code-sourcemap",
+      "url": "https://github.com/ChinaSiro/claude-code-sourcemap",
+      "description": "Source map utilities for Claude Code development and debugging.",
+      "category": "Developer Tools",
+      "tags": [
+        "claude",
+        "sourcemap",
+        "debugging",
+        "typescript",
+        "development"
+      ],
+      "pricing": "Free",
+      "stars": 8509,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-03-31T08:30:55Z",
+      "days_since_commit": 6,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "claurst",
+      "url": "https://github.com/Kuberwastaken/claurst",
+      "description": "Claude AI implementation in Rust",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "claude",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 8489,
+      "language": "Rust",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T17:56:04Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "colleague-skill",
+      "url": "https://github.com/titanwings/colleague-skill",
+      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework.",
+      "category": "Agents & Automation",
+      "tags": [
+        "skill",
+        "ai",
+        "digital-life",
+        "python",
+        "transformation"
+      ],
+      "pricing": "Free",
+      "stars": 8480,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-05T12:38:45Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "emdash",
+      "url": "https://github.com/emdash-cms/emdash",
+      "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress.",
+      "category": "Developer Tools",
+      "tags": [
+        "cms",
+        "typescript",
+        "astro",
+        "full-stack",
+        "wordpress-alternative"
+      ],
+      "pricing": "Free",
+      "stars": 7764,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "last_commit_date": "2026-04-06T20:13:40Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "OpenHarness",
+      "url": "https://github.com/HKUDS/OpenHarness",
+      "description": "Open-source AI agent harness framework",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 6164,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T13:53:19Z",
+      "days_since_commit": 0
     },
     {
       "name": "Awesome AI Tools",
@@ -1118,6 +2642,93 @@
       "freshness": "🔴 Stale"
     },
     {
+      "name": "Learn AI Engineering",
+      "url": "https://github.com/ashishps1/learn-ai-engineering",
+      "description": "Learn AI and LLMs from scratch using free resources",
+      "category": "Developer Tools",
+      "tags": [
+        "agentic-ai",
+        "agents",
+        "ai",
+        "deep-learning",
+        "generative-ai",
+        "large-language-models",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "ml",
+        "prompt-engineering",
+        "rag",
+        "education"
+      ],
+      "pricing": "Free",
+      "stars": 5304,
+      "language": null,
+      "added_date": "2026-04-05",
+      "verified": true,
+      "last_commit_date": "2026-02-05T02:34:40Z",
+      "days_since_commit": 60,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "ai-agent-deep-dive",
+      "url": "https://github.com/tvytlx/ai-agent-deep-dive",
+      "description": "Deep dive into AI agent architectures and implementation",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 5193,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-04T08:21:12Z",
+      "days_since_commit": 2
+    },
+    {
+      "name": "open-multi-agent",
+      "url": "https://github.com/JackChen-me/open-multi-agent",
+      "description": "Multi-agent system framework and tools",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 5155,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T19:42:31Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "AI Scientist v2",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "category": "Research & Data",
+      "tags": [
+        "scientific-discovery",
+        "automated-research",
+        "agentic",
+        "tree-search",
+        "sakana-ai"
+      ],
+      "pricing": "Free",
+      "stars": 5089,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2025-12-19T07:46:32Z",
+      "days_since_commit": 108,
+      "freshness": "🔴 Stale"
+    },
+    {
       "name": "2026-AI-College-Jobs",
       "url": "https://github.com/speedyapply/2026-AI-College-Jobs",
       "description": "2026 AI/ML internship & new graduate job list updated daily",
@@ -1137,6 +2748,26 @@
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-06T13:22:52Z",
       "days_since_commit": 0
+    },
+    {
+      "name": "Windows MCP",
+      "url": "https://github.com/CursorTouch/Windows-MCP",
+      "description": "MCP server for computer use in Windows.",
+      "category": "Developer Tools",
+      "tags": [
+        "mcp",
+        "windows",
+        "automation",
+        "computer-use"
+      ],
+      "pricing": "Free",
+      "stars": 5020,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-06T17:38:45Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "gaianet-node",
@@ -1160,23 +2791,47 @@
       "days_since_commit": 175
     },
     {
-      "name": "Windows MCP",
-      "url": "https://github.com/CursorTouch/Windows-MCP",
-      "description": "MCP server for computer use in Windows.",
-      "category": "Developer Tools",
+      "name": " TaxHacker",
+      "url": "https://github.com/vas3k / TaxHacker",
+      "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
+      "category": "Audio & Music",
       "tags": [
-        "mcp",
-        "windows",
-        "automation",
-        "computer-use"
+        "Audio",
+        "Prompt"
+      ],
+      "pricing": "Open Source",
+      "stars": 4833,
+      "language": "TypeScript",
+      "added_date": "2026-04-07T02:42:12.372Z",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-07T02:42:12.372Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "TaxHacker",
+      "url": "https://github.com/vas3k/TaxHacker",
+      "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
+      "category": "Audio & Music",
+      "tags": [
+        "accounting",
+        "ai-analysis",
+        "currency-exchange",
+        "expenses",
+        "gemini",
+        "invoices",
+        "llm",
+        "ocr-recognition",
+        "ollama",
+        "openai"
       ],
       "pricing": "Free",
-      "stars": 5020,
-      "language": "Python",
-      "added_date": "2026-04-02",
+      "stars": 4807,
+      "language": "TypeScript",
+      "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-06T17:38:45Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-04T13:39:39Z",
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1241,27 +2896,6 @@
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T16:06:40Z",
       "days_since_commit": 3
-    },
-    {
-      "name": "AI Scientist v2",
-      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
-      "description": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
-      "category": "Research & Data",
-      "tags": [
-        "scientific-discovery",
-        "automated-research",
-        "agentic",
-        "tree-search",
-        "sakana-ai"
-      ],
-      "pricing": "Free",
-      "stars": 5089,
-      "language": "Python",
-      "added_date": "2026-04-02",
-      "verified": true,
-      "last_commit_date": "2025-12-19T07:46:32Z",
-      "days_since_commit": 108,
-      "freshness": "🔴 Stale"
     },
     {
       "name": "AdalFlow",
@@ -1431,6 +3065,24 @@
       "freshness": "🟡 Recent"
     },
     {
+      "name": "ex-skill",
+      "url": "https://github.com/therealXiaomanChu/ex-skill",
+      "description": "Expert system AI skill development framework",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 2936,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T15:36:58Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "datachain",
       "url": "https://github.com/datachain-ai/datachain",
       "description": "Analytics, Versioning and ETL for multimodal data: video, audio, PDFs, images",
@@ -1450,6 +3102,25 @@
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-06T19:45:47Z",
       "days_since_commit": 0
+    },
+    {
+      "name": "Harbor",
+      "url": "https://github.com/av/harbor",
+      "description": "Complete pre-wired LLM stack with hundreds of services.",
+      "category": "Developer Tools",
+      "tags": [
+        "llm-stack",
+        "deployment",
+        "services"
+      ],
+      "pricing": "Free",
+      "stars": 2728,
+      "language": "TypeScript",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-04T19:16:06Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "EvoAgentX",
@@ -1490,25 +3161,6 @@
       "freshness": "🔴 Stale"
     },
     {
-      "name": "Harbor",
-      "url": "https://github.com/av/harbor",
-      "description": "Complete pre-wired LLM stack with hundreds of services.",
-      "category": "Developer Tools",
-      "tags": [
-        "llm-stack",
-        "deployment",
-        "services"
-      ],
-      "pricing": "Free",
-      "stars": 2728,
-      "language": "TypeScript",
-      "added_date": "2026-04-02",
-      "verified": true,
-      "last_commit_date": "2026-04-04T19:16:06Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
-    },
-    {
       "name": "plexe",
       "url": "https://github.com/plexe-ai/plexe",
       "description": "✨ Build a machine learning model from a prompt",
@@ -1547,6 +3199,80 @@
       "last_commit_date": "2026-04-03T15:44:53Z",
       "days_since_commit": 3,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "cc-gateway",
+      "url": "https://github.com/motiful/cc-gateway",
+      "description": "Claude Code gateway and integration tools",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 2423,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-02T10:50:07Z",
+      "days_since_commit": 4
+    },
+    {
+      "name": "open-agent-sdk-typescript",
+      "url": "https://github.com/codeany-ai/open-agent-sdk-typescript",
+      "description": "TypeScript SDK for building AI agents",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 2390,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-03T16:25:16Z",
+      "days_since_commit": 3
+    },
+    {
+      "name": "claude-code-book",
+      "url": "https://github.com/lintsinghua/claude-code-book",
+      "description": "Complete guide to Claude Code development",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 2175,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T07:22:38Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "agentic-ai-prompt-research",
+      "url": "https://github.com/Leonxlnx/agentic-ai-prompt-research",
+      "description": "AI-powered prompt engineering and research tools",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 2169,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-03-31T19:04:33Z",
+      "days_since_commit": 6
     },
     {
       "name": "agentic-context-engine",
@@ -1652,6 +3378,99 @@
       "freshness": "🔴 Stale"
     },
     {
+      "name": "claude-code",
+      "url": "https://github.com/yasasbanukaofficial/claude-code",
+      "description": "Claude Code implementation and extensions",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 1744,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-04T21:25:14Z",
+      "days_since_commit": 1
+    },
+    {
+      "name": "claude-code",
+      "url": "https://github.com/codeaashu/claude-code",
+      "description": "Claude Code implementation and extensions",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 1716,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-02T10:14:21Z",
+      "days_since_commit": 4
+    },
+    {
+      "name": "ai-marketing-skills",
+      "url": "https://github.com/ericosiu/ai-marketing-skills",
+      "description": "AI-powered marketing automation and skills",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "automation",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 1536,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T04:33:12Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "wecom-cli",
+      "url": "https://github.com/WecomTeam/wecom-cli",
+      "description": "WeChat Work CLI and automation tools",
+      "category": "Productivity",
+      "tags": [
+        "automation",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 1531,
+      "language": "Rust",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-02T08:14:34Z",
+      "days_since_commit": 4
+    },
+    {
+      "name": "how-claude-code-works",
+      "url": "https://github.com/Windy3f3f3f3f/how-claude-code-works",
+      "description": "Understanding Claude Code architecture and internals",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 1531,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-03T07:51:34Z",
+      "days_since_commit": 3
+    },
+    {
       "name": "ExtractThinker",
       "url": "https://github.com/enoch3712/ExtractThinker",
       "description": "ExtractThinker is a Document Intelligence library for LLMs, offering ORM-style interaction for flexible and powerful document workflows.",
@@ -1671,27 +3490,6 @@
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-08-27T23:06:09Z",
       "days_since_commit": 221
-    },
-    {
-      "name": "MusicGPT",
-      "url": "https://github.com/gabotechs/MusicGPT",
-      "description": "Generate music based on natural language prompts using LLMs running locally",
-      "category": "Audio & Music",
-      "tags": [
-        "music",
-        "gpt",
-        "generation",
-        "local",
-        "llm"
-      ],
-      "pricing": "Open Source",
-      "stars": 1391,
-      "language": "Rust",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🔴 Stale",
-      "last_commit_date": "2025-02-09T10:06:29Z",
-      "days_since_commit": 421
     },
     {
       "name": "rocketride-server",
@@ -1716,6 +3514,56 @@
       "days_since_commit": 0
     },
     {
+      "name": "MusicGPT",
+      "url": "https://github.com/gabotechs/MusicGPT",
+      "description": "Generate music based on natural language prompts using LLMs running locally",
+      "category": "Audio & Music",
+      "tags": [
+        "music",
+        "gpt",
+        "generation",
+        "local",
+        "llm"
+      ],
+      "pricing": "Open Source",
+      "stars": 1391,
+      "language": "Rust",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🔴 Stale",
+      "last_commit_date": "2025-02-09T10:06:29Z",
+      "days_since_commit": 421
+    },
+    {
+      "name": "Terminator",
+      "url": "https://github.com/mediar-ai/terminator",
+      "description": "Playwright for windows computer use",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "agents",
+        "ai",
+        "llm",
+        "ml",
+        "native",
+        "py",
+        "rust",
+        "ts",
+        "vercel",
+        "vercel-ai-sdk",
+        "windows",
+        "automation"
+      ],
+      "pricing": "Free",
+      "stars": 1388,
+      "language": "Rust",
+      "added_date": "2026-04-05",
+      "verified": true,
+      "last_commit_date": "2026-04-05T17:29:10Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "SwitchAI",
       "url": "https://github.com/WSTxda/SwitchAI",
       "description": "Manage AI digital assistants on Android.",
@@ -1732,6 +3580,51 @@
       "verified": true,
       "last_commit_date": "2026-03-30T01:51:53Z",
       "days_since_commit": 7,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "claude-code",
+      "url": "https://github.com/tanbiralam/claude-code",
+      "description": "Claude Code implementation and extensions",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 1293,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-03-31T10:03:46Z",
+      "days_since_commit": 6
+    },
+    {
+      "name": "Edit Mind",
+      "url": "https://github.com/IliasHad/edit-mind",
+      "description": "Local-first AI video intelligence platform. Index your video library with multi-modal analysis (YOLO, DeepFace, Whisper), search semantically via natural language, Docker-ready",
+      "category": "Video & Animation",
+      "tags": [
+        "ai",
+        "computer-vision",
+        "deepface",
+        "face-recognition",
+        "ml",
+        "self-hosted",
+        "video-editing",
+        "video-indexing",
+        "video-processing",
+        "videos"
+      ],
+      "pricing": "Free",
+      "stars": 1281,
+      "language": "TypeScript",
+      "added_date": "2026-04-05",
+      "verified": true,
+      "last_commit_date": "2026-04-06T09:08:23Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1753,6 +3646,66 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-01T13:18:03Z",
+      "days_since_commit": 5
+    },
+    {
+      "name": "AutoResearch MLX",
+      "url": "https://github.com/trevin-creator/autoresearch-mlx",
+      "description": "Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, no PyTorch required",
+      "category": "Research & Data",
+      "tags": [
+        "ai",
+        "autonomous",
+        "apple-silicon",
+        "research",
+        "mlx",
+        "mac",
+        "ml",
+        "autoresearch"
+      ],
+      "pricing": "Free",
+      "stars": 1244,
+      "language": "Python",
+      "added_date": "2026-04-05",
+      "verified": true,
+      "last_commit_date": "2026-03-10T22:30:24Z",
+      "days_since_commit": 26,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": "tradingview-mcp",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "description": "TradingView MCP (Market Profile Chart) AI integration",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1224,
+      "language": "JavaScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-04T00:27:04Z",
+      "days_since_commit": 2
+    },
+    {
+      "name": "claude-reviews-claude",
+      "url": "https://github.com/openedclaude/claude-reviews-claude",
+      "description": "Claude AI code review and analysis tools",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "development",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 1215,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-01T19:52:40Z",
       "days_since_commit": 5
     },
     {
@@ -1839,6 +3792,25 @@
       "days_since_commit": 0
     },
     {
+      "name": "claude-code-rust",
+      "url": "https://github.com/lorryjovens-hub/claude-code-rust",
+      "description": "Claude Code implementation in Rust",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 1151,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-06T18:06:17Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "SAG",
       "url": "https://github.com/Zleap-AI/SAG",
       "description": "SAG - SQL驱动的RAG引擎 · 查询时自动构建知识图谱 | SQL-Driven RAG Engine · Automatically Build Knowledge Graph During Querying",
@@ -1858,65 +3830,6 @@
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-12-08T06:25:08Z",
       "days_since_commit": 119
-    },
-    {
-      "name": "Coca",
-      "url": "https://github.com/phodal/coca",
-      "description": "Toolbox for legacy system refactoring and analysis.",
-      "category": "Developer Tools",
-      "tags": [
-        "refactoring",
-        "analysis",
-        "code-quality"
-      ],
-      "pricing": "Free",
-      "stars": 978,
-      "language": "Go",
-      "added_date": "2026-04-02",
-      "verified": true,
-      "last_commit_date": "2026-01-06T09:40:33Z",
-      "days_since_commit": 90,
-      "freshness": "🟠 Aging"
-    },
-    {
-      "name": "Jupyter MCP Server",
-      "url": "https://github.com/datalayer/jupyter-mcp-server",
-      "description": "MCP server for Jupyter notebooks.",
-      "category": "Developer Tools",
-      "tags": [
-        "mcp",
-        "jupyter",
-        "notebooks"
-      ],
-      "pricing": "Free",
-      "stars": 988,
-      "language": "Python",
-      "added_date": "2026-04-02",
-      "verified": true,
-      "last_commit_date": "2026-04-05T08:42:52Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "MTools",
-      "url": "https://github.com/HG-ha/MTools",
-      "description": "Desktop app for media processing with AI enhancement.",
-      "category": "Productivity",
-      "tags": [
-        "desktop",
-        "media",
-        "video",
-        "image",
-        "ai-enhancement"
-      ],
-      "pricing": "Free",
-      "stars": 975,
-      "language": "Python",
-      "added_date": "2026-04-02",
-      "verified": true,
-      "last_commit_date": "2026-04-06T12:57:25Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
     },
     {
       "name": "nightingale",
@@ -1940,6 +3853,101 @@
       "days_since_commit": 0
     },
     {
+      "name": "Jupyter MCP Server",
+      "url": "https://github.com/datalayer/jupyter-mcp-server",
+      "description": "MCP server for Jupyter notebooks.",
+      "category": "Developer Tools",
+      "tags": [
+        "mcp",
+        "jupyter",
+        "notebooks"
+      ],
+      "pricing": "Free",
+      "stars": 988,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-05T08:42:52Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Coca",
+      "url": "https://github.com/phodal/coca",
+      "description": "Toolbox for legacy system refactoring and analysis.",
+      "category": "Developer Tools",
+      "tags": [
+        "refactoring",
+        "analysis",
+        "code-quality"
+      ],
+      "pricing": "Free",
+      "stars": 978,
+      "language": "Go",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-01-06T09:40:33Z",
+      "days_since_commit": 90,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "MTools",
+      "url": "https://github.com/HG-ha/MTools",
+      "description": "Desktop app for media processing with AI enhancement.",
+      "category": "Productivity",
+      "tags": [
+        "desktop",
+        "media",
+        "video",
+        "image",
+        "ai-enhancement"
+      ],
+      "pricing": "Free",
+      "stars": 975,
+      "language": "Python",
+      "added_date": "2026-04-02",
+      "verified": true,
+      "last_commit_date": "2026-04-06T12:57:25Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Claude-Code-Source-Study",
+      "url": "https://github.com/luyao618/Claude-Code-Source-Study",
+      "description": "Comprehensive study of Claude Code source code",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 959,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-02T11:36:32Z",
+      "days_since_commit": 4
+    },
+    {
+      "name": "thereisnospoon",
+      "url": "https://github.com/dreddnafious/thereisnospoon",
+      "description": "AI-powered data analysis and machine learning tools",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 934,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-03-29T21:33:57Z",
+      "days_since_commit": 7
+    },
+    {
       "name": "mcpm.sh",
       "url": "https://github.com/pathintegral-institute/mcpm.sh",
       "description": "CLI MCP package manager and registry.",
@@ -1957,6 +3965,42 @@
       "last_commit_date": "2026-03-27T06:06:08Z",
       "days_since_commit": 10,
       "freshness": "🟡 Recent"
+    },
+    {
+      "name": "claude-code-source-code",
+      "url": "https://github.com/777genius/claude-code-source-code",
+      "description": "Claude Code source code analysis and study",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 883,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-02T18:23:15Z",
+      "days_since_commit": 4
+    },
+    {
+      "name": "claude-md",
+      "url": "https://github.com/iamfakeguru/claude-md",
+      "description": "Markdown-based Claude AI integration tools",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 852,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-03T22:28:25Z",
+      "days_since_commit": 2
     },
     {
       "name": "deepfabric",
@@ -1980,6 +4024,84 @@
       "days_since_commit": 4
     },
     {
+      "name": "claude-code-prompts",
+      "url": "https://github.com/repowise-dev/claude-code-prompts",
+      "description": "Claude Code prompt engineering and optimization",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 805,
+      "language": "Unknown",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-01T19:14:18Z",
+      "days_since_commit": 5
+    },
+    {
+      "name": "claude-code-from-scratch",
+      "url": "https://github.com/Windy3f3f3f3f/claude-code-from-scratch",
+      "description": "Building Claude Code from scratch tutorial",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 757,
+      "language": "TypeScript",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-04T16:00:29Z",
+      "days_since_commit": 2
+    },
+    {
+      "name": "cc-mini",
+      "url": "https://github.com/e10nMa2k/cc-mini",
+      "description": "Compact Claude Code implementation and tools",
+      "category": "Agents & Automation",
+      "tags": [
+        "development",
+        "claude",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 708,
+      "language": "Python",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-03T11:57:47Z",
+      "days_since_commit": 3
+    },
+    {
+      "name": "Claude Code Design Guide",
+      "url": "https://github.com/6551Team/claude-code-design-guide",
+      "description": "From Early Internet Design Patterns to AI Agent Implementation — A Deep Dive into Claude Code for Developers",
+      "category": "Developer Tools",
+      "tags": [
+        "claude",
+        "code",
+        "design",
+        "patterns",
+        "ai-agent",
+        "development"
+      ],
+      "pricing": "Free",
+      "stars": 657,
+      "language": "JavaScript",
+      "added_date": "2026-04-04",
+      "verified": true,
+      "last_commit_date": "2026-04-02T12:10:38Z",
+      "days_since_commit": 4,
+      "freshness": "🟢 Fresh"
+    },
+    {
       "name": "AigoTools",
       "url": "https://github.com/someu/aigotools",
       "description": "Website directory builder with auto-crawling and SEO.",
@@ -1998,6 +4120,46 @@
       "last_commit_date": "2025-08-01T03:45:07Z",
       "days_since_commit": 248,
       "freshness": "🔴 Stale"
+    },
+    {
+      "name": "openclaw-auto-dream",
+      "url": "https://github.com/LeoYeAI/openclaw-auto-dream",
+      "description": "OpenClaw automation and dream interpretation tools",
+      "category": "Productivity",
+      "tags": [
+        "automation"
+      ],
+      "pricing": "Free",
+      "stars": 632,
+      "language": "HTML",
+      "added_date": "2026-04-03",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-03-31T04:13:31Z",
+      "days_since_commit": 6
+    },
+    {
+      "name": "clawgod",
+      "url": "https://github.com/0Chencc/clawgod",
+      "description": "This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version — as Claude Code updates, the patch continues to take effect",
+      "category": "Developer Tools",
+      "tags": [
+        "developer",
+        "patch",
+        "modification",
+        "claude",
+        "code",
+        "runtime",
+        "patch"
+      ],
+      "pricing": "Free",
+      "stars": 598,
+      "language": "PowerShell",
+      "added_date": "2026-04-04",
+      "verified": true,
+      "last_commit_date": "2026-04-06T03:04:51Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "AI Anything",
@@ -2129,1991 +4291,6 @@
       "last_commit_date": "2024-07-11T13:03:36Z",
       "days_since_commit": 634,
       "freshness": "🔴 Stale"
-    },
-    {
-      "name": "learn-coding-agent",
-      "url": "https://github.com/sanbuphy/learn-coding-agent",
-      "description": "Learn AI coding agent development and techniques",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 11390,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-01T10:55:06Z",
-      "days_since_commit": 5
-    },
-    {
-      "name": "openclaude",
-      "url": "https://github.com/Gitlawb/openclaude",
-      "description": "Open-source Claude implementation and alternatives",
-      "category": "Agents & Automation",
-      "tags": [
-        "claude",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 17782,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T16:43:10Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "claurst",
-      "url": "https://github.com/Kuberwastaken/claurst",
-      "description": "Claude AI implementation in Rust",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "claude",
-        "rust"
-      ],
-      "pricing": "Free",
-      "stars": 8489,
-      "language": "Rust",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T17:56:04Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "ai-agent-deep-dive",
-      "url": "https://github.com/tvytlx/ai-agent-deep-dive",
-      "description": "Deep dive into AI agent architectures and implementation",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 5193,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-04T08:21:12Z",
-      "days_since_commit": 2
-    },
-    {
-      "name": "awesome-design-md",
-      "url": "https://github.com/VoltAgent/awesome-design-md",
-      "description": "Awesome list of design tools and resources",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai-tools"
-      ],
-      "pricing": "Free",
-      "stars": 21876,
-      "language": "HTML",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T16:20:28Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "open-multi-agent",
-      "url": "https://github.com/JackChen-me/open-multi-agent",
-      "description": "Multi-agent system framework and tools",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 5155,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T19:42:31Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "open-agent-sdk-typescript",
-      "url": "https://github.com/codeany-ai/open-agent-sdk-typescript",
-      "description": "TypeScript SDK for building AI agents",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 2390,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-03T16:25:16Z",
-      "days_since_commit": 3
-    },
-    {
-      "name": "cc-gateway",
-      "url": "https://github.com/motiful/cc-gateway",
-      "description": "Claude Code gateway and integration tools",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 2423,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-02T10:50:07Z",
-      "days_since_commit": 4
-    },
-    {
-      "name": "agentic-ai-prompt-research",
-      "url": "https://github.com/Leonxlnx/agentic-ai-prompt-research",
-      "description": "AI-powered prompt engineering and research tools",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 2169,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-03-31T19:04:33Z",
-      "days_since_commit": 6
-    },
-    {
-      "name": "ex-skill",
-      "url": "https://github.com/therealXiaomanChu/ex-skill",
-      "description": "Expert system AI skill development framework",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 2936,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T15:36:58Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "claude-code-book",
-      "url": "https://github.com/lintsinghua/claude-code-book",
-      "description": "Complete guide to Claude Code development",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude"
-      ],
-      "pricing": "Free",
-      "stars": 2175,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T07:22:38Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "wecom-cli",
-      "url": "https://github.com/WecomTeam/wecom-cli",
-      "description": "WeChat Work CLI and automation tools",
-      "category": "Productivity",
-      "tags": [
-        "automation",
-        "rust"
-      ],
-      "pricing": "Free",
-      "stars": 1531,
-      "language": "Rust",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-02T08:14:34Z",
-      "days_since_commit": 4
-    },
-    {
-      "name": "OpenHarness",
-      "url": "https://github.com/HKUDS/OpenHarness",
-      "description": "Open-source AI agent harness framework",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 6164,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T13:53:19Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "how-claude-code-works",
-      "url": "https://github.com/Windy3f3f3f3f/how-claude-code-works",
-      "description": "Understanding Claude Code architecture and internals",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude"
-      ],
-      "pricing": "Free",
-      "stars": 1531,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-03T07:51:34Z",
-      "days_since_commit": 3
-    },
-    {
-      "name": "claude-reviews-claude",
-      "url": "https://github.com/openedclaude/claude-reviews-claude",
-      "description": "Claude AI code review and analysis tools",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "development",
-        "claude"
-      ],
-      "pricing": "Free",
-      "stars": 1215,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-01T19:52:40Z",
-      "days_since_commit": 5
-    },
-    {
-      "name": "claude-code",
-      "url": "https://github.com/codeaashu/claude-code",
-      "description": "Claude Code implementation and extensions",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 1716,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-02T10:14:21Z",
-      "days_since_commit": 4
-    },
-    {
-      "name": "claude-code",
-      "url": "https://github.com/tanbiralam/claude-code",
-      "description": "Claude Code implementation and extensions",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 1293,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-03-31T10:03:46Z",
-      "days_since_commit": 6
-    },
-    {
-      "name": "claude-code",
-      "url": "https://github.com/yasasbanukaofficial/claude-code",
-      "description": "Claude Code implementation and extensions",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 1744,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-04T21:25:14Z",
-      "days_since_commit": 1
-    },
-    {
-      "name": "claude-code-source-code",
-      "url": "https://github.com/777genius/claude-code-source-code",
-      "description": "Claude Code source code analysis and study",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude"
-      ],
-      "pricing": "Free",
-      "stars": 883,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-02T18:23:15Z",
-      "days_since_commit": 4
-    },
-    {
-      "name": "ai-marketing-skills",
-      "url": "https://github.com/ericosiu/ai-marketing-skills",
-      "description": "AI-powered marketing automation and skills",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "automation",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 1536,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T04:33:12Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "claude-md",
-      "url": "https://github.com/iamfakeguru/claude-md",
-      "description": "Markdown-based Claude AI integration tools",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "claude"
-      ],
-      "pricing": "Free",
-      "stars": 852,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-03T22:28:25Z",
-      "days_since_commit": 2
-    },
-    {
-      "name": "claude-code-rust",
-      "url": "https://github.com/lorryjovens-hub/claude-code-rust",
-      "description": "Claude Code implementation in Rust",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 1151,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T18:06:17Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "claude-code-from-scratch",
-      "url": "https://github.com/Windy3f3f3f3f/claude-code-from-scratch",
-      "description": "Building Claude Code from scratch tutorial",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude",
-        "typescript"
-      ],
-      "pricing": "Free",
-      "stars": 757,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-04T16:00:29Z",
-      "days_since_commit": 2
-    },
-    {
-      "name": "openclaw-auto-dream",
-      "url": "https://github.com/LeoYeAI/openclaw-auto-dream",
-      "description": "OpenClaw automation and dream interpretation tools",
-      "category": "Productivity",
-      "tags": [
-        "automation"
-      ],
-      "pricing": "Free",
-      "stars": 632,
-      "language": "HTML",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-03-31T04:13:31Z",
-      "days_since_commit": 6
-    },
-    {
-      "name": "cc-mini",
-      "url": "https://github.com/e10nMa2k/cc-mini",
-      "description": "Compact Claude Code implementation and tools",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 708,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-03T11:57:47Z",
-      "days_since_commit": 3
-    },
-    {
-      "name": "tradingview-mcp",
-      "url": "https://github.com/tradesdontlie/tradingview-mcp",
-      "description": "TradingView MCP (Market Profile Chart) AI integration",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai"
-      ],
-      "pricing": "Free",
-      "stars": 1224,
-      "language": "JavaScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-04T00:27:04Z",
-      "days_since_commit": 2
-    },
-    {
-      "name": "claude-code-prompts",
-      "url": "https://github.com/repowise-dev/claude-code-prompts",
-      "description": "Claude Code prompt engineering and optimization",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude"
-      ],
-      "pricing": "Free",
-      "stars": 805,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-01T19:14:18Z",
-      "days_since_commit": 5
-    },
-    {
-      "name": "Claude-Code-Source-Study",
-      "url": "https://github.com/luyao618/Claude-Code-Source-Study",
-      "description": "Comprehensive study of Claude Code source code",
-      "category": "Agents & Automation",
-      "tags": [
-        "development",
-        "claude"
-      ],
-      "pricing": "Free",
-      "stars": 959,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-02T11:36:32Z",
-      "days_since_commit": 4
-    },
-    {
-      "name": "thereisnospoon",
-      "url": "https://github.com/dreddnafious/thereisnospoon",
-      "description": "AI-powered data analysis and machine learning tools",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 934,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-03-29T21:33:57Z",
-      "days_since_commit": 7
-    },
-    {
-      "name": "claw-code",
-      "url": "https://github.com/ultraworkers/claw-code",
-      "description": "The fastest repo in history to surpass 100K stars. Built in Rust using oh-my-codex - an AI coding agent platform.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "coding",
-        "rust",
-        "fast",
-        "oh-my-codex"
-      ],
-      "pricing": "Free",
-      "stars": 173549,
-      "language": "Rust",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T09:38:22Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "claude-code-best",
-      "url": "https://github.com/claude-code-best/claude-code",
-      "description": "原汁原味 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真",
-      "category": "Agents & Automation",
-      "tags": [
-        "claude",
-        "typescript",
-        "coding",
-        "reliable",
-        "enterprise"
-      ],
-      "pricing": "Free",
-      "stars": 14157,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T15:57:03Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "codex-plugin-cc",
-      "url": "https://github.com/openai/codex-plugin-cc",
-      "description": "Use Codex from Claude Code to review code or delegate tasks.",
-      "category": "Developer Tools",
-      "tags": [
-        "codex",
-        "code-review",
-        "delegation",
-        "javascript",
-        "openai"
-      ],
-      "pricing": "Free",
-      "stars": 12240,
-      "language": "JavaScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-03-31T20:04:25Z",
-      "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "claude-code-sourcemap",
-      "url": "https://github.com/ChinaSiro/claude-code-sourcemap",
-      "description": "Source map utilities for Claude Code development and debugging.",
-      "category": "Developer Tools",
-      "tags": [
-        "claude",
-        "sourcemap",
-        "debugging",
-        "typescript",
-        "development"
-      ],
-      "pricing": "Free",
-      "stars": 8509,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-03-31T08:30:55Z",
-      "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "colleague-skill",
-      "url": "https://github.com/titanwings/colleague-skill",
-      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework.",
-      "category": "Agents & Automation",
-      "tags": [
-        "skill",
-        "ai",
-        "digital-life",
-        "python",
-        "transformation"
-      ],
-      "pricing": "Free",
-      "stars": 8480,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-05T12:38:45Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "emdash",
-      "url": "https://github.com/emdash-cms/emdash",
-      "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress.",
-      "category": "Developer Tools",
-      "tags": [
-        "cms",
-        "typescript",
-        "astro",
-        "full-stack",
-        "wordpress-alternative"
-      ],
-      "pricing": "Free",
-      "stars": 7764,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:13:40Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "openclaw",
-      "url": "https://github.com/openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
-      "category": "Research & Data",
-      "tags": [
-        "ai"
-      ],
-      "pricing": "Free",
-      "stars": 349961,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:32:43Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "n8n",
-      "url": "https://github.com/n8n-io/n8n",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 182712,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:27:50Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "JavaGuide",
-      "url": "https://github.com/Snailclimb/JavaGuide",
-      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
-      "category": "Developer Tools",
-      "tags": [
-        "ai"
-      ],
-      "pricing": "Free",
-      "stars": 154678,
-      "language": "Java",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T08:29:58Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "system-prompts-and-models-of-ai-tools",
-      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "open-source"
-      ],
-      "pricing": "Free",
-      "stars": 134562,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-03-28T16:58:37Z",
-      "days_since_commit": 9,
-      "freshness": "🟡 Recent"
-    },
-    {
-      "name": "langchain",
-      "url": "https://github.com/langchain-ai/langchain",
-      "description": "The agent engineering platform",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 132537,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T19:41:22Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "generative-ai-for-beginners",
-      "url": "https://github.com/microsoft/generative-ai-for-beginners",
-      "description": "21 Lessons, Get Started Building with Generative AI ",
-      "category": "Research & Data",
-      "tags": [
-        "ai"
-      ],
-      "pricing": "Free",
-      "stars": 108992,
-      "language": "Jupyter Notebook",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T18:51:14Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "supabase",
-      "url": "https://github.com/supabase/supabase",
-      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "category": "Research & Data",
-      "tags": [
-        "ai"
-      ],
-      "pricing": "Free",
-      "stars": 100345,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:29:34Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "gemini-cli",
-      "url": "https://github.com/google-gemini/gemini-cli",
-      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 100406,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:33:03Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "spec-kit",
-      "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "category": "Research & Data",
-      "tags": [
-        "ai-tool"
-      ],
-      "pricing": "Free",
-      "stars": 85669,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:26:14Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "everything-claude-code",
-      "url": "https://github.com/affaan-m/everything-claude-code",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 142500,
-      "language": "JavaScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T03:25:13Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "PaddleOCR",
-      "url": "https://github.com/PaddlePaddle/PaddleOCR",
-      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "category": "Image Generation",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "pricing": "Free",
-      "stars": 74988,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T18:55:58Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "crawl4ai",
-      "url": "https://github.com/unclecode/crawl4ai",
-      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "llm"
-      ],
-      "pricing": "Free",
-      "stars": 63473,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T08:26:44Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "pathway",
-      "url": "https://github.com/pathwaycom/pathway",
-      "description": "Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "llm"
-      ],
-      "pricing": "Free",
-      "stars": 63416,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T05:26:24Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "opencode",
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "open-source"
-      ],
-      "pricing": "Free",
-      "stars": 138305,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T19:41:54Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 137322,
-      "language": "Shell",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-02T02:34:37Z",
-      "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "skills",
-      "url": "https://github.com/anthropics/skills",
-      "description": "Public repository for Agent Skills",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 111559,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-03-25T15:10:49Z",
-      "days_since_commit": 12,
-      "freshness": "🟡 Recent"
-    },
-    {
-      "name": "claude-code",
-      "url": "https://github.com/anthropics/claude-code",
-      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 109851,
-      "language": "Shell",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-04T00:42:02Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "lobehub",
-      "url": "https://github.com/lobehub/lobehub",
-      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 74813,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T18:28:52Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "codex",
-      "url": "https://github.com/openai/codex",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 73464,
-      "language": "Rust",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:26:52Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "agency-agents",
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 72980,
-      "language": "Shell",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-03-27T05:36:01Z",
-      "days_since_commit": 10,
-      "freshness": "🟡 Recent"
-    },
-    {
-      "name": "puppeteer",
-      "url": "https://github.com/puppeteer/puppeteer",
-      "description": "JavaScript API for Chrome and Firefox",
-      "category": "Research & Data",
-      "tags": [
-        "ai-tool"
-      ],
-      "pricing": "Free",
-      "stars": 94026,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-05T02:05:26Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "core",
-      "url": "https://github.com/home-assistant/core",
-      "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "open-source"
-      ],
-      "pricing": "Free",
-      "stars": 86015,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T19:56:30Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "playwright",
-      "url": "https://github.com/microsoft/playwright",
-      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 85692,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:23:42Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "ansible",
-      "url": "https://github.com/ansible/ansible",
-      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 68409,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:03:08Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "huginn",
-      "url": "https://github.com/huginn/huginn",
-      "description": "Create agents that monitor and act on your behalf.  Your agents are standing by!",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 49063,
-      "language": "Ruby",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-05T16:06:18Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "acme.sh",
-      "url": "https://github.com/acmesh-official/acme.sh",
-      "description": "A pure Unix shell script ACME client for SSL / TLS certificate automation",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 46194,
-      "language": "Shell",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-05T02:46:33Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "airflow",
-      "url": "https://github.com/apache/airflow",
-      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai"
-      ],
-      "pricing": "Free",
-      "stars": 44921,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:32:10Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "bruno",
-      "url": "https://github.com/usebruno/bruno",
-      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-      "category": "Developer Tools",
-      "tags": [
-        "open-source"
-      ],
-      "pricing": "Free",
-      "stars": 42681,
-      "language": "JavaScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T16:22:44Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "fastlane",
-      "url": "https://github.com/fastlane/fastlane",
-      "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
-      "category": "Research & Data",
-      "tags": [
-        "ai-tool"
-      ],
-      "pricing": "Free",
-      "stars": 41320,
-      "language": "Ruby",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T18:27:18Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "appsmith",
-      "url": "https://github.com/appsmithorg/appsmith",
-      "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
-      "category": "Research & Data",
-      "tags": [
-        "ai-tool"
-      ],
-      "pricing": "Free",
-      "stars": 39544,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T19:16:24Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "Scrapling",
-      "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-      "category": "Productivity",
-      "tags": [
-        "ai-tool"
-      ],
-      "pricing": "Free",
-      "stars": 34839,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-05T20:07:56Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "selenium",
-      "url": "https://github.com/SeleniumHQ/selenium",
-      "description": "A browser automation framework and ecosystem.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 34187,
-      "language": "Java",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T17:09:35Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "agents",
-      "url": "https://github.com/wshobson/agents",
-      "description": "Intelligent automation and multi-agent orchestration for Claude Code",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 33069,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-03T21:05:57Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "MoneyPrinterV2",
-      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
-      "description": "Automate the process of making money online.",
-      "category": "Research & Data",
-      "tags": [
-        "ai-tool"
-      ],
-      "pricing": "Free",
-      "stars": 28561,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-04T15:13:48Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "budibase",
-      "url": "https://github.com/Budibase/budibase",
-      "description": "AI agents, automations and apps that run your operations. Model agnostic.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 27806,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T19:56:09Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "sim",
-      "url": "https://github.com/simstudioai/sim",
-      "description": "Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 27606,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:28:22Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "gpt4free",
-      "url": "https://github.com/xtekky/gpt4free",
-      "description": "The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3",
-      "category": "Open Source Models",
-      "tags": [
-        "free"
-      ],
-      "pricing": "Free",
-      "stars": 65978,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T12:22:26Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "Flowise",
-      "url": "https://github.com/FlowiseAI/Flowise",
-      "description": "Build AI Agents, Visually",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 51609,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T19:24:02Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "chatbox",
-      "url": "https://github.com/chatboxai/chatbox",
-      "description": "Powerful AI Client",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "chatbot"
-      ],
-      "pricing": "Free",
-      "stars": 39301,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-02T01:57:49Z",
-      "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "python-telegram-bot",
-      "url": "https://github.com/python-telegram-bot/python-telegram-bot",
-      "description": "We have made you a wrapper you can't refuse",
-      "category": "Research & Data",
-      "tags": [
-        "ai-tool"
-      ],
-      "pricing": "Free",
-      "stars": 29009,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-05T09:57:29Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "xiaozhi-esp32",
-      "url": "https://github.com/78/xiaozhi-esp32",
-      "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "chatbot"
-      ],
-      "pricing": "Free",
-      "stars": 25411,
-      "language": "C++",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-03T06:14:35Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "kotaemon",
-      "url": "https://github.com/Cinnamon/kotaemon",
-      "description": "An open-source RAG-based tool for chatting with your documents.",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "chatbot"
-      ],
-      "pricing": "Free",
-      "stars": 25252,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-03T11:28:24Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "repomix",
-      "url": "https://github.com/yamadashy/repomix",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "llm",
-        "chatbot"
-      ],
-      "pricing": "Free",
-      "stars": 23141,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:03:39Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "agentscope",
-      "url": "https://github.com/agentscope-ai/agentscope",
-      "description": "Build and run agents you can see, understand and trust.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 23057,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-02T04:08:34Z",
-      "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "AionUi",
-      "url": "https://github.com/iOfficeAI/AionUi",
-      "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
-      "category": "Developer Tools",
-      "tags": [
-        "ai",
-        "free"
-      ],
-      "pricing": "Free",
-      "stars": 21112,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T17:59:47Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "awesome-n8n-templates",
-      "url": "https://github.com/enescingoz/awesome-n8n-templates",
-      "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "chatbot",
-        "free"
-      ],
-      "pricing": "Free",
-      "stars": 20899,
-      "language": "Unknown",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-03-24T20:13:36Z",
-      "days_since_commit": 13,
-      "freshness": "🟡 Recent"
-    },
-    {
-      "name": "MaxKB",
-      "url": "https://github.com/1Panel-dev/MaxKB",
-      "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 20651,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-03T13:49:06Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "coze-studio",
-      "url": "https://github.com/coze-dev/coze-studio",
-      "description": "An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 20414,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-03T00:56:20Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "chatbot",
-      "url": "https://github.com/vercel/chatbot",
-      "description": "A full-featured, hackable Next.js AI chatbot built by Vercel",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "chatbot"
-      ],
-      "pricing": "Free",
-      "stars": 20048,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-01T22:11:39Z",
-      "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "eliza",
-      "url": "https://github.com/elizaOS/eliza",
-      "description": "Autonomous agents for everyone",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent"
-      ],
-      "pricing": "Free",
-      "stars": 18109,
-      "language": "Rust",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T03:51:00Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "leon",
-      "url": "https://github.com/leon-ai/leon",
-      "description": "🧠 Leon is your open-source personal assistant.",
-      "category": "Research & Data",
-      "tags": [
-        "ai-tool"
-      ],
-      "pricing": "Free",
-      "stars": 17138,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-04-06T05:21:04Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "WeClone",
-      "url": "https://github.com/xming521/WeClone",
-      "description": "🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案  ",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "llm",
-        "chatbot"
-      ],
-      "pricing": "Free",
-      "stars": 16488,
-      "language": "Python",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-03-29T03:25:23Z",
-      "days_since_commit": 8,
-      "freshness": "🟡 Recent"
-    },
-    {
-      "name": "ai-pdf-chatbot-langchain",
-      "url": "https://github.com/mayooear/ai-pdf-chatbot-langchain",
-      "description": "AI PDF chatbot agent built with LangChain & LangGraph ",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "chatbot"
-      ],
-      "pricing": "Free",
-      "stars": 16436,
-      "language": "TypeScript",
-      "added_date": "2026-04-03",
-      "verified": true,
-      "last_commit_date": "2026-03-27T16:04:05Z",
-      "days_since_commit": 10,
-      "freshness": "🟡 Recent"
-    },
-    {
-      "name": "clawgod",
-      "url": "https://github.com/0Chencc/clawgod",
-      "description": "This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version — as Claude Code updates, the patch continues to take effect",
-      "category": "Developer Tools",
-      "tags": [
-        "developer",
-        "patch",
-        "modification",
-        "claude",
-        "code",
-        "runtime",
-        "patch"
-      ],
-      "pricing": "Free",
-      "stars": 598,
-      "language": "PowerShell",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-06T03:04:51Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "Claude Code Design Guide",
-      "url": "https://github.com/6551Team/claude-code-design-guide",
-      "description": "From Early Internet Design Patterns to AI Agent Implementation — A Deep Dive into Claude Code for Developers",
-      "category": "Developer Tools",
-      "tags": [
-        "claude",
-        "code",
-        "design",
-        "patterns",
-        "ai-agent",
-        "development"
-      ],
-      "pricing": "Free",
-      "stars": 657,
-      "language": "JavaScript",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-02T12:10:38Z",
-      "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "claude-howto",
-      "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-      "category": "Agents & Automation",
-      "tags": [
-        "claude-code",
-        "guide",
-        "tutorial",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 21234,
-      "language": "Python",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:19:51Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "openscreen",
-      "url": "https://github.com/siddharthvaddem/openscreen",
-      "description": "Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. ",
-      "category": "Developer Tools",
-      "tags": [
-        "electron",
-        "open-source",
-        "pixijs",
-        "screen-capture",
-        "screen-recorder",
-        "typescript",
-        "free"
-      ],
-      "pricing": "Free",
-      "stars": 23802,
-      "language": "TypeScript",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-06T05:56:56Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "timesfm",
-      "url": "https://github.com/google-research/timesfm",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "category": "Open Source Models",
-      "tags": [
-        "python",
-        "ai"
-      ],
-      "pricing": "Free",
-      "stars": 15151,
-      "language": "Python",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-03T00:26:33Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "clawdbot",
-        "codex",
-        "hermes"
-      ],
-      "pricing": "Free",
-      "stars": 27840,
-      "language": "Python",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:20:01Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "onyx",
-      "url": "https://github.com/onyx-dot-app/onyx",
-      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "ai-chat",
-        "chatgpt",
-        "chatui",
-        "enterprise-search",
-        "gen-ai",
-        "information-retrieval",
-        "llm",
-        "llm-ui",
-        "nextjs"
-      ],
-      "pricing": "Free",
-      "stars": 25414,
-      "language": "Python",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:33:04Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "TaxHacker",
-      "url": "https://github.com/vas3k/TaxHacker",
-      "description": "Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories",
-      "category": "Audio & Music",
-      "tags": [
-        "accounting",
-        "ai-analysis",
-        "currency-exchange",
-        "expenses",
-        "gemini",
-        "invoices",
-        "llm",
-        "ocr-recognition",
-        "ollama",
-        "openai"
-      ],
-      "pricing": "Free",
-      "stars": 4807,
-      "language": "TypeScript",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-04T13:39:39Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "system_prompts_leaks",
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "description": "Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly.",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "ai-transparency",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "gemini",
-        "generative-ai",
-        "gpt-5",
-        "grok"
-      ],
-      "pricing": "Free",
-      "stars": 37594,
-      "language": null,
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-03T16:13:32Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "sherlock",
-      "url": "https://github.com/sherlock-project/sherlock",
-      "description": "Hunt down social media accounts by username across social networks",
-      "category": "Developer Tools",
-      "tags": [
-        "cli",
-        "cti",
-        "cybersecurity",
-        "forensics",
-        "hacktoberfest",
-        "information-gathering",
-        "infosec",
-        "linux",
-        "osint",
-        "pentesting"
-      ],
-      "pricing": "Free",
-      "stars": 80038,
-      "language": "Python",
-      "added_date": "2026-04-04",
-      "verified": true,
-      "last_commit_date": "2026-04-06T05:47:02Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "OpenBB",
-      "url": "https://github.com/OpenBB-finance/OpenBB",
-      "description": "Financial data platform for analysts, quants and AI agents.",
-      "category": "Research & Data",
-      "tags": [
-        "ai",
-        "crypto",
-        "derivatives",
-        "economics",
-        "equity",
-        "finance",
-        "fixed-income",
-        "machine-learning",
-        "openbb",
-        "options",
-        "python",
-        "quantitative-finance",
-        "stocks"
-      ],
-      "pricing": "Open Source",
-      "stars": 65489,
-      "language": "Python",
-      "added_date": "2026-04-05T02:39:59.843Z",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T04:36:14Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "ZeroClaw",
-      "url": "https://github.com/zeroclaw-labs/zeroclaw",
-      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "agentic",
-        "ai",
-        "infra",
-        "ml",
-        "openclaw",
-        "os",
-        "rust",
-        "personal-assistant"
-      ],
-      "pricing": "Free",
-      "stars": 29601,
-      "language": "Rust",
-      "added_date": "2026-04-05",
-      "verified": true,
-      "last_commit_date": "2026-04-06T20:15:30Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "Learn AI Engineering",
-      "url": "https://github.com/ashishps1/learn-ai-engineering",
-      "description": "Learn AI and LLMs from scratch using free resources",
-      "category": "Developer Tools",
-      "tags": [
-        "agentic-ai",
-        "agents",
-        "ai",
-        "deep-learning",
-        "generative-ai",
-        "large-language-models",
-        "llm",
-        "machine-learning",
-        "mcp",
-        "ml",
-        "prompt-engineering",
-        "rag",
-        "education"
-      ],
-      "pricing": "Free",
-      "stars": 5304,
-      "language": null,
-      "added_date": "2026-04-05",
-      "verified": true,
-      "last_commit_date": "2026-02-05T02:34:40Z",
-      "days_since_commit": 60,
-      "freshness": "🟠 Aging"
-    },
-    {
-      "name": "AutoResearch MLX",
-      "url": "https://github.com/trevin-creator/autoresearch-mlx",
-      "description": "Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, no PyTorch required",
-      "category": "Research & Data",
-      "tags": [
-        "ai",
-        "autonomous",
-        "apple-silicon",
-        "research",
-        "mlx",
-        "mac",
-        "ml",
-        "autoresearch"
-      ],
-      "pricing": "Free",
-      "stars": 1244,
-      "language": "Python",
-      "added_date": "2026-04-05",
-      "verified": true,
-      "last_commit_date": "2026-03-10T22:30:24Z",
-      "days_since_commit": 26,
-      "freshness": "🟡 Recent"
-    },
-    {
-      "name": "Edit Mind",
-      "url": "https://github.com/IliasHad/edit-mind",
-      "description": "Local-first AI video intelligence platform. Index your video library with multi-modal analysis (YOLO, DeepFace, Whisper), search semantically via natural language, Docker-ready",
-      "category": "Video & Animation",
-      "tags": [
-        "ai",
-        "computer-vision",
-        "deepface",
-        "face-recognition",
-        "ml",
-        "self-hosted",
-        "video-editing",
-        "video-indexing",
-        "video-processing",
-        "videos"
-      ],
-      "pricing": "Free",
-      "stars": 1281,
-      "language": "TypeScript",
-      "added_date": "2026-04-05",
-      "verified": true,
-      "last_commit_date": "2026-04-06T09:08:23Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
-    },
-    {
-      "name": "Terminator",
-      "url": "https://github.com/mediar-ai/terminator",
-      "description": "Playwright for windows computer use",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "agents",
-        "ai",
-        "llm",
-        "ml",
-        "native",
-        "py",
-        "rust",
-        "ts",
-        "vercel",
-        "vercel-ai-sdk",
-        "windows",
-        "automation"
-      ],
-      "pricing": "Free",
-      "stars": 1388,
-      "language": "Rust",
-      "added_date": "2026-04-05",
-      "verified": true,
-      "last_commit_date": "2026-04-05T17:29:10Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
     }
   ]
 }
