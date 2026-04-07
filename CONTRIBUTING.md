@@ -2,52 +2,50 @@
 
 First off, thanks for taking the time to contribute! 🎉
 
-## 🤔 How to Contribute
+The goal of this list is to be the most comprehensive, up-to-date resource for AI tools. We achieve this through both community contributions and automated updates every 6 hours.
+
+## 🤖 Automated Updates
+
+This list uses an autonomous system that:
+- Discovers trending AI tools every 6 hours
+- Validates and categorizes new tools
+- Updates freshness scores
+- Commits changes automatically
+
+## 👥 Manual Contributions
+
+We welcome community contributions! Here's how to help:
 
 ### Adding a New Tool
 
 1. **Fork the repository**
-2. **Add your tool** to the appropriate category in `README.md`
-3. **Follow the format:**
-   ```markdown
-   | [Tool Name](https://github.com/link) | Brief description | `tag1` `tag2` | Free/Freemium | 🟢 Fresh | X.Xk |
+2. **Edit `data/tools.json`**:
+   ```json
+   {
+     "name": "Tool Name",
+     "description": "Brief description (max 100 chars)",
+     "url": "https://tool-website.com",
+     "category": "Category Name",
+     "pricing": "Free|Freemium|Paid|Open Source",
+     "platforms": ["Web", "Desktop", "Mobile"],
+     "github_url": "https://github.com/repo (optional)",
+     "tags": ["tag1", "tag2"]
+   }
    ```
-4. **Submit a pull request**
+3. **Submit a pull request**
 
-### Tool Criteria
+### Tool Requirements
 
-✅ **Accepted:**
-- Open source AI tools
-- AI-related GitHub repositories
-- Tools with active development
-- Well-documented projects
+Tools must be:
+- ✅ Related to AI/ML
+- ✅ Publicly accessible
+- ✅ Actively maintained (commits within last 6 months)
+- ✅ Have a clear use case
+- ✅ Not duplicate of existing tool
 
-❌ **Not Accepted:**
-- Duplicate entries
-- Inactive projects (>6 months)
-- Non-AI related tools
-- Spam or low-quality submissions
+### Categories
 
-### Freshness Indicators
-
-- 🟢 **Fresh**: Updated ≤7 days ago
-- 🟡 **Recent**: Updated ≤30 days ago
-- 🟠 **Aging**: Updated ≤90 days ago
-- 🔴 **Stale**: Updated >90 days ago
-
-## 📝 Submission Template
-
-```markdown
-**Tool Name:** [Name]
-**GitHub URL:** [Link]
-**Category:** [Agents/Audio/Developer Tools/etc.]
-**Description:** [1-2 sentences]
-**Tags:** [3-5 relevant tags]
-**Pricing:** [Free/Freemium/Paid/Open Source]
-```
-
-## 🎯 Categories
-
+Current categories:
 - Agents & Automation
 - Audio & Music
 - Developer Tools
@@ -58,41 +56,66 @@ First off, thanks for taking the time to contribute! 🎉
 - Research & Data
 - Video & Animation
 
-## ✅ Pull Request Checklist
+### Improving Descriptions
 
-- [ ] Tool is AI-related
-- [ ] Added to correct category
-- [ ] Follows table format
-- [ ] Description is concise (<100 chars)
-- [ ] Tags are relevant
-- [ ] PR title is clear
+Feel free to improve tool descriptions:
+- Keep under 100 characters
+- Be specific about what the tool does
+- Mention key features
+- Avoid marketing language
 
-## 🚀 Quick Add
+## 📝 Pull Request Guidelines
 
-For quick additions, just [open an issue](https://github.com/formatho/awesome-ai-tools/issues/new) with:
-- Tool name
-- GitHub link
-- Brief description
+- **Title:** Clear and descriptive
+- **Description:** What you're adding/changing and why
+- **One tool per PR:** Easier to review
+- **Check for duplicates:** Search existing tools first
 
-We'll add it for you! 🤖
+## 🔍 Review Process
 
-## 📊 How Tools are Curated
+All PRs are reviewed for:
+1. **Relevance** - Is it AI-related?
+2. **Quality** - Is the tool well-maintained?
+3. **Accuracy** - Is the description correct?
+4. **Completeness** - Are all fields filled?
 
-This list is **automatically updated every 6 hours** by an autonomous AI agent that:
-- Scrapes trending AI repositories
-- Checks freshness (last commit date)
-- Fetches star counts
-- Categorizes tools
-- Updates the README
+## 💡 Tips
 
-## 🙏 Recognition
+- Check the [freshness indicators](README.md#-freshness-tracking) to see how we track tool activity
+- Look at existing tools for formatting examples
+- Use meaningful commit messages
+- Star the repo if you find it useful! ⭐
 
-All contributors will be listed in our Contributors section (coming soon).
+## 🐛 Reporting Issues
+
+Found a bug or have a suggestion?
+- Open an [issue](https://github.com/formatho/awesome-ai-tools/issues)
+- Use clear, descriptive titles
+- Provide examples when possible
+
+## 📜 Code of Conduct
+
+- Be respectful and inclusive
+- Welcome newcomers
+- Focus on constructive feedback
+- Help maintain quality
 
 ---
 
-**Questions?** [Open an issue](https://github.com/formatho/awesome-ai-tools/issues) or reach out on [Twitter](https://twitter.com/formatho).
+## 🙏 Thank You
+
+Every contribution makes this list better for everyone. Whether you're:
+- Adding a new tool
+- Fixing a typo
+- Improving a description
+- Reporting an issue
+
+You're helping thousands of developers and researchers discover the best AI tools.
+
+**Questions?** Open an issue or reach out on [Twitter](https://twitter.com/formatho).
 
 ---
 
-*Thank you for making this list better!* 💚
+**License:** By contributing, you agree that your contributions will be licensed under the MIT License.
+
+*Last updated: April 7, 2026*
