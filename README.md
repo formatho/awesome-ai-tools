@@ -29,7 +29,6 @@
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
 | [autoresearch](https://github.com/autoresearch/autoresearch) | AutoResearch - AI-powered research assistant that automates scientific research workflows | Research & Data | 🟢 Fresh | April 8, 2026 |
-| [CLI-Anything](https://github.com/CLI-Anything/CLI-Anything) | AI-powered CLI tool that can control anything through command line interface | Developer Tools | 🟢 Fresh | April 8, 2026 |
 | [mempalace](https://github.com/mempalace/mempalace) | MemPalace - Advanced memory management and AI-powered knowledge organization system | Productivity | 🟢 Fresh | April 8, 2026 |
 | [AutoResearchClaw](https://github.com/AutoResearchClaw/AutoResearchClaw) | AutoResearchClaw - Extended AI research framework with advanced capabilities | Research & Data | 🟢 Fresh | April 8, 2026 |
 | [graphify](https://github.com/graphify/graphify) | Graphify - AI-powered graph database and knowledge graph builder | Research & Data | 🟢 Fresh | April 8, 2026 |
@@ -179,7 +178,6 @@
 | [Gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `machine-learning` `models` `ui` | Free | 🟢 Fresh | 42.3k |
 | [Continue](https://github.com/continuedev/continue) | Source-controlled AI checks enforceable in CI. | `ide` `coding` `ci-cd` | Free | 🟢 Fresh | 32.3k |
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | Frontend stack for agents and generative UI (React + Angular). | `frontend` `agent` `ui` | Freemium | 🟢 Fresh | 30.0k |
-| [CLI-Anything](https://github.com/CLI-Anything/CLI-Anything) | AI-powered CLI tool that can control anything through command line interface | `CLI` `AI Control` `Automation` | Open Source | 🟢 Fresh | 29.1k |
 | [ openscreen](https://github.com/siddharthvaddem / openscreen) | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `Demo` | Open Source | 🟢 Fresh | 24.1k |
 | [openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.  | `electron` `open-source` `pixijs` | Free | 🟢 Fresh | 23.8k |
 | [AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it! | `ai` `free` | Free | 🟢 Fresh | 21.1k |
