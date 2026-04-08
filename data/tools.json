@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-08T19:36:00.000Z",
-    "total_tools": 238,
+    "last_updated": "2026-04-08T13:40:02Z",
+    "total_tools": 247,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -4602,9 +4602,18 @@
     {
       "name": "Firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "🔥 The Web Data API for AI - Power AI agents with clean web data",
+      "description": "\ud83d\udd25 The Web Data API for AI - Power AI agents with clean web data",
       "category": "Agents & Automation",
-      "tags": ["ai", "crawler", "markdown", "scraper", "llm", "web-crawler", "ai-agents", "data-extraction"],
+      "tags": [
+        "ai",
+        "crawler",
+        "markdown",
+        "scraper",
+        "llm",
+        "web-crawler",
+        "ai-agents",
+        "data-extraction"
+      ],
       "pricing": "Freemium",
       "stars": 105447,
       "language": "TypeScript",
@@ -4612,14 +4621,22 @@
       "verified": true,
       "last_commit_date": "2026-04-07T19:35:30Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome LLM Apps",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
       "category": "LLMs & Chatbots",
-      "tags": ["llms", "rag", "python", "agents", "openai", "anthropic", "gemini"],
+      "tags": [
+        "llms",
+        "rag",
+        "python",
+        "agents",
+        "openai",
+        "anthropic",
+        "gemini"
+      ],
       "pricing": "Free",
       "stars": 104728,
       "language": "Python",
@@ -4627,14 +4644,22 @@
       "verified": true,
       "last_commit_date": "2026-04-07T19:34:04Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Gradio",
       "url": "https://github.com/gradio-app/gradio",
-      "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
+      "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
       "category": "Developer Tools",
-      "tags": ["machine-learning", "models", "ui", "python", "data-science", "deep-learning", "data-visualization"],
+      "tags": [
+        "machine-learning",
+        "models",
+        "ui",
+        "python",
+        "data-science",
+        "deep-learning",
+        "data-visualization"
+      ],
       "pricing": "Free",
       "stars": 42272,
       "language": "Python",
@@ -4642,14 +4667,20 @@
       "verified": true,
       "last_commit_date": "2026-04-07T19:10:51Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome Machine Learning",
       "url": "https://github.com/josephmisiti/awesome-machine-learning",
       "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
       "category": "Research & Data",
-      "tags": ["machine-learning", "frameworks", "libraries", "ai", "data-science"],
+      "tags": [
+        "machine-learning",
+        "frameworks",
+        "libraries",
+        "ai",
+        "data-science"
+      ],
       "pricing": "Free",
       "stars": 72187,
       "language": "Python",
@@ -4657,7 +4688,142 @@
       "verified": true,
       "last_commit_date": "2026-04-07T19:06:00Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 67070,
+      "language": "TypeScript",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:50Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "mempalace",
+      "url": "https://github.com/milla-jovovich/mempalace",
+      "description": "The highest-scoring AI memory system ever benchmarked. And it's free.",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 23676,
+      "language": "Python",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:51Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 21912,
+      "language": "JavaScript",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:51Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "NemoClaw",
+      "url": "https://github.com/NVIDIA/NemoClaw",
+      "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 18752,
+      "language": "JavaScript",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:52Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 14500,
+      "language": "TypeScript",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:52Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "description": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 14335,
+      "language": "TypeScript",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:53Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "graphify",
+      "url": "https://github.com/safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, OpenClaw, Factory Droid). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 10293,
+      "language": "Python",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:53Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/MiniMax-AI/skills",
+      "description": "",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 9628,
+      "language": "C#",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:54Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "AutoResearchClaw",
+      "url": "https://github.com/aiming-lab/AutoResearchClaw",
+      "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. \ud83e\udd9e",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 10759,
+      "language": "Python",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-08T13:38:54Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     }
   ]
 }
