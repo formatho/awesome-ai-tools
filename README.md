@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-08-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-234-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-238-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -59,6 +59,7 @@
 | [langchain](https://github.com/langchain-ai/langchain) | The agent engineering platform | `ai` `agent` | Free | 🟢 Fresh | 132.5k |
 | [skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `agent` | Free | 🟡 Recent | 111.6k |
 | [claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | `ai` `agent` | Free | 🟢 Fresh | 109.9k |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Power AI agents with clean web data | `ai` `crawler` `markdown` | Freemium | 🟢 Fresh | 105.4k |
 | [Firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Power AI agents with clean web data | `ai` `crawler` `markdown` | Freemium | 🟢 Fresh | 105.4k |
 | [gemini-cli](https://github.com/google-gemini/gemini-cli) | An open-source AI agent that brings the power of Gemini directly into your terminal. | `ai` `agent` | Free | 🟢 Fresh | 100.4k |
 | [Browser-Use](https://github.com/browser-use/browser-use) | Make websites accessible for AI agents - automate tasks online. | `browser` `automation` `agent` | Free | 🟢 Fresh | 86.2k |
@@ -175,6 +176,7 @@
 | [JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | AI-driven low-code platform with zero-code and code generation modes. | `low-code` `ai` `code-generation` | Freemium | 🟢 Fresh | 45.7k |
 | [bruno](https://github.com/usebruno/bruno) | Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia) | `open-source` | Free | 🟢 Fresh | 42.7k |
 | [Gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `machine-learning` `models` `ui` | Free | 🟢 Fresh | 42.3k |
+| [Gradio](https://github.com/gradio-app/gradio) | Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work! | `machine-learning` `models` `ui` | Free | 🟢 Fresh | 42.3k |
 | [Continue](https://github.com/continuedev/continue) | Source-controlled AI checks enforceable in CI. | `ide` `coding` `ci-cd` | Free | 🟢 Fresh | 32.3k |
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | Frontend stack for agents and generative UI (React + Angular). | `frontend` `agent` `ui` | Freemium | 🟢 Fresh | 30.0k |
 | [CLI-Anything](https://github.com/CLI-Anything/CLI-Anything) | AI-powered CLI tool that can control anything through command line interface | `CLI` `AI Control` `Automation` | Open Source | 🟢 Fresh | 29.1k |
@@ -244,6 +246,7 @@
 |------|-------------|------|---------|-----------|-------|
 | [Ollama](https://github.com/ollama/ollama) | Get up and running with Llama 2, Mistral, and other large language models locally. | `llm` `local` `inference` | Free | 🟢 Fresh | 167.6k |
 | [Open-WebUI](https://github.com/open-webui/open-webui) | User-friendly AI interface supporting Ollama, OpenAI API, and more. | `ui` `chat` `ollama` | Free | 🟢 Fresh | 130.3k |
+| [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | `llms` `rag` `python` | Free | 🟢 Fresh | 104.7k |
 | [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | `llms` `rag` `python` | Free | 🟢 Fresh | 104.7k |
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN | `ai` `llm` | Free | 🟢 Fresh | 63.5k |
 | [pathway](https://github.com/pathwaycom/pathway) | Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. | `llm` | Free | 🟢 Fresh | 63.4k |
@@ -317,6 +320,7 @@
 | [spec-kit](https://github.com/github/spec-kit) | 💫 Toolkit to help you get started with Spec-Driven Development | `ai-tool` | Free | 🟢 Fresh | 85.7k |
 | [LLM Course](https://github.com/mlabonne/llm-course) | Course to get into Large Language Models with roadmaps and Colab notebooks. | `course` `education` `llm` | Free | 🟠 Aging | 77.9k |
 | [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) | A curated list of awesome Machine Learning frameworks, libraries and software. | `machine-learning` `frameworks` `libraries` | Free | 🟢 Fresh | 72.2k |
+| [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) | A curated list of awesome Machine Learning frameworks, libraries and software. | `machine-learning` `frameworks` `libraries` | Free | 🟢 Fresh | 72.2k |
 | [autoresearch](https://github.com/autoresearch/autoresearch) | AutoResearch - AI-powered research assistant that automates scientific research workflows | `AI Research` `Automation` `Science` | Open Source | 🟢 Fresh | 68.2k |
 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `ai` `crypto` `derivatives` | Open Source | 🟢 Fresh | 65.5k |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Multi-agents LLM financial trading framework. | `trading` `agent` `finance` | Free | 🟢 Fresh | 47.8k |
@@ -375,14 +379,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 234
+- **Total Tools:** 238
 - **Categories:** 9
 - **Last Updated:** April 8, 2026
 - **Last Freshness Check:** April 6, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 184 tools
+- 🟢 Fresh: 188 tools
 - 🟡 Recent: 15 tools
 - 🟠 Aging: 14 tools
 - 🔴 Stale: 21 tools
