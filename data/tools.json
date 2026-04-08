@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-08T07:07:14.441540",
-    "total_tools": 234,
+    "last_updated": "2026-04-08T19:36:00.000Z",
+    "total_tools": 238,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -4598,6 +4598,66 @@
       "verified": true,
       "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441525"
+    },
+    {
+      "name": "Firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "🔥 The Web Data API for AI - Power AI agents with clean web data",
+      "category": "Agents & Automation",
+      "tags": ["ai", "crawler", "markdown", "scraper", "llm", "web-crawler", "ai-agents", "data-extraction"],
+      "pricing": "Freemium",
+      "stars": 105447,
+      "language": "TypeScript",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-07T19:35:30Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Awesome LLM Apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "category": "LLMs & Chatbots",
+      "tags": ["llms", "rag", "python", "agents", "openai", "anthropic", "gemini"],
+      "pricing": "Free",
+      "stars": 104728,
+      "language": "Python",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-07T19:34:04Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Gradio",
+      "url": "https://github.com/gradio-app/gradio",
+      "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
+      "category": "Developer Tools",
+      "tags": ["machine-learning", "models", "ui", "python", "data-science", "deep-learning", "data-visualization"],
+      "pricing": "Free",
+      "stars": 42272,
+      "language": "Python",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-07T19:10:51Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Awesome Machine Learning",
+      "url": "https://github.com/josephmisiti/awesome-machine-learning",
+      "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
+      "category": "Research & Data",
+      "tags": ["machine-learning", "frameworks", "libraries", "ai", "data-science"],
+      "pricing": "Free",
+      "stars": 72187,
+      "language": "Python",
+      "added_date": "2026-04-08",
+      "verified": true,
+      "last_commit_date": "2026-04-07T19:06:00Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     }
   ]
 }
