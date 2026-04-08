@@ -30,13 +30,7 @@
 |------|-------------|----------|-----------|-------|
 | [autoresearch](https://github.com/autoresearch/autoresearch) | AutoResearch - AI-powered research assistant that automates scientific research workflows | Research & Data | 🟢 Fresh | April 8, 2026 |
 | [mempalace](https://github.com/mempalace/mempalace) | MemPalace - Advanced memory management and AI-powered knowledge organization system | Productivity | 🟢 Fresh | April 8, 2026 |
-| [AutoResearchClaw](https://github.com/AutoResearchClaw/AutoResearchClaw) | AutoResearchClaw - Extended AI research framework with advanced capabilities | Research & Data | 🟢 Fresh | April 8, 2026 |
-| [graphify](https://github.com/graphify/graphify) | Graphify - AI-powered graph database and knowledge graph builder | Research & Data | 🟢 Fresh | April 8, 2026 |
-| [caveman](https://github.com/caveman/caveman) | Caveman - AI-powered workflow automation and task management system | Agents & Automation | 🟢 Fresh | April 8, 2026 |
-| [turboquant_plus](https://github.com/turboquant/turboquant_plus) | TurboQuant+ - Advanced quantitative analysis and trading AI system | Research & Data | 🟢 Fresh | April 8, 2026 |
-| [Auto-claude-code-research-in-sleep](https://github.com/developeregwu/Auto-claude-code-research-in-sleep) | Auto-claude-code-research-in-sleep - AI-powered code research and development automation | Developer Tools | 🟢 Fresh | April 8, 2026 |
 | [OpenSpace](https://github.com/OpenSpace/OpenSpace) | OpenSpace - AI-powered collaborative workspace and team coordination platform | Productivity | 🟢 Fresh | April 8, 2026 |
-| [ClawTeam](https://github.com/ClawTeam/ClawTeam) | ClawTeam - AI-powered team collaboration and project management platform | Productivity | 🟢 Fresh | April 8, 2026 |
 
 ---
 
@@ -105,7 +99,6 @@
 | [claurst](https://github.com/Kuberwastaken/claurst) | Claude AI implementation in Rust | `ai` `claude` `rust` | Free | 🟢 Fresh | 8.5k |
 | [colleague-skill](https://github.com/titanwings/colleague-skill) | 将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework. | `skill` `ai` `digital-life` | Free | 🟢 Fresh | 8.5k |
 | [OpenHarness](https://github.com/HKUDS/OpenHarness) | Open-source AI agent harness framework | `ai` `agent` `python` | Free | 🟢 Fresh | 6.2k |
-| [caveman](https://github.com/caveman/caveman) | Caveman - AI-powered workflow automation and task management system | `Workflow` `Automation` `AI` | Open Source | 🟢 Fresh | 6.0k |
 | [sdk-python](https://github.com/strands-agents/sdk-python) | A model-driven approach to building AI agents in just a few lines of code. | `agent` `sdk` `python` | Open Source | 🟢 Fresh | 5.6k |
 | [ai-agent-deep-dive](https://github.com/tvytlx/ai-agent-deep-dive) | Deep dive into AI agent architectures and implementation | `ai` `agent` `python` | Free | 🟢 Fresh | 5.2k |
 | [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) | Multi-agent system framework and tools | `agent` `typescript` | Free | 🟢 Fresh | 5.2k |
@@ -188,7 +181,6 @@
 | [claude-code-sourcemap](https://github.com/ChinaSiro/claude-code-sourcemap) | Source map utilities for Claude Code development and debugging. | `claude` `sourcemap` `debugging` | Free | 🟢 Fresh | 8.5k |
 | [emdash](https://github.com/emdash-cms/emdash) | EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress. | `cms` `typescript` `astro` | Free | 🟢 Fresh | 7.8k |
 | [Awesome AI Tools](https://github.com/ikaijua/Awesome-AITools) | Curated collection of AI-related utilities with community contributions. | `collection` `tools` `community` | Free | 🟢 Fresh | 5.8k |
-| [Auto-claude-code-research-in-sleep](https://github.com/developeregwu/Auto-claude-code-research-in-sleep) | Auto-claude-code-research-in-sleep - AI-powered code research and development automation | `AI Code` `Research` `Automation` | Open Source | 🟢 Fresh | 5.8k |
 | [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | Curated list of Model Context Protocol servers. | `mcp` `protocol` `agent-tools` | Free | 🔴 Stale | 5.4k |
 | [Learn AI Engineering](https://github.com/ashishps1/learn-ai-engineering) | Learn AI and LLMs from scratch using free resources | `agentic-ai` `agents` `ai` | Free | 🟠 Aging | 5.3k |
 | [Windows MCP](https://github.com/CursorTouch/Windows-MCP) | MCP server for computer use in Windows. | `mcp` `windows` `automation` | Free | 🟢 Fresh | 5.0k |
@@ -295,7 +287,6 @@
 | [mempalace](https://github.com/mempalace/mempalace) | MemPalace - Advanced memory management and AI-powered knowledge organization system | `Memory` `Knowledge` `Organization` | Open Source | 🟢 Fresh | 17.3k |
 | [Noi](https://github.com/lencx/Noi) | AI tools launcher with minimal chaos and maximum flow. | `launcher` `productivity` `desktop` | Free | 🟠 Aging | 8.8k |
 | [OpenSpace](https://github.com/OpenSpace/OpenSpace) | OpenSpace - AI-powered collaborative workspace and team coordination platform | `Collaboration` `Workspace` `AI` | Open Source | 🟢 Fresh | 4.6k |
-| [ClawTeam](https://github.com/ClawTeam/ClawTeam) | ClawTeam - AI-powered team collaboration and project management platform | `Team` `Collaboration` `AI` | Open Source | 🟢 Fresh | 4.5k |
 | [One-Person Company AI Tools](https://github.com/cyfyifanchen/one-person-company) | Continuously updated AI tools for solo businesses. | `solo-business` `productivity` `entrepreneurship` | Free | 🔴 Stale | 2.7k |
 | [AI Products All-In-One](https://github.com/TheExplainthis/AI-Products-All-In-One) | Curated practical ChatGPT and generative AI tools. | `collection` `chatgpt` `generative-ai` | Free | 🔴 Stale | 1.8k |
 | [wecom-cli](https://github.com/WecomTeam/wecom-cli) | WeChat Work CLI and automation tools | `automation` `rust` | Free | 🟢 Fresh | 1.5k |
@@ -330,9 +321,6 @@
 | [Last30Days Skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary | `research` `aggregation` `reddit` | Free | 🟢 Fresh | 19.1k |
 | [leon](https://github.com/leon-ai/leon) | 🧠 Leon is your open-source personal assistant. | `ai-tool` | Free | 🟢 Fresh | 17.1k |
 | [CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | Leaked system prompts for ChatGPT, Gemini, Claude, and more AI systems. | `prompts` `transparency` `research` | Free | 🟠 Aging | 14.0k |
-| [AutoResearchClaw](https://github.com/AutoResearchClaw/AutoResearchClaw) | AutoResearchClaw - Extended AI research framework with advanced capabilities | `AI Research` `Automation` `Extended` | Open Source | 🟢 Fresh | 10.7k |
-| [graphify](https://github.com/graphify/graphify) | Graphify - AI-powered graph database and knowledge graph builder | `Graph Database` `Knowledge` `AI` | Open Source | 🟢 Fresh | 7.1k |
-| [turboquant_plus](https://github.com/turboquant/turboquant_plus) | TurboQuant+ - Advanced quantitative analysis and trading AI system | `Quantitative` `Trading` `Analysis` | Open Source | 🟢 Fresh | 5.8k |
 | [AI Scientist v2](https://github.com/SakanaAI/AI-Scientist-v2) | The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search | `scientific-discovery` `automated-research` `agentic` | Free | 🔴 Stale | 5.1k |
 | [2026-AI-College-Jobs](https://github.com/speedyapply/2026-AI-College-Jobs) | 2026 AI/ML internship & new graduate job list updated daily | `jobs` `internship` `career` | Open Source | 🟢 Fresh | 5.0k |
 | [reasoning-from-scratch](https://github.com/rasbt/reasoning-from-scratch) | Implement a reasoning LLM in PyTorch from scratch, step by step | `llm` `reasoning` `pytorch` | Open Source | 🟢 Fresh | 4.0k |
