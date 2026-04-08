@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-08T19:36:41.536Z",
+    "last_updated": "2026-04-08T20:30:49.962Z",
     "total_tools": 251,
     "categories": [
       "LLMs & Chatbots",
@@ -14,7 +14,7 @@
       "Agents & Automation",
       "Open Source Models"
     ],
-    "last_freshness_check": "2026-04-06T20:34:45.901Z"
+    "last_freshness_check": "2026-04-08T20:30:49.960Z"
   },
   "tools": [
     {
@@ -26,11 +26,11 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 349961,
+      "stars": 352191,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:32:43Z",
+      "last_commit_date": "2026-04-08T20:20:49Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -46,11 +46,11 @@
         "production"
       ],
       "pricing": "Free",
-      "stars": 183187,
+      "stars": 183243,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:31:14Z",
+      "last_commit_date": "2026-04-08T20:23:56Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -64,11 +64,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 182712,
+      "stars": 183029,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:27:50Z",
+      "last_commit_date": "2026-04-08T19:36:16Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -85,11 +85,11 @@
         "oh-my-codex"
       ],
       "pricing": "Free",
-      "stars": 173549,
+      "stars": 178142,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T09:38:22Z",
+      "last_commit_date": "2026-04-08T19:03:00Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -105,11 +105,11 @@
         "models"
       ],
       "pricing": "Free",
-      "stars": 167612,
+      "stars": 168181,
       "language": "Go",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:24:25Z",
+      "last_commit_date": "2026-04-08T19:11:52Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -125,12 +125,12 @@
         "generation"
       ],
       "pricing": "Free",
-      "stars": 162162,
+      "stars": 162198,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-02T07:00:53Z",
-      "days_since_commit": 35,
+      "days_since_commit": 37,
       "freshness": "🟠 Aging"
     },
     {
@@ -145,11 +145,11 @@
         "huggingface"
       ],
       "pricing": "Free",
-      "stars": 158889,
+      "stars": 159044,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:46:18Z",
+      "last_commit_date": "2026-04-08T20:20:02Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -165,11 +165,11 @@
         "chatgpt"
       ],
       "pricing": "Free",
-      "stars": 157679,
+      "stars": 158250,
       "language": "HTML",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T04:04:42Z",
+      "last_commit_date": "2026-04-08T18:47:06Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -182,11 +182,11 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 154678,
+      "stars": 154760,
       "language": "Java",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T08:29:58Z",
+      "last_commit_date": "2026-04-08T16:13:08Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -203,11 +203,11 @@
         "no-code"
       ],
       "pricing": "Freemium",
-      "stars": 146614,
+      "stars": 146689,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:29:20Z",
+      "last_commit_date": "2026-04-08T20:19:36Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -220,11 +220,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 142500,
+      "stars": 146643,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T03:25:13Z",
+      "last_commit_date": "2026-04-08T20:24:33Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -238,11 +238,11 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 138305,
+      "stars": 139766,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:41:54Z",
+      "last_commit_date": "2026-04-08T19:52:36Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -255,12 +255,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 137322,
+      "stars": 141297,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-02T02:34:37Z",
-      "days_since_commit": 4,
+      "last_commit_date": "2026-04-06T22:48:59Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -276,11 +276,11 @@
         "production"
       ],
       "pricing": "Freemium",
-      "stars": 136410,
+      "stars": 136766,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T13:35:01Z",
+      "last_commit_date": "2026-04-08T15:37:49Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -295,12 +295,12 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 134562,
+      "stars": 134750,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-28T16:58:37Z",
-      "days_since_commit": 9,
+      "days_since_commit": 11,
       "freshness": "🟡 Recent"
     },
     {
@@ -313,11 +313,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 132537,
+      "stars": 132807,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:41:22Z",
+      "last_commit_date": "2026-04-08T19:14:21Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -333,12 +333,12 @@
         "openai"
       ],
       "pricing": "Free",
-      "stars": 130330,
+      "stars": 130719,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-03T04:00:01Z",
-      "days_since_commit": 3,
+      "last_commit_date": "2026-04-08T20:21:55Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -350,13 +350,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 111559,
+      "stars": 113127,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-03-25T15:10:49Z",
-      "days_since_commit": 12,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-04-08T17:01:04Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "claude-code",
@@ -368,12 +368,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 109851,
+      "stars": 111140,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-04T00:42:02Z",
-      "days_since_commit": 2,
+      "last_commit_date": "2026-04-08T04:37:36Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -385,11 +385,11 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 108992,
+      "stars": 109065,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T18:51:14Z",
+      "last_commit_date": "2026-04-08T07:32:12Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -406,11 +406,11 @@
         "modular"
       ],
       "pricing": "Free",
-      "stars": 107921,
+      "stars": 108140,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:13:42Z",
+      "last_commit_date": "2026-04-08T19:03:11Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -427,11 +427,11 @@
         "web-data"
       ],
       "pricing": "Freemium",
-      "stars": 104990,
+      "stars": 105982,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T17:04:12Z",
+      "last_commit_date": "2026-04-08T18:32:53Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -448,12 +448,12 @@
         "collection"
       ],
       "pricing": "Free",
-      "stars": 104642,
+      "stars": 104817,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-01T07:06:35Z",
-      "days_since_commit": 5,
+      "days_since_commit": 7,
       "freshness": "🟢 Fresh"
     },
     {
@@ -469,11 +469,11 @@
         "optimized"
       ],
       "pricing": "Free",
-      "stars": 101955,
+      "stars": 102534,
       "language": "C++",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:08:46Z",
+      "last_commit_date": "2026-04-08T19:35:45Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -487,11 +487,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 100406,
+      "stars": 100628,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:33:03Z",
+      "last_commit_date": "2026-04-08T20:25:20Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -504,11 +504,11 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 100345,
+      "stars": 100490,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:29:34Z",
+      "last_commit_date": "2026-04-08T20:01:56Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -521,12 +521,12 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 94026,
+      "stars": 94046,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-05T02:05:26Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-04-08T16:38:21Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -541,12 +541,12 @@
         "education"
       ],
       "pricing": "Free",
-      "stars": 90142,
+      "stars": 90310,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-06T02:05:07Z",
-      "days_since_commit": 0,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -562,12 +562,12 @@
         "ai-enhancement"
       ],
       "pricing": "Free",
-      "stars": 89082,
+      "stars": 89362,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-05T15:19:17Z",
-      "days_since_commit": 1,
+      "days_since_commit": 3,
       "freshness": "🟢 Fresh"
     },
     {
@@ -582,12 +582,12 @@
         "web"
       ],
       "pricing": "Free",
-      "stars": 86248,
+      "stars": 86526,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T02:01:38Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-07T18:20:28Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -600,11 +600,11 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 86015,
+      "stars": 86041,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:56:30Z",
+      "last_commit_date": "2026-04-08T20:21:31Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -617,11 +617,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 85692,
+      "stars": 85833,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:23:42Z",
+      "last_commit_date": "2026-04-08T19:01:04Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -634,11 +634,11 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 85669,
+      "stars": 86268,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:26:14Z",
+      "last_commit_date": "2026-04-08T19:37:20Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -678,11 +678,11 @@
         "pentesting"
       ],
       "pricing": "Free",
-      "stars": 80038,
+      "stars": 80543,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-06T05:47:02Z",
+      "last_commit_date": "2026-04-08T05:41:10Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -698,12 +698,12 @@
         "tutorial"
       ],
       "pricing": "Free",
-      "stars": 77870,
+      "stars": 77995,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-02-05T13:09:26Z",
-      "days_since_commit": 60,
+      "days_since_commit": 62,
       "freshness": "🟠 Aging"
     },
     {
@@ -718,12 +718,12 @@
         "cross-platform"
       ],
       "pricing": "Free",
-      "stars": 77274,
+      "stars": 77303,
       "language": "C++",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-05-27T20:05:19Z",
-      "days_since_commit": 314,
+      "days_since_commit": 316,
       "freshness": "🔴 Stale"
     },
     {
@@ -739,12 +739,12 @@
         "retrieval"
       ],
       "pricing": "Free",
-      "stars": 77242,
+      "stars": 77469,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-03T13:32:36Z",
-      "days_since_commit": 3,
+      "last_commit_date": "2026-04-08T13:37:08Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -759,11 +759,11 @@
         "optimized"
       ],
       "pricing": "Free",
-      "stars": 75470,
+      "stars": 75736,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:17:16Z",
+      "last_commit_date": "2026-04-08T19:51:52Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -777,12 +777,12 @@
         "llm"
       ],
       "pricing": "Free",
-      "stars": 74988,
+      "stars": 75175,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-06T18:55:58Z",
-      "days_since_commit": 0,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -794,11 +794,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 74813,
+      "stars": 74917,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T18:28:52Z",
+      "last_commit_date": "2026-04-08T18:38:33Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -811,11 +811,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 73464,
+      "stars": 73943,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:26:52Z",
+      "last_commit_date": "2026-04-08T20:21:13Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -829,12 +829,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 72980,
+      "stars": 75736,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-27T05:36:01Z",
-      "days_since_commit": 10,
+      "days_since_commit": 12,
       "freshness": "🟡 Recent"
     },
     {
@@ -849,11 +849,11 @@
         "autonomous"
       ],
       "pricing": "Free",
-      "stars": 70681,
+      "stars": 70834,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:54:32Z",
+      "last_commit_date": "2026-04-08T20:19:30Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -869,12 +869,12 @@
         "training"
       ],
       "pricing": "Free",
-      "stars": 69615,
+      "stars": 69760,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-06T05:14:45Z",
-      "days_since_commit": 0,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -887,11 +887,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 68409,
+      "stars": 68434,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:03:08Z",
+      "last_commit_date": "2026-04-08T19:31:50Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -907,12 +907,12 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 66705,
+      "stars": 66800,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-21T10:12:33Z",
-      "days_since_commit": 75,
+      "days_since_commit": 77,
       "freshness": "🟠 Aging"
     },
     {
@@ -924,12 +924,12 @@
         "free"
       ],
       "pricing": "Free",
-      "stars": 65978,
+      "stars": 65979,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T12:22:26Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-07T15:35:03Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -953,13 +953,13 @@
         "stocks"
       ],
       "pricing": "Open Source",
-      "stars": 65489,
+      "stars": 65595,
       "language": "Python",
       "added_date": "2026-04-05T02:39:59.843Z",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T04:36:14Z",
-      "days_since_commit": 0
+      "last_commit_date": "2026-04-07T19:53:12Z",
+      "days_since_commit": 1
     },
     {
       "name": "crawl4ai",
@@ -971,12 +971,12 @@
         "llm"
       ],
       "pricing": "Free",
-      "stars": 63473,
+      "stars": 63598,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-06T08:26:44Z",
-      "days_since_commit": 0,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -988,11 +988,11 @@
         "llm"
       ],
       "pricing": "Free",
-      "stars": 63416,
+      "stars": 63464,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T05:26:24Z",
+      "last_commit_date": "2026-04-08T17:01:46Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1009,11 +1009,11 @@
         "open-source"
       ],
       "pricing": "Freemium",
-      "stars": 59691,
+      "stars": 60245,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:27:27Z",
+      "last_commit_date": "2026-04-08T13:18:39Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1030,11 +1030,11 @@
         "bytedance"
       ],
       "pricing": "Free",
-      "stars": 58585,
+      "stars": 59537,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T14:16:57Z",
+      "last_commit_date": "2026-04-08T13:39:29Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1050,12 +1050,12 @@
         "multi-agent"
       ],
       "pricing": "Free",
-      "stars": 56753,
+      "stars": 56821,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-02T17:23:44Z",
-      "days_since_commit": 4,
+      "last_commit_date": "2026-04-06T22:35:34Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1070,12 +1070,12 @@
         "llm"
       ],
       "pricing": "Free",
-      "stars": 55093,
+      "stars": 55284,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-03T12:59:31Z",
-      "days_since_commit": 3,
+      "last_commit_date": "2026-04-08T04:50:47Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1090,11 +1090,11 @@
         "rag"
       ],
       "pricing": "Freemium",
-      "stars": 52090,
+      "stars": 52321,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T16:02:44Z",
+      "last_commit_date": "2026-04-08T17:57:33Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1108,11 +1108,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 51609,
+      "stars": 51660,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:24:02Z",
+      "last_commit_date": "2026-04-08T19:24:26Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1125,12 +1125,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 49063,
+      "stars": 49077,
       "language": "Ruby",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-05T16:06:18Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-04-08T16:39:26Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1145,12 +1145,12 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 49033,
+      "stars": 50245,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-01T13:00:52Z",
-      "days_since_commit": 5,
+      "last_commit_date": "2026-04-07T22:15:12Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1166,12 +1166,12 @@
         "multi-agent"
       ],
       "pricing": "Free",
-      "stars": 47839,
+      "stars": 48588,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-04T08:14:02Z",
-      "days_since_commit": 2,
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1183,12 +1183,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 46194,
+      "stars": 46222,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-05T02:46:33Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-04-08T14:33:35Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1203,12 +1203,12 @@
         "enterprise"
       ],
       "pricing": "Freemium",
-      "stars": 45743,
+      "stars": 45773,
       "language": "Java",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-04T06:20:19Z",
-      "days_since_commit": 2,
+      "last_commit_date": "2026-04-07T04:26:50Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1220,11 +1220,11 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 44921,
+      "stars": 44951,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:32:10Z",
+      "last_commit_date": "2026-04-08T19:57:20Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1237,11 +1237,11 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 42681,
+      "stars": 42748,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T16:22:44Z",
+      "last_commit_date": "2026-04-08T06:06:18Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1254,11 +1254,11 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 41320,
+      "stars": 41338,
       "language": "Ruby",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T18:27:18Z",
+      "last_commit_date": "2026-04-08T10:16:39Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1271,11 +1271,11 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 39544,
+      "stars": 39560,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:16:24Z",
+      "last_commit_date": "2026-04-08T15:53:44Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1289,12 +1289,12 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 39301,
+      "stars": 39344,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-02T01:57:49Z",
-      "days_since_commit": 4,
+      "days_since_commit": 6,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1309,12 +1309,12 @@
         "dialogue"
       ],
       "pricing": "Free",
-      "stars": 39016,
+      "stars": 39038,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-18T05:30:01Z",
-      "days_since_commit": 78,
+      "days_since_commit": 80,
       "freshness": "🟠 Aging"
     },
     {
@@ -1335,12 +1335,12 @@
         "grok"
       ],
       "pricing": "Free",
-      "stars": 37594,
+      "stars": 37953,
       "language": null,
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-03T16:13:32Z",
-      "days_since_commit": 3,
+      "last_commit_date": "2026-04-08T17:09:55Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1373,11 +1373,11 @@
         "frontend"
       ],
       "pricing": "Free",
-      "stars": 36818,
+      "stars": 37617,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T15:31:42Z",
+      "last_commit_date": "2026-04-08T14:48:29Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1393,12 +1393,12 @@
         "no-code"
       ],
       "pricing": "Freemium",
-      "stars": 35939,
+      "stars": 35951,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-04-29T01:19:32Z",
-      "days_since_commit": 342,
+      "days_since_commit": 344,
       "freshness": "🔴 Stale"
     },
     {
@@ -1410,12 +1410,12 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 34839,
+      "stars": 35068,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-05T20:07:56Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-04-08T11:30:03Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1427,11 +1427,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 34187,
+      "stars": 34191,
       "language": "Java",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T17:09:35Z",
+      "last_commit_date": "2026-04-08T18:21:06Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1447,13 +1447,13 @@
         "chinese"
       ],
       "pricing": "Free",
-      "stars": 33949,
+      "stars": 34603,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-30T09:37:31Z",
-      "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 9,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "Khoj",
@@ -1467,12 +1467,12 @@
         "rag"
       ],
       "pricing": "Freemium",
-      "stars": 33903,
+      "stars": 33957,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-26T03:35:43Z",
-      "days_since_commit": 11,
+      "days_since_commit": 13,
       "freshness": "🟡 Recent"
     },
     {
@@ -1484,12 +1484,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 33069,
+      "stars": 33180,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-03T21:05:57Z",
-      "days_since_commit": 2,
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1504,11 +1504,11 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 32329,
+      "stars": 32379,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T09:30:27Z",
+      "last_commit_date": "2026-04-08T16:57:00Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1525,11 +1525,11 @@
         "angular"
       ],
       "pricing": "Freemium",
-      "stars": 30014,
+      "stars": 30075,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:11:32Z",
+      "last_commit_date": "2026-04-08T20:25:25Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1550,11 +1550,11 @@
         "personal-assistant"
       ],
       "pricing": "Free",
-      "stars": 29601,
+      "stars": 29788,
       "language": "Rust",
       "added_date": "2026-04-05",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:15:30Z",
+      "last_commit_date": "2026-04-08T20:13:53Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1570,11 +1570,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 29149,
+      "stars": 29369,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T17:20:53Z",
+      "last_commit_date": "2026-04-08T13:51:31Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1587,12 +1587,12 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 29009,
+      "stars": 29016,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-05T09:57:29Z",
-      "days_since_commit": 1,
+      "days_since_commit": 3,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1604,12 +1604,12 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 28561,
+      "stars": 28855,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-04T15:13:48Z",
-      "days_since_commit": 2,
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1624,12 +1624,12 @@
         "chinese"
       ],
       "pricing": "Free",
-      "stars": 28445,
+      "stars": 28539,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-16T02:21:33Z",
-      "days_since_commit": 21,
+      "days_since_commit": 23,
       "freshness": "🟡 Recent"
     },
     {
@@ -1662,12 +1662,12 @@
         "automation"
       ],
       "pricing": "Free",
-      "stars": 28235,
+      "stars": 28625,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-05T03:35:01Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-04-08T15:03:14Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1688,11 +1688,11 @@
         "hermes"
       ],
       "pricing": "Free",
-      "stars": 27840,
+      "stars": 37008,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:20:01Z",
+      "last_commit_date": "2026-04-08T19:22:37Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1706,11 +1706,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 27806,
+      "stars": 27810,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T19:56:09Z",
+      "last_commit_date": "2026-04-08T16:33:11Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1726,11 +1726,11 @@
         "open-source"
       ],
       "pricing": "Freemium",
-      "stars": 27626,
+      "stars": 27653,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T14:10:42Z",
+      "last_commit_date": "2026-04-08T10:15:20Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1744,11 +1744,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 27606,
+      "stars": 27629,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:28:22Z",
+      "last_commit_date": "2026-04-08T20:25:17Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1788,11 +1788,11 @@
         "nextjs"
       ],
       "pricing": "Free",
-      "stars": 25414,
+      "stars": 26026,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:33:04Z",
+      "last_commit_date": "2026-04-08T20:18:44Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1805,12 +1805,12 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 25411,
+      "stars": 25476,
       "language": "C++",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-03T06:14:35Z",
-      "days_since_commit": 3,
+      "last_commit_date": "2026-04-08T02:12:56Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1822,12 +1822,12 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 25252,
+      "stars": 25255,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-03T11:28:24Z",
-      "days_since_commit": 3,
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1861,11 +1861,11 @@
         "claude-code"
       ],
       "pricing": "Free",
-      "stars": 24984,
+      "stars": 26264,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T14:30:43Z",
+      "last_commit_date": "2026-04-08T17:58:09Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1901,11 +1901,11 @@
         "free"
       ],
       "pricing": "Free",
-      "stars": 23802,
+      "stars": 26013,
       "language": "TypeScript",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-06T05:56:56Z",
+      "last_commit_date": "2026-04-08T05:40:15Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1920,11 +1920,11 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 23141,
+      "stars": 23263,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:03:39Z",
+      "last_commit_date": "2026-04-08T19:51:44Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1937,12 +1937,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 23057,
+      "stars": 23182,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-02T04:08:34Z",
-      "days_since_commit": 4,
+      "last_commit_date": "2026-04-08T09:24:32Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1954,12 +1954,12 @@
         "ai-tools"
       ],
       "pricing": "Free",
-      "stars": 21876,
+      "stars": 34504,
       "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T16:20:28Z",
+      "last_commit_date": "2026-04-08T17:59:54Z",
       "days_since_commit": 0
     },
     {
@@ -1992,11 +1992,11 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 21234,
+      "stars": 23180,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:19:51Z",
+      "last_commit_date": "2026-04-08T13:58:16Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2010,11 +2010,11 @@
         "free"
       ],
       "pricing": "Free",
-      "stars": 21112,
+      "stars": 21273,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T17:59:47Z",
+      "last_commit_date": "2026-04-08T19:18:48Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2030,12 +2030,12 @@
         "free"
       ],
       "pricing": "Free",
-      "stars": 20899,
+      "stars": 20954,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-24T20:13:36Z",
-      "days_since_commit": 13,
+      "days_since_commit": 15,
       "freshness": "🟡 Recent"
     },
     {
@@ -2047,12 +2047,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 20651,
+      "stars": 20677,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-03T13:49:06Z",
-      "days_since_commit": 3,
+      "last_commit_date": "2026-04-08T11:12:51Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2065,12 +2065,12 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 20414,
+      "stars": 20443,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-03T00:56:20Z",
-      "days_since_commit": 3,
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2083,12 +2083,12 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 20048,
+      "stars": 20053,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-01T22:11:39Z",
-      "days_since_commit": 4,
+      "days_since_commit": 6,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2106,12 +2106,12 @@
         "synthesis"
       ],
       "pricing": "Free",
-      "stars": 19102,
+      "stars": 19705,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-03-30T13:22:38Z",
-      "days_since_commit": 7,
+      "last_commit_date": "2026-04-08T18:12:07Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2123,11 +2123,11 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 18109,
+      "stars": 18129,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T03:51:00Z",
+      "last_commit_date": "2026-04-08T20:21:02Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2143,12 +2143,12 @@
         "productivity"
       ],
       "pricing": "Open Source",
-      "stars": 18043,
+      "stars": 18077,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T20:12:57Z",
+      "last_commit_date": "2026-04-08T19:31:07Z",
       "days_since_commit": 0
     },
     {
@@ -2161,12 +2161,12 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 17782,
+      "stars": 19583,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T16:43:10Z",
+      "last_commit_date": "2026-04-08T18:51:25Z",
       "days_since_commit": 0
     },
     {
@@ -2200,11 +2200,11 @@
         "enhancement"
       ],
       "pricing": "Free",
-      "stars": 17396,
+      "stars": 19002,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T17:03:55Z",
+      "last_commit_date": "2026-04-08T15:05:16Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2217,11 +2217,11 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 17138,
+      "stars": 17146,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T05:21:04Z",
+      "last_commit_date": "2026-04-08T19:56:58Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2236,13 +2236,13 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 16488,
+      "stars": 16505,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-03-29T03:25:23Z",
-      "days_since_commit": 8,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-04-06T22:17:31Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ai-pdf-chatbot-langchain",
@@ -2255,12 +2255,12 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 16436,
+      "stars": 16434,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-27T16:04:05Z",
-      "days_since_commit": 10,
+      "days_since_commit": 12,
       "freshness": "🟡 Recent"
     },
     {
@@ -2291,12 +2291,12 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 15151,
+      "stars": 15634,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
       "last_commit_date": "2026-04-03T00:26:33Z",
-      "days_since_commit": 3,
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2312,13 +2312,13 @@
         "memory-layer"
       ],
       "pricing": "Open Source",
-      "stars": 14480,
+      "stars": 14735,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-03-16T13:23:51Z",
-      "days_since_commit": 21
+      "days_since_commit": 23
     },
     {
       "name": "claude-code-best",
@@ -2333,11 +2333,11 @@
         "enterprise"
       ],
       "pricing": "Free",
-      "stars": 14157,
+      "stars": 14845,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T15:57:03Z",
+      "last_commit_date": "2026-04-08T15:46:30Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2352,13 +2352,13 @@
         "research"
       ],
       "pricing": "Free",
-      "stars": 14025,
+      "stars": 14051,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-02-17T15:15:21Z",
-      "days_since_commit": 48,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-04-08T17:22:27Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "codex-plugin-cc",
@@ -2373,12 +2373,12 @@
         "openai"
       ],
       "pricing": "Free",
-      "stars": 12240,
+      "stars": 12924,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-03-31T20:04:25Z",
-      "days_since_commit": 6,
+      "last_commit_date": "2026-04-08T05:12:15Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2393,12 +2393,12 @@
         "guide"
       ],
       "pricing": "Free",
-      "stars": 11515,
+      "stars": 11517,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2024-11-05T10:24:21Z",
-      "days_since_commit": 517,
+      "days_since_commit": 519,
       "freshness": "🔴 Stale"
     },
     {
@@ -2411,13 +2411,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 11390,
+      "stars": 11508,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-01T10:55:06Z",
-      "days_since_commit": 5
+      "days_since_commit": 7
     },
     {
       "name": "Portkey AI Gateway",
@@ -2433,12 +2433,12 @@
         "enterprise"
       ],
       "pricing": "Freemium",
-      "stars": 11218,
+      "stars": 11246,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-25T09:33:55Z",
-      "days_since_commit": 12,
+      "days_since_commit": 14,
       "freshness": "🟡 Recent"
     },
     {
@@ -2454,12 +2454,12 @@
         "evaluation"
       ],
       "pricing": "Open Source",
-      "stars": 11185,
+      "stars": 11187,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T20:23:13Z",
+      "last_commit_date": "2026-04-08T20:26:51Z",
       "days_since_commit": 0
     },
     {
@@ -2473,12 +2473,12 @@
         "desktop"
       ],
       "pricing": "Free",
-      "stars": 8833,
+      "stars": 8832,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-02-04T12:11:52Z",
-      "days_since_commit": 61,
+      "days_since_commit": 63,
       "freshness": "🟠 Aging"
     },
     {
@@ -2494,13 +2494,13 @@
         "development"
       ],
       "pricing": "Free",
-      "stars": 8509,
+      "stars": 8648,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-31T08:30:55Z",
-      "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 8,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "claurst",
@@ -2513,12 +2513,12 @@
         "rust"
       ],
       "pricing": "Free",
-      "stars": 8489,
+      "stars": 8760,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T17:56:04Z",
+      "last_commit_date": "2026-04-08T18:40:53Z",
       "days_since_commit": 0
     },
     {
@@ -2534,12 +2534,12 @@
         "transformation"
       ],
       "pricing": "Free",
-      "stars": 8480,
+      "stars": 10805,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-05T12:38:45Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-04-08T12:26:58Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2555,11 +2555,11 @@
         "wordpress-alternative"
       ],
       "pricing": "Free",
-      "stars": 7764,
+      "stars": 8447,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:13:40Z",
+      "last_commit_date": "2026-04-08T19:47:12Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2574,12 +2574,12 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 6164,
+      "stars": 7704,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T13:53:19Z",
+      "last_commit_date": "2026-04-08T15:10:09Z",
       "days_since_commit": 0
     },
     {
@@ -2593,12 +2593,12 @@
         "community"
       ],
       "pricing": "Free",
-      "stars": 5788,
+      "stars": 5795,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T14:37:45Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-07T01:43:00Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2614,12 +2614,12 @@
         "code"
       ],
       "pricing": "Open Source",
-      "stars": 5554,
+      "stars": 5575,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T19:14:05Z",
+      "last_commit_date": "2026-04-08T19:41:19Z",
       "days_since_commit": 0
     },
     {
@@ -2633,12 +2633,12 @@
         "agent-tools"
       ],
       "pricing": "Free",
-      "stars": 5370,
+      "stars": 5380,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-09-04T20:04:17Z",
-      "days_since_commit": 214,
+      "days_since_commit": 216,
       "freshness": "🔴 Stale"
     },
     {
@@ -2662,12 +2662,12 @@
         "education"
       ],
       "pricing": "Free",
-      "stars": 5304,
+      "stars": 5314,
       "language": null,
       "added_date": "2026-04-05",
       "verified": true,
       "last_commit_date": "2026-02-05T02:34:40Z",
-      "days_since_commit": 60,
+      "days_since_commit": 62,
       "freshness": "🟠 Aging"
     },
     {
@@ -2681,13 +2681,13 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 5193,
+      "stars": 5326,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-04T08:21:12Z",
-      "days_since_commit": 2
+      "days_since_commit": 4
     },
     {
       "name": "open-multi-agent",
@@ -2699,12 +2699,12 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 5155,
+      "stars": 5393,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T19:42:31Z",
+      "last_commit_date": "2026-04-08T19:30:01Z",
       "days_since_commit": 0
     },
     {
@@ -2720,12 +2720,12 @@
         "sakana-ai"
       ],
       "pricing": "Free",
-      "stars": 5089,
+      "stars": 5283,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-12-19T07:46:32Z",
-      "days_since_commit": 108,
+      "days_since_commit": 110,
       "freshness": "🔴 Stale"
     },
     {
@@ -2741,12 +2741,12 @@
         "ai"
       ],
       "pricing": "Open Source",
-      "stars": 5026,
+      "stars": 5037,
       "language": null,
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T13:22:52Z",
+      "last_commit_date": "2026-04-08T13:45:29Z",
       "days_since_commit": 0
     },
     {
@@ -2761,11 +2761,11 @@
         "computer-use"
       ],
       "pricing": "Free",
-      "stars": 5020,
+      "stars": 5040,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T17:38:45Z",
+      "last_commit_date": "2026-04-08T16:40:09Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2782,13 +2782,13 @@
         "node"
       ],
       "pricing": "Open Source",
-      "stars": 5003,
+      "stars": 5001,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-10-13T03:27:09Z",
-      "days_since_commit": 175
+      "days_since_commit": 177
     },
     {
       "name": " TaxHacker",
@@ -2826,12 +2826,12 @@
         "openai"
       ],
       "pricing": "Free",
-      "stars": 4807,
+      "stars": 4968,
       "language": "TypeScript",
       "added_date": "2026-04-04",
       "verified": true,
       "last_commit_date": "2026-04-04T13:39:39Z",
-      "days_since_commit": 2,
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2846,12 +2846,12 @@
         "integration"
       ],
       "pricing": "Freemium",
-      "stars": 4749,
+      "stars": 4752,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-08T15:35:45Z",
-      "days_since_commit": 88,
+      "days_since_commit": 90,
       "freshness": "🟠 Aging"
     },
     {
@@ -2873,7 +2873,7 @@
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T20:27:23Z",
+      "last_commit_date": "2026-04-08T18:26:51Z",
       "days_since_commit": 0
     },
     {
@@ -2889,13 +2889,13 @@
         "huggingface"
       ],
       "pricing": "Open Source",
-      "stars": 4638,
+      "stars": 4640,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-03T16:06:40Z",
-      "days_since_commit": 3
+      "last_commit_date": "2026-04-08T15:36:10Z",
+      "days_since_commit": 0
     },
     {
       "name": "AdalFlow",
@@ -2910,13 +2910,13 @@
         "library"
       ],
       "pricing": "Open Source",
-      "stars": 4096,
+      "stars": 4097,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-03-15T00:12:53Z",
-      "days_since_commit": 22
+      "days_since_commit": 24
     },
     {
       "name": "bRAG-langchain",
@@ -2931,13 +2931,13 @@
         "application"
       ],
       "pricing": "Open Source",
-      "stars": 4074,
+      "stars": 4075,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-11-22T07:26:48Z",
-      "days_since_commit": 135
+      "days_since_commit": 137
     },
     {
       "name": "reasoning-from-scratch",
@@ -2952,13 +2952,13 @@
         "implementation"
       ],
       "pricing": "Open Source",
-      "stars": 4027,
+      "stars": 4050,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-01T17:37:02Z",
-      "days_since_commit": 5
+      "last_commit_date": "2026-04-08T01:58:14Z",
+      "days_since_commit": 0
     },
     {
       "name": "LLM-RL-Visualized",
@@ -2973,13 +2973,13 @@
         "maps"
       ],
       "pricing": "Open Source",
-      "stars": 3964,
+      "stars": 3994,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T14:02:55Z",
-      "days_since_commit": 3
+      "days_since_commit": 5
     },
     {
       "name": "SwarmUI",
@@ -2994,12 +2994,12 @@
         "interface"
       ],
       "pricing": "Open Source",
-      "stars": 3933,
+      "stars": 3946,
       "language": "C#",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T16:10:05Z",
+      "last_commit_date": "2026-04-07T21:36:36Z",
       "days_since_commit": 0
     },
     {
@@ -3016,11 +3016,11 @@
         "gateway"
       ],
       "pricing": "Free",
-      "stars": 3914,
+      "stars": 4001,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-05T08:35:12Z",
+      "last_commit_date": "2026-04-07T03:56:13Z",
       "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
@@ -3037,11 +3037,11 @@
         "ibm"
       ],
       "pricing": "Free",
-      "stars": 3529,
+      "stars": 3538,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T20:15:36Z",
+      "last_commit_date": "2026-04-08T19:48:16Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3056,12 +3056,12 @@
         "feedback"
       ],
       "pricing": "Free",
-      "stars": 3308,
+      "stars": 3325,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-25T16:23:39Z",
-      "days_since_commit": 12,
+      "days_since_commit": 14,
       "freshness": "🟡 Recent"
     },
     {
@@ -3074,12 +3074,12 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 2936,
+      "stars": 3688,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T15:36:58Z",
+      "last_commit_date": "2026-04-08T16:46:35Z",
       "days_since_commit": 0
     },
     {
@@ -3095,12 +3095,12 @@
         "multimodal"
       ],
       "pricing": "Open Source",
-      "stars": 2736,
+      "stars": 2737,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T19:45:47Z",
+      "last_commit_date": "2026-04-08T18:56:46Z",
       "days_since_commit": 0
     },
     {
@@ -3114,12 +3114,12 @@
         "services"
       ],
       "pricing": "Free",
-      "stars": 2728,
+      "stars": 2781,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-04T19:16:06Z",
-      "days_since_commit": 2,
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3133,13 +3133,13 @@
         "ecosystem"
       ],
       "pricing": "Free",
-      "stars": 2703,
+      "stars": 2709,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-01-07T06:50:09Z",
-      "days_since_commit": 89,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-04-08T09:03:36Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "One-Person Company AI Tools",
@@ -3152,12 +3152,12 @@
         "entrepreneurship"
       ],
       "pricing": "Free",
-      "stars": 2679,
+      "stars": 2680,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-05-08T08:34:16Z",
-      "days_since_commit": 333,
+      "days_since_commit": 335,
       "freshness": "🔴 Stale"
     },
     {
@@ -3173,13 +3173,13 @@
         "ai"
       ],
       "pricing": "Open Source",
-      "stars": 2557,
+      "stars": 2558,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟠 Aging",
       "last_commit_date": "2026-03-06T11:41:05Z",
-      "days_since_commit": 31
+      "days_since_commit": 33
     },
     {
       "name": "Markdownify MCP",
@@ -3192,12 +3192,12 @@
         "conversion"
       ],
       "pricing": "Free",
-      "stars": 2551,
+      "stars": 2555,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-03T15:44:53Z",
-      "days_since_commit": 3,
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3211,13 +3211,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 2423,
+      "stars": 2528,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-02T10:50:07Z",
-      "days_since_commit": 4
+      "days_since_commit": 6
     },
     {
       "name": "open-agent-sdk-typescript",
@@ -3230,13 +3230,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 2390,
+      "stars": 2484,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T16:25:16Z",
-      "days_since_commit": 3
+      "days_since_commit": 5
     },
     {
       "name": "claude-code-book",
@@ -3248,13 +3248,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 2175,
+      "stars": 2415,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-06T07:22:38Z",
-      "days_since_commit": 0
+      "days_since_commit": 2
     },
     {
       "name": "agentic-ai-prompt-research",
@@ -3266,13 +3266,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 2169,
+      "stars": 2243,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "🟡 Recent",
       "last_commit_date": "2026-03-31T19:04:33Z",
-      "days_since_commit": 6
+      "days_since_commit": 8
     },
     {
       "name": "agentic-context-engine",
@@ -3287,13 +3287,13 @@
         "ai"
       ],
       "pricing": "Open Source",
-      "stars": 2117,
+      "stars": 2128,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-05T14:15:29Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-04-08T17:33:45Z",
+      "days_since_commit": 0
     },
     {
       "name": "ai-renamer",
@@ -3308,13 +3308,13 @@
         "file-rename"
       ],
       "pricing": "Open Source",
-      "stars": 2072,
+      "stars": 2073,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-02-09T14:58:12Z",
-      "days_since_commit": 421
+      "days_since_commit": 423
     },
     {
       "name": "model2vec",
@@ -3329,13 +3329,13 @@
         "ml"
       ],
       "pricing": "Open Source",
-      "stars": 2020,
+      "stars": 2021,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T12:40:51Z",
-      "days_since_commit": 3
+      "days_since_commit": 5
     },
     {
       "name": "humanoid-gym",
@@ -3350,13 +3350,13 @@
         "humanoid"
       ],
       "pricing": "Open Source",
-      "stars": 1929,
+      "stars": 1934,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-01-26T08:11:29Z",
-      "days_since_commit": 435
+      "days_since_commit": 437
     },
     {
       "name": "AI Products All-In-One",
@@ -3369,12 +3369,12 @@
         "generative-ai"
       ],
       "pricing": "Free",
-      "stars": 1782,
+      "stars": 1781,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2024-01-14T02:05:56Z",
-      "days_since_commit": 813,
+      "days_since_commit": 815,
       "freshness": "🔴 Stale"
     },
     {
@@ -3388,13 +3388,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 1744,
+      "stars": 2013,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-04T21:25:14Z",
-      "days_since_commit": 1
+      "days_since_commit": 3
     },
     {
       "name": "claude-code",
@@ -3407,13 +3407,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 1716,
+      "stars": 1875,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-02T10:14:21Z",
-      "days_since_commit": 4
+      "last_commit_date": "2026-04-07T11:08:19Z",
+      "days_since_commit": 1
     },
     {
       "name": "ai-marketing-skills",
@@ -3426,13 +3426,13 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 1536,
+      "stars": 1666,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-06T04:33:12Z",
-      "days_since_commit": 0
+      "days_since_commit": 2
     },
     {
       "name": "wecom-cli",
@@ -3444,13 +3444,13 @@
         "rust"
       ],
       "pricing": "Free",
-      "stars": 1531,
+      "stars": 1591,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-02T08:14:34Z",
-      "days_since_commit": 4
+      "days_since_commit": 6
     },
     {
       "name": "how-claude-code-works",
@@ -3462,13 +3462,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 1531,
+      "stars": 1635,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T07:51:34Z",
-      "days_since_commit": 3
+      "days_since_commit": 5
     },
     {
       "name": "ExtractThinker",
@@ -3483,13 +3483,13 @@
         "workflow"
       ],
       "pricing": "Open Source",
-      "stars": 1528,
+      "stars": 1527,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-08-27T23:06:09Z",
-      "days_since_commit": 221
+      "days_since_commit": 223
     },
     {
       "name": "rocketride-server",
@@ -3505,12 +3505,12 @@
         "scalable"
       ],
       "pricing": "Open Source",
-      "stars": 1523,
+      "stars": 1608,
       "language": "C++",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T20:20:42Z",
+      "last_commit_date": "2026-04-08T20:18:23Z",
       "days_since_commit": 0
     },
     {
@@ -3526,13 +3526,13 @@
         "llm"
       ],
       "pricing": "Open Source",
-      "stars": 1391,
+      "stars": 1393,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-02-09T10:06:29Z",
-      "days_since_commit": 421
+      "days_since_commit": 423
     },
     {
       "name": "Terminator",
@@ -3555,12 +3555,12 @@
         "automation"
       ],
       "pricing": "Free",
-      "stars": 1388,
+      "stars": 1392,
       "language": "Rust",
       "added_date": "2026-04-05",
       "verified": true,
       "last_commit_date": "2026-04-05T17:29:10Z",
-      "days_since_commit": 1,
+      "days_since_commit": 3,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3574,13 +3574,13 @@
         "mobile"
       ],
       "pricing": "Free",
-      "stars": 1300,
+      "stars": 1304,
       "language": "Kotlin",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-30T01:51:53Z",
-      "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 9,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "claude-code",
@@ -3593,13 +3593,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 1293,
+      "stars": 1336,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "🟡 Recent",
       "last_commit_date": "2026-03-31T10:03:46Z",
-      "days_since_commit": 6
+      "days_since_commit": 8
     },
     {
       "name": "Edit Mind",
@@ -3624,7 +3624,7 @@
       "added_date": "2026-04-05",
       "verified": true,
       "last_commit_date": "2026-04-06T09:08:23Z",
-      "days_since_commit": 0,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3646,7 +3646,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-01T13:18:03Z",
-      "days_since_commit": 5
+      "days_since_commit": 7
     },
     {
       "name": "AutoResearch MLX",
@@ -3664,12 +3664,12 @@
         "autoresearch"
       ],
       "pricing": "Free",
-      "stars": 1244,
+      "stars": 1274,
       "language": "Python",
       "added_date": "2026-04-05",
       "verified": true,
       "last_commit_date": "2026-03-10T22:30:24Z",
-      "days_since_commit": 26,
+      "days_since_commit": 28,
       "freshness": "🟡 Recent"
     },
     {
@@ -3681,13 +3681,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 1224,
+      "stars": 1417,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-04T00:27:04Z",
-      "days_since_commit": 2
+      "days_since_commit": 4
     },
     {
       "name": "claude-reviews-claude",
@@ -3700,13 +3700,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 1215,
+      "stars": 1250,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-01T19:52:40Z",
-      "days_since_commit": 5
+      "days_since_commit": 7
     },
     {
       "name": "aideml",
@@ -3721,13 +3721,13 @@
         "ml-engineering"
       ],
       "pricing": "Open Source",
-      "stars": 1208,
+      "stars": 1213,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟠 Aging",
       "last_commit_date": "2026-02-12T13:02:34Z",
-      "days_since_commit": 53
+      "days_since_commit": 55
     },
     {
       "name": "EmbedAnything",
@@ -3742,13 +3742,13 @@
         "production"
       ],
       "pricing": "Open Source",
-      "stars": 1177,
+      "stars": 1178,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-03-11T10:12:08Z",
-      "days_since_commit": 26
+      "days_since_commit": 28
     },
     {
       "name": "Awesome AI SDKs",
@@ -3762,12 +3762,12 @@
         "database"
       ],
       "pricing": "Free",
-      "stars": 1158,
+      "stars": 1157,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-02-26T10:07:19Z",
-      "days_since_commit": 404,
+      "days_since_commit": 406,
       "freshness": "🔴 Stale"
     },
     {
@@ -3783,12 +3783,12 @@
         "ai"
       ],
       "pricing": "Open Source",
-      "stars": 1157,
+      "stars": 1155,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T19:30:28Z",
+      "last_commit_date": "2026-04-08T20:26:51Z",
       "days_since_commit": 0
     },
     {
@@ -3802,13 +3802,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 1151,
+      "stars": 1229,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T18:06:17Z",
-      "days_since_commit": 0
+      "last_commit_date": "2026-04-06T22:06:33Z",
+      "days_since_commit": 1
     },
     {
       "name": "SAG",
@@ -3823,13 +3823,13 @@
         "query"
       ],
       "pricing": "Open Source",
-      "stars": 1124,
+      "stars": 1123,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-12-08T06:25:08Z",
-      "days_since_commit": 119
+      "days_since_commit": 121
     },
     {
       "name": "nightingale",
@@ -3844,12 +3844,12 @@
         "audio"
       ],
       "pricing": "Open Source",
-      "stars": 989,
+      "stars": 990,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-06T19:08:31Z",
+      "last_commit_date": "2026-04-08T17:31:20Z",
       "days_since_commit": 0
     },
     {
@@ -3863,12 +3863,12 @@
         "notebooks"
       ],
       "pricing": "Free",
-      "stars": 988,
+      "stars": 1001,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-05T08:42:52Z",
-      "days_since_commit": 1,
+      "days_since_commit": 3,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3887,8 +3887,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-06T09:40:33Z",
-      "days_since_commit": 90,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 92,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "MTools",
@@ -3903,12 +3903,12 @@
         "ai-enhancement"
       ],
       "pricing": "Free",
-      "stars": 975,
+      "stars": 979,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-06T12:57:25Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-07T11:12:39Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3921,13 +3921,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 959,
+      "stars": 1050,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-02T11:36:32Z",
-      "days_since_commit": 4
+      "days_since_commit": 6
     },
     {
       "name": "thereisnospoon",
@@ -3939,13 +3939,13 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 934,
+      "stars": 995,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "🟡 Recent",
       "last_commit_date": "2026-03-29T21:33:57Z",
-      "days_since_commit": 7
+      "days_since_commit": 9
     },
     {
       "name": "mcpm.sh",
@@ -3958,12 +3958,12 @@
         "cli"
       ],
       "pricing": "Free",
-      "stars": 920,
+      "stars": 923,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-27T06:06:08Z",
-      "days_since_commit": 10,
+      "days_since_commit": 12,
       "freshness": "🟡 Recent"
     },
     {
@@ -3976,13 +3976,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 883,
+      "stars": 890,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-02T18:23:15Z",
-      "days_since_commit": 4
+      "days_since_commit": 6
     },
     {
       "name": "claude-md",
@@ -3994,13 +3994,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 852,
+      "stars": 877,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-03T22:28:25Z",
-      "days_since_commit": 2
+      "days_since_commit": 4
     },
     {
       "name": "deepfabric",
@@ -4021,7 +4021,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-02T19:44:26Z",
-      "days_since_commit": 4
+      "days_since_commit": 6
     },
     {
       "name": "claude-code-prompts",
@@ -4033,13 +4033,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 805,
+      "stars": 873,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-01T19:14:18Z",
-      "days_since_commit": 5
+      "days_since_commit": 7
     },
     {
       "name": "claude-code-from-scratch",
@@ -4052,13 +4052,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 757,
+      "stars": 812,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-04T16:00:29Z",
-      "days_since_commit": 2
+      "days_since_commit": 4
     },
     {
       "name": "cc-mini",
@@ -4071,13 +4071,13 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 708,
+      "stars": 753,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-03T11:57:47Z",
-      "days_since_commit": 3
+      "last_commit_date": "2026-04-07T09:45:43Z",
+      "days_since_commit": 1
     },
     {
       "name": "Claude Code Design Guide",
@@ -4093,12 +4093,12 @@
         "development"
       ],
       "pricing": "Free",
-      "stars": 657,
+      "stars": 688,
       "language": "JavaScript",
       "added_date": "2026-04-04",
       "verified": true,
       "last_commit_date": "2026-04-02T12:10:38Z",
-      "days_since_commit": 4,
+      "days_since_commit": 6,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4118,7 +4118,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-08-01T03:45:07Z",
-      "days_since_commit": 248,
+      "days_since_commit": 250,
       "freshness": "🔴 Stale"
     },
     {
@@ -4130,13 +4130,13 @@
         "automation"
       ],
       "pricing": "Free",
-      "stars": 632,
+      "stars": 583,
       "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "🟡 Recent",
       "last_commit_date": "2026-03-31T04:13:31Z",
-      "days_since_commit": 6
+      "days_since_commit": 8
     },
     {
       "name": "clawgod",
@@ -4153,11 +4153,11 @@
         "patch"
       ],
       "pricing": "Free",
-      "stars": 598,
+      "stars": 641,
       "language": "PowerShell",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-06T03:04:51Z",
+      "last_commit_date": "2026-04-08T13:55:49Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4177,7 +4177,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2023-03-29T01:03:49Z",
-      "days_since_commit": 1104,
+      "days_since_commit": 1106,
       "freshness": "🔴 Stale"
     },
     {
@@ -4191,13 +4191,13 @@
         "coding"
       ],
       "pricing": "Free",
-      "stars": 564,
+      "stars": 565,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-07T16:22:18Z",
-      "days_since_commit": 89,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 91,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "AI Infinity",
@@ -4214,7 +4214,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-02-17T15:29:32Z",
-      "days_since_commit": 48,
+      "days_since_commit": 50,
       "freshness": "🟠 Aging"
     },
     {
@@ -4229,12 +4229,12 @@
         "crewai"
       ],
       "pricing": "Free",
-      "stars": 466,
+      "stars": 467,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-02-19T09:40:49Z",
-      "days_since_commit": 411,
+      "days_since_commit": 413,
       "freshness": "🔴 Stale"
     },
     {
@@ -4253,7 +4253,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-09-11T14:09:23Z",
-      "days_since_commit": 207,
+      "days_since_commit": 209,
       "freshness": "🔴 Stale"
     },
     {
@@ -4271,7 +4271,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2023-06-02T19:29:08Z",
-      "days_since_commit": 1039,
+      "days_since_commit": 1041,
       "freshness": "🔴 Stale"
     },
     {
@@ -4289,7 +4289,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2024-07-11T13:03:36Z",
-      "days_since_commit": 634,
+      "days_since_commit": 636,
       "freshness": "🔴 Stale"
     },
     {
@@ -4308,11 +4308,11 @@
         "data-extraction"
       ],
       "pricing": "Freemium",
-      "stars": 105447,
+      "stars": 105984,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-07T19:35:30Z",
+      "last_commit_date": "2026-04-08T18:32:53Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4331,12 +4331,12 @@
         "gemini"
       ],
       "pricing": "Free",
-      "stars": 104728,
+      "stars": 104817,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-07T19:34:04Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-01T07:06:35Z",
+      "days_since_commit": 7,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4354,11 +4354,11 @@
         "data-visualization"
       ],
       "pricing": "Free",
-      "stars": 42272,
+      "stars": 42274,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-07T19:10:51Z",
+      "last_commit_date": "2026-04-08T20:04:14Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4375,13 +4375,13 @@
         "data-science"
       ],
       "pricing": "Free",
-      "stars": 72187,
+      "stars": 72195,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-07T19:06:00Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-03-15T15:16:19Z",
+      "days_since_commit": 24,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "autoresearch",
@@ -4430,12 +4430,13 @@
         "Organization"
       ],
       "pricing": "Open Source",
-      "stars": 17308,
+      "stars": 26,
       "language": "Rust",
       "added_date": "2026-04-08T07:07:14.441507",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-08T07:07:14.441508"
+      "last_commit_date": "2026-04-07T20:41:08Z",
+      "days_since_commit": 0
     },
     {
       "name": "AutoResearchClaw",
@@ -4466,12 +4467,13 @@
         "AI"
       ],
       "pricing": "Open Source",
-      "stars": 7070,
+      "stars": 387,
       "language": "Go",
       "added_date": "2026-04-08T07:07:14.441511",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-08T07:07:14.441512"
+      "freshness": "🔴 Stale",
+      "last_commit_date": "2020-04-04T03:49:01Z",
+      "days_since_commit": 2195
     },
     {
       "name": "caveman",
@@ -4538,12 +4540,13 @@
         "AI"
       ],
       "pricing": "Open Source",
-      "stars": 4620,
+      "stars": 1098,
       "language": "JavaScript",
       "added_date": "2026-04-08T07:07:14.441518",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-08T07:07:14.441519"
+      "last_commit_date": "2026-04-08T17:57:26Z",
+      "days_since_commit": 0
     },
     {
       "name": "ClawTeam",
@@ -4615,11 +4618,11 @@
         "data-extraction"
       ],
       "pricing": "Freemium",
-      "stars": 105447,
+      "stars": 105986,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-07T19:35:30Z",
+      "last_commit_date": "2026-04-08T18:32:53Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4638,12 +4641,12 @@
         "gemini"
       ],
       "pricing": "Free",
-      "stars": 104728,
+      "stars": 104817,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-07T19:34:04Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-01T07:06:35Z",
+      "days_since_commit": 7,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4661,11 +4664,11 @@
         "data-visualization"
       ],
       "pricing": "Free",
-      "stars": 42272,
+      "stars": 42274,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-07T19:10:51Z",
+      "last_commit_date": "2026-04-08T20:04:14Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4682,13 +4685,13 @@
         "data-science"
       ],
       "pricing": "Free",
-      "stars": 72187,
+      "stars": 72195,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-07T19:06:00Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-03-15T15:16:19Z",
+      "days_since_commit": 24,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "gstack",
@@ -4697,11 +4700,11 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 67070,
+      "stars": 67274,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:50Z",
+      "last_commit_date": "2026-04-08T17:10:13Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4712,11 +4715,11 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 23676,
+      "stars": 26166,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:51Z",
+      "last_commit_date": "2026-04-08T18:58:40Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4727,11 +4730,11 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 21912,
+      "stars": 23759,
       "language": "JavaScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:51Z",
+      "last_commit_date": "2026-04-08T20:28:01Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4742,11 +4745,11 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 18752,
+      "stars": 18776,
       "language": "JavaScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:52Z",
+      "last_commit_date": "2026-04-08T19:42:24Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4757,11 +4760,11 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 14500,
+      "stars": 14549,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:52Z",
+      "last_commit_date": "2026-04-08T16:10:02Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4772,11 +4775,11 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 14335,
+      "stars": 14390,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:53Z",
+      "last_commit_date": "2026-04-08T19:21:57Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4787,11 +4790,11 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 10293,
+      "stars": 12116,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:53Z",
+      "last_commit_date": "2026-04-08T19:06:07Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4802,12 +4805,12 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 9628,
+      "stars": 9654,
       "language": "C#",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:54Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-05T01:39:46Z",
+      "days_since_commit": 3,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4817,12 +4820,12 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 10759,
+      "stars": 10782,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T13:38:54Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-07T15:18:07Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4837,13 +4840,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 2009,
+      "stars": 2016,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": null,
-      "days_since_commit": null,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-04-08T12:51:04Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "METATRON",
@@ -4857,13 +4860,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 1869,
+      "stars": 1872,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": null,
-      "days_since_commit": null,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-04-08T13:36:38Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "khazix-skills",
@@ -4877,13 +4880,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 1155,
+      "stars": 1157,
       "language": "Unknown",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": null,
-      "days_since_commit": null,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-04-06T16:17:00Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "parlor",
@@ -4897,13 +4900,13 @@
         "platform"
       ],
       "pricing": "Free",
-      "stars": 1108,
+      "stars": 1115,
       "language": "HTML",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": null,
-      "days_since_commit": null,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-04-07T00:10:19Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
     }
   ]
 }
