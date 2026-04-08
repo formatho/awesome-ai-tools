@@ -65,14 +65,13 @@
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Build AI Agents, Visually | `ai` `agent` | Free | 🟢 Fresh | 51.6k |
 | [huginn](https://github.com/huginn/huginn) | Create agents that monitor and act on your behalf.  Your agents are standing by! | `agent` | Free | 🟢 Fresh | 49.1k |
 | [airflow](https://github.com/apache/airflow) | Apache Airflow - A platform to programmatically author, schedule, and monitor workflows | `ai` | Free | 🟢 Fresh | 44.9k |
-| [AgentGPT](https://github.com/reworkd/AgentGPT) | Assemble, configure, and deploy autonomous AI agents in your browser. | `agent` `browser` `autonomous` | Freemium | 🔴 Stale | 35.9k |
 | [selenium](https://github.com/SeleniumHQ/selenium) | A browser automation framework and ecosystem. | `agent` | Free | 🟢 Fresh | 34.2k |
 | [Hello Agents](https://github.com/datawhalechina/hello-agents) | Comprehensive tutorial on building agents from scratch. | `tutorial` `agent` `education` | Free | 🟢 Fresh | 33.9k |
 | [agents](https://github.com/wshobson/agents) | Intelligent automation and multi-agent orchestration for Claude Code | `agent` | Free | 🟢 Fresh | 33.1k |
 | [ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw) | Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀 | `agent` `agentic` `ai` | Free | 🟢 Fresh | 29.6k |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) | Agentic IM chatbot infrastructure with multi-platform support. | `chatbot` `im` `multi-platform` | Free | 🟢 Fresh | 29.1k |
 | [ hermes-agent](https://github.com/NousResearch / hermes-agent) | The agent that grows with you | `Agent` | Open Source | 🟢 Fresh | 28.3k |
-| [hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `ai` `ai-agent` `ai-agents` | Free | 🟢 Fresh | 27.8k |
+
 | [budibase](https://github.com/Budibase/budibase) | AI agents, automations and apps that run your operations. Model agnostic. | `ai` `agent` | Free | 🟢 Fresh | 27.8k |
 | [FastGPT](https://github.com/labring/FastGPT) | Knowledge-based platform with RAG retrieval and visual workflow orchestration. | `rag` `workflow` `knowledge-base` | Freemium | 🟢 Fresh | 27.6k |
 | [sim](https://github.com/simstudioai/sim) | Build, deploy, and orchestrate AI agents. Sim is the central intelligence layer for your AI workforce. | `ai` `agent` | Free | 🟢 Fresh | 27.6k |
