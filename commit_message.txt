@@ -1,0 +1,5 @@
+🤖 Auto-discovery: Add 3 new trending AI tools
+
+• gallery (19876 stars) - Research & Data
+• LiteRT-LM (3175 stars) - Developer Tools  
+• andrej-karpathy-skills (10216 stars) - Developer Tools
