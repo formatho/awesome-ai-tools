@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-09T07:37:07.939Z",
-    "total_tools": 261,
+    "last_updated": "2026-04-09T13:37:32.757Z",
+    "total_tools": 277,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -5075,6 +5075,289 @@
       "added_date": "2026-04-09",
       "verified": true,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "SuperPrompt",
+      "url": "https://github.com/NeoVertex1/SuperPrompt",
+      "description": "SuperPrompt is an attempt to engineer prompts that might help us understand AI agents.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6397,
+      "language": "Unknown",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2024-09-01T01:57:27Z",
+      "days_since_commit": 586,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "deep-prove",
+      "url": "https://github.com/Lagrange-Labs/deep-prove",
+      "description": "Framework to prove inference of ML models blazingly fast",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 3346,
+      "language": "Rust",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2024-11-07T21:46:12Z",
+      "days_since_commit": 518,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "mflux",
+      "url": "https://github.com/filipstrand/mflux",
+      "description": "MLX native implementations of state-of-the-art generative image models",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1977,
+      "language": "Python",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2024-08-10T10:30:00Z",
+      "days_since_commit": 608,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "MLE-agent",
+      "url": "https://github.com/MLSysOps/MLE-agent",
+      "description": "🤖 MLE-Agent: Your intelligent companion for seamless AI engineering and research. 🔍 Integrate with arxiv and paper with code to provide better code/research plans 🧰 OpenAI, Anthropic, Gemini, Ollama, etc supported. :fireworks: Code RAG",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "openai",
+        "rag"
+      ],
+      "pricing": "Free",
+      "stars": 1537,
+      "language": "Python",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2024-04-16T23:49:21Z",
+      "days_since_commit": 723,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "korvus",
+      "url": "https://github.com/postgresml/korvus",
+      "description": "Korvus is a search SDK that unifies the entire RAG pipeline in a single database query. Built on top of Postgres with bindings for Python, JavaScript, Rust and C.",
+      "category": "Developer Tools",
+      "tags": [
+        "rag"
+      ],
+      "pricing": "Free",
+      "stars": 1459,
+      "language": "Rust",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2024-06-24T21:37:54Z",
+      "days_since_commit": 654,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "kitops",
+      "url": "https://github.com/kitops-ml/kitops",
+      "description": "An open source DevOps tool from the CNCF for packaging and versioning AI/ML models, datasets, code, and configuration into an OCI Artifact.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1331,
+      "language": "Go",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2024-02-02T18:53:31Z",
+      "days_since_commit": 797,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "AutoHedge",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1151,
+      "language": "Python",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2024-12-10T20:34:46Z",
+      "days_since_commit": 485,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "ai-hands-on",
+      "url": "https://github.com/Ramakm/ai-hands-on",
+      "description": "A group of notebooks  and other files which can help you learn AI from scratch.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1080,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2025-11-24T11:40:11Z",
+      "days_since_commit": 137,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "mastra",
+      "url": "https://github.com/mastra-ai/mastra",
+      "description": "From the team behind Gatsby, Mastra is a framework for building AI-powered applications and agents with a modern TypeScript stack.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 22829,
+      "language": "TypeScript",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2024-08-06T20:44:31Z",
+      "days_since_commit": 611,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "deep-research",
+      "url": "https://github.com/dzhng/deep-research",
+      "description": "An AI-powered research assistant that performs iterative, deep research on any topic by combining search engines, web scraping, and large language models.  The goal of this repo is to provide the simplest implementation of a deep research agent - e.g. an agent that can refine its research direction overtime and deep dive into a topic.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 18707,
+      "language": "TypeScript",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2025-02-04T01:27:56Z",
+      "days_since_commit": 430,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.",
+      "category": "Developer Tools",
+      "tags": [
+        "llm",
+        "rag"
+      ],
+      "pricing": "Free",
+      "stars": 13791,
+      "language": "Go",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2025-07-22T08:01:23Z",
+      "days_since_commit": 262,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "kilocode",
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent. #1 coding agent on OpenRouter. 1.5M+ Kilo Coders. 25T+ tokens processed",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 17866,
+      "language": "TypeScript",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2025-03-10T15:34:26Z",
+      "days_since_commit": 395,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 14120,
+      "language": "TypeScript",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2025-02-07T21:04:12Z",
+      "days_since_commit": 426,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "category": "Audio & Music",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 14658,
+      "language": "TypeScript",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2026-01-25T12:27:03Z",
+      "days_since_commit": 75,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "bytebot",
+      "url": "https://github.com/bytebot-ai/bytebot",
+      "description": "Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 10785,
+      "language": "TypeScript",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2025-02-03T18:18:50Z",
+      "days_since_commit": 430,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "astron-agent",
+      "url": "https://github.com/iflytek/astron-agent",
+      "description": "Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "rag"
+      ],
+      "pricing": "Free",
+      "stars": 10314,
+      "language": "Java",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "last_commit_date": "2025-09-19T08:46:01Z",
+      "days_since_commit": 203,
+      "freshness": "🔴 Stale"
     }
   ]
 }
