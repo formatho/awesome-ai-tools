@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-09T01:37:45.360Z",
-    "total_tools": 256,
+    "last_updated": "2026-04-09T07:37:07.939Z",
+    "total_tools": 261,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -5010,6 +5010,71 @@
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-07T20:41:08Z",
       "days_since_commit": 0
+    },
+    {
+      "name": "ai-engineering-hub",
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "description": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+      "category": "Agents & Automation",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 33324,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "mlflow",
+      "url": "https://github.com/mlflow/mlflow",
+      "description": "The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data.",
+      "category": "Agents & Automation",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 25229,
+      "language": "Python",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+      "category": "Agents & Automation",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 24770,
+      "language": "MDX",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "DocsGPT",
+      "url": "https://github.com/arc53/DocsGPT",
+      "description": "Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.",
+      "category": "Agents & Automation",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 17816,
+      "language": "Python",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "zenml",
+      "url": "https://github.com/zenml-io/zenml",
+      "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
+      "category": "Agents & Automation",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 5320,
+      "language": "Python",
+      "added_date": "2026-04-09",
+      "verified": true,
+      "freshness": "🟢 Fresh"
     }
   ]
 }
