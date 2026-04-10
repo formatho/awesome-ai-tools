@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-10T13:12:30.312171Z",
-    "total_tools": 310,
+    "last_updated": "2026-04-10T01:09:41.464220",
+    "total_tools": 280,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -14,25 +14,25 @@
       "Agents & Automation",
       "Open Source Models"
     ],
-    "last_freshness_check": "2026-04-09T20:31:27.316Z"
+    "last_freshness_check": "2026-04-08T20:30:49.960Z"
   },
   "tools": [
     {
       "name": "openclaw",
       "url": "https://github.com/openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
       "category": "Research & Data",
       "tags": [
         "ai"
       ],
       "pricing": "Free",
-      "stars": 353228,
+      "stars": 352191,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:21:20Z",
+      "last_commit_date": "2026-04-08T20:20:49Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AutoGPT",
@@ -46,13 +46,13 @@
         "production"
       ],
       "pricing": "Free",
-      "stars": 183272,
+      "stars": 183243,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:23:19Z",
+      "last_commit_date": "2026-04-08T20:23:56Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "n8n",
@@ -64,13 +64,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 183277,
+      "stars": 183029,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:10:04Z",
+      "last_commit_date": "2026-04-08T19:36:16Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claw-code",
@@ -85,13 +85,13 @@
         "oh-my-codex"
       ],
       "pricing": "Free",
-      "stars": 179598,
+      "stars": 178142,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:01:57Z",
+      "last_commit_date": "2026-04-08T19:03:00Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Ollama",
@@ -105,13 +105,13 @@
         "models"
       ],
       "pricing": "Free",
-      "stars": 168355,
+      "stars": 168181,
       "language": "Go",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:04:16Z",
+      "last_commit_date": "2026-04-08T19:11:52Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Stable Diffusion WebUI",
@@ -125,13 +125,13 @@
         "generation"
       ],
       "pricing": "Free",
-      "stars": 162248,
+      "stars": 162198,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-02T07:00:53Z",
-      "days_since_commit": 38,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 37,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "Transformers",
@@ -145,13 +145,13 @@
         "huggingface"
       ],
       "pricing": "Free",
-      "stars": 159113,
+      "stars": 159044,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:00:51Z",
+      "last_commit_date": "2026-04-08T20:20:02Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Prompts.chat",
@@ -165,30 +165,30 @@
         "chatgpt"
       ],
       "pricing": "Free",
-      "stars": 158779,
+      "stars": 158250,
       "language": "HTML",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T04:00:02Z",
+      "last_commit_date": "2026-04-08T18:47:06Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "JavaGuide",
       "url": "https://github.com/Snailclimb/JavaGuide",
-      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "description": "Java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u3001\u7cfb\u7edf\u8bbe\u8ba1\u4e0e AI \u5e94\u7528\u5f00\u53d1",
       "category": "Developer Tools",
       "tags": [
         "ai"
       ],
       "pricing": "Free",
-      "stars": 154796,
+      "stars": 154760,
       "language": "Java",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T08:10:35Z",
+      "last_commit_date": "2026-04-08T16:13:08Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Langflow",
@@ -203,13 +203,13 @@
         "no-code"
       ],
       "pricing": "Freemium",
-      "stars": 146744,
+      "stars": 146689,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:22:33Z",
+      "last_commit_date": "2026-04-08T20:19:36Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "everything-claude-code",
@@ -220,13 +220,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 148457,
+      "stars": 146643,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T16:02:52Z",
+      "last_commit_date": "2026-04-08T20:24:33Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "superpowers",
@@ -237,13 +237,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 143525,
+      "stars": 141297,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-06T22:48:59Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "opencode",
@@ -255,13 +255,13 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 140496,
+      "stars": 139766,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:21:59Z",
+      "last_commit_date": "2026-04-08T19:52:36Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Dify",
@@ -276,13 +276,13 @@
         "production"
       ],
       "pricing": "Freemium",
-      "stars": 136961,
+      "stars": 136766,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T15:51:14Z",
+      "last_commit_date": "2026-04-08T15:37:49Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "system-prompts-and-models-of-ai-tools",
@@ -295,13 +295,13 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 134824,
+      "stars": 134750,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-28T16:58:37Z",
-      "days_since_commit": 12,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 11,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "langchain",
@@ -313,13 +313,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 132952,
+      "stars": 132807,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:22:25Z",
+      "last_commit_date": "2026-04-08T19:14:21Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Open-WebUI",
@@ -333,13 +333,13 @@
         "openai"
       ],
       "pricing": "Free",
-      "stars": 130937,
+      "stars": 130719,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:36:07Z",
+      "last_commit_date": "2026-04-08T20:21:55Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "skills",
@@ -350,13 +350,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 113887,
+      "stars": 113127,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T17:20:07Z",
+      "last_commit_date": "2026-04-08T17:01:04Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code",
@@ -368,13 +368,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 111675,
+      "stars": 111140,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:18:28Z",
+      "last_commit_date": "2026-04-08T04:37:36Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "generative-ai-for-beginners",
@@ -385,13 +385,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 109117,
+      "stars": 109065,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T03:43:42Z",
+      "last_commit_date": "2026-04-08T07:32:12Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ComfyUI",
@@ -406,18 +406,18 @@
         "modular"
       ],
       "pricing": "Free",
-      "stars": 108243,
+      "stars": 108140,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T09:39:50Z",
+      "last_commit_date": "2026-04-08T19:03:11Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "🔥 The Web Data API for AI - Power AI agents with clean web data",
+      "description": "\ud83d\udd25 The Web Data API for AI - Power AI agents with clean web data",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -430,18 +430,18 @@
         "data-extraction"
       ],
       "pricing": "Freemium",
-      "stars": 106455,
+      "stars": 105986,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:14:19Z",
+      "last_commit_date": "2026-04-08T18:32:53Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "🔥 The Web Data API for AI - Power AI agents with clean web data",
+      "description": "\ud83d\udd25 The Web Data API for AI - Power AI agents with clean web data",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -454,13 +454,13 @@
         "data-extraction"
       ],
       "pricing": "Freemium",
-      "stars": 106455,
+      "stars": 105984,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:14:19Z",
+      "last_commit_date": "2026-04-08T18:32:53Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Firecrawl",
@@ -475,13 +475,13 @@
         "web-data"
       ],
       "pricing": "Freemium",
-      "stars": 106455,
+      "stars": 105982,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:14:19Z",
+      "last_commit_date": "2026-04-08T18:32:53Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome LLM Apps",
@@ -496,13 +496,13 @@
         "collection"
       ],
       "pricing": "Free",
-      "stars": 104909,
+      "stars": 104817,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-01T07:06:35Z",
-      "days_since_commit": 8,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 7,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome LLM Apps",
@@ -519,13 +519,13 @@
         "gemini"
       ],
       "pricing": "Free",
-      "stars": 104909,
+      "stars": 104817,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
       "last_commit_date": "2026-04-01T07:06:35Z",
-      "days_since_commit": 8,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 7,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome LLM Apps",
@@ -542,13 +542,13 @@
         "gemini"
       ],
       "pricing": "Free",
-      "stars": 104909,
+      "stars": 104817,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
       "last_commit_date": "2026-04-01T07:06:35Z",
-      "days_since_commit": 8,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 7,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "llama.cpp",
@@ -563,13 +563,13 @@
         "optimized"
       ],
       "pricing": "Free",
-      "stars": 102777,
+      "stars": 102534,
       "language": "C++",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:13:34Z",
+      "last_commit_date": "2026-04-08T19:35:45Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "gemini-cli",
@@ -581,13 +581,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 100736,
+      "stars": 100628,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:22:42Z",
+      "last_commit_date": "2026-04-08T20:25:20Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "supabase",
@@ -598,13 +598,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 100551,
+      "stars": 100490,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:15:14Z",
+      "last_commit_date": "2026-04-08T20:01:56Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "puppeteer",
@@ -615,13 +615,13 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 94062,
+      "stars": 94046,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T15:54:16Z",
+      "last_commit_date": "2026-04-08T16:38:21Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LLMs-from-scratch",
@@ -635,13 +635,13 @@
         "education"
       ],
       "pricing": "Free",
-      "stars": 90388,
+      "stars": 90310,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-06T02:05:07Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 2,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Deep-Live-Cam",
@@ -656,13 +656,13 @@
         "ai-enhancement"
       ],
       "pricing": "Free",
-      "stars": 89457,
+      "stars": 89362,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T08:34:30Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-05T15:19:17Z",
+      "days_since_commit": 3,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Browser-Use",
@@ -676,30 +676,30 @@
         "web"
       ],
       "pricing": "Free",
-      "stars": 86783,
+      "stars": 86526,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T05:19:39Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-07T18:20:28Z",
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "spec-kit",
       "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "category": "Research & Data",
       "tags": [
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 86582,
+      "stars": 86268,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:17:15Z",
+      "last_commit_date": "2026-04-08T19:37:20Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "core",
@@ -711,13 +711,13 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 85992,
+      "stars": 86041,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:10:20Z",
+      "last_commit_date": "2026-04-08T20:21:31Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "playwright",
@@ -728,13 +728,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 85926,
+      "stars": 85833,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:15:05Z",
+      "last_commit_date": "2026-04-08T19:01:04Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "sherlock",
@@ -754,13 +754,13 @@
         "pentesting"
       ],
       "pricing": "Free",
-      "stars": 80693,
+      "stars": 80543,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-09T05:41:44Z",
+      "last_commit_date": "2026-04-08T05:41:10Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " sherlock",
@@ -776,7 +776,7 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -792,13 +792,13 @@
         "tutorial"
       ],
       "pricing": "Free",
-      "stars": 78045,
+      "stars": 77995,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-02-05T13:09:26Z",
-      "days_since_commit": 63,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 62,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "RAGFlow",
@@ -813,13 +813,13 @@
         "retrieval"
       ],
       "pricing": "Free",
-      "stars": 77580,
+      "stars": 77469,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T13:37:28Z",
+      "last_commit_date": "2026-04-08T13:37:08Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "GPT4All",
@@ -833,13 +833,13 @@
         "cross-platform"
       ],
       "pricing": "Free",
-      "stars": 77306,
+      "stars": 77303,
       "language": "C++",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-05-27T20:05:19Z",
-      "days_since_commit": 317,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 316,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "vllm",
@@ -853,13 +853,13 @@
         "optimized"
       ],
       "pricing": "Free",
-      "stars": 75912,
+      "stars": 75736,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:09:10Z",
+      "last_commit_date": "2026-04-08T19:51:52Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agency-agents",
@@ -871,13 +871,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 76794,
+      "stars": 75736,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-27T05:36:01Z",
-      "days_since_commit": 13,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 12,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "PaddleOCR",
@@ -889,30 +889,30 @@
         "llm"
       ],
       "pricing": "Free",
-      "stars": 75257,
+      "stars": 75175,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-06T18:55:58Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 2,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "lobehub",
       "url": "https://github.com/lobehub/lobehub",
-      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+      "description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
       "category": "Agents & Automation",
       "tags": [
         "agent"
       ],
       "pricing": "Free",
-      "stars": 74960,
+      "stars": 74917,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:51:12Z",
+      "last_commit_date": "2026-04-08T18:38:33Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "codex",
@@ -923,13 +923,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 74155,
+      "stars": 73943,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:24:07Z",
+      "last_commit_date": "2026-04-08T20:21:13Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome Machine Learning",
@@ -944,13 +944,13 @@
         "data-science"
       ],
       "pricing": "Free",
-      "stars": 72164,
+      "stars": 72195,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
       "last_commit_date": "2026-03-15T15:16:19Z",
-      "days_since_commit": 25,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 24,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "Awesome Machine Learning",
@@ -965,13 +965,13 @@
         "data-science"
       ],
       "pricing": "Free",
-      "stars": 72164,
+      "stars": 72195,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
       "last_commit_date": "2026-03-15T15:16:19Z",
-      "days_since_commit": 25,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 24,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "OpenHands",
@@ -985,13 +985,13 @@
         "autonomous"
       ],
       "pricing": "Free",
-      "stars": 70910,
+      "stars": 70834,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:00:40Z",
+      "last_commit_date": "2026-04-08T20:19:30Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LlamaFactory",
@@ -1005,13 +1005,13 @@
         "training"
       ],
       "pricing": "Free",
-      "stars": 69815,
+      "stars": 69760,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-06T05:14:45Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 2,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ansible",
@@ -1023,13 +1023,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 68403,
+      "stars": 68434,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T17:19:48Z",
+      "last_commit_date": "2026-04-08T19:31:50Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "autoresearch",
@@ -1046,7 +1046,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441497",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441503"
     },
     {
@@ -1056,13 +1056,13 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 68274,
+      "stars": 67274,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T15:48:29Z",
+      "last_commit_date": "2026-04-08T17:10:13Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MetaGPT",
@@ -1076,13 +1076,13 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 66852,
+      "stars": 66800,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-21T10:12:33Z",
-      "days_since_commit": 78,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 77,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "gpt4free",
@@ -1093,13 +1093,13 @@
         "free"
       ],
       "pricing": "Free",
-      "stars": 65986,
+      "stars": 65979,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-07T15:35:03Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenBB",
@@ -1122,31 +1122,31 @@
         "stocks"
       ],
       "pricing": "Open Source",
-      "stars": 65628,
+      "stars": 65595,
       "language": "Python",
       "added_date": "2026-04-05T02:39:59.843Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T00:05:40Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-07T19:53:12Z",
+      "days_since_commit": 1
     },
     {
       "name": "crawl4ai",
       "url": "https://github.com/unclecode/crawl4ai",
-      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
         "llm"
       ],
       "pricing": "Free",
-      "stars": 63652,
+      "stars": 63598,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-06T08:26:44Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 2,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "pathway",
@@ -1157,13 +1157,13 @@
         "llm"
       ],
       "pricing": "Free",
-      "stars": 63453,
+      "stars": 63464,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T12:56:55Z",
+      "last_commit_date": "2026-04-08T17:01:46Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Unsloth",
@@ -1178,13 +1178,13 @@
         "open-source"
       ],
       "pricing": "Freemium",
-      "stars": 60638,
+      "stars": 60245,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:24:20Z",
+      "last_commit_date": "2026-04-08T13:18:39Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Deer-Flow",
@@ -1199,13 +1199,13 @@
         "bytedance"
       ],
       "pricing": "Free",
-      "stars": 59901,
+      "stars": 59537,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T17:36:00Z",
+      "last_commit_date": "2026-04-08T13:39:29Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Autogen",
@@ -1219,13 +1219,13 @@
         "multi-agent"
       ],
       "pricing": "Free",
-      "stars": 56882,
+      "stars": 56821,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-06T22:35:34Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -1239,13 +1239,13 @@
         "llm"
       ],
       "pricing": "Free",
-      "stars": 55370,
+      "stars": 55284,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-08T04:50:47Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Mem0",
@@ -1259,13 +1259,13 @@
         "rag"
       ],
       "pricing": "Freemium",
-      "stars": 52450,
+      "stars": 52321,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T15:43:42Z",
+      "last_commit_date": "2026-04-08T17:57:33Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Flowise",
@@ -1277,13 +1277,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 51704,
+      "stars": 51660,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:32:59Z",
+      "last_commit_date": "2026-04-08T19:24:26Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Learn Claude Code",
@@ -1297,13 +1297,13 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 50825,
+      "stars": 50245,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-07T22:15:12Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "huginn",
@@ -1314,13 +1314,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 49080,
+      "stars": 49077,
       "language": "Ruby",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-08T16:39:26Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "TradingAgents",
@@ -1335,13 +1335,13 @@
         "multi-agent"
       ],
       "pricing": "Free",
-      "stars": 48954,
+      "stars": 48588,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-04T08:14:02Z",
-      "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "acme.sh",
@@ -1352,13 +1352,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 46236,
+      "stars": 46222,
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-08T14:33:35Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "JeecgBoot",
@@ -1372,13 +1372,13 @@
         "enterprise"
       ],
       "pricing": "Freemium",
-      "stars": 45787,
+      "stars": 45773,
       "language": "Java",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-07T04:26:50Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "airflow",
@@ -1389,13 +1389,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 44984,
+      "stars": 44951,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:03:40Z",
+      "last_commit_date": "2026-04-08T19:57:20Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "bruno",
@@ -1406,18 +1406,18 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 42787,
+      "stars": 42748,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:11:25Z",
+      "last_commit_date": "2026-04-08T06:06:18Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Gradio",
       "url": "https://github.com/gradio-app/gradio",
-      "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
+      "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
       "category": "Developer Tools",
       "tags": [
         "machine-learning",
@@ -1429,18 +1429,18 @@
         "data-visualization"
       ],
       "pricing": "Free",
-      "stars": 42281,
+      "stars": 42274,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:25:44Z",
+      "last_commit_date": "2026-04-08T20:04:14Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Gradio",
       "url": "https://github.com/gradio-app/gradio",
-      "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
+      "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
       "category": "Developer Tools",
       "tags": [
         "machine-learning",
@@ -1452,30 +1452,30 @@
         "data-visualization"
       ],
       "pricing": "Free",
-      "stars": 42281,
+      "stars": 42274,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:25:44Z",
+      "last_commit_date": "2026-04-08T20:04:14Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "fastlane",
       "url": "https://github.com/fastlane/fastlane",
-      "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
+      "description": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps",
       "category": "Research & Data",
       "tags": [
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 41342,
+      "stars": 41338,
       "language": "Ruby",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-08T10:16:39Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "appsmith",
@@ -1486,13 +1486,13 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 39567,
+      "stars": 39560,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:26:46Z",
+      "last_commit_date": "2026-04-08T15:53:44Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "chatbox",
@@ -1504,13 +1504,13 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 39365,
+      "stars": 39344,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T03:24:43Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-02T01:57:49Z",
+      "days_since_commit": 6,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ChatTTS",
@@ -1524,13 +1524,13 @@
         "dialogue"
       ],
       "pricing": "Free",
-      "stars": 39043,
+      "stars": 39038,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-18T05:30:01Z",
-      "days_since_commit": 81,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 80,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "system_prompts_leaks",
@@ -1550,13 +1550,13 @@
         "grok"
       ],
       "pricing": "Free",
-      "stars": 38015,
+      "stars": 37953,
       "language": null,
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-08T21:10:11Z",
+      "last_commit_date": "2026-04-08T17:09:55Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "VibeVoice",
@@ -1571,13 +1571,13 @@
         "frontend"
       ],
       "pricing": "Free",
-      "stars": 38003,
+      "stars": 37617,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T08:58:17Z",
+      "last_commit_date": "2026-04-08T14:48:29Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "hermes-agent",
@@ -1597,13 +1597,13 @@
         "hermes"
       ],
       "pricing": "Free",
-      "stars": 43749,
+      "stars": 37008,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:23:57Z",
+      "last_commit_date": "2026-04-08T19:22:37Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " VibeVoice",
@@ -1618,7 +1618,7 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -1634,30 +1634,30 @@
         "no-code"
       ],
       "pricing": "Freemium",
-      "stars": 35956,
+      "stars": 35951,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-04-29T01:19:32Z",
-      "days_since_commit": 345,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 344,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Scrapling",
       "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "category": "Productivity",
       "tags": [
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 35255,
+      "stars": 35068,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-08T11:30:03Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Hello Agents",
@@ -1671,13 +1671,13 @@
         "chinese"
       ],
       "pricing": "Free",
-      "stars": 34896,
+      "stars": 34603,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-30T09:37:31Z",
-      "days_since_commit": 10,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 9,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "awesome-design-md",
@@ -1688,12 +1688,12 @@
         "ai-tools"
       ],
       "pricing": "Free",
-      "stars": 38066,
+      "stars": 34504,
       "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T09:29:34Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T17:59:54Z",
       "days_since_commit": 0
     },
     {
@@ -1705,13 +1705,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 34121,
+      "stars": 34191,
       "language": "Java",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:39:17Z",
+      "last_commit_date": "2026-04-08T18:21:06Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Khoj",
@@ -1725,13 +1725,13 @@
         "rag"
       ],
       "pricing": "Freemium",
-      "stars": 33974,
+      "stars": 33957,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-26T03:35:43Z",
-      "days_since_commit": 14,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 13,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "agents",
@@ -1742,13 +1742,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 33265,
+      "stars": 33180,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-08T22:58:57Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-03T21:05:57Z",
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LightRAG",
@@ -1761,15 +1761,15 @@
         "fast",
         "simple"
       ],
-      "stars": 32772,
+      "stars": 32692,
       "language": "Python",
       "potential_score": 93,
       "pricing": "Free",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:08:41Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-03T01:37:45.360Z",
+      "days_since_commit": 6,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Continue",
@@ -1783,13 +1783,13 @@
         "open-source"
       ],
       "pricing": "Free",
-      "stars": 32418,
+      "stars": 32379,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T09:31:14Z",
+      "last_commit_date": "2026-04-08T16:57:00Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "CopilotKit",
@@ -1804,18 +1804,18 @@
         "angular"
       ],
       "pricing": "Freemium",
-      "stars": 30100,
+      "stars": 30075,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:22:40Z",
+      "last_commit_date": "2026-04-08T20:25:25Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ZeroClaw",
       "url": "https://github.com/zeroclaw-labs/zeroclaw",
-      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM \u2014 deploy anywhere, swap anything \ud83e\udd80",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -1829,13 +1829,13 @@
         "personal-assistant"
       ],
       "pricing": "Free",
-      "stars": 29853,
+      "stars": 29788,
       "language": "Rust",
       "added_date": "2026-04-05",
       "verified": true,
-      "last_commit_date": "2026-04-09T09:37:53Z",
+      "last_commit_date": "2026-04-08T20:13:53Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AstrBot",
@@ -1849,13 +1849,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 29462,
+      "stars": 29369,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T16:01:54Z",
+      "last_commit_date": "2026-04-08T13:51:31Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "CLI-Anything",
@@ -1872,7 +1872,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-08T07:07:14.441505",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441506"
     },
     {
@@ -1884,13 +1884,13 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 29014,
+      "stars": 29016,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T05:18:32Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-05T09:57:29Z",
+      "days_since_commit": 3,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MoneyPrinterV2",
@@ -1901,13 +1901,13 @@
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 28995,
+      "stars": 28855,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-04T15:13:48Z",
-      "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Daily Stock Analysis",
@@ -1922,13 +1922,13 @@
         "automation"
       ],
       "pricing": "Free",
-      "stars": 28898,
+      "stars": 28625,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-08T15:03:14Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Happy LLM",
@@ -1942,13 +1942,13 @@
         "chinese"
       ],
       "pricing": "Free",
-      "stars": 28589,
+      "stars": 28539,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-16T02:21:33Z",
-      "days_since_commit": 24,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 23,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": " hermes-agent",
@@ -1963,7 +1963,7 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -1977,13 +1977,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 27812,
+      "stars": 27810,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T17:25:26Z",
+      "last_commit_date": "2026-04-08T16:33:11Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "FastGPT",
@@ -1997,13 +1997,13 @@
         "open-source"
       ],
       "pricing": "Freemium",
-      "stars": 27665,
+      "stars": 27653,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T11:26:06Z",
+      "last_commit_date": "2026-04-08T10:15:20Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "sim",
@@ -2015,13 +2015,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 27666,
+      "stars": 27629,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:01:51Z",
+      "last_commit_date": "2026-04-08T20:25:17Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Oh My Claude Code",
@@ -2036,13 +2036,13 @@
         "claude-code"
       ],
       "pricing": "Free",
-      "stars": 26886,
+      "stars": 26264,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:36:51Z",
+      "last_commit_date": "2026-04-08T17:58:09Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "mempalace",
@@ -2051,13 +2051,13 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 34745,
+      "stars": 26166,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:21:18Z",
+      "last_commit_date": "2026-04-08T18:58:40Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "onyx",
@@ -2077,13 +2077,13 @@
         "nextjs"
       ],
       "pricing": "Free",
-      "stars": 26199,
+      "stars": 26026,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:16:51Z",
+      "last_commit_date": "2026-04-08T20:18:44Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "openscreen",
@@ -2100,13 +2100,13 @@
         "free"
       ],
       "pricing": "Free",
-      "stars": 26861,
+      "stars": 26013,
       "language": "TypeScript",
       "added_date": "2026-04-04",
       "verified": true,
       "last_commit_date": "2026-04-08T05:40:15Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " onyx",
@@ -2122,26 +2122,26 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
     {
       "name": "xiaozhi-esp32",
       "url": "https://github.com/78/xiaozhi-esp32",
-      "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
+      "description": "An MCP-based chatbot | \u4e00\u4e2a\u57fa\u4e8eMCP\u7684\u804a\u5929\u673a\u5668\u4eba",
       "category": "LLMs & Chatbots",
       "tags": [
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 25500,
+      "stars": 25476,
       "language": "C++",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-08T02:12:56Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "kotaemon",
@@ -2152,13 +2152,13 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 25258,
+      "stars": 25255,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-03T11:28:24Z",
-      "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 5,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " oh-my-claudecode",
@@ -2174,7 +2174,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -2191,7 +2191,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-07T02:42:12.371Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.371Z",
       "days_since_commit": 0
     },
@@ -2202,18 +2202,18 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 27358,
+      "stars": 23759,
       "language": "JavaScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T16:18:57Z",
+      "last_commit_date": "2026-04-08T20:28:01Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "repomix",
       "url": "https://github.com/yamadashy/repomix",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "description": "\ud83d\udce6 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -2221,13 +2221,13 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 23309,
+      "stars": 23263,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:59:08Z",
+      "last_commit_date": "2026-04-08T19:51:44Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agentscope",
@@ -2238,18 +2238,18 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 23248,
+      "stars": 23182,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-08T09:24:32Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-howto",
       "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "category": "Agents & Automation",
       "tags": [
         "claude-code",
@@ -2258,18 +2258,18 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 23935,
+      "stars": 23180,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-04-09T04:47:38Z",
+      "last_commit_date": "2026-04-08T13:58:16Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " claude-howto",
       "url": "https://github.com/luongnv89 / claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "category": "Agents & Automation",
       "tags": [
         "Agent",
@@ -2280,32 +2280,32 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.371Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.371Z",
       "days_since_commit": 0
     },
     {
       "name": "AionUi",
       "url": "https://github.com/iOfficeAI/AionUi",
-      "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!",
       "category": "Developer Tools",
       "tags": [
         "ai",
         "free"
       ],
       "pricing": "Free",
-      "stars": 21345,
+      "stars": 21273,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T14:06:28Z",
+      "last_commit_date": "2026-04-08T19:18:48Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "awesome-n8n-templates",
       "url": "https://github.com/enescingoz/awesome-n8n-templates",
-      "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
+      "description": "280+ free n8n automation templates \u2014 ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -2314,30 +2314,30 @@
         "free"
       ],
       "pricing": "Free",
-      "stars": 20984,
+      "stars": 20954,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T17:13:26Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-03-24T20:13:36Z",
+      "days_since_commit": 15,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "MaxKB",
       "url": "https://github.com/1Panel-dev/MaxKB",
-      "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
+      "description": "\ud83d\udd25 MaxKB is an open-source platform for building enterprise-grade agents.  \u5f3a\u5927\u6613\u7528\u7684\u5f00\u6e90\u4f01\u4e1a\u7ea7\u667a\u80fd\u4f53\u5e73\u53f0\u3002",
       "category": "Agents & Automation",
       "tags": [
         "agent"
       ],
       "pricing": "Free",
-      "stars": 20683,
+      "stars": 20677,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T10:55:09Z",
+      "last_commit_date": "2026-04-08T11:12:51Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "coze-studio",
@@ -2349,13 +2349,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 20459,
+      "stars": 20443,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T11:54:26Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-03T00:56:20Z",
+      "days_since_commit": 5,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "chatbot",
@@ -2367,13 +2367,13 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 20063,
+      "stars": 20053,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-01T22:11:39Z",
-      "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 6,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Last30Days Skill",
@@ -2390,13 +2390,13 @@
         "synthesis"
       ],
       "pricing": "Free",
-      "stars": 20006,
+      "stars": 19705,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T17:56:21Z",
+      "last_commit_date": "2026-04-08T18:12:07Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "openclaude",
@@ -2408,12 +2408,12 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 20078,
+      "stars": 19583,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T17:20:05Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T18:51:25Z",
       "days_since_commit": 0
     },
     {
@@ -2429,13 +2429,13 @@
         "enhancement"
       ],
       "pricing": "Free",
-      "stars": 19864,
+      "stars": 19002,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:15:46Z",
+      "last_commit_date": "2026-04-08T15:05:16Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "NemoClaw",
@@ -2444,13 +2444,13 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 18835,
+      "stars": 18776,
       "language": "JavaScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:26:30Z",
+      "last_commit_date": "2026-04-08T19:42:24Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "eliza",
@@ -2461,13 +2461,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 18141,
+      "stars": 18129,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T07:38:02Z",
+      "last_commit_date": "2026-04-08T20:21:02Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "screenpipe",
@@ -2481,12 +2481,12 @@
         "productivity"
       ],
       "pricing": "Open Source",
-      "stars": 18090,
+      "stars": 18077,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T18:41:50Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T19:31:07Z",
       "days_since_commit": 0
     },
     {
@@ -2503,31 +2503,31 @@
       "language": "TypeScript",
       "added_date": "2026-04-07T02:42:12.371Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.371Z",
       "days_since_commit": 0
     },
     {
       "name": "leon",
       "url": "https://github.com/leon-ai/leon",
-      "description": "🧠 Leon is your open-source personal assistant.",
+      "description": "\ud83e\udde0 Leon is your open-source personal assistant.",
       "category": "Research & Data",
       "tags": [
         "ai-tool"
       ],
       "pricing": "Free",
-      "stars": 17147,
+      "stars": 17146,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T16:53:51Z",
+      "last_commit_date": "2026-04-08T19:56:58Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "WeClone",
       "url": "https://github.com/xming521/WeClone",
-      "description": "🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案  ",
+      "description": "\ud83d\ude80 One-stop solution for creating your AI twin from chat history \ud83d\udca1 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  \u4ece\u804a\u5929\u8bb0\u5f55\u521b\u9020\u6570\u5b57\u5206\u8eab\u7684\u4e00\u7ad9\u5f0f\u89e3\u51b3\u65b9\u6848  ",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -2535,13 +2535,13 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 16510,
+      "stars": 16505,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-06T22:17:31Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ai-pdf-chatbot-langchain",
@@ -2554,13 +2554,13 @@
         "chatbot"
       ],
       "pricing": "Free",
-      "stars": 16437,
+      "stars": 16434,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-27T16:04:05Z",
-      "days_since_commit": 13,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 12,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "timesfm",
@@ -2572,13 +2572,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 15936,
+      "stars": 15634,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
       "last_commit_date": "2026-04-03T00:26:33Z",
-      "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 5,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "RAG-Anything",
@@ -2590,15 +2590,15 @@
         "framework",
         "all-in-one"
       ],
-      "stars": 15456,
+      "stars": 15412,
       "language": "Python",
       "potential_score": 87,
       "pricing": "Free",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-07T13:12:42Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-05T01:37:45.360Z",
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " timesfm",
@@ -2614,14 +2614,14 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
     {
       "name": "claude-code-best",
       "url": "https://github.com/claude-code-best/claude-code",
-      "description": "原汁原味 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真",
+      "description": "\u539f\u6c41\u539f\u5473 Claude Code \u53ef\u8fd0\u884c,\u53ef\u6784\u5efa, \u53ef\u8c03\u8bd5\u7248; Typescript \u7c7b\u578b\u5168\u4fee\u590d; \u4f01\u4e1a\u7ea7\u53ef\u9760\u6027; \u5b89\u5168\u65e0\u6bd2, lock \u6587\u4ef6\u4fdd\u771f",
       "category": "Agents & Automation",
       "tags": [
         "claude",
@@ -2631,13 +2631,13 @@
         "enterprise"
       ],
       "pricing": "Free",
-      "stars": 15110,
+      "stars": 14845,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T15:57:31Z",
+      "last_commit_date": "2026-04-08T15:46:30Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "memvid",
@@ -2652,28 +2652,28 @@
         "memory-layer"
       ],
       "pricing": "Open Source",
-      "stars": 14771,
+      "stars": 14735,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-16T13:23:51Z",
-      "days_since_commit": 24
+      "days_since_commit": 23
     },
     {
       "name": "OpenMAIC",
       "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 14768,
+      "stars": 14549,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T16:30:19Z",
+      "last_commit_date": "2026-04-08T16:10:02Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenCLI",
@@ -2682,13 +2682,13 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 14685,
+      "stars": 14390,
       "language": "TypeScript",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:20:53Z",
+      "last_commit_date": "2026-04-08T19:21:57Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "CL4R1T4S",
@@ -2701,13 +2701,13 @@
         "research"
       ],
       "pricing": "Free",
-      "stars": 14091,
+      "stars": 14051,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-08T17:22:27Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "DeepTutor",
@@ -2720,15 +2720,15 @@
         "personalized",
         "agent"
       ],
-      "stars": 14653,
+      "stars": 13623,
       "language": "Python",
       "potential_score": 87,
       "pricing": "Free",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T16:57:12Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-05T01:37:45.360Z",
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "codex-plugin-cc",
@@ -2743,13 +2743,13 @@
         "openai"
       ],
       "pricing": "Free",
-      "stars": 13162,
+      "stars": 12924,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-08T21:48:50Z",
+      "last_commit_date": "2026-04-08T05:12:15Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "graphify",
@@ -2758,13 +2758,13 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 17089,
+      "stars": 12116,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T16:59:51Z",
+      "last_commit_date": "2026-04-08T19:06:07Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome ChatGPT (Chinese)",
@@ -2778,13 +2778,13 @@
         "guide"
       ],
       "pricing": "Free",
-      "stars": 11518,
+      "stars": 11517,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2024-11-05T10:24:21Z",
-      "days_since_commit": 520,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 519,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "learn-coding-agent",
@@ -2796,13 +2796,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 11525,
+      "stars": 11508,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-01T10:55:06Z",
-      "days_since_commit": 8
+      "days_since_commit": 7
     },
     {
       "name": "Portkey AI Gateway",
@@ -2818,13 +2818,13 @@
         "enterprise"
       ],
       "pricing": "Freemium",
-      "stars": 11255,
+      "stars": 11246,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-25T09:33:55Z",
-      "days_since_commit": 15,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 14,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "tensorzero",
@@ -2839,18 +2839,18 @@
         "evaluation"
       ],
       "pricing": "Open Source",
-      "stars": 11191,
+      "stars": 11187,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T20:27:46Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T20:26:51Z",
       "days_since_commit": 0
     },
     {
       "name": "colleague-skill",
       "url": "https://github.com/titanwings/colleague-skill",
-      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework.",
+      "description": "\u5c06\u51b0\u51b7\u7684\u79bb\u522b\u5316\u4e3a\u6e29\u6696\u7684 Skill\uff0c\u6b22\u8fce\u52a0\u5165\u6570\u5b57\u751f\u547d1.0\uff01Transforming cold farewells into warm skills - AI skill development framework.",
       "category": "Agents & Automation",
       "tags": [
         "skill",
@@ -2860,28 +2860,28 @@
         "transformation"
       ],
       "pricing": "Free",
-      "stars": 11843,
+      "stars": 10805,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T08:39:53Z",
+      "last_commit_date": "2026-04-08T12:26:58Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AutoResearchClaw",
       "url": "https://github.com/aiming-lab/AutoResearchClaw",
-      "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
+      "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. \ud83e\udd9e",
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 10850,
+      "stars": 10782,
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-09T02:47:33Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-07T15:18:07Z",
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AutoResearchClaw",
@@ -2898,7 +2898,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441509",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441510"
     },
     {
@@ -2908,13 +2908,13 @@
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
-      "stars": 9764,
+      "stars": 9654,
       "language": "C#",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-04-08T22:24:35Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-05T01:39:46Z",
+      "days_since_commit": 3,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agent-framework",
@@ -2927,15 +2927,15 @@
         "multi-agent",
         "microsoft"
       ],
-      "stars": 9220,
+      "stars": 9169,
       "language": "Python",
       "potential_score": 89,
       "pricing": "Free",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:47:03Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-05T01:37:45.360Z",
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Noi",
@@ -2948,13 +2948,13 @@
         "desktop"
       ],
       "pricing": "Free",
-      "stars": 8838,
+      "stars": 8832,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-02-04T12:11:52Z",
-      "days_since_commit": 64,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 63,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "claurst",
@@ -2967,13 +2967,13 @@
         "rust"
       ],
       "pricing": "Free",
-      "stars": 8837,
+      "stars": 8760,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T18:40:53Z",
-      "days_since_commit": 1
+      "days_since_commit": 0
     },
     {
       "name": "claude-code-sourcemap",
@@ -2988,13 +2988,13 @@
         "development"
       ],
       "pricing": "Free",
-      "stars": 8701,
+      "stars": 8648,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-03-31T08:30:55Z",
-      "days_since_commit": 9,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 8,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "emdash",
@@ -3009,13 +3009,13 @@
         "wordpress-alternative"
       ],
       "pricing": "Free",
-      "stars": 8669,
+      "stars": 8447,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-09T13:52:36Z",
+      "last_commit_date": "2026-04-08T19:47:12Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "personaplex",
@@ -3027,15 +3027,15 @@
         "persona",
         "ai"
       ],
-      "stars": 8724,
+      "stars": 8433,
       "language": "Python",
       "potential_score": 85,
       "pricing": "Free",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-03-02T16:07:10Z",
-      "days_since_commit": 38,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-04-03T01:37:45.360Z",
+      "days_since_commit": 6,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenHarness",
@@ -3048,12 +3048,12 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 8141,
+      "stars": 7704,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T12:35:53Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T15:10:09Z",
       "days_since_commit": 0
     },
     {
@@ -3071,7 +3071,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441513",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441513"
     },
     {
@@ -3089,7 +3089,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441514",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441515"
     },
     {
@@ -3107,9 +3107,9 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T01:54:29Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-07T01:43:00Z",
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Auto-claude-code-research-in-sleep",
@@ -3126,7 +3126,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441516",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441517"
     },
     {
@@ -3142,12 +3142,12 @@
         "code"
       ],
       "pricing": "Open Source",
-      "stars": 5582,
+      "stars": 5575,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T18:35:24Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T19:41:19Z",
       "days_since_commit": 0
     },
     {
@@ -3160,12 +3160,12 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 5541,
+      "stars": 5393,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T19:09:58Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T19:30:01Z",
       "days_since_commit": 0
     },
     {
@@ -3179,13 +3179,13 @@
         "agent-tools"
       ],
       "pricing": "Free",
-      "stars": 5383,
+      "stars": 5380,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-09-04T20:04:17Z",
-      "days_since_commit": 217,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 216,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "ai-agent-deep-dive",
@@ -3198,13 +3198,13 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 5360,
+      "stars": 5326,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-04T08:21:12Z",
-      "days_since_commit": 5
+      "days_since_commit": 4
     },
     {
       "name": "Learn AI Engineering",
@@ -3227,13 +3227,13 @@
         "education"
       ],
       "pricing": "Free",
-      "stars": 5321,
+      "stars": 5314,
       "language": null,
       "added_date": "2026-04-05",
       "verified": true,
       "last_commit_date": "2026-02-05T02:34:40Z",
-      "days_since_commit": 63,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 62,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "AI Scientist v2",
@@ -3248,13 +3248,13 @@
         "sakana-ai"
       ],
       "pricing": "Free",
-      "stars": 5339,
+      "stars": 5283,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-12-19T07:46:32Z",
-      "days_since_commit": 111,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 110,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Windows MCP",
@@ -3268,13 +3268,13 @@
         "computer-use"
       ],
       "pricing": "Free",
-      "stars": 5051,
+      "stars": 5040,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T16:40:29Z",
+      "last_commit_date": "2026-04-08T16:40:09Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "2026-AI-College-Jobs",
@@ -3289,12 +3289,12 @@
         "ai"
       ],
       "pricing": "Open Source",
-      "stars": 5043,
+      "stars": 5037,
       "language": null,
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T13:56:30Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T13:45:29Z",
       "days_since_commit": 0
     },
     {
@@ -3314,9 +3314,9 @@
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-10-13T03:27:09Z",
-      "days_since_commit": 178
+      "days_since_commit": 177
     },
     {
       "name": "TaxHacker",
@@ -3336,13 +3336,13 @@
         "openai"
       ],
       "pricing": "Free",
-      "stars": 5049,
+      "stars": 4968,
       "language": "TypeScript",
       "added_date": "2026-04-04",
       "verified": true,
       "last_commit_date": "2026-04-04T13:39:39Z",
-      "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " TaxHacker",
@@ -3358,7 +3358,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -3374,13 +3374,13 @@
         "integration"
       ],
       "pricing": "Freemium",
-      "stars": 4751,
+      "stars": 4752,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-08T15:35:45Z",
-      "days_since_commit": 91,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 90,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "Kiln",
@@ -3400,8 +3400,8 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T18:43:09Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T18:26:51Z",
       "days_since_commit": 0
     },
     {
@@ -3417,12 +3417,12 @@
         "huggingface"
       ],
       "pricing": "Open Source",
-      "stars": 4642,
+      "stars": 4640,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-08T21:29:21Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T15:36:10Z",
       "days_since_commit": 0
     },
     {
@@ -3440,7 +3440,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-08T07:07:14.441520",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441521"
     },
     {
@@ -3458,7 +3458,7 @@
       "language": "Go",
       "added_date": "2026-04-08T07:07:14.441522",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441522"
     },
     {
@@ -3474,13 +3474,13 @@
         "library"
       ],
       "pricing": "Open Source",
-      "stars": 4098,
+      "stars": 4097,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-15T00:12:53Z",
-      "days_since_commit": 25
+      "days_since_commit": 24
     },
     {
       "name": "bRAG-langchain",
@@ -3495,13 +3495,13 @@
         "application"
       ],
       "pricing": "Open Source",
-      "stars": 4074,
+      "stars": 4075,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-11-22T07:26:48Z",
-      "days_since_commit": 138
+      "days_since_commit": 137
     },
     {
       "name": "reasoning-from-scratch",
@@ -3516,13 +3516,13 @@
         "implementation"
       ],
       "pricing": "Open Source",
-      "stars": 4072,
+      "stars": 4050,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T01:58:14Z",
-      "days_since_commit": 1
+      "days_since_commit": 0
     },
     {
       "name": "OpenClaw Zero Token",
@@ -3538,18 +3538,18 @@
         "gateway"
       ],
       "pricing": "Free",
-      "stars": 4048,
+      "stars": 4001,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-07T03:56:13Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LLM-RL-Visualized",
       "url": "https://github.com/changyeyu/LLM-RL-Visualized",
-      "description": "🌟100+ 原创 LLM / RL 原理图📚，《大模型算法》作者巨献！💥（100+  LLM/RL Algorithm Maps ）",
+      "description": "\ud83c\udf1f100+ \u539f\u521b LLM / RL \u539f\u7406\u56fe\ud83d\udcda\uff0c\u300a\u5927\u6a21\u578b\u7b97\u6cd5\u300b\u4f5c\u8005\u5de8\u732e\uff01\ud83d\udca5\uff08100+  LLM/RL Algorithm Maps \uff09",
       "category": "Research & Data",
       "tags": [
         "llm",
@@ -3559,13 +3559,13 @@
         "maps"
       ],
       "pricing": "Open Source",
-      "stars": 3997,
+      "stars": 3994,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-03T14:02:55Z",
-      "days_since_commit": 6
+      "days_since_commit": 5
     },
     {
       "name": "SwarmUI",
@@ -3580,12 +3580,12 @@
         "interface"
       ],
       "pricing": "Open Source",
-      "stars": 3951,
+      "stars": 3946,
       "language": "C#",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T06:33:57Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-07T21:36:36Z",
       "days_since_commit": 0
     },
     {
@@ -3603,7 +3603,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441525",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441525"
     },
     {
@@ -3616,13 +3616,13 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 4002,
+      "stars": 3688,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T16:46:35Z",
-      "days_since_commit": 1
+      "days_since_commit": 0
     },
     {
       "name": "MCP Context Forge",
@@ -3637,13 +3637,13 @@
         "ibm"
       ],
       "pricing": "Free",
-      "stars": 3543,
+      "stars": 3538,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:17:41Z",
+      "last_commit_date": "2026-04-08T19:48:16Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Agentation",
@@ -3656,13 +3656,13 @@
         "feedback"
       ],
       "pricing": "Free",
-      "stars": 3336,
+      "stars": 3325,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-25T16:23:39Z",
-      "days_since_commit": 15,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 14,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "Harbor",
@@ -3675,13 +3675,13 @@
         "services"
       ],
       "pricing": "Free",
-      "stars": 2793,
+      "stars": 2781,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T09:03:28Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-04T19:16:06Z",
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "datachain",
@@ -3696,12 +3696,12 @@
         "multimodal"
       ],
       "pricing": "Open Source",
-      "stars": 2736,
+      "stars": 2737,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T12:46:15Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T18:56:46Z",
       "days_since_commit": 0
     },
     {
@@ -3719,9 +3719,9 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-09T06:31:33Z",
+      "last_commit_date": "2026-04-08T09:03:36Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "One-Person Company AI Tools",
@@ -3734,18 +3734,18 @@
         "entrepreneurship"
       ],
       "pricing": "Free",
-      "stars": 2679,
+      "stars": 2680,
       "language": null,
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-05-08T08:34:16Z",
-      "days_since_commit": 336,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 335,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "plexe",
       "url": "https://github.com/plexe-ai/plexe",
-      "description": "✨ Build a machine learning model from a prompt",
+      "description": "\u2728 Build a machine learning model from a prompt",
       "category": "Developer Tools",
       "tags": [
         "ml",
@@ -3755,13 +3755,13 @@
         "ai"
       ],
       "pricing": "Open Source",
-      "stars": 2559,
+      "stars": 2558,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟠 Aging",
+      "freshness": "\ud83d\udfe0 Aging",
       "last_commit_date": "2026-03-06T11:41:05Z",
-      "days_since_commit": 34
+      "days_since_commit": 33
     },
     {
       "name": "Markdownify MCP",
@@ -3774,13 +3774,13 @@
         "conversion"
       ],
       "pricing": "Free",
-      "stars": 2563,
+      "stars": 2555,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-03T15:44:53Z",
-      "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 5,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "cc-gateway",
@@ -3793,13 +3793,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 2566,
+      "stars": 2528,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-02T10:50:07Z",
-      "days_since_commit": 7
+      "days_since_commit": 6
     },
     {
       "name": "open-agent-sdk-typescript",
@@ -3812,13 +3812,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 2506,
+      "stars": 2484,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-03T16:25:16Z",
-      "days_since_commit": 6
+      "days_since_commit": 5
     },
     {
       "name": "claude-code-book",
@@ -3830,13 +3830,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 2487,
+      "stars": 2415,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-06T07:22:38Z",
-      "days_since_commit": 3
+      "days_since_commit": 2
     },
     {
       "name": "agentic-ai-prompt-research",
@@ -3848,18 +3848,18 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 2257,
+      "stars": 2243,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-31T19:04:33Z",
-      "days_since_commit": 9
+      "days_since_commit": 8
     },
     {
       "name": "agentic-context-engine",
       "url": "https://github.com/kayba-ai/agentic-context-engine",
-      "description": "🧠 Make your agents learn from experience. Now available as a hosted solution at kayba.ai",
+      "description": "\ud83e\udde0 Make your agents learn from experience. Now available as a hosted solution at kayba.ai",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -3873,8 +3873,8 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T02:08:20Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T17:33:45Z",
       "days_since_commit": 0
     },
     {
@@ -3894,9 +3894,9 @@
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-02-09T14:58:12Z",
-      "days_since_commit": 424
+      "days_since_commit": 423
     },
     {
       "name": "model2vec",
@@ -3915,9 +3915,9 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-03T12:40:51Z",
-      "days_since_commit": 6
+      "days_since_commit": 5
     },
     {
       "name": "guppylm",
@@ -3931,13 +3931,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 2167,
+      "stars": 2016,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
       "last_commit_date": "2026-04-08T12:51:04Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code",
@@ -3950,13 +3950,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 2122,
+      "stars": 2013,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-04T21:25:14Z",
-      "days_since_commit": 4
+      "days_since_commit": 3
     },
     {
       "name": "humanoid-gym",
@@ -3971,13 +3971,13 @@
         "humanoid"
       ],
       "pricing": "Open Source",
-      "stars": 1936,
+      "stars": 1934,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-01-26T08:11:29Z",
-      "days_since_commit": 438
+      "days_since_commit": 437
     },
     {
       "name": "claude-code",
@@ -3990,13 +3990,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 1931,
+      "stars": 1875,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T11:08:19Z",
-      "days_since_commit": 2
+      "days_since_commit": 1
     },
     {
       "name": "METATRON",
@@ -4010,13 +4010,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 2035,
+      "stars": 1872,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
       "last_commit_date": "2026-04-08T13:36:38Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AI Products All-In-One",
@@ -4034,8 +4034,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2024-01-14T02:05:56Z",
-      "days_since_commit": 816,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 815,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "ai-marketing-skills",
@@ -4048,13 +4048,13 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 1702,
+      "stars": 1666,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-06T04:33:12Z",
-      "days_since_commit": 3
+      "days_since_commit": 2
     },
     {
       "name": "how-claude-code-works",
@@ -4066,13 +4066,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 1680,
+      "stars": 1635,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T16:55:42Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-03T07:51:34Z",
+      "days_since_commit": 5
     },
     {
       "name": "rocketride-server",
@@ -4088,12 +4088,12 @@
         "scalable"
       ],
       "pricing": "Open Source",
-      "stars": 1634,
+      "stars": 1608,
       "language": "C++",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T20:28:18Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T20:18:23Z",
       "days_since_commit": 0
     },
     {
@@ -4106,13 +4106,13 @@
         "rust"
       ],
       "pricing": "Free",
-      "stars": 1615,
+      "stars": 1591,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T12:11:03Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-02T08:14:34Z",
+      "days_since_commit": 6
     },
     {
       "name": "ExtractThinker",
@@ -4127,13 +4127,13 @@
         "workflow"
       ],
       "pricing": "Open Source",
-      "stars": 1526,
+      "stars": 1527,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-08-27T23:06:09Z",
-      "days_since_commit": 224
+      "days_since_commit": 223
     },
     {
       "name": "tradingview-mcp",
@@ -4144,13 +4144,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 1500,
+      "stars": 1417,
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-04T00:27:04Z",
-      "days_since_commit": 5
+      "days_since_commit": 4
     },
     {
       "name": "MusicGPT",
@@ -4169,9 +4169,9 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-02-09T10:06:29Z",
-      "days_since_commit": 424
+      "days_since_commit": 423
     },
     {
       "name": "Terminator",
@@ -4194,13 +4194,13 @@
         "automation"
       ],
       "pricing": "Free",
-      "stars": 1391,
+      "stars": 1392,
       "language": "Rust",
       "added_date": "2026-04-05",
       "verified": true,
       "last_commit_date": "2026-04-05T17:29:10Z",
-      "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 3,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code",
@@ -4213,13 +4213,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 1355,
+      "stars": 1336,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-31T10:03:46Z",
-      "days_since_commit": 9
+      "days_since_commit": 8
     },
     {
       "name": "SwitchAI",
@@ -4232,13 +4232,13 @@
         "mobile"
       ],
       "pricing": "Free",
-      "stars": 1306,
+      "stars": 1304,
       "language": "Kotlin",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-30T01:51:53Z",
-      "days_since_commit": 10,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 9,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "Edit Mind",
@@ -4258,18 +4258,18 @@
         "videos"
       ],
       "pricing": "Free",
-      "stars": 1282,
+      "stars": 1281,
       "language": "TypeScript",
       "added_date": "2026-04-05",
       "verified": true,
       "last_commit_date": "2026-04-06T09:08:23Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 2,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AutoResearch MLX",
       "url": "https://github.com/trevin-creator/autoresearch-mlx",
-      "description": "Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, no PyTorch required",
+      "description": "Apple Silicon (MLX) port of Karpathy's autoresearch \u2014 autonomous AI research loops on Mac, no PyTorch required",
       "category": "Research & Data",
       "tags": [
         "ai",
@@ -4282,13 +4282,13 @@
         "autoresearch"
       ],
       "pricing": "Free",
-      "stars": 1285,
+      "stars": 1274,
       "language": "Python",
       "added_date": "2026-04-05",
       "verified": true,
       "last_commit_date": "2026-03-10T22:30:24Z",
-      "days_since_commit": 29,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 28,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "arkflow",
@@ -4307,9 +4307,9 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-01T13:18:03Z",
-      "days_since_commit": 8
+      "days_since_commit": 7
     },
     {
       "name": "claude-reviews-claude",
@@ -4322,13 +4322,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 1264,
+      "stars": 1250,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-01T19:52:40Z",
-      "days_since_commit": 8
+      "days_since_commit": 7
     },
     {
       "name": "claude-code-rust",
@@ -4341,13 +4341,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 1258,
+      "stars": 1229,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-06T22:06:33Z",
-      "days_since_commit": 2
+      "days_since_commit": 1
     },
     {
       "name": "aideml",
@@ -4366,14 +4366,14 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟠 Aging",
+      "freshness": "\ud83d\udfe0 Aging",
       "last_commit_date": "2026-02-12T13:02:34Z",
-      "days_since_commit": 56
+      "days_since_commit": 55
     },
     {
       "name": "EmbedAnything",
       "url": "https://github.com/StarlightSearch/EmbedAnything",
-      "description": "Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust 🦀",
+      "description": "Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust \ud83e\udd80",
       "category": "Developer Tools",
       "tags": [
         "rust",
@@ -4383,13 +4383,13 @@
         "production"
       ],
       "pricing": "Open Source",
-      "stars": 1171,
+      "stars": 1178,
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-11T10:12:08Z",
-      "days_since_commit": 29
+      "days_since_commit": 28
     },
     {
       "name": "Awesome AI SDKs",
@@ -4408,8 +4408,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-02-26T10:07:19Z",
-      "days_since_commit": 407,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 406,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "khazix-skills",
@@ -4423,13 +4423,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 1305,
+      "stars": 1157,
       "language": "Unknown",
       "added_date": "2026-04-09",
       "verified": true,
       "last_commit_date": "2026-04-06T16:17:00Z",
-      "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 2,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "pruna",
@@ -4448,14 +4448,14 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T19:40:45Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T20:26:51Z",
       "days_since_commit": 0
     },
     {
       "name": "SAG",
       "url": "https://github.com/Zleap-AI/SAG",
-      "description": "SAG - SQL驱动的RAG引擎 · 查询时自动构建知识图谱 | SQL-Driven RAG Engine · Automatically Build Knowledge Graph During Querying",
+      "description": "SAG - SQL\u9a71\u52a8\u7684RAG\u5f15\u64ce \u00b7 \u67e5\u8be2\u65f6\u81ea\u52a8\u6784\u5efa\u77e5\u8bc6\u56fe\u8c31 | SQL-Driven RAG Engine \u00b7 Automatically Build Knowledge Graph During Querying",
       "category": "Developer Tools",
       "tags": [
         "sql",
@@ -4469,9 +4469,9 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-12-08T06:25:08Z",
-      "days_since_commit": 122
+      "days_since_commit": 121
     },
     {
       "name": "parlor",
@@ -4485,13 +4485,13 @@
         "platform"
       ],
       "pricing": "Free",
-      "stars": 1224,
+      "stars": 1115,
       "language": "HTML",
       "added_date": "2026-04-09",
       "verified": true,
       "last_commit_date": "2026-04-07T00:10:19Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenSpace",
@@ -4504,12 +4504,12 @@
         "AI"
       ],
       "pricing": "Open Source",
-      "stars": 1102,
+      "stars": 1098,
       "language": "JavaScript",
       "added_date": "2026-04-08T07:07:14.441518",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T16:38:46Z",
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-08T17:57:26Z",
       "days_since_commit": 0
     },
     {
@@ -4522,13 +4522,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 1075,
+      "stars": 1050,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-02T11:36:32Z",
-      "days_since_commit": 7
+      "days_since_commit": 6
     },
     {
       "name": "Jupyter MCP Server",
@@ -4541,13 +4541,13 @@
         "notebooks"
       ],
       "pricing": "Free",
-      "stars": 1003,
+      "stars": 1001,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-05T08:42:52Z",
-      "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 3,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "thereisnospoon",
@@ -4559,13 +4559,13 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 1006,
+      "stars": 995,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-29T21:33:57Z",
-      "days_since_commit": 10
+      "days_since_commit": 9
     },
     {
       "name": "nightingale",
@@ -4580,13 +4580,13 @@
         "audio"
       ],
       "pricing": "Open Source",
-      "stars": 993,
+      "stars": 990,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T17:31:20Z",
-      "days_since_commit": 1
+      "days_since_commit": 0
     },
     {
       "name": "MTools",
@@ -4601,13 +4601,13 @@
         "ai-enhancement"
       ],
       "pricing": "Free",
-      "stars": 981,
+      "stars": 979,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-07T11:12:39Z",
-      "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 1,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Coca",
@@ -4620,13 +4620,13 @@
         "code-quality"
       ],
       "pricing": "Free",
-      "stars": 977,
+      "stars": 978,
       "language": "Go",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-06T09:40:33Z",
-      "days_since_commit": 93,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 92,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "mcpm.sh",
@@ -4639,13 +4639,13 @@
         "cli"
       ],
       "pricing": "Free",
-      "stars": 924,
+      "stars": 923,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-27T06:06:08Z",
-      "days_since_commit": 13,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 12,
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "claude-code-source-code",
@@ -4657,13 +4657,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 892,
+      "stars": 890,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-02T18:23:15Z",
-      "days_since_commit": 7
+      "days_since_commit": 6
     },
     {
       "name": "claude-md",
@@ -4675,13 +4675,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 885,
+      "stars": 877,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-03T22:28:25Z",
-      "days_since_commit": 5
+      "days_since_commit": 4
     },
     {
       "name": "claude-code-prompts",
@@ -4693,13 +4693,13 @@
         "claude"
       ],
       "pricing": "Free",
-      "stars": 899,
+      "stars": 873,
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T18:04:22Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-01T19:14:18Z",
+      "days_since_commit": 7
     },
     {
       "name": "deepfabric",
@@ -4718,9 +4718,9 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T19:44:34Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-02T19:44:26Z",
+      "days_since_commit": 6
     },
     {
       "name": "claude-code-from-scratch",
@@ -4733,13 +4733,13 @@
         "typescript"
       ],
       "pricing": "Free",
-      "stars": 835,
+      "stars": 812,
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T15:45:43Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-04T16:00:29Z",
+      "days_since_commit": 4
     },
     {
       "name": "cc-mini",
@@ -4752,18 +4752,18 @@
         "python"
       ],
       "pricing": "Free",
-      "stars": 764,
+      "stars": 753,
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T12:42:26Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-07T09:45:43Z",
+      "days_since_commit": 1
     },
     {
       "name": "Claude Code Design Guide",
       "url": "https://github.com/6551Team/claude-code-design-guide",
-      "description": "From Early Internet Design Patterns to AI Agent Implementation — A Deep Dive into Claude Code for Developers",
+      "description": "From Early Internet Design Patterns to AI Agent Implementation \u2014 A Deep Dive into Claude Code for Developers",
       "category": "Developer Tools",
       "tags": [
         "claude",
@@ -4774,13 +4774,13 @@
         "development"
       ],
       "pricing": "Free",
-      "stars": 699,
+      "stars": 688,
       "language": "JavaScript",
       "added_date": "2026-04-04",
       "verified": true,
       "last_commit_date": "2026-04-02T12:10:38Z",
-      "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 6,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AigoTools",
@@ -4799,13 +4799,13 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-08-01T03:45:07Z",
-      "days_since_commit": 251,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 250,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "clawgod",
       "url": "https://github.com/0Chencc/clawgod",
-      "description": "This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version — as Claude Code updates, the patch continues to take effect",
+      "description": "This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version \u2014 as Claude Code updates, the patch continues to take effect",
       "category": "Developer Tools",
       "tags": [
         "developer",
@@ -4817,13 +4817,13 @@
         "patch"
       ],
       "pricing": "Free",
-      "stars": 662,
+      "stars": 641,
       "language": "PowerShell",
       "added_date": "2026-04-04",
       "verified": true,
       "last_commit_date": "2026-04-08T13:55:49Z",
-      "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "openclaw-auto-dream",
@@ -4834,13 +4834,13 @@
         "automation"
       ],
       "pricing": "Free",
-      "stars": 568,
+      "stars": 583,
       "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-31T04:13:31Z",
-      "days_since_commit": 9
+      "days_since_commit": 8
     },
     {
       "name": "Mycoder",
@@ -4858,8 +4858,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-07T16:22:18Z",
-      "days_since_commit": 92,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 91,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AI Anything",
@@ -4877,8 +4877,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2023-03-29T01:03:49Z",
-      "days_since_commit": 1107,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 1106,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AI Infinity",
@@ -4895,8 +4895,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-02-17T15:29:32Z",
-      "days_since_commit": 51,
-      "freshness": "🟠 Aging"
+      "days_since_commit": 50,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "Tiger",
@@ -4910,13 +4910,13 @@
         "crewai"
       ],
       "pricing": "Free",
-      "stars": 468,
+      "stars": 467,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-02-19T09:40:49Z",
-      "days_since_commit": 414,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 413,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Modus",
@@ -4934,8 +4934,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-09-11T14:09:23Z",
-      "days_since_commit": 210,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 209,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "graphify",
@@ -4948,13 +4948,13 @@
         "AI"
       ],
       "pricing": "Open Source",
-      "stars": 391,
+      "stars": 387,
       "language": "Go",
       "added_date": "2026-04-08T07:07:14.441511",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2020-04-04T03:49:01Z",
-      "days_since_commit": 2196
+      "days_since_commit": 2195
     },
     {
       "name": "Awesome AI",
@@ -4971,8 +4971,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2023-06-02T19:29:08Z",
-      "days_since_commit": 1042,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 1041,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AskAI Tools",
@@ -4984,13 +4984,13 @@
         "ai-products"
       ],
       "pricing": "Freemium",
-      "stars": 360,
+      "stars": 359,
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2024-07-11T13:03:36Z",
-      "days_since_commit": 637,
-      "freshness": "🔴 Stale"
+      "days_since_commit": 636,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "mempalace",
@@ -5003,13 +5003,13 @@
         "Organization"
       ],
       "pricing": "Open Source",
-      "stars": 30,
+      "stars": 26,
       "language": "Rust",
       "added_date": "2026-04-08T07:07:14.441507",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T20:41:08Z",
-      "days_since_commit": 1
+      "days_since_commit": 0
     },
     {
       "name": "ai-engineering-hub",
@@ -5018,13 +5018,11 @@
       "category": "Agents & Automation",
       "tags": [],
       "pricing": "Free",
-      "stars": 33342,
+      "stars": 33324,
       "language": "Jupyter Notebook",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟡 Recent",
-      "last_commit_date": "2026-03-23T19:26:56Z",
-      "days_since_commit": 17
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "mlflow",
@@ -5033,13 +5031,11 @@
       "category": "Agents & Automation",
       "tags": [],
       "pricing": "Free",
-      "stars": 25249,
+      "stars": 25229,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T18:51:14Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "haystack",
@@ -5048,13 +5044,11 @@
       "category": "Agents & Automation",
       "tags": [],
       "pricing": "Free",
-      "stars": 24778,
+      "stars": 24770,
       "language": "MDX",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T16:07:33Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "DocsGPT",
@@ -5063,28 +5057,24 @@
       "category": "Agents & Automation",
       "tags": [],
       "pricing": "Free",
-      "stars": 17815,
+      "stars": 17816,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T17:38:13Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "zenml",
       "url": "https://github.com/zenml-io/zenml",
-      "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
+      "description": "ZenML \ud83d\ude4f: One AI Platform from Pipelines to Agents. https://zenml.io.",
       "category": "Agents & Automation",
       "tags": [],
       "pricing": "Free",
-      "stars": 5319,
+      "stars": 5320,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-09T15:38:41Z",
-      "days_since_commit": 0
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "SuperPrompt",
@@ -5100,9 +5090,9 @@
       "language": "Unknown",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2025-09-03T15:20:46Z",
-      "days_since_commit": 218,
-      "freshness": "🔴 Stale"
+      "last_commit_date": "2024-09-01T01:57:27Z",
+      "days_since_commit": 586,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "deep-prove",
@@ -5117,9 +5107,9 @@
       "language": "Rust",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-01T15:49:12Z",
-      "days_since_commit": 8,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2024-11-07T21:46:12Z",
+      "days_since_commit": 518,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "mflux",
@@ -5130,18 +5120,18 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 1978,
+      "stars": 1977,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-03-28T14:44:39Z",
-      "days_since_commit": 12,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2024-08-10T10:30:00Z",
+      "days_since_commit": 608,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "MLE-agent",
       "url": "https://github.com/MLSysOps/MLE-agent",
-      "description": "🤖 MLE-Agent: Your intelligent companion for seamless AI engineering and research. 🔍 Integrate with arxiv and paper with code to provide better code/research plans 🧰 OpenAI, Anthropic, Gemini, Ollama, etc supported. :fireworks: Code RAG",
+      "description": "\ud83e\udd16 MLE-Agent: Your intelligent companion for seamless AI engineering and research. \ud83d\udd0d Integrate with arxiv and paper with code to provide better code/research plans \ud83e\uddf0 OpenAI, Anthropic, Gemini, Ollama, etc supported. :fireworks: Code RAG",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -5154,9 +5144,9 @@
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2025-07-27T17:56:58Z",
-      "days_since_commit": 256,
-      "freshness": "🔴 Stale"
+      "last_commit_date": "2024-04-16T23:49:21Z",
+      "days_since_commit": 723,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "korvus",
@@ -5171,9 +5161,9 @@
       "language": "Rust",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2025-01-31T00:00:07Z",
-      "days_since_commit": 433,
-      "freshness": "🔴 Stale"
+      "last_commit_date": "2024-06-24T21:37:54Z",
+      "days_since_commit": 654,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "kitops",
@@ -5188,9 +5178,9 @@
       "language": "Go",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T18:11:39Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2024-02-02T18:53:31Z",
+      "days_since_commit": 797,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AutoHedge",
@@ -5203,13 +5193,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 1152,
+      "stars": 1151,
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-03-09T05:25:35Z",
-      "days_since_commit": 31,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2024-12-10T20:34:46Z",
+      "days_since_commit": 485,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "ai-hands-on",
@@ -5224,9 +5214,9 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-02-14T15:46:11Z",
-      "days_since_commit": 54,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2025-11-24T11:40:11Z",
+      "days_since_commit": 137,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "mastra",
@@ -5238,13 +5228,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 22836,
+      "stars": 22829,
       "language": "TypeScript",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:25:10Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2024-08-06T20:44:31Z",
+      "days_since_commit": 611,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "deep-research",
@@ -5260,9 +5250,9 @@
       "language": "TypeScript",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2025-09-08T16:22:24Z",
-      "days_since_commit": 213,
-      "freshness": "🔴 Stale"
+      "last_commit_date": "2025-02-04T01:27:56Z",
+      "days_since_commit": 430,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "WeKnora",
@@ -5274,13 +5264,13 @@
         "rag"
       ],
       "pricing": "Free",
-      "stars": 13793,
+      "stars": 13791,
       "language": "Go",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T17:27:29Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2025-07-22T08:01:23Z",
+      "days_since_commit": 262,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "kilocode",
@@ -5291,13 +5281,13 @@
         "agent"
       ],
       "pricing": "Free",
-      "stars": 17877,
+      "stars": 17866,
       "language": "TypeScript",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:26:50Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2025-03-10T15:34:26Z",
+      "days_since_commit": 395,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "archon",
@@ -5308,13 +5298,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 14318,
+      "stars": 14120,
       "language": "TypeScript",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T19:49:48Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2025-02-07T21:04:12Z",
+      "days_since_commit": 426,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "voicebox",
@@ -5325,13 +5315,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 14665,
+      "stars": 14658,
       "language": "TypeScript",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-03-31T04:20:10Z",
-      "days_since_commit": 9,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-01-25T12:27:03Z",
+      "days_since_commit": 75,
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "bytebot",
@@ -5343,13 +5333,13 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 10789,
+      "stars": 10785,
       "language": "TypeScript",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2025-09-12T19:35:46Z",
-      "days_since_commit": 209,
-      "freshness": "🔴 Stale"
+      "last_commit_date": "2025-02-03T18:18:50Z",
+      "days_since_commit": 430,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "astron-agent",
@@ -5361,13 +5351,13 @@
         "rag"
       ],
       "pricing": "Free",
-      "stars": 10345,
+      "stars": 10314,
       "language": "Java",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T09:20:35Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2025-09-19T08:46:01Z",
+      "days_since_commit": 203,
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "gallery",
@@ -5382,13 +5372,13 @@
         "google-ai"
       ],
       "pricing": "Free",
-      "stars": 19884,
+      "stars": 19876,
       "language": "Kotlin",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-08T22:14:52Z",
+      "last_commit_date": "2026-04-08T20:20:49Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LiteRT-LM",
@@ -5403,13 +5393,13 @@
         "google-ai-edge"
       ],
       "pricing": "Free",
-      "stars": 3177,
+      "stars": 3175,
       "language": "C++",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-09T20:25:23Z",
+      "last_commit_date": "2026-04-08T18:44:23Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "andrej-karpathy-skills",
@@ -5424,553 +5414,12 @@
         "prompt-engineering"
       ],
       "pricing": "Free",
-      "stars": 10258,
+      "stars": 10216,
       "language": null,
       "added_date": "2026-04-09",
       "verified": true,
       "last_commit_date": "2026-04-08T22:15:37Z",
       "days_since_commit": 0,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "docling",
-      "url": "https://github.com/docling-project/docling",
-      "description": "Get your documents ready for gen AI",
-      "category": "Research & Data",
-      "tags": [
-        "ai",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 57467,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:40:37Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "gpt-engineer",
-      "url": "https://github.com/AntonOsika/gpt-engineer",
-      "description": "CLI platform to experiment with codegen. Precursor to: https://lovable.dev",
-      "category": "Developer Tools",
-      "tags": [
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 55215,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:40:13Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "TrendRadar",
-      "url": "https://github.com/sansan0/TrendRadar",
-      "description": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 +  RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe\u51c6\u7b5b\u9009\u3002AI \u667a\u80fd\u7b5b\u9009\u65b0\u95fb + AI \u7ffb\u8bd1 +  AI \u5206\u6790\u7b80\u62a5\u76f4\u63a8\u624b\u673a\uff0c\u4e5f\u652f\u6301\u63a5\u5165 MCP \u67b6\u6784\uff0c\u8d4b\u80fd AI \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u5206\u6790\u3001\u60c5\u611f\u6d1e\u5bdf\u4e0e\u8d8b\u52bf\u9884\u6d4b\u7b49\u3002\u652f\u6301 Docker \uff0c\u6570\u636e\u672c\u5730/\u4e91\u7aef\u81ea\u6301\u3002\u96c6\u6210\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy/bark/slack \u7b49\u6e20\u9053\u667a\u80fd\u63a8\u9001\u3002",
-      "category": "Research & Data",
-      "tags": [
-        "ai",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 51351,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:41:10Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "crewAI",
-      "url": "https://github.com/crewAIInc/crewAI",
-      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "ml",
-        "agent",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 48491,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:33:07Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "chatgpt-on-wechat",
-      "url": "https://github.com/zhayujie/chatgpt-on-wechat",
-      "description": "CowAgent\u662f\u57fa\u4e8e\u5927\u6a21\u578b\u7684\u8d85\u7ea7AI\u52a9\u7406\uff0c\u80fd\u4e3b\u52a8\u601d\u8003\u548c\u4efb\u52a1\u89c4\u5212\u3001\u8bbf\u95ee\u64cd\u4f5c\u7cfb\u7edf\u548c\u5916\u90e8\u8d44\u6e90\u3001\u521b\u9020\u548c\u6267\u884cSkills\u3001\u62e5\u6709\u957f\u671f\u8bb0\u5fc6\u5e76\u4e0d\u65ad\u6210\u957f\uff0c\u6bd4OpenClaw\u66f4\u8f7b\u91cf\u548c\u4fbf\u6377\u3002\u540c\u65f6\u652f\u6301\u5fae\u4fe1\u3001\u98de\u4e66\u3001\u9489\u9489\u3001\u4f01\u5fae\u3001QQ\u3001\u516c\u4f17\u53f7\u3001\u7f51\u9875\u7b49\u63a5\u5165\uff0c\u53ef\u9009\u62e9OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI\uff0c\u80fd\u5904\u7406\u6587\u672c\u3001\u8bed\u97f3\u3001\u56fe\u7247\u548c\u6587\u4ef6\uff0c\u53ef\u5feb\u901f\u642d\u5efa\u4e2a\u4ebaAI\u52a9\u7406\u548c\u4f01\u4e1a\u6570\u5b57\u5458\u5de5\u3002",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 42942,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:34:56Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "ColossalAI",
-      "url": "https://github.com/hpcaitech/ColossalAI",
-      "description": "Making large AI models cheaper, faster and more accessible",
-      "category": "Open Source Models",
-      "tags": [
-        "ai",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 41366,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:39:34Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "agno",
-      "url": "https://github.com/agno-agi/agno",
-      "description": "Build, run, manage agentic software at scale.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 39312,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T06:56:33Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "quivr",
-      "url": "https://github.com/QuivrHQ/quivr",
-      "description": "Opiniated RAG for integrating GenAI in your apps \ud83e\udde0   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "llm",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 39081,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:40:14Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "mindsdb",
-      "url": "https://github.com/mindsdb/mindsdb",
-      "description": "Query Engine for AI Analytics: Build self-reasoning agents across all your live data",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 38938,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:25:30Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "Open-Assistant",
-      "url": "https://github.com/LAION-AI/Open-Assistant",
-      "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 37418,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:39:54Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "MockingBird",
-      "url": "https://github.com/babysor/MockingBird",
-      "description": "\ud83d\ude80Clone a voice in 5 seconds to generate arbitrary speech in real-time",
-      "category": "Research & Data",
-      "tags": [
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 36900,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:39:32Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "gpt-pilot",
-      "url": "https://github.com/Pythagora-io/gpt-pilot",
-      "description": "The first real AI developer",
-      "category": "Developer Tools",
-      "tags": [
-        "ai",
-        "python"
-      ],
-      "pricing": "Free",
-      "stars": 33775,
-      "language": "Python",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:40:21Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "netron",
-      "url": "https://github.com/lutzroeder/netron",
-      "description": "Visualizer for neural network, deep learning and machine learning models",
-      "category": "Image Generation",
-      "tags": [
-        "ml",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 32725,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T04:52:55Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "claude-task-master",
-      "url": "https://github.com/eyaltoledano/claude-task-master",
-      "description": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
-      "category": "Research & Data",
-      "tags": [
-        "ai",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 26467,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T06:34:58Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "SillyTavern",
-      "url": "https://github.com/SillyTavern/SillyTavern",
-      "description": "LLM Frontend for Power Users.",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "llm",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 25475,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:40:49Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "NeoPass",
-      "url": "https://github.com/Max-Eee/NeoPass",
-      "description": "Your Essential Exam Companion for the Iamneo Portal & NPTEL Exams Disguised as NeoExamShield bypass",
-      "category": "Research & Data",
-      "tags": [
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 25258,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-09T19:53:10Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "KeepChatGPT",
-      "url": "https://github.com/xcanwin/KeepChatGPT",
-      "description": "\u8fd9\u662f\u4e00\u6b3e\u63d0\u9ad8ChatGPT\u7684\u6570\u636e\u5b89\u5168\u80fd\u529b\u548c\u6548\u7387\u7684\u63d2\u4ef6\u3002\u5e76\u4e14\u514d\u8d39\u5171\u4eab\u5927\u91cf\u521b\u65b0\u529f\u80fd\uff0c\u5982\uff1a\u81ea\u52a8\u5237\u65b0\u3001\u4fdd\u6301\u6d3b\u8dc3\u3001\u6570\u636e\u5b89\u5168\u3001\u53d6\u6d88\u5ba1\u8ba1\u3001\u514b\u9686\u5bf9\u8bdd\u3001\u8a00\u65e0\u4e0d\u5c3d\u3001\u51c0\u5316\u9875\u9762\u3001\u5c55\u793a\u5927\u5c4f\u3001\u62e6\u622a\u8ddf\u8e2a\u3001\u65e5\u65b0\u6708\u5f02\u3001\u660e\u5bdf\u79cb\u6beb\u7b49\u3002\u8ba9\u6211\u4eec\u7684AI\u4f53\u9a8c\u65e0\u6bd4\u5b89\u5168\u3001\u987a\u7545\u3001\u4e1d\u6ed1\u3001\u9ad8\u6548\u3001\u7b80\u6d01\u3002",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 14908,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:37:49Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "electerm",
-      "url": "https://github.com/electerm/electerm",
-      "description": "\ud83d\udcfbTerminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)",
-      "category": "Research & Data",
-      "tags": [
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 13862,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:11:41Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "ai-guide",
-      "url": "https://github.com/liyupi/ai-guide",
-      "description": "\u7a0b\u5e8f\u5458\u9c7c\u76ae\u7684 AI \u8d44\u6e90\u5927\u5168 + Vibe Coding \u96f6\u57fa\u7840\u6559\u7a0b\uff0c\u5206\u4eab OpenClaw \u4fdd\u59c6\u7ea7\u6559\u7a0b\u3001\u5927\u6a21\u578b\u73a9\u6cd5\uff08DeepSeek / GPT / Gemini / Claude\uff09\u3001\u6700\u65b0 AI \u8d44\u8baf\u3001Prompt \u63d0\u793a\u8bcd\u5927\u5168\u3001AI \u77e5\u8bc6\u767e\u79d1\uff08Agent Skills / RAG / MCP / A2A\uff09\u3001AI \u7f16\u7a0b\u6559\u7a0b\u3001AI \u5de5\u5177\u7528\u6cd5\uff08Cursor / Claude Code / TRAE / Lovable / Copilot\uff09\u3001AI \u5f00\u53d1\u6846\u67b6\u6559\u7a0b\uff08Spring AI / LangChain\uff09\u3001AI \u4ea7\u54c1\u53d8\u73b0\u6307\u5357\uff0c\u5e2e\u4f60\u5feb\u901f\u638c\u63e1 AI \u6280\u672f\uff0c\u8d70\u5728\u65f6\u4ee3\u524d\u6cbf\u3002\u672c\u9879\u76ee\u4e3a\u5f00\u6e90\u6587\u6863\uff0c\u5df2\u5347\u7ea7\u4e3a\u9c7c\u76ae AI \u5bfc\u822a\u7f51\u7ad9",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 11586,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:26:52Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "BingGPT",
-      "url": "https://github.com/dice2o/BingGPT",
-      "description": "Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux)",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 9009,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-09T07:52:59Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "Crucix",
-      "url": "https://github.com/calesthio/Crucix",
-      "description": "Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes.",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 8646,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:30:49Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "reor",
-      "url": "https://github.com/reorproject/reor",
-      "description": "Private & local AI personal knowledge management app for high entropy people.",
-      "category": "Research & Data",
-      "tags": [
-        "ai",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 8548,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:40:23Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "claude-code-tips",
-      "url": "https://github.com/ykdojo/claude-code-tips",
-      "description": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.",
-      "category": "Developer Tools",
-      "tags": [
-        "ai",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 7283,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:34:53Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "opencommit",
-      "url": "https://github.com/di-sukharev/opencommit",
-      "description": "top #1 and most feature rich GPT wrapper for git \u2014 generate commit messages with an LLM in 1 sec \u2014 works with Claude, GPT and every other provider, supports local Ollama models too",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "llm",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 7240,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:40:02Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "browser-tools-mcp",
-      "url": "https://github.com/AgentDeskAI/browser-tools-mcp",
-      "description": "Monitor browser logs directly from Cursor and other MCP compatible IDEs.",
-      "category": "Developer Tools",
-      "tags": [
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 7178,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:40:33Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "cursor-talk-to-figma-mcp",
-      "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
-      "description": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "agent",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 6637,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:21:22Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "TagUI",
-      "url": "https://github.com/aisingapore/TagUI",
-      "description": "Free RPA tool by AI Singapore",
-      "category": "Research & Data",
-      "tags": [
-        "ai",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 6260,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:37:15Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "paperless-ai",
-      "url": "https://github.com/clusterzx/paperless-ai",
-      "description": "An automated document analyzer for Paperless-ngx using OpenAI API, Ollama, Deepseek-r1, Azure and all OpenAI API compatible Services to automatically analyze and tag your documents.",
-      "category": "Research & Data",
-      "tags": [
-        "ai",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 5554,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T05:48:34Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "easy-vibe",
-      "url": "https://github.com/datawhalechina/easy-vibe",
-      "description": "\ud83d\udcbb vibe coding 2026 | Your first modern programming course for beginners to master step by step.",
-      "category": "Developer Tools",
-      "tags": [
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 5236,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-10T07:41:58Z",
-      "days_since_commit": null,
-      "freshness": "\ud83d\udfe2 Fresh"
-    },
-    {
-      "name": "AgentVerse",
-      "url": "https://github.com/OpenBMB/AgentVerse",
-      "description": "\ud83e\udd16 AgentVerse \ud83e\ude90 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation",
-      "category": "Agents & Automation",
-      "tags": [
-        "agent",
-        "llm",
-        "javascript"
-      ],
-      "pricing": "Free",
-      "stars": 5005,
-      "language": "JavaScript",
-      "added_date": "2026-04-10",
-      "verified": true,
-      "last_commit_date": "2026-04-09T17:24:05Z",
-      "days_since_commit": null,
       "freshness": "\ud83d\udfe2 Fresh"
     }
   ]
