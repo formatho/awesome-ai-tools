@@ -2,7 +2,7 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-09-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-10-blue)](https://github.com/formatho/awesome-ai-tools)
 [![Total Tools](https://img.shields.io/badge/Tools-280-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -423,8 +423,8 @@ Top 10 by GitHub stars:
 
 - **Total Tools:** 280
 - **Categories:** 9
-- **Last Updated:** April 10, 2026
-- **Last Freshness Check:** April 10, 2026
+- **Last Updated:** April 9, 2026
+- **Last Freshness Check:** April 9, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
