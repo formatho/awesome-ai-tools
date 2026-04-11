@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-10T20:32:12.417Z",
-    "total_tools": 310,
+    "last_updated": "2026-04-11T01:39:28.572Z",
+    "total_tools": 312,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -5972,6 +5972,48 @@
       "last_commit_date": "2024-09-09T05:47:44Z",
       "days_since_commit": 578,
       "freshness": "🔴 Stale"
+    },
+    {
+      "name": "multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "managed",
+        "platform",
+        "teammates"
+      ],
+      "pricing": "Free",
+      "stars": 6125,
+      "language": "TypeScript",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T01:36:56Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "category": "Developer Tools",
+      "tags": [
+        "llm",
+        "coding",
+        "claude",
+        "best-practices",
+        "pitfalls"
+      ],
+      "pricing": "Free",
+      "stars": 11772,
+      "language": "Unknown",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T01:37:42Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     }
   ]
 }
