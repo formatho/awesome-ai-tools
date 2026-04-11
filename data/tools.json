@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-11T01:39:28.572Z",
-    "total_tools": 312,
+    "last_updated": "2026-04-11T07:41:16.232Z",
+    "total_tools": 316,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -6012,6 +6012,86 @@
       "added_date": "2026-04-11",
       "verified": true,
       "last_commit_date": "2026-04-11T01:37:42Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "category": "Developer Tools",
+      "tags": [
+        "mcp",
+        "servers",
+        "ai",
+        "tools"
+      ],
+      "pricing": "Free",
+      "stars": 84561,
+      "language": "Unknown",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T07:36:44Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "daytona",
+      "url": "https://github.com/daytonaio/daytona",
+      "description": "Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "infrastructure",
+        "code",
+        "security"
+      ],
+      "pricing": "Free",
+      "stars": 72237,
+      "language": "TypeScript",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T07:32:36Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "oh-my-openagent",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "description": "omo; the best agent harness - previously oh-my-opencode",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "harness",
+        "typescript",
+        "automation"
+      ],
+      "pricing": "Free",
+      "stars": 50403,
+      "language": "TypeScript",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T07:28:32Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "category": "Research & Data",
+      "tags": [
+        "ai",
+        "monitoring",
+        "intelligence",
+        "dashboard"
+      ],
+      "pricing": "Free",
+      "stars": 47744,
+      "language": "TypeScript",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T07:23:58Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     }
