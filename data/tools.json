@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-11T07:41:16.232Z",
-    "total_tools": 316,
+    "last_updated": "2026-04-11T13:48:06.999Z",
+    "total_tools": 328,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -6092,6 +6092,224 @@
       "added_date": "2026-04-11",
       "verified": true,
       "last_commit_date": "2026-04-11T07:23:58Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "awesome-copilot",
+      "url": "https://github.com/github/awesome-copilot",
+      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 29314,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:35:06Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "agenticSeek",
+      "url": "https://github.com/Fosowl/agenticSeek",
+      "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "code"
+      ],
+      "pricing": "Free",
+      "stars": 25889,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:33:07Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 24953,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T12:56:06Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "serena",
+      "url": "https://github.com/oraios/serena",
+      "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 22775,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:40:28Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 20705,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:29:25Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "deepagents",
+      "url": "https://github.com/langchain-ai/deepagents",
+      "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "langchain"
+      ],
+      "pricing": "Free",
+      "stars": 20314,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:41:27Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "dia",
+      "url": "https://github.com/nari-labs/dia",
+      "description": "A TTS model capable of generating ultra-realistic dialogue in one pass.",
+      "category": "Audio & Music",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 19246,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-10T17:08:53Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "SWE-agent",
+      "url": "https://github.com/SWE-agent/SWE-agent",
+      "description": "SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges. [NeurIPS 2024] ",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 18961,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:37:32Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "adk-python",
+      "url": "https://github.com/google/adk-python",
+      "description": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "python",
+        "code"
+      ],
+      "pricing": "Free",
+      "stars": 18866,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:16:01Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "free-llm-api-resources",
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 18467,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:45:35Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "agent-zero",
+      "url": "https://github.com/agent0ai/agent-zero",
+      "description": "Agent Zero AI framework",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 16921,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:03:24Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "code"
+      ],
+      "pricing": "Free",
+      "stars": 16327,
+      "language": "Python",
+      "added_date": "2026-04-11",
+      "verified": true,
+      "last_commit_date": "2026-04-11T13:47:05Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     }
