@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-11-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-312-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-316-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -30,14 +30,14 @@
 |------|-------------|----------|-----------|-------|
 | [multica](https://github.com/multica-ai/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. | Agents & Automation | 🟢 Fresh | April 11, 2026 |
 | [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | Developer Tools | 🟢 Fresh | April 11, 2026 |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | Developer Tools | 🟢 Fresh | April 11, 2026 |
+| [daytona](https://github.com/daytonaio/daytona) | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | Developer Tools | 🟢 Fresh | April 11, 2026 |
+| [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | omo; the best agent harness - previously oh-my-opencode | Agents & Automation | 🟢 Fresh | April 11, 2026 |
+| [worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | Research & Data | 🟢 Fresh | April 11, 2026 |
 | [docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | Research & Data | 🟢 Fresh | April 10, 2026 |
 | [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | CLI platform to experiment with codegen. Precursor to: https://lovable.dev | Developer Tools | 🔴 Stale | April 10, 2026 |
 | [TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 | Research & Data | 🟢 Fresh | April 10, 2026 |
 | [crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks. | Agents & Automation | 🟢 Fresh | April 10, 2026 |
-| [chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) | CowAgent是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、拥有长期记忆并不断成长，比OpenClaw更轻量和便捷。同时支持微信、飞书、钉钉、企微、QQ、公众号、网页等接入，可选择OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助理和企业数字员工。 | Agents & Automation | 🟢 Fresh | April 10, 2026 |
-| [ColossalAI](https://github.com/hpcaitech/ColossalAI) | Making large AI models cheaper, faster and more accessible | Open Source Models | 🟢 Fresh | April 10, 2026 |
-| [agno](https://github.com/agno-agi/agno) | Build, run, manage agentic software at scale. | Agents & Automation | 🟢 Fresh | April 10, 2026 |
-| [quivr](https://github.com/QuivrHQ/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. | LLMs & Chatbots | 🔴 Stale | April 10, 2026 |
 
 ---
 
@@ -74,6 +74,7 @@
 | [Autogen](https://github.com/microsoft/autogen) | Programming framework for agentic AI by Microsoft. | `agent` `framework` `microsoft` | Free | 🟢 Fresh | 56.9k |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Build AI Agents, Visually | `ai` `agent` | Free | 🟢 Fresh | 51.8k |
 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `ai` `ai-agent` `ai-agents` | Free | 🟢 Fresh | 51.4k |
+| [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | omo; the best agent harness - previously oh-my-opencode | `agent` `harness` `typescript` | Free | 🟢 Fresh | 50.4k |
 | [huginn](https://github.com/huginn/huginn) | Create agents that monitor and act on your behalf.  Your agents are standing by! | `agent` | Free | 🟢 Fresh | 49.1k |
 | [crewAI](https://github.com/crewAIInc/crewAI) | Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks. | `ai` `ml` `agent` | Free | 🟢 Fresh | 48.5k |
 | [acme.sh](https://github.com/acmesh-official/acme.sh) | A pure Unix shell script ACME client for SSL / TLS certificate automation | `agent` | Free | 🟢 Fresh | 46.2k |
@@ -191,10 +192,12 @@
 | [JavaGuide](https://github.com/Snailclimb/JavaGuide) | Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发 | `ai` | Free | 🟢 Fresh | 154.8k |
 | [Firecrawl](https://github.com/firecrawl/firecrawl) | Web data API for AI - turn websites into LLM-ready data. | `crawler` `scraper` `api` | Freemium | 🟢 Fresh | 107.0k |
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ for efficient local deployment. | `inference` `c++` `llm` | Free | 🟢 Fresh | 103.0k |
+| [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | `mcp` `servers` `ai` | Free | 🟢 Fresh | 84.6k |
 | [sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `cli` `cti` `cybersecurity` | Free | 🟢 Fresh | 80.8k |
 | [ sherlock](https://github.com/sherlock-project / sherlock) | Hunt down social media accounts by username across social networks | `AI` `Developer Tools` | Open Source | 🟢 Fresh | 80.1k |
 | [RAGFlow](https://github.com/infiniflow/ragflow) | Leading open-source Retrieval-Augmented Generation (RAG) engine with agent capabilities. | `rag` `llm` `agent` | Free | 🟢 Fresh | 77.7k |
 | [vllm](https://github.com/vllm-project/vllm) | High-throughput and memory-efficient inference and serving engine for LLMs. | `inference` `serving` `production` | Free | 🟢 Fresh | 76.0k |
+| [daytona](https://github.com/daytonaio/daytona) | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | `ai` `infrastructure` `code` | Free | 🟢 Fresh | 72.2k |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | AI-driven development platform for autonomous software engineering. | `agent` `coding` `open-source` | Free | 🟢 Fresh | 71.0k |
 | [gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |  | Free | 🟢 Fresh | 69.2k |
 | [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | CLI platform to experiment with codegen. Precursor to: https://lovable.dev | `python` | Free | 🔴 Stale | 55.2k |
@@ -388,6 +391,7 @@
 | [docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `ai` `python` | Free | 🟢 Fresh | 57.5k |
 | [TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 | `ai` `python` | Free | 🟢 Fresh | 51.4k |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Multi-agents LLM financial trading framework. | `trading` `agent` `finance` | Free | 🟢 Fresh | 49.3k |
+| [worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `ai` `monitoring` `intelligence` | Free | 🟢 Fresh | 47.7k |
 | [fastlane](https://github.com/fastlane/fastlane) | 🚀 The easiest way to automate building and releasing your iOS and Android apps | `ai-tool` | Free | 🟢 Fresh | 41.4k |
 | [appsmith](https://github.com/appsmithorg/appsmith) | Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API. | `ai-tool` | Free | 🟢 Fresh | 39.6k |
 | [MockingBird](https://github.com/babysor/MockingBird) | 🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time | `python` | Free | 🟠 Aging | 36.9k |
@@ -453,14 +457,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 312
+- **Total Tools:** 316
 - **Categories:** 9
 - **Last Updated:** April 11, 2026
 - **Last Freshness Check:** April 10, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 221 tools
+- 🟢 Fresh: 225 tools
 - 🟡 Recent: 40 tools
 - 🟠 Aging: 14 tools
 - 🔴 Stale: 37 tools
