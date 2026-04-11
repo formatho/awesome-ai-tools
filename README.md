@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-11-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-310-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-11blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-312-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,8 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [multica](https://github.com/multica-ai/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. | Agents & Automation | 🟢 Fresh | April 11, 2026 |
+| [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | Developer Tools | 🟢 Fresh | April 11, 2026 |
 | [docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | Research & Data | 🟢 Fresh | April 10, 2026 |
 | [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | CLI platform to experiment with codegen. Precursor to: https://lovable.dev | Developer Tools | 🔴 Stale | April 10, 2026 |
 | [TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 | Research & Data | 🟢 Fresh | April 10, 2026 |
@@ -36,8 +38,6 @@
 | [ColossalAI](https://github.com/hpcaitech/ColossalAI) | Making large AI models cheaper, faster and more accessible | Open Source Models | 🟢 Fresh | April 10, 2026 |
 | [agno](https://github.com/agno-agi/agno) | Build, run, manage agentic software at scale. | Agents & Automation | 🟢 Fresh | April 10, 2026 |
 | [quivr](https://github.com/QuivrHQ/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. | LLMs & Chatbots | 🔴 Stale | April 10, 2026 |
-| [mindsdb](https://github.com/mindsdb/mindsdb) | Query Engine for AI Analytics: Build self-reasoning agents across all your live data | Agents & Automation | 🟢 Fresh | April 10, 2026 |
-| [Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | LLMs & Chatbots | 🔴 Stale | April 10, 2026 |
 
 ---
 
@@ -124,6 +124,7 @@
 | [OpenHarness](https://github.com/HKUDS/OpenHarness) | Open-source AI agent harness framework | `ai` `agent` `python` | Free | 🟢 Fresh | 8.6k |
 | [cursor-talk-to-figma-mcp](https://github.com/grab/cursor-talk-to-figma-mcp) | TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically. | `ai` `agent` `javascript` | Free | 🟠 Aging | 6.6k |
 | [SuperPrompt](https://github.com/NeoVertex1/SuperPrompt) | SuperPrompt is an attempt to engineer prompts that might help us understand AI agents. | `agent` `ai` | Free | 🔴 Stale | 6.4k |
+| [multica](https://github.com/multica-ai/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. | `agent` `automation` `managed` | Free | 🟢 Fresh | 6.1k |
 | [caveman](https://github.com/caveman/caveman) | Caveman - AI-powered workflow automation and task management system | `Workflow` `Automation` `AI` | Open Source | 🟢 Fresh | 6.0k |
 | [sdk-python](https://github.com/strands-agents/sdk-python) | A model-driven approach to building AI agents in just a few lines of code. | `agent` `sdk` `python` | Open Source | 🟢 Fresh | 5.6k |
 | [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) | Multi-agent system framework and tools | `agent` `typescript` | Free | 🟢 Fresh | 5.6k |
@@ -222,6 +223,7 @@
 | [OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration. |  | Free | 🟢 Fresh | 14.9k |
 | [WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `llm` `rag` | Free | 🟢 Fresh | 13.8k |
 | [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | Use Codex from Claude Code to review code or delegate tasks. | `codex` `code-review` `delegation` | Free | 🟢 Fresh | 13.4k |
+| [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | `llm` `coding` `claude` | Free | 🟢 Fresh | 11.8k |
 | [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | `claude` `llm` `coding` | Free | 🟠 Aging | 11.6k |
 | [Portkey AI Gateway](https://github.com/Portkey-AI/gateway) | A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API. | `ai-gateway` `llm` `mcp` | Freemium | 🟡 Recent | 11.3k |
 | [tensorzero](https://github.com/tensorzero/tensorzero) | TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation. | `llm` `llmops` `platform` | Open Source | 🟢 Fresh | 11.2k |
@@ -451,14 +453,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 310
+- **Total Tools:** 312
 - **Categories:** 9
-- **Last Updated:** April 10, 2026
+- **Last Updated:** April 11, 2026
 - **Last Freshness Check:** April 10, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 219 tools
+- 🟢 Fresh: 221 tools
 - 🟡 Recent: 40 tools
 - 🟠 Aging: 14 tools
 - 🔴 Stale: 37 tools
