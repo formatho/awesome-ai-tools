@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-12-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-328-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-339-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
