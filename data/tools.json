@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-12T07:23:00Z",
-    "total_tools": 339,
+    "last_updated": "2026-04-12T13:24:01.141039",
+    "total_tools": 347,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -6530,6 +6530,150 @@
       "last_commit_date": "2026-04-12T01:37:55Z",
       "days_since_commit": 0,
       "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "FreeDomain",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "category": "Open Source Models",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "pricing": "Open Source",
+      "stars": 156812,
+      "language": "HTML",
+      "added_date": "2026-04-12T13:23:40.819394",
+      "verified": true,
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-03-26T05:54:09Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "pricing": "Open Source",
+      "stars": 151711,
+      "language": "JavaScript",
+      "added_date": "2026-04-12T13:23:42.350975",
+      "verified": true,
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-12T04:53:43Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "category": "Agents & Automation",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "pricing": "Open Source",
+      "stars": 147516,
+      "language": "Shell",
+      "added_date": "2026-04-12T13:23:43.914143",
+      "verified": true,
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-10T21:17:39Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "category": "Agents & Automation",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "pricing": "Open Source",
+      "stars": 141748,
+      "language": "TypeScript",
+      "added_date": "2026-04-12T13:23:45.457176",
+      "verified": true,
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-12T07:49:27Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "category": "Agents & Automation",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "pricing": "Open Source",
+      "stars": 115378,
+      "language": "Python",
+      "added_date": "2026-04-12T13:23:46.982959",
+      "verified": true,
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-09T17:20:07Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "pricing": "Open Source",
+      "stars": 112727,
+      "language": "Shell",
+      "added_date": "2026-04-12T13:23:48.575471",
+      "verified": true,
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-10T19:03:41Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "\ud83d\udd25 The Web Data API for AI - Power AI agents with clean web data",
+      "category": "Open Source Models",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "pricing": "Open Source",
+      "stars": 107760,
+      "language": "TypeScript",
+      "added_date": "2026-04-12T13:23:50.154442",
+      "verified": true,
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-11T16:06:14Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "AI",
+        "ML"
+      ],
+      "pricing": "Open Source",
+      "stars": 105181,
+      "language": "Python",
+      "added_date": "2026-04-12T13:23:51.720861",
+      "verified": true,
+      "freshness": "\ud83d\udfe2 Fresh",
+      "last_commit_date": "2026-04-01T07:06:35Z",
+      "days_since_commit": 0
     }
   ]
 }

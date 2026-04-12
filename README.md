@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-12-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-339-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-347-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,16 +28,16 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | LLMs & Chatbots | 🟢 Fresh | April 12, 2026 |
+| [firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Power AI agents with clean web data | Open Source Models | 🟢 Fresh | April 12, 2026 |
+| [claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | LLMs & Chatbots | 🟢 Fresh | April 12, 2026 |
+| [skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | Agents & Automation | 🟢 Fresh | April 12, 2026 |
+| [opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | Agents & Automation | 🟢 Fresh | April 12, 2026 |
+| [superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development methodology that works. | Agents & Automation | 🟢 Fresh | April 12, 2026 |
+| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | LLMs & Chatbots | 🟢 Fresh | April 12, 2026 |
+| [FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) | DigitalPlat FreeDomain: Free Domain For Everyone | Open Source Models | 🟢 Fresh | April 12, 2026 |
 | [ClickHouse](https://github.com/ClickHouse/ClickHouse) | ClickHouse® is a real-time analytics database management system | Research & Data | 🟢 Fresh | April 12, 2026 |
 | [Kong](https://github.com/Kong/kong) | 🦍 The API and AI Gateway | Developer Tools | 🟢 Fresh | April 12, 2026 |
-| [MemPalace](https://github.com/MemPalace/mempalace) | The highest-scoring AI memory system ever benchmarked. And it's free. | Agents & Automation | 🟢 Fresh | April 12, 2026 |
-| [Goose](https://github.com/aaif-goose/goose) | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM | Agents & Automation | 🟢 Fresh | April 12, 2026 |
-| [ChatGPT](https://github.com/lencx/ChatGPT) | 🔮 ChatGPT Desktop Application (Mac, Windows and Linux) | LLMs & Chatbots | 🟢 Fresh | April 12, 2026 |
-| [Meilisearch](https://github.com/meilisearch/meilisearch) | A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. | Developer Tools | 🟢 Fresh | April 12, 2026 |
-| [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 12 Weeks, 24 Lessons, AI for All! | Research & Data | 🟢 Fresh | April 12, 2026 |
-| [LocalAI](https://github.com/mudler/LocalAI) | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. | Open Source Models | 🟢 Fresh | April 12, 2026 |
-| [Netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full stack observability, even for lean teams. | Developer Tools | 🟢 Fresh | April 12, 2026 |
-| [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI, and injects relevant context back into future sessions. | Agents & Automation | 🟢 Fresh | April 12, 2026 |
 
 ---
 
@@ -51,12 +51,15 @@
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Accessible AI for everyone - autonomous agent platform. | `agent` `autonomous` `automation` | Free | 🟢 Fresh | 183.3k |
 | [claw-code](https://github.com/ultraworkers/claw-code) | The fastest repo in history to surpass 100K stars. Built in Rust using oh-my-codex - an AI coding agent platform. | `agent` `coding` `rust` | Free | 🟢 Fresh | 181.4k |
 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | `agent` | Free | 🟢 Fresh | 151.2k |
+| [superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development methodology that works. | `AI` `ML` | Open Source | 🟢 Fresh | 147.5k |
 | [superpowers](https://github.com/obra/superpowers) | An agentic skills framework & software development methodology that works. | `agent` | Free | 🟢 Fresh | 147.0k |
 | [Langflow](https://github.com/langflow-ai/langflow) | Visual framework for building multi-agent and RAG applications. | `agent` `visual` `rag` | Freemium | 🟢 Fresh | 146.8k |
+| [opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `AI` `ML` | Open Source | 🟢 Fresh | 141.7k |
 | [opencode](https://github.com/anomalyco/opencode) | The open source coding agent. | `agent` `open-source` | Free | 🟢 Fresh | 141.6k |
 | [Dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflow development. | `agent` `workflow` `llm` | Freemium | 🟢 Fresh | 137.3k |
 | [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models | `ai` `agent` `open-source` | Free | 🟡 Recent | 134.9k |
 | [langchain](https://github.com/langchain-ai/langchain) | The agent engineering platform | `ai` `agent` | Free | 🟢 Fresh | 133.2k |
+| [skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `AI` `ML` | Open Source | 🟢 Fresh | 115.4k |
 | [skills](https://github.com/anthropics/skills) | Public repository for Agent Skills | `agent` | Free | 🟢 Fresh | 115.1k |
 | [claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | `ai` `agent` | Free | 🟢 Fresh | 112.6k |
 | [Firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Power AI agents with clean web data | `ai` `crawler` `markdown` | Freemium | 🟢 Fresh | 107.5k |
@@ -318,7 +321,10 @@
 | Tool | Description | Tags | Pricing | Freshness | Stars |
 |------|-------------|------|---------|-----------|-------|
 | [Ollama](https://github.com/ollama/ollama) | Get up and running with Llama 2, Mistral, and other large language models locally. | `llm` `local` `inference` | Free | 🟢 Fresh | 168.6k |
+| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | `AI` `ML` | Open Source | 🟢 Fresh | 151.7k |
 | [Open-WebUI](https://github.com/open-webui/open-webui) | User-friendly AI interface supporting Ollama, OpenAI API, and more. | `ui` `chat` `ollama` | Free | 🟢 Fresh | 131.3k |
+| [claude-code](https://github.com/anthropics/claude-code) | Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands. | `AI` `ML` | Open Source | 🟢 Fresh | 112.7k |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | `AI` `ML` | Open Source | 🟢 Fresh | 105.2k |
 | [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | `llms` `rag` `python` | Free | 🟡 Recent | 105.1k |
 | [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models. | `llms` `rag` `python` | Free | 🟡 Recent | 105.1k |
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN | `ai` `llm` | Free | 🟢 Fresh | 63.8k |
@@ -356,6 +362,8 @@
 
 | Tool | Description | Tags | Pricing | Freshness | Stars |
 |------|-------------|------|---------|-----------|-------|
+| [FreeDomain](https://github.com/DigitalPlatDev/FreeDomain) | DigitalPlat FreeDomain: Free Domain For Everyone | `AI` `ML` | Open Source | 🟢 Fresh | 156.8k |
+| [firecrawl](https://github.com/firecrawl/firecrawl) | 🔥 The Web Data API for AI - Power AI agents with clean web data | `AI` `ML` | Open Source | 🟢 Fresh | 107.8k |
 | [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement a ChatGPT-like LLM in PyTorch step by step. | `tutorial` `llm` `pytorch` | Free | 🟢 Fresh | 90.5k |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | Run local LLMs on any device - open-source and commercially available. | `llm` `local` `privacy` | Free | 🔴 Stale | 77.3k |
 | [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | Unified efficient fine-tuning platform for 100+ LLMs and VLMs. | `llm` `fine-tuning` `open-source` | Free | 🟢 Fresh | 69.9k |
@@ -473,21 +481,21 @@ Top 10 by GitHub stars:
 6. **[Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)** - 162.3k ⭐ 🟠 Aging - Browser-based interface for Stable Diffusion image generation.
 7. **[Prompts.chat](https://github.com/f/prompts.chat)** - 159.3k ⭐ 🟢 Fresh - Share, discover, and collect AI prompts from the community.
 8. **[Transformers](https://github.com/huggingface/transformers)** - 159.2k ⭐ 🟢 Fresh - State-of-the-art Machine Learning for PyTorch, TensorFlow, and JAX.
-9. **[JavaGuide](https://github.com/Snailclimb/JavaGuide)** - 154.8k ⭐ 🟢 Fresh - Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
-10. **[everything-claude-code](https://github.com/affaan-m/everything-claude-code)** - 151.2k ⭐ 🟢 Fresh - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+9. **[FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)** - 156.8k ⭐ 🟢 Fresh - DigitalPlat FreeDomain: Free Domain For Everyone
+10. **[JavaGuide](https://github.com/Snailclimb/JavaGuide)** - 154.8k ⭐ 🟢 Fresh - Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发
 
 ---
 
 ## 📊 Statistics
 
-- **Total Tools:** 339
+- **Total Tools:** 347
 - **Categories:** 9
 - **Last Updated:** April 12, 2026
-- **Last Freshness Check:** April 11, 2026
+- **Last Freshness Check:** April 12, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 245 tools
+- 🟢 Fresh: 253 tools
 - 🟡 Recent: 38 tools
 - 🟠 Aging: 18 tools
 - 🔴 Stale: 38 tools
