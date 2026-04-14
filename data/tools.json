@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-14T14:43:06.930Z",
-    "total_tools": 372,
+    "last_updated": "2026-04-14T20:39:21.817387+00:00",
+    "total_tools": 379,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -5588,7 +5588,7 @@
         "ai"
       ],
       "pricing": "Free",
-      "stars": 17566,
+      "stars": 17931,
       "language": "TypeScript",
       "added_date": "2026-04-09",
       "verified": true,
@@ -5662,7 +5662,7 @@
         "google-ai"
       ],
       "pricing": "Free",
-      "stars": 20891,
+      "stars": 21041,
       "language": "Kotlin",
       "added_date": "2026-04-09",
       "verified": true,
@@ -5704,7 +5704,7 @@
         "prompt-engineering"
       ],
       "pricing": "Free",
-      "stars": 24365,
+      "stars": 32465,
       "language": null,
       "added_date": "2026-04-09",
       "verified": true,
@@ -6266,7 +6266,7 @@
         "teammates"
       ],
       "pricing": "Free",
-      "stars": 10965,
+      "stars": 12330,
       "language": "TypeScript",
       "added_date": "2026-04-11",
       "verified": true,
@@ -6287,7 +6287,7 @@
         "pitfalls"
       ],
       "pricing": "Free",
-      "stars": 24370,
+      "stars": 32465,
       "language": "Unknown",
       "added_date": "2026-04-11",
       "verified": true,
@@ -6784,7 +6784,7 @@
         "rag"
       ],
       "pricing": "Free",
-      "stars": 52989,
+      "stars": 55459,
       "language": "TypeScript",
       "added_date": "2026-04-12",
       "verified": true,
@@ -6968,7 +6968,7 @@
         "microsoft"
       ],
       "pricing": "Free",
-      "stars": 107605,
+      "stars": 108293,
       "language": "Python",
       "added_date": "2026-04-14",
       "verified": true,
@@ -6989,7 +6989,7 @@
         "claude-code"
       ],
       "pricing": "Free",
-      "stars": 6066,
+      "stars": 6172,
       "language": "Python",
       "added_date": "2026-04-14",
       "verified": true,
@@ -7052,7 +7052,7 @@
         "investment"
       ],
       "pricing": "Free",
-      "stars": 53432,
+      "stars": 54021,
       "language": "Python",
       "added_date": "2026-04-14",
       "verified": true,
@@ -7184,6 +7184,140 @@
       "verified": true,
       "last_commit_date": "2026-04-14T08:21:45Z",
       "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "Train a 64M-parameter GPT from scratch in just 2h! A complete implementation for training small-scale language models.",
+      "category": "Open Source Models",
+      "tags": [
+        "llm",
+        "training",
+        "gpt",
+        "from-scratch",
+        "education"
+      ],
+      "pricing": "Free",
+      "stars": 46848,
+      "language": "Python",
+      "added_date": "2026-04-14",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "DragGAN",
+      "url": "https://github.com/XingangPan/DragGAN",
+      "description": "Official Code for DragGAN (SIGGRAPH 2023) - Interactive point-based image editing with GANs.",
+      "category": "Image Generation",
+      "tags": [
+        "gan",
+        "image-editing",
+        "drag",
+        "interactive",
+        "siggraph"
+      ],
+      "pricing": "Free",
+      "stars": 35906,
+      "language": "Python",
+      "added_date": "2026-04-14",
+      "verified": true,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "Vane",
+      "url": "https://github.com/ItzCrazyKns/Vane",
+      "description": "Vane is an AI-powered answering engine.",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "answering-engine",
+        "search",
+        "productivity"
+      ],
+      "pricing": "Free",
+      "stars": 33740,
+      "language": "TypeScript",
+      "added_date": "2026-04-14",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "spaCy",
+      "url": "https://github.com/explosion/spaCy",
+      "description": "Industrial-strength Natural Language Processing (NLP) in Python - Production-ready NLP library for text processing.",
+      "category": "Developer Tools",
+      "tags": [
+        "nlp",
+        "natural-language",
+        "text-processing",
+        "industrial",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 33468,
+      "language": "Python",
+      "added_date": "2026-04-14",
+      "verified": true,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": "500-AI-ML-Projects",
+      "url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code - Comprehensive collection of ML projects.",
+      "category": "Research & Data",
+      "tags": [
+        "machine-learning",
+        "deep-learning",
+        "computer-vision",
+        "nlp",
+        "projects",
+        "education"
+      ],
+      "pricing": "Free",
+      "stars": 32856,
+      "language": null,
+      "added_date": "2026-04-14",
+      "verified": true,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "fairseq",
+      "url": "https://github.com/facebookresearch/fairseq",
+      "description": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python - Advanced NLP toolkit.",
+      "category": "Developer Tools",
+      "tags": [
+        "sequence-to-sequence",
+        "nlp",
+        "facebook-ai",
+        "toolkit",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 32198,
+      "language": "Python",
+      "added_date": "2026-04-14",
+      "verified": true,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "pytorch-lightning",
+      "url": "https://github.com/Lightning-AI/pytorch-lightning",
+      "description": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.",
+      "category": "Developer Tools",
+      "tags": [
+        "pytorch",
+        "training",
+        "scaling",
+        "gpu",
+        "deep-learning",
+        "framework"
+      ],
+      "pricing": "Free",
+      "stars": 31046,
+      "language": "Python",
+      "added_date": "2026-04-14",
+      "verified": true,
       "freshness": "🟢 Fresh"
     }
   ]
