@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-15T02:40:40.449Z",
-    "total_tools": 401,
+    "last_updated": "2026-04-15T02:55:49.258Z",
+    "total_tools": 408,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -29,7 +29,7 @@
         "anti-detection"
       ],
       "pricing": "Free",
-      "stars": 2174,
+      "stars": 2375,
       "language": "JavaScript",
       "added_date": "2026-04-14",
       "verified": true,
@@ -1539,7 +1539,7 @@
         "rag"
       ],
       "pricing": "Freemium",
-      "stars": 52936,
+      "stars": 53066,
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
@@ -1877,7 +1877,7 @@
         "hermes"
       ],
       "pricing": "Free",
-      "stars": 76523,
+      "stars": 85122,
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
@@ -7754,6 +7754,168 @@
       "last_commit_date": "2025-12-06T09:27:07Z",
       "days_since_commit": 129,
       "freshness": "🔴 Stale"
+    },
+    {
+      "name": "9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "Connect All AI Code Tools (Claude Code, Cursor, Antigravity, Copilot, Codex, Gemini, OpenCode, Cline, OpenClaw...) to 40+ AI Providers & 100+ Models",
+      "category": "Developer Tools",
+      "tags": [
+        "router",
+        "ai-code-tools",
+        "claude-code",
+        "cursor",
+        "copilot",
+        "integration"
+      ],
+      "pricing": "Free",
+      "stars": 2474,
+      "language": "JavaScript",
+      "homepage": "https://9router.com",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:55:32.747Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "pi-skills",
+      "url": "https://github.com/badlogic/pi-skills",
+      "description": "Skills for pi coding agent (compatible with Claude Code and Codex CLI)",
+      "category": "Developer Tools",
+      "tags": [
+        "skills",
+        "agent",
+        "coding-assistant",
+        "claude-code",
+        "codex"
+      ],
+      "pricing": "Free",
+      "stars": 1214,
+      "language": "JavaScript",
+      "homepage": null,
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:55:32.750Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.",
+      "category": "Image Generation",
+      "tags": [
+        "image-generation",
+        "video-generation",
+        "flux",
+        "sdxl",
+        "midjourney",
+        "cinematic",
+        "self-hosted"
+      ],
+      "pricing": "Free",
+      "stars": 4784,
+      "language": "JavaScript",
+      "homepage": "https://dev.muapi.ai/open-generative-ai",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:55:32.750Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "thepopebot",
+      "url": "https://github.com/stephengpope/thepopebot",
+      "description": "The Pope Bot is an autonomous AI agent that you can configure and build to do just about anything you want, all day, everyday, 24/7.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "autonomous",
+        "ai-bot",
+        "24-7",
+        "automation"
+      ],
+      "pricing": "Free",
+      "stars": 1680,
+      "language": "JavaScript",
+      "homepage": "https://skool.com/ai-architects",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:55:32.750Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "anything-llm",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "description": "The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "llm",
+        "local-llm",
+        "privacy",
+        "rag",
+        "agents"
+      ],
+      "pricing": "Free",
+      "stars": 58333,
+      "language": "JavaScript",
+      "homepage": "https://anythingllm.com",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:55:32.750Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes, not images — no design skills needed",
+      "category": "Productivity",
+      "tags": [
+        "powerpoint",
+        "presentation",
+        "ppt",
+        "pptx",
+        "slides",
+        "office",
+        "ai-agent"
+      ],
+      "pricing": "Free",
+      "stars": 5176,
+      "language": "Python",
+      "homepage": "https://hugohe3.github.io/ppt-master/",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:55:32.750Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Open-LLM-VTuber",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "category": "Audio & Music",
+      "tags": [
+        "voice",
+        "vtuber",
+        "live2d",
+        "llm",
+        "voice-chat",
+        "ai-companion",
+        "audio"
+      ],
+      "pricing": "Free",
+      "stars": 6860,
+      "language": "Python",
+      "homepage": "https://open-llm-vtuber.github.io/",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:55:32.750Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     }
   ]
 }
