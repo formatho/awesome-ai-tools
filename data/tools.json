@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-15T08:54:21.333Z",
+    "last_updated": "2026-04-15T14:55:45.503Z",
     "total_tools": 413,
     "categories": [
       "LLMs & Chatbots",
@@ -14,7 +14,8 @@
       "Agents & Automation",
       "Open Source Models"
     ],
-    "last_freshness_check": "2026-04-13T21:44:59.638Z"
+    "last_freshness_check": "2026-04-13T21:44:59.638Z",
+    "last_discovery": "2026-04-15T14:57:05.405Z"
   },
   "tools": [
     {
