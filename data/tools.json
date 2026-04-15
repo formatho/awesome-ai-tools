@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-15T14:55:45.503Z",
-    "total_tools": 413,
+    "last_updated": "2026-04-15T20:53:55.006068+00:00",
+    "total_tools": 414,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,13 +15,35 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-15T14:57:05.405Z"
+    "last_discovery": "2026-04-15T20:53:55.006245+00:00"
   },
   "tools": [
     {
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents - comprehensive skill definitions and best practices.",
+      "category": "Developer Tools",
+      "tags": [
+        "agent",
+        "skills",
+        "engineering",
+        "claude-code",
+        "open-source",
+        "best-practices"
+      ],
+      "pricing": "Free",
+      "stars": 15836,
+      "language": "Shell",
+      "added_date": "2026-04-16",
+      "verified": true,
+      "last_commit_date": "2026-04-12T01:26:16Z",
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
       "name": "openclaw",
       "url": "https://github.com/openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
       "category": "Research & Data",
       "tags": [
         "ai"
@@ -33,7 +55,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:25:34Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "n8n",
@@ -51,7 +73,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:26:12Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AutoGPT",
@@ -71,7 +93,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:56:57Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claw-code",
@@ -92,7 +114,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T12:44:53Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Ollama",
@@ -112,7 +134,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:26:18Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Stable Diffusion WebUI",
@@ -132,7 +154,7 @@
       "verified": true,
       "last_commit_date": "2026-03-02T07:00:53Z",
       "days_since_commit": 42,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "Prompts.chat",
@@ -152,7 +174,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T04:10:24Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Transformers",
@@ -172,7 +194,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:34:21Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "FreeDomain",
@@ -188,14 +210,14 @@
       "language": "HTML",
       "added_date": "2026-04-12T13:23:40.819394",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-26T05:54:09Z",
       "days_since_commit": 18
     },
     {
       "name": "JavaGuide",
       "url": "https://github.com/Snailclimb/JavaGuide",
-      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "description": "Java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u3001\u7cfb\u7edf\u8bbe\u8ba1\u4e0e AI \u5e94\u7528\u5f00\u53d1",
       "category": "Developer Tools",
       "tags": [
         "ai"
@@ -207,7 +229,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T10:05:00Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "everything-claude-code",
@@ -223,7 +245,7 @@
       "language": "JavaScript",
       "added_date": "2026-04-12T13:23:42.350975",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T08:06:13Z",
       "days_since_commit": 0
     },
@@ -242,7 +264,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T08:06:13Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "superpowers",
@@ -258,7 +280,7 @@
       "language": "Shell",
       "added_date": "2026-04-12T13:23:43.914143",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T19:47:25Z",
       "days_since_commit": 0
     },
@@ -277,7 +299,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:47:25Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Langflow",
@@ -298,7 +320,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:29:59Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "opencode",
@@ -314,7 +336,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-12T13:23:45.457176",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T21:36:07Z",
       "days_since_commit": 0
     },
@@ -334,7 +356,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:36:07Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Dify",
@@ -355,7 +377,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:54:19Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "system-prompts-and-models-of-ai-tools",
@@ -374,7 +396,7 @@
       "verified": true,
       "last_commit_date": "2026-03-28T16:58:37Z",
       "days_since_commit": 16,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "langchain",
@@ -392,7 +414,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T14:38:13Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Open-WebUI",
@@ -412,7 +434,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:25:46Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "skills",
@@ -428,7 +450,7 @@
       "language": "Python",
       "added_date": "2026-04-12T13:23:46.982959",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T20:37:42Z",
       "days_since_commit": 0
     },
@@ -447,7 +469,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:37:42Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code",
@@ -465,7 +487,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T01:45:26Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code",
@@ -481,7 +503,7 @@
       "language": "Shell",
       "added_date": "2026-04-12T13:23:48.575471",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T01:45:26Z",
       "days_since_commit": 0
     },
@@ -500,7 +522,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T10:34:34Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ComfyUI",
@@ -521,12 +543,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:38:47Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "🔥 The Web Data API for AI - Power AI agents with clean web data",
+      "description": "\ud83d\udd25 The Web Data API for AI - Power AI agents with clean web data",
       "category": "Open Source Models",
       "tags": [
         "AI",
@@ -537,14 +559,14 @@
       "language": "TypeScript",
       "added_date": "2026-04-12T13:23:50.154442",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T20:44:42Z",
       "days_since_commit": 0
     },
     {
       "name": "Firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "🔥 The Web Data API for AI - Power AI agents with clean web data",
+      "description": "\ud83d\udd25 The Web Data API for AI - Power AI agents with clean web data",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -563,12 +585,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:44:42Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Firecrawl",
       "url": "https://github.com/firecrawl/firecrawl",
-      "description": "🔥 The Web Data API for AI - Power AI agents with clean web data",
+      "description": "\ud83d\udd25 The Web Data API for AI - Power AI agents with clean web data",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -587,7 +609,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:44:42Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Firecrawl",
@@ -608,7 +630,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:44:42Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "markitdown",
@@ -629,7 +651,7 @@
       "verified": true,
       "last_commit_date": "2026-03-30T17:17:56Z",
       "days_since_commit": 15,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "Awesome LLM Apps",
@@ -650,7 +672,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T03:56:58Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome LLM Apps",
@@ -673,7 +695,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T03:56:58Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome LLM Apps",
@@ -696,7 +718,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T03:56:58Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "awesome-llm-apps",
@@ -712,7 +734,7 @@
       "language": "Python",
       "added_date": "2026-04-12T13:23:51.720861",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T03:56:58Z",
       "days_since_commit": 0
     },
@@ -735,7 +757,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:28:18Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "gemini-cli",
@@ -753,7 +775,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:37:01Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "supabase",
@@ -770,7 +792,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:29:17Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "puppeteer",
@@ -787,7 +809,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:03:49Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LLMs-from-scratch",
@@ -807,7 +829,7 @@
       "verified": true,
       "last_commit_date": "2026-04-11T00:45:02Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Deep-Live-Cam",
@@ -828,12 +850,12 @@
       "verified": true,
       "last_commit_date": "2026-04-09T08:34:30Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "spec-kit",
       "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
       "category": "Research & Data",
       "tags": [
         "ai-tool"
@@ -845,7 +867,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:35:26Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Browser-Use",
@@ -865,7 +887,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T21:51:30Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "playwright",
@@ -882,7 +904,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:09:16Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "core",
@@ -900,7 +922,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:00:58Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "hermes-agent",
@@ -926,7 +948,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:00:55Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "awesome-mcp-servers",
@@ -946,7 +968,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T04:10:59Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "sherlock",
@@ -972,7 +994,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T05:58:16Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " sherlock",
@@ -988,7 +1010,7 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -1008,7 +1030,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T04:25:59Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Netdata",
@@ -1028,7 +1050,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:39:36Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LLM Course",
@@ -1048,7 +1070,7 @@
       "verified": true,
       "last_commit_date": "2026-02-05T13:09:26Z",
       "days_since_commit": 67,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "RAGFlow",
@@ -1069,7 +1091,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T13:37:04Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "GPT4All",
@@ -1089,7 +1111,7 @@
       "verified": true,
       "last_commit_date": "2025-05-27T20:05:19Z",
       "days_since_commit": 321,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "vllm",
@@ -1109,7 +1131,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:37:36Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "PaddleOCR",
@@ -1127,12 +1149,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:59:51Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "lobehub",
       "url": "https://github.com/lobehub/lobehub",
-      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+      "description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
       "category": "Agents & Automation",
       "tags": [
         "agent"
@@ -1144,7 +1166,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:17:02Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "codex",
@@ -1161,7 +1183,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:37:10Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "daytona",
@@ -1181,7 +1203,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:22:13Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome Machine Learning",
@@ -1202,7 +1224,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T00:38:09Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Awesome Machine Learning",
@@ -1223,7 +1245,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T00:38:09Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "gstack",
@@ -1238,7 +1260,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T17:49:38Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenHands",
@@ -1258,7 +1280,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:29:49Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LlamaFactory",
@@ -1278,7 +1300,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T00:32:15Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ansible",
@@ -1296,7 +1318,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:02:18Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "autoresearch",
@@ -1313,7 +1335,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441497",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441503"
     },
     {
@@ -1334,7 +1356,7 @@
       "verified": true,
       "last_commit_date": "2026-01-21T10:12:33Z",
       "days_since_commit": 82,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "Apollo-11",
@@ -1355,7 +1377,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T08:53:29Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "gpt4free",
@@ -1372,7 +1394,7 @@
       "verified": true,
       "last_commit_date": "2026-04-07T15:35:03Z",
       "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenBB",
@@ -1399,14 +1421,14 @@
       "language": "Python",
       "added_date": "2026-04-05T02:39:59.843Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T21:20:16Z",
       "days_since_commit": 0
     },
     {
       "name": "crawl4ai",
       "url": "https://github.com/unclecode/crawl4ai",
-      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -1419,7 +1441,7 @@
       "verified": true,
       "last_commit_date": "2026-04-11T09:27:40Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "pathway",
@@ -1436,7 +1458,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T09:46:18Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Unsloth",
@@ -1457,7 +1479,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:48:51Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Deer-Flow",
@@ -1478,7 +1500,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T17:18:23Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "anything-llm",
@@ -1501,7 +1523,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:55:32.750Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "docling",
@@ -1519,7 +1541,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T14:05:29Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Meilisearch",
@@ -1539,7 +1561,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T16:35:34Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Autogen",
@@ -1559,7 +1581,7 @@
       "verified": true,
       "last_commit_date": "2026-04-06T22:35:34Z",
       "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MoneyPrinterTurbo",
@@ -1579,7 +1601,7 @@
       "verified": true,
       "last_commit_date": "2026-04-11T11:14:18Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-mem",
@@ -1599,7 +1621,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T19:20:44Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "gpt-engineer",
@@ -1616,12 +1638,12 @@
       "verified": true,
       "last_commit_date": "2025-05-14T10:15:10Z",
       "days_since_commit": 334,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "ChatGPT",
       "url": "https://github.com/lencx/ChatGPT",
-      "description": "🔮 ChatGPT Desktop Application (Mac, Windows and Linux)",
+      "description": "\ud83d\udd2e ChatGPT Desktop Application (Mac, Windows and Linux)",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -1636,7 +1658,7 @@
       "verified": true,
       "last_commit_date": "2024-08-29T17:58:11Z",
       "days_since_commit": 592,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "ai-hedge-fund",
@@ -1657,7 +1679,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T16:46:50Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Mem0",
@@ -1677,7 +1699,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:31:03Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Learn Claude Code",
@@ -1697,7 +1719,7 @@
       "verified": true,
       "last_commit_date": "2026-04-07T22:15:12Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Flowise",
@@ -1715,12 +1737,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:35:39Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "TrendRadar",
       "url": "https://github.com/sansan0/TrendRadar",
-      "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
+      "description": "\u2b50AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.\ud83c\udfaf \u544a\u522b\u4fe1\u606f\u8fc7\u8f7d\uff0c\u4f60\u7684 AI \u8206\u60c5\u76d1\u63a7\u52a9\u624b\u4e0e\u70ed\u70b9\u7b5b\u9009\u5de5\u5177\uff01\u805a\u5408\u591a\u5e73\u53f0\u70ed\u70b9 +  RSS \u8ba2\u9605\uff0c\u652f\u6301\u5173\u952e\u8bcd\u7cbe\u51c6\u7b5b\u9009\u3002AI \u667a\u80fd\u7b5b\u9009\u65b0\u95fb + AI \u7ffb\u8bd1 +  AI \u5206\u6790\u7b80\u62a5\u76f4\u63a8\u624b\u673a\uff0c\u4e5f\u652f\u6301\u63a5\u5165 MCP \u67b6\u6784\uff0c\u8d4b\u80fd AI \u81ea\u7136\u8bed\u8a00\u5bf9\u8bdd\u5206\u6790\u3001\u60c5\u611f\u6d1e\u5bdf\u4e0e\u8d8b\u52bf\u9884\u6d4b\u7b49\u3002\u652f\u6301 Docker \uff0c\u6570\u636e\u672c\u5730/\u4e91\u7aef\u81ea\u6301\u3002\u96c6\u6210\u5fae\u4fe1/\u98de\u4e66/\u9489\u9489/Telegram/\u90ae\u4ef6/ntfy/bark/slack \u7b49\u6e20\u9053\u667a\u80fd\u63a8\u9001\u3002",
       "category": "Research & Data",
       "tags": [
         "ai",
@@ -1733,7 +1755,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T01:20:41Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "oh-my-openagent",
@@ -1753,7 +1775,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:04:42Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "TradingAgents",
@@ -1774,7 +1796,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T07:21:34Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "huginn",
@@ -1791,7 +1813,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T03:59:08Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "crewAI",
@@ -1811,7 +1833,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:06:03Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "worldmonitor",
@@ -1831,7 +1853,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:09:33Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "awesome-design-md",
@@ -1846,14 +1868,14 @@
       "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-11T15:20:04Z",
       "days_since_commit": 2
     },
     {
       "name": "ClickHouse",
       "url": "https://github.com/ClickHouse/ClickHouse",
-      "description": "ClickHouse® is a real-time analytics database management system",
+      "description": "ClickHouse\u00ae is a real-time analytics database management system",
       "category": "Research & Data",
       "tags": [
         "ai",
@@ -1868,7 +1890,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:39:04Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "minimind",
@@ -1887,7 +1909,7 @@
       "language": "Python",
       "added_date": "2026-04-14",
       "verified": true,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AI-For-Beginners",
@@ -1907,7 +1929,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T06:25:23Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "acme.sh",
@@ -1924,7 +1946,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T14:33:35Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "JeecgBoot",
@@ -1944,7 +1966,7 @@
       "verified": true,
       "last_commit_date": "2026-04-10T13:22:15Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "LocalAI",
@@ -1964,7 +1986,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:16:47Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "airflow",
@@ -1981,7 +2003,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:38:32Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MemPalace",
@@ -2001,7 +2023,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:42:42Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "mempalace",
@@ -2018,7 +2040,7 @@
       "language": "Rust",
       "added_date": "2026-04-08T07:07:14.441507",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T21:42:42Z",
       "days_since_commit": 0
     },
@@ -2035,7 +2057,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:35:54Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "cc-switch",
@@ -2055,12 +2077,12 @@
       "verified": true,
       "last_commit_date": "2026-04-14T03:16:16Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Upscayl",
       "url": "https://github.com/upscayl/upscayl",
-      "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "description": "\ud83c\udd99 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
       "category": "Image Generation",
       "tags": [
         "ai",
@@ -2074,7 +2096,7 @@
       "verified": true,
       "last_commit_date": "2026-03-27T16:33:02Z",
       "days_since_commit": 17,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "claude-code-best-practice",
@@ -2095,12 +2117,12 @@
       "verified": true,
       "last_commit_date": "2026-04-15T08:53:28Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Kong",
       "url": "https://github.com/Kong/kong",
-      "description": "🦍 The API and AI Gateway",
+      "description": "\ud83e\udd8d The API and AI Gateway",
       "category": "Developer Tools",
       "tags": [
         "ai",
@@ -2115,12 +2137,12 @@
       "verified": true,
       "last_commit_date": "2026-03-27T17:42:51Z",
       "days_since_commit": 17,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "chatgpt-on-wechat",
       "url": "https://github.com/zhayujie/chatgpt-on-wechat",
-      "description": "CowAgent是基于大模型的超级AI助理，能主动思考和任务规划、访问操作系统和外部资源、创造和执行Skills、拥有长期记忆并不断成长，比OpenClaw更轻量和便捷。同时支持微信、飞书、钉钉、企微、QQ、公众号、网页等接入，可选择OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI，能处理文本、语音、图片和文件，可快速搭建个人AI助理和企业数字员工。",
+      "description": "CowAgent\u662f\u57fa\u4e8e\u5927\u6a21\u578b\u7684\u8d85\u7ea7AI\u52a9\u7406\uff0c\u80fd\u4e3b\u52a8\u601d\u8003\u548c\u4efb\u52a1\u89c4\u5212\u3001\u8bbf\u95ee\u64cd\u4f5c\u7cfb\u7edf\u548c\u5916\u90e8\u8d44\u6e90\u3001\u521b\u9020\u548c\u6267\u884cSkills\u3001\u62e5\u6709\u957f\u671f\u8bb0\u5fc6\u5e76\u4e0d\u65ad\u6210\u957f\uff0c\u6bd4OpenClaw\u66f4\u8f7b\u91cf\u548c\u4fbf\u6377\u3002\u540c\u65f6\u652f\u6301\u5fae\u4fe1\u3001\u98de\u4e66\u3001\u9489\u9489\u3001\u4f01\u5fae\u3001QQ\u3001\u516c\u4f17\u53f7\u3001\u7f51\u9875\u7b49\u63a5\u5165\uff0c\u53ef\u9009\u62e9OpenAI/Claude/Gemini/DeepSeek/ Qwen/GLM/Kimi/LinkAI\uff0c\u80fd\u5904\u7406\u6587\u672c\u3001\u8bed\u97f3\u3001\u56fe\u7247\u548c\u6587\u4ef6\uff0c\u53ef\u5feb\u901f\u642d\u5efa\u4e2a\u4ebaAI\u52a9\u7406\u548c\u4f01\u4e1a\u6570\u5b57\u5458\u5de5\u3002",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -2134,7 +2156,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T14:08:37Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "bruno",
@@ -2151,12 +2173,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T17:38:38Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Gradio",
       "url": "https://github.com/gradio-app/gradio",
-      "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
+      "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
       "category": "Developer Tools",
       "tags": [
         "machine-learning",
@@ -2174,12 +2196,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:14:39Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Gradio",
       "url": "https://github.com/gradio-app/gradio",
-      "description": "Build and share delightful machine learning apps, all in Python. 🌟 Star to support our work!",
+      "description": "Build and share delightful machine learning apps, all in Python. \ud83c\udf1f Star to support our work!",
       "category": "Developer Tools",
       "tags": [
         "machine-learning",
@@ -2197,7 +2219,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:14:39Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Goose",
@@ -2216,7 +2238,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:36:06Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ColossalAI",
@@ -2234,12 +2256,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T17:31:24Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "fastlane",
       "url": "https://github.com/fastlane/fastlane",
-      "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
+      "description": "\ud83d\ude80 The easiest way to automate building and releasing your iOS and Android apps",
       "category": "Research & Data",
       "tags": [
         "ai-tool"
@@ -2251,7 +2273,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T10:16:39Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-cookbooks",
@@ -2272,7 +2294,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T08:50:37Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "appsmith",
@@ -2289,12 +2311,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:00:20Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "nanobot",
       "url": "https://github.com/HKUDS/nanobot",
-      "description": "\"🐈 nanobot: The Ultra-Lightweight Personal AI Agent\"",
+      "description": "\"\ud83d\udc08 nanobot: The Ultra-Lightweight Personal AI Agent\"",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -2312,7 +2334,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T01:15:37Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "chatbox",
@@ -2330,7 +2352,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T03:24:43Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agno",
@@ -2348,7 +2370,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:32:07Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "VibeVoice",
@@ -2369,12 +2391,12 @@
       "verified": true,
       "last_commit_date": "2026-04-10T13:10:27Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "quivr",
       "url": "https://github.com/QuivrHQ/quivr",
-      "description": "Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
+      "description": "Opiniated RAG for integrating GenAI in your apps \ud83e\udde0   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want.",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -2388,7 +2410,7 @@
       "verified": true,
       "last_commit_date": "2025-07-09T12:55:23Z",
       "days_since_commit": 278,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "ChatTTS",
@@ -2408,7 +2430,7 @@
       "verified": true,
       "last_commit_date": "2026-04-10T16:33:48Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "mindsdb",
@@ -2427,7 +2449,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T15:31:10Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "system_prompts_leaks",
@@ -2453,7 +2475,7 @@
       "verified": true,
       "last_commit_date": "2026-04-11T22:13:35Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Open-Assistant",
@@ -2470,7 +2492,7 @@
       "verified": true,
       "last_commit_date": "2024-08-17T01:55:35Z",
       "days_since_commit": 604,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": " VibeVoice",
@@ -2485,14 +2507,14 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
     {
       "name": "MockingBird",
       "url": "https://github.com/babysor/MockingBird",
-      "description": "🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "description": "\ud83d\ude80Clone a voice in 5 seconds to generate arbitrary speech in real-time",
       "category": "Research & Data",
       "tags": [
         "python"
@@ -2504,12 +2526,12 @@
       "verified": true,
       "last_commit_date": "2026-03-03T14:59:58Z",
       "days_since_commit": 41,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "Scrapling",
       "url": "https://github.com/D4Vinci/Scrapling",
-      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "description": "\ud83d\udd77\ufe0f An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
       "category": "Productivity",
       "tags": [
         "ai-tool"
@@ -2521,7 +2543,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T14:06:16Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AgentGPT",
@@ -2541,7 +2563,7 @@
       "verified": true,
       "last_commit_date": "2025-04-29T01:19:32Z",
       "days_since_commit": 349,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "DragGAN",
@@ -2560,7 +2582,7 @@
       "language": "Python",
       "added_date": "2026-04-14",
       "verified": true,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Hello Agents",
@@ -2580,7 +2602,7 @@
       "verified": true,
       "last_commit_date": "2026-04-11T03:34:06Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "selenium",
@@ -2597,7 +2619,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T16:58:18Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Khoj",
@@ -2617,7 +2639,7 @@
       "verified": true,
       "last_commit_date": "2026-03-26T03:35:43Z",
       "days_since_commit": 18,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "gpt-pilot",
@@ -2635,7 +2657,7 @@
       "verified": true,
       "last_commit_date": "2025-11-10T13:12:31Z",
       "days_since_commit": 154,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Vane",
@@ -2653,7 +2675,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-14",
       "verified": true,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agents",
@@ -2670,7 +2692,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T22:58:57Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ai-engineering-hub",
@@ -2683,7 +2705,7 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-23T19:26:56Z",
       "days_since_commit": 21
     },
@@ -2704,7 +2726,7 @@
       "language": "Python",
       "added_date": "2026-04-14",
       "verified": true,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "tabby",
@@ -2724,7 +2746,7 @@
       "verified": true,
       "last_commit_date": "2026-03-02T20:08:28Z",
       "days_since_commit": 42,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "LightRAG",
@@ -2745,7 +2767,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T13:44:25Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "500-AI-ML-Projects",
@@ -2765,7 +2787,7 @@
       "language": null,
       "added_date": "2026-04-14",
       "verified": true,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "netron",
@@ -2783,7 +2805,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T00:27:47Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "career-ops",
@@ -2798,7 +2820,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:09:45Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Continue",
@@ -2818,7 +2840,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:30:38Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "andrej-karpathy-skills",
@@ -2839,7 +2861,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:11:59Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "andrej-karpathy-skills",
@@ -2860,7 +2882,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:11:59Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "fairseq",
@@ -2879,7 +2901,7 @@
       "language": "Python",
       "added_date": "2026-04-14",
       "verified": true,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "pytorch-lightning",
@@ -2899,7 +2921,7 @@
       "language": "Python",
       "added_date": "2026-04-14",
       "verified": true,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "CopilotKit",
@@ -2920,12 +2942,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:36:56Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ZeroClaw",
       "url": "https://github.com/zeroclaw-labs/zeroclaw",
-      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM — deploy anywhere, swap anything 🦀",
+      "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM \u2014 deploy anywhere, swap anything \ud83e\udd80",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -2945,7 +2967,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:52:26Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AstrBot",
@@ -2965,7 +2987,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T17:36:40Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Daily Stock Analysis",
@@ -2986,7 +3008,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T13:59:17Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "awesome-copilot",
@@ -3004,7 +3026,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T01:02:38Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MoneyPrinterV2",
@@ -3021,7 +3043,7 @@
       "verified": true,
       "last_commit_date": "2026-04-04T15:13:48Z",
       "days_since_commit": 9,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "openscreen",
@@ -3044,7 +3066,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T03:23:10Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agent-browser",
@@ -3065,7 +3087,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T13:04:24Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "CLI-Anything",
@@ -3082,7 +3104,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-08T07:07:14.441505",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441506"
     },
     {
@@ -3100,7 +3122,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T12:34:13Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Happy LLM",
@@ -3120,7 +3142,7 @@
       "verified": true,
       "last_commit_date": "2026-03-16T02:21:33Z",
       "days_since_commit": 28,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "Oh My Claude Code",
@@ -3141,7 +3163,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:24:00Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " hermes-agent",
@@ -3156,7 +3178,7 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -3176,7 +3198,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:39:28Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "sim",
@@ -3194,7 +3216,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:36:54Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "FastGPT",
@@ -3214,7 +3236,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T12:41:33Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "onyx",
@@ -3240,7 +3262,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:35:40Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-task-master",
@@ -3258,12 +3280,12 @@
       "verified": true,
       "last_commit_date": "2026-03-31T18:24:26Z",
       "days_since_commit": 13,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "claude-howto",
       "url": "https://github.com/luongnv89/claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "category": "Agents & Automation",
       "tags": [
         "claude-code",
@@ -3278,12 +3300,12 @@
       "verified": true,
       "last_commit_date": "2026-04-11T20:57:38Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agenticSeek",
       "url": "https://github.com/Fosowl/agenticSeek",
-      "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)",
+      "description": "Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. \ud83d\udd14 Official updates only via twitter @Martin993886460 (Beware of fake account)",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -3297,12 +3319,12 @@
       "verified": true,
       "last_commit_date": "2026-04-11T14:46:56Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "caveman",
       "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "description": "\ud83e\udea8 why use many token when few token do trick \u2014 Claude Code skill that cuts 65% of tokens by talking like caveman",
       "category": "Developer Tools",
       "tags": [
         "ai",
@@ -3315,7 +3337,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T17:59:23Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "SillyTavern",
@@ -3333,12 +3355,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:30:18Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "xiaozhi-esp32",
       "url": "https://github.com/78/xiaozhi-esp32",
-      "description": "An MCP-based chatbot | 一个基于MCP的聊天机器人",
+      "description": "An MCP-based chatbot | \u4e00\u4e2a\u57fa\u4e8eMCP\u7684\u804a\u5929\u673a\u5668\u4eba",
       "category": "LLMs & Chatbots",
       "tags": [
         "chatbot"
@@ -3350,7 +3372,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T13:09:11Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " onyx",
@@ -3366,7 +3388,7 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -3381,7 +3403,7 @@
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T16:40:41Z",
       "days_since_commit": 0
     },
@@ -3400,7 +3422,7 @@
       "verified": true,
       "last_commit_date": "2026-04-03T11:28:24Z",
       "days_since_commit": 10,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "NeoPass",
@@ -3417,12 +3439,12 @@
       "verified": true,
       "last_commit_date": "2026-04-11T14:52:06Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "PageIndex",
       "url": "https://github.com/VectifyAI/PageIndex",
-      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "description": "\ud83d\udcd1 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "category": "Developer Tools",
       "tags": [
         "ai"
@@ -3434,7 +3456,7 @@
       "verified": true,
       "last_commit_date": "2026-04-10T17:18:24Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " oh-my-claudecode",
@@ -3450,7 +3472,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
@@ -3467,7 +3489,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:33:36Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Open-AutoGLM",
@@ -3485,7 +3507,7 @@
       "verified": true,
       "last_commit_date": "2026-03-06T08:38:39Z",
       "days_since_commit": 39,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "haystack",
@@ -3498,14 +3520,14 @@
       "language": "MDX",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T16:54:43Z",
       "days_since_commit": 0
     },
     {
       "name": "cli",
       "url": "https://github.com/googleworkspace/cli",
-      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "description": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -3522,7 +3544,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T15:31:58Z",
       "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " openscreen",
@@ -3537,7 +3559,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-07T02:42:12.371Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.371Z",
       "days_since_commit": 0
     },
@@ -3556,12 +3578,12 @@
       "verified": true,
       "last_commit_date": "2026-04-12T08:00:32Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "repomix",
       "url": "https://github.com/yamadashy/repomix",
-      "description": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
+      "description": "\ud83d\udce6 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -3575,7 +3597,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:59:51Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "mastra",
@@ -3593,7 +3615,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:41:29Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "serena",
@@ -3611,7 +3633,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:17:42Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenViking",
@@ -3633,7 +3655,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:33:13Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Oh My Codex",
@@ -3654,12 +3676,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T16:30:31Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AionUi",
       "url": "https://github.com/iOfficeAI/AionUi",
-      "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!",
+      "description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!",
       "category": "Developer Tools",
       "tags": [
         "ai",
@@ -3672,7 +3694,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T14:56:40Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Last30Days Skill",
@@ -3695,7 +3717,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:15:44Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "qmd",
@@ -3716,12 +3738,12 @@
       "verified": true,
       "last_commit_date": "2026-04-11T01:21:25Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " claude-howto",
       "url": "https://github.com/luongnv89 / claude-howto",
-      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "description": "A visual, example-driven guide to Claude Code \u2014 from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
       "category": "Agents & Automation",
       "tags": [
         "Agent",
@@ -3732,7 +3754,7 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.371Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.371Z",
       "days_since_commit": 0
     },
@@ -3750,14 +3772,14 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T14:53:57Z",
       "days_since_commit": 0
     },
     {
       "name": "awesome-n8n-templates",
       "url": "https://github.com/enescingoz/awesome-n8n-templates",
-      "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
+      "description": "280+ free n8n automation templates \u2014 ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -3772,7 +3794,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T17:13:26Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "gallery",
@@ -3793,7 +3815,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T22:14:52Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "openai-agents-python",
@@ -3811,12 +3833,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T01:37:11Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MaxKB",
       "url": "https://github.com/1Panel-dev/MaxKB",
-      "description": "🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。",
+      "description": "\ud83d\udd25 MaxKB is an open-source platform for building enterprise-grade agents.  \u5f3a\u5927\u6613\u7528\u7684\u5f00\u6e90\u4f01\u4e1a\u7ea7\u667a\u80fd\u4f53\u5e73\u53f0\u3002",
       "category": "Agents & Automation",
       "tags": [
         "agent"
@@ -3828,7 +3850,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T10:26:09Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "deepagents",
@@ -3847,7 +3869,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:11:42Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "coze-studio",
@@ -3865,7 +3887,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T11:54:26Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "chatbot",
@@ -3883,7 +3905,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T15:34:01Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "dia",
@@ -3900,7 +3922,7 @@
       "verified": true,
       "last_commit_date": "2025-11-19T21:11:55Z",
       "days_since_commit": 145,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "NemoClaw",
@@ -3915,7 +3937,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:35:53Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "SWE-agent",
@@ -3933,7 +3955,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:39:29Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "adk-python",
@@ -3953,7 +3975,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:46:30Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "deep-research",
@@ -3971,7 +3993,7 @@
       "verified": true,
       "last_commit_date": "2026-04-11T23:58:25Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "free-llm-api-resources",
@@ -3989,7 +4011,7 @@
       "verified": true,
       "last_commit_date": "2026-03-10T00:26:45Z",
       "days_since_commit": 34,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "eliza",
@@ -4006,7 +4028,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T08:25:33Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "screenpipe",
@@ -4024,7 +4046,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T21:22:56Z",
       "days_since_commit": 0
     },
@@ -4043,7 +4065,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:08:34Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Kronos",
@@ -4064,7 +4086,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T08:52:10Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "archon",
@@ -4081,7 +4103,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T18:47:21Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "DocsGPT",
@@ -4094,7 +4116,7 @@
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T13:11:46Z",
       "days_since_commit": 0
     },
@@ -4117,7 +4139,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T19:33:51Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " oh-my-codex",
@@ -4133,14 +4155,14 @@
       "language": "TypeScript",
       "added_date": "2026-04-07T02:42:12.371Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.371Z",
       "days_since_commit": 0
     },
     {
       "name": "leon",
       "url": "https://github.com/leon-ai/leon",
-      "description": "🧠 Leon is your open-source personal assistant.",
+      "description": "\ud83e\udde0 Leon is your open-source personal assistant.",
       "category": "Research & Data",
       "tags": [
         "ai-tool"
@@ -4152,12 +4174,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T14:28:39Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "WeClone",
       "url": "https://github.com/xming521/WeClone",
-      "description": "🚀 One-stop solution for creating your AI twin from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案  ",
+      "description": "\ud83d\ude80 One-stop solution for creating your AI twin from chat history \ud83d\udca1 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  \u4ece\u804a\u5929\u8bb0\u5f55\u521b\u9020\u6570\u5b57\u5206\u8eab\u7684\u4e00\u7ad9\u5f0f\u89e3\u51b3\u65b9\u6848  ",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -4171,7 +4193,7 @@
       "verified": true,
       "last_commit_date": "2026-04-10T13:14:21Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agent-zero",
@@ -4189,7 +4211,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T08:59:10Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "timesfm",
@@ -4207,7 +4229,7 @@
       "verified": true,
       "last_commit_date": "2026-04-03T00:26:33Z",
       "days_since_commit": 10,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "ai-pdf-chatbot-langchain",
@@ -4226,7 +4248,7 @@
       "verified": true,
       "last_commit_date": "2026-03-27T16:04:05Z",
       "days_since_commit": 17,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "voicebox",
@@ -4243,12 +4265,12 @@
       "verified": true,
       "last_commit_date": "2026-03-31T04:20:10Z",
       "days_since_commit": 13,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "claude-code-best",
       "url": "https://github.com/claude-code-best/claude-code",
-      "description": "原汁原味 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真",
+      "description": "\u539f\u6c41\u539f\u5473 Claude Code \u53ef\u8fd0\u884c,\u53ef\u6784\u5efa, \u53ef\u8c03\u8bd5\u7248; Typescript \u7c7b\u578b\u5168\u4fee\u590d; \u4f01\u4e1a\u7ea7\u53ef\u9760\u6027; \u5b89\u5168\u65e0\u6bd2, lock \u6587\u4ef6\u4fdd\u771f",
       "category": "Agents & Automation",
       "tags": [
         "claude",
@@ -4264,7 +4286,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T15:14:44Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "RAG-Anything",
@@ -4284,7 +4306,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T07:59:19Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenCLI",
@@ -4299,12 +4321,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:01:35Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenMAIC",
       "url": "https://github.com/THU-MAIC/OpenMAIC",
-      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
@@ -4314,7 +4336,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T14:33:06Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " timesfm",
@@ -4330,14 +4352,14 @@
       "language": "Python",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
     {
       "name": "KeepChatGPT",
       "url": "https://github.com/xcanwin/KeepChatGPT",
-      "description": "这是一款提高ChatGPT的数据安全能力和效率的插件。并且免费共享大量创新功能，如：自动刷新、保持活跃、数据安全、取消审计、克隆对话、言无不尽、净化页面、展示大屏、拦截跟踪、日新月异、明察秋毫等。让我们的AI体验无比安全、顺畅、丝滑、高效、简洁。",
+      "description": "\u8fd9\u662f\u4e00\u6b3e\u63d0\u9ad8ChatGPT\u7684\u6570\u636e\u5b89\u5168\u80fd\u529b\u548c\u6548\u7387\u7684\u63d2\u4ef6\u3002\u5e76\u4e14\u514d\u8d39\u5171\u4eab\u5927\u91cf\u521b\u65b0\u529f\u80fd\uff0c\u5982\uff1a\u81ea\u52a8\u5237\u65b0\u3001\u4fdd\u6301\u6d3b\u8dc3\u3001\u6570\u636e\u5b89\u5168\u3001\u53d6\u6d88\u5ba1\u8ba1\u3001\u514b\u9686\u5bf9\u8bdd\u3001\u8a00\u65e0\u4e0d\u5c3d\u3001\u51c0\u5316\u9875\u9762\u3001\u5c55\u793a\u5927\u5c4f\u3001\u62e6\u622a\u8ddf\u8e2a\u3001\u65e5\u65b0\u6708\u5f02\u3001\u660e\u5bdf\u79cb\u6beb\u7b49\u3002\u8ba9\u6211\u4eec\u7684AI\u4f53\u9a8c\u65e0\u6bd4\u5b89\u5168\u3001\u987a\u7545\u3001\u4e1d\u6ed1\u3001\u9ad8\u6548\u3001\u7b80\u6d01\u3002",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -4350,7 +4372,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T23:07:17Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "memvid",
@@ -4369,7 +4391,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-16T13:23:51Z",
       "days_since_commit": 28
     },
@@ -4390,7 +4412,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T17:22:27Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "codex-plugin-cc",
@@ -4411,12 +4433,12 @@
       "verified": true,
       "last_commit_date": "2026-04-08T21:48:50Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "electerm",
       "url": "https://github.com/electerm/electerm",
-      "description": "📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)",
+      "description": "\ud83d\udcfbTerminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win)",
       "category": "Research & Data",
       "tags": [
         "javascript"
@@ -4428,7 +4450,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T12:45:39Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "WeKnora",
@@ -4446,12 +4468,12 @@
       "verified": true,
       "last_commit_date": "2026-04-13T14:57:17Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "colleague-skill",
       "url": "https://github.com/titanwings/colleague-skill",
-      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework.",
+      "description": "\u5c06\u51b0\u51b7\u7684\u79bb\u522b\u5316\u4e3a\u6e29\u6696\u7684 Skill\uff0c\u6b22\u8fce\u52a0\u5165\u6570\u5b57\u751f\u547d1.0\uff01Transforming cold farewells into warm skills - AI skill development framework.",
       "category": "Agents & Automation",
       "tags": [
         "skill",
@@ -4467,7 +4489,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T11:34:37Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "AI-Trader",
@@ -4488,7 +4510,7 @@
       "verified": true,
       "last_commit_date": "2026-04-10T17:21:03Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "rowboat",
@@ -4509,12 +4531,12 @@
       "verified": true,
       "last_commit_date": "2026-04-14T08:21:45Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "multica",
       "url": "https://github.com/multica-ai/multica",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills.",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -4530,7 +4552,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:31:10Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "editor",
@@ -4550,12 +4572,12 @@
       "verified": true,
       "last_commit_date": "2026-04-15T08:51:13Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ai-guide",
       "url": "https://github.com/liyupi/ai-guide",
-      "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程、AI 工具用法（Cursor / Claude Code / TRAE / Lovable / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档，已升级为鱼皮 AI 导航网站",
+      "description": "\u7a0b\u5e8f\u5458\u9c7c\u76ae\u7684 AI \u8d44\u6e90\u5927\u5168 + Vibe Coding \u96f6\u57fa\u7840\u6559\u7a0b\uff0c\u5206\u4eab OpenClaw \u4fdd\u59c6\u7ea7\u6559\u7a0b\u3001\u5927\u6a21\u578b\u73a9\u6cd5\uff08DeepSeek / GPT / Gemini / Claude\uff09\u3001\u6700\u65b0 AI \u8d44\u8baf\u3001Prompt \u63d0\u793a\u8bcd\u5927\u5168\u3001AI \u77e5\u8bc6\u767e\u79d1\uff08Agent Skills / RAG / MCP / A2A\uff09\u3001AI \u7f16\u7a0b\u6559\u7a0b\u3001AI \u5de5\u5177\u7528\u6cd5\uff08Cursor / Claude Code / TRAE / Lovable / Copilot\uff09\u3001AI \u5f00\u53d1\u6846\u67b6\u6559\u7a0b\uff08Spring AI / LangChain\uff09\u3001AI \u4ea7\u54c1\u53d8\u73b0\u6307\u5357\uff0c\u5e2e\u4f60\u5feb\u901f\u638c\u63e1 AI \u6280\u672f\uff0c\u8d70\u5728\u65f6\u4ee3\u524d\u6cbf\u3002\u672c\u9879\u76ee\u4e3a\u5f00\u6e90\u6587\u6863\uff0c\u5df2\u5347\u7ea7\u4e3a\u9c7c\u76ae AI \u5bfc\u822a\u7f51\u7ad9",
       "category": "Agents & Automation",
       "tags": [
         "ai",
@@ -4569,7 +4591,7 @@
       "verified": true,
       "last_commit_date": "2026-03-28T06:19:17Z",
       "days_since_commit": 16,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "learn-coding-agent",
@@ -4585,7 +4607,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-01T10:55:06Z",
       "days_since_commit": 12
     },
@@ -4607,7 +4629,7 @@
       "verified": true,
       "last_commit_date": "2024-11-05T10:24:21Z",
       "days_since_commit": 524,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Portkey AI Gateway",
@@ -4629,7 +4651,7 @@
       "verified": true,
       "last_commit_date": "2026-03-25T09:33:55Z",
       "days_since_commit": 19,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "tensorzero",
@@ -4648,14 +4670,14 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T21:37:33Z",
       "days_since_commit": 0
     },
     {
       "name": "AutoResearchClaw",
       "url": "https://github.com/aiming-lab/AutoResearchClaw",
-      "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞",
+      "description": "Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. \ud83e\udd9e",
       "category": "Developer Tools",
       "tags": [],
       "pricing": "Free",
@@ -4665,7 +4687,7 @@
       "verified": true,
       "last_commit_date": "2026-04-10T15:22:49Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "bytebot",
@@ -4683,7 +4705,7 @@
       "verified": true,
       "last_commit_date": "2025-09-12T19:35:46Z",
       "days_since_commit": 213,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AutoResearchClaw",
@@ -4700,7 +4722,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441509",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441510"
     },
     {
@@ -4716,7 +4738,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T06:33:38Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "astron-agent",
@@ -4734,7 +4756,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T11:11:11Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agent-framework",
@@ -4755,7 +4777,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:28:49Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "OpenHarness",
@@ -4772,7 +4794,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T16:04:24Z",
       "days_since_commit": 0
     },
@@ -4794,7 +4816,7 @@
       "verified": true,
       "last_commit_date": "2026-03-02T16:07:10Z",
       "days_since_commit": 42,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "emdash",
@@ -4815,7 +4837,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:22:51Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "hindsight",
@@ -4836,7 +4858,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T20:16:09Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "BingGPT",
@@ -4854,7 +4876,7 @@
       "verified": true,
       "last_commit_date": "2024-02-08T15:06:01Z",
       "days_since_commit": 795,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "claurst",
@@ -4871,7 +4893,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T07:30:16Z",
       "days_since_commit": 0
     },
@@ -4892,7 +4914,7 @@
       "verified": true,
       "last_commit_date": "2026-02-04T12:11:52Z",
       "days_since_commit": 68,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "claude-code-sourcemap",
@@ -4913,7 +4935,7 @@
       "verified": true,
       "last_commit_date": "2026-03-31T08:30:55Z",
       "days_since_commit": 13,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "Crucix",
@@ -4931,7 +4953,7 @@
       "verified": true,
       "last_commit_date": "2026-04-03T16:27:21Z",
       "days_since_commit": 10,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "reor",
@@ -4949,7 +4971,7 @@
       "verified": true,
       "last_commit_date": "2025-05-13T21:28:59Z",
       "days_since_commit": 335,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "claudian",
@@ -4970,7 +4992,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T07:48:26Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code-tips",
@@ -4988,12 +5010,12 @@
       "verified": true,
       "last_commit_date": "2026-04-02T06:27:19Z",
       "days_since_commit": 11,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "opencommit",
       "url": "https://github.com/di-sukharev/opencommit",
-      "description": "top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too",
+      "description": "top #1 and most feature rich GPT wrapper for git \u2014 generate commit messages with an LLM in 1 sec \u2014 works with Claude, GPT and every other provider, supports local Ollama models too",
       "category": "LLMs & Chatbots",
       "tags": [
         "llm",
@@ -5006,7 +5028,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T09:20:11Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "browser-tools-mcp",
@@ -5023,7 +5045,7 @@
       "verified": true,
       "last_commit_date": "2026-03-18T06:11:12Z",
       "days_since_commit": 26,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "mistral.rs",
@@ -5043,7 +5065,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T17:52:09Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Open-LLM-VTuber",
@@ -5067,7 +5089,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:55:32.750Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "cursor-talk-to-figma-mcp",
@@ -5086,7 +5108,7 @@
       "verified": true,
       "last_commit_date": "2026-03-07T06:29:17Z",
       "days_since_commit": 37,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "ANE",
@@ -5105,7 +5127,7 @@
       "verified": true,
       "last_commit_date": "2026-03-10T10:21:05Z",
       "days_since_commit": 35,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "forgecode",
@@ -5125,7 +5147,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T14:33:04Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "SuperPrompt",
@@ -5143,7 +5165,7 @@
       "verified": true,
       "last_commit_date": "2025-09-03T15:20:46Z",
       "days_since_commit": 222,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "TagUI",
@@ -5161,7 +5183,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T19:54:14Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "seomachine",
@@ -5182,7 +5204,7 @@
       "verified": true,
       "last_commit_date": "2026-04-10T17:41:07Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "caveman",
@@ -5199,7 +5221,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441513",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441513"
     },
     {
@@ -5217,7 +5239,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441514",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441515"
     },
     {
@@ -5237,7 +5259,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T23:58:52Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Auto-claude-code-research-in-sleep",
@@ -5254,7 +5276,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441516",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441517"
     },
     {
@@ -5271,7 +5293,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-12T19:25:57Z",
       "days_since_commit": 1
     },
@@ -5292,14 +5314,14 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T20:50:34Z",
       "days_since_commit": 0
     },
     {
       "name": "easy-vibe",
       "url": "https://github.com/datawhalechina/easy-vibe",
-      "description": "💻 vibe coding 2026 | Your first modern programming course for beginners to master step by step.",
+      "description": "\ud83d\udcbb vibe coding 2026 | Your first modern programming course for beginners to master step by step.",
       "category": "Developer Tools",
       "tags": [
         "javascript"
@@ -5311,7 +5333,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T08:24:59Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "paperless-ai",
@@ -5329,7 +5351,7 @@
       "verified": true,
       "last_commit_date": "2026-04-07T05:19:59Z",
       "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ai-agent-deep-dive",
@@ -5346,7 +5368,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-12T15:01:19Z",
       "days_since_commit": 1
     },
@@ -5369,7 +5391,7 @@
       "verified": true,
       "last_commit_date": "2025-12-19T07:46:32Z",
       "days_since_commit": 115,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Awesome MCP Servers",
@@ -5388,7 +5410,7 @@
       "verified": true,
       "last_commit_date": "2025-09-04T20:04:17Z",
       "days_since_commit": 221,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Learn AI Engineering",
@@ -5417,12 +5439,12 @@
       "verified": true,
       "last_commit_date": "2026-02-05T02:34:40Z",
       "days_since_commit": 67,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "zenml",
       "url": "https://github.com/zenml-io/zenml",
-      "description": "ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io.",
+      "description": "ZenML \ud83d\ude4f: One AI Platform from Pipelines to Agents. https://zenml.io.",
       "category": "Agents & Automation",
       "tags": [],
       "pricing": "Free",
@@ -5430,14 +5452,14 @@
       "language": "Python",
       "added_date": "2026-04-09",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T17:47:02Z",
       "days_since_commit": 0
     },
     {
       "name": "ppt-master",
       "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI generates natively editable PPTX from any document — real PowerPoint shapes, not images — no design skills needed",
+      "description": "AI generates natively editable PPTX from any document \u2014 real PowerPoint shapes, not images \u2014 no design skills needed",
       "category": "Productivity",
       "tags": [
         "powerpoint",
@@ -5456,7 +5478,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:55:32.750Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "prompt-master",
@@ -5476,7 +5498,7 @@
       "verified": true,
       "last_commit_date": "2026-03-31T11:14:52Z",
       "days_since_commit": 14,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "TaxHacker",
@@ -5502,7 +5524,7 @@
       "verified": true,
       "last_commit_date": "2026-04-04T13:39:39Z",
       "days_since_commit": 9,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "Windows MCP",
@@ -5522,7 +5544,7 @@
       "verified": true,
       "last_commit_date": "2026-04-11T16:30:26Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "2026-AI-College-Jobs",
@@ -5541,14 +5563,14 @@
       "language": null,
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T13:53:45Z",
       "days_since_commit": 0
     },
     {
       "name": "AgentVerse",
       "url": "https://github.com/OpenBMB/AgentVerse",
-      "description": "🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation",
+      "description": "\ud83e\udd16 AgentVerse \ud83e\ude90 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -5562,7 +5584,7 @@
       "verified": true,
       "last_commit_date": "2024-09-09T05:47:44Z",
       "days_since_commit": 581,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "gaianet-node",
@@ -5581,7 +5603,7 @@
       "language": "Shell",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-10-13T03:27:09Z",
       "days_since_commit": 182
     },
@@ -5604,7 +5626,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T18:04:37Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": " TaxHacker",
@@ -5620,14 +5642,14 @@
       "language": "TypeScript",
       "added_date": "2026-04-07T02:42:12.372Z",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T02:42:12.372Z",
       "days_since_commit": 0
     },
     {
       "name": "Open-Generative-AI",
       "url": "https://github.com/Anil-matcha/Open-Generative-AI",
-      "description": "Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.",
+      "description": "Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI \u2014 Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed.",
       "category": "Image Generation",
       "tags": [
         "image-generation",
@@ -5646,7 +5668,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:55:32.750Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ACI.dev",
@@ -5666,7 +5688,7 @@
       "verified": true,
       "last_commit_date": "2026-01-08T15:35:45Z",
       "days_since_commit": 95,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Kiln",
@@ -5686,7 +5708,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T20:09:33Z",
       "days_since_commit": 0
     },
@@ -5707,14 +5729,14 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T15:25:12Z",
       "days_since_commit": 0
     },
     {
       "name": "apfel",
       "url": "https://github.com/Arthur-Ficial/apfel",
-      "description": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads.",
+      "description": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat \u2014 all on-device via Apple Intelligence. No API keys, no cloud, no downloads.",
       "category": "LLMs & Chatbots",
       "tags": [
         "ai",
@@ -5728,7 +5750,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T23:54:25Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "fff.nvim",
@@ -5748,7 +5770,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T23:37:33Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ClawTeam",
@@ -5765,7 +5787,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-08T07:07:14.441520",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441521"
     },
     {
@@ -5787,7 +5809,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T08:21:54Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "tg-ws-proxy",
@@ -5804,7 +5826,7 @@
       "language": "Go",
       "added_date": "2026-04-08T07:07:14.441522",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441522"
     },
     {
@@ -5821,7 +5843,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T16:46:35Z",
       "days_since_commit": 5
     },
@@ -5845,7 +5867,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T04:01:36Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "reasoning-from-scratch",
@@ -5864,7 +5886,7 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T01:58:14Z",
       "days_since_commit": 5
     },
@@ -5885,7 +5907,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-15T00:12:53Z",
       "days_since_commit": 29
     },
@@ -5906,14 +5928,14 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-11-22T07:26:48Z",
       "days_since_commit": 142
     },
     {
       "name": "LLM-RL-Visualized",
       "url": "https://github.com/changyeyu/LLM-RL-Visualized",
-      "description": "🌟100+ 原创 LLM / RL 原理图📚，《大模型算法》作者巨献！💥（100+  LLM/RL Algorithm Maps ）",
+      "description": "\ud83c\udf1f100+ \u539f\u521b LLM / RL \u539f\u7406\u56fe\ud83d\udcda\uff0c\u300a\u5927\u6a21\u578b\u7b97\u6cd5\u300b\u4f5c\u8005\u5de8\u732e\uff01\ud83d\udca5\uff08100+  LLM/RL Algorithm Maps \uff09",
       "category": "Research & Data",
       "tags": [
         "llm",
@@ -5927,7 +5949,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-03T14:02:55Z",
       "days_since_commit": 10
     },
@@ -5948,7 +5970,7 @@
       "language": "C#",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T03:02:28Z",
       "days_since_commit": 0
     },
@@ -5967,7 +5989,7 @@
       "language": "Python",
       "added_date": "2026-04-08T07:07:14.441525",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T07:07:14.441525"
     },
     {
@@ -5989,7 +6011,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:29:53Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MCP Context Forge",
@@ -6010,7 +6032,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:05:35Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "khazix-skills",
@@ -6030,7 +6052,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T18:25:17Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Agentation",
@@ -6049,7 +6071,7 @@
       "verified": true,
       "last_commit_date": "2026-03-25T16:23:39Z",
       "days_since_commit": 19,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "deep-prove",
@@ -6066,7 +6088,7 @@
       "verified": true,
       "last_commit_date": "2026-04-01T15:49:12Z",
       "days_since_commit": 12,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "koharu",
@@ -6086,12 +6108,12 @@
       "verified": true,
       "last_commit_date": "2026-04-14T08:50:49Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-devtools",
       "url": "https://github.com/matt1398/claude-devtools",
-      "description": "The missing DevTools for Claude Code — inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source.",
+      "description": "The missing DevTools for Claude Code \u2014 inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source.",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -6108,12 +6130,12 @@
       "verified": true,
       "last_commit_date": "2026-04-11T04:58:27Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "oh-my-pi",
       "url": "https://github.com/can1357/oh-my-pi",
-      "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "description": "\u2325  AI Coding agent for the terminal \u2014 hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -6132,7 +6154,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T17:29:14Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Harbor",
@@ -6151,7 +6173,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T10:37:02Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "guppylm",
@@ -6171,7 +6193,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T12:51:04Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "datachain",
@@ -6190,7 +6212,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T20:45:40Z",
       "days_since_commit": 0
     },
@@ -6211,7 +6233,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T06:31:33Z",
       "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agent-os",
@@ -6232,7 +6254,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T17:43:53Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "One-Person Company AI Tools",
@@ -6251,7 +6273,7 @@
       "verified": true,
       "last_commit_date": "2025-05-08T08:34:16Z",
       "days_since_commit": 340,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "claude-code-book",
@@ -6267,7 +6289,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-06T07:22:38Z",
       "days_since_commit": 7
     },
@@ -6286,7 +6308,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-02T10:50:07Z",
       "days_since_commit": 11
     },
@@ -6307,7 +6329,7 @@
       "verified": true,
       "last_commit_date": "2026-04-03T15:44:53Z",
       "days_since_commit": 10,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "awesome-opensource-ai",
@@ -6328,12 +6350,12 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:17:54Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "plexe",
       "url": "https://github.com/plexe-ai/plexe",
-      "description": "✨ Build a machine learning model from a prompt",
+      "description": "\u2728 Build a machine learning model from a prompt",
       "category": "Developer Tools",
       "tags": [
         "ml",
@@ -6347,7 +6369,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟠 Aging",
+      "freshness": "\ud83d\udfe0 Aging",
       "last_commit_date": "2026-03-06T11:41:05Z",
       "days_since_commit": 38
     },
@@ -6370,7 +6392,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T22:49:48Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "open-agent-sdk-typescript",
@@ -6387,7 +6409,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-03T16:25:16Z",
       "days_since_commit": 10
     },
@@ -6412,7 +6434,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:55:32.747Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code",
@@ -6429,7 +6451,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-04T21:25:14Z",
       "days_since_commit": 9
     },
@@ -6448,7 +6470,7 @@
       "verified": true,
       "last_commit_date": "2026-01-30T03:24:24Z",
       "days_since_commit": 74,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "camofox-browser",
@@ -6468,7 +6490,7 @@
       "verified": true,
       "last_commit_date": "2026-04-06T21:58:54Z",
       "days_since_commit": 8,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "agentic-ai-prompt-research",
@@ -6484,7 +6506,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-31T19:04:33Z",
       "days_since_commit": 13
     },
@@ -6506,7 +6528,7 @@
       "verified": true,
       "last_commit_date": "2026-04-11T07:16:57Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "letta-code",
@@ -6526,7 +6548,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T06:32:15Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "DeepScientist",
@@ -6545,12 +6567,12 @@
       "verified": true,
       "last_commit_date": "2026-04-14T12:08:26Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agentic-context-engine",
       "url": "https://github.com/kayba-ai/agentic-context-engine",
-      "description": "🧠 Make your agents learn from experience. Now available as a hosted solution at kayba.ai",
+      "description": "\ud83e\udde0 Make your agents learn from experience. Now available as a hosted solution at kayba.ai",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -6564,7 +6586,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T17:51:50Z",
       "days_since_commit": 0
     },
@@ -6585,7 +6607,7 @@
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-02-09T14:58:12Z",
       "days_since_commit": 428
     },
@@ -6604,7 +6626,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-07T11:08:19Z",
       "days_since_commit": 6
     },
@@ -6625,7 +6647,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-10T11:02:31Z",
       "days_since_commit": 3
     },
@@ -6644,7 +6666,7 @@
       "verified": true,
       "last_commit_date": "2026-04-10T09:09:56Z",
       "days_since_commit": 3,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "humanoid-gym",
@@ -6663,7 +6685,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-01-26T08:11:29Z",
       "days_since_commit": 442
     },
@@ -6685,7 +6707,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T10:42:55Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "how-claude-code-works",
@@ -6701,7 +6723,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-10T07:54:22Z",
       "days_since_commit": 3
     },
@@ -6724,7 +6746,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T05:50:55Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ai-marketing-skills",
@@ -6741,7 +6763,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-06T04:33:12Z",
       "days_since_commit": 7
     },
@@ -6762,7 +6784,7 @@
       "verified": true,
       "last_commit_date": "2024-01-14T02:05:56Z",
       "days_since_commit": 820,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "tradingview-mcp",
@@ -6777,7 +6799,7 @@
       "language": "JavaScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-04T00:27:04Z",
       "days_since_commit": 9
     },
@@ -6799,7 +6821,7 @@
       "language": "C++",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T21:24:42Z",
       "days_since_commit": 0
     },
@@ -6818,7 +6840,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T05:41:55Z",
       "days_since_commit": 2,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "thepopebot",
@@ -6840,7 +6862,7 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:55:32.750Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "wecom-cli",
@@ -6856,7 +6878,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-09T12:11:03Z",
       "days_since_commit": 4
     },
@@ -6877,7 +6899,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T14:38:30Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "agent-of-empires",
@@ -6897,12 +6919,12 @@
       "verified": true,
       "last_commit_date": "2026-04-14T14:29:19Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "MLE-agent",
       "url": "https://github.com/MLSysOps/MLE-agent",
-      "description": "🤖 MLE-Agent: Your intelligent companion for seamless AI engineering and research. 🔍 Integrate with arxiv and paper with code to provide better code/research plans 🧰 OpenAI, Anthropic, Gemini, Ollama, etc supported. :fireworks: Code RAG",
+      "description": "\ud83e\udd16 MLE-Agent: Your intelligent companion for seamless AI engineering and research. \ud83d\udd0d Integrate with arxiv and paper with code to provide better code/research plans \ud83e\uddf0 OpenAI, Anthropic, Gemini, Ollama, etc supported. :fireworks: Code RAG",
       "category": "Agents & Automation",
       "tags": [
         "agent",
@@ -6917,7 +6939,7 @@
       "verified": true,
       "last_commit_date": "2025-07-27T17:56:58Z",
       "days_since_commit": 260,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "ExtractThinker",
@@ -6936,7 +6958,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-08-27T23:06:09Z",
       "days_since_commit": 228
     },
@@ -6955,7 +6977,7 @@
       "verified": true,
       "last_commit_date": "2025-01-31T00:00:07Z",
       "days_since_commit": 437,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "parlor",
@@ -6975,7 +6997,7 @@
       "verified": true,
       "last_commit_date": "2026-04-07T00:10:19Z",
       "days_since_commit": 6,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code",
@@ -6992,14 +7014,14 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-31T10:03:46Z",
       "days_since_commit": 13
     },
     {
       "name": "AutoResearch MLX",
       "url": "https://github.com/trevin-creator/autoresearch-mlx",
-      "description": "Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, no PyTorch required",
+      "description": "Apple Silicon (MLX) port of Karpathy's autoresearch \u2014 autonomous AI research loops on Mac, no PyTorch required",
       "category": "Research & Data",
       "tags": [
         "ai",
@@ -7018,7 +7040,7 @@
       "verified": true,
       "last_commit_date": "2026-03-10T22:30:24Z",
       "days_since_commit": 33,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "Terminator",
@@ -7047,7 +7069,7 @@
       "verified": true,
       "last_commit_date": "2026-04-05T17:29:10Z",
       "days_since_commit": 8,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "MusicGPT",
@@ -7066,7 +7088,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-02-09T10:06:29Z",
       "days_since_commit": 428
     },
@@ -7085,7 +7107,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T21:01:21Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code-rust",
@@ -7102,7 +7124,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-10T21:22:21Z",
       "days_since_commit": 3
     },
@@ -7123,7 +7145,7 @@
       "verified": true,
       "last_commit_date": "2026-03-30T01:51:53Z",
       "days_since_commit": 14,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "claude-reviews-claude",
@@ -7140,7 +7162,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-01T19:52:40Z",
       "days_since_commit": 12
     },
@@ -7168,7 +7190,7 @@
       "verified": true,
       "last_commit_date": "2026-04-06T09:08:23Z",
       "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "arkflow",
@@ -7187,7 +7209,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T14:59:46Z",
       "days_since_commit": 0
     },
@@ -7208,7 +7230,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T05:18:41Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "aideml",
@@ -7227,7 +7249,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟠 Aging",
+      "freshness": "\ud83d\udfe0 Aging",
       "last_commit_date": "2026-02-12T13:02:34Z",
       "days_since_commit": 60
     },
@@ -7251,12 +7273,12 @@
       "verified": true,
       "last_commit_date": "2026-04-15T02:55:32.750Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "EmbedAnything",
       "url": "https://github.com/StarlightSearch/EmbedAnything",
-      "description": "Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust 🦀",
+      "description": "Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust \ud83e\udd80",
       "category": "Developer Tools",
       "tags": [
         "rust",
@@ -7270,7 +7292,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟠 Aging",
+      "freshness": "\ud83d\udfe0 Aging",
       "last_commit_date": "2026-03-11T10:12:08Z",
       "days_since_commit": 33
     },
@@ -7292,7 +7314,7 @@
       "verified": true,
       "last_commit_date": "2025-02-26T10:07:19Z",
       "days_since_commit": 411,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "pruna",
@@ -7311,7 +7333,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T09:24:43Z",
       "days_since_commit": 0
     },
@@ -7329,14 +7351,14 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-02T11:36:32Z",
       "days_since_commit": 11
     },
     {
       "name": "SAG",
       "url": "https://github.com/Zleap-AI/SAG",
-      "description": "SAG - SQL驱动的RAG引擎 · 查询时自动构建知识图谱 | SQL-Driven RAG Engine · Automatically Build Knowledge Graph During Querying",
+      "description": "SAG - SQL\u9a71\u52a8\u7684RAG\u5f15\u64ce \u00b7 \u67e5\u8be2\u65f6\u81ea\u52a8\u6784\u5efa\u77e5\u8bc6\u56fe\u8c31 | SQL-Driven RAG Engine \u00b7 Automatically Build Knowledge Graph During Querying",
       "category": "Developer Tools",
       "tags": [
         "sql",
@@ -7350,7 +7372,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2025-12-08T06:25:08Z",
       "days_since_commit": 126
     },
@@ -7369,7 +7391,7 @@
       "language": "JavaScript",
       "added_date": "2026-04-08T07:07:14.441518",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T20:56:08Z",
       "days_since_commit": 0
     },
@@ -7392,7 +7414,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T03:34:53Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "ai-hands-on",
@@ -7409,7 +7431,7 @@
       "verified": true,
       "last_commit_date": "2026-04-12T11:09:36Z",
       "days_since_commit": 1,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "thereisnospoon",
@@ -7425,7 +7447,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-29T21:33:57Z",
       "days_since_commit": 15
     },
@@ -7444,7 +7466,7 @@
       "verified": true,
       "last_commit_date": "2026-02-25T06:03:26Z",
       "days_since_commit": 48,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "Jupyter MCP Server",
@@ -7463,7 +7485,7 @@
       "verified": true,
       "last_commit_date": "2026-04-05T08:42:52Z",
       "days_since_commit": 8,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "nightingale",
@@ -7482,7 +7504,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-08T17:31:20Z",
       "days_since_commit": 5
     },
@@ -7505,7 +7527,7 @@
       "verified": true,
       "last_commit_date": "2026-04-13T17:29:04Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Coca",
@@ -7524,7 +7546,7 @@
       "verified": true,
       "last_commit_date": "2026-01-06T09:40:33Z",
       "days_since_commit": 97,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "nocturne_memory",
@@ -7548,7 +7570,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T18:35:57Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "burp-ai-agent",
@@ -7566,7 +7588,7 @@
       "verified": true,
       "last_commit_date": "2026-04-09T11:32:22Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "claude-code-prompts",
@@ -7582,7 +7604,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-09T18:04:22Z",
       "days_since_commit": 4
     },
@@ -7603,7 +7625,7 @@
       "verified": true,
       "last_commit_date": "2026-03-27T06:06:08Z",
       "days_since_commit": 17,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "claude-md",
@@ -7619,7 +7641,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-03T22:28:25Z",
       "days_since_commit": 9
     },
@@ -7637,7 +7659,7 @@
       "language": "Unknown",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-04-02T18:23:15Z",
       "days_since_commit": 11
     },
@@ -7656,7 +7678,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-12T18:45:52Z",
       "days_since_commit": 1
     },
@@ -7677,7 +7699,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-13T20:45:00Z",
       "days_since_commit": 0
     },
@@ -7696,7 +7718,7 @@
       "verified": true,
       "last_commit_date": "2026-03-06T08:37:26Z",
       "days_since_commit": 39,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "cc-mini",
@@ -7713,7 +7735,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "\ud83d\udfe2 Fresh",
       "last_commit_date": "2026-04-10T05:52:03Z",
       "days_since_commit": 3
     },
@@ -7735,12 +7757,12 @@
       "verified": true,
       "last_commit_date": "2026-04-14T01:13:31Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "Claude Code Design Guide",
       "url": "https://github.com/6551Team/claude-code-design-guide",
-      "description": "From Early Internet Design Patterns to AI Agent Implementation — A Deep Dive into Claude Code for Developers",
+      "description": "From Early Internet Design Patterns to AI Agent Implementation \u2014 A Deep Dive into Claude Code for Developers",
       "category": "Developer Tools",
       "tags": [
         "claude",
@@ -7757,12 +7779,12 @@
       "verified": true,
       "last_commit_date": "2026-04-02T12:10:38Z",
       "days_since_commit": 11,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "clawgod",
       "url": "https://github.com/0Chencc/clawgod",
-      "description": "This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version — as Claude Code updates, the patch continues to take effect",
+      "description": "This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version \u2014 as Claude Code updates, the patch continues to take effect",
       "category": "Developer Tools",
       "tags": [
         "developer",
@@ -7780,7 +7802,7 @@
       "verified": true,
       "last_commit_date": "2026-04-08T13:55:49Z",
       "days_since_commit": 5,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "StoryGen-Atelier",
@@ -7797,7 +7819,7 @@
       "verified": true,
       "last_commit_date": "2025-12-06T09:27:07Z",
       "days_since_commit": 129,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AigoTools",
@@ -7817,7 +7839,7 @@
       "verified": true,
       "last_commit_date": "2025-08-01T03:45:07Z",
       "days_since_commit": 255,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "ai4animationpy",
@@ -7836,7 +7858,7 @@
       "verified": true,
       "last_commit_date": "2026-04-14T16:24:26Z",
       "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "freshness": "\ud83d\udfe2 Fresh"
     },
     {
       "name": "openclaw-auto-dream",
@@ -7851,7 +7873,7 @@
       "language": "HTML",
       "added_date": "2026-04-03",
       "verified": true,
-      "freshness": "🟡 Recent",
+      "freshness": "\ud83d\udfe1 Recent",
       "last_commit_date": "2026-03-31T04:13:31Z",
       "days_since_commit": 13
     },
@@ -7872,7 +7894,7 @@
       "verified": true,
       "last_commit_date": "2026-01-07T16:22:18Z",
       "days_since_commit": 96,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AI Anything",
@@ -7891,7 +7913,7 @@
       "verified": true,
       "last_commit_date": "2023-03-29T01:03:49Z",
       "days_since_commit": 1111,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AI Infinity",
@@ -7909,7 +7931,7 @@
       "verified": true,
       "last_commit_date": "2026-02-17T15:29:32Z",
       "days_since_commit": 55,
-      "freshness": "🟠 Aging"
+      "freshness": "\ud83d\udfe0 Aging"
     },
     {
       "name": "mlx-snn",
@@ -7926,7 +7948,7 @@
       "verified": true,
       "last_commit_date": "2026-03-20T14:27:01Z",
       "days_since_commit": 25,
-      "freshness": "🟡 Recent"
+      "freshness": "\ud83d\udfe1 Recent"
     },
     {
       "name": "Tiger",
@@ -7946,7 +7968,7 @@
       "verified": true,
       "last_commit_date": "2025-02-19T09:40:49Z",
       "days_since_commit": 418,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "Modus",
@@ -7965,7 +7987,7 @@
       "verified": true,
       "last_commit_date": "2025-09-11T14:09:23Z",
       "days_since_commit": 214,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "graphify",
@@ -7982,7 +8004,7 @@
       "language": "Go",
       "added_date": "2026-04-08T07:07:14.441511",
       "verified": true,
-      "freshness": "🔴 Stale",
+      "freshness": "\ud83d\udd34 Stale",
       "last_commit_date": "2020-04-04T03:49:01Z",
       "days_since_commit": 2200
     },
@@ -8002,7 +8024,7 @@
       "verified": true,
       "last_commit_date": "2023-06-02T19:29:08Z",
       "days_since_commit": 1046,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     },
     {
       "name": "AskAI Tools",
@@ -8020,7 +8042,7 @@
       "verified": true,
       "last_commit_date": "2024-07-11T13:03:36Z",
       "days_since_commit": 641,
-      "freshness": "🔴 Stale"
+      "freshness": "\ud83d\udd34 Stale"
     }
   ]
 }
