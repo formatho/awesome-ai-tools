@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-14T20:39:21.817387+00:00",
-    "total_tools": 379,
+    "last_updated": "2026-04-15T02:40:40.449Z",
+    "total_tools": 401,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -7319,6 +7319,441 @@
       "added_date": "2026-04-14",
       "verified": true,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "nanobot",
+      "url": "https://github.com/HKUDS/nanobot",
+      "description": "\"🐈 nanobot: The Ultra-Lightweight Personal AI Agent\"",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "llm",
+        "claude",
+        "gpt",
+        "coding",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 39531,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T01:15:37Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "automation",
+        "browser",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 29190,
+      "language": "Rust",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-14T13:04:24Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Open-AutoGLM",
+      "url": "https://github.com/zai-org/Open-AutoGLM",
+      "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 24920,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-03-06T08:38:39Z",
+      "days_since_commit": 39,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "cli",
+      "url": "https://github.com/googleworkspace/cli",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "automation",
+        "api",
+        "typescript",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 24712,
+      "language": "Rust",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-08T15:31:58Z",
+      "days_since_commit": 6,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "llm",
+        "coding",
+        "rag",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 22282,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:33:13Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "prompt-master",
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "llm",
+        "claude",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 5162,
+      "language": "Unknown",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-03-31T11:14:52Z",
+      "days_since_commit": 14,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": "apfel",
+      "url": "https://github.com/Arthur-Ficial/apfel",
+      "description": "The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "llm",
+        "api"
+      ],
+      "pricing": "Free",
+      "stars": 4575,
+      "language": "Swift",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-14T23:54:25Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "claude-devtools",
+      "url": "https://github.com/matt1398/claude-devtools",
+      "description": "The missing DevTools for Claude Code — inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "llm",
+        "claude",
+        "coding",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 3075,
+      "language": "TypeScript",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-11T04:58:27Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "llm",
+        "claude",
+        "coding",
+        "browser",
+        "python",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 3009,
+      "language": "TypeScript",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-14T17:29:14Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "awesome-opensource-ai",
+      "url": "https://github.com/alvinreal/awesome-opensource-ai",
+      "description": "Curated list of the best truly open-source AI projects, models, tools, and infrastructure.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "llm",
+        "rag",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 2580,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-15T02:17:54Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "moltis",
+      "url": "https://github.com/moltis-org/moltis",
+      "description": "A secure persistent personal agent server in Rust. One binary, sandboxed execution, multi-provider LLMs, voice, memory, Telegram, WhatsApp, Discord, Teams, and MCP tools. Secure by design, runs on your hardware.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "llm",
+        "typescript",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 2555,
+      "language": "Rust",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-14T22:49:48Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "FireRed-OpenStoryline",
+      "url": "https://github.com/FireRedTeam/FireRed-OpenStoryline",
+      "description": "FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-in-the-loop creation with reusable Style Skills for consistent, professional storytelling.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "llm",
+        "chatbot"
+      ],
+      "pricing": "Free",
+      "stars": 1891,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-09T10:42:55Z",
+      "days_since_commit": 5,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "nocturne_memory",
+      "url": "https://github.com/Dataojitori/nocturne_memory",
+      "description": "A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai",
+        "llm",
+        "claude",
+        "coding",
+        "rag",
+        "python",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 957,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-14T18:35:57Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "burp-ai-agent",
+      "url": "https://github.com/six2dez/burp-ai-agent",
+      "description": "Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 939,
+      "language": "Kotlin",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-09T11:32:22Z",
+      "days_since_commit": 5,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "ANE",
+      "url": "https://github.com/maderix/ANE",
+      "description": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "neural-network",
+        "api"
+      ],
+      "pricing": "Free",
+      "stars": 6587,
+      "language": "Objective-C",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-03-10T10:21:05Z",
+      "days_since_commit": 35,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "ai4animationpy",
+      "url": "https://github.com/facebookresearch/ai4animationpy",
+      "description": "A Python framework for AI-driven character animation using neural networks.",
+      "category": "Video & Animation",
+      "tags": [
+        "ai",
+        "neural-network",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 631,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-14T16:24:26Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "mlx-snn",
+      "url": "https://github.com/D-ST-Sword/mlx-snn",
+      "description": "Spiking Neural Network library built natively on Apple MLX",
+      "category": "Developer Tools",
+      "tags": [
+        "neural-network"
+      ],
+      "pricing": "Free",
+      "stars": 526,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-03-20T14:27:01Z",
+      "days_since_commit": 25,
+      "freshness": "🟡 Recent"
+    },
+    {
+      "name": "Qwen3-ASR",
+      "url": "https://github.com/QwenLM/Qwen3-ASR",
+      "description": "Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction.",
+      "category": "Audio & Music",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 2409,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-01-30T03:24:24Z",
+      "days_since_commit": 74,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "Fun-ASR",
+      "url": "https://github.com/FunAudioLLM/Fun-ASR",
+      "description": "Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab. ",
+      "category": "Audio & Music",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1017,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-02-25T06:03:26Z",
+      "days_since_commit": 48,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "GLM-ASR",
+      "url": "https://github.com/zai-org/GLM-ASR",
+      "description": "GLM-ASR-Nano: A robust, open-source speech recognition model with 1.5B parameters",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 791,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-03-06T08:37:26Z",
+      "days_since_commit": 39,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "JoyAI-Image",
+      "url": "https://github.com/jd-opensource/JoyAI-Image",
+      "description": "JoyAI-Image is the unified multimodal foundation model for image understanding, text-to-image generation, and instruction-guided image editing.",
+      "category": "Image Generation",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1691,
+      "language": "Python",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2026-04-12T05:41:55Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "StoryGen-Atelier",
+      "url": "https://github.com/0xsline/StoryGen-Atelier",
+      "description": "AI-assisted storyboard and video generation tool. Uses Gemini for generating storyboard text and frames, Vertex AI Veo for generating transition clips, and ffmpeg for stitching the final video. Built-in logs and gallery management.",
+      "category": "Video & Animation",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 707,
+      "language": "JavaScript",
+      "added_date": "2026-04-15",
+      "verified": true,
+      "last_commit_date": "2025-12-06T09:27:07Z",
+      "days_since_commit": 129,
+      "freshness": "🔴 Stale"
     }
   ]
 }
