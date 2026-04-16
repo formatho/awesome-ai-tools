@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-13-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-348-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-349-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -209,6 +209,7 @@
 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | LLM inference in C/C++ for efficient local deployment. | `inference` `c++` `llm` | Free | 🟢 Fresh | 103.5k |
 | [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | A collection of MCP servers. | `mcp` `servers` `ai` | Free | 🟢 Fresh | 84.7k |
 | [sherlock](https://github.com/sherlock-project/sherlock) | Hunt down social media accounts by username across social networks | `cli` `cti` `cybersecurity` | Free | 🟢 Fresh | 80.9k |
+| [llama-swap](https://github.com/mostlygeek/llama-swap) | Reliable model swapping for any local OpenAI/Anthropic compatible server. Run multiple generative AI models and hot-swap between them on demand. | `model-management` `local-ai` `inference` `docker` | Free | 🟢 Fresh | 3.3k
 | [ sherlock](https://github.com/sherlock-project / sherlock) | Hunt down social media accounts by username across social networks | `AI` `Developer Tools` | Open Source | 🟢 Fresh | 80.1k |
 | [Netdata](https://github.com/netdata/netdata) | The fastest path to AI-powered full stack observability, even for lean teams. | `ai` `monitoring` `observability` | Open Source | 🟢 Fresh | 78.4k |
 | [RAGFlow](https://github.com/infiniflow/ragflow) | Leading open-source Retrieval-Augmented Generation (RAG) engine with agent capabilities. | `rag` `llm` `agent` | Free | 🟢 Fresh | 77.9k |
