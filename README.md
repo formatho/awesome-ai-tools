@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-13-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-349-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-350-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -146,6 +146,7 @@
 | [ai-agent-deep-dive](https://github.com/tvytlx/ai-agent-deep-dive) | Deep dive into AI agent architectures and implementation | `ai` `agent` `python` | Free | 🟢 Fresh | 5.5k |
 | [zenml](https://github.com/zenml-io/zenml) | ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io. |  | Free | 🟢 Fresh | 5.3k |
 | [AgentVerse](https://github.com/OpenBMB/AgentVerse) | 🤖 AgentVerse 🪐 is designed to facilitate the deployment of multiple LLM-based agents in various applications, which primarily provides two frameworks: task-solving and simulation | `agent` `llm` `javascript` | Free | 🔴 Stale | 5.0k |
+| [Agent](https://github.com/macOS26/Agent) | Native Mac app with 17 LLM providers (Claude, GPT, Gemini, Ollama, Apple Intelligence). Full control: writes code, builds Xcode, manages git, automates Safari, drives any app via Accessibility, runs tasks from iPhone via iMessage. | `agent` `macos` `native-app` `voice` `xcode` `automation` | Free | 🟢 Fresh | 163
 | [gaianet-node](https://github.com/GaiaNet-AI/gaianet-node) | Install, run and deploy your own decentralized AI agent service | `agent` `decentralized` `ai-service` | Open Source | 🔴 Stale | 5.0k |
 | [ex-skill](https://github.com/therealXiaomanChu/ex-skill) | Expert system AI skill development framework | `ai` `python` | Free | 🟢 Fresh | 4.4k |
 | [autoagent](https://github.com/autoagent/autoagent) | AutoAgent - AI-powered autonomous agent framework for complex task automation | `AI Agent` `Automation` `Framework` | Open Source | 🟢 Fresh | 3.8k |
