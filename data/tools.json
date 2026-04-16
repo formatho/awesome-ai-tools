@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-16T14:24:39.127559Z",
-    "total_tools": 519,
+    "last_updated": "2026-04-16T14:58:04.646069+00:00",
+    "total_tools": 523,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,93 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-16T14:24:39.127570Z"
+    "last_discovery": "2026-04-16T14:58:04.646299+00:00"
   },
   "tools": [
+    {
+      "name": "letta",
+      "url": "https://github.com/letta-ai/letta",
+      "description": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "memory",
+        "stateful",
+        "self-improve"
+      ],
+      "pricing": "Free",
+      "stars": 22097,
+      "language": "Python",
+      "added_date": "2026-04-16",
+      "verified": true,
+      "last_commit_date": "2026-04-12T20:54:54Z",
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "CowAgent",
+      "url": "https://github.com/zhayujie/CowAgent",
+      "description": "CowAgent is a super AI assistant based on LLMs. It can proactively think and plan tasks, access operating systems and external resources, create and execute Skills, and grow through long-term memory and knowledge base. Supports WeChat, Feishu, DingTalk, WeCom, QQ, Official Accounts, and web. Choose from OpenAI/Claude/Gemini/DeepSeek/Qwen/GLM/Kimi/LinkAI. Handles text, voice, images, and files.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "multi-platform",
+        "wechat",
+        "assistant"
+      ],
+      "pricing": "Free",
+      "stars": 43343,
+      "language": "Python",
+      "added_date": "2026-04-16",
+      "verified": true,
+      "last_commit_date": "2026-04-16T13:58:44Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "pandas-ai",
+      "url": "https://github.com/sinaptik-ai/pandas-ai",
+      "description": "Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "llm",
+        "data-analysis",
+        "pandas",
+        "rag"
+      ],
+      "pricing": "Free",
+      "stars": 23458,
+      "language": "Python",
+      "added_date": "2026-04-16",
+      "verified": true,
+      "last_commit_date": "2026-04-12T04:58:21Z",
+      "days_since_commit": 4,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
+    {
+      "name": "langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Build resilient language agents as graphs.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "graph",
+        "workflow",
+        "langchain",
+        "resilient"
+      ],
+      "pricing": "Free",
+      "stars": 29441,
+      "language": "Python",
+      "added_date": "2026-04-16",
+      "verified": true,
+      "last_commit_date": "2026-04-16T14:25:00Z",
+      "days_since_commit": 0,
+      "freshness": "\ud83d\udfe2 Fresh"
+    },
     {
       "name": "openclaw",
       "url": "https://github.com/openclaw/openclaw",
