@@ -337,6 +337,7 @@
 | [Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `python` | Free | 🔴 Stale | 37.4k |
 | [jan](https://github.com/janhq/jan) | Open source alternative to ChatGPT that runs 100% offline on your computer. Full control and privacy with local LLMs or cloud integration (OpenAI, Claude, Mistral, Groq). | `llm` `chatbot` `privacy` `offline` `desktop` | Free | 🟢 Fresh | 41.8k
 | [jan](https://github.com/janhq/jan) | Open source alternative to ChatGPT that runs 100% offline on your computer. Full control and privacy with local LLMs or cloud integration (OpenAI, Claude, Mistral, Groq). | `llm` `chatbot` `privacy` `offline` `desktop` | Free | 🟢 Fresh | 41.8k
+| [jan](https://github.com/janhq/jan) | Open source alternative to ChatGPT that runs 100% offline on your computer. Full control and privacy with local LLMs or cloud integration (OpenAI, Claude, Mistral, Groq). | `llm` `chatbot` `privacy` `offline` `desktop` | Free | 🟢 Fresh | 41.8k
 | [onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced features that works with every LLM | `ai` `ai-chat` `chatgpt` | Free | 🟢 Fresh | 26.9k |
 | [SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | `llm` `javascript` | Free | 🟢 Fresh | 25.6k |
 | [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) | An MCP-based chatbot | 一个基于MCP的聊天机器人 | `chatbot` | Free | 🟢 Fresh | 25.6k |
