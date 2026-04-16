@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-13-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-347-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-348-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -335,6 +335,7 @@
 | [quivr](https://github.com/QuivrHQ/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. | `ai` `llm` `python` | Free | 🔴 Stale | 39.1k |
 | [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly. | `ai` `ai-transparency` `anthropic` | Free | 🟢 Fresh | 38.3k |
 | [Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. | `python` | Free | 🔴 Stale | 37.4k |
+| [jan](https://github.com/janhq/jan) | Open source alternative to ChatGPT that runs 100% offline on your computer. Full control and privacy with local LLMs or cloud integration (OpenAI, Claude, Mistral, Groq). | `llm` `chatbot` `privacy` `offline` `desktop` | Free | 🟢 Fresh | 41.8k
 | [onyx](https://github.com/onyx-dot-app/onyx) | Open Source AI Platform - AI Chat with advanced features that works with every LLM | `ai` `ai-chat` `chatgpt` | Free | 🟢 Fresh | 26.9k |
 | [SillyTavern](https://github.com/SillyTavern/SillyTavern) | LLM Frontend for Power Users. | `llm` `javascript` | Free | 🟢 Fresh | 25.6k |
 | [xiaozhi-esp32](https://github.com/78/xiaozhi-esp32) | An MCP-based chatbot | 一个基于MCP的聊天机器人 | `chatbot` | Free | 🟢 Fresh | 25.6k |
