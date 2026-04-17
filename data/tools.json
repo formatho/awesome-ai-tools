@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-17T02:23:21.949986",
-    "total_tools": 524,
+    "last_updated": "2026-04-17T02:52:00.000000",
+    "total_tools": 530,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,136 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-17T02:23:21.950008"
+    "last_discovery": "2026-04-17T02:52:00.000000"
   },
   "tools": [
+    {
+      "name": "DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Agent-Native Personalized Learning Assistant",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "agent",
+        "education",
+        "personalized-learning",
+        "tutor"
+      ],
+      "pricing": "Free",
+      "stars": 18792,
+      "language": "Python",
+      "added_date": "2026-04-17",
+      "verified": true,
+      "last_commit_date": "2026-04-15T07:59:09Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "category": "Research & Data",
+      "tags": [
+        "finance",
+        "financial-markets",
+        "foundation-model",
+        "trading",
+        "quant"
+      ],
+      "pricing": "Free",
+      "stars": 18791,
+      "language": "Python",
+      "added_date": "2026-04-17",
+      "verified": true,
+      "last_commit_date": "2026-04-13T12:38:49Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai-coding",
+        "harness",
+        "deterministic",
+        "repeatable",
+        "open-source"
+      ],
+      "pricing": "Free",
+      "stars": 18426,
+      "language": "TypeScript",
+      "added_date": "2026-04-17",
+      "verified": true,
+      "last_commit_date": "2026-04-16T23:32:06Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "agent",
+        "skills",
+        "engineering",
+        "coding"
+      ],
+      "pricing": "Free",
+      "stars": 16564,
+      "language": "Shell",
+      "added_date": "2026-04-17",
+      "verified": true,
+      "last_commit_date": "2026-04-16T03:05:33Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agents",
+        "multi-agent",
+        "teammates",
+        "task-management",
+        "skills"
+      ],
+      "pricing": "Free",
+      "stars": 14711,
+      "language": "TypeScript",
+      "added_date": "2026-04-17",
+      "verified": true,
+      "last_commit_date": "2026-04-17T02:51:01Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "description": "Open-source AI coworker that turns work into a knowledge graph and acts on it. Connects to email and meeting notes, builds long-lived memory, and helps get work done privately on your machine.",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "coworker",
+        "memory",
+        "knowledge-graph",
+        "local-first",
+        "productivity"
+      ],
+      "pricing": "Free",
+      "stars": 12558,
+      "language": "TypeScript",
+      "added_date": "2026-04-17",
+      "verified": true,
+      "last_commit_date": "2026-04-16T16:13:22Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "VoxCPM",
       "url": "https://github.com/OpenBMB/VoxCPM",
