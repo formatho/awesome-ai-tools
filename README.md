@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-16-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-523-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-17-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-524-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,7 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning | Audio & Music | 🟢 Fresh | April 17, 2026 |
 | [letta](https://github.com/letta-ai/letta) | Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time. | Agents & Automation | 🟢 Fresh | April 16, 2026 |
 | [CowAgent](https://github.com/zhayujie/CowAgent) | CowAgent is a super AI assistant based on LLMs. It can proactively think and plan tasks, access operating systems and external resources, create and execute Skills, and grow through long-term memory and knowledge base. Supports WeChat, Feishu, DingTalk, WeCom, QQ, Official Accounts, and web. Choose from OpenAI/Claude/Gemini/DeepSeek/Qwen/GLM/Kimi/LinkAI. Handles text, voice, images, and files. | Agents & Automation | 🟢 Fresh | April 16, 2026 |
 | [pandas-ai](https://github.com/sinaptik-ai/pandas-ai) | Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG. | LLMs & Chatbots | 🟢 Fresh | April 16, 2026 |
@@ -37,7 +38,6 @@
 | [vanna](https://github.com/vanna-ai/vanna) | Chat with your SQL database. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval. | Developer Tools | 🟢 Fresh | April 16, 2026 |
 | [skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | Agents & Automation | 🟢 Fresh | April 16, 2026 |
 | [agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents - comprehensive skill definitions and best practices. | Developer Tools | 🟢 Fresh | April 16, 2026 |
-| [botpress](https://github.com/botpress/botpress) | The open-source hub to build & deploy GPT/LLM Agents | Agents & Automation | 🟢 Fresh | April 16, 2026 |
 
 ---
 
@@ -257,6 +257,7 @@
 | [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | SoftVC VITS Singing Voice Conversion - AI-powered voice conversion system for singing | `voice` `conversion` `singing` | Free | 🟢 Fresh | 28.0k |
 | [dia](https://github.com/nari-labs/dia) | A TTS model capable of generating ultra-realistic dialogue in one pass. | `ai` | Free | 🔴 Stale | 19.3k |
 | [voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `ai` | Free | 🟡 Recent | 16.2k |
+| [VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning | `audio` `deeplearning` `minicpm` | Free | 🟢 Fresh | 13.8k |
 | [pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `voice` `conversational` `ai` | Free | 🟢 Fresh | 11.3k |
 | [ten-framework](https://github.com/TEN-framework/ten-framework) | Open-source framework for conversational voice AI agents | `voice` `agent` `conversational` | Free | 🟢 Fresh | 10.4k |
 | [livekit-agents](https://github.com/livekit/agents) | A framework for building realtime voice AI agents | `voice` `agent` `realtime` | Free | 🟢 Fresh | 10.1k |
@@ -664,14 +665,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 523
+- **Total Tools:** 524
 - **Categories:** 9
-- **Last Updated:** April 16, 2026
+- **Last Updated:** April 17, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 412 tools
+- 🟢 Fresh: 413 tools
 - 🟡 Recent: 49 tools
 - 🟠 Aging: 22 tools
 - 🔴 Stale: 40 tools
