@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-17blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-524-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-17-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-530-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,16 +28,16 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Agent-Native Personalized Learning Assistant | Productivity | 🟢 Fresh | April 17, 2026 |
+| [Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | Research & Data | 🟢 Fresh | April 17, 2026 |
+| [Archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. | Developer Tools | 🟢 Fresh | April 17, 2026 |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents. | Developer Tools | 🟢 Fresh | April 17, 2026 |
+| [multica](https://github.com/multica-ai/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. | Agents & Automation | 🟢 Fresh | April 17, 2026 |
+| [rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker that turns work into a knowledge graph and acts on it. Connects to email and meeting notes, builds long-lived memory, and helps get work done privately on your machine. | Productivity | 🟢 Fresh | April 17, 2026 |
 | [VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning | Audio & Music | 🟢 Fresh | April 17, 2026 |
 | [letta](https://github.com/letta-ai/letta) | Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time. | Agents & Automation | 🟢 Fresh | April 16, 2026 |
 | [CowAgent](https://github.com/zhayujie/CowAgent) | CowAgent is a super AI assistant based on LLMs. It can proactively think and plan tasks, access operating systems and external resources, create and execute Skills, and grow through long-term memory and knowledge base. Supports WeChat, Feishu, DingTalk, WeCom, QQ, Official Accounts, and web. Choose from OpenAI/Claude/Gemini/DeepSeek/Qwen/GLM/Kimi/LinkAI. Handles text, voice, images, and files. | Agents & Automation | 🟢 Fresh | April 16, 2026 |
 | [pandas-ai](https://github.com/sinaptik-ai/pandas-ai) | Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG. | LLMs & Chatbots | 🟢 Fresh | April 16, 2026 |
-| [langgraph](https://github.com/langchain-ai/langgraph) | Build resilient language agents as graphs. | Agents & Automation | 🟢 Fresh | April 16, 2026 |
-| [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | SoftVC VITS Singing Voice Conversion - AI-powered voice conversion system for singing | Audio & Music | 🟢 Fresh | April 16, 2026 |
-| [gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers | Agents & Automation | 🟢 Fresh | April 16, 2026 |
-| [vanna](https://github.com/vanna-ai/vanna) | Chat with your SQL database. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval. | Developer Tools | 🟢 Fresh | April 16, 2026 |
-| [skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | Agents & Automation | 🟢 Fresh | April 16, 2026 |
-| [agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents - comprehensive skill definitions and best practices. | Developer Tools | 🟢 Fresh | April 16, 2026 |
 
 ---
 
@@ -138,6 +138,7 @@
 | [ai-pdf-chatbot-langchain](https://github.com/mayooear/ai-pdf-chatbot-langchain) | AI PDF chatbot agent built with LangChain & LangGraph  | `ai` `agent` `chatbot` | Free | 🟡 Recent | 16.4k |
 | [claude-code-best](https://github.com/claude-code-best/claude-code) | 原汁原味 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真 | `claude` `typescript` `coding` | Free | 🟢 Fresh | 15.7k |
 | [memvid](https://github.com/memvid/memvid) | Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory. | `agent` `memory` `rag` | Open Source | 🟡 Recent | 14.9k |
+| [multica](https://github.com/multica-ai/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. | `agents` `multi-agent` `teammates` | Free | 🟢 Fresh | 14.7k |
 | [botpress](https://github.com/botpress/botpress) | The open-source hub to build & deploy GPT/LLM Agents | `agent` `chatbot` `llm` | Free | 🟢 Fresh | 14.6k |
 | [trigger.dev](https://github.com/triggerdotdev/trigger.dev) | Trigger.dev – build and deploy fully‑managed AI agents and workflows | `agent` `workflow` `automation` | Free | 🟢 Fresh | 14.6k |
 | [colleague-skill](https://github.com/titanwings/colleague-skill) | 将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework. | `skill` `ai` `digital-life` | Free | 🟢 Fresh | 13.7k |
@@ -324,7 +325,9 @@
 | [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex) | Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more. | `codex` `agent` `hooks` | Free | 🟢 Fresh | 22.2k |
 | [AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it! | `ai` `free` | Free | 🟢 Fresh | 21.7k |
 | [NemoClaw](https://github.com/NVIDIA/NemoClaw) | Run OpenClaw more securely inside NVIDIA OpenShell with managed inference |  | Free | 🟢 Fresh | 19.2k |
+| [Archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. | `ai-coding` `harness` `deterministic` | Free | 🟢 Fresh | 18.4k |
 | [archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. | `ai` | Free | 🟢 Fresh | 17.9k |
+| [agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents. | `ai` `agent` `skills` | Free | 🟢 Fresh | 16.6k |
 | [agent-skills](https://github.com/addyosmani/agent-skills) | Production-grade engineering skills for AI coding agents - comprehensive skill definitions and best practices. | `agent` `skills` `engineering` | Free | 🟢 Fresh | 15.8k |
 | [RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | `rag` `framework` `all-in-one` | Free | 🟢 Fresh | 15.6k |
 | [OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration. |  | Free | 🟢 Fresh | 15.5k |
@@ -541,6 +544,8 @@
 | [Khoj](https://github.com/khoj-ai/khoj) | Self-hostable AI second brain with custom agents and automations. | `second-brain` `self-hosted` `agent` | Freemium | 🟡 Recent | 34.1k |
 | [Vane](https://github.com/ItzCrazyKns/Vane) | Vane is an AI-powered answering engine. | `ai` `answering-engine` `search` | Free | 🟢 Fresh | 33.7k |
 | [qmd](https://github.com/tobi/qmd) | Mini CLI search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current SOTA approaches while being all local | `cli` `search` `local` | Free | 🟢 Fresh | 21.5k |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Agent-Native Personalized Learning Assistant | `ai` `agent` `education` | Free | 🟢 Fresh | 18.8k |
+| [rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker that turns work into a knowledge graph and acts on it. Connects to email and meeting notes, builds long-lived memory, and helps get work done privately on your machine. | `ai` `coworker` `memory` | Free | 🟢 Fresh | 12.6k |
 | [editor](https://github.com/pascalorg/editor) | Create and share 3D architectural projects. | `3d` `architecture` `editor` | Free | 🟢 Fresh | 12.1k |
 | [Noi](https://github.com/lencx/Noi) | AI tools launcher with minimal chaos and maximum flow. | `launcher` `productivity` `desktop` | Free | 🟠 Aging | 8.9k |
 | [claudian](https://github.com/YishenTu/claudian) | An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault | `obsidian` `plugin` `collaboration` | Free | 🟢 Fresh | 7.8k |
@@ -593,6 +598,7 @@
 | [NeoPass](https://github.com/Max-Eee/NeoPass) | Your Essential Exam Companion for the Iamneo Portal & NPTEL Exams Disguised as NeoExamShield bypass | `javascript` | Free | 🟢 Fresh | 25.2k |
 | [Last30Days Skill](https://github.com/mvanhorn/last30days-skill) | AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary | `research` `aggregation` `reddit` | Free | 🟢 Fresh | 21.5k |
 | [gallery](https://github.com/google-ai-edge/gallery) | A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally. | `ml` `genai` `on-device` | Free | 🟢 Fresh | 21.0k |
+| [Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `finance` `financial-markets` `foundation-model` | Free | 🟢 Fresh | 18.8k |
 | [Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `financial` `markets` `foundation-model` | Free | 🟢 Fresh | 18.0k |
 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | "DeepTutor: Agent-Native Personalized Learning Assistant" | `learning` `assistant` `personalized` | Free | 🟢 Fresh | 17.7k |
 | [leon](https://github.com/leon-ai/leon) | 🧠 Leon is your open-source personal assistant. | `ai-tool` | Free | 🟢 Fresh | 17.2k |
@@ -665,14 +671,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 524
+- **Total Tools:** 530
 - **Categories:** 9
 - **Last Updated:** April 17, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 413 tools
+- 🟢 Fresh: 419 tools
 - 🟡 Recent: 49 tools
 - 🟠 Aging: 22 tools
 - 🔴 Stale: 40 tools
