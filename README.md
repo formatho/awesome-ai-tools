@@ -535,6 +535,7 @@
 |------|-------------|------|---------|-----------|-------|
 | [Prompts.chat](https://github.com/f/prompts.chat) | Share, discover, and collect AI prompts from the community. | `prompts` `community` `collection` | Free | 🟢 Fresh | 159.6k |
 | [markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `document` `markdown` `conversion` | Free | 🟡 Recent | 108.3k |
+| [MindMap AI](https://mindmapai.app/text-summarizer) | AI-powered tool that converts PDFs, documents, and research into structured visual mind maps for better understanding and productivity. | `mindmap` `productivity` `research` | Freemium | 🟢 Fresh | — |
 | [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of LLM apps with AI Agents and RAG implementations. | `llm` `apps` `agent` | Free | 🟢 Fresh | 105.3k |
 | [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration. | `productivity` `llm` `local-llm` | Free | 🟢 Fresh | 58.3k |
 | [mempalace](https://github.com/mempalace/mempalace) | MemPalace - Advanced memory management and AI-powered knowledge organization system | `Memory` `Knowledge` `Organization` | Open Source | 🟢 Fresh | 44.8k |
