@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-18-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-615-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-617-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,8 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [altimate-code](https://github.com/AltimateAI/altimate-code) | Open-source agentic data engineering harness for dbt, SQL, and cloud warehouses. 100+ tools, 10 warehouses, AI-powered. | Developer Tools | 🟢 Fresh | April 18, 2026 |
+| [Wegent](https://github.com/wecode-ai/Wegent) | An open-source AI-native operating system to define, organize, and run intelligent agent teams | Agents & Automation | 🟢 Fresh | April 18, 2026 |
 | [tensorflow](https://github.com/tensorflow/tensorflow) | An Open Source Machine Learning Framework for Everyone | Open Source Models | 🟢 Fresh | April 17, 2026 |
 | [pytorch](https://github.com/pytorch/pytorch) | Tensors and Dynamic neural networks in Python with strong GPU acceleration | Open Source Models | 🟢 Fresh | April 17, 2026 |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. | Agents & Automation | 🟢 Fresh | April 17, 2026 |
@@ -36,8 +38,6 @@
 | [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | Developer Tools | 🟢 Fresh | April 17, 2026 |
 | [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows | Agents & Automation | 🟠 Aging | April 17, 2026 |
 | [opencv](https://github.com/opencv/opencv) | Open Source Computer Vision Library | Image Generation | 🟢 Fresh | April 17, 2026 |
-| [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | List of Computer Science courses with video lectures. | Image Generation | 🟢 Fresh | April 17, 2026 |
-| [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. | Agents & Automation | 🟡 Recent | April 17, 2026 |
 
 ---
 
@@ -274,6 +274,7 @@
 | [claude-code-source-code](https://github.com/777genius/claude-code-source-code) | Claude Code source code analysis and study | `development` `claude` | Free | 🟡 Recent | 0.9k |
 | [claude-code-from-scratch](https://github.com/Windy3f3f3f3f/claude-code-from-scratch) | Building Claude Code from scratch tutorial | `development` `claude` `typescript` | Free | 🟢 Fresh | 0.9k |
 | [cc-mini](https://github.com/e10nMa2k/cc-mini) | Compact Claude Code implementation and tools | `development` `claude` `python` | Free | 🟢 Fresh | 0.8k |
+| [Wegent](https://github.com/wecode-ai/Wegent) | An open-source AI-native operating system to define, organize, and run intelligent agent teams | `agent` `ai` `chatbot` | Free | 🟢 Fresh | 0.5k |
 | [Tiger](https://github.com/Upsonic/Tiger) | Neuralink for AI agents - connects LangChain, Autogen, CrewAI. | `agent-integration` `langchain` `autogen` | Free | 🔴 Stale | 0.5k |
 
 ---
@@ -457,6 +458,7 @@
 | [clawgod](https://github.com/0Chencc/clawgod) | This is NOT a third-party Claude Code client. ClawGod is a runtime patch applied on top of the official Claude Code. It works with any version — as Claude Code updates, the patch continues to take effect | `developer` `patch` `modification` | Free | 🟢 Fresh | 0.7k |
 | [AigoTools](https://github.com/someu/aigotools) | Website directory builder with auto-crawling and SEO. | `directory` `seo` `crawling` | Free | 🔴 Stale | 0.7k |
 | [Mycoder](https://github.com/bhouston/mycoder) | Command-line AI agent for coding tasks. | `cli` `agent` `coding` | Free | 🔴 Stale | 0.6k |
+| [altimate-code](https://github.com/AltimateAI/altimate-code) | Open-source agentic data engineering harness for dbt, SQL, and cloud warehouses. 100+ tools, 10 warehouses, AI-powered. | `agent` `agentic-data-engineering` `ai` | Free | 🟢 Fresh | 0.5k |
 | [mlx-snn](https://github.com/D-ST-Sword/mlx-snn) | Spiking Neural Network library built natively on Apple MLX | `neural-network` | Free | 🟡 Recent | 0.5k |
 | [Modus](https://github.com/hypermodeinc/modus) | Framework for agentic flows powered by WebAssembly. | `agent` `webassembly` `framework` | Free | 🔴 Stale | 0.4k |
 
@@ -756,14 +758,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 615
+- **Total Tools:** 617
 - **Categories:** 9
-- **Last Updated:** April 17, 2026
+- **Last Updated:** April 18, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 484 tools
+- 🟢 Fresh: 486 tools
 - 🟡 Recent: 60 tools
 - 🟠 Aging: 31 tools
 - 🔴 Stale: 40 tools
