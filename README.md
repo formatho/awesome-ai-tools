@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-17-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-611-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-18-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-615-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -30,14 +30,14 @@
 |------|-------------|----------|-----------|-------|
 | [tensorflow](https://github.com/tensorflow/tensorflow) | An Open Source Machine Learning Framework for Everyone | Open Source Models | 🟢 Fresh | April 17, 2026 |
 | [pytorch](https://github.com/pytorch/pytorch) | Tensors and Dynamic neural networks in Python with strong GPU acceleration | Open Source Models | 🟢 Fresh | April 17, 2026 |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. | Agents & Automation | 🟢 Fresh | April 17, 2026 |
+| [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team | Research & Data | 🟢 Fresh | April 17, 2026 |
+| [GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | Agents & Automation | 🟢 Fresh | April 17, 2026 |
+| [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | Developer Tools | 🟢 Fresh | April 17, 2026 |
 | [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows | Agents & Automation | 🟠 Aging | April 17, 2026 |
 | [opencv](https://github.com/opencv/opencv) | Open Source Computer Vision Library | Image Generation | 🟢 Fresh | April 17, 2026 |
 | [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | List of Computer Science courses with video lectures. | Image Generation | 🟢 Fresh | April 17, 2026 |
 | [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. | Agents & Automation | 🟡 Recent | April 17, 2026 |
-| [openai-cookbook](https://github.com/openai/openai-cookbook) | Examples and guides for using the OpenAI API | LLMs & Chatbots | 🟢 Fresh | April 17, 2026 |
-| [gpt_academic](https://github.com/binary-husky/gpt_academic) | 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss | LLMs & Chatbots | 🟡 Recent | April 17, 2026 |
-| [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), ga | Image Generation | 🟡 Recent | April 17, 2026 |
-| [keras](https://github.com/keras-team/keras) | Deep Learning for humans | Open Source Models | 🟢 Fresh | April 17, 2026 |
 
 ---
 
@@ -70,6 +70,7 @@
 | [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. | `ai` `agent` `llm` | Free | 🟡 Recent | 73.4k |
 | [ansible](https://github.com/ansible/ansible) | Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com. | `ai` `agent` | Free | 🟢 Fresh | 68.4k |
 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework for building AI software companies. | `agent` `multi-agent` `framework` | Free | 🟠 Aging | 67.0k |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. | `ai` `ai-agents` `ai-memory` | Free | 🟢 Fresh | 61.3k |
 | [Deer-Flow](https://github.com/bytedance/deer-flow) | Open-source long-horizon superagent for research, coding, and creation. | `agent` `research` `coding` | Free | 🟢 Fresh | 61.1k |
 | [Autogen](https://github.com/microsoft/autogen) | Programming framework for agentic AI by Microsoft. | `agent` `framework` `microsoft` | Free | 🟢 Fresh | 57.0k |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI, and injects relevant context back into future sessions. | `ai` `ai-memory` `claude` | Free | 🟢 Fresh | 55.5k |
@@ -201,6 +202,7 @@
 | [autoagent](https://github.com/autoagent/autoagent) | AutoAgent - AI-powered autonomous agent framework for complex task automation | `AI Agent` `Automation` `Framework` | Open Source | 🟢 Fresh | 3.8k |
 | [maestro](https://github.com/Netflix/maestro) | Maestro: Netflix’s Workflow Orchestrator | `ai` | Free | 🟢 Fresh | 3.8k |
 | [OpenClawChineseTranslation](https://github.com/1186258278/OpenClawChineseTranslation) | 🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！ | `ai` `agent` `llm` | Free | 🟢 Fresh | 3.7k |
+| [GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | `ai-agent` `automation` `autonomous-agent` | Free | 🟢 Fresh | 3.5k |
 | [khazix-skills](https://github.com/KKKKhazix/khazix-skills) | AI-powered skills for Khazix autonomous agent | `agent` `skills` `automation` | Free | 🟢 Fresh | 3.5k |
 | [wanwu](https://github.com/UnicomAI/wanwu) | China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development platform. It helps users build applications such as intelligent agents, workflows, and rag, and a | `rag` `platform` `ai` | Paid | 🟢 Fresh | 3.4k |
 | [ii-agent](https://github.com/Intelligent-Internet/ii-agent) | II-Agent: a new open-source framework to build and deploy intelligent agents | `framework` `open-source` `agent` | Free | 🟢 Fresh | 3.3k |
@@ -330,6 +332,7 @@
 | [OpenHands](https://github.com/OpenHands/OpenHands) | AI-driven development platform for autonomous software engineering. | `agent` `coding` `open-source` | Free | 🟢 Fresh | 71.1k |
 | [Meilisearch](https://github.com/meilisearch/meilisearch) | A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. | `ai` `search` `vector-search` | Open Source | 🟢 Fresh | 57.1k |
 | [gpt-engineer](https://github.com/AntonOsika/gpt-engineer) | CLI platform to experiment with codegen. Precursor to: https://lovable.dev | `python` | Free | 🔴 Stale | 55.2k |
+| [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | `ai` `agent` `skills` | Free | 🟢 Fresh | 54.4k |
 | [Mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents. | `memory` `agent` `persistence` | Freemium | 🟢 Fresh | 53.1k |
 | [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code) | Nano Claude Code-like agent harness built from scratch. | `agent` `claude` `bash` | Free | 🟢 Fresh | 52.8k |
 | [JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | AI-driven low-code platform with zero-code and code generation modes. | `low-code` `ai` `code-generation` | Freemium | 🟢 Fresh | 45.8k |
@@ -664,6 +667,7 @@
 | [Apollo-11](https://github.com/chrislgarry/Apollo-11) | Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules. | `historical` `assembly` `apollo` | Free | 🟢 Fresh | 66.5k |
 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `ai` `crypto` `derivatives` | Open Source | 🟢 Fresh | 65.8k |
 | [docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `ai` `python` | Free | 🟢 Fresh | 57.7k |
+| [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team | `ai` `finance` `hedge-fund` | Free | 🟢 Fresh | 55.9k |
 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team | `finance` `trading` `hedge-fund` | Free | 🟢 Fresh | 54.0k |
 | [TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 | `ai` `python` | Free | 🟢 Fresh | 51.6k |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Multi-agents LLM financial trading framework. | `trading` `agent` `finance` | Free | 🟢 Fresh | 50.1k |
@@ -752,14 +756,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 611
+- **Total Tools:** 615
 - **Categories:** 9
 - **Last Updated:** April 17, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 480 tools
+- 🟢 Fresh: 484 tools
 - 🟡 Recent: 60 tools
 - 🟠 Aging: 31 tools
 - 🔴 Stale: 40 tools
