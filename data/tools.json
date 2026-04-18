@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-18T08:55:29.864Z",
-    "total_tools": 617,
+    "last_updated": "2026-04-18T14:52:00.000Z",
+    "total_tools": 620,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,75 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-18T08:55:29.864Z"
+    "last_discovery": "2026-04-18T14:52:00.000Z"
   },
   "tools": [
+    {
+      "name": "evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "self-evolution",
+        "genetic-algorithm",
+        "gep"
+      ],
+      "pricing": "Free",
+      "stars": 4827,
+      "language": "JavaScript",
+      "added_date": "2026-04-18",
+      "verified": true,
+      "last_commit_date": "2026-04-18T04:09:18Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "tutorial",
+        "jupyter",
+        "python",
+        "education"
+      ],
+      "pricing": "Free",
+      "stars": 31890,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-18",
+      "verified": true,
+      "last_commit_date": "2025-10-10T06:25:48Z",
+      "days_since_commit": 189,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "category": "Audio & Music",
+      "tags": [
+        "ai",
+        "audio",
+        "tts",
+        "voice-synthesis",
+        "typescript",
+        "cuda",
+        "mlx",
+        "whisper"
+      ],
+      "pricing": "Free",
+      "stars": 20270,
+      "language": "TypeScript",
+      "added_date": "2026-04-18",
+      "verified": true,
+      "last_commit_date": "2026-04-18T10:15:06Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "altimate-code",
       "url": "https://github.com/AltimateAI/altimate-code",
