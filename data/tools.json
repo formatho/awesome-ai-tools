@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-18T14:52:00.000Z",
-    "total_tools": 620,
+    "last_updated": "2026-04-18T20:54:17.231Z",
+    "total_tools": 622,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,43 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-18T14:52:00.000Z"
+    "last_discovery": "2026-04-18T20:54:17.232Z"
   },
   "tools": [
+    {
+      "name": "andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "category": "LLMs & Chatbots",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 57631,
+      "language": "Unknown",
+      "added_date": "2026-04-18",
+      "verified": true,
+      "last_commit_date": "2026-04-18T17:51:53Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "wacli",
+      "url": "https://github.com/steipete/wacli",
+      "description": "WhatsApp CLI",
+      "category": "Developer Tools",
+      "tags": [
+        "cli",
+        "go",
+        "whatsapp"
+      ],
+      "pricing": "Free",
+      "stars": 1910,
+      "language": "Go",
+      "added_date": "2026-04-18",
+      "verified": true,
+      "last_commit_date": "2026-04-15T18:28:37Z",
+      "days_since_commit": 4,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "evolver",
       "url": "https://github.com/EvoMap/evolver",
