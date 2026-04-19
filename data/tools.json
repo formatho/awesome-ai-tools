@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-19T14:26:16.861714Z",
-    "total_tools": 665,
+    "last_updated": "2026-04-19T14:53:47.161Z",
+    "total_tools": 667,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,39 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-19T14:26:16.861714Z"
+    "last_discovery": "2026-04-19T14:53:47.161Z"
   },
   "tools": [
+    {
+      "name": "android-reverse-engineering-skill",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "Claude Code skill to support Android app's reverse engineering",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 3454,
+      "language": "Shell",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2026-03-02T10:40:59Z",
+      "days_since_commit": 48,
+      "freshness": "🟠 Aging"
+    },
+    {
+      "name": "omi",
+      "url": "https://github.com/BasedHardware/omi",
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "category": "Productivity",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 10852,
+      "language": "Dart",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2026-04-19T14:49:51Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "autoresearch",
       "url": "https://github.com/karpathy/autoresearch",
