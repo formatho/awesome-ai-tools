@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-19T14:53:47.161Z",
-    "total_tools": 667,
+    "last_updated": "2026-04-19T20:59:36.300Z",
+    "total_tools": 677,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,199 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-19T14:53:47.161Z"
+    "last_discovery": "2026-04-19T20:59:36.300Z"
   },
   "tools": [
+    {
+      "name": "ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "autonomous",
+        "education",
+        "learning"
+      ],
+      "pricing": "Free",
+      "stars": 56975,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2026-04-12T09:11:43Z",
+      "days_since_commit": 7,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Genesis",
+      "url": "https://github.com/Genesis-Embodied-AI/Genesis",
+      "description": "A generative world for general-purpose robotics & embodied AI learning.",
+      "category": "Image Generation",
+      "tags": [
+        "education",
+        "learning"
+      ],
+      "pricing": "Free",
+      "stars": 28530,
+      "language": "Python",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2026-04-16T18:20:51Z",
+      "days_since_commit": 3,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "generative-models",
+      "url": "https://github.com/Stability-AI/generative-models",
+      "description": "Generative Models by Stability AI",
+      "category": "Open Source Models",
+      "tags": [
+        "image-generation",
+        "deep-learning"
+      ],
+      "pricing": "Free",
+      "stars": 27110,
+      "language": "Python",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2025-12-16T08:36:18Z",
+      "days_since_commit": 124,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "awesome-generative-ai-guide",
+      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
+      "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "research",
+        "codebase",
+        "productivity"
+      ],
+      "pricing": "Free",
+      "stars": 26250,
+      "language": "HTML",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2026-04-19T16:57:01Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI hackers to find and fix your app's vulnerabilities.",
+      "category": "Developer Tools",
+      "tags": [
+        "security",
+        "vulnerability-scanner"
+      ],
+      "pricing": "Free",
+      "stars": 24222,
+      "language": "Python",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2026-04-16T23:13:10Z",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "ai",
+      "url": "https://github.com/vercel/ai",
+      "description": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "autonomous",
+        "javascript",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 23620,
+      "language": "TypeScript",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2026-04-19T06:02:25Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "DeepLearning-500-questions",
+      "url": "https://github.com/scutan90/DeepLearning-500-questions",
+      "description": "深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述",
+      "category": "Research & Data",
+      "tags": [
+        "education",
+        "learning"
+      ],
+      "pricing": "Free",
+      "stars": 57321,
+      "language": "JavaScript",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2024-06-26T12:10:14Z",
+      "days_since_commit": 662,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "100-Days-Of-ML-Code",
+      "url": "https://github.com/Avik-Jain/100-Days-Of-ML-Code",
+      "description": "100 Days of ML Coding",
+      "category": "Developer Tools",
+      "tags": [
+        "coding",
+        "education",
+        "learning"
+      ],
+      "pricing": "Free",
+      "stars": 50634,
+      "language": "Unknown",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2023-12-29T07:57:53Z",
+      "days_since_commit": 842,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "TTS",
+      "url": "https://github.com/coqui-ai/TTS",
+      "description": "a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+      "category": "Audio & Music",
+      "tags": [
+        "voice",
+        "tts",
+        "research",
+        "education",
+        "learning"
+      ],
+      "pricing": "Free",
+      "stars": 45109,
+      "language": "Python",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2024-08-16T12:07:14Z",
+      "days_since_commit": 611,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "llm-app",
+      "url": "https://github.com/pathwaycom/llm-app",
+      "description": "Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. Docker-friendly. Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "rag",
+        "retrieval"
+      ],
+      "pricing": "Free",
+      "stars": 59975,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-19",
+      "verified": true,
+      "last_commit_date": "2026-01-07T11:59:38Z",
+      "days_since_commit": 102,
+      "freshness": "🔴 Stale"
+    },
     {
       "name": "android-reverse-engineering-skill",
       "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
