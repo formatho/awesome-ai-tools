@@ -1,0 +1,90 @@
+status: inner_loop
+question: What blockchain and infrastructure partnerships should Formatho pursue for growth?
+phase: "Hypothesis Testing"
+last_updated: "2026-04-19T19:00:00Z"
+
+current_direction:
+  phase: "Inner Loop - Rapid Experimentation"
+  next_action: "Test H1: QuickNode Marketplace Integration"
+  reason: "Literature survey complete. QuickNode has structured marketplace with clear integration path and referral program. Highest probability of quick results."
+
+hypotheses:
+  - id: "H1"
+    name: "QuickNode Marketplace Integration"
+    prediction: "Adding Formatho to QuickNode's marketplace will generate ≥5 signups within 7 days"
+    priority: 1
+    status: "testing"
+    experiment_type: "technical_integration"
+    estimated_time_to_results: "7 days"
+    success_metric: "Signups ≥5 in 7 days"
+    protocol_path: "experiments/H1-quicknode-marketplace/protocol.md"
+  - id: "H2"
+    name: "Alchemy Startup Program"
+    prediction: "Applying to Alchemy's startup program will result in acceptance with credits within 14 days"
+    priority: 3
+    status: "pending"
+    experiment_type: "program_application"
+    estimated_time_to_results: "14 days"
+    success_metric: "Program acceptance + credits received"
+    protocol_path: "experiments/H2-alchemy-startup/protocol.md"
+  - id: "H3"
+    name: "QuickNode Referral Partnership"
+    prediction: "Setting up a QuickNode referral link will generate ≥$100 revenue within 30 days"
+    priority: 2
+    status: "pending"
+    experiment_type: "revenue_sharing"
+    estimated_time_to_results: "30 days"
+    success_metric: "Revenue ≥$100 in 30 days"
+    protocol_path: "experiments/H3-quicknode-referral/protocol.md"
+  - id: "H4"
+    name: "Case Study Partnership"
+    prediction: "Creating a joint case study will generate ≥3 inbound leads within 14 days"
+    priority: 4
+    status: "pending"
+    experiment_type: "co_marketing"
+    estimated_time_to_results: "14 days"
+    success_metric: "Inbound leads ≥3 in 14 days"
+    protocol_path: "experiments/H4-case-study/protocol.md"
+
+experiments:
+  total: 0
+  successful: 0
+  failed: 0
+  in_progress: 0
+  completed: []
+
+research_progress:
+  optimization_target: "Generate first dollar from blockchain partnership within 30 days"
+  baseline_established: true
+  baseline_value: "0 revenue, 0 partnerships"
+  current_best: null
+  trajectory:
+    - experiment_id: "run_001"
+      hypothesis: "H1"
+      metric_value: null
+      baseline: "0"
+      delta: "pending"
+      wall_time_min: null
+      change_summary: "QuickNode Marketplace Integration"
+
+constraints:
+  timeline: "30 days to first dollar"
+  resources: "Limited - prioritize high-impact quick wins"
+  team_size: "Solo founder"
+
+open_questions:
+  - "What partnership terms and revenue share rates do providers offer?"
+  - "How long does the marketplace approval process take?"
+  - "What makes a partnership application successful?"
+
+milestones:
+  - description: "Literature survey complete"
+    status: complete
+  - description: "Initial hypotheses formed"
+    status: complete
+  - description: "First experiments running"
+    status: in_progress
+  - description: "Proof-of-concept partnership identified"
+    status: pending
+  - description: "Revenue from partnership"
+    status: pending
