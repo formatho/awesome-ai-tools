@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-19-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-665-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-667-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,8 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | Claude Code skill to support Android app's reverse engineering | Developer Tools | 🟠 Aging | April 19, 2026 |
+| [omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversations and tells you what to do | Productivity | 🟢 Fresh | April 19, 2026 |
 | [autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically | Agents & Automation | 🟢 Fresh | April 19, 2026 |
 | [cherry-studio](https://github.com/CherryHQ/cherry-studio) | AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs | LLMs & Chatbots | 🟢 Fresh | April 19, 2026 |
 | [ToolJet](https://github.com/ToolJet/ToolJet) | ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀 | Developer Tools | 🟢 Fresh | April 19, 2026 |
@@ -36,8 +38,6 @@
 | [note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. | Productivity | 🟢 Fresh | April 19, 2026 |
 | [llama-gpt](https://github.com/getumbrel/llama-gpt) | A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support! | LLMs & Chatbots | 🟢 Fresh | April 19, 2026 |
 | [petals](https://github.com/bigscience-workshop/petals) | 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading | Open Source Models | 🟢 Fresh | April 19, 2026 |
-| [GPTCache](https://github.com/zilliztech/GPTCache) | Semantic cache for LLMs. Fully integrated with LangChain and llama_index.  | Developer Tools | 🟢 Fresh | April 19, 2026 |
-| [InternLM](https://github.com/InternLM/InternLM) | Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3). | Open Source Models | 🟢 Fresh | April 19, 2026 |
 
 ---
 
@@ -424,6 +424,7 @@
 | [llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) | Power CLI and Workflow manager for LLMs (core package) |  | Free | 🟢 Fresh | 3.7k |
 | [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) | C++ implementation of LiteRT-LM for efficient on-device language model inference | `cpp` `inference` `on-device` | Free | 🟢 Fresh | 3.7k |
 | [MCP Context Forge](https://github.com/IBM/mcp-context-forge) | AI gateway and proxy for MCP, A2A, and REST/gRPC APIs. | `mcp` `gateway` `proxy` | Free | 🟢 Fresh | 3.6k |
+| [android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | Claude Code skill to support Android app's reverse engineering |  | Free | 🟠 Aging | 3.5k |
 | [Agentation](https://github.com/benjitaylor/agentation) | Visual feedback tool for AI agents. | `agent` `visualization` `feedback` | Free | 🟡 Recent | 3.4k |
 | [deep-prove](https://github.com/Lagrange-Labs/deep-prove) | Framework to prove inference of ML models blazingly fast | `ai` | Free | 🟡 Recent | 3.3k |
 | [axonhub](https://github.com/looplj/axonhub) | ⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing. | `llm` `ai` `open-source` | Free | 🟢 Fresh | 3.1k |
@@ -676,6 +677,7 @@
 | [rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker that turns work into a knowledge graph and acts on it. Connects to email and meeting notes, builds long-lived memory, and helps get work done privately on your machine. | `ai` `coworker` `memory` | Free | 🟢 Fresh | 12.6k |
 | [editor](https://github.com/pascalorg/editor) | Create and share 3D architectural projects. | `3d` `architecture` `editor` | Free | 🟢 Fresh | 12.1k |
 | [note-gen](https://github.com/codexu/note-gen) | A cross-platform Markdown AI note-taking software. |  | Free | 🟢 Fresh | 11.3k |
+| [omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversations and tells you what to do |  | Free | 🟢 Fresh | 10.9k |
 | [inbox-zero](https://github.com/elie222/inbox-zero) | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. |  | Free | 🟢 Fresh | 10.5k |
 | [Noi](https://github.com/lencx/Noi) | AI tools launcher with minimal chaos and maximum flow. | `launcher` `productivity` `desktop` | Free | 🟠 Aging | 8.9k |
 | [claudian](https://github.com/YishenTu/claudian) | An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault | `obsidian` `plugin` `collaboration` | Free | 🟢 Fresh | 7.8k |
@@ -806,16 +808,16 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 665
+- **Total Tools:** 667
 - **Categories:** 9
 - **Last Updated:** April 19, 2026
-- **Last Freshness Check:** April 13, 2026
+- **Last Freshness Check:** April 14, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 533 tools
+- 🟢 Fresh: 534 tools
 - 🟡 Recent: 60 tools
-- 🟠 Aging: 31 tools
+- 🟠 Aging: 32 tools
 - 🔴 Stale: 41 tools
 
 ---
