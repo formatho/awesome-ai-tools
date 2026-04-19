@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-18-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-620-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-19-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-622-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,8 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | LLMs & Chatbots | 🟢 Fresh | April 18, 2026 |
+| [wacli](https://github.com/steipete/wacli) | WhatsApp CLI | Developer Tools | 🟢 Fresh | April 18, 2026 |
 | [evolver](https://github.com/EvoMap/evolver) | The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai | Agents & Automation | 🟢 Fresh | April 18, 2026 |
 | [dive-into-llms](https://github.com/Lordog/dive-into-llms) | 《动手学大模型Dive into LLMs》系列编程实践教程 | LLMs & Chatbots | 🔴 Stale | April 18, 2026 |
 | [voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | Audio & Music | 🟢 Fresh | April 18, 2026 |
@@ -36,8 +38,6 @@
 | [tensorflow](https://github.com/tensorflow/tensorflow) | An Open Source Machine Learning Framework for Everyone | Open Source Models | 🟢 Fresh | April 17, 2026 |
 | [pytorch](https://github.com/pytorch/pytorch) | Tensors and Dynamic neural networks in Python with strong GPU acceleration | Open Source Models | 🟢 Fresh | April 17, 2026 |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. | Agents & Automation | 🟢 Fresh | April 17, 2026 |
-| [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team | Research & Data | 🟢 Fresh | April 17, 2026 |
-| [GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | Agents & Automation | 🟢 Fresh | April 17, 2026 |
 
 ---
 
@@ -431,6 +431,7 @@
 | [OpenDAN-Personal-AI-OS](https://github.com/fiatrete/OpenDAN-Personal-AI-OS) | OpenDAN is an open source Personal AI OS , which consolidates various AI modules in one place for your personal use. | `ai` `open-source` | Free | 🟢 Fresh | 2.0k |
 | [mflux](https://github.com/filipstrand/mflux) | MLX native implementations of state-of-the-art generative image models | `ai` | Free | 🟢 Fresh | 2.0k |
 | [yeti](https://github.com/yeti-platform/yeti) | Your Everyday Threat Intelligence | `ai` | Free | 🟢 Fresh | 2.0k |
+| [wacli](https://github.com/steipete/wacli) | WhatsApp CLI | `cli` `go` `whatsapp` | Free | 🟢 Fresh | 1.9k |
 | [rocketride-server](https://github.com/rocketride-org/rocketride-server) | High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment. | `ai` `pipeline` `engine` | Open Source | 🟢 Fresh | 1.7k |
 | [urlhunter](https://github.com/utkusen/urlhunter) | a recon tool that allows searching on URLs that are exposed via shortener services | `ai` | Free | 🟢 Fresh | 1.7k |
 | [indie-hacker-tools-plus](https://github.com/XiaomingX/indie-hacker-tools-plus) | 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools wid | `ai` | Free | 🟢 Fresh | 1.6k |
@@ -512,6 +513,7 @@
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN | `ai` `llm` | Free | 🟢 Fresh | 63.9k |
 | [pathway](https://github.com/pathwaycom/pathway) | Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG. | `llm` | Free | 🟢 Fresh | 63.5k |
 | [open-interpreter](https://github.com/openinterpreter/open-interpreter) | A natural language interface for computers | `python` `javascript` `gpt` | Free | 🟢 Fresh | 63.2k |
+| [andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. |  | Free | 🟢 Fresh | 57.6k |
 | [ChatGPT](https://github.com/lencx/ChatGPT) | 🔮 ChatGPT Desktop Application (Mac, Windows and Linux) | `ai` `chatgpt` `desktop-app` | Free | 🔴 Stale | 54.4k |
 | [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | Awesome list of design tools and resources | `ai-tools` | Free | 🟢 Fresh | 48.1k |
 | [Pake](https://github.com/tw93/Pake) | 🤱🏻 Turn any webpage into a desktop app with one command. | `gpt` `claude` `gemini` | Free | 🟢 Fresh | 47.8k |
@@ -761,14 +763,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 620
+- **Total Tools:** 622
 - **Categories:** 9
 - **Last Updated:** April 18, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 488 tools
+- 🟢 Fresh: 490 tools
 - 🟡 Recent: 60 tools
 - 🟠 Aging: 31 tools
 - 🔴 Stale: 41 tools
