@@ -331,3 +331,53 @@ The blockchain infrastructure market for developer tools is vast and highly frag
 - What features would developers pay for in such a tool?
 - How can this be monetized (SaaS subscription, freemium, provider commissions)?
 
+
+## H4 Experiment Results: Ecosystem Grant Opportunities
+
+### Base Ecosystem Programs: Multiple Paths to Funding
+
+**Base Builder Grants (Ongoing):**
+- Small grants for builders with early ideas or initial prototypes
+- Criteria: Unique/fun projects, bring users onchain, live and making impact
+- Process: Nomination-based via Google Form
+- Timing: Ongoing, no application deadline
+- Funding: Grant amount not specified (small grants)
+
+**Base Batches (Startup Track) - Structured Accelerator:**
+- 8-week virtual accelerator for pre-seed teams (<$250k raised)
+- Funding: $10k grant + potential $50k investment from Base Ecosystem Fund
+- Structure: Dedicated advisor, mentorship dashboard, Base TV interviews, Demo Day in SF
+- Timeline: Applications Feb 17 - Mar 9 (2026), Virtual Program Mar 23 - May 15, Demo Day Late May
+- Constraint: Application window closed for this cycle
+
+**Base Ecosystem Fund (Investment):**
+- Investment fund by Coinbase Ventures
+- Process: Application via Google Form (authentication required)
+- Funding: Investment amount not specified
+- Timing: Ongoing
+
+**Paymaster Gas Credits:**
+- Gas credits for developers via Coinbase Developer Platform
+- Credits reduce costs but do not provide capital
+
+### Key Insights from H4 Experiment
+
+**Ecosystem Grants Are Viable:**
+- Multiple L2 ecosystems have active grant programs
+- Base has structured funding with mentorship + visibility
+- Non-dilutive funding available
+
+**Not Fast Path to Revenue:**
+- Builder Grants timing unknown (discovery process, no clear deadline or response time)
+- Base Batches application window closed (next cycle unknown)
+- Grant review and selection process takes time (90-180 days estimated)
+
+**Visibility + Funding:**
+- Programs include marketing, Demo Days, mentorship
+- Base Batches includes Demo Day in SF, Base TV interviews
+- Base ecosystem actively seeking developer tools and infrastructure builders
+
+**1RPC Partnership Opportunity:**
+- 1RPC is a private RPC relay on Base ecosystem
+- Privacy-focused positioning aligns with Formatho's brand
+- Potential collaboration or partnership opportunities

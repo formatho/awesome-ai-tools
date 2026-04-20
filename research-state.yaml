@@ -50,10 +50,12 @@ hypotheses:
     learnings: All 4 major providers (Chainstack, Alchemy, Consensys/Infura, QuickNode) have privacy features. Privacy features are standard (encryption, SOC 2, GDPR, zero-logging), not premium. Consensys/Infura has strongest privacy stance (does not collect private keys, proxy infrastructure, encrypted user-decryptable data). Market gap exists for "privacy-first developer tools" brand positioning. Privacy is valid differentiator but not premium-priced.
   - id: H4
     slug: ecosystem-grant-opportunities
-    status: pending
+    status: completed
     priority: 2
     description: Test L2 ecosystem grant programs (Base, Polygon, Arbitrum, Optimism)
     prediction: Ecosystem grants provide non-dilutive funding + visibility; application process 90-180 days
+    outcome: CONFIRMATORY - Base has multiple funding tracks: Builder Grants (ongoing), Base Batches ($10k grant + potential $50k investment, 8-week accelerator), Base Ecosystem Fund (investment). Ecosystem grants are viable but not fast (90-180 days). 1RPC on Base ecosystem aligns with privacy-first positioning.
+    learnings: Base Builder Grants (ongoing nomination, small grants for early prototypes). Base Batches (pre-seed <$250k, $10k grant + $50k investment, 8-week program, Demo Day). Not viable for 30-day revenue but good for non-dilutive funding + visibility. 1RPC on Base is privacy-focused RPC relay - partnership opportunity.
   - id: H5
     slug: multi-provider-management
     status: pending
@@ -62,7 +64,7 @@ hypotheses:
     prediction: Simplifying multi-provider workflows for developers creates high-value differentiation
 
 # Experiment tracking
-experiments_completed: 3
+experiments_completed: 4
 total_experiments: 5
 
 # Key metrics
@@ -80,4 +82,4 @@ direction_decisions:
     reason: "H0, H1, H2 completed. Affiliate path (H1) identified as fastest to revenue (30 days). Integration partnerships (H2) viable but require 60-90 days. Recommended: pursue affiliate for 30-day goal, integration partnerships in parallel for long-term. Privacy-first positioning (H3) as differentiator for both paths."
 
 # Last action
-last_action: "Completed H3 experiment. Privacy features exist but not positioned as primary value. Market gap confirmed: 'privacy-first developer tools' is underserved positioning angle. Privacy is valid differentiator but not premium-priced. Strategic pivot: privacy as brand differentiation, not technical premium feature."
+last_action: "Completed H4 experiment. Base has multiple funding tracks: Builder Grants (ongoing), Base Batches ($10k grant + $50k investment), Ecosystem Fund. Ecosystem grants viable but not fast (90-180 days). 1RPC on Base aligns with privacy positioning. Grants provide non-dilutive funding + visibility but don't generate immediate revenue."

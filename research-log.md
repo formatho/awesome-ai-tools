@@ -259,3 +259,65 @@ Formulated 5 testable hypotheses prioritized by speed-to-revenue:
 - Research L2 ecosystem funds (Base, Polygon, Arbitrum, Optimism)
 - Test hypothesis: Grants provide non-dilutive funding + visibility, 90-180 days
 
+## 2026-04-20 08:15 UTC
+
+### H4 Experiment Completed: Ecosystem Grant Opportunities
+- **Experiment H4**: Ecosystem Grant Opportunities (Base focus)
+- **Methods:** Base ecosystem research, Base Batches investigation, Base Builder Grants review
+- **Results collected:**
+  
+  **Base Builder Grants:**
+  - Program: Small grants for builders with early ideas or initial prototypes
+  - Criteria: Unique/fun projects, bring users onchain, live and making impact
+  - Process: Nomination-based via Google Form
+  - Timing: Ongoing, no application deadline
+  - Funding: Grant amount not specified (small grants)
+  
+  **Base Batches (Startup Track):**
+  - Program: 8-week virtual accelerator for pre-seed teams (<$250k raised)
+  - Funding: $10k grant + potential $50k investment from Base Ecosystem Fund
+  - Structure: Dedicated advisor, mentorship dashboard, Base TV interviews, Demo Day in SF
+  - Timeline: Applications Feb 17 - Mar 9 (2026), Virtual Program Mar 23 - May 15, Demo Day Late May
+  - Constraint: Application window closed for this cycle
+  
+  **Base Ecosystem Fund:**
+  - Program: Investment fund by Coinbase Ventures
+  - Process: Application via Google Form (authentication required)
+  - Funding: Investment amount not specified
+  - Timing: Ongoing
+  
+  **Base Developer Tools Ecosystem:**
+  - 0x, 0xSplits, 1RPC (privacy-focused!), 20lab, Add3, AgentiPy
+  - Key finding: 1RPC is a private RPC relay on Base - aligns with Formatho's privacy positioning!
+
+### Key Insights
+- **Non-dilutive funding:** Grants and investments do not require equity dilution
+- **Visibility + Funding:** Programs include Demo Days, mentorship, marketing amplification
+- **Base alignment:** Base actively seeking developer tools and infrastructure builders
+- **Multiple tracks:** Builder Grants (ongoing), Batches (accelerator), Ecosystem Fund (investment)
+- **Not fast revenue:** Grants provide funding but don't generate immediate revenue (30-day goal constraint)
+- **1RPC partnership opportunity:** Privacy-focused RPC relay on Base - potential collaboration
+
+### Key Constraints
+- **Uncertain timing:** Builder Grants timing unknown (discovery process, no clear timeline)
+- **Application windows:** Base Batches has specific application periods (Mar 9 closed for this cycle)
+- **Competitive:** All programs require selection process (nomination, interviews, due diligence)
+- **Not fast revenue:** Grants are non-dilutive but don't generate immediate revenue
+
+### Formatho-Specific Recommendations
+- **Immediate (0-30 days):** Pursue Builder Grants nomination (ongoing, low effort, uncertain outcome)
+- **Immediate (0-30 days):** Explore privacy alignment with 1RPC (partnership opportunity)
+- **Short-term (30-60 days):** Prepare for next Base Batches cycle (pitch deck, demo product)
+- **Short-term (30-60 days):** Investigate other L2 grants (Polygon, Optimism, Arbitrum)
+- **Medium-term (60-90 days):** Pursue Base Ecosystem Fund investment (requires successful grant/participation first)
+
+### Direction Decision: CONTINUE_INNER_LOOP
+- **Decision**: H4 confirmed ecosystem grants are viable but not fast. Continue inner loop with H5 (Multi-Provider Management).
+- **Reason**: Grants provide non-dilutive funding + visibility but don't generate immediate revenue. Best pursued in parallel with affiliate programs (H1). H5 can reveal additional revenue paths.
+- **Next**: Execute H5 experiment - Multi-Provider Management.
+
+### Next Action: Prepare H5 Experiment
+- Create H5 protocol: Multi-Provider Management
+- Research multi-provider complexity pain points
+- Test hypothesis: Multi-provider management tool creates high-value differentiation
+
