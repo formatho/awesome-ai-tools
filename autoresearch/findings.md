@@ -35,7 +35,8 @@
 ### Current Experiment Status
 
 **H1: QuickNode Marketplace Integration**
-- Status: Research complete, execution requires Formatho access
+- Status: Research complete, execution BLOCKED without Formatho access
+- Priority: 2 (best for revenue, but blocked)
 - Prediction: ≥5 signups in 7 days
 - What we know:
   - Application URL: https://quiknode.typeform.com/to/iUWe13BB
@@ -43,6 +44,36 @@
   - Pricing: FREE tier + $49-99/month
   - Badge targeting: 🤖 AI Enabled, Staff Pick, Top Seller
   - Similar successful tool: GoldRush by Covalent ($50, Top Seller)
+
+**H2: Alchemy Startup Program**
+- Status: Research complete, ready to execute when Formatho access available
+- Priority: 2 (high value, can execute when access available)
+- Prediction: Acceptance + credits + $5,000 AWS credits within 14 days
+- Success probability: High (70-80%)
+- What we know:
+  - Application: 30-second form, minimal info required
+  - Benefits: Alchemy credits + $5,000 AWS + 24/7 support + partner ecosystem
+  - Eligibility: "Any team building onchain" - very broad
+  - Value: Conservative estimate $6,000-10,000 total
+
+**H3: QuickNode Referral Partnership**
+- Status: **INVALIDATED** - Critical finding
+- Priority: 4 (only valuable if Formatho uses QuickNode)
+- Original prediction: Generate ≥$100 revenue within 30 days
+- **CRITICAL FINDING:** This is NOT revenue, it's account credit only
+- **Problem:** Credits only usable if Formatho is already a QuickNode customer
+- **Implication:** Hypothesis invalidated unless Formatho uses QuickNode infrastructure
+
+**H4: Case Study Partnership**
+- Status: Protocol created, researching execution strategy
+- Priority: 1 (highest priority for no-access execution)
+- Prediction: ≥3 inbound leads within 14 days
+- What we know:
+  - No technical integration required
+  - Can execute without Formatho product access
+  - Scalable once process validated
+  - Distribution: Partner blogs, LinkedIn, Twitter, Reddit, Dev.to, Medium
+  - Tracking: UTM parameters, GA, lead attribution
 
 ## Patterns and Insights
 
@@ -92,28 +123,50 @@
 
 ## Open Questions
 
-### Critical for Next Steps
-1. **What are QuickNode's revenue share terms for Technology Providers?**
+### Critical for No-Access Execution (H4)
+1. **What makes a successful B2B case study?**
+   - Story structure: Challenge → Solution → Results
+   - Quantitative metrics required
+   - Technical details for developer audience
+
+2. **How to find partners without customer data?**
+   - Analyze public social proof (Twitter mentions, GitHub stars)
+   - Look at tool integrations (e.g., "Built with X")
+   - Research competitor partnerships
+
+3. **What distribution channels work for developer tools?**
+   - Reddit (r/ethereumdev, r/solana, r/web3)
+   - Dev.to, Medium, Hacker News
+   - LinkedIn (developer communities)
+   - Partner newsletters and blogs
+
+4. **How to measure case study success?**
+   - UTM tracking on all links
+   - Lead source attribution
+   - Engagement metrics (views, shares, comments)
+   - Lead qualification quality
+
+### For When Formatho Access Available (H1, H2)
+5. **What are QuickNode's revenue share terms for Technology Providers?**
    - Application will reveal this
    - Industry standard: 10-30% commission
 
-2. **How long does marketplace approval take?**
+6. **How long does marketplace approval take?**
    - Unknown, but existing partners suggest 5-14 days
 
-3. **What technical integration is required?**
-   - QuickNode SDK usage?
-   - OAuth flow?
-   - Dashboard integration?
+7. **What is Alchemy's typical credit allocation?**
+   - Not specified on website, may vary by stage
 
-4. **Does marketplace require using QuickNode infrastructure?**
-   - GoldRush (Covalent) suggests no
-   - Need to verify in application
+8. **What happens during Alchemy's "call" step?**
+   - Pitch required?
+   - Technical review?
+   - Just information sharing?
 
 ### Secondary Questions
-5. What marketing support does QuickNode provide new partners?
-6. Can we get "Staff Pick" badge upon launch?
-7. What are the application evaluation criteria?
-8. How do partners get referrals from QuickNode?
+9. Does Formatho currently use QuickNode infrastructure?
+   - Critical for H3 validity
+10. Can we find mutual customers with potential partners?
+11. What are successful case study examples from QuickNode/Alchemy?
 
 ## Next Immediate Actions
 
@@ -124,17 +177,24 @@
 4. Design onboarding flow
 5. Set up analytics tracking
 
-### For H3 (QuickNode Referral) - CAN PROCEED IN PARALLEL
-1. Learn about referral program terms
-2. Understand attribution model
-3. Prepare referral tracking setup
-4. Create outreach materials
+### For H2 (Alchemy Startup Program) - READY when access available
+1. ✅ Review startup program criteria - COMPLETE
+2. ✅ Prepare application materials - COMPLETE (30s form ready)
+3. ✅ Understand credit structure - COMPLETE ($5k AWS + Alchemy credits)
+4. Pitch deck - Not required (simple form only)
 
-### For H2 (Alchemy Startup Program) - CAN PROCEED IN PARALLEL
-1. Review startup program criteria
-2. Prepare application materials
-3. Understand credit structure
-4. Prepare pitch deck
+### For H3 (QuickNode Referral) - DEPRIORITIZED / INVALIDATED
+1. ❌ Hypothesis invalidated - Not revenue, only account credit
+2. Only valuable if Formatho uses QuickNode infrastructure
+3. Skip unless Formatho is a QuickNode customer
+
+### For H4 (Case Study Partnership) - IMMEDIATE PRIORITY
+1. ✅ Protocol created - COMPLETE
+2. Research successful case study examples
+3. Identify potential partners with overlapping audiences
+4. Develop outreach templates
+5. Create case study templates and outlines
+6. Set up tracking strategy (UTMs, GA, lead capture)
 
 ## Research Trajectory
 
@@ -145,8 +205,13 @@
 
 **Progress toward revenue goal:**
 - Baseline: $0 revenue, 0 partnerships
-- Current: $0 revenue, research phase complete
+- Current: $0 revenue, literature survey + H1/H2/H3 research complete
 - Target: First dollar within 30 days
+
+**Key barrier identified:**
+- Most partnership models require Formatho product access to execute
+- Need to pivot to no-access strategies (H4 case studies, content partnerships)
+- When access available: H1 marketplace, H2 startup program can proceed immediately
 
 ## Constraints Summary
 

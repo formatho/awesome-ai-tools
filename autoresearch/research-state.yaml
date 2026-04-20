@@ -1,50 +1,54 @@
 status: inner_loop
 question: What blockchain and infrastructure partnerships should Formatho pursue for growth?
 phase: "Hypothesis Testing"
-last_updated: "2026-04-19T19:00:00Z"
+last_updated: "2026-04-20T04:50:00Z"
 
 current_direction:
   phase: "Inner Loop - Rapid Experimentation"
-  next_action: "Test H1: QuickNode Marketplace Integration"
-  reason: "Literature survey complete. QuickNode has structured marketplace with clear integration path and referral program. Highest probability of quick results."
+  next_action: "Deep dive on H4: Case Study Partnership + Research H2/H3 execution blockers"
+  reason: "H1 fully researched but blocked on execution without Formatho access. H3 CRITICAL FINDING: Not revenue, account credit only. H4 (Case Study) is highest priority for no-access execution. Need to pivot to partnerships that don't require product access."
 
 hypotheses:
   - id: "H1"
     name: "QuickNode Marketplace Integration"
     prediction: "Adding Formatho to QuickNode's marketplace will generate ≥5 signups within 7 days"
-    priority: 1
-    status: "testing"
+    priority: 2
+    status: "blocked"
     experiment_type: "technical_integration"
     estimated_time_to_results: "7 days"
     success_metric: "Signups ≥5 in 7 days"
     protocol_path: "experiments/H1-quicknode-marketplace/protocol.md"
+    blocker: "Requires Formatho product access to submit application and create integration"
   - id: "H2"
     name: "Alchemy Startup Program"
     prediction: "Applying to Alchemy's startup program will result in acceptance with credits within 14 days"
-    priority: 3
-    status: "pending"
+    priority: 2
+    status: "researched"
     experiment_type: "program_application"
     estimated_time_to_results: "14 days"
     success_metric: "Program acceptance + credits received"
     protocol_path: "experiments/H2-alchemy-startup/protocol.md"
+    notes: "High probability (70-80%) given low barrier (30s application) and generous benefits ($5k AWS + credits). Can execute when Formatho access available."
   - id: "H3"
     name: "QuickNode Referral Partnership"
     prediction: "Setting up a QuickNode referral link will generate ≥$100 revenue within 30 days"
-    priority: 2
-    status: "pending"
+    priority: 4
+    status: "invalidated"
     experiment_type: "revenue_sharing"
     estimated_time_to_results: "30 days"
     success_metric: "Revenue ≥$100 in 30 days"
     protocol_path: "experiments/H3-quicknode-referral/protocol.md"
+    notes: "CRITICAL FINDING: This is NOT revenue, it's account credit only. Only valuable if Formatho uses QuickNode infrastructure. Hypothesis invalidated."
   - id: "H4"
     name: "Case Study Partnership"
     prediction: "Creating a joint case study will generate ≥3 inbound leads within 14 days"
-    priority: 4
-    status: "pending"
+    priority: 1
+    status: "researching"
     experiment_type: "co_marketing"
     estimated_time_to_results: "14 days"
     success_metric: "Inbound leads ≥3 in 14 days"
     protocol_path: "experiments/H4-case-study/protocol.md"
+    notes: "Highest priority: No technical integration required, can execute without Formatho access. Scalable once process validated."
 
 experiments:
   total: 0
