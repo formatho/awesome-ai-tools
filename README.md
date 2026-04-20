@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-20-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-796-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-800-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -70,9 +70,11 @@
 | [autoresearch](https://github.com/karpathy/autoresearch) | AI agents running research on single-GPU nanochat training automatically |  | Free | 🟢 Fresh | 74.3k |
 | [Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | 🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. | `ai` `agent` `llm` | Free | 🟡 Recent | 73.4k |
 | [ansible](https://github.com/ansible/ansible) | Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com. | `ai` `agent` | Free | 🟢 Fresh | 68.4k |
+| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provides design intelligence for building professional UI/UX across multiple platforms | `ai` `skill` `ui` | Free | 🟢 Fresh | 68.0k |
 | [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | Multi-agent framework for building AI software companies. | `agent` `multi-agent` `framework` | Free | 🟠 Aging | 67.0k |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions. | `ai` `ai-agents` `ai-memory` | Free | 🟢 Fresh | 61.3k |
 | [Deer-Flow](https://github.com/bytedance/deer-flow) | Open-source long-horizon superagent for research, coding, and creation. | `agent` `research` `coding` | Free | 🟢 Fresh | 61.1k |
+| [cline](https://github.com/cline/cline) | Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way | `ai` `agent` `coding` | Free | 🟢 Fresh | 60.5k |
 | [Autogen](https://github.com/microsoft/autogen) | Programming framework for agentic AI by Microsoft. | `agent` `framework` `microsoft` | Free | 🟢 Fresh | 57.0k |
 | [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents | `agent` `autonomous` `education` | Free | 🟢 Fresh | 57.0k |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI, and injects relevant context back into future sessions. | `ai` `ai-memory` `claude` | Free | 🟢 Fresh | 55.5k |
@@ -550,6 +552,7 @@
 | [opencv](https://github.com/opencv/opencv) | Open Source Computer Vision Library | `deep-learning` `computer-vision` `library` | Free | 🟢 Fresh | 87.2k |
 | [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | List of Computer Science courses with video lectures. | `machine-learning` `deep-learning` `computer-vision` | Free | 🟢 Fresh | 80.2k |
 | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | `ai` `llm` | Free | 🟢 Fresh | 75.5k |
+| [screenshot-to-code](https://github.com/abi/screenshot-to-code) | Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue) | `ai` `image-to-code` `screenshot` | Free | 🟡 Recent | 72.3k |
 | [annotated_deep_learning_paper_implementations](https://github.com/labmlai/annotated_deep_learning_paper_implementations) | 🧑‍🏫 60+ Implementations/tutorials of deep learning papers with side-by-side notes 📝; including transformers (original, xl, switch, feedback, vit, ...), optimizers (adam, adabelief, sophia, ...), ga | `machine-learning` `deep-learning` `attention` | Free | 🟡 Recent | 66.3k |
 | [yolov5](https://github.com/ultralytics/yolov5) | YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite | `machine-learning` `deep-learning` `ml` | Free | 🟢 Fresh | 57.2k |
 | [ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO 🚀 | `python` `machine-learning` `deep-learning` | Free | 🟢 Fresh | 56.1k |
@@ -594,6 +597,7 @@
 | [Ollama](https://github.com/ollama/ollama) | Get up and running with Llama 2, Mistral, and other large language models locally. | `llm` `local` `inference` | Free | 🟢 Fresh | 168.8k |
 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | `AI` `ML` | Open Source | 🟢 Fresh | 154.3k |
 | [Open-WebUI](https://github.com/open-webui/open-webui) | User-friendly AI interface supporting Ollama, OpenAI API, and more. | `ui` `chat` `ollama` | Free | 🟢 Fresh | 131.6k |
+| [funNLP](https://github.com/fighting41love/funNLP) | Comprehensive NLP toolkit in Chinese including sensitive word detection, language detection, NER, sentiment analysis, text generation, and more | `nlp` `chinese` `text-processing` | Free | 🔴 Stale | 80.1k |
 | [openai-cookbook](https://github.com/openai/openai-cookbook) | Examples and guides for using the OpenAI API | `ai` `gpt` `chatgpt` | Free | 🟢 Fresh | 72.8k |
 | [gpt_academic](https://github.com/binary-husky/gpt_academic) | 为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss | `llm` `python` `gpt` | Free | 🟡 Recent | 70.5k |
 | [crawl4ai](https://github.com/unclecode/crawl4ai) | 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN | `ai` `llm` | Free | 🟢 Fresh | 63.9k |
@@ -765,7 +769,6 @@
 |------|-------------|------|---------|-----------|-------|
 | [Prompts.chat](https://github.com/f/prompts.chat) | Share, discover, and collect AI prompts from the community. | `prompts` `community` `collection` | Free | 🟢 Fresh | 159.6k |
 | [markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. | `document` `markdown` `conversion` | Free | 🟡 Recent | 108.3k |
-| [MindMap AI](https://mindmapai.app/text-summarizer) | AI-powered tool that converts PDFs, documents, and research into structured visual mind maps for better understanding and productivity. | `mindmap` `productivity` `research` | Freemium | 🟢 Fresh | — |
 | [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Collection of LLM apps with AI Agents and RAG implementations. | `llm` `apps` `agent` | Free | 🟢 Fresh | 105.3k |
 | [anything-llm](https://github.com/Mintplex-Labs/anything-llm) | The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration. | `productivity` `llm` `local-llm` | Free | 🟢 Fresh | 58.3k |
 | [mempalace](https://github.com/mempalace/mempalace) | MemPalace - Advanced memory management and AI-powered knowledge organization system | `Memory` `Knowledge` `Organization` | Open Source | 🟢 Fresh | 44.8k |
@@ -938,17 +941,17 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 796
+- **Total Tools:** 800
 - **Categories:** 9
 - **Last Updated:** April 20, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 624 tools
-- 🟡 Recent: 70 tools
+- 🟢 Fresh: 626 tools
+- 🟡 Recent: 71 tools
 - 🟠 Aging: 43 tools
-- 🔴 Stale: 59 tools
+- 🔴 Stale: 60 tools
 
 ---
 
