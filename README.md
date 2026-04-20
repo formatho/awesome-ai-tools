@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-20-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-800-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-795-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -77,7 +77,6 @@
 | [cline](https://github.com/cline/cline) | Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way | `ai` `agent` `coding` | Free | 🟢 Fresh | 60.5k |
 | [Autogen](https://github.com/microsoft/autogen) | Programming framework for agentic AI by Microsoft. | `agent` `framework` `microsoft` | Free | 🟢 Fresh | 57.0k |
 | [ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners) | 12 Lessons to Get Started Building AI Agents | `agent` `autonomous` `education` | Free | 🟢 Fresh | 57.0k |
-| [claude-mem](https://github.com/thedotmack/claude-mem) | A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI, and injects relevant context back into future sessions. | `ai` `ai-memory` `claude` | Free | 🟢 Fresh | 55.5k |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Build AI Agents, Visually | `ai` `agent` | Free | 🟢 Fresh | 51.9k |
 | [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent) | omo; the best agent harness - previously oh-my-opencode | `agent` `harness` `typescript` | Free | 🟢 Fresh | 51.3k |
 | [huginn](https://github.com/huginn/huginn) | Create agents that monitor and act on your behalf.  Your agents are standing by! | `agent` | Free | 🟢 Fresh | 49.1k |
@@ -340,7 +339,6 @@
 | [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability. | `ai` `python` `chatbot` | Free | 🟡 Recent | 20.6k |
 | [voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `ai` `audio` `tts` | Free | 🟢 Fresh | 20.3k |
 | [dia](https://github.com/nari-labs/dia) | A TTS model capable of generating ultra-realistic dialogue in one pass. | `ai` | Free | 🔴 Stale | 19.3k |
-| [voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `ai` | Free | 🟡 Recent | 16.2k |
 | [VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning | `audio` `deeplearning` `minicpm` | Free | 🟢 Fresh | 13.8k |
 | [pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `voice` `conversational` `ai` | Free | 🟢 Fresh | 11.3k |
 | [ten-framework](https://github.com/TEN-framework/ten-framework) | Open-source framework for conversational voice AI agents | `voice` `agent` `conversational` | Free | 🟢 Fresh | 10.4k |
@@ -400,7 +398,6 @@
 | [LightRAG](https://github.com/HKUDS/LightRAG) | "LightRAG: Simple and Fast Retrieval-Augmented Generation" | `rag` `retrieval-augmented-generation` `fast` | Free | 🟢 Fresh | 33.1k |
 | [career-ops](https://github.com/santifer/career-ops) | AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. |  | Free | 🟢 Fresh | 32.5k |
 | [Continue](https://github.com/continuedev/continue) | Source-controlled AI checks enforceable in CI. | `ide` `coding` `ci-cd` | Free | 🟢 Fresh | 32.5k |
-| [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls. | `claude` `llm` `coding` | Free | 🟢 Fresh | 32.5k |
 | [fairseq](https://github.com/facebookresearch/fairseq) | Facebook AI Research Sequence-to-Sequence Toolkit written in Python - Advanced NLP toolkit. | `sequence-to-sequence` `nlp` `facebook-ai` | Free | 🟠 Aging | 32.2k |
 | [pytorch-lightning](https://github.com/Lightning-AI/pytorch-lightning) | Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes. | `pytorch` `training` `scaling` | Free | 🟢 Fresh | 31.0k |
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | Frontend stack for agents and generative UI (React + Angular). | `frontend` `agent` `ui` | Freemium | 🟢 Fresh | 30.2k |
@@ -777,7 +774,6 @@
 | [Folo](https://github.com/RSSNext/Folo) | 🧡 Folo is the AI RSS Reader | `typescript` `reader` `rss` | Unknown | 🟢 Fresh | 38.1k |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! | `ai-tool` | Free | 🟢 Fresh | 36.7k |
 | [khoj](https://github.com/khoj-ai/khoj) | Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free. |  | Free | 🟢 Fresh | 34.2k |
-| [Khoj](https://github.com/khoj-ai/khoj) | Self-hostable AI second brain with custom agents and automations. | `second-brain` `self-hosted` `agent` | Freemium | 🟡 Recent | 34.1k |
 | [Vane](https://github.com/ItzCrazyKns/Vane) | Vane is an AI-powered answering engine. | `ai` `answering-engine` `search` | Free | 🟢 Fresh | 33.7k |
 | [qmd](https://github.com/tobi/qmd) | Mini CLI search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current SOTA approaches while being all local | `cli` `search` `local` | Free | 🟢 Fresh | 21.5k |
 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Agent-Native Personalized Learning Assistant | `ai` `agent` `education` | Free | 🟢 Fresh | 18.8k |
@@ -824,7 +820,6 @@
 | [docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `ai` `python` | Free | 🟢 Fresh | 57.7k |
 | [DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) | 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述 | `education` `learning` | Free | 🔴 Stale | 57.3k |
 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team | `ai` `finance` `hedge-fund` | Free | 🟢 Fresh | 55.9k |
-| [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team | `finance` `trading` `hedge-fund` | Free | 🟢 Fresh | 54.0k |
 | [TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 | `ai` `python` | Free | 🟢 Fresh | 51.6k |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Multi-agents LLM financial trading framework. | `trading` `agent` `finance` | Free | 🟢 Fresh | 50.1k |
 | [worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `ai` `monitoring` `intelligence` | Free | 🟢 Fresh | 48.1k |
@@ -941,15 +936,15 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 800
+- **Total Tools:** 795
 - **Categories:** 9
 - **Last Updated:** April 20, 2026
-- **Last Freshness Check:** April 13, 2026
+- **Last Freshness Check:** April 14, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 626 tools
-- 🟡 Recent: 71 tools
+- 🟢 Fresh: 623 tools
+- 🟡 Recent: 69 tools
 - 🟠 Aging: 43 tools
 - 🔴 Stale: 60 tools
 
