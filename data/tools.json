@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-20T14:54:54.398Z",
-    "total_tools": 795,
+    "last_updated": "2026-04-20T20:53:52.100Z",
+    "total_tools": 817,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,7 +15,7 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-20T14:54:54.399Z"
+    "last_discovery": "2026-04-20T20:53:52.100Z"
   },
   "tools": [
     {
@@ -16478,6 +16478,465 @@
       "last_commit_date": "2026-04-03T05:08:19Z",
       "days_since_commit": 17,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "d2l-zh",
+      "url": "https://github.com/d2l-ai/d2l-zh",
+      "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
+      "category": "Open Source Models",
+      "tags": [
+        "book",
+        "chinese",
+        "computer-vision",
+        "deep-learning",
+        "machine-learning"
+      ],
+      "pricing": "Free",
+      "stars": 77321,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-07-30T09:32:19Z",
+      "days_since_commit": 629,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "face_recognition",
+      "url": "https://github.com/ageitgey/face_recognition",
+      "description": "The world's simplest facial recognition api for Python and the command line",
+      "category": "Open Source Models",
+      "tags": [
+        "face-detection",
+        "face-recognition",
+        "machine-learning",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 56310,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-08-21T06:22:36Z",
+      "days_since_commit": 607,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "ML-From-Scratch",
+      "url": "https://github.com/eriklindernoren/ML-From-Scratch",
+      "description": "Machine Learning From Scratch. Bare bones NumPy implementations of machine learning models and algorithms with a focus on accessibility. Aims to cover everything from linear regression to deep learning.",
+      "category": "Open Source Models",
+      "tags": [
+        "data-mining",
+        "data-science",
+        "deep-learning",
+        "deep-reinforcement-learning",
+        "genetic-algorithm"
+      ],
+      "pricing": "Free",
+      "stars": 31343,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2023-10-15T06:05:06Z",
+      "days_since_commit": 918,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "DeepFaceLive",
+      "url": "https://github.com/iperov/DeepFaceLive",
+      "description": "Real-time face swap for PC streaming or video calls",
+      "category": "Open Source Models",
+      "tags": [
+        "deepfake",
+        "faceswap",
+        "machine-learning",
+        "real-time",
+        "streaming"
+      ],
+      "pricing": "Free",
+      "stars": 30765,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-11-08T03:07:42Z",
+      "days_since_commit": 528,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "data-science-ipython-notebooks",
+      "url": "https://github.com/donnemartin/data-science-ipython-notebooks",
+      "description": "Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.",
+      "category": "Open Source Models",
+      "tags": [
+        "aws",
+        "big-data",
+        "caffe",
+        "data-science",
+        "deep-learning"
+      ],
+      "pricing": "Free",
+      "stars": 29014,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-03-20T13:52:34Z",
+      "days_since_commit": 761,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "d2l-en",
+      "url": "https://github.com/d2l-ai/d2l-en",
+      "description": "Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 500 universities from 70 countries including Stanford, MIT, Harvard, and Cambridge.",
+      "category": "Open Source Models",
+      "tags": [
+        "book",
+        "computer-vision",
+        "data-science",
+        "deep-learning",
+        "gaussian-processes"
+      ],
+      "pricing": "Free",
+      "stars": 28678,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-08-18T08:02:36Z",
+      "days_since_commit": 610,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress",
+      "description": "Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.",
+      "category": "Research & Data",
+      "tags": [
+        "dialogue",
+        "machine-learning",
+        "machine-translation",
+        "named-entity-recognition",
+        "natural-language-processing"
+      ],
+      "pricing": "Free",
+      "stars": 22974,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-07-28T00:44:25Z",
+      "days_since_commit": 631,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "serve",
+      "url": "https://github.com/jina-ai/serve",
+      "description": "☁️ Build multimodal AI applications with cloud-native stack",
+      "category": "Open Source Models",
+      "tags": [
+        "cloud-native",
+        "cncf",
+        "deep-learning",
+        "docker",
+        "fastapi"
+      ],
+      "pricing": "Free",
+      "stars": 21876,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2025-03-24T13:59:54Z",
+      "days_since_commit": 392,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "DeepFaceLab",
+      "url": "https://github.com/iperov/DeepFaceLab",
+      "description": "DeepFaceLab is the leading software for creating deepfakes.",
+      "category": "Open Source Models",
+      "tags": [
+        "arxiv",
+        "creating-deepfakes",
+        "deep-face-swap",
+        "deep-learning",
+        "deep-neural-networks"
+      ],
+      "pricing": "Free",
+      "stars": 19154,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-11-13T19:29:05Z",
+      "days_since_commit": 523,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "tensor2tensor",
+      "url": "https://github.com/tensorflow/tensor2tensor",
+      "description": "Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research.",
+      "category": "Research & Data",
+      "tags": [
+        "deep-learning",
+        "machine-learning",
+        "machine-translation",
+        "reinforcement-learning",
+        "tpu"
+      ],
+      "pricing": "Free",
+      "stars": 17190,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2023-06-02T18:55:09Z",
+      "days_since_commit": 1053,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "numpy-ml",
+      "url": "https://github.com/ddbourgin/numpy-ml",
+      "description": "Machine learning, in numpy",
+      "category": "Open Source Models",
+      "tags": [
+        "attention",
+        "bayesian-inference",
+        "gaussian-mixture-models",
+        "gaussian-processes",
+        "good-turing-smoothing"
+      ],
+      "pricing": "Free",
+      "stars": 16336,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2023-10-29T00:53:03Z",
+      "days_since_commit": 904,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "LaTeX-OCR",
+      "url": "https://github.com/lukas-blecher/LaTeX-OCR",
+      "description": "pix2tex: Using a ViT to convert images of equations into LaTeX code.",
+      "category": "Research & Data",
+      "tags": [
+        "dataset",
+        "deep-learning",
+        "im2latex",
+        "im2markup",
+        "im2text"
+      ],
+      "pricing": "Free",
+      "stars": 16337,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2025-01-18T15:23:58Z",
+      "days_since_commit": 457,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "imgaug",
+      "url": "https://github.com/aleju/imgaug",
+      "description": "Image augmentation for machine learning experiments.",
+      "category": "Open Source Models",
+      "tags": [
+        "affine-transformation",
+        "augment-images",
+        "augmentation",
+        "bounding-boxes",
+        "contrast"
+      ],
+      "pricing": "Free",
+      "stars": 14735,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-07-30T01:38:33Z",
+      "days_since_commit": 629,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "the-gan-zoo",
+      "url": "https://github.com/hindupuravinash/the-gan-zoo",
+      "description": "A list of all named GANs!",
+      "category": "Open Source Models",
+      "tags": [
+        "gan",
+        "generative-adversarial-network",
+        "machine-learning"
+      ],
+      "pricing": "Free",
+      "stars": 14694,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2023-10-06T18:30:38Z",
+      "days_since_commit": 927,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "nni",
+      "url": "https://github.com/microsoft/nni",
+      "description": "An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning.",
+      "category": "Open Source Models",
+      "tags": [
+        "automated-machine-learning",
+        "automl",
+        "bayesian-optimization",
+        "data-science",
+        "deep-learning"
+      ],
+      "pricing": "Free",
+      "stars": 14348,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-07-03T10:55:10Z",
+      "days_since_commit": 656,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "transferlearning",
+      "url": "https://github.com/jindongwang/transferlearning",
+      "description": "Transfer learning / domain adaptation / domain generalization / multi-task learning etc. Papers, codes, datasets, applications, tutorials.-迁移学习",
+      "category": "Research & Data",
+      "tags": [
+        "deep-learning",
+        "domain-adaptation",
+        "domain-adaption",
+        "domain-generalization",
+        "few-shot"
+      ],
+      "pricing": "Free",
+      "stars": 14325,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2025-02-18T22:06:58Z",
+      "days_since_commit": 425,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "awesome-aws",
+      "url": "https://github.com/donnemartin/awesome-aws",
+      "description": "A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery Meter of AWSome.",
+      "category": "Open Source Models",
+      "tags": [
+        "aws",
+        "aws-cli",
+        "aws-sdk",
+        "cloud",
+        "cloud-management"
+      ],
+      "pricing": "Free",
+      "stars": 13984,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-03-12T09:29:54Z",
+      "days_since_commit": 769,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "Halfrost-Field",
+      "url": "https://github.com/halfrost/Halfrost-Field",
+      "description": "✍🏻 这里是写博客的地方 —— Halfrost-Field 冰霜之地",
+      "category": "Open Source Models",
+      "tags": [
+        "algorithm",
+        "analyze",
+        "article",
+        "blog",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 13236,
+      "language": "Go",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2023-12-28T20:58:20Z",
+      "days_since_commit": 843,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "tutorials",
+      "url": "https://github.com/MorvanZhou/tutorials",
+      "description": "机器学习相关教程",
+      "category": "Open Source Models",
+      "tags": [
+        "machine-learning",
+        "multiprocessing",
+        "neural-network",
+        "numpy",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 12894,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2020-12-22T22:02:58Z",
+      "days_since_commit": 1944,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "fashion-mnist",
+      "url": "https://github.com/zalandoresearch/fashion-mnist",
+      "description": "A MNIST-like fashion product database. Benchmark :point_down: ",
+      "category": "Research & Data",
+      "tags": [
+        "benchmark",
+        "computer-vision",
+        "convolutional-neural-networks",
+        "dataset",
+        "deep-learning"
+      ],
+      "pricing": "Free",
+      "stars": 12705,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2022-06-13T20:36:21Z",
+      "days_since_commit": 1407,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "stanford-tensorflow-tutorials",
+      "url": "https://github.com/chiphuyen/stanford-tensorflow-tutorials",
+      "description": "This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research. ",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "chatbot",
+        "course-materials",
+        "deep-learning",
+        "machine-learning",
+        "natural-language-processing"
+      ],
+      "pricing": "Free",
+      "stars": 10382,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2020-12-22T09:21:55Z",
+      "days_since_commit": 1945,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "Machine-Learning",
+      "url": "https://github.com/Jack-Cherish/Machine-Learning",
+      "description": ":zap:机器学习实战（Python3）：kNN、决策树、贝叶斯、逻辑回归、SVM、线性回归、树回归",
+      "category": "Open Source Models",
+      "tags": [
+        "adaboost",
+        "adaboost-algorithm",
+        "decision-tree",
+        "knn",
+        "logistic"
+      ],
+      "pricing": "Free",
+      "stars": 10288,
+      "language": "Python",
+      "added_date": "2026-04-20",
+      "verified": true,
+      "last_commit_date": "2024-07-12T11:28:35Z",
+      "days_since_commit": 647,
+      "freshness": "🔴 Stale"
     }
   ]
 }
