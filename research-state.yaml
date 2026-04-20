@@ -3,7 +3,7 @@
 project: formatho-blockchain-partnerships
 question: How can Formatho establish profitable blockchain/infrastructure partnerships to achieve revenue within 30 days?
 started: 2026-04-20T00:05:00Z
-last_updated: 2026-04-20T01:00:00Z
+last_updated: 2026-04-20T06:30:00Z
 phase: inner_loop
 
 status: active
@@ -33,24 +33,27 @@ hypotheses:
 
   - id: H2
     slug: integration-partnership-model
-    status: pending
+    status: completed
     priority: 1
     description: Test strategic integration partnerships with top 3-5 infrastructure providers
     prediction: Deep integrations provide higher value (20-30% revenue share) but require 60-90 days
+    outcome: CONFIRMATORY - All 3 providers (Tatum, Ankr, Chainstack) have formal partnership programs. Case studies show substantial benefits (400% ROI, 80% cost reduction). Revenue share not publicly disclosed; 60-90 day timeline likely. Too slow for 30-day goal.
+    learnings: Integration partnerships offer co-marketing, custom infrastructure, dedicated support. Setup time (60-90 days) and revenue uncertainty make them secondary to affiliate programs for immediate revenue.
 
   - id: H3
     slug: privacy-first-positioning
-    status: pending
+    status: completed
     priority: 1
     description: Test privacy-first positioning as differentiator with privacy-conscious providers
     prediction: Privacy alignment enables premium positioning and exclusive partnerships
+    outcome: EXPLORATORY - Privacy features exist in all major providers but are not positioned as primary differentiator. Privacy is embedded as security/compliance, not unique selling point. No evidence of premium pricing for privacy features (20-40% hypothesized). Market gap confirmed: no provider positions as "privacy-first".
+    learnings: All 4 major providers (Chainstack, Alchemy, Consensys/Infura, QuickNode) have privacy features. Privacy features are standard (encryption, SOC 2, GDPR, zero-logging), not premium. Consensys/Infura has strongest privacy stance (does not collect private keys, proxy infrastructure, encrypted user-decryptable data). Market gap exists for "privacy-first developer tools" brand positioning. Privacy is valid differentiator but not premium-priced.
   - id: H4
     slug: ecosystem-grant-opportunities
     status: pending
     priority: 2
     description: Test L2 ecosystem grant programs (Base, Polygon, Arbitrum, Optimism)
     prediction: Ecosystem grants provide non-dilutive funding + visibility; application process 90-180 days
-
   - id: H5
     slug: multi-provider-management
     status: pending
@@ -59,19 +62,22 @@ hypotheses:
     prediction: Simplifying multi-provider workflows for developers creates high-value differentiation
 
 # Experiment tracking
-experiments_completed: 1
+experiments_completed: 3
 total_experiments: 5
 
 # Key metrics
 primary_metric: partnership_feasibility_score
 baseline: null
-best_result: H0: CONFIRMATORY
+best_result: H1: 15% recurring affiliate (Tatum), H2: 400% ROI potential through integration partnerships
 
 # Direction decisions
 direction_decisions:
   - timestamp: 2026-04-20T00:40:00Z
     decision: DEEPEN
     reason: "Bootstrap confirmed market size and opportunity. H0 completed successfully. Moving to test multiple partnership models in parallel."
+  - timestamp: 2026-04-20T06:30:00Z
+    decision: CONTINUE_INNER_LOOP
+    reason: "H0, H1, H2 completed. Affiliate path (H1) identified as fastest to revenue (30 days). Integration partnerships (H2) viable but require 60-90 days. Recommended: pursue affiliate for 30-day goal, integration partnerships in parallel for long-term. Privacy-first positioning (H3) as differentiator for both paths."
 
 # Last action
-last_action: "Completed H1 experiment. Identified Tatum (15% recurring), Ankr (50% of fees), Chainstack ($100/node), QuickNode (PPS) as viable affiliate partners. Privacy-first positioning is an opportunity."
+last_action: "Completed H3 experiment. Privacy features exist but not positioned as primary value. Market gap confirmed: 'privacy-first developer tools' is underserved positioning angle. Privacy is valid differentiator but not premium-priced. Strategic pivot: privacy as brand differentiation, not technical premium feature."
