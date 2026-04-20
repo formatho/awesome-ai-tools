@@ -1,0 +1,77 @@
+# Research State - Formatho Blockchain/Infrastructure Partnership Research
+
+project: formatho-blockchain-partnerships
+question: How can Formatho establish profitable blockchain/infrastructure partnerships to achieve revenue within 30 days?
+started: 2026-04-20T00:05:00Z
+last_updated: 2026-04-20T01:00:00Z
+phase: inner_loop
+
+status: active
+
+# Research phases: bootstrap -> inner_loop -> outer_loop -> finalize
+phase: inner_loop
+
+# Hypotheses queue (priority: 0=highest)
+hypotheses:
+  - id: H0
+    slug: initial-partnership-opportunities
+    status: completed
+    priority: 0
+    description: Identify top blockchain/infrastructure partnerships that align with Formatho's privacy-first developer tools
+    prediction: There are specific blockchain infrastructure partners (node providers, RPC services, L2s) with partnership programs targeting developer tools
+    outcome: CONFIRMATORY - Literature review revealed 204 providers, 608 protocols, clear partnership opportunities
+    learnings: Market is large (204 providers), high fragmentation, multiple partnership models exist (affiliate, integration, ecosystem grants)
+
+  - id: H1
+    slug: affiliate-revenue-model
+    status: completed
+    priority: 0
+    description: Test affiliate/referral partnerships for fastest path to revenue
+    prediction: Affiliate programs offer 10-70% commissions with 7-45 day cookie durations; first revenue achievable in 30 days
+    outcome: CONFIRMATORY - Multiple viable affiliate programs identified
+    learnings: Tatum (15% recurring, feasibility 9/10), Ankr (50% of fees, feasibility 8/10), Chainstack ($100 USDC per node, feasibility 7/10), QuickNode (PPS model, feasibility 6/10), Alchemy (no affiliate program). Privacy-first positioning is an opportunity as no provider emphasizes it.
+
+  - id: H2
+    slug: integration-partnership-model
+    status: pending
+    priority: 1
+    description: Test strategic integration partnerships with top 3-5 infrastructure providers
+    prediction: Deep integrations provide higher value (20-30% revenue share) but require 60-90 days
+
+  - id: H3
+    slug: privacy-first-positioning
+    status: pending
+    priority: 1
+    description: Test privacy-first positioning as differentiator with privacy-conscious providers
+    prediction: Privacy alignment enables premium positioning and exclusive partnerships
+  - id: H4
+    slug: ecosystem-grant-opportunities
+    status: pending
+    priority: 2
+    description: Test L2 ecosystem grant programs (Base, Polygon, Arbitrum, Optimism)
+    prediction: Ecosystem grants provide non-dilutive funding + visibility; application process 90-180 days
+
+  - id: H5
+    slug: multi-provider-management
+    status: pending
+    priority: 2
+    description: Test multi-provider management tool as value-add for Formatho
+    prediction: Simplifying multi-provider workflows for developers creates high-value differentiation
+
+# Experiment tracking
+experiments_completed: 1
+total_experiments: 5
+
+# Key metrics
+primary_metric: partnership_feasibility_score
+baseline: null
+best_result: H0: CONFIRMATORY
+
+# Direction decisions
+direction_decisions:
+  - timestamp: 2026-04-20T00:40:00Z
+    decision: DEEPEN
+    reason: "Bootstrap confirmed market size and opportunity. H0 completed successfully. Moving to test multiple partnership models in parallel."
+
+# Last action
+last_action: "Completed H1 experiment. Identified Tatum (15% recurring), Ankr (50% of fees), Chainstack ($100/node), QuickNode (PPS) as viable affiliate partners. Privacy-first positioning is an opportunity."

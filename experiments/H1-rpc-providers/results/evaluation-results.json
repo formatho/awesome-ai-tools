@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Alchemy",
+    "technical": 9.5,
+    "market": 9.0,
+    "partnership": 10.0,
+    "total": 9.55,
+    "rev_conservative": 1000000.0,
+    "rev_moderate": 2500000.0,
+    "rev_optimistic": 5000000.0
+  },
+  {
+    "name": "QuickNode",
+    "technical": 9.0,
+    "market": 7.5,
+    "partnership": 8.5,
+    "total": 8.35,
+    "rev_conservative": 600000.0,
+    "rev_moderate": 1500000.0,
+    "rev_optimistic": 3000000.0
+  },
+  {
+    "name": "Chainstack",
+    "technical": 8.0,
+    "market": 8.0,
+    "partnership": 8.5,
+    "total": 8.2,
+    "rev_conservative": 200000.0,
+    "rev_moderate": 500000.0,
+    "rev_optimistic": 1000000.0
+  },
+  {
+    "name": "Infura",
+    "technical": 6.0,
+    "market": 7.5,
+    "partnership": 9.5,
+    "total": 7.85,
+    "rev_conservative": 800000.0,
+    "rev_moderate": 2000000.0,
+    "rev_optimistic": 4000000.0
+  },
+  {
+    "name": "Ankr",
+    "technical": 8.0,
+    "market": 6.5,
+    "partnership": 7.0,
+    "total": 7.15,
+    "rev_conservative": 300000.0,
+    "rev_moderate": 750000.0,
+    "rev_optimistic": 1500000.0
+  }
+]
