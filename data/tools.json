@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-20T20:53:52.100Z",
-    "total_tools": 817,
+    "last_updated": "2026-04-21T02:54:30.549Z",
+    "total_tools": 818,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,31 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-20T20:53:52.100Z"
+    "last_discovery": "2026-04-21T02:54:30.550Z"
   },
   "tools": [
+    {
+      "name": "Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai-agents",
+        "game-development",
+        "claude-code",
+        "godot",
+        "unity",
+        "unreal-engine"
+      ],
+      "pricing": "Free",
+      "stars": 14449,
+      "language": "Shell",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": "2026-04-10T10:28:38Z",
+      "days_since_commit": 11,
+      "freshness": "🟡 Recent"
+    },
     {
       "name": "ai-agents-for-beginners",
       "url": "https://github.com/microsoft/ai-agents-for-beginners",
