@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-21blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-817-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-21-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-818-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,7 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. | Agents & Automation | 🟡 Recent | April 21, 2026 |
 | [context7](https://github.com/upstash/context7) | Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors | LLMs & Chatbots | 🟢 Fresh | April 20, 2026 |
 | [llama_index](https://github.com/run-llama/llama_index) | LlamaIndex is the leading document agent and OCR platform | Agents & Automation | 🟢 Fresh | April 20, 2026 |
 | [litellm](https://github.com/BerriAI/litellm) | Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM] | LLMs & Chatbots | 🟢 Fresh | April 20, 2026 |
@@ -37,7 +38,6 @@
 | [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic | Agents & Automation | 🟢 Fresh | April 20, 2026 |
 | [photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | Image Generation | 🟢 Fresh | April 20, 2026 |
 | [paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document management system: scan, index and archive all your documents | Research & Data | 🟢 Fresh | April 20, 2026 |
-| [Folo](https://github.com/RSSNext/Folo) | 🧡 Folo is the AI RSS Reader | Productivity | 🟢 Fresh | April 20, 2026 |
 
 ---
 
@@ -175,6 +175,7 @@
 | [multica](https://github.com/multica-ai/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. | `agents` `multi-agent` `teammates` | Free | 🟢 Fresh | 14.7k |
 | [botpress](https://github.com/botpress/botpress) | The open-source hub to build & deploy GPT/LLM Agents | `agent` `chatbot` `llm` | Free | 🟢 Fresh | 14.6k |
 | [trigger.dev](https://github.com/triggerdotdev/trigger.dev) | Trigger.dev – build and deploy fully‑managed AI agents and workflows | `agent` `workflow` `automation` | Free | 🟢 Fresh | 14.6k |
+| [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. | `ai-agents` `game-development` `claude-code` | Free | 🟡 Recent | 14.4k |
 | [SurfSense](https://github.com/MODSetter/SurfSense) | An open source, privacy focused alternative to NotebookLM for teams with no data limit's. Join our Discord: https://discord.gg/ejRNvftDp9 | `ai` `agent` `python` | Free | 🟢 Fresh | 13.8k |
 | [colleague-skill](https://github.com/titanwings/colleague-skill) | 将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework. | `skill` `ai` `digital-life` | Free | 🟢 Fresh | 13.7k |
 | [casdoor](https://github.com/casdoor/casdoor) | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD | `go` `agent` `agentic-ai` | Unknown | 🟢 Fresh | 13.4k |
@@ -958,15 +959,15 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 817
+- **Total Tools:** 818
 - **Categories:** 9
-- **Last Updated:** April 20, 2026
+- **Last Updated:** April 21, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
 - 🟢 Fresh: 623 tools
-- 🟡 Recent: 69 tools
+- 🟡 Recent: 70 tools
 - 🟠 Aging: 43 tools
 - 🔴 Stale: 82 tools
 
