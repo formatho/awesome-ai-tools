@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-20-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-795-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-21-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-817-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -667,6 +667,7 @@
 | [Awesome ChatGPT (Chinese)](https://github.com/EmbraceAGI/awesome-chatgpt-zh) | Comprehensive Chinese guide for ChatGPT prompts and applications. | `chatgpt` `prompts` `chinese` | Free | 🔴 Stale | 11.5k |
 | [llama-gpt](https://github.com/getumbrel/llama-gpt) | A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support! |  | Free | 🟢 Fresh | 11.0k |
 | [BrowserOS](https://github.com/browseros-ai/BrowserOS) | 🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia. | `typescript` `agent` `browser` | Unknown | 🟢 Fresh | 10.5k |
+| [stanford-tensorflow-tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials) | This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research.  | `chatbot` `course-materials` `deep-learning` | Free | 🔴 Stale | 10.4k |
 | [ART](https://github.com/OpenPipe/ART) | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.5, GPT-OSS, Llama, and more! | `python` `agent` `agentic-ai` | Unknown | 🟢 Fresh | 9.2k |
 | [BingGPT](https://github.com/dice2o/BingGPT) | Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux) | `ai` `javascript` | Free | 🔴 Stale | 9.0k |
 | [opencommit](https://github.com/di-sukharev/opencommit) | top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too | `llm` `javascript` | Free | 🟢 Fresh | 7.2k |
@@ -720,10 +721,12 @@
 | [pytorch](https://github.com/pytorch/pytorch) | Tensors and Dynamic neural networks in Python with strong GPU acceleration | `python` `machine-learning` `deep-learning` | Free | 🟢 Fresh | 99.2k |
 | [LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) | Implement a ChatGPT-like LLM in PyTorch step by step. | `tutorial` `llm` `pytorch` | Free | 🟢 Fresh | 90.7k |
 | [GPT4All](https://github.com/nomic-ai/gpt4all) | Run local LLMs on any device - open-source and commercially available. | `llm` `local` `privacy` | Free | 🔴 Stale | 77.3k |
+| [d2l-zh](https://github.com/d2l-ai/d2l-zh) | 《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。 | `book` `chinese` `computer-vision` | Free | 🔴 Stale | 77.3k |
 | [LlamaFactory](https://github.com/hiyouga/LlamaFactory) | Unified efficient fine-tuning platform for 100+ LLMs and VLMs. | `llm` `fine-tuning` `open-source` | Free | 🟢 Fresh | 70.0k |
 | [gpt4free](https://github.com/xtekky/gpt4free) | The official gpt4free repository | various collection of powerful language models | opus 4.6 gpt 5.3 kimi 2.5 deepseek v3.2 gemini 3 | `free` | Free | 🟢 Fresh | 66.0k |
 | [keras](https://github.com/keras-team/keras) | Deep Learning for humans | `python` `machine-learning` `deep-learning` | Free | 🟢 Fresh | 64.0k |
 | [Unsloth](https://github.com/unslothai/unsloth) | Web UI for training and running open models locally. | `training` `llm` `local` | Freemium | 🟢 Fresh | 61.4k |
+| [face_recognition](https://github.com/ageitgey/face_recognition) | The world's simplest facial recognition api for Python and the command line | `face-detection` `face-recognition` `machine-learning` | Free | 🔴 Stale | 56.3k |
 | [faceswap](https://github.com/deepfakes/faceswap) | Deepfakes Software For All | `machine-learning` `deep-learning` `deep-face-swap` | Free | 🟢 Fresh | 55.2k |
 | [minimind](https://github.com/jingyaogong/minimind) | Train a 64M-parameter GPT from scratch in just 2h! A complete implementation for training small-scale language models. | `llm` `training` `gpt` | Free | 🟢 Fresh | 46.8k |
 | [LocalAI](https://github.com/mudler/LocalAI) | LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required. | `ai` `llm` `local-ai` | Free | 🟢 Fresh | 45.4k |
@@ -731,8 +734,12 @@
 | [DeepSpeed](https://github.com/deepspeedai/DeepSpeed) | DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective. | `ai` `machine-learning` `deep-learning` | Free | 🟢 Fresh | 42.1k |
 | [ColossalAI](https://github.com/hpcaitech/ColossalAI) | Making large AI models cheaper, faster and more accessible | `ai` `python` | Free | 🟢 Fresh | 41.4k |
 | [tesseract.js](https://github.com/naptha/tesseract.js) | Pure Javascript OCR for more than 100 Languages 📖🎉🖥 | `javascript` `deep-learning` `web` | Free | 🟡 Recent | 38.0k |
+| [ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch) | Machine Learning From Scratch. Bare bones NumPy implementations of machine learning models and algorithms with a focus on accessibility. Aims to cover everything from linear regression to deep learning. | `data-mining` `data-science` `deep-learning` | Free | 🔴 Stale | 31.3k |
+| [DeepFaceLive](https://github.com/iperov/DeepFaceLive) | Real-time face swap for PC streaming or video calls | `deepfake` `faceswap` `machine-learning` | Free | 🔴 Stale | 30.8k |
+| [data-science-ipython-notebooks](https://github.com/donnemartin/data-science-ipython-notebooks) | Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines. | `aws` `big-data` `caffe` | Free | 🔴 Stale | 29.0k |
 | [awesome-datascience](https://github.com/academic/awesome-datascience) | :memo: An awesome Data Science repository to learn and apply for real world problems. | `machine-learning` `deep-learning` `data` | Free | 🟢 Fresh | 28.8k |
 | [Happy LLM](https://github.com/datawhalechina/happy-llm) | Build large language models from scratch. | `llm` `tutorial` `education` | Free | 🟡 Recent | 28.8k |
+| [d2l-en](https://github.com/d2l-ai/d2l-en) | Interactive deep learning book with multi-framework code, math, and discussions. Adopted at 500 universities from 70 countries including Stanford, MIT, Harvard, and Cambridge. | `book` `computer-vision` `data-science` | Free | 🔴 Stale | 28.7k |
 | [fastai](https://github.com/fastai/fastai) | The fastai deep learning library | `ai` `python` `machine-learning` | Free | 🟢 Fresh | 28.0k |
 | [generative-models](https://github.com/Stability-AI/generative-models) | Generative Models by Stability AI | `image-generation` `deep-learning` | Free | 🔴 Stale | 27.1k |
 | [handson-ml](https://github.com/ageron/handson-ml) | ⛔️ DEPRECATED – See https://github.com/ageron/handson-ml3 or handson-mlp instead. | `python` `machine-learning` `deep-learning` | Free | 🟢 Fresh | 25.7k |
@@ -740,12 +747,22 @@
 | [Paddle](https://github.com/PaddlePaddle/Paddle) | PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署） | `ai` `python` `machine-learning` | Free | 🟢 Fresh | 23.8k |
 | [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | Graph Neural Network Library for PyTorch | `deep-learning` `library` `geometric-deep-learning` | Free | 🟢 Fresh | 23.7k |
 | [cs249r_book](https://github.com/harvard-edge/cs249r_book) | Machine Learning Systems | `machine-learning` `deep-learning` `ml` | Free | 🟢 Fresh | 23.7k |
+| [serve](https://github.com/jina-ai/serve) | ☁️ Build multimodal AI applications with cloud-native stack | `cloud-native` `cncf` `deep-learning` | Free | 🔴 Stale | 21.9k |
 | [datasets](https://github.com/huggingface/datasets) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | `python` `artificial-intelligence` `computer-vision` | Unknown | 🟢 Fresh | 21.4k |
+| [DeepFaceLab](https://github.com/iperov/DeepFaceLab) | DeepFaceLab is the leading software for creating deepfakes. | `arxiv` `creating-deepfakes` `deep-face-swap` | Free | 🔴 Stale | 19.2k |
 | [timesfm](https://github.com/google-research/timesfm) | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | `python` `ai` | Free | 🟡 Recent | 16.9k |
+| [numpy-ml](https://github.com/ddbourgin/numpy-ml) | Machine learning, in numpy | `attention` `bayesian-inference` `gaussian-mixture-models` | Free | 🔴 Stale | 16.3k |
 | [ timesfm](https://github.com/google-research / timesfm) | TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting. | `AI` `Developer Tools` | Open Source | 🟢 Fresh | 15.2k |
+| [imgaug](https://github.com/aleju/imgaug) | Image augmentation for machine learning experiments. | `affine-transformation` `augment-images` `augmentation` | Free | 🔴 Stale | 14.7k |
+| [the-gan-zoo](https://github.com/hindupuravinash/the-gan-zoo) | A list of all named GANs! | `gan` `generative-adversarial-network` `machine-learning` | Free | 🔴 Stale | 14.7k |
 | [horovod](https://github.com/horovod/horovod) | Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet. | `python` `baidu` `deep-learning` | Unknown | 🔴 Stale | 14.7k |
+| [nni](https://github.com/microsoft/nni) | An open source AutoML toolkit for automate machine learning lifecycle, including feature engineering, neural architecture search, model compression and hyper-parameter tuning. | `automated-machine-learning` `automl` `bayesian-optimization` | Free | 🔴 Stale | 14.3k |
+| [awesome-aws](https://github.com/donnemartin/awesome-aws) | A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery Meter of AWSome. | `aws` `aws-cli` `aws-sdk` | Free | 🔴 Stale | 14.0k |
+| [Halfrost-Field](https://github.com/halfrost/Halfrost-Field) | ✍🏻 这里是写博客的地方 —— Halfrost-Field 冰霜之地 | `algorithm` `analyze` `article` | Free | 🔴 Stale | 13.2k |
+| [tutorials](https://github.com/MorvanZhou/tutorials) | 机器学习相关教程 | `machine-learning` `multiprocessing` `neural-network` | Free | 🔴 Stale | 12.9k |
 | [wandb](https://github.com/wandb/wandb) | The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production. | `python` `collaboration` `data-science` | Unknown | 🟢 Fresh | 11.0k |
 | [yolov3](https://github.com/ultralytics/yolov3) | YOLOv3 in PyTorch > ONNX > CoreML > TFLite | `python` `deep-learning` `machine-learning` | Unknown | 🟢 Fresh | 10.6k |
+| [Machine-Learning](https://github.com/Jack-Cherish/Machine-Learning) | :zap:机器学习实战（Python3）：kNN、决策树、贝叶斯、逻辑回归、SVM、线性回归、树回归 | `adaboost` `adaboost-algorithm` `decision-tree` | Free | 🔴 Stale | 10.3k |
 | [petals](https://github.com/bigscience-workshop/petals) | 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading |  | Free | 🟢 Fresh | 10.1k |
 | [sonnet](https://github.com/google-deepmind/sonnet) | TensorFlow-based neural network library | `python` `artificial-intelligence` `deep-learning` | Unknown | 🟠 Aging | 9.9k |
 | [InternLM](https://github.com/InternLM/InternLM) | Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3). |  | Free | 🟢 Fresh | 7.2k |
@@ -837,6 +854,7 @@
 | [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) | We have made you a wrapper you can't refuse | `ai-tool` | Free | 🟢 Fresh | 29.0k |
 | [claude-task-master](https://github.com/eyaltoledano/claude-task-master) | An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others. | `ai` `javascript` | Free | 🟡 Recent | 26.5k |
 | [NeoPass](https://github.com/Max-Eee/NeoPass) | Your Essential Exam Companion for the Iamneo Portal & NPTEL Exams Disguised as NeoExamShield bypass | `javascript` | Free | 🟢 Fresh | 25.2k |
+| [NLP-progress](https://github.com/sebastianruder/NLP-progress) | Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks. | `dialogue` `machine-learning` `machine-translation` | Free | 🔴 Stale | 23.0k |
 | [deepface](https://github.com/serengil/deepface) | A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python | `python` `age-prediction` `arcface` | Unknown | 🟠 Aging | 22.6k |
 | [nautilus_trader](https://github.com/nautechsystems/nautilus_trader) | Production-grade Rust-native trading engine with deterministic event-driven architecture | `rust` `algorithmic-trading-engine` `artificial-intelligence` | Unknown | 🟢 Fresh | 22.1k |
 | [recommenders](https://github.com/recommenders-team/recommenders) | Best Practices on Recommendation Systems | `python` `artificial-intelligence` `data-science` | Unknown | 🟢 Fresh | 21.6k |
@@ -848,15 +866,19 @@
 | [Kronos](https://github.com/shiyu-coder/Kronos) | Kronos: A Foundation Model for the Language of Financial Markets | `finance` `financial-markets` `foundation-model` | Free | 🟢 Fresh | 18.8k |
 | [ml-engineering](https://github.com/stas00/ml-engineering) | Machine Learning Engineering Open Book | `ai` `debugging` `gpus` | Free | 🟢 Fresh | 17.7k |
 | [vision](https://github.com/pytorch/vision) | Datasets, Transforms and Models specific to Computer Vision | `python` `computer-vision` `machine-learning` | Unknown | 🟢 Fresh | 17.6k |
+| [tensor2tensor](https://github.com/tensorflow/tensor2tensor) | Library of deep learning models and datasets designed to make deep learning more accessible and accelerate ML research. | `deep-learning` `machine-learning` `machine-translation` | Free | 🔴 Stale | 17.2k |
 | [leon](https://github.com/leon-ai/leon) | 🧠 Leon is your open-source personal assistant. | `ai-tool` | Free | 🟢 Fresh | 17.2k |
 | [agent-lightning](https://github.com/microsoft/agent-lightning) | The absolute trainer to light up AI agents. | `python` `agent` `agentic-ai` | Unknown | 🟡 Recent | 17.0k |
 | [abu](https://github.com/bbfamily/abu) | 阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构 | `python` `algorithmic-trading` `bitcoin` | Unknown | 🟠 Aging | 16.9k |
 | [argo-workflows](https://github.com/argoproj/argo-workflows) | Workflow Engine for Kubernetes | `go` `airflow` `argo` | Unknown | 🟢 Fresh | 16.6k |
+| [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) | pix2tex: Using a ViT to convert images of equations into LaTeX code. | `dataset` `deep-learning` `im2latex` | Free | 🔴 Stale | 16.3k |
 | [albumentations](https://github.com/albumentations-team/albumentations) | Fast and flexible image augmentation library. Paper about the library: https://www.mdpi.com/2078-2489/11/2/125 | `python` `augmentation` `deep-learning` | Unknown | 🔴 Stale | 15.3k |
+| [transferlearning](https://github.com/jindongwang/transferlearning) | Transfer learning / domain adaptation / domain generalization / multi-task learning etc. Papers, codes, datasets, applications, tutorials.-迁移学习 | `deep-learning` `domain-adaptation` `domain-adaption` | Free | 🔴 Stale | 14.3k |
 | [CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | Leaked system prompts for ChatGPT, Gemini, Claude, and more AI systems. | `prompts` `transparency` `research` | Free | 🟢 Fresh | 14.1k |
 | [electerm](https://github.com/electerm/electerm) | 📻Terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(linux, mac, win) | `javascript` | Free | 🟢 Fresh | 13.9k |
 | [data-profiling](https://github.com/Data-Centric-AI-Community/data-profiling) | 1 Line of code data quality profiling & exploratory data analysis for Pandas and Spark DataFrames.  | `python` `big-data-analytics` `data-analysis` | Freemium | 🟢 Fresh | 13.5k |
 | [AI-Trader](https://github.com/HKUDS/AI-Trader) | "AI-Trader: 100% Fully-Automated Agent-Native Trading" | `trading` `finance` `agent` | Free | 🟢 Fresh | 13.3k |
+| [fashion-mnist](https://github.com/zalandoresearch/fashion-mnist) | A MNIST-like fashion product database. Benchmark :point_down:  | `benchmark` `computer-vision` `convolutional-neural-networks` | Free | 🔴 Stale | 12.7k |
 | [RD-Agent](https://github.com/microsoft/RD-Agent) | Research and development automation for AI systems. Automates data-driven AI development processes, letting AI drive R&D workflows. | `research` `development` `automation` | Free | 🟢 Fresh | 12.5k |
 | [ludwig](https://github.com/ludwig-ai/ludwig) | Low-code framework for building custom LLMs, neural networks, and other AI models | `python` `computer-vision` `data-centric` | Unknown | 🟢 Fresh | 11.7k |
 | [cleanlab](https://github.com/cleanlab/cleanlab) | Cleanlab's open-source library is the standard data-centric AI package for data quality and machine learning with messy, real-world data and labels. | `python` `active-learning` `annotation` | Unknown | 🔴 Stale | 11.4k |
@@ -936,7 +958,7 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 795
+- **Total Tools:** 817
 - **Categories:** 9
 - **Last Updated:** April 20, 2026
 - **Last Freshness Check:** April 13, 2026
@@ -946,7 +968,7 @@ Top 10 by GitHub stars:
 - 🟢 Fresh: 623 tools
 - 🟡 Recent: 69 tools
 - 🟠 Aging: 43 tools
-- 🔴 Stale: 60 tools
+- 🔴 Stale: 82 tools
 
 ---
 
