@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-21-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-818-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-821-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,9 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [opensre](https://github.com/Tracer-Cloud/opensre) | Build your own AI SRE agents. The open source toolkit for the AI era ✨ | Agents & Automation | 🟢 Fresh | April 21, 2026 |
+| [dflash](https://github.com/z-lab/dflash) | DFlash: Block Diffusion for Flash Speculative Decoding | Open Source Models | 🟢 Fresh | April 21, 2026 |
+| [poly_data](https://github.com/warproxxx/poly_data) | Polymarket Data Retriever that fetches, processes, and structures Polymarket data including markets, order events and trades. | Research & Data | 🟢 Fresh | April 21, 2026 |
 | [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. | Agents & Automation | 🟡 Recent | April 21, 2026 |
 | [context7](https://github.com/upstash/context7) | Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors | LLMs & Chatbots | 🟢 Fresh | April 20, 2026 |
 | [llama_index](https://github.com/run-llama/llama_index) | LlamaIndex is the leading document agent and OCR platform | Agents & Automation | 🟢 Fresh | April 20, 2026 |
@@ -35,9 +38,6 @@
 | [milvus](https://github.com/milvus-io/milvus) | Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search | Image Generation | 🟢 Fresh | April 20, 2026 |
 | [OpenSpec](https://github.com/Fission-AI/OpenSpec) | Spec-driven development (SDD) for AI coding assistants. | Agents & Automation | 🟢 Fresh | April 20, 2026 |
 | [Fabric](https://github.com/danielmiessler/Fabric) | Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere. | Developer Tools | 🟢 Fresh | April 20, 2026 |
-| [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic | Agents & Automation | 🟢 Fresh | April 20, 2026 |
-| [photoprism](https://github.com/photoprism/photoprism) | AI-Powered Photos App for the Decentralized Web 🌈💎✨ | Image Generation | 🟢 Fresh | April 20, 2026 |
-| [paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) | A community-supported supercharged document management system: scan, index and archive all your documents | Research & Data | 🟢 Fresh | April 20, 2026 |
 
 ---
 
@@ -272,6 +272,7 @@
 | [DeepScientist](https://github.com/ResearAI/DeepScientist) | Now, Stronger AI Pushes Frontiers, Stronger Our Shared Future. | `agent` `research` `ai` | Free | 🟢 Fresh | 2.2k |
 | [nestia](https://github.com/samchon/nestia) | NestJS Helper + AI Chatbot Development | `ai` | Free | 🟢 Fresh | 2.1k |
 | [agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine) | 🧠 Make your agents learn from experience. Now available as a hosted solution at kayba.ai | `agent` `learning` `experience` | Open Source | 🟢 Fresh | 2.1k |
+| [opensre](https://github.com/Tracer-Cloud/opensre) | Build your own AI SRE agents. The open source toolkit for the AI era ✨ | `ai-sre` `alerting` `datadog` | Free | 🟢 Fresh | 2.1k |
 | [claude-code](https://github.com/codeaashu/claude-code) | Claude Code implementation and extensions | `development` `claude` `typescript` | Free | 🟢 Fresh | 2.0k |
 | [superglue](https://github.com/superglue-ai/superglue) | superglue (YC W25) builds integrations and tools from natural language. Get production-grade tools for long tail and enterprise systems. | `ai` `agent` `llm` | Free | 🟢 Fresh | 2.0k |
 | [Decepticon](https://github.com/PurpleAILAB/Decepticon) | Autonomous Hacking Agent for Red Team Testing | `agent` | Free | 🟢 Fresh | 2.0k |
@@ -769,6 +770,7 @@
 | [InternLM](https://github.com/InternLM/InternLM) | Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3). |  | Free | 🟢 Fresh | 7.2k |
 | [gemma](https://github.com/google-deepmind/gemma) | Gemma open-weight LLM library, from Google DeepMind | `llm` `open-weights` `google` | Free | 🟢 Fresh | 4.8k |
 | [igel](https://github.com/nidhaloff/igel) | a delightful machine learning tool that allows you to train, test, and use models without writing code | `ai` | Free | 🟢 Fresh | 3.1k |
+| [dflash](https://github.com/z-lab/dflash) | DFlash: Block Diffusion for Flash Speculative Decoding | `diffusion` `llm` `inference` | Free | 🟢 Fresh | 2.0k |
 | [model2vec](https://github.com/MinishLab/model2vec) | Fast State-of-the-Art Static Embeddings | `embeddings` `static` `fast` | Open Source | 🟢 Fresh | 2.0k |
 | [tinfoleak](https://github.com/vaguileradiaz/tinfoleak) | The most complete open-source tool for Twitter intelligence analysis | `open-source` | Free | 🟢 Fresh | 2.0k |
 | [intercept](https://github.com/smittix/intercept) | iNTERCEPT, a free and open-source platform that unites the best signal intelligence tools into a single, accessible interface. | `platform` `open-source` | Free | 🟢 Fresh | 1.7k |
@@ -913,6 +915,7 @@
 | [Protenix](https://github.com/bytedance/Protenix) | Toward High-Accuracy Open-Source Biomolecular Structure Prediction. | `biology` `structure-prediction` `biomolecular` | Free | 🟢 Fresh | 1.8k |
 | [awesome-neuroscience](https://github.com/analyticalmonk/awesome-neuroscience) | A curated list of awesome neuroscience libraries, software and any content related to the domain. | `ai` | Free | 🟢 Fresh | 1.6k |
 | [ClatScope](https://github.com/Clats97/ClatScope) | ClatScope Info Tool – The best and most versatile OSINT utility for retrieving geolocation, DNS, WHOIS, phone, email, data breach information and much more (70+ features). Perfect for investigators, p | `ai` | Free | 🟢 Fresh | 1.4k |
+| [poly_data](https://github.com/warproxxx/poly_data) | Polymarket Data Retriever that fetches, processes, and structures Polymarket data including markets, order events and trades. | `data-retrieval` `polymarket` `prediction-markets` | Free | 🟢 Fresh | 1.4k |
 | [mlops-python-package](https://github.com/fmind/mlops-python-package) | A comprehensive Python package template to kickstart and standardize your MLOps initiatives and data pipelines. | `ai` | Free | 🟢 Fresh | 1.4k |
 | [AutoResearch MLX](https://github.com/trevin-creator/autoresearch-mlx) | Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, no PyTorch required | `ai` `autonomous` `apple-silicon` | Free | 🟠 Aging | 1.4k |
 | [AI-Resources-Central](https://github.com/CoderSJX/AI-Resources-Central) |  Bringing together outstanding artificial intelligence (AI) open source projects from around the world.  | `ai` `open-source` | Free | 🟢 Fresh | 1.2k |
@@ -959,14 +962,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 818
+- **Total Tools:** 821
 - **Categories:** 9
 - **Last Updated:** April 21, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 623 tools
+- 🟢 Fresh: 626 tools
 - 🟡 Recent: 70 tools
 - 🟠 Aging: 43 tools
 - 🔴 Stale: 82 tools
