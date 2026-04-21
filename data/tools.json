@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-21T14:53:16.699Z",
-    "total_tools": 821,
+    "last_updated": "2026-04-21T20:54:57.697Z",
+    "total_tools": 871,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,913 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-21T14:53:16.699Z"
+    "last_discovery": "2026-04-21T20:54:57.698Z"
   },
   "tools": [
+    {
+      "name": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "description": "Knowledge Engine for AI Agent Memory in 6 lines of code",
+      "category": "Developer Tools",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 16596,
+      "language": "Python",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "category": "Developer Tools",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "claude",
+        "javascript"
+      ],
+      "pricing": "Free",
+      "stars": 22781,
+      "language": "JavaScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "aandrew-me/ytDownloader",
+      "url": "https://github.com/aandrew-me/ytDownloader",
+      "description": "Desktop App for downloading Videos and Audios from hundreds of sites",
+      "category": "Video & Animation",
+      "tags": [
+        "video-generation",
+        "audio",
+        "tts",
+        "javascript"
+      ],
+      "pricing": "Free",
+      "stars": 9354,
+      "language": "JavaScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "microsoft/power-platform-skills",
+      "url": "https://github.com/microsoft/power-platform-skills",
+      "description": "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions.",
+      "category": "Developer Tools",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "claude",
+        "javascript"
+      ],
+      "pricing": "Free",
+      "stars": 187,
+      "language": "JavaScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "foxhui/WebAI2API",
+      "url": "https://github.com/foxhui/WebAI2API",
+      "description": "WebAI2API: 基于 Camoufox 的网页 AI 转 API 工具，支持 LMArena/Gemini等，多窗口并发与账号隔离。 | Web AI to OpenAI API via Camoufox. Supports LMArena/Gemini and more, multi-window concurrency & account isolation.",
+      "category": "Developer Tools",
+      "tags": [
+        "javascript"
+      ],
+      "pricing": "Free",
+      "stars": 618,
+      "language": "JavaScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "lukilabs/craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "description": "",
+      "category": "Agents & Automation",
+      "tags": [
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 4450,
+      "language": "TypeScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "resend/react-email",
+      "url": "https://github.com/resend/react-email",
+      "description": "💌 Build and send emails using React",
+      "category": "Productivity",
+      "tags": [
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 18851,
+      "language": "TypeScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "",
+      "category": "Developer Tools",
+      "tags": [
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 10238,
+      "language": "TypeScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "gitroomhq/postiz-app",
+      "url": "https://github.com/gitroomhq/postiz-app",
+      "description": "📨 The ultimate social media scheduling tool, with a bunch of AI 🤖",
+      "category": "Productivity",
+      "tags": [
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 29209,
+      "language": "TypeScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "category": "Research & Data",
+      "tags": [
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 11714,
+      "language": "TypeScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "microsoft/Ontology-Playground",
+      "url": "https://github.com/microsoft/Ontology-Playground",
+      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+      "category": "Developer Tools",
+      "tags": [
+        "open-source",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 430,
+      "language": "TypeScript",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "pydantic/monty",
+      "url": "https://github.com/pydantic/monty",
+      "description": "A minimal, secure Python interpreter written in Rust for use by AI",
+      "category": "Developer Tools",
+      "tags": [
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 6923,
+      "language": "Rust",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "superradcompany/microsandbox",
+      "url": "https://github.com/superradcompany/microsandbox",
+      "description": "🧱 secure, local and programmable sandboxes for AI agents",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "local",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 5712,
+      "language": "Rust",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "category": "Developer Tools",
+      "tags": [
+        "rag",
+        "retrieval-augmented-generation",
+        "open-source",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 26270,
+      "language": "Rust",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "starship/starship",
+      "url": "https://github.com/starship/starship",
+      "description": "☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+      "category": "Developer Tools",
+      "tags": [
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 56734,
+      "language": "Rust",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "GyulyVGC/sniffnet",
+      "url": "https://github.com/GyulyVGC/sniffnet",
+      "description": "Comfortably monitor your Internet traffic 🕵️‍♂️",
+      "category": "Developer Tools",
+      "tags": [
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 35115,
+      "language": "Rust",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "tonhowtf/omniget",
+      "url": "https://github.com/tonhowtf/omniget",
+      "description": "Desktop app to download videos, courses. YouTube, Instagram, TikTok, Bilibili (哔哩哔哩), Douyin (抖音), 小红书, 快手, 优酷, Hotmart, Udemy, Kiwify, Telegram, and 1000+ more via yt-dlp. Download torrents and send files between devices over P2P.",
+      "category": "Video & Animation",
+      "tags": [
+        "video-generation",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 1977,
+      "language": "Rust",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "servo/servo",
+      "url": "https://github.com/servo/servo",
+      "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+      "category": "Developer Tools",
+      "tags": [
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 36492,
+      "language": "Rust",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "dora-rs/dora",
+      "url": "https://github.com/dora-rs/dora",
+      "description": "DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines.",
+      "category": "Research & Data",
+      "tags": [
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 3691,
+      "language": "Rust",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API-CRS2 一站式开源中转服务，让 Claude、Openai 、Gemini、Antigravity订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "category": "Developer Tools",
+      "tags": [
+        "claude",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 14180,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "kyverno/kyverno",
+      "url": "https://github.com/kyverno/kyverno",
+      "description": "Unified Policy as Code",
+      "category": "Developer Tools",
+      "tags": [
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 7654,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "mostlygeek/llama-swap",
+      "url": "https://github.com/mostlygeek/llama-swap",
+      "description": "Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "local",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 3521,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "QuantumNous/new-api",
+      "url": "https://github.com/QuantumNous/new-api",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "claude",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 28082,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "harness/harness",
+      "url": "https://github.com/harness/harness",
+      "description": "Harness Open Source is an end-to-end developer platform with Source Control Management, CI/CD Pipelines, Hosted Developer Environments, and Artifact Registries.",
+      "category": "Developer Tools",
+      "tags": [
+        "open-source",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 35096,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "maximhq/bifrost",
+      "url": "https://github.com/maximhq/bifrost",
+      "description": "Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 4123,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "juanfont/headscale",
+      "url": "https://github.com/juanfont/headscale",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "category": "Developer Tools",
+      "tags": [
+        "open-source",
+        "self-hosted",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 37653,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "go-gitea/gitea",
+      "url": "https://github.com/go-gitea/gitea",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "category": "Developer Tools",
+      "tags": [
+        "self-hosted",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 55016,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "versity/versitygw",
+      "url": "https://github.com/versity/versitygw",
+      "description": "A simple to deploy but feature rich S3 object storage server for your filesystem",
+      "category": "Developer Tools",
+      "tags": [
+        "rag",
+        "retrieval-augmented-generation",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 2118,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "k8sgpt-ai/k8sgpt",
+      "url": "https://github.com/k8sgpt-ai/k8sgpt",
+      "description": "Giving Kubernetes Superpowers to everyone",
+      "category": "Developer Tools",
+      "tags": [
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 7693,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "HexmosTech/git-lrc",
+      "url": "https://github.com/HexmosTech/git-lrc",
+      "description": "Free, Unlimited AI Code Reviews That Run on Commit",
+      "category": "Developer Tools",
+      "tags": [
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 735,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "rapidaai/voice-ai",
+      "url": "https://github.com/rapidaai/voice-ai",
+      "description": "Rapida is an open-source, end-to-end voice AI orchestration platform for building real-time conversational voice agents with audio streaming, STT, TTS, VAD, multi-channel integration, agent state management, and observability.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "audio",
+        "tts",
+        "open-source",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 557,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "envoyproxy/ai-gateway",
+      "url": "https://github.com/envoyproxy/ai-gateway",
+      "description": "Manages Unified Access to Generative AI Services built on Envoy Gateway",
+      "category": "Developer Tools",
+      "tags": [
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 1539,
+      "language": "Go",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "daijro/camoufox",
+      "url": "https://github.com/daijro/camoufox",
+      "description": "🦊 Anti-detect browser",
+      "category": "Developer Tools",
+      "tags": [
+        "browser",
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 7546,
+      "language": "C++",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "klzgrad/naiveproxy",
+      "url": "https://github.com/klzgrad/naiveproxy",
+      "description": "Make a fortune quietly",
+      "category": "Developer Tools",
+      "tags": [
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 8441,
+      "language": "C++",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "category": "Developer Tools",
+      "tags": [
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 12999,
+      "language": "C++",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "leejet/stable-diffusion.cpp",
+      "url": "https://github.com/leejet/stable-diffusion.cpp",
+      "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+      "category": "Image Generation",
+      "tags": [
+        "inference",
+        "image-generation",
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 5804,
+      "language": "C++",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "category": "Developer Tools",
+      "tags": [
+        "inference",
+        "open-source",
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 10122,
+      "language": "C++",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "microsoft/winget-cli",
+      "url": "https://github.com/microsoft/winget-cli",
+      "description": "WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).",
+      "category": "Developer Tools",
+      "tags": [
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 25727,
+      "language": "C++",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "google/googletest",
+      "url": "https://github.com/google/googletest",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "category": "Developer Tools",
+      "tags": [
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 38498,
+      "language": "C++",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Liquid4All/cookbook",
+      "url": "https://github.com/Liquid4All/cookbook",
+      "description": "Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP SDK",
+      "category": "Open Source Models",
+      "tags": [
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 1840,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "datawhalechina/self-llm",
+      "url": "https://github.com/datawhalechina/self-llm",
+      "description": "《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 30004,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "AI4Finance-Foundation/FinRobot",
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "description": "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "llm",
+        "open-source",
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 6746,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "ed-donner/llm_engineering",
+      "url": "https://github.com/ed-donner/llm_engineering",
+      "description": "Repo to accompany my mastering LLM engineering course",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 5707,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "datawhalechina/llm-universe",
+      "url": "https://github.com/datawhalechina/llm-universe",
+      "description": "本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 12745,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Marktechpost/AI-Agents-Projects-Tutorials",
+      "url": "https://github.com/Marktechpost/AI-Agents-Projects-Tutorials",
+      "description": "Multi-agent systems, memory, planning, reasoning loops",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 2258,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "NirDiamant/GenAI_Agents",
+      "url": "https://github.com/NirDiamant/GenAI_Agents",
+      "description": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 21466,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Lifelong-Robot-Learning/LIBERO",
+      "url": "https://github.com/Lifelong-Robot-Learning/LIBERO",
+      "description": "Benchmarking Knowledge Transfer in Lifelong Robot Learning",
+      "category": "Research & Data",
+      "tags": [
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 1760,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "microsoft/OmniParser",
+      "url": "https://github.com/microsoft/OmniParser",
+      "description": "A simple screen parsing tool towards pure vision based GUI agent",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 24675,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "GoogleCloudPlatform/python-docs-samples",
+      "url": "https://github.com/GoogleCloudPlatform/python-docs-samples",
+      "description": "Code samples used on cloud.google.com",
+      "category": "Research & Data",
+      "tags": [
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 8042,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "google-ai-edge/mediapipe-samples",
+      "url": "https://github.com/google-ai-edge/mediapipe-samples",
+      "description": "",
+      "category": "Research & Data",
+      "tags": [
+        "jupyter-notebook"
+      ],
+      "pricing": "Free",
+      "stars": 2662,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-21",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "opensre",
       "url": "https://github.com/Tracer-Cloud/opensre",
