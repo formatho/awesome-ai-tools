@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-22T02:56:35.051Z",
-    "total_tools": 883,
+    "last_updated": "2026-04-22T15:01:03.308Z",
+    "total_tools": 887,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,97 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-22T02:56:35.052Z"
+    "last_discovery": "2026-04-22T15:01:03.312Z"
   },
   "tools": [
+    {
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "llm",
+        "nous-research",
+        "openai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 110061,
+      "language": "Python",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "category": "Agents & Automation",
+      "tags": [
+        "agents",
+        "ai",
+        "framework",
+        "llm",
+        "openai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 24555,
+      "language": "Python",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "ai-agents",
+        "typescript",
+        "teamwork"
+      ],
+      "pricing": "Free",
+      "stars": 19165,
+      "language": "TypeScript",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "vercel-labs/open-agents",
+      "url": "https://github.com/vercel-labs/open-agents",
+      "description": "An open source template for building cloud agents.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "agents",
+        "ai",
+        "background-agents"
+      ],
+      "pricing": "Free",
+      "stars": 3992,
+      "language": "TypeScript",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "apify/crawlee",
       "url": "https://github.com/apify/crawlee",
