@@ -1,13 +1,29 @@
 # 🤖 Awesome AI Tools
 
-> A continuously updated, curated list of high-quality AI tools and resources.
+> **The most comprehensive, up-to-date list of AI tools and resources. Updated every 6 hours by autonomous AI agents.**
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-22-blue)](https://github.com/formatho/awesome-ai-tools)
 [![Total Tools](https://img.shields.io/badge/Tools-883-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/formatho/awesome-ai-tools?style=social)](https://github.com/formatho/awesome-ai-tools)
+
+---
+
+## 🚀 Quick Start
+
+Looking for an AI tool? You're in the right place:
+
+- **883+ tools** across 9 categories
+- **Auto-discovered** and validated every 6 hours
+- **Freshness tracking** - see which tools are actively maintained
+- **Star counts** - know what's popular
+- **Categorized** - Agents, LLMs, Image Gen, Video, and more
+
+**⭐ Star this repo** to get the latest AI tools in your feed!
 
 ## 📋 Table of Contents
 
+- [How to Use This List](#-how-to-use-this-list)
 - [Recently Added](#-recently-added)
 - [Agents & Automation](#agents---automation)
 - [Audio & Music](#audio---music)
@@ -21,6 +37,90 @@
 - [Trending Tools](#-trending-tools)
 - [Statistics](#-statistics)
 - [Contributing](#-contributing)
+
+---
+
+## 💡 How to Use This List
+
+### By Category
+
+Browse tools by interest area:
+
+- **🤖 Agents & Automation** - Autonomous agents, workflow automation, AI frameworks
+- **🎧 Audio & Music** - Music generation, audio processing, TTS, speech recognition
+- **🛠️ Developer Tools** - Coding assistants, API integrations, development frameworks
+- **🎨 Image Generation** - AI art, image editing, style transfer, design tools
+- **💬 LLMs & Chatbots** - Large language models, chat platforms, prompt engineering
+- **📦 Open Source Models** - Self-hosted models, inference engines, model hosting
+- **⚡ Productivity** - AI-powered productivity tools, note-taking, task management
+- **🔬 Research & Data** - Data analysis, research tools, ML frameworks
+- **🎬 Video & Animation** - Video generation, animation, video editing
+
+### By Freshness
+
+Each tool shows a **freshness indicator**:
+
+- 🟢 **Fresh** - Updated ≤ 7 days ago (actively maintained)
+- 🟡 **Recent** - Updated ≤ 30 days ago (stable)
+- 🟠 **Aging** - Updated ≤ 90 days ago (check before using)
+- 🔴 **Stale** - Not updated in 90+ days (use with caution)
+
+### By Popularity
+
+Sort tools by GitHub stars to see what's trending:
+- Check the [Trending Tools](#-trending-tools) section for top picks
+- Look for tools with high star counts in each category
+- Popular tools = community-tested and reliable
+
+### Pro Tips
+
+1. **Start with Fresh tools** - They have the latest features and bug fixes
+2. **Check star counts** - Higher stars = larger community and better support
+3. **Look at tags** - Find tools matching your specific needs (e.g., `open-source`, `api`, `python`)
+4. **Consider pricing** - Free, Freemium, Paid, Open Source - pick what fits your budget
+5. **Visit the repo** - Check GitHub activity, issues, and documentation before committing
+
+### Missing Something?
+
+Don't see a tool you know? **Add it!**
+- See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
+- Or open an issue to suggest a tool
+
+---
+
+## 🌟 Featured Tools This Week
+
+Top picks from our curated list, hand-picked for quality and innovation:
+
+### 🤖 Must-Have Agents
+
+| Tool | Why It's Great | Stars |
+|------|----------------|-------|
+| [Claude Code](https://github.com/anthropics/claude-code) | AI coding assistant that lives in your terminal | 113.5k |
+| [OpenClaw](https://github.com/openclaw/openclaw) | Your own personal AI assistant. Any OS. Any Platform. | 356.5k |
+| [Dify](https://github.com/langgenius/dify) | Production-ready platform for agentic workflows | 137.6k |
+
+### 🎨 Best Image Generation
+
+| Tool | Why It's Great | Stars |
+|------|----------------|-------|
+| [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Most popular Stable Diffusion interface | 162.3k |
+| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Node-based UI for Stable Diffusion | 45.2k |
+
+### 💬 Top LLM Tools
+
+| Tool | Why It's Great | Stars |
+|------|----------------|-------|
+| [Ollama](https://github.com/ollama/ollama) | Run Llama, Mistral, and other LLMs locally | 168.8k |
+| [LM Studio](https://github.com/lmstudio-ai/lmstudio.js) | Beautiful UI for running local LLMs | 32.1k |
+
+### 🛠️ Developer Favorites
+
+| Tool | Why It's Great | Stars |
+|------|----------------|-------|
+| [LangChain](https://github.com/langchain-ai/langchain) | Build AI applications with LLMs | 133.4k |
+| [Playwright](https://github.com/microsoft/playwright) | Web testing and automation framework | 86.3k |
+| [n8n](https://github.com/n8n-io/n8n) | Workflow automation with AI capabilities | 183.9k |
 
 ---
 
@@ -1035,6 +1135,46 @@ Top 10 by GitHub stars:
 - 🟡 Recent: 70 tools
 - 🟠 Aging: 43 tools
 - 🔴 Stale: 82 tools
+
+---
+
+## 🙏 Community & Support
+
+### Why Star This Repo?
+
+- ⭐ **Get updates** - Star to track new AI tools in your feed
+- 🔖 **Bookmark** - Always find this curated list easily
+- 🤝 **Support open source** - Help thousands of developers find tools
+- 🚀 **Show appreciation** - Curating 883+ tools takes time and effort
+
+### Share with Others
+
+Help fellow developers and researchers discover great AI tools:
+
+```bash
+# Share on Twitter/X
+"Found 883+ curated AI tools at github.com/formatho/awesome-ai-tools - check it out! 🤖 #AI #MachineLearning"
+
+# Share on LinkedIn
+"Just discovered an amazing curated list of 883+ AI tools and resources. Updated every 6 hours! github.com/formatho/awesome-ai-tools #AITools"
+```
+
+### Join the Community
+
+- **Report issues** - Found a broken link or outdated tool? [Open an issue](https://github.com/formatho/awesome-ai-tools/issues)
+- **Suggest tools** - Know a great AI tool missing from the list? [Contribute](CONTRIBUTING.md)
+- **Follow updates** - Star the repo to get notified of new tools
+
+### Built by Formatho
+
+**Formatho** builds developer tools and AI-powered solutions:
+
+- [**Agent Orchestrator**](https://github.com/formatho/agent-orchestrator) - Desktop app for managing autonomous AI agents
+- [**Formatho.com**](https://formatho.com) - Free web tools and utilities
+
+**Follow us:**
+- GitHub: [@formatho](https://github.com/formatho)
+- Website: [formatho.com](https://formatho.com)
 
 ---
 
