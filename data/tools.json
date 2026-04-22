@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-21T20:54:57.697Z",
-    "total_tools": 871,
+    "last_updated": "2026-04-22T02:56:35.051Z",
+    "total_tools": 883,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,239 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-21T20:54:57.698Z"
+    "last_discovery": "2026-04-22T02:56:35.052Z"
   },
   "tools": [
+    {
+      "name": "apify/crawlee",
+      "url": "https://github.com/apify/crawlee",
+      "description": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agents-automation",
+        "typescript",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 22902,
+      "language": "TypeScript",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-21",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "category": "Agents & Automation",
+      "tags": [
+        "agents-automation",
+        "typescript",
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 21808,
+      "language": "TypeScript",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-21",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "getmaxun/maxun",
+      "url": "https://github.com/getmaxun/maxun",
+      "description": "🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥 ",
+      "category": "Developer Tools",
+      "tags": [
+        "developer-tools",
+        "typescript",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 15515,
+      "language": "TypeScript",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-20",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "winfunc/deepreasoning",
+      "url": "https://github.com/winfunc/deepreasoning",
+      "description": "A high-performance LLM inference API and Chat UI that integrates DeepSeek R1's CoT reasoning traces with Anthropic Claude models.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llms-chatbots",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 5360,
+      "language": "Rust",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2025-10-07",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "spiceai/spiceai",
+      "url": "https://github.com/spiceai/spiceai",
+      "description": "A portable accelerated SQL query, search, and LLM-inference engine, written in Rust, for data-grounded AI apps and agents.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agents-automation",
+        "rust",
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 2880,
+      "language": "Rust",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "microsoft/aici",
+      "url": "https://github.com/microsoft/aici",
+      "description": "AICI: Prompts as (Wasm) Programs",
+      "category": "Developer Tools",
+      "tags": [
+        "developer-tools",
+        "rust",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 2067,
+      "language": "Rust",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2025-01-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "trymirai/uzu",
+      "url": "https://github.com/trymirai/uzu",
+      "description": "A high-performance inference engine for AI models",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llms-chatbots",
+        "rust",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1551,
+      "language": "Rust",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "samuel-vitorino/lm.rs",
+      "url": "https://github.com/samuel-vitorino/lm.rs",
+      "description": "Minimal LLM inference in Rust",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llms-chatbots",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 1035,
+      "language": "Rust",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2024-10-24",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "nobodywho-ooo/nobodywho",
+      "url": "https://github.com/nobodywho-ooo/nobodywho",
+      "description": "NobodyWho is an inference engine that lets you run LLMs locally and efficiently on any device.  ",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llms-chatbots",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 803,
+      "language": "Rust",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-21",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "EricLBuehler/candle-vllm",
+      "url": "https://github.com/EricLBuehler/candle-vllm",
+      "description": "Efficent platform for inference and serving local LLMs including an OpenAI compatible API server.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llms-chatbots",
+        "rust",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 643,
+      "language": "Rust",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-20",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Light-Heart-Labs/DreamServer",
+      "url": "https://github.com/Light-Heart-Labs/DreamServer",
+      "description": "Local AI anywhere, for everyone — LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. No cloud, no subscriptions.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agents-automation",
+        "rust",
+        "ai",
+        "agent"
+      ],
+      "pricing": "Free",
+      "stars": 445,
+      "language": "Rust",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-21",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "TransformerOptimus/SuperAGI",
+      "url": "https://github.com/TransformerOptimus/SuperAGI",
+      "description": "<⚡️> SuperAGI - A dev-first open source autonomous AI agent framework. Enabling developers to build, manage & run useful autonomous agents quickly and reliably.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agents-automation",
+        "python",
+        "ai",
+        "agent",
+        "open-source"
+      ],
+      "pricing": "Free",
+      "stars": 17469,
+      "language": "Python",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2025-01-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "topoteretes/cognee",
       "url": "https://github.com/topoteretes/cognee",
