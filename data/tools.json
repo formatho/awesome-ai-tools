@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-22T15:01:03.308Z",
-    "total_tools": 887,
+    "last_updated": "2026-04-22T21:02:53.743Z",
+    "total_tools": 895,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,173 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-22T15:01:03.312Z"
+    "last_discovery": "2026-04-22T21:02:53.743Z"
   },
   "tools": [
+    {
+      "name": "tesseract",
+      "url": "https://github.com/tesseract-ocr/tesseract",
+      "description": "Tesseract Open Source OCR Engine (main repository)",
+      "category": "Image Generation",
+      "tags": [
+        "ocr",
+        "image-processing",
+        "computer-vision",
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 73665,
+      "language": "C++",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-21",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "awesome-scalability",
+      "url": "https://github.com/binhnguyennus/awesome-scalability",
+      "description": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
+      "category": "Developer Tools",
+      "tags": [
+        "awesome-list",
+        "scalability",
+        "architecture",
+        "system-design"
+      ],
+      "pricing": "Free",
+      "stars": 70536,
+      "language": null,
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-01-04",
+      "days_since_commit": 108,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "category": "Developer Tools",
+      "tags": [
+        "claude",
+        "ai-skills",
+        "agent",
+        "productivity"
+      ],
+      "pricing": "Free",
+      "stars": 55631,
+      "language": "Python",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-21",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "vagrant",
+      "url": "https://github.com/hashicorp/vagrant",
+      "description": "Vagrant is a tool for building and distributing development environments.",
+      "category": "Developer Tools",
+      "tags": [
+        "virtualization",
+        "devops",
+        "development-environment",
+        "ruby"
+      ],
+      "pricing": "Free",
+      "stars": 27117,
+      "language": "Ruby",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-20",
+      "days_since_commit": 2,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "LLaVA",
+      "url": "https://github.com/haotian-liu/LLaVA",
+      "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
+      "category": "Image Generation",
+      "tags": [
+        "multimodal",
+        "vision-language-model",
+        "vlm",
+        "llava",
+        "gpt-4v"
+      ],
+      "pricing": "Free",
+      "stars": 24709,
+      "language": "Python",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2024-08-12",
+      "days_since_commit": 253,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "wechaty",
+      "url": "https://github.com/wechaty/wechaty",
+      "description": "Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "chatbot",
+        "rpa",
+        "conversational",
+        "typescript",
+        "weixin"
+      ],
+      "pricing": "Free",
+      "stars": 22692,
+      "language": "TypeScript",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2025-12-21",
+      "days_since_commit": 122,
+      "freshness": "🔴 Stale"
+    },
+    {
+      "name": "tidb",
+      "url": "https://github.com/pingcap/tidb",
+      "description": "TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling.",
+      "category": "Developer Tools",
+      "tags": [
+        "database",
+        "vector-search",
+        "distributed",
+        "mysql-compatible",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 40001,
+      "language": "Go",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "arthas",
+      "url": "https://github.com/alibaba/arthas",
+      "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
+      "category": "Developer Tools",
+      "tags": [
+        "java",
+        "diagnostics",
+        "debugging",
+        "monitoring",
+        "alibaba"
+      ],
+      "pricing": "Free",
+      "stars": 37269,
+      "language": "Java",
+      "added_date": "2026-04-22",
+      "verified": true,
+      "last_commit_date": "2026-04-22",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
