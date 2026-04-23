@@ -2,14 +2,14 @@
 
 > *Your daily digest of the best AI tools, curated and updated every 6 hours.*
 
-**Why this list?** The AI landscape changes daily. New tools appear, old ones evolve, and finding what actually works is exhausting. This list cuts through the noise — 347 tools across 9 categories, automatically discovered, ranked, and kept fresh.
+**Why this list?** The AI landscape changes daily. New tools appear, old ones evolve, and finding what actually works is exhausting. This list cuts through the noise — 350+ tools across 9 categories, automatically discovered, ranked, and kept fresh.
 
 **What you'll find:** Production-ready AI tools — from autonomous agents to local LLMs, from image generators to research assistants. Each entry shows freshness (last updated), pricing, and GitHub stars so you can make informed decisions.
 
 **Star this repo** ⭐ to get updates whenever we add new tools. Join the discussion in [GitHub Discussions](https://github.com/formatho/awesome-ai-tools/discussions) to share your favorites!
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-13-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-350-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-23-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-352-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -268,6 +268,7 @@
 | [RAGFlow](https://github.com/infiniflow/ragflow) | Leading open-source Retrieval-Augmented Generation (RAG) engine with agent capabilities. | `rag` `llm` `agent` | Free | 🟢 Fresh | 77.9k |
 | [vllm](https://github.com/vllm-project/vllm) | High-throughput and memory-efficient inference and serving engine for LLMs. | `inference` `serving` `production` | Free | 🟢 Fresh | 76.4k |
 | [daytona](https://github.com/daytonaio/daytona) | Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code | `ai` `infrastructure` `code` | Free | 🟢 Fresh | 72.3k |
+| [1Panel](https://github.com/1Panel-dev/1Panel) | 🔥 1Panel is a modern, open-source VPS control panel — and only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface. | `server` `dashboard` `agent` `ollama` `self-hosted` | Free | 🟢 Fresh | 35.1k |
 | [gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |  | Free | 🟢 Fresh | 71.5k |
 | [OpenHands](https://github.com/OpenHands/OpenHands) | AI-driven development platform for autonomous software engineering. | `agent` `coding` `open-source` | Free | 🟢 Fresh | 71.1k |
 | [Meilisearch](https://github.com/meilisearch/meilisearch) | A lightning-fast search engine API bringing AI-powered hybrid search to your sites and applications. | `ai` `search` `vector-search` | Open Source | 🟢 Fresh | 57.1k |
@@ -295,8 +296,10 @@
 | [ openscreen](https://github.com/siddharthvaddem / openscreen) | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio. | `Demo` | Open Source | 🟢 Fresh | 24.1k |
 | [Oh My Codex](https://github.com/Yeachan-Heo/oh-my-codex) | Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more. | `codex` `agent` `hooks` | Free | 🟢 Fresh | 22.2k |
 | [AionUi](https://github.com/iOfficeAI/AionUi) | Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it! | `ai` `free` | Free | 🟢 Fresh | 21.7k |
+| [OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database designed specifically for AI Agents. Unifies management of context (memory, resources, and skills) through a file system paradigm, enabling hierarchical context delivery and self-evolution. | `context` `memory` `agent` `database` `filesystem` | Open Source | 🟢 Fresh | 22.9k |
 | [NemoClaw](https://github.com/NVIDIA/NemoClaw) | Run OpenClaw more securely inside NVIDIA OpenShell with managed inference |  | Free | 🟢 Fresh | 19.2k |
 | [archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. | `ai` | Free | 🟢 Fresh | 17.6k |
+| [agents-towards-production](https://github.com/NirDiamant/agents-towards-production) | End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment. Covers real-world patterns, testing, and deployment strategies. | `tutorial` `agents` `production` `enterprise` `deployment` | Free | 🟡 Recent | 18.9k |
 | [RAG-Anything](https://github.com/HKUDS/RAG-Anything) | "RAG-Anything: All-in-One RAG Framework" | `rag` `framework` `all-in-one` | Free | 🟢 Fresh | 15.6k |
 | [OpenCLI](https://github.com/jackwener/OpenCLI) | Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration. |  | Free | 🟢 Fresh | 15.5k |
 | [OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click |  | Free | 🟢 Fresh | 15.4k |
@@ -446,6 +449,7 @@
 | [mempalace](https://github.com/mempalace/mempalace) | MemPalace - Advanced memory management and AI-powered knowledge organization system | `Memory` `Knowledge` `Organization` | Open Source | 🟢 Fresh | 44.8k |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! | `ai-tool` | Free | 🟢 Fresh | 36.7k |
 | [Khoj](https://github.com/khoj-ai/khoj) | Self-hostable AI second brain with custom agents and automations. | `second-brain` `self-hosted` `agent` | Freemium | 🟡 Recent | 34.1k |
+| [vibe-kanban](https://github.com/BloopAI/vibe-kanban) | Get 10X more out of Claude Code, Codex or any coding agent. A productivity tool designed to enhance agent-based coding workflows with kanban-style task management. | `productivity` `agent` `coding` `kanban` `claude-code` | Free | 🟢 Fresh | 25.5k |
 | [Noi](https://github.com/lencx/Noi) | AI tools launcher with minimal chaos and maximum flow. | `launcher` `productivity` `desktop` | Free | 🟠 Aging | 8.9k |
 | [ClawTeam](https://github.com/ClawTeam/ClawTeam) | ClawTeam - AI-powered team collaboration and project management platform | `Team` `Collaboration` `AI` | Open Source | 🟢 Fresh | 4.5k |
 | [One-Person Company AI Tools](https://github.com/cyfyifanchen/one-person-company) | Continuously updated AI tools for solo businesses. | `solo-business` `productivity` `entrepreneurship` | Free | 🔴 Stale | 2.7k |
@@ -477,6 +481,7 @@
 | [docling](https://github.com/docling-project/docling) | Get your documents ready for gen AI | `ai` `python` | Free | 🟢 Fresh | 57.7k |
 | [TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 | `ai` `python` | Free | 🟢 Fresh | 51.6k |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Multi-agents LLM financial trading framework. | `trading` `agent` `finance` | Free | 🟢 Fresh | 50.1k |
+| [gpt-researcher](https://github.com/assafelovic/gpt-researcher) | An autonomous agent that conducts deep research on any data using any LLM providers. Combines search engines, web scraping, and LLMs to perform iterative, comprehensive research on any topic. | `research` `agent` `autonomous` `llm` `web-scraping` | Free | 🟢 Fresh | 26.6k |
 | [worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `ai` `monitoring` `intelligence` | Free | 🟢 Fresh | 48.1k |
 | [ClickHouse](https://github.com/ClickHouse/ClickHouse) | ClickHouse® is a real-time analytics database management system | `ai` `analytics` `big-data` | Free | 🟢 Fresh | 46.9k |
 | [AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 12 Weeks, 24 Lessons, AI for All! | `ai` `machine-learning` `deep-learning` | Free | 🟢 Fresh | 46.5k |
