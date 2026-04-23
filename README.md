@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-23-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-898-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-902-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -31,13 +31,13 @@
 | [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | DeepSeek V3 - Advanced open source LLM | Open Source Models | 🟢 Fresh | April 23, 2026 |
 | [private-gpt](https://github.com/zylon-ai/private-gpt) | Interact with your documents using power of GPT, 100% privately, no data leaks | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
 | [appwrite](https://github.com/appwrite/appwrite) | Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more | Developer Tools | 🟢 Fresh | April 23, 2026 |
+| [openmed](https://github.com/maziyarpanahi/openmed) | Open-source healthcare AI platform supporting multiple LLMs (BERT, DeepSeek, GPT, LLaMA, Qwen) with on-device and on-premise deployment options | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
+| [vllm-mlx](https://github.com/waybarrios/vllm-mlx) | OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool calling, and multimodal support. Native MLX backend, 400+ tok/s | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
+| [claude-skills](https://github.com/alirezarezvani/claude-skills) | 232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory | Developer Tools | 🟢 Fresh | April 23, 2026 |
+| [hermes-webui](https://github.com/nesquena/hermes-webui) | Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! Web interface for the popular Nous Research Hermes AI agent | Agents & Automation | 🟢 Fresh | April 23, 2026 |
 | [tesseract](https://github.com/tesseract-ocr/tesseract) | Tesseract Open Source OCR Engine (main repository) | Image Generation | 🟢 Fresh | April 22, 2026 |
 | [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems | Developer Tools | 🔴 Stale | April 22, 2026 |
 | [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | Developer Tools | 🟢 Fresh | April 22, 2026 |
-| [vagrant](https://github.com/hashicorp/vagrant) | Vagrant is a tool for building and distributing development environments. | Developer Tools | 🟢 Fresh | April 22, 2026 |
-| [LLaVA](https://github.com/haotian-liu/LLaVA) | [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond. | Image Generation | 🔴 Stale | April 22, 2026 |
-| [wechaty](https://github.com/wechaty/wechaty) | Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt | LLMs & Chatbots | 🔴 Stale | April 22, 2026 |
-| [tidb](https://github.com/pingcap/tidb) | TiDB is built for agentic workloads that grow unpredictably, with ACID guarantees and native support for transactions, analytics, and vector search. No data silos. No noisy neighbors. No infrastructure ceiling. | Developer Tools | 🟢 Fresh | April 22, 2026 |
 
 ---
 
@@ -255,6 +255,7 @@
 | [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！ | `llm` `ai` `agent` | Free | 🟢 Fresh | 4.0k |
 | [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents) | An open source template for building cloud agents. | `agent` `agents` `ai` | Free | 🟢 Fresh | 4.0k |
 | [autoagent](https://github.com/autoagent/autoagent) | AutoAgent - AI-powered autonomous agent framework for complex task automation | `AI Agent` `Automation` `Framework` | Open Source | 🟢 Fresh | 3.8k |
+| [hermes-webui](https://github.com/nesquena/hermes-webui) | Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! Web interface for the popular Nous Research Hermes AI agent | `agent` `ai-agents` `hermes` | Free | 🟢 Fresh | 3.8k |
 | [maestro](https://github.com/Netflix/maestro) | Maestro: Netflix’s Workflow Orchestrator | `ai` | Free | 🟢 Fresh | 3.8k |
 | [OpenClawChineseTranslation](https://github.com/1186258278/OpenClawChineseTranslation) | 🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！ | `ai` `agent` `llm` | Free | 🟢 Fresh | 3.7k |
 | [chatbot](https://github.com/zhaoyingjun/chatbot) | Chatbot继续沿着LLM前进，近期更新小参数量SLM的和训练脚本，支持本地训练。新增ChatAgent,实现各种有实际场景价值的Agent实现。 |  | Free | 🟢 Fresh | 3.6k |
@@ -477,6 +478,7 @@
 | [tvm](https://github.com/apache/tvm) | Open Machine Learning Compiler Framework | `python` `compiler` `deep-learning` | Unknown | 🟢 Fresh | 13.3k |
 | [stable-baselines3](https://github.com/DLR-RM/stable-baselines3) | PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms.  | `python` `baselines` `gsde` | Unknown | 🟢 Fresh | 13.1k |
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | Multi-Joint dynamics with Contact. A general purpose physics simulator. | `c++` | Free | 🟢 Fresh | 13.0k |
+| [claude-skills](https://github.com/alirezarezvani/claude-skills) | 232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory | `claude-code` `agent-plugins` `ai-coding` | Free | 🟢 Fresh | 12.4k |
 | [Portkey AI Gateway](https://github.com/Portkey-AI/gateway) | A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API. | `ai-gateway` `llm` `mcp` | Freemium | 🟡 Recent | 11.3k |
 | [tensorzero](https://github.com/tensorzero/tensorzero) | TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation. | `llm` `llmops` `platform` | Open Source | 🟢 Fresh | 11.2k |
 | [AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |  | Free | 🟢 Fresh | 11.1k |
@@ -770,6 +772,8 @@
 | [samuel-vitorino/lm.rs](https://github.com/samuel-vitorino/lm.rs) | Minimal LLM inference in Rust | `llms-chatbots` `rust` | Free | 🟢 Fresh | 1.0k |
 | [awesome-llm-role-playing-with-persona](https://github.com/Neph0s/awesome-llm-role-playing-with-persona) | Awesome-llm-role-playing-with-persona: a curated list of resources for large language models for role-playing with assigned personas | `llm` | Free | 🟢 Fresh | 1.0k |
 | [burp-ai-agent](https://github.com/six2dez/burp-ai-agent) | Burp Suite extension that adds built-in MCP tooling, AI-assisted analysis, privacy controls, passive and active scanning and more | `ai` `llm` | Free | 🟢 Fresh | 0.9k |
+| [vllm-mlx](https://github.com/waybarrios/vllm-mlx) | OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool calling, and multimodal support. Native MLX backend, 400+ tok/s | `apple-silicon` `llm` `inference` | Free | 🟢 Fresh | 0.9k |
+| [openmed](https://github.com/maziyarpanahi/openmed) | Open-source healthcare AI platform supporting multiple LLMs (BERT, DeepSeek, GPT, LLaMA, Qwen) with on-device and on-premise deployment options | `healthcare` `llm` `on-device` | Free | 🟢 Fresh | 0.9k |
 | [nobodywho-ooo/nobodywho](https://github.com/nobodywho-ooo/nobodywho) | NobodyWho is an inference engine that lets you run LLMs locally and efficiently on any device.   | `llms-chatbots` `rust` | Free | 🟢 Fresh | 0.8k |
 | [GLM-ASR](https://github.com/zai-org/GLM-ASR) | GLM-ASR-Nano: A robust, open-source speech recognition model with 1.5B parameters | `llm` | Free | 🟠 Aging | 0.8k |
 | [EricLBuehler/candle-vllm](https://github.com/EricLBuehler/candle-vllm) | Efficent platform for inference and serving local LLMs including an OpenAI compatible API server. | `llms-chatbots` `rust` `ai` | Free | 🟢 Fresh | 0.6k |
@@ -1039,14 +1043,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 898
+- **Total Tools:** 902
 - **Categories:** 9
 - **Last Updated:** April 23, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 700 tools
+- 🟢 Fresh: 704 tools
 - 🟡 Recent: 70 tools
 - 🟠 Aging: 43 tools
 - 🔴 Stale: 85 tools
