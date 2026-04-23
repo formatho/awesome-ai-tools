@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-23T14:58:43.527926Z",
-    "total_tools": 902,
+    "last_updated": "2026-04-23T20:56:25.139Z",
+    "total_tools": 903,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,7 +15,7 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-23T14:58:43.527934Z"
+    "last_discovery": "2026-04-23T20:56:25.139Z"
   },
   "tools": [
     {
@@ -18548,6 +18548,26 @@
       "added_date": "2026-04-23",
       "verified": true,
       "last_commit_date": "2026-04-23T07:11:36Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms",
+      "category": "Developer Tools",
+      "tags": [
+        "developer-tools",
+        "context",
+        "optimization",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 9354,
+      "language": "TypeScript",
+      "added_date": "2026-04-23",
+      "verified": true,
+      "last_commit_date": null,
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     }
