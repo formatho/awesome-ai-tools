@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-24-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-905-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-909-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,16 +28,16 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp) | Agents & Automation | 🟢 Fresh | April 24, 2026 |
+| [paper2code](https://github.com/PrathamLearnsToCode/paper2code) | Agent skill to turn any arxiv paper into a working implementation | Developer Tools | 🟢 Fresh | April 24, 2026 |
+| [SkillClaw](https://github.com/AMAP-ML/SkillClaw) | Let Skills Evolve Collectively with Agentic Evolver | Agents & Automation | 🟢 Fresh | April 24, 2026 |
+| [open-vibe-island](https://github.com/Octane0411/open-vibe-island) | The open-source alternative to vibe-island, designed for heavy code agent users, supporting cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm | Productivity | 🟢 Fresh | April 24, 2026 |
 | [MinerU](https://github.com/opendatalab/MinerU) | Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agent workflows | Research & Data | 🟢 Fresh | April 24, 2026 |
 | [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! Few-shot voice cloning for text-to-speech | Audio & Music | 🟢 Fresh | April 24, 2026 |
 | [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | DeepSeek V3 - Advanced open source LLM | Open Source Models | 🟢 Fresh | April 23, 2026 |
 | [private-gpt](https://github.com/zylon-ai/private-gpt) | Interact with your documents using power of GPT, 100% privately, no data leaks | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
 | [appwrite](https://github.com/appwrite/appwrite) | Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more | Developer Tools | 🟢 Fresh | April 23, 2026 |
 | [openmed](https://github.com/maziyarpanahi/openmed) | Open-source healthcare AI platform supporting multiple LLMs (BERT, DeepSeek, GPT, LLaMA, Qwen) with on-device and on-premise deployment options | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
-| [vllm-mlx](https://github.com/waybarrios/vllm-mlx) | OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool calling, and multimodal support. Native MLX backend, 400+ tok/s | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
-| [claude-skills](https://github.com/alirezarezvani/claude-skills) | 232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory | Developer Tools | 🟢 Fresh | April 23, 2026 |
-| [hermes-webui](https://github.com/nesquena/hermes-webui) | Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! Web interface for the popular Nous Research Hermes AI agent | Agents & Automation | 🟢 Fresh | April 23, 2026 |
-| [context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms | Developer Tools | 🟢 Fresh | April 23, 2026 |
 
 ---
 
@@ -291,6 +291,7 @@
 | [claude-code](https://github.com/codeaashu/claude-code) | Claude Code implementation and extensions | `development` `claude` `typescript` | Free | 🟢 Fresh | 2.0k |
 | [superglue](https://github.com/superglue-ai/superglue) | superglue (YC W25) builds integrations and tools from natural language. Get production-grade tools for long tail and enterprise systems. | `ai` `agent` `llm` | Free | 🟢 Fresh | 2.0k |
 | [Decepticon](https://github.com/PurpleAILAB/Decepticon) | Autonomous Hacking Agent for Red Team Testing | `agent` | Free | 🟢 Fresh | 2.0k |
+| [hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp) | `agent` `ai-agent` `chat-ui` | Free | 🟢 Fresh | 1.9k |
 | [amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli) | ✨ Agentic chat experience in your terminal. Build applications using natural language. | `llm` `agent` | Free | 🟢 Fresh | 1.9k |
 | [notte](https://github.com/nottelabs/notte) | 🌸 Best framework to build web agents, and deploy serverless web automation functions on reliable browser infra. | `automation` `framework` `agent` | Free | 🟢 Fresh | 1.9k |
 | [FireRed-OpenStoryline](https://github.com/FireRedTeam/FireRed-OpenStoryline) | FireRed-OpenStoryline is an AI video editing agent that transforms manual editing into intention-driven directing through natural language interaction, LLM-powered planning, and precise tool orchestration. It facilitates transparent, human-in-the-loop creation with reusable Style Skills for consistent, professional storytelling. | `agent` `ai` `llm` | Free | 🟢 Fresh | 1.9k |
@@ -328,6 +329,7 @@
 | [agent](https://github.com/xataio/agent) | AI agent expert in PostgreSQL | `ai` `agent` | Free | 🟢 Fresh | 1.1k |
 | [judgeval](https://github.com/JudgmentLabs/judgeval) | The open source post-building layer for agents. Our environment data and evals power agent post-training (RL, SFT) and monitoring. | `ai` `agent` `llm` | Free | 🟢 Fresh | 1.0k |
 | [adk-js](https://github.com/google/adk-js) | An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | `open-source` `sdk` `ai` | Free | 🟢 Fresh | 1.0k |
+| [SkillClaw](https://github.com/AMAP-ML/SkillClaw) | Let Skills Evolve Collectively with Agentic Evolver | `agent` `agentic-ai` `ai-agent` | Free | 🟢 Fresh | 1.0k |
 | [nocturne_memory](https://github.com/Dataojitori/nocturne_memory) | A lightweight, rollbackable, and visual Long-Term Memory Server for MCP Agents. Say goodbye to Vector RAG and amnesia. Empower your AI with persistent, graph-like structured memory across any model, session, or tool. Drop-in replacement for OpenClaw. | `agent` `ai` `llm` | Free | 🟢 Fresh | 1.0k |
 | [claude-code-prompts](https://github.com/repowise-dev/claude-code-prompts) | Claude Code prompt engineering and optimization | `development` `claude` | Free | 🟢 Fresh | 0.9k |
 | [claude-md](https://github.com/iamfakeguru/claude-md) | Markdown-based Claude AI integration tools | `ai` `claude` | Free | 🟡 Recent | 0.9k |
@@ -576,6 +578,7 @@
 | [intelmq](https://github.com/certtools/intelmq) | IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol. | `security` | Free | 🟢 Fresh | 1.1k |
 | [executor](https://github.com/RhysSullivan/executor) | The missing integration layer for AI agents. Let them call any OpenAPI / MCP / GraphQL / custom js functions in secure environment. | `integration` `api` `mcp` | Free | 🟢 Fresh | 1.1k |
 | [ai-hands-on](https://github.com/Ramakm/ai-hands-on) | A group of notebooks  and other files which can help you learn AI from scratch. | `ai` | Free | 🟢 Fresh | 1.1k |
+| [paper2code](https://github.com/PrathamLearnsToCode/paper2code) | Agent skill to turn any arxiv paper into a working implementation | `agent` `claude-code` `skills` | Free | 🟢 Fresh | 1.0k |
 | [Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server) | MCP server for Jupyter notebooks. | `mcp` `jupyter` `notebooks` | Free | 🟡 Recent | 1.0k |
 | [Coca](https://github.com/phodal/coca) | Toolbox for legacy system refactoring and analysis. | `refactoring` `analysis` `code-quality` | Free | 🔴 Stale | 1.0k |
 | [mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh) | CLI MCP package manager and registry. | `mcp` `package-manager` `cli` | Free | 🟡 Recent | 0.9k |
@@ -890,6 +893,7 @@
 | [deepbot](https://github.com/kevinluosl/deepbot) | DeepBot is a system-level AI assistant built for both personal productivity and enterprise workflows — one-click setup, seamless experience, and native Feishu integration. |  | Free | 🟢 Fresh | 1.6k |
 | [OpenSpace](https://github.com/OpenSpace/OpenSpace) | OpenSpace - AI-powered collaborative workspace and team coordination platform | `Collaboration` `Workspace` `AI` | Open Source | 🟢 Fresh | 1.1k |
 | [MTools](https://github.com/HG-ha/MTools) | Desktop app for media processing with AI enhancement. | `desktop` `media` `video` | Free | 🟢 Fresh | 1.0k |
+| [open-vibe-island](https://github.com/Octane0411/open-vibe-island) | The open-source alternative to vibe-island, designed for heavy code agent users, supporting cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm | `agent` `claudecode` `code-island` | Free | 🟢 Fresh | 0.7k |
 | [openclaw-auto-dream](https://github.com/LeoYeAI/openclaw-auto-dream) | OpenClaw automation and dream interpretation tools | `automation` | Free | 🟡 Recent | 0.6k |
 | [AI Infinity](https://github.com/meetpateltech/AI-Infinity) | Collection of AI tools for exploring possibilities. | `collection` `tools` | Free | 🟠 Aging | 0.6k |
 
@@ -1046,14 +1050,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 905
+- **Total Tools:** 909
 - **Categories:** 9
 - **Last Updated:** April 24, 2026
-- **Last Freshness Check:** April 13, 2026
+- **Last Freshness Check:** April 14, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 707 tools
+- 🟢 Fresh: 711 tools
 - 🟡 Recent: 70 tools
 - 🟠 Aging: 43 tools
 - 🔴 Stale: 85 tools
