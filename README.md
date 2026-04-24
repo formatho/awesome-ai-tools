@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-23-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-902-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-24-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-903-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -35,9 +35,9 @@
 | [vllm-mlx](https://github.com/waybarrios/vllm-mlx) | OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool calling, and multimodal support. Native MLX backend, 400+ tok/s | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | 232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory | Developer Tools | 🟢 Fresh | April 23, 2026 |
 | [hermes-webui](https://github.com/nesquena/hermes-webui) | Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! Web interface for the popular Nous Research Hermes AI agent | Agents & Automation | 🟢 Fresh | April 23, 2026 |
+| [context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms | Developer Tools | 🟢 Fresh | April 23, 2026 |
 | [tesseract](https://github.com/tesseract-ocr/tesseract) | Tesseract Open Source OCR Engine (main repository) | Image Generation | 🟢 Fresh | April 22, 2026 |
 | [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability) | The Patterns of Scalable, Reliable, and Performant Large-Scale Systems | Developer Tools | 🔴 Stale | April 22, 2026 |
-| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | Developer Tools | 🟢 Fresh | April 22, 2026 |
 
 ---
 
@@ -486,6 +486,7 @@
 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) |  | `typescript` | Free | 🟢 Fresh | 10.2k |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | OpenVINO™ is an open source toolkit for optimizing and deploying AI inference | `inference` `open-source` `c++` | Free | 🟢 Fresh | 10.1k |
 | [Metaflow](https://github.com/Netflix/metaflow) | Build, Manage and Deploy AI/ML Systems with agent support | `agents` `ai` `aws` | Free | 🟢 Fresh | 10.0k |
+| [context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms | `developer-tools` `context` `optimization` | Free | 🟢 Fresh | 9.4k |
 | [emdash](https://github.com/emdash-cms/emdash) | EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress. | `cms` `typescript` `astro` | Free | 🟢 Fresh | 9.2k |
 | [opencti](https://github.com/OpenCTI-Platform/opencti) | Open Cyber Threat Intelligence Platform | `platform` | Free | 🟢 Fresh | 9.2k |
 | [claude-code-sourcemap](https://github.com/ChinaSiro/claude-code-sourcemap) | Source map utilities for Claude Code development and debugging. | `claude` `sourcemap` `debugging` | Free | 🟡 Recent | 8.8k |
@@ -1043,14 +1044,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 902
+- **Total Tools:** 903
 - **Categories:** 9
 - **Last Updated:** April 23, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 704 tools
+- 🟢 Fresh: 705 tools
 - 🟡 Recent: 70 tools
 - 🟠 Aging: 43 tools
 - 🔴 Stale: 85 tools
