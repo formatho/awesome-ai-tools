@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-24-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-909-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-911-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,8 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode extension or via discord like openclaw | Developer Tools | 🟢 Fresh | April 24, 2026 |
+| [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling | Developer Tools | 🟢 Fresh | April 24, 2026 |
 | [hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp) | Agents & Automation | 🟢 Fresh | April 24, 2026 |
 | [paper2code](https://github.com/PrathamLearnsToCode/paper2code) | Agent skill to turn any arxiv paper into a working implementation | Developer Tools | 🟢 Fresh | April 24, 2026 |
 | [SkillClaw](https://github.com/AMAP-ML/SkillClaw) | Let Skills Evolve Collectively with Agentic Evolver | Agents & Automation | 🟢 Fresh | April 24, 2026 |
@@ -36,8 +38,6 @@
 | [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! Few-shot voice cloning for text-to-speech | Audio & Music | 🟢 Fresh | April 24, 2026 |
 | [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | DeepSeek V3 - Advanced open source LLM | Open Source Models | 🟢 Fresh | April 23, 2026 |
 | [private-gpt](https://github.com/zylon-ai/private-gpt) | Interact with your documents using power of GPT, 100% privately, no data leaks | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
-| [appwrite](https://github.com/appwrite/appwrite) | Appwrite® - complete cloud infrastructure for your web, mobile and AI apps. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime and more | Developer Tools | 🟢 Fresh | April 23, 2026 |
-| [openmed](https://github.com/maziyarpanahi/openmed) | Open-source healthcare AI platform supporting multiple LLMs (BERT, DeepSeek, GPT, LLaMA, Qwen) with on-device and on-premise deployment options | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
 
 ---
 
@@ -500,9 +500,11 @@
 | [kyverno/kyverno](https://github.com/kyverno/kyverno) | Unified Policy as Code | `go` | Free | 🟢 Fresh | 7.7k |
 | [claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin. | `ai` `javascript` | Free | 🟡 Recent | 7.6k |
 | [daijro/camoufox](https://github.com/daijro/camoufox) | 🦊 Anti-detect browser | `browser` `c++` | Free | 🟢 Fresh | 7.5k |
+| [free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode extension or via discord like openclaw | `claude-code` `claude` `vscode-extension` | Free | 🟢 Fresh | 7.3k |
 | [browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp) | Monitor browser logs directly from Cursor and other MCP compatible IDEs. | `javascript` | Free | 🟡 Recent | 7.2k |
 | [autoscraper](https://github.com/alirezamika/autoscraper) | A Smart, Automatic, Fast and Lightweight Web Scraper for Python | `ai` | Free | 🟢 Fresh | 7.1k |
 | [mistral.rs](https://github.com/EricLBuehler/mistral.rs) | Fast, flexible LLM inference | `llm` `inference` `rust` | Free | 🟢 Fresh | 7.0k |
+| [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling | `gemm` `cuda` `inference` | Free | 🟢 Fresh | 7.0k |
 | [pydantic/monty](https://github.com/pydantic/monty) | A minimal, secure Python interpreter written in Rust for use by AI | `rust` | Free | 🟢 Fresh | 6.9k |
 | [PostgresML](https://github.com/postgresml/postgresml) | PostgreSQL extension for building ML/AI applications directly in the database | `ai` `ann` `approximate-nearest-neighbor-search` | Free | 🟢 Fresh | 6.7k |
 | [ANE](https://github.com/maderix/ANE) | Training neural networks on Apple Neural Engine via reverse-engineered private APIs | `ai` `neural-network` `api` | Free | 🟠 Aging | 6.6k |
@@ -1050,14 +1052,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 909
+- **Total Tools:** 911
 - **Categories:** 9
 - **Last Updated:** April 24, 2026
-- **Last Freshness Check:** April 13, 2026
+- **Last Freshness Check:** April 14, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 711 tools
+- 🟢 Fresh: 713 tools
 - 🟡 Recent: 70 tools
 - 🟠 Aging: 43 tools
 - 🔴 Stale: 85 tools
