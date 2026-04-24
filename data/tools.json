@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-23T20:56:25.139Z",
-    "total_tools": 903,
+    "last_updated": "2026-04-24T03:03:00.016Z",
+    "total_tools": 905,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,54 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-23T20:56:25.139Z"
+    "last_discovery": "2026-04-24T03:03:00.016Z"
   },
   "tools": [
+    {
+      "name": "MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agent workflows",
+      "category": "Research & Data",
+      "tags": [
+        "document-analysis",
+        "pdf",
+        "ocr",
+        "parser",
+        "rag",
+        "llm",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 61024,
+      "language": "Python",
+      "added_date": "2026-04-24",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "GPT-SoVITS",
+      "url": "https://github.com/RVC-Boss/GPT-SoVITS",
+      "description": "1 min voice data can also be used to train a good TTS model! Few-shot voice cloning for text-to-speech",
+      "category": "Audio & Music",
+      "tags": [
+        "tts",
+        "voice-clone",
+        "voice-cloning",
+        "text-to-speech",
+        "python",
+        "audio"
+      ],
+      "pricing": "Free",
+      "stars": 56922,
+      "language": "Python",
+      "added_date": "2026-04-24",
+      "verified": true,
+      "last_commit_date": null,
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
+    },
     {
       "name": "DeepSeek-V3",
       "url": "https://github.com/deepseek-ai/DeepSeek-V3",
