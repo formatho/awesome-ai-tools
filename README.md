@@ -8,7 +8,8 @@
 
 **Star this repo** ⭐ to get updates whenever we add new tools. Join the discussion in [GitHub Discussions](https://github.com/formatho/awesome-ai-tools/discussions) to share your favorites!
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-23-blue)](https://github.com/formatho/awesome-ai-tools)
+[![GitHub Stars](https://img.shields.io/badge/Stars-9-blue)](https://github.com/formatho/awesome-ai-tools/stargazers)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-25-blue)](https://github.com/formatho/awesome-ai-tools)
 [![Total Tools](https://img.shields.io/badge/Tools-352-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -590,8 +591,9 @@ Top 10 by GitHub stars:
 
 - **Total Tools:** 350+
 - **Categories:** 9
-- **Last Updated:** April 23, 2026
-- **Last Freshness Check:** April 23, 2026
+- **Last Updated:** April 25, 2026
+- **Stars:** 9 ⭐
+- **Target:** 1,000 stars
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
@@ -601,7 +603,8 @@ Top 10 by GitHub stars:
 - 🔴 Stale: 40+ tools
 
 **Community Metrics:**
-- ⭐ Stars: 8 (help us grow!)
+- ⭐ Stars: 9 ⭐ (help us grow!)
+- 🎯 Target: 1,000 stars (need +991)
 - 🔄 Updates: 4x daily (auto-discovery + freshness check)
 - 🌐 Featured in: GitHub, Product Hunt, Reddit
 
