@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-24-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-911-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-25-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-1098-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,16 +28,16 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
-| [free-claude-code](https://github.com/Alishahryar1/free-claude-code) | Use claude-code for free in the terminal, VSCode extension or via discord like openclaw | Developer Tools | 🟢 Fresh | April 24, 2026 |
-| [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling | Developer Tools | 🟢 Fresh | April 24, 2026 |
-| [hermes-web-ui](https://github.com/EKKOLearnAI/hermes-web-ui) | Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp) | Agents & Automation | 🟢 Fresh | April 24, 2026 |
-| [paper2code](https://github.com/PrathamLearnsToCode/paper2code) | Agent skill to turn any arxiv paper into a working implementation | Developer Tools | 🟢 Fresh | April 24, 2026 |
-| [SkillClaw](https://github.com/AMAP-ML/SkillClaw) | Let Skills Evolve Collectively with Agentic Evolver | Agents & Automation | 🟢 Fresh | April 24, 2026 |
-| [open-vibe-island](https://github.com/Octane0411/open-vibe-island) | The open-source alternative to vibe-island, designed for heavy code agent users, supporting cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm | Productivity | 🟢 Fresh | April 24, 2026 |
-| [MinerU](https://github.com/opendatalab/MinerU) | Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agent workflows | Research & Data | 🟢 Fresh | April 24, 2026 |
-| [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) | 1 min voice data can also be used to train a good TTS model! Few-shot voice cloning for text-to-speech | Audio & Music | 🟢 Fresh | April 24, 2026 |
-| [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) | DeepSeek V3 - Advanced open source LLM | Open Source Models | 🟢 Fresh | April 23, 2026 |
-| [private-gpt](https://github.com/zylon-ai/private-gpt) | Interact with your documents using power of GPT, 100% privately, no data leaks | LLMs & Chatbots | 🟢 Fresh | April 23, 2026 |
+| [Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | Easily train a good VC model with voice data <= 10 mins! | Audio & Music | 🔴 Stale | April 24, 2026 |
+| [InvokeAI](https://github.com/invoke-ai/InvokeAI) | Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products. | Image Generation | 🟢 Fresh | April 24, 2026 |
+| [ncnn](https://github.com/Tencent/ncnn) | ncnn is a high-performance neural network inference framework optimized for the mobile platform | Open Source Models | 🟢 Fresh | April 24, 2026 |
+| [prefect](https://github.com/PrefectHQ/prefect) | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. | Agents & Automation | 🟢 Fresh | April 24, 2026 |
+| [whisperX](https://github.com/m-bain/whisperX) | WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization) | Audio & Music | 🟡 Recent | April 24, 2026 |
+| [MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) | 《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients. | Productivity | 🟢 Fresh | April 24, 2026 |
+| [readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | Developer Tools | 🟢 Fresh | April 24, 2026 |
+| [ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & 1158+ languages! | Audio & Music | 🟢 Fresh | April 24, 2026 |
+| [livekit](https://github.com/livekit/livekit) | End-to-end realtime stack for connecting humans and AI | Developer Tools | 🟢 Fresh | April 24, 2026 |
+| [NeMo](https://github.com/NVIDIA-NeMo/NeMo) | A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech) | Audio & Music | 🟢 Fresh | April 24, 2026 |
 
 ---
 
@@ -138,6 +138,7 @@
 | [apify/crawlee](https://github.com/apify/crawlee) | Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation. | `agents-automation` `typescript` `ai` | Free | 🟢 Fresh | 22.9k |
 | [serena](https://github.com/oraios/serena) | A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent | `ai` `agent` | Free | 🟢 Fresh | 22.9k |
 | [OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving. | `agent` `ai` `llm` | Free | 🟢 Fresh | 22.3k |
+| [prefect](https://github.com/PrefectHQ/prefect) | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. | `python` `framework` | Free | 🟢 Fresh | 22.2k |
 | [stagehand](https://github.com/browserbase/stagehand) | The SDK For Browser Agents | `typescript` `agents` `llms` | Unknown | 🟢 Fresh | 22.1k |
 | [letta](https://github.com/letta-ai/letta) | Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time. | `ai` `agent` `memory` | Free | 🟢 Fresh | 22.1k |
 | [activepieces/activepieces](https://github.com/activepieces/activepieces) | AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents | `agents-automation` `typescript` `ai` | Free | 🟢 Fresh | 21.8k |
@@ -183,7 +184,9 @@
 | [multica](https://github.com/multica-ai/multica) | The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills. | `agents` `multi-agent` `teammates` | Free | 🟢 Fresh | 14.7k |
 | [botpress](https://github.com/botpress/botpress) | The open-source hub to build & deploy GPT/LLM Agents | `agent` `chatbot` `llm` | Free | 🟢 Fresh | 14.6k |
 | [trigger.dev](https://github.com/triggerdotdev/trigger.dev) | Trigger.dev – build and deploy fully‑managed AI agents and workflows | `agent` `workflow` `automation` | Free | 🟢 Fresh | 14.6k |
+| [unstructured](https://github.com/Unstructured-IO/unstructured) | Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding. | `html` | Free | 🟢 Fresh | 14.6k |
 | [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy. | `ai-agents` `game-development` `claude-code` | Free | 🟡 Recent | 14.4k |
+| [cua](https://github.com/trycua/cua) | Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows). | `html` `ai` `agent` | Free | 🟢 Fresh | 13.9k |
 | [SurfSense](https://github.com/MODSetter/SurfSense) | An open source, privacy focused alternative to NotebookLM for teams with no data limit's. Join our Discord: https://discord.gg/ejRNvftDp9 | `ai` `agent` `python` | Free | 🟢 Fresh | 13.8k |
 | [colleague-skill](https://github.com/titanwings/colleague-skill) | 将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills - AI skill development framework. | `skill` `ai` `digital-life` | Free | 🟢 Fresh | 13.7k |
 | [casdoor](https://github.com/casdoor/casdoor) | An open-source Agent-first Identity and Access Management (IAM) /LLM MCP & agent gateway and auth server with web UI supporting OpenClaw, MCP, OAuth, OIDC, SAML, CAS, LDAP, SCIM, WebAuthn, TOTP, MFA, Face ID, Google Workspace, Azure AD | `go` `agent` `agentic-ai` | Unknown | 🟢 Fresh | 13.4k |
@@ -195,6 +198,7 @@
 | [bisheng](https://github.com/dataelement/bisheng) | BISHENG is an open LLM devops platform for next generation Enterprise AI applications. Powerful and comprehensive features include: GenAI workflow, RAG, Agent, Unified model management, Evaluation, SF | `platform` `llm` `ai` | Paid | 🟢 Fresh | 11.3k |
 | [tambo](https://github.com/tambo-ai/tambo) | Generative UI SDK for React | `ai` `agent` `agents` | Free | 🟢 Fresh | 11.1k |
 | [bytebot](https://github.com/bytebot-ai/bytebot) | Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment. | `agent` `ai` | Free | 🔴 Stale | 10.8k |
+| [hyperframes](https://github.com/heygen-com/hyperframes) | Write HTML. Render video. Built for agents. | `typescript` `ml` `agent` | Free | 🟢 Fresh | 10.3k |
 | [hive](https://github.com/aden-hive/hive) | Multi-Agent Harness for Production AI | `python` `agent` `agent-framework` | Unknown | 🟢 Fresh | 10.1k |
 | [astron-agent](https://github.com/iflytek/astron-agent) | Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents. | `agent` `rag` | Free | 🟢 Fresh | 9.6k |
 | [open-swe](https://github.com/langchain-ai/open-swe) | An Open-Source Asynchronous Coding Agent | `open-source` `agent` | Free | 🟢 Fresh | 9.6k |
@@ -204,12 +208,16 @@
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | Taste-Skill (High-Agency Frontend) - gives your AI good taste. stops the AI from generating boring, generic, "slop"  | `ai` `agent` `coding` | Free | 🟢 Fresh | 9.1k |
 | [deeplake](https://github.com/activeloopai/deeplake) | Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training. | `ai` `agent` | Free | 🟢 Fresh | 9.1k |
 | [claurst](https://github.com/Kuberwastaken/claurst) | Claude AI implementation in Rust | `ai` `claude` `rust` | Free | 🟢 Fresh | 9.0k |
+| [karate](https://github.com/karatelabs/karate) | Test Automation Made Simple | `java` `automation` | Free | 🟢 Fresh | 8.8k |
 | [Crucix](https://github.com/calesthio/Crucix) | Your personal intelligence agent. Watches the world from multiple data sources and pings you when something changes. | `agent` `javascript` | Free | 🟡 Recent | 8.8k |
 | [MobileAgent](https://github.com/X-PLUG/MobileAgent) |  Mobile-Agent: The Powerful GUI Agent Family | `python` `agent` `android` | Unknown | 🟢 Fresh | 8.5k |
 | [UFO](https://github.com/microsoft/UFO) | UFO³: Weaving the Digital Agent Galaxy | `python` `agent` `automation` | Unknown | 🟢 Fresh | 8.5k |
 | [MemOS](https://github.com/MemTensor/MemOS) | AI memory OS for LLM and Agent systems(moltbot,clawdbot,openclaw), enabling persistent Skill memory for cross-task skill reuse and evolution. | `python` `agent` `agent-memory` | Unknown | 🟢 Fresh | 8.4k |
 | [voltagent](https://github.com/VoltAgent/voltagent) | AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework | `ai` `agent` `llm` | Free | 🟢 Fresh | 8.2k |
+| [moonshine](https://github.com/moonshine-ai/moonshine) | Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces | `c` `agent` `voice` | Free | 🟢 Fresh | 7.8k |
 | [Upsonic](https://github.com/Upsonic/Upsonic) | Build autonomous AI agents in Python. | `python` `agent` `agent-framework` | Unknown | 🟢 Fresh | 7.8k |
+| [Vision-Agents](https://github.com/GetStream/Vision-Agents) | Open Vision Agents by Stream. Build voice and vision agents quickly with any model or video provider. Uses Stream's edge network for ultra-low latency. | `python` `agent` `vision` | Free | 🟢 Fresh | 7.7k |
+| [agent-squad](https://github.com/2FastLabs/agent-squad) | Flexible and powerful framework for managing multiple AI agents and handling complex conversations | `python` `ai` `agent` | Free | 🟢 Fresh | 7.6k |
 | [yao](https://github.com/YaoApp/yao) | ✨ Yao is a single-binary runtime to build and run autonomous agents — no Python, no Node.js, just define the role. | `ai` `agent` `python` | Free | 🟢 Fresh | 7.5k |
 | [refly](https://github.com/refly-ai/refly) | The first open-source agent skills builder. Define skills by vibe workflow, run on Claude Code, Cursor, Codex & more. Build Clawdbot 🦞· APIs for Lovable · Bots for Slack & Lark/Feishu · Skills are infrastructure, not prompts. | `typescript` `agent` `agent-skills` | Unknown | 🟡 Recent | 7.2k |
 | [XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) | 智能闲鱼客服机器人系统：专为闲鱼平台打造的AI值守解决方案，实现闲鱼平台7×24小时自动化值守，支持多专家协同决策、智能议价和上下文感知对话。 |  | Free | 🟢 Fresh | 7.0k |
@@ -218,10 +226,12 @@
 | [yn](https://github.com/purocean/yn) | A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement. | `typescript` `agent` `chatgpt` | Unknown | 🟢 Fresh | 6.6k |
 | [ClawX](https://github.com/ValueCell-ai/ClawX) | ClawX is a desktop app that provides a graphical interface for OpenClaw AI agents. It turns CLI-based AI orchestration into a desktop experience without using the terminal. China website is https://cl | `ai` `agent` `cli` | Free | 🟢 Fresh | 6.6k |
 | [SuperPrompt](https://github.com/NeoVertex1/SuperPrompt) | SuperPrompt is an attempt to engineer prompts that might help us understand AI agents. | `agent` `ai` | Free | 🔴 Stale | 6.4k |
+| [plano](https://github.com/katanemo/plano) | Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic. | `rust` `ai` `llm` | Free | 🟢 Fresh | 6.4k |
 | [airweave](https://github.com/airweave-ai/airweave) | Open-source context retrieval layer for AI agents | `ai` `agent` `llm` | Free | 🟢 Fresh | 6.2k |
 | [TaskWeaver](https://github.com/microsoft/TaskWeaver) | The first "code-first" agent framework for seamlessly planning and executing data analytics tasks.  | `python` `agent` `ai-agents` | Unknown | 🟡 Recent | 6.1k |
 | [astron-rpa](https://github.com/iflytek/astron-rpa) | Agent-ready RPA suite with out-of-the-box automation tools. Built for individuals and enterprises. | `automation` `agent` | Paid | 🟢 Fresh | 6.1k |
 | [jaaz](https://github.com/11cafe/jaaz) | The world's first open-source multimodal creative assistant  This is a substitute for Canva and Manus that prioritizes privacy and is usable locally. | `ai` `agent` `open-source` | Free | 🟡 Recent | 6.1k |
+| [ChatLab](https://github.com/ChatLab/ChatLab) | Rediscover your social memories with local, AI-powered analysis. 本地化的聊天记录分析工具，通过 AI Agent 回顾你的社交记忆。 | `typescript` `ai` `agent` | Free | 🟢 Fresh | 6.1k |
 | [caveman](https://github.com/caveman/caveman) | Caveman - AI-powered workflow automation and task management system | `Workflow` `Automation` `AI` | Open Source | 🟢 Fresh | 6.0k |
 | [DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities | `ai` `agent` `automation` | Free | 🟢 Fresh | 5.9k |
 | [superradcompany/microsandbox](https://github.com/superradcompany/microsandbox) | 🧱 secure, local and programmable sandboxes for AI agents | `agent` `ai-agents` `local` | Free | 🟢 Fresh | 5.7k |
@@ -242,6 +252,7 @@
 | [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) | AutoRAG: An Open-Source Framework for Retrieval-Augmented Generation (RAG) Evaluation & Optimization with AutoML-Style Automation | `llm` `open-source` `python` | Free | 🟢 Fresh | 4.7k |
 | [MaiBot](https://github.com/Mai-with-u/MaiBot) | MaiSaka, an LLM-based intelligent agent, is a digital lifeform devoted to understanding you and interacting in the style of a real human. She does not pursue perfection, nor does she seek efficiency; instead, she values warmth, authenticity, and genuine connection. |  | Free | 🟢 Fresh | 4.6k |
 | [Integuru](https://github.com/Integuru-AI/Integuru) | The first AI agent that builds permissionless integrations through reverse engineering platforms' internal APIs. | `ai` `agent` `llm` | Free | 🟢 Fresh | 4.6k |
+| [casibase](https://github.com/casibase/casibase) | ⚡️AI Cloud OS: Open-source enterprise-level AI knowledge base and MCP (model-context-protocol)/A2A (agent-to-agent) management platform with admin UI, user management and Single-Sign-On⚡️, supports ChatGPT, Claude, Llama, Ollama, HuggingFace, etc., chat bot demo: https://ai.casibase.com, admin UI demo: https://ai-admin.casibase.com | `go` `ai` `gpt` | Free | 🟢 Fresh | 4.5k |
 | [byterover-cli](https://github.com/campfirein/byterover-cli) | ByteRover CLI (brv) - The portable memory layer for autonomous coding agents (formerly Cipher) | `memory` `cli` `agents` | Free | 🟢 Fresh | 4.5k |
 | [lukilabs/craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) |  | `typescript` | Free | 🟢 Fresh | 4.5k |
 | [ex-skill](https://github.com/therealXiaomanChu/ex-skill) | Expert system AI skill development framework | `ai` `python` | Free | 🟢 Fresh | 4.4k |
@@ -251,23 +262,32 @@
 | [gptme](https://github.com/gptme/gptme) | Your agent in your terminal, equipped with local tools: writes code, uses the terminal, browses the web. Make your own persistent autonomous agent on top! |  | Free | 🟢 Fresh | 4.3k |
 | [mission-control](https://github.com/builderz-labs/mission-control) | Self-hosted AI agent orchestration platform: dispatch tasks, run multi-agent workflows, monitor spend, and govern operations from one mission control dashboard. | `ai` `agent` `llm` | Free | 🟢 Fresh | 4.1k |
 | [MemMachine](https://github.com/MemMachine/MemMachine) | Universal memory layer for AI Agents. It provides scalable, extensible, and interoperable memory storage and retrieval to streamline AI agent state management for next-generation autonomous systems. | `rag` `ai` `agent` | Free | 🟢 Fresh | 4.1k |
+| [koog](https://github.com/JetBrains/koog) | Koog is a JVM (Java and Kotlin) framework for building predictable, fault-tolerant and enterprise-ready AI agents across all platforms – from backend services to Android and iOS, JVM, and even in-browser environments. Koog is based on our AI products expertise and provides proven solutions for complex LLM and AI problems | `kotlin` `ai` `llm` | Free | 🟢 Fresh | 4.1k |
 | [Operit](https://github.com/AAswordman/Operit) | The most powerful AI agent and AI chat software on Android/Operit是一款Android上能力最为强大的AI Agent | `ai` `agent` | Free | 🟢 Fresh | 4.1k |
 | [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | DeepAnalyze is the first agentic LLM for autonomous data science. 🎈你的AI数据分析师，自动分析大量数据，一键生成专业分析报告！ | `llm` `ai` `agent` | Free | 🟢 Fresh | 4.0k |
 | [vercel-labs/open-agents](https://github.com/vercel-labs/open-agents) | An open source template for building cloud agents. | `agent` `agents` `ai` | Free | 🟢 Fresh | 4.0k |
+| [ruby_llm](https://github.com/crmne/ruby_llm) | One beautiful Ruby API for OpenAI, Anthropic, Gemini, Bedrock, Azure, OpenRouter, DeepSeek, Ollama, VertexAI, Perplexity, Mistral, xAI, GPUStack & OpenAI compatible APIs. Agents, Chat, Vision, Audio, PDF, Images, Embeddings, Tools, Streaming & Rails integration. | `ruby` `ai` `llm` | Free | 🟡 Recent | 3.9k |
 | [autoagent](https://github.com/autoagent/autoagent) | AutoAgent - AI-powered autonomous agent framework for complex task automation | `AI Agent` `Automation` `Framework` | Open Source | 🟢 Fresh | 3.8k |
 | [hermes-webui](https://github.com/nesquena/hermes-webui) | Hermes WebUI: The best way to use Hermes Agent from the web or from your phone! Web interface for the popular Nous Research Hermes AI agent | `agent` `ai-agents` `hermes` | Free | 🟢 Fresh | 3.8k |
 | [maestro](https://github.com/Netflix/maestro) | Maestro: Netflix’s Workflow Orchestrator | `ai` | Free | 🟢 Fresh | 3.8k |
 | [OpenClawChineseTranslation](https://github.com/1186258278/OpenClawChineseTranslation) | 🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！ | `ai` `agent` `llm` | Free | 🟢 Fresh | 3.7k |
 | [chatbot](https://github.com/zhaoyingjun/chatbot) | Chatbot继续沿着LLM前进，近期更新小参数量SLM的和训练脚本，支持本地训练。新增ChatAgent,实现各种有实际场景价值的Agent实现。 |  | Free | 🟢 Fresh | 3.6k |
+| [Amazing-Python-Scripts](https://github.com/avinashkranjan/Amazing-Python-Scripts) | 🚀 Curated collection of Amazing Python scripts from Basics to Advance with automation task scripts. | `jupyter notebook` `automation` `python` | Free | 🟠 Aging | 3.5k |
 | [GenericAgent](https://github.com/lsdefine/GenericAgent) | Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption | `ai-agent` `automation` `autonomous-agent` | Free | 🟢 Fresh | 3.5k |
 | [khazix-skills](https://github.com/KKKKhazix/khazix-skills) | AI-powered skills for Khazix autonomous agent | `agent` `skills` `automation` | Free | 🟢 Fresh | 3.5k |
 | [wanwu](https://github.com/UnicomAI/wanwu) | China Unicom's Yuanjing Wanwu Agent Platform is an enterprise-grade, multi-tenant AI agent development platform. It helps users build applications such as intelligent agents, workflows, and rag, and a | `rag` `platform` `ai` | Paid | 🟢 Fresh | 3.4k |
 | [ii-agent](https://github.com/Intelligent-Internet/ii-agent) | II-Agent: a new open-source framework to build and deploy intelligent agents | `framework` `open-source` `agent` | Free | 🟢 Fresh | 3.3k |
+| [solace-agent-mesh](https://github.com/SolaceLabs/solace-agent-mesh) | An event-driven framework designed to build and orchestrate multi-agent AI systems. It enables seamless integration of AI agents with real-world data sources and systems, facilitating complex, multi-step workflows. | `python` `ai` `ml` | Free | 🟢 Fresh | 3.3k |
+| [neo](https://github.com/neomjs/neo) | The Application Engine for the AI Era. A multi-threaded, AI-native runtime with a persistent Scene Graph, enabling AI agents to introspect and mutate the living application structure in real-time. | `javascript` `ai` `agent` | Free | 🟢 Fresh | 3.2k |
 | [AGiXT](https://github.com/Josh-XT/AGiXT) | AGiXT is a dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers. Combining adaptive memory, smart features, a | `platform` `automation` `ai` | Free | 🟢 Fresh | 3.2k |
+| [OpenMontage](https://github.com/calesthio/OpenMontage) | World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio. | `python` `ai` `agent` | Free | 🟢 Fresh | 3.1k |
 | [claude-devtools](https://github.com/matt1398/claude-devtools) | The missing DevTools for Claude Code — inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source. | `agent` `ai` `llm` | Free | 🟢 Fresh | 3.1k |
+| [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai. | `shell` `ai` `agent` | Free | 🟡 Recent | 3.1k |
 | [core](https://github.com/cheshire-cat-ai/core) | AI agent microservice | `ai` `agent` | Free | 🟢 Fresh | 3.0k |
 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more | `agent` `ai` `llm` | Free | 🟢 Fresh | 3.0k |
+| [goclaw](https://github.com/nextlevelbuilder/goclaw) | GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native concurrency. Deploy AI agent teams at scale without compromising on safety. | `go` `ai` `agent` | Free | 🟢 Fresh | 2.9k |
 | [spiceai/spiceai](https://github.com/spiceai/spiceai) | A portable accelerated SQL query, search, and LLM-inference engine, written in Rust, for data-grounded AI apps and agents. | `agents-automation` `rust` `ai` | Free | 🟢 Fresh | 2.9k |
+| [Maestro](https://github.com/RunMaestro/Maestro) | Agent Orchestration Command Center | `typescript` `agent` | Free | 🟢 Fresh | 2.8k |
 | [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) | Self-evolving ecosystem of AI agents. | `agent` `self-evolving` `ecosystem` | Free | 🟢 Fresh | 2.7k |
 | [claude-code-book](https://github.com/lintsinghua/claude-code-book) | Complete guide to Claude Code development | `development` `claude` | Free | 🟢 Fresh | 2.6k |
 | [cc-gateway](https://github.com/motiful/cc-gateway) | Claude Code gateway and integration tools | `development` `claude` `typescript` | Free | 🟡 Recent | 2.6k |
@@ -281,12 +301,15 @@
 | [magentic](https://github.com/jackmpcollins/magentic) | Seamlessly integrate LLMs as Python functions | `llm` `agent` | Free | 🟢 Fresh | 2.4k |
 | [camofox-browser](https://github.com/jo-inc/camofox-browser) | Headless browser automation server for AI agents to visit sites that are usually blocked | `browser` `automation` `agent` | Free | 🟡 Recent | 2.4k |
 | [instill-core](https://github.com/instill-ai/instill-core) | 🔮 Instill Core is a full-stack AI infrastructure tool for data, model and pipeline orchestration, designed to streamline every aspect of building versatile AI-first applications | `ai` `llm` `open-source` | Free | 🟢 Fresh | 2.3k |
+| [ComfyUI-to-Python-Extension](https://github.com/pydn/ComfyUI-to-Python-Extension) | A powerful tool that translates ComfyUI workflows into executable Python code. | `python` `tool` | Free | 🟢 Fresh | 2.3k |
 | [agentic-ai-prompt-research](https://github.com/Leonxlnx/agentic-ai-prompt-research) | AI-powered prompt engineering and research tools | `ai` `agent` | Free | 🟡 Recent | 2.3k |
+| [holmesgpt](https://github.com/HolmesGPT/holmesgpt) | SRE Agent - CNCF Sandbox Project | `python` `gpt` `agent` | Free | 🟢 Fresh | 2.3k |
 | [Marktechpost/AI-Agents-Projects-Tutorials](https://github.com/Marktechpost/AI-Agents-Projects-Tutorials) | Multi-agent systems, memory, planning, reasoning loops | `agent` `ai-agents` `jupyter-notebook` | Free | 🟢 Fresh | 2.3k |
 | [agentUniverse](https://github.com/agentuniverse-ai/agentUniverse) | agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications.  | `llm` `framework` `agent` | Free | 🟢 Fresh | 2.2k |
 | [DeepScientist](https://github.com/ResearAI/DeepScientist) | Now, Stronger AI Pushes Frontiers, Stronger Our Shared Future. | `agent` `research` `ai` | Free | 🟢 Fresh | 2.2k |
 | [nestia](https://github.com/samchon/nestia) | NestJS Helper + AI Chatbot Development | `ai` | Free | 🟢 Fresh | 2.1k |
 | [agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine) | 🧠 Make your agents learn from experience. Now available as a hosted solution at kayba.ai | `agent` `learning` `experience` | Open Source | 🟢 Fresh | 2.1k |
+| [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required. | `c#` `ai` `agent` | Free | 🟢 Fresh | 2.1k |
 | [opensre](https://github.com/Tracer-Cloud/opensre) | Build your own AI SRE agents. The open source toolkit for the AI era ✨ | `ai-sre` `alerting` `datadog` | Free | 🟢 Fresh | 2.1k |
 | [claude-code](https://github.com/codeaashu/claude-code) | Claude Code implementation and extensions | `development` `claude` `typescript` | Free | 🟢 Fresh | 2.0k |
 | [superglue](https://github.com/superglue-ai/superglue) | superglue (YC W25) builds integrations and tools from natural language. Get production-grade tools for long tail and enterprise systems. | `ai` `agent` `llm` | Free | 🟢 Fresh | 2.0k |
@@ -302,6 +325,8 @@
 | [tradingview-mcp](https://github.com/tradesdontlie/tradingview-mcp) | TradingView MCP (Market Profile Chart) AI integration | `ai` | Free | 🟡 Recent | 1.7k |
 | [DATAGEN](https://github.com/starpig1129/DATAGEN) | DATAGEN: AI-driven multi-agent research assistant automating hypothesis generation, data analysis, and report writing.  | `ai` `agent` | Free | 🟢 Fresh | 1.7k |
 | [thepopebot](https://github.com/stephengpope/thepopebot) | The Pope Bot is an autonomous AI agent that you can configure and build to do just about anything you want, all day, everyday, 24/7. | `agent` `autonomous` `ai-bot` | Free | 🟢 Fresh | 1.7k |
+| [mux](https://github.com/coder/mux) | A desktop app for isolated, parallel agentic development | `typescript` `agent` | Free | 🟢 Fresh | 1.7k |
+| [tinyfish-cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | A collection of sample apps and recipes built with the TinyFish web agent. Open-source examples for you to learn & build! | `typescript` `agent` | Free | 🟢 Fresh | 1.7k |
 | [agent-of-empires](https://github.com/njbrake/agent-of-empires) | Manage your Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding | `agent` `management` `tui` | Free | 🟢 Fresh | 1.6k |
 | [ragent](https://github.com/nageoffer/ragent) | 企业级 Agentic RAG 智能体 - 全链路覆盖文档解析、多路检索、意图识别、问题重写、会话记忆、MCP 工具调用与深度思考。面向真实业务场景，从 0 到 1 完整工程实现。 | `rag` `agent` | Free | 🟢 Fresh | 1.6k |
 | [cultivation-world-simulator](https://github.com/4thfever/cultivation-world-simulator) | 基于 AI Agent 工作流的修仙世界模拟器，旨在还原智能、开放的仙侠世界。| An open-source Cultivation World Simulator using Agentic Workflow to create a dynamic, emerging Xianxia world.  | `ai` `agent` `llm` | Free | 🟢 Fresh | 1.6k |
@@ -309,7 +334,9 @@
 | [lemonai](https://github.com/hexdocom/lemonai) | Lemon AI is the first Full-stack Open-source Self-Evolving General AI Agent, offering a fully local alternative to Agentic platforms like Manus & Genspark AI.🔔 Official updates   X(twitter) @LemonAI_c | `open-source` `platform` `ai` | Free | 🟢 Fresh | 1.5k |
 | [TuyaOpen](https://github.com/tuya/TuyaOpen) | Next-gen AI+IoT framework for T2/T3/T5AI/ESP32/and more – Fast IoT and AI Agent hardware integration | `framework` `ai` `agent` | Free | 🟢 Fresh | 1.5k |
 | [adk-java](https://github.com/google/adk-java) | An open-source, code-first Java toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control. | `open-source` `sdk` `ai` | Free | 🟢 Fresh | 1.5k |
+| [paperdebugger](https://github.com/PaperDebugger/paperdebugger) | A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing | `typescript` `agent` | Free | 🟢 Fresh | 1.4k |
 | [agentfield](https://github.com/Agent-Field/agentfield) | Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one. | `ai` `agent` | Free | 🟢 Fresh | 1.4k |
+| [agi](https://github.com/hyperspaceai/agi) | The first distributed AGI system. Thousands of autonomous AI agents collaboratively train models, share experiments via P2P gossip, and push breakthroughs here. Fully peer-to-peer. Join from your browser or CLI. | `ai` `agent` `go` | Free | 🟢 Fresh | 1.4k |
 | [claude-code](https://github.com/tanbiralam/claude-code) | Claude Code implementation and extensions | `development` `claude` `typescript` | Free | 🟡 Recent | 1.4k |
 | [Terminator](https://github.com/mediar-ai/terminator) | Playwright for windows computer use | `agent` `agents` `ai` | Free | 🟡 Recent | 1.4k |
 | [AIlice](https://github.com/myshell-ai/AIlice) | AIlice is a fully autonomous, general-purpose AI agent. | `ai` `agent` | Free | 🟢 Fresh | 1.4k |
@@ -319,12 +346,15 @@
 | [HyperAgent](https://github.com/hyperbrowserai/HyperAgent) | AI Browser Automation | `automation` `browser` `ai` | Free | 🟢 Fresh | 1.3k |
 | [AutoHedge](https://github.com/The-Swarm-Corporation/AutoHedge) | Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution. | `agent` `automation` `ai` | Free | 🟢 Fresh | 1.2k |
 | [Autonomous-Agents](https://github.com/tmgthb/Autonomous-Agents) | Autonomous Agents (LLMs) research papers. Updated Daily. | `llm` `ai` `agent` | Free | 🟢 Fresh | 1.2k |
+| [gaia](https://github.com/amd/gaia) | Build AI agents for your PC | `python` `ai` `agent` | Free | 🟢 Fresh | 1.2k |
 | [OpenGenerativeUI](https://github.com/CopilotKit/OpenGenerativeUI) | Open-Source Generative UI Framework | `ai` `agent` `llm` | Free | 🟢 Fresh | 1.1k |
 | [Claude-Code-Source-Study](https://github.com/luyao618/Claude-Code-Source-Study) | Comprehensive study of Claude Code source code | `development` `claude` | Free | 🟡 Recent | 1.1k |
 | [agents-flex](https://github.com/agents-flex/agents-flex) | Agents-flex is A Lightweight Java AI Application Development Framework. | `framework` `ai` `agent` | Free | 🟢 Fresh | 1.1k |
 | [SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) | Effortlessly request recommended movies, TV shows and anime to Jellyseer/Overseer based on your recently watched content on Jellyfin, Plex or Emby—let SuggestArr handle it all automatically, keeping y | `ai` `llm` `open-source` | Free | 🟢 Fresh | 1.1k |
+| [agents](https://github.com/inkeep/agents) | Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows. | `typescript` `ai` `agent` | Free | 🟢 Fresh | 1.1k |
 | [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | trpc-agent-go is a powerful Go framework for building intelligent agent systems using large language models (LLMs) and tools. | `llm` `framework` `agent` | Free | 🟢 Fresh | 1.1k |
 | [flock](https://github.com/Onelevenvy/flock) | Flock is a workflow-based low-code platform for rapidly building chatbots, RAG, and coordinating multi-agent teams, powered by LangGraph, Langchain, FastAPI, and NextJS.（Flock 是一个基于workflow工作流的低代码平台，用 | `rag` `platform` `ai` | Free | 🟢 Fresh | 1.1k |
+| [bitterbot-desktop](https://github.com/Bitterbot-AI/bitterbot-desktop) | A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy. | `typescript` `ai` `agent` | Free | 🟢 Fresh | 1.1k |
 | [thereisnospoon](https://github.com/dreddnafious/thereisnospoon) | AI-powered data analysis and machine learning tools | `ai` `python` | Free | 🟡 Recent | 1.1k |
 | [agent](https://github.com/xataio/agent) | AI agent expert in PostgreSQL | `ai` `agent` | Free | 🟢 Fresh | 1.1k |
 | [judgeval](https://github.com/JudgmentLabs/judgeval) | The open source post-building layer for agents. Our environment data and evals power agent post-training (RL, SFT) and monitoring. | `ai` `agent` `llm` | Free | 🟢 Fresh | 1.0k |
@@ -355,28 +385,60 @@
 | [VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI | `voice-ai` `speech` `microsoft` | Free | 🟢 Fresh | 39.3k |
 | [ChatTTS](https://github.com/2noise/ChatTTS) | Generative speech model for daily dialogue. | `tts` `speech` `open-source` | Free | 🟢 Fresh | 39.1k |
 | [ VibeVoice](https://github.com/microsoft / VibeVoice) | Open-Source Frontier Voice AI | `Audio` | Open Source | 🟢 Fresh | 36.9k |
+| [Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI) | Easily train a good VC model with voice data <= 10 mins! | `python` `ai` `go` | Free | 🔴 Stale | 35.3k |
 | [mediapipe](https://github.com/google-ai-edge/mediapipe) | Cross-platform, customizable ML solutions for live and streaming media. | `machine-learning` `deep-learning` `ml` | Free | 🟢 Fresh | 34.8k |
 | [diffusers](https://github.com/huggingface/diffusers) | 🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. | `deep-learning` `diffusion` `flux` | Free | 🟢 Fresh | 33.4k |
 | [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | SoftVC VITS Singing Voice Conversion - AI-powered voice conversion system for singing | `voice` `conversion` `singing` | Free | 🟢 Fresh | 28.0k |
+| [whisperX](https://github.com/m-bain/whisperX) | WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization) | `python` `speech` | Free | 🟡 Recent | 21.5k |
 | [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability. | `ai` `python` `chatbot` | Free | 🟡 Recent | 20.6k |
 | [voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `ai` `audio` `tts` | Free | 🟢 Fresh | 20.3k |
 | [dia](https://github.com/nari-labs/dia) | A TTS model capable of generating ultra-realistic dialogue in one pass. | `ai` | Free | 🔴 Stale | 19.3k |
+| [ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & 1158+ languages! | `python` `audio` `voice` | Free | 🟢 Fresh | 18.7k |
+| [NeMo](https://github.com/NVIDIA-NeMo/NeMo) | A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech) | `python` `ai` `generative` | Free | 🟢 Fresh | 17.1k |
 | [VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning | `audio` `deeplearning` `minicpm` | Free | 🟢 Fresh | 13.8k |
 | [pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `voice` `conversational` `ai` | Free | 🟢 Fresh | 11.3k |
 | [ten-framework](https://github.com/TEN-framework/ten-framework) | Open-source framework for conversational voice AI agents | `voice` `agent` `conversational` | Free | 🟢 Fresh | 10.4k |
 | [livekit-agents](https://github.com/livekit/agents) | A framework for building realtime voice AI agents | `voice` `agent` `realtime` | Free | 🟢 Fresh | 10.1k |
+| [silero-vad](https://github.com/snakers4/silero-vad) | Silero VAD: pre-trained enterprise-grade Voice Activity Detector | `python` `ai` `voice` | Free | 🟡 Recent | 8.9k |
 | [Bert-VITS2](https://github.com/fishaudio/Bert-VITS2) | vits2 backbone with multilingual-bert | `python` `agent` `bert` | Unknown | 🟢 Fresh | 8.7k |
 | [Open-LLM-VTuber](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) | Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms | `voice` `vtuber` `live2d` | Free | 🟢 Fresh | 6.9k |
+| [annyang](https://github.com/TalAter/annyang) | 💬 Speech recognition for your site | `typescript` `speech` | Free | 🟡 Recent | 6.7k |
+| [tts-vue](https://github.com/LokerL/tts-vue) | 🎤 微软语音合成工具，使用 Electron + Vue + ElementPlus + Vite 构建。 | `typescript` `tts` | Free | 🟢 Fresh | 6.1k |
+| [silero-models](https://github.com/snakers4/silero-models) | Silero Models: pre-trained text-to-speech models made embarrassingly simple | `jupyter notebook` `ai` `speech` | Free | 🟡 Recent | 5.9k |
+| [whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization) | Automatic Speech Recognition with Speaker Diarization based on OpenAI Whisper | `jupyter notebook` `ai` `speech` | Free | 🟠 Aging | 5.5k |
 | [TaxHacker](https://github.com/vas3k/TaxHacker) | Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories | `accounting` `ai-analysis` `currency-exchange` | Free | 🟡 Recent | 5.1k |
 | [ TaxHacker](https://github.com/vas3k / TaxHacker) | Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories | `Audio` `Prompt` | Open Source | 🟢 Fresh | 4.8k |
 | [speech-to-speech](https://github.com/huggingface/speech-to-speech) | Build local voice agents with open-source models | `speech` `voice` `agents` | Open Source | 🟢 Fresh | 4.7k |
+| [stt](https://github.com/jianchang512/stt) | Voice Recognition to Text Tool / 一个离线运行的本地音视频转字幕工具，输出json、srt字幕、纯文字格式 | `python` `tool` `voice` | Free | 🔴 Stale | 4.5k |
 | [riffusion-hobby](https://github.com/riffusion/riffusion-hobby) | Stable diffusion for real-time music generation |  | Free | 🟢 Fresh | 3.9k |
+| [common-voice](https://github.com/common-voice/common-voice) | Common Voice is part of Mozilla's initiative to help teach machines how real people speak. | `typescript` `voice` | Free | 🟢 Fresh | 3.5k |
+| [Applio](https://github.com/IAHispano/Applio) | A simple, high-quality voice conversion tool focused on ease of use and performance. | `python` `tool` `voice` | Free | 🟢 Fresh | 3.2k |
+| [TTS-WebUI](https://github.com/rsxdalv/TTS-WebUI) | A single Gradio + React WebUI with extensions for ACE-Step, OmniVoice, Kimi Audio, Piper TTS, GPT-SoVITS, CosyVoice, XTTSv2, DIA, Kokoro, OpenVoice, ParlerTTS, Stable Audio, MMS, StyleTTS2, MAGNet, AudioGen, MusicGen, Tortoise, RVC, Vocos, Demucs, SeamlessM4T, and Bark! | `typescript` `ml` `gpt` | Free | 🟢 Fresh | 3.1k |
+| [audio](https://github.com/pytorch/audio) | Data manipulation and transformation for audio signal processing, powered by PyTorch | `python` `audio` `pytorch` | Free | 🟢 Fresh | 2.9k |
 | [riffusion-app-hobby](https://github.com/riffusion/riffusion-app-hobby) | Stable diffusion for real-time music generation (web app) |  | Free | 🟢 Fresh | 2.7k |
+| [Stable-Diffusion](https://github.com/FurkanGozukara/Stable-Diffusion) | FLUX, Stable Diffusion, SDXL, SD3, LoRA, Fine Tuning, DreamBooth, Training, Automatic1111, Forge WebUI, SwarmUI, DeepFake, TTS, Animation, Text To Video, Tutorials, Guides, Lectures, Courses, ComfyUI, Google Colab, RunPod, Kaggle, NoteBooks, ControlNet, TTS, Voice Cloning, AI, AI News, ML, ML News, News, Tech, Tech News, Kohya, Midjourney, RunPod | `javascript` `ai` `ml` | Free | 🟢 Fresh | 2.7k |
+| [gTTS](https://github.com/pndurette/gTTS) | Python library and CLI tool to interface with Google Translate's text-to-speech API | `python` `api` `tool` | Free | 🟡 Recent | 2.6k |
 | [Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR) | Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction. | `ai` | Free | 🟠 Aging | 2.4k |
+| [IMS-Toucan](https://github.com/DigitalPhonetics/IMS-Toucan) | Controllable and fast Text-to-Speech for over 7000 languages! | `python` `speech` | Free | 🟠 Aging | 2.2k |
+| [MOSS-TTS-Nano](https://github.com/OpenMOSS/MOSS-TTS-Nano) | MOSS-TTS-Nano is an open-source multilingual tiny speech generation model from MOSI.AI and the OpenMOSS team. With only 0.1B parameters, it is designed for realtime speech generation, can run directly on CPU without a GPU, and keeps the deployment stack simple enough for local demos, web serving, and lightweight product integration. | `python` `ai` `speech` | Free | 🟢 Fresh | 2.1k |
+| [abaddon](https://github.com/uowuo/abaddon) | An alternative Discord client with voice support made with C++ and GTK 3 | `c++` `voice` | Free | 🟡 Recent | 2.1k |
+| [ten-vad](https://github.com/TEN-framework/ten-vad) | Voice Activity Detector (VAD) : low-latency, high-performance and lightweight | `c` `voice` | Free | 🟠 Aging | 2.1k |
 | [FireRedASR](https://github.com/FireRedTeam/FireRedASR) | Open-source industrial-grade ASR models supporting Mandarin, Chinese dialects and English, achieving a new SOTA on public Mandarin ASR benchmarks, while also offering outstanding singing lyrics recogn | `llm` `open-source` `asr` | Free | 🟡 Recent | 1.8k |
+| [jovo-framework](https://github.com/jovotech/jovo-framework) | 🔈 The React for Voice and Chat: Build Apps for Alexa, Messenger, Instagram, the Web, and more | `typescript` `framework` `voice` | Free | 🔴 Stale | 1.7k |
+| [ElatoAI](https://github.com/akdeb/ElatoAI) | Realtime Voice AI with 100+ Models on Arduino ESP32 with Secure Websockets and Edge Functions for AI Toys, Companions, and Devices | `typescript` `ai` `voice` | Free | 🟢 Fresh | 1.6k |
 | [AudioMuse-AI](https://github.com/NeptuneHub/AudioMuse-AI) | AudioMuse-AI is a self-hosted, Dockerized music playlist generator using sonic analysis to discover related tracks for Jellyfin, Navidrome, LMS, Lyrion, and Emby: no metadata or external APIs needed. | `ai` `llm` `open-source` | Free | 🟢 Fresh | 1.6k |
+| [Genie-TTS](https://github.com/High-Logic/Genie-TTS) | GPT-SoVITS ONNX Inference Engine & Model Converter | `python` `gpt` `tts` | Free | 🟢 Fresh | 1.5k |
+| [StarrySky](https://github.com/EspoirX/StarrySky) | 🔥A Powerful and Streamline MusicLibrary(一个丰富的音乐播放封装库,支持多种音频格式,完美解决你的问题。) | `kotlin` `ml` | Free | 🔴 Stale | 1.5k |
+| [dsnote](https://github.com/mkiol/dsnote) | Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation. | `c++` `speech` | Free | 🟢 Fresh | 1.4k |
+| [MiniMax-MCP](https://github.com/MiniMax-AI/MiniMax-MCP) | Official MiniMax Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech, image generation and video generation APIs. | `python` `api` `image` | Free | 🟡 Recent | 1.4k |
 | [MusicGPT](https://github.com/gabotechs/MusicGPT) | Generate music based on natural language prompts using LLMs running locally | `music` `gpt` `generation` | Open Source | 🔴 Stale | 1.4k |
+| [gp.nvim](https://github.com/Robitx/gp.nvim) | Gp.nvim (GPT prompt) Neovim AI plugin: ChatGPT sessions & Instructable text/code operations & Speech to text [OpenAI, Ollama, Anthropic, ..] | `lua` `ai` `gpt` | Free | 🔴 Stale | 1.3k |
+| [StreamSpeech](https://github.com/ictnlp/StreamSpeech) | StreamSpeech is an “All in One” seamless model for offline and simultaneous speech recognition, speech translation and speech synthesis. | `python` `ml` `speech` | Free | 🔴 Stale | 1.3k |
+| [ekho](https://github.com/hgneng/ekho) | Chinese text-to-speech engine | `lex` `speech` | Free | 🟢 Fresh | 1.2k |
+| [handcrafted-persona-engine](https://github.com/fagenorn/handcrafted-persona-engine) | An AI-powered interactive avatar engine using Live2D, LLM, ASR, TTS, and RVC. Ideal for VTubing, streaming, and virtual assistant applications. | `c#` `ai` `llm` | Free | 🟢 Fresh | 1.2k |
 | [my-neuro](https://github.com/morettt/my-neuro) | This project lets you create your own AI desktop companion with customizable characters and voice conversations that respond in just 1 second. Features include long-term memory, visual recognition, vo | `llm` `ai` | Free | 🟢 Fresh | 1.2k |
+| [conformer](https://github.com/sooftware/conformer) | [Unofficial] PyTorch implementation of "Conformer: Convolution-augmented Transformer for Speech Recognition" (INTERSPEECH 2020) | `python` `speech` `pytorch` | Free | 🔴 Stale | 1.1k |
+| [voicemode](https://github.com/mbailey/voicemode) | Natural (2-way) voice conversations with Claude Code | `python` `voice` | Free | 🟢 Fresh | 1.1k |
 | [Fun-ASR](https://github.com/FunAudioLLM/Fun-ASR) | Fun-ASR is an end-to-end speech recognition large model launched by Tongyi Lab.  | `ai` | Free | 🟠 Aging | 1.0k |
 | [nightingale](https://github.com/rzru/nightingale) | Machine learning powered Karaoke app (with scores!) | `karaoke` `ml` `music` | Open Source | 🟢 Fresh | 1.0k |
 
@@ -459,8 +521,10 @@
 | [ONNX](https://github.com/onnx/onnx) | Open standard for machine learning interoperability | `ai` `artificial-intelligence` `deep-learning` | Free | 🟢 Fresh | 20.7k |
 | [marimo](https://github.com/marimo-team/marimo) | A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor. | `python` `artificial-intelligence` `dag` | Unknown | 🟢 Fresh | 20.5k |
 | [promptfoo](https://github.com/promptfoo/promptfoo) | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic. | `typescript` `ci-cd` `cicd` | Freemium | 🟢 Fresh | 20.3k |
+| [readest](https://github.com/readest/readest) | Readest is a modern, feature-rich ebook reader designed for avid readers offering seamless cross-platform access, powerful tools, and an intuitive interface to elevate your reading experience. | `typescript` `ml` `tool` | Free | 🟢 Fresh | 19.9k |
 | [NemoClaw](https://github.com/NVIDIA/NemoClaw) | Run OpenClaw more securely inside NVIDIA OpenShell with managed inference |  | Free | 🟢 Fresh | 19.2k |
 | [Archon](https://github.com/coleam00/Archon) | The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable. | `ai-coding` `harness` `deterministic` | Free | 🟢 Fresh | 18.4k |
+| [livekit](https://github.com/livekit/livekit) | End-to-end realtime stack for connecting humans and AI | `go` `ai` | Free | 🟢 Fresh | 18.4k |
 | [LightGBM](https://github.com/lightgbm-org/LightGBM) | A fast, distributed, high performance gradient boosting (GBT, GBDT, GBRT, GBM or MART) framework based on decision tree algorithms, used for ranking, classification and many other machine learning tasks. | `data-mining` `decision-trees` `distributed` | Free | 🟢 Fresh | 18.3k |
 | [brpc](https://github.com/apache/brpc) | brpc is an Industrial-grade RPC framework using C++ Language, which is often used in high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation etc. "brpc" means "better RPC". | `rpc` | Free | 🟢 Fresh | 17.5k |
 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | Knowledge Engine for AI Agent Memory in 6 lines of code | `agent` `ai-agents` `python` | Free | 🟢 Fresh | 16.6k |
@@ -477,25 +541,33 @@
 | [codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | Use Codex from Claude Code to review code or delegate tasks. | `codex` `code-review` `delegation` | Free | 🟢 Fresh | 14.0k |
 | [optuna](https://github.com/optuna/optuna) | A hyperparameter optimization framework | `python` `distributed` `hyperparameter-optimization` | Unknown | 🟢 Fresh | 14.0k |
 | [WeKnora](https://github.com/Tencent/WeKnora) | LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm. | `llm` `rag` | Free | 🟢 Fresh | 13.8k |
+| [satori](https://github.com/vercel/satori) | Enlightened library to convert HTML and CSS to SVG | `typescript` `ml` | Free | 🟠 Aging | 13.3k |
 | [Memori](https://github.com/MemoriLabs/Memori) | Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems. | `memory` `agent` `llm` | Free | 🟢 Fresh | 13.3k |
 | [tvm](https://github.com/apache/tvm) | Open Machine Learning Compiler Framework | `python` `compiler` `deep-learning` | Unknown | 🟢 Fresh | 13.3k |
 | [stable-baselines3](https://github.com/DLR-RM/stable-baselines3) | PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms.  | `python` `baselines` `gsde` | Unknown | 🟢 Fresh | 13.1k |
 | [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco) | Multi-Joint dynamics with Contact. A general purpose physics simulator. | `c++` | Free | 🟢 Fresh | 13.0k |
 | [claude-skills](https://github.com/alirezarezvani/claude-skills) | 232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory | `claude-code` `agent-plugins` `ai-coding` | Free | 🟢 Fresh | 12.4k |
+| [colmap](https://github.com/colmap/colmap) | COLMAP - Structure-from-Motion and Multi-View Stereo | `c++` | Free | 🟢 Fresh | 11.5k |
 | [Portkey AI Gateway](https://github.com/Portkey-AI/gateway) | A blazing fast AI Gateway with integrated guardrails. Route to 200+ LLMs, 50+ AI Guardrails with 1 fast & friendly API. | `ai-gateway` `llm` `mcp` | Freemium | 🟡 Recent | 11.3k |
+| [pipedream](https://github.com/PipedreamHQ/pipedream) | Connect APIs, remarkably fast.  Free for developers. | `javascript` `api` | Free | 🟢 Fresh | 11.3k |
 | [tensorzero](https://github.com/tensorzero/tensorzero) | TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation. | `llm` `llmops` `platform` | Open Source | 🟢 Fresh | 11.2k |
 | [AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) | Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞 |  | Free | 🟢 Fresh | 11.1k |
 | [skills](https://github.com/MiniMax-AI/skills) |  |  | Free | 🟢 Fresh | 10.3k |
 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) |  | `typescript` | Free | 🟢 Fresh | 10.2k |
 | [openvinotoolkit/openvino](https://github.com/openvinotoolkit/openvino) | OpenVINO™ is an open source toolkit for optimizing and deploying AI inference | `inference` `open-source` `c++` | Free | 🟢 Fresh | 10.1k |
 | [Metaflow](https://github.com/Netflix/metaflow) | Build, Manage and Deploy AI/ML Systems with agent support | `agents` `ai` `aws` | Free | 🟢 Fresh | 10.0k |
+| [sktime](https://github.com/sktime/sktime) | A unified framework for machine learning with time series | `python` `framework` | Free | 🟢 Fresh | 9.7k |
+| [assistant-ui](https://github.com/assistant-ui/assistant-ui) | Typescript/React Library for AI Chat💬🚀 | `typescript` `ai` | Free | 🟢 Fresh | 9.7k |
+| [cog](https://github.com/replicate/cog) | Containers for machine learning | `go` `ai` | Free | 🟢 Fresh | 9.4k |
 | [context-mode](https://github.com/mksglu/context-mode) | Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms | `developer-tools` `context` `optimization` | Free | 🟢 Fresh | 9.4k |
+| [machinelearning](https://github.com/dotnet/machinelearning) | ML.NET is an open source and cross-platform machine learning framework for .NET. | `c#` `ml` `framework` | Free | 🟢 Fresh | 9.3k |
 | [emdash](https://github.com/emdash-cms/emdash) | EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress. | `cms` `typescript` `astro` | Free | 🟢 Fresh | 9.2k |
 | [opencti](https://github.com/OpenCTI-Platform/opencti) | Open Cyber Threat Intelligence Platform | `platform` | Free | 🟢 Fresh | 9.2k |
 | [claude-code-sourcemap](https://github.com/ChinaSiro/claude-code-sourcemap) | Source map utilities for Claude Code development and debugging. | `claude` `sourcemap` `debugging` | Free | 🟡 Recent | 8.8k |
 | [klzgrad/naiveproxy](https://github.com/klzgrad/naiveproxy) | Make a fortune quietly | `c++` | Free | 🟢 Fresh | 8.4k |
 | [MiroThinker](https://github.com/MiroMindAI/MiroThinker) | MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7 and MiroThinker-H1, achieve 74.0 and 88.2 on the BrowseComp, respectively. | `python` `agent` `agent-framework` | Unknown | 🟢 Fresh | 8.1k |
 | [GPTCache](https://github.com/zilliztech/GPTCache) | Semantic cache for LLMs. Fully integrated with LangChain and llama_index.  |  | Free | 🟢 Fresh | 8.0k |
+| [stanza](https://github.com/stanfordnlp/stanza) | Stanford NLP Python library for tokenization, sentence segmentation, NER, and parsing of many human languages | `python` `nlp` | Free | 🟢 Fresh | 7.8k |
 | [k8sgpt-ai/k8sgpt](https://github.com/k8sgpt-ai/k8sgpt) | Giving Kubernetes Superpowers to everyone | `go` | Free | 🟢 Fresh | 7.7k |
 | [kyverno/kyverno](https://github.com/kyverno/kyverno) | Unified Policy as Code | `go` | Free | 🟢 Fresh | 7.7k |
 | [claude-code-tips](https://github.com/ykdojo/claude-code-tips) | 45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin. | `ai` `javascript` | Free | 🟡 Recent | 7.6k |
@@ -506,9 +578,12 @@
 | [mistral.rs](https://github.com/EricLBuehler/mistral.rs) | Fast, flexible LLM inference | `llm` `inference` `rust` | Free | 🟢 Fresh | 7.0k |
 | [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) | DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling | `gemm` `cuda` `inference` | Free | 🟢 Fresh | 7.0k |
 | [pydantic/monty](https://github.com/pydantic/monty) | A minimal, secure Python interpreter written in Rust for use by AI | `rust` | Free | 🟢 Fresh | 6.9k |
+| [flower](https://github.com/flwrlabs/flower) | Flower: A Friendly Federated AI Framework | `python` `ai` `framework` | Free | 🟢 Fresh | 6.9k |
 | [PostgresML](https://github.com/postgresml/postgresml) | PostgreSQL extension for building ML/AI applications directly in the database | `ai` `ann` `approximate-nearest-neighbor-search` | Free | 🟢 Fresh | 6.7k |
 | [ANE](https://github.com/maderix/ANE) | Training neural networks on Apple Neural Engine via reverse-engineered private APIs | `ai` `neural-network` `api` | Free | 🟠 Aging | 6.6k |
 | [forgecode](https://github.com/tailcallhq/forgecode) | AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models | `pair-programmer` `ai` `multi-model` | Free | 🟢 Fresh | 6.5k |
+| [smile](https://github.com/haifengl/smile) | Statistical Machine Intelligence & Learning Engine | `java` | Free | 🟢 Fresh | 6.4k |
+| [rundeck](https://github.com/rundeck/rundeck) | Enable Self-Service Operations: Give specific users access to your existing tools, services, and scripts | `groovy` `tool` | Free | 🟢 Fresh | 6.1k |
 | [Aim](https://github.com/aimhubio/aim) | An easy-to-use and supercharged open-source experiment tracker for ML | `ai` `data-science` `data-visualization` | Free | 🟢 Fresh | 6.1k |
 | [claude-context](https://github.com/zilliztech/claude-context) | Code search MCP for Claude Code. Make entire codebase the context for any coding agent. | `typescript` `agent` `agentic-rag` | Unknown | 🟢 Fresh | 6.0k |
 | [zcf](https://github.com/UfoMiao/zcf) | Zero-Config Code Flow for Claude code & Codex | `ai` | Free | 🟢 Fresh | 5.9k |
@@ -516,29 +591,49 @@
 | [Auto-claude-code-research-in-sleep](https://github.com/developeregwu/Auto-claude-code-research-in-sleep) | Auto-claude-code-research-in-sleep - AI-powered code research and development automation | `AI Code` `Research` `Automation` | Open Source | 🟢 Fresh | 5.8k |
 | [easy-vibe](https://github.com/datawhalechina/easy-vibe) | 💻 vibe coding 2026 | Your first modern programming course for beginners to master step by step. | `javascript` | Free | 🟢 Fresh | 5.6k |
 | [how-to-build-a-coding-agent](https://github.com/ghuntley/how-to-build-a-coding-agent) | A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Windsurf or OpenCode. | `go` `agent` `cursor` | Unknown | 🟢 Fresh | 5.5k |
+| [read-frog](https://github.com/mengxi-ream/read-frog) | 🐸 Read Frog - Open Source Immersive Translate | 🐸 陪读蛙 - 开源沉浸式翻译 | `typescript` | Free | 🟢 Fresh | 5.4k |
 | [Awesome MCP Servers](https://github.com/appcypher/awesome-mcp-servers) | Curated list of Model Context Protocol servers. | `mcp` `protocol` `agent-tools` | Free | 🔴 Stale | 5.4k |
 | [TaskingAI](https://github.com/TaskingAI/TaskingAI) | The open source platform for AI-native application development. | `platform` `ai` `open-source` | Free | 🟢 Fresh | 5.4k |
 | [Learn AI Engineering](https://github.com/ashishps1/learn-ai-engineering) | Learn AI and LLMs from scratch using free resources | `agentic-ai` `agents` `ai` | Free | 🟠 Aging | 5.3k |
 | [Superduper](https://github.com/superduper-io/superduper) | End-to-end framework for building custom AI applications and agents with database integration | `ai` `chatbot` `data` | Free | 🟢 Fresh | 5.3k |
+| [cuml](https://github.com/rapidsai/cuml) | cuML - RAPIDS Machine Learning Library | `c++` `ml` `api` | Free | 🟢 Fresh | 5.2k |
 | [Windows MCP](https://github.com/CursorTouch/Windows-MCP) | MCP server for computer use in Windows. | `mcp` `windows` `automation` | Free | 🟢 Fresh | 5.1k |
+| [ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | Learn it. Build it. Ship it for others. | `python` `ai` | Free | 🟢 Fresh | 4.9k |
+| [djl](https://github.com/deepjavalibrary/djl) | An Engine-Agnostic Deep Learning Framework in Java | `java` `framework` | Free | 🟢 Fresh | 4.8k |
+| [testcontainers-go](https://github.com/testcontainers/testcontainers-go) | Testcontainers for Go is a Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers that should be run as part of a test and clean up those resources when the test is done. | `go` `ai` `api` | Free | 🟢 Fresh | 4.8k |
 | [ACI.dev](https://github.com/aipotheosis-labs/aci) | Open source tool-calling platform connecting 600+ tools via MCP. | `tool-calling` `mcp` `api` | Freemium | 🔴 Stale | 4.8k |
 | [Kiln](https://github.com/Kiln-AI/Kiln) | Build, Evaluate, and Optimize AI Systems. Includes evals, RAG, agents, fine-tuning, synthetic data generation, dataset management, MCP, and more. | `ai` `evaluation` `optimization` | Open Source | 🟢 Fresh | 4.7k |
 | [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference) | A blazing fast inference solution for text embeddings models from Hugging Face | `ai` `embeddings` `huggingface` | Free | 🟢 Fresh | 4.7k |
+| [cactus](https://github.com/cactus-compute/cactus) | Low-latency AI engine for mobile devices & wearables | `c` `ai` | Free | 🟢 Fresh | 4.7k |
+| [BeatAI](https://github.com/beatai-org/BeatAI) | 🦄 不玩晦涩不搞少数派的 AI 入门圣经，从学生到工程师都能轻松掌握。🚀 涵盖神经网络到大模型、顶层设计到微观原理、工程实现到算法基础。🔮 学完后，大家能彻底看懂为什么下一 token 预测这个看似不起眼的能力可以改变世界，也能发现原来 AI 并没有想象中那么神秘、那么高不可攀。👑 Let's just beat it ! | `handlebars` `ai` | Free | 🟢 Fresh | 4.7k |
+| [django-DefectDojo](https://github.com/DefectDojo/django-DefectDojo) | Open-Source Unified Vulnerability Management, DevSecOps & ASPM | `html` `go` | Free | 🟢 Fresh | 4.7k |
 | [fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) | The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS | `file-search` `neovim` `agent` | Free | 🟢 Fresh | 4.6k |
 | [tg-ws-proxy](https://github.com/tg-ws-proxy/tg-ws-proxy) | Telegram WebSocket Proxy - AI-enhanced proxy service for Telegram | `Telegram` `Proxy` `AI` | Open Source | 🟢 Fresh | 4.4k |
 | [cognita](https://github.com/truefoundry/cognita) | RAG (Retrieval Augmented Generation) Framework for building modular, open source applications for production by TrueFoundry  | `rag` `framework` `open-source` | Free | 🟢 Fresh | 4.4k |
 | [OpenClaw Zero Token](https://github.com/linuxhsj/openclaw-zero-token) | Use all major AI models (Claude, ChatGPT, Gemini, DeepSeek, Qwen, etc.) without API tokens - browser login only, completely free. | `llm` `zero-token` `free` | Free | 🟢 Fresh | 4.2k |
+| [spark-nlp](https://github.com/JohnSnowLabs/spark-nlp) | State of the Art Natural Language Processing | `scala` `nlp` | Free | 🟢 Fresh | 4.1k |
 | [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow) | AdalFlow: The library to build & auto-optimize LLM applications. | `llm` `auto-optimization` `applications` | Open Source | 🟡 Recent | 4.1k |
 | [bRAG-langchain](https://github.com/bragai/bRAG-langchain) | Everything you need to know to build your own RAG application | `rag` `langchain` `tutorial` | Open Source | 🔴 Stale | 4.1k |
+| [neuralforecast](https://github.com/Nixtla/neuralforecast) | Scalable and user friendly neural :brain: forecasting algorithms. | `python` `ai` `go` | Free | 🟢 Fresh | 4.1k |
+| [ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) | CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, Privacy, and Reporting. It supports 130+ global frameworks with automatic control mapping, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, CMMC, and more. | `python` `framework` | Free | 🟢 Fresh | 4.0k |
+| [puppeteer-sharp](https://github.com/hardkoded/puppeteer-sharp) | Headless Chrome .NET API | `c#` `api` | Free | 🟢 Fresh | 3.9k |
+| [PyRIT](https://github.com/microsoft/PyRIT) | The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems. | `python` `ai` `generative` | Free | 🟢 Fresh | 3.8k |
 | [llm-workflow-engine](https://github.com/llm-workflow-engine/llm-workflow-engine) | Power CLI and Workflow manager for LLMs (core package) |  | Free | 🟢 Fresh | 3.7k |
 | [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) | C++ implementation of LiteRT-LM for efficient on-device language model inference | `cpp` `inference` `on-device` | Free | 🟢 Fresh | 3.7k |
+| [archestra](https://github.com/archestra-ai/archestra) | Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator | `typescript` `ai` | Free | 🟢 Fresh | 3.6k |
 | [MCP Context Forge](https://github.com/IBM/mcp-context-forge) | AI gateway and proxy for MCP, A2A, and REST/gRPC APIs. | `mcp` `gateway` `proxy` | Free | 🟢 Fresh | 3.6k |
 | [android-reverse-engineering-skill](https://github.com/SimoneAvogadro/android-reverse-engineering-skill) | Claude Code skill to support Android app's reverse engineering |  | Free | 🟠 Aging | 3.5k |
+| [mne-python](https://github.com/mne-tools/mne-python) | MNE: Magnetoencephalography (MEG) and Electroencephalography (EEG) in Python | `python` | Free | 🟢 Fresh | 3.4k |
 | [Agentation](https://github.com/benjitaylor/agentation) | Visual feedback tool for AI agents. | `agent` `visualization` `feedback` | Free | 🟡 Recent | 3.4k |
 | [deep-prove](https://github.com/Lagrange-Labs/deep-prove) | Framework to prove inference of ML models blazingly fast | `ai` | Free | 🟡 Recent | 3.3k |
+| [wppconnect](https://github.com/wppconnect-team/wppconnect) | WPPConnect is an open source project developed by the JavaScript community with the aim of exporting functions from WhatsApp Web to the node, which can be used to support the creation of any interaction, such as customer service, media sending, intelligence recognition based on phrases artificial and many other things, use your imagination | `typescript` `ai` `javascript` | Free | 🟢 Fresh | 3.3k |
+| [adaptive-lighting](https://github.com/basnijholt/adaptive-lighting) | Adaptive Lighting custom component for Home Assistant | `python` | Free | 🟢 Fresh | 3.2k |
+| [dm-haiku](https://github.com/google-deepmind/dm-haiku) | JAX-based neural network library | `python` `ai` | Free | 🟢 Fresh | 3.2k |
+| [pennylane](https://github.com/PennyLaneAI/pennylane) | PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry. Create meaningful quantum algorithms, from inspiration to implementation. | `python` `go` | Free | 🟢 Fresh | 3.2k |
 | [axonhub](https://github.com/looplj/axonhub) | ⚡️ Open-source AI Gateway — Use any SDK to call 100+ LLMs. Built-in failover, load balancing, cost control & end-to-end tracing. | `llm` `ai` `open-source` | Free | 🟢 Fresh | 3.1k |
 | [awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories) | A curated list of resources dedicated to open source GitHub repositories related to ChatGPT, OpenAI API, and Codex | `ai` `open-source` | Free | 🟢 Fresh | 3.0k |
 | [genaiscript](https://github.com/microsoft/genaiscript) | Automatable GenAI Scripting | `ai` | Free | 🟢 Fresh | 2.9k |
+| [lingvo](https://github.com/tensorflow/lingvo) | Lingvo | `python` | Free | 🟢 Fresh | 2.9k |
 | [Harbor](https://github.com/av/harbor) | Complete pre-wired LLM stack with hundreds of services. | `llm-stack` `deployment` `services` | Free | 🟢 Fresh | 2.8k |
 | [aide](https://github.com/nicepkg/aide) | Conquer Any Code in VSCode: One-Click Comments, Conversions, UI-to-Code, and AI Batch Processing of Files! 在 VSCode 中征服任何代码：一键注释、转换、UI 图生成代码、AI 批量处理文件！💪 | `ai` | Free | 🟢 Fresh | 2.7k |
 | [agent-os](https://github.com/rivet-dev/agent-os) | A portable open-source operating system for agents. ~6 ms coldstarts, 32x cheaper than sandboxes. Powered by WebAssembly and V8 isolates | `agent` `os` `wasm` | Free | 🟢 Fresh | 2.7k |
@@ -546,42 +641,78 @@
 | [Markdownify MCP](https://github.com/zcaceres/markdownify-mcp) | MCP server for converting anything to Markdown. | `mcp` `markdown` `conversion` | Free | 🟡 Recent | 2.6k |
 | [plexe](https://github.com/plexe-ai/plexe) | ✨ Build a machine learning model from a prompt | `ml` `prompt` `build` | Open Source | 🟠 Aging | 2.6k |
 | [9router](https://github.com/decolua/9router) | Connect All AI Code Tools (Claude Code, Cursor, Antigravity, Copilot, Codex, Gemini, OpenCode, Cline, OpenClaw...) to 40+ AI Providers & 100+ Models | `router` `ai-code-tools` `claude-code` | Free | 🟢 Fresh | 2.5k |
+| [spider](https://github.com/spider-rs/spider) | Web crawler and scraper for Rust | `rust` | Free | 🟢 Fresh | 2.4k |
 | [sn0int](https://github.com/kpcyrd/sn0int) | Semi-automatic OSINT framework and package manager | `framework` | Free | 🟢 Fresh | 2.4k |
 | [nextpy](https://github.com/dot-agent/nextpy) | 🤖Self-Modifying Framework from the Future 🔮 World's First AMS | `framework` | Free | 🟢 Fresh | 2.3k |
 | [xray](https://github.com/evilsocket/xray) | XRay is a tool for recon, mapping and OSINT gathering from public networks. | `ai` | Free | 🟢 Fresh | 2.3k |
 | [letta-code](https://github.com/letta-ai/letta-code) | The memory-first coding agent | `agent` `coding` `memory` | Free | 🟢 Fresh | 2.3k |
 | [datapizza-ai](https://github.com/datapizza-labs/datapizza-ai) | Build reliable Gen AI solutions without overhead 🍕 | `ai` | Free | 🟢 Fresh | 2.2k |
+| [PhotoDemon](https://github.com/tannerhelland/PhotoDemon) | A free portable photo editor focused on pro-grade features, high performance, and maximum usability. | `visual basic 6.0` | Free | 🟢 Fresh | 2.2k |
 | [versity/versitygw](https://github.com/versity/versitygw) | A simple to deploy but feature rich S3 object storage server for your filesystem | `rag` `retrieval-augmented-generation` `go` | Free | 🟢 Fresh | 2.1k |
 | [ai-renamer](https://github.com/ozgrozer/ai-renamer) | A Node.js CLI that uses Ollama and LM Studio models (Llava, Gemma, Llama etc.) to intelligently rename files by their contents | `cli` `nodejs` `ollama` | Open Source | 🔴 Stale | 2.1k |
 | [microsoft/aici](https://github.com/microsoft/aici) | AICI: Prompts as (Wasm) Programs | `developer-tools` `rust` `ai` | Free | 🟢 Fresh | 2.1k |
+| [DreamOmni2](https://github.com/JIA-Lab-research/DreamOmni2) | This project is the official implementation of 'DreamOmni2: Multimodal Instruction-based Editing and Generation  (CVPR2026 Highlight)'' | `python` | Free | 🟡 Recent | 2.1k |
 | [OpenDAN-Personal-AI-OS](https://github.com/fiatrete/OpenDAN-Personal-AI-OS) | OpenDAN is an open source Personal AI OS , which consolidates various AI modules in one place for your personal use. | `ai` `open-source` | Free | 🟢 Fresh | 2.0k |
 | [mflux](https://github.com/filipstrand/mflux) | MLX native implementations of state-of-the-art generative image models | `ai` | Free | 🟢 Fresh | 2.0k |
 | [yeti](https://github.com/yeti-platform/yeti) | Your Everyday Threat Intelligence | `ai` | Free | 🟢 Fresh | 2.0k |
+| [hls4ml](https://github.com/fastmachinelearning/hls4ml) | Machine learning on FPGAs using HLS | `python` `ml` | Free | 🟢 Fresh | 2.0k |
+| [lobe-ui](https://github.com/lobehub/lobe-ui) | 🍭  Lobe UI - an open-source UI component library for building AIGC web apps | `typescript` `ai` | Free | 🟢 Fresh | 1.9k |
+| [deepmd-kit](https://github.com/deepmodeling/deepmd-kit) | A deep learning package for many-body potential energy representation and molecular dynamics | `python` | Free | 🟢 Fresh | 1.9k |
 | [wacli](https://github.com/steipete/wacli) | WhatsApp CLI | `cli` `go` `whatsapp` | Free | 🟢 Fresh | 1.9k |
+| [alan-sdk-ios](https://github.com/alan-ai/alan-sdk-ios) | The Self-Coding System for Your App — Alan AI SDK for iOS | `objective-c` `ai` | Free | 🔴 Stale | 1.9k |
+| [praat.github.io](https://github.com/praat/praat.github.io) | Praat: Doing Phonetics By Computer | `c` | Free | 🟢 Fresh | 1.9k |
+| [alan-sdk-android](https://github.com/alan-ai/alan-sdk-android) | The Self-Coding System for Your App — Alan AI SDK for Android | `ai` | Free | 🔴 Stale | 1.8k |
+| [superplane](https://github.com/superplanehq/superplane) | The open source control plane for platform engineering. | `go` | Free | 🟢 Fresh | 1.8k |
+| [alan-sdk-flutter](https://github.com/alan-ai/alan-sdk-flutter) | The Self-Coding System for Your App — Alan AI SDK for Flutter | `ruby` `ai` | Free | 🔴 Stale | 1.8k |
+| [ComfyUI_frontend](https://github.com/Comfy-Org/ComfyUI_frontend) | Official front-end implementation of ComfyUI | `typescript` | Free | 🟢 Fresh | 1.8k |
+| [lingua-py](https://github.com/pemistahl/lingua-py) | The most accurate natural language detection library for Python, suitable for short text and mixed-language text | `python` | Free | 🟢 Fresh | 1.7k |
 | [rocketride-server](https://github.com/rocketride-org/rocketride-server) | High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes. Build, debug, and scale LLM workflows with 13+ model providers, 8+ vector databases, and agent orchestration, all from your IDE. Includes VS Code extension, TypeScript/Python SDKs, and Docker deployment. | `ai` `pipeline` `engine` | Open Source | 🟢 Fresh | 1.7k |
 | [urlhunter](https://github.com/utkusen/urlhunter) | a recon tool that allows searching on URLs that are exposed via shortener services | `ai` | Free | 🟢 Fresh | 1.7k |
+| [alan-sdk-ionic](https://github.com/alan-ai/alan-sdk-ionic) | The Self-Coding System for Your App — Alan AI SDK for Ionic | `typescript` `ai` | Free | 🔴 Stale | 1.7k |
 | [indie-hacker-tools-plus](https://github.com/XiaomingX/indie-hacker-tools-plus) | 为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools wid | `ai` | Free | 🟢 Fresh | 1.6k |
+| [budoux](https://github.com/google/budoux) | No description available | `python` | Free | 🟢 Fresh | 1.6k |
 | [git-ai](https://github.com/git-ai-project/git-ai) | A Git extension for tracking the AI-generated code in your repos | `git` `ai-tracking` `code-tracing` | Free | 🟢 Fresh | 1.6k |
+| [teamspeak6-server](https://github.com/teamspeak/teamspeak6-server) | This TeamSpeak 6 Server Beta repository contains the latest beta version of the TeamSpeak 6 Server software, offering early access to improvements and bug fixes. This beta release is intended for testing and feedback before the stable version launch. | `ai` | Free | 🟢 Fresh | 1.5k |
 | [envoyproxy/ai-gateway](https://github.com/envoyproxy/ai-gateway) | Manages Unified Access to Generative AI Services built on Envoy Gateway | `go` | Free | 🟢 Fresh | 1.5k |
 | [ExtractThinker](https://github.com/enoch3712/ExtractThinker) | ExtractThinker is a Document Intelligence library for LLMs, offering ORM-style interaction for flexible and powerful document workflows. | `document` `intelligence` `llm` | Open Source | 🔴 Stale | 1.5k |
+| [mcp-brasil](https://github.com/jxnxts/mcp-brasil) | MCP Server para 41 APIs públicas brasileiras | `python` `api` | Free | 🟢 Fresh | 1.5k |
 | [globalthreatmap](https://github.com/unicodeveloper/globalthreatmap) | Global threat map. Learn wars, conflicts, military bases and history of nations.  | `ai` | Free | 🟢 Fresh | 1.5k |
 | [korvus](https://github.com/postgresml/korvus) | Korvus is a search SDK that unifies the entire RAG pipeline in a single database query. Built on top of Postgres with bindings for Python, JavaScript, Rust and C. | `rag` | Free | 🔴 Stale | 1.5k |
+| [gomlx](https://github.com/gomlx/gomlx) | GoMLX: An Accelerated Machine Learning Framework For Go | `go` `ml` `framework` | Free | 🟢 Fresh | 1.4k |
+| [aeon](https://github.com/aeon-toolkit/aeon) | A toolkit for time series  machine learning and deep learning | `python` `tool` | Free | 🟢 Fresh | 1.4k |
+| [dicio-android](https://github.com/DicioTeam/dicio-android) | Dicio assistant app for Android | `kotlin` | Free | 🟢 Fresh | 1.3k |
 | [kitops](https://github.com/kitops-ml/kitops) | An open source DevOps tool from the CNCF for packaging and versioning AI/ML models, datasets, code, and configuration into an OCI Artifact. | `ai` | Free | 🟢 Fresh | 1.3k |
 | [e2b-cookbook](https://github.com/e2b-dev/e2b-cookbook) | Examples of using E2B | `ai` | Free | 🟢 Fresh | 1.3k |
+| [generative-ai-use-cases](https://github.com/aws-samples/generative-ai-use-cases) | Application implementation with business use cases for safely utilizing generative AI in business operations | `typescript` `ai` `generative` | Free | 🟢 Fresh | 1.3k |
+| [API](https://github.com/insoxin/API) | API For Docker 一个基于多种编程语言开源免费不限制提供生活常用,出行服务,开发工具,金融服务,通讯服务和公益大数据的平台. | `javascript` `api` | Free | 🟡 Recent | 1.3k |
+| [cursorless](https://github.com/cursorless-dev/cursorless) | Don't let the cursor slow you down | `typescript` | Free | 🟢 Fresh | 1.3k |
+| [atmos](https://github.com/cloudposse/atmos) | 👽 Terraform Orchestration Tool for DevOps. Keep environment configuration DRY with hierarchical imports of configurations, inheritance, and WAY more. Native support for Terraform and Helmfile. | `go` `tool` | Free | 🟢 Fresh | 1.3k |
 | [arkflow](https://github.com/arkflow-rs/arkflow) | High performance Rust stream processing engine seamlessly integrates AI capabilities, providing powerful real-time data processing and intelligent analysis. | `rust` `stream-processing` `ai` | Open Source | 🟢 Fresh | 1.3k |
 | [tirreno](https://github.com/tirrenotechnologies/tirreno) | tirreno is an open-source security framework. Event tracking, threat detection, and risk scoring for any application. | `framework` `open-source` `security` | Free | 🟢 Fresh | 1.2k |
+| [xiaozhi-esp32-server-java](https://github.com/joey-zhou/xiaozhi-esp32-server-java) | 小智ESP32的Java企业级管理平台，提供设备监控、音色定制、角色切换和对话记录管理的前后端及服务端一体化解决方案 | `java` | Free | 🟢 Fresh | 1.2k |
 | [aideml](https://github.com/WecoAI/aideml) | AIDE: AI-Driven Exploration in the Space of Code. The machine Learning engineering agent that automates AI R&D. | `ai` `automation` `exploration` | Open Source | 🟠 Aging | 1.2k |
 | [pi-skills](https://github.com/badlogic/pi-skills) | Skills for pi coding agent (compatible with Claude Code and Codex CLI) | `skills` `agent` `coding-assistant` | Free | 🟢 Fresh | 1.2k |
+| [braindecode](https://github.com/braindecode/braindecode) | Deep learning software to decode EEG, ECG or MEG signals | `python` `ai` | Free | 🟢 Fresh | 1.2k |
+| [NeuralPDE.jl](https://github.com/SciML/NeuralPDE.jl) | Physics-Informed Neural Networks (PINN) Solvers of (Partial) Differential Equations for Scientific Machine Learning (SciML) accelerated simulation | `julia` `ml` | Free | 🟢 Fresh | 1.2k |
+| [openilink-hub](https://github.com/openilink/openilink-hub) | 开源微信 Bot 管理平台 + App 应用市场 | Self-hosted WeChat Bot Platform with App Marketplace | Lark · Slack · Discord · DingTalk · GitHub · Notion · 20+ Apps | AI Tools | 7 Language SDKs | `go` `ai` `tool` | Free | 🟢 Fresh | 1.2k |
 | [EmbedAnything](https://github.com/StarlightSearch/EmbedAnything) | Highly Performant, Modular, Memory Safe and Production-ready Inference, Ingestion and Indexing built in Rust 🦀 | `rust` `embedding` `inference` | Open Source | 🟠 Aging | 1.2k |
+| [aider-desk](https://github.com/hotovo/aider-desk) | Platform for AI-powered software engineers | `typescript` `ai` | Free | 🟢 Fresh | 1.2k |
 | [Awesome AI SDKs](https://github.com/e2b-dev/awesome-ai-sdks) | Database of SDKs and frameworks for autonomous AI agents. | `sdk` `framework` `agent` | Free | 🔴 Stale | 1.2k |
 | [pruna](https://github.com/PrunaAI/pruna) | Pruna is a model optimization framework built for developers, enabling you to deliver faster, more efficient models with minimal overhead. | `optimization` `framework` `model` | Open Source | 🟢 Fresh | 1.2k |
 | [tuui](https://github.com/AI-QL/tuui) | A desktop MCP client designed as a tool unitary utility integration, accelerating AI adoption through the Model Context Protocol (MCP) and enabling cross-vendor LLM API orchestration. | `llm` `ai` | Free | 🟢 Fresh | 1.1k |
+| [biniou](https://github.com/Woolverine94/biniou) | a self-hosted webui for 30+ generative ai | `python` `ai` `generative` | Free | 🟢 Fresh | 1.1k |
 | [SAG](https://github.com/Zleap-AI/SAG) | SAG - SQL驱动的RAG引擎 · 查询时自动构建知识图谱 | SQL-Driven RAG Engine · Automatically Build Knowledge Graph During Querying | `sql` `rag` `knowledge-graph` | Open Source | 🔴 Stale | 1.1k |
 | [intelmq](https://github.com/certtools/intelmq) | IntelMQ is a solution for IT security teams for collecting and processing security feeds using a message queuing protocol. | `security` | Free | 🟢 Fresh | 1.1k |
 | [executor](https://github.com/RhysSullivan/executor) | The missing integration layer for AI agents. Let them call any OpenAPI / MCP / GraphQL / custom js functions in secure environment. | `integration` `api` `mcp` | Free | 🟢 Fresh | 1.1k |
 | [ai-hands-on](https://github.com/Ramakm/ai-hands-on) | A group of notebooks  and other files which can help you learn AI from scratch. | `ai` | Free | 🟢 Fresh | 1.1k |
+| [partykit](https://github.com/cloudflare/partykit) | PartyKit, for Workers | `typescript` | Free | 🟢 Fresh | 1.1k |
+| [uTox](https://github.com/uTox/uTox) | µTox the lightest and fluffiest Tox client | `c` | Free | 🔴 Stale | 1.1k |
+| [vFlow](https://github.com/ChaoMixian/vFlow) | vFlow 是一款为 Android 平台设计的、强大且高度可扩展的自动化工具。它允许你通过图形化界面，将一系列“动作模块”自由组合成强大的“工作流”，从而自动完成各种日常的、重复性的屏幕操作任务。 | `kotlin` | Free | 🟢 Fresh | 1.1k |
+| [ralphex](https://github.com/umputun/ralphex) | Extended Ralph loop for autonomous AI-driven plan execution | `go` `ai` | Free | 🟢 Fresh | 1.1k |
 | [paper2code](https://github.com/PrathamLearnsToCode/paper2code) | Agent skill to turn any arxiv paper into a working implementation | `agent` `claude-code` `skills` | Free | 🟢 Fresh | 1.0k |
+| [Youtarr](https://github.com/DialmasterOrg/Youtarr) | Self-hosted web app that automates downloading, organizing, and scheduling YouTube channel content with support for Plex, Kodi, Emby and Jellyfin | `typescript` | Free | 🟢 Fresh | 1.0k |
 | [Jupyter MCP Server](https://github.com/datalayer/jupyter-mcp-server) | MCP server for Jupyter notebooks. | `mcp` `jupyter` `notebooks` | Free | 🟡 Recent | 1.0k |
+| [taranis-ai](https://github.com/taranis-ai/taranis-ai) | Taranis AI is an advanced Open-Source Intelligence (OSINT) tool, leveraging Artificial Intelligence to revolutionize information gathering and situational analysis. | `python` `ai` `tool` | Free | 🟢 Fresh | 1.0k |
 | [Coca](https://github.com/phodal/coca) | Toolbox for legacy system refactoring and analysis. | `refactoring` `analysis` `code-quality` | Free | 🔴 Stale | 1.0k |
 | [mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh) | CLI MCP package manager and registry. | `mcp` `package-manager` `cli` | Free | 🟡 Recent | 0.9k |
 | [skills-hub](https://github.com/qufei1993/skills-hub) | A cross-platform desktop app to manage Agent Skills in one place and sync them to multiple AI coding tools' global skills directories - "Install once, sync everywhere" | `skills` `management` `sync` | Free | 🟢 Fresh | 0.7k |
@@ -626,6 +757,7 @@
 | [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) | A generative world for general-purpose robotics & embodied AI learning. | `education` `learning` | Free | 🟢 Fresh | 28.5k |
 | [next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io) | A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization. | `typescript` `diagrams` `productivity` | Unknown | 🟢 Fresh | 27.5k |
 | [label-studio](https://github.com/HumanSignal/label-studio) | Label Studio is a multi-type data labeling and annotation tool with standardized output format | `deep-learning` `ml` `computer-vision` | Free | 🟢 Fresh | 27.0k |
+| [InvokeAI](https://github.com/invoke-ai/InvokeAI) | Invoke is a leading creative engine for Stable Diffusion models, empowering professionals, artists, and enthusiasts to generate and create visual media using the latest AI-driven technologies. The solution offers an industry leading WebUI, and serves as the foundation for multiple commercial products. | `typescript` `ai` | Free | 🟢 Fresh | 27.0k |
 | [deep-learning-for-image-processing](https://github.com/WZMIAOMIAO/deep-learning-for-image-processing) | deep learning for image processing including classification and object-detection etc. | `deep-learning` `bilibili` `classification` | Free | 🟠 Aging | 26.2k |
 | [LLaVA](https://github.com/haotian-liu/LLaVA) | [NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond. | `multimodal` `vision-language-model` `vlm` | Free | 🔴 Stale | 24.7k |
 | [HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos) | ⚡️HivisionIDPhotos: a lightweight and efficient AI ID photos tools. 一个轻量级的AI证件照制作算法。 | `python` `cnn` `demo` | Unknown | 🟠 Aging | 21.0k |
@@ -634,18 +766,32 @@
 | [awesome-nano-banana-pro-prompts](https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts) | 🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source. |  | Free | 🟢 Fresh | 11.2k |
 | [kornia](https://github.com/kornia/kornia) | 🐍 Geometric Computer Vision Library for Spatial AI | `python` `artificial-intelligence` `computer-vision` | Unknown | 🟢 Fresh | 11.2k |
 | [caire](https://github.com/esimov/caire) | Content aware image resize library | `go` `computer-vision` `content-aware-resize` | Unknown | 🔴 Stale | 10.5k |
+| [manga-image-translator](https://github.com/zyddnys/manga-image-translator) | Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/ (no longer working) | `python` `ai` `image` | Free | 🟢 Fresh | 9.8k |
 | [imaginAIry](https://github.com/brycedrennan/imaginAIry) | Pythonic AI generation of images and videos |  | Free | 🟢 Fresh | 8.1k |
 | [awesome-gpt4o-images](https://github.com/jamez-bondos/awesome-gpt4o-images) | Awesome curated collection of images and prompts generated by GPT-4o and gpt-image-1. Explore AI generated visuals created with ChatGPT and Sora, showcasing OpenAI’s advanced image generation capabilities. |  | Free | 🟢 Fresh | 7.9k |
 | [backgroundremover](https://github.com/nadermx/backgroundremover) | Background Remover lets you Remove Background from images and video using AI with a simple command line interface that is free and open source. | `background` `removal` `image` | Free | 🟢 Fresh | 7.8k |
+| [presidio](https://github.com/microsoft/presidio) | An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines. | `python` `nlp` `framework` | Free | 🟢 Fresh | 7.8k |
 | [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) | Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++ | `inference` `image-generation` `c++` | Free | 🟢 Fresh | 5.8k |
 | [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) | Open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free AI image generation & cinema studio with 20+ models (Flux, SDXL, Midjourney, Ideogram). Self-hosted, customizable, MIT licensed. | `image-generation` `video-generation` `flux` | Free | 🟢 Fresh | 4.8k |
+| [snappy](https://github.com/KnpLabs/snappy) | PHP library allowing thumbnail, snapshot or PDF generation from a url or a html page. Wrapper for wkhtmltopdf/wkhtmltoimage | `php` `ai` `ml` | Free | 🟢 Fresh | 4.5k |
 | [SwarmUI](https://github.com/mcmonkeyprojects/SwarmUI) | SwarmUI (formerly StableSwarmUI), A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility. | `stable-diffusion` `web-ui` `modular` | Open Source | 🟢 Fresh | 4.0k |
+| [awesome-gpt-image-2-prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts) | Curated GPT-Image-2 prompts fot the Openai API：image examples across portraits, posters, UI mockups, character sheets, and community experiments. | `python` `ai` `gpt` | Free | 🟢 Fresh | 3.2k |
 | [koharu](https://github.com/mayocream/koharu) | ML-powered manga translator, written in Rust | `translation` `manga` `ml` | Free | 🟢 Fresh | 3.2k |
+| [ComputeLibrary](https://github.com/ARM-software/ComputeLibrary) | The Compute Library is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies. | `c++` `vision` | Free | 🟢 Fresh | 3.1k |
 | [dalle-playground](https://github.com/saharmor/dalle-playground) | A playground to generate images from any text prompt using Stable Diffusion (past: using DALL-E Mini) | `ai` | Free | 🟢 Fresh | 2.7k |
+| [emgucv](https://github.com/emgucv/emgucv) | Emgu CV is a cross platform .Net wrapper to the OpenCV image processing library. | `c#` `image` `opencv` | Free | 🟢 Fresh | 2.3k |
+| [inference](https://github.com/roboflow/inference) | Turn any computer or edge device into a command center for your computer vision projects. | `python` `vision` | Free | 🟢 Fresh | 2.3k |
+| [Simd](https://github.com/ermig1979/Simd) | C++ image processing and machine learning library with using of SIMD: SSE, AVX, AVX-512, AMX  for x86/x64, NEON for ARM, HVX for Hexagon | `c++` `go` `image` | Free | 🟢 Fresh | 2.2k |
+| [awesome-gpt-image-2](https://github.com/YouMind-OpenLab/awesome-gpt-image-2) | 🚀 World's largest GPT Image 2 prompt library, updated daily — 1500+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source. | `typescript` `ai` `gpt` | Free | 🟢 Fresh | 2.0k |
 | [JoyAI-Image](https://github.com/jd-opensource/JoyAI-Image) | JoyAI-Image is the unified multimodal foundation model for image understanding, text-to-image generation, and instruction-guided image editing. | `ai` | Free | 🟢 Fresh | 1.7k |
+| [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) | Curated GPT-Image-2 prompts for the OpenAI API — portraits, posters, UI mockups, game screenshots, character sheets, and more. Ready-to-use prompts for gpt-image-2. | `ai` `gpt` `api` | Free | 🟢 Fresh | 1.7k |
 | [trench](https://github.com/FrigadeHQ/trench) | Trench — Open-Source Analytics Infrastructure. A single production-ready Docker image built on ClickHouse, Kafka, and Node.js for tracking events. Easily build product analytics dashboards, LLM RAGs,  | `llm` `open-source` `rag` | Free | 🟢 Fresh | 1.6k |
+| [Infinity](https://github.com/FoundationVision/Infinity) | [CVPR 2025 Oral]Infinity ∞ : Scaling Bitwise AutoRegressive Modeling for High-Resolution Image Synthesis | `python` `image` | Free | 🟡 Recent | 1.6k |
+| [nano-banana-pro-prompts-recommend-skill](https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill) | AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images. | `typescript` `ai` `image` | Free | 🟢 Fresh | 1.5k |
 | [UForm](https://github.com/unum-cloud/UForm) | Pocket-Sized Multimodal AI for content understanding and generation across multilingual texts, images, and 🔜 video, up to 5x faster than OpenAI CLIP and LLaVA 🖼️ & 🖋️ |  | Free | 🟢 Fresh | 1.2k |
+| [training_extensions](https://github.com/open-edge-platform/training_extensions) | Train, Evaluate, Optimize, Deploy Computer Vision Models via OpenVINO™ | `python` `ai` `vision` | Free | 🟢 Fresh | 1.2k |
 | [project_ai_mern_image_generation](https://github.com/adrianhajdin/project_ai_mern_image_generation) | Build and Deploy a Full Stack MERN AI Image Generation App MidJourney & DALL E Clone |  | Free | 🟢 Fresh | 1.2k |
+| [FireRed-Image-Edit](https://github.com/FireRedTeam/FireRed-Image-Edit) | FireRed-Image-Edit is a powerful image editing foundation model achieving open-source state-of-the-art performance with precise instruction following, high-fidelity generation, superior identity consistency, and seamless multi-element fusion. | `python` `ml` `image` | Free | 🟡 Recent | 1.2k |
 
 ---
 
@@ -737,12 +883,14 @@
 | [llama-gpt](https://github.com/getumbrel/llama-gpt) | A self-hosted, offline, ChatGPT-like chatbot. Powered by Llama 2. 100% private, with no data leaving your device. New: Code Llama support! |  | Free | 🟢 Fresh | 11.0k |
 | [BrowserOS](https://github.com/browseros-ai/BrowserOS) | 🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia. | `typescript` `agent` `browser` | Unknown | 🟢 Fresh | 10.5k |
 | [stanford-tensorflow-tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials) | This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research.  | `chatbot` `course-materials` `deep-learning` | Free | 🔴 Stale | 10.4k |
+| [typebot.io](https://github.com/baptisteArno/typebot.io) | 💬 Typebot is a powerful chatbot builder that you can self-host. | `typescript` `chatbot` | Free | 🟢 Fresh | 9.9k |
 | [ART](https://github.com/OpenPipe/ART) | Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.5, GPT-OSS, Llama, and more! | `python` `agent` `agentic-ai` | Unknown | 🟢 Fresh | 9.2k |
 | [BingGPT](https://github.com/dice2o/BingGPT) | Desktop application of new Bing's AI-powered chat (Windows, macOS and Linux) | `ai` `javascript` | Free | 🔴 Stale | 9.0k |
 | [opencommit](https://github.com/di-sukharev/opencommit) | top #1 and most feature rich GPT wrapper for git — generate commit messages with an LLM in 1 sec — works with Claude, GPT and every other provider, supports local Ollama models too | `llm` `javascript` | Free | 🟢 Fresh | 7.2k |
 | [openllmetry](https://github.com/traceloop/openllmetry) | Open-source observability for your GenAI or LLM application, based on OpenTelemetry | `ai` `llm` `open-source` | Free | 🟢 Fresh | 7.0k |
 | [rig](https://github.com/0xPlaygrounds/rig) | ⚙️🦀 Build modular and scalable LLM Applications in Rust | `llm` | Free | 🟢 Fresh | 6.9k |
 | [rags](https://github.com/run-llama/rags) | Build ChatGPT over your data, all with natural language |  | Free | 🟢 Fresh | 6.5k |
+| [Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) | NeMo Guardrails is an open-source toolkit for easily adding programmable guardrails to LLM-based conversational systems. | `python` `ai` `llm` | Free | 🟢 Fresh | 6.0k |
 | [Everywhere](https://github.com/DearVa/Everywhere) | Context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools. | `llm` `ai` | Free | 🟢 Fresh | 5.8k |
 | [ed-donner/llm_engineering](https://github.com/ed-donner/llm_engineering) | Repo to accompany my mastering LLM engineering course | `llm` `jupyter-notebook` | Free | 🟢 Fresh | 5.7k |
 | [deepchat](https://github.com/ThinkInAIXYZ/deepchat) | 🐬DeepChat - A smart assistant that connects powerful AI to your personal world | `typescript` `agent` `agent-skills` | Unknown | 🟢 Fresh | 5.7k |
@@ -755,21 +903,30 @@
 | [Edit-Banana](https://github.com/BIT-DataLab/Edit-Banana) | Edit Banana: A framework for converting statistical formats into editable. | `ai` `llm` `open-source` | Free | 🟢 Fresh | 4.8k |
 | [kimi-free-api](https://github.com/LLM-Red-Team/kimi-free-api) | 🚀 KIMI AI 长文本大模型逆向API【特长：长文本解读整理】，支持高速流式输出、智能体对话、联网搜索、探索版、K1思考模型、长文档解读、图像解析、多轮对话，零配置部署，多路token支持，自动清理会话痕迹，仅供测试，如需商用请前往官方开放平台。 |  | Free | 🟢 Fresh | 4.8k |
 | [apfel](https://github.com/Arthur-Ficial/apfel) | The free AI already on your Mac. CLI tool, OpenAI-compatible server, and interactive chat — all on-device via Apple Intelligence. No API keys, no cloud, no downloads. | `ai` `llm` `api` | Free | 🟢 Fresh | 4.6k |
+| [vllm-omni](https://github.com/vllm-project/vllm-omni) | A framework for efficient model inference with omni-modality models | `python` `llm` `framework` | Free | 🟢 Fresh | 4.5k |
+| [LMOps](https://github.com/microsoft/LMOps) | General technology for enabling AI capabilities w/ LLMs and MLLMs | `python` `ai` `ml` | Free | 🟢 Fresh | 4.4k |
 | [maximhq/bifrost](https://github.com/maximhq/bifrost) | Fastest enterprise AI gateway (50x faster than LiteLLM) with adaptive load balancer, cluster mode, guardrails, 1000+ models support & <100 µs overhead at 5k RPS. | `llm` `go` | Free | 🟢 Fresh | 4.1k |
+| [LightLLM](https://github.com/ModelTC/LightLLM) | LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance. | `python` `llm` `framework` | Free | 🟢 Fresh | 4.0k |
 | [Awesome_GPT_Super_Prompting](https://github.com/CyberAlbSecOP/Awesome_GPT_Super_Prompting) | ChatGPT Jailbreaks, GPT Assistants Prompt Leaks, GPTs Prompt Injection, LLM Prompt Security, Super Prompts, Prompt Hack, Prompt Security, Ai Prompt Engineering, Adversarial Machine Learning. | `llm` `ai` `security` | Free | 🟢 Fresh | 3.8k |
 | [mostlygeek/llama-swap](https://github.com/mostlygeek/llama-swap) | Reliable model swapping for any local OpenAI/Anthropic compatible server - llama.cpp, vllm, etc | `llm` `local` `go` | Free | 🟢 Fresh | 3.5k |
 | [openui](https://github.com/thesysdev/openui) | The Open Standard for Generative UI | `ai` | Free | 🟢 Fresh | 3.5k |
 | [basic-memory](https://github.com/basicmachines-co/basic-memory) | AI conversations that actually remember. Never re-explain your project to your AI again. Join our Discord: https://discord.gg/tyvKNccgqN | `ai` `llm` `open-source` | Free | 🟢 Fresh | 2.9k |
 | [guppylm](https://github.com/arman-bd/guppylm) | GuppyLM: A Simple and Fast Large Language Model | `llm` `transformer` `nlp` | Free | 🟢 Fresh | 2.8k |
+| [Gemini-API](https://github.com/HanaokaYuzu/Gemini-API) | ✨ Reverse-engineered Python API for Google Gemini web app | `python` `api` `go` | Free | 🟡 Recent | 2.7k |
 | [Open-Interface](https://github.com/AmberSahdev/Open-Interface) | Control Any Computer Using LLMs. | `llm` | Free | 🟢 Fresh | 2.7k |
 | [Awesome-RL-for-LRMs](https://github.com/TsinghuaC3I/Awesome-RL-for-LRMs) | A Survey of Reinforcement Learning for Large Reasoning Models | `llm` `open-source` `awesome-list` | Free | 🟠 Aging | 2.4k |
+| [kelivo](https://github.com/Chevey339/kelivo) | A Flutter LLM Chat Client. Support Mobile & Desktop. | `dart` `llm` | Free | 🟢 Fresh | 2.4k |
 | [METATRON](https://github.com/sooryathejas/METATRON) | METATRON: A conversational AI system with memory and context awareness | `conversation` `memory` `context` | Free | 🟢 Fresh | 2.3k |
+| [maxtext](https://github.com/AI-Hypercomputer/maxtext) | A simple, performant and scalable Jax LLM! | `python` `llm` | Free | 🟢 Fresh | 2.3k |
 | [open-computer-use](https://github.com/e2b-dev/open-computer-use) | AI computer use powered by open source LLMs and E2B Desktop Sandbox | `llm` `ai` `open-source` | Free | 🟢 Fresh | 2.0k |
 | [GPTDiscord](https://github.com/Kav-K/GPTDiscord) | A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom indexes/knowledgebase, youtube summarizer, and more! |  | Free | 🟢 Fresh | 1.9k |
 | [py-gpt](https://github.com/szczyglis-dev/py-gpt) | Desktop AI Assistant powered by GPT-5, GPT-4, o1, o3, Gemini, Claude, Ollama, DeepSeek, Perplexity, Grok, Bielik, chat, vision, voice, RAG, image and video generation, agents, tools, MCP, plugins, speech synthesis and recognition, web search, memory, presets, assistants,and more. Linux, Windows, Mac |  | Free | 🟢 Fresh | 1.7k |
 | [RAGHub](https://github.com/Andrew-Jang/RAGHub) | A community-driven collection of RAG (Retrieval-Augmented Generation) frameworks, projects, and resources. Contribute and explore the evolving RAG ecosystem. | `ai` `llm` `open-source` | Free | 🟢 Fresh | 1.7k |
 | [trymirai/uzu](https://github.com/trymirai/uzu) | A high-performance inference engine for AI models | `llms-chatbots` `rust` `ai` | Free | 🟢 Fresh | 1.6k |
+| [Curator](https://github.com/NVIDIA-NeMo/Curator) | Scalable data pre processing and curation toolkit for LLMs | `python` `llm` `tool` | Free | 🟢 Fresh | 1.5k |
 | [parlor](https://github.com/fikrikarim/parlor) | Parlor: A chatbot platform for building conversational AI | `chatbot` `conversation` `ai` | Free | 🟢 Fresh | 1.5k |
+| [SALMONN](https://github.com/bytedance/SALMONN) | SALMONN family: A suite of advanced multi-modal LLMs | `llm` | Free | 🟢 Fresh | 1.4k |
+| [BrowserAI](https://github.com/sauravpanda/BrowserAI) | Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser | `typescript` `ai` `llm` | Free | 🟢 Fresh | 1.4k |
 | [SwitchAI](https://github.com/WSTxda/SwitchAI) | Manage AI digital assistants on Android. | `android` `ai-assistant` `mobile` | Free | 🟡 Recent | 1.3k |
 | [headroom](https://github.com/chopratejas/headroom) | The Context Optimization Layer for LLM Applications | `llm` | Free | 🟢 Fresh | 1.3k |
 | [php-language-server](https://github.com/felixfbecker/php-language-server) | PHP Implementation of the VS Code Language Server Protocol 🆚↔🖥 | `llm` | Free | 🟢 Fresh | 1.2k |
@@ -827,6 +984,7 @@
 | [Paddle](https://github.com/PaddlePaddle/Paddle) | PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署） | `ai` `python` `machine-learning` | Free | 🟢 Fresh | 23.8k |
 | [pytorch_geometric](https://github.com/pyg-team/pytorch_geometric) | Graph Neural Network Library for PyTorch | `deep-learning` `library` `geometric-deep-learning` | Free | 🟢 Fresh | 23.7k |
 | [cs249r_book](https://github.com/harvard-edge/cs249r_book) | Machine Learning Systems | `machine-learning` `deep-learning` `ml` | Free | 🟢 Fresh | 23.7k |
+| [ncnn](https://github.com/Tencent/ncnn) | ncnn is a high-performance neural network inference framework optimized for the mobile platform | `c++` `framework` | Free | 🟢 Fresh | 23.1k |
 | [serve](https://github.com/jina-ai/serve) | ☁️ Build multimodal AI applications with cloud-native stack | `cloud-native` `cncf` `deep-learning` | Free | 🔴 Stale | 21.9k |
 | [datasets](https://github.com/huggingface/datasets) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | `python` `artificial-intelligence` `computer-vision` | Unknown | 🟢 Fresh | 21.4k |
 | [DeepFaceLab](https://github.com/iperov/DeepFaceLab) | DeepFaceLab is the leading software for creating deepfakes. | `arxiv` `creating-deepfakes` `deep-face-swap` | Free | 🔴 Stale | 19.2k |
@@ -843,17 +1001,32 @@
 | [wandb](https://github.com/wandb/wandb) | The AI developer platform. Use Weights & Biases to train and fine-tune models, and manage models from experimentation to production. | `python` `collaboration` `data-science` | Unknown | 🟢 Fresh | 11.0k |
 | [yolov3](https://github.com/ultralytics/yolov3) | YOLOv3 in PyTorch > ONNX > CoreML > TFLite | `python` `deep-learning` `machine-learning` | Unknown | 🟢 Fresh | 10.6k |
 | [Machine-Learning](https://github.com/Jack-Cherish/Machine-Learning) | :zap:机器学习实战（Python3）：kNN、决策树、贝叶斯、逻辑回归、SVM、线性回归、树回归 | `adaboost` `adaboost-algorithm` `decision-tree` | Free | 🔴 Stale | 10.3k |
+| [NoiseTorch](https://github.com/noisetorch/NoiseTorch) | Real-time microphone noise suppression on Linux. | `go` | Free | 🔴 Stale | 10.2k |
 | [petals](https://github.com/bigscience-workshop/petals) | 🌸 Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading |  | Free | 🟢 Fresh | 10.1k |
 | [sonnet](https://github.com/google-deepmind/sonnet) | TensorFlow-based neural network library | `python` `artificial-intelligence` `deep-learning` | Unknown | 🟠 Aging | 9.9k |
+| [modelscope](https://github.com/modelscope/modelscope) | ModelScope: bring the notion of Model-as-a-Service to life. | `python` | Free | 🟢 Fresh | 8.9k |
 | [InternLM](https://github.com/InternLM/InternLM) | Official release of InternLM series (InternLM, InternLM2, InternLM2.5, InternLM3). |  | Free | 🟢 Fresh | 7.2k |
+| [rf-detr](https://github.com/roboflow/rf-detr) | [ICLR 2026] RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. | `python` | Free | 🟢 Fresh | 6.5k |
+| [serving](https://github.com/tensorflow/serving) | A flexible, high-performance serving system for machine learning models | `c++` | Free | 🟢 Fresh | 6.3k |
+| [awesome-pretrained-chinese-nlp-models](https://github.com/lonePatient/awesome-pretrained-chinese-nlp-models) | Awesome Pretrained Chinese NLP Models，高质量中文预训练模型&大模型&多模态模型&大语言模型集合 | `python` `ai` `nlp` | Free | 🟢 Fresh | 5.6k |
 | [gemma](https://github.com/google-deepmind/gemma) | Gemma open-weight LLM library, from Google DeepMind | `llm` `open-weights` `google` | Free | 🟢 Fresh | 4.8k |
+| [ignite](https://github.com/pytorch/ignite) | High-level library to help with training and evaluating neural networks in PyTorch flexibly and transparently. | `python` `ai` `pytorch` | Free | 🟢 Fresh | 4.8k |
+| [executorch](https://github.com/pytorch/executorch) | On-device AI across mobile, embedded and edge for PyTorch | `python` `ai` `pytorch` | Free | 🟢 Fresh | 4.5k |
+| [rl](https://github.com/pytorch/rl) | A modular, primitive-first, python-first PyTorch library for Reinforcement Learning. | `python` `pytorch` | Free | 🟢 Fresh | 3.4k |
+| [metorial](https://github.com/metorial/metorial) | Connect any AI model to 600+ integrations; powered by MCP 📡 🚀 | `typescript` `ai` | Free | 🟢 Fresh | 3.3k |
 | [igel](https://github.com/nidhaloff/igel) | a delightful machine learning tool that allows you to train, test, and use models without writing code | `ai` | Free | 🟢 Fresh | 3.1k |
+| [XNNPACK](https://github.com/google/XNNPACK) | High-efficiency floating-point neural network inference operators for mobile, server, and Web | `c` | Free | 🟢 Fresh | 2.3k |
 | [dflash](https://github.com/z-lab/dflash) | DFlash: Block Diffusion for Flash Speculative Decoding | `diffusion` `llm` `inference` | Free | 🟢 Fresh | 2.0k |
 | [model2vec](https://github.com/MinishLab/model2vec) | Fast State-of-the-Art Static Embeddings | `embeddings` `static` `fast` | Open Source | 🟢 Fresh | 2.0k |
 | [tinfoleak](https://github.com/vaguileradiaz/tinfoleak) | The most complete open-source tool for Twitter intelligence analysis | `open-source` | Free | 🟢 Fresh | 2.0k |
 | [Liquid4All/cookbook](https://github.com/Liquid4All/cookbook) | Examples, end-2-end tutorials and apps built using Liquid AI Foundational Models (LFM) and the LEAP SDK | `jupyter-notebook` | Free | 🟢 Fresh | 1.8k |
 | [intercept](https://github.com/smittix/intercept) | iNTERCEPT, a free and open-source platform that unites the best signal intelligence tools into a single, accessible interface. | `platform` `open-source` | Free | 🟢 Fresh | 1.7k |
+| [react-native-executorch](https://github.com/software-mansion/react-native-executorch) | Declarative way to run AI models in React Native on device, powered by ExecuTorch. | `c++` `ai` | Free | 🟢 Fresh | 1.4k |
+| [tt-metal](https://github.com/tenstorrent/tt-metal) | :metal: TT-NN operator library, and TT-Metalium low level kernel programming model. | `c++` | Free | 🟢 Fresh | 1.4k |
 | [ThreatPursuit-VM](https://github.com/mandiant/ThreatPursuit-VM) | Threat Pursuit Virtual Machine (VM): A fully customizable, open-sourced Windows-based distribution focused on threat intelligence analysis and hunting designed for intel and malware analysts as well a | `open-source` | Free | 🟢 Fresh | 1.3k |
+| [nncf](https://github.com/openvinotoolkit/nncf) | Neural Network Compression Framework for enhanced OpenVINO™ inference | `python` `framework` | Free | 🟢 Fresh | 1.2k |
+| [kodus-ai](https://github.com/kodustech/kodus-ai) | AI Code Review with Full Control Over Model Choice and Costs. | `typescript` `ai` | Free | 🟢 Fresh | 1.1k |
+| [ai-hub-models](https://github.com/qualcomm/ai-hub-models) | Qualcomm® AI Hub Models is our collection of state-of-the-art machine learning models optimized for performance (latency, memory etc.) and ready to deploy on Qualcomm® devices. | `python` `ai` | Free | 🟢 Fresh | 1.0k |
 
 ---
 
@@ -876,6 +1049,7 @@
 | [Vane](https://github.com/ItzCrazyKns/Vane) | Vane is an AI-powered answering engine. | `ai` `answering-engine` `search` | Free | 🟢 Fresh | 33.7k |
 | [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | 📨 The ultimate social media scheduling tool, with a bunch of AI 🤖 | `typescript` | Free | 🟢 Fresh | 29.2k |
 | [qmd](https://github.com/tobi/qmd) | Mini CLI search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current SOTA approaches while being all local | `cli` `search` `local` | Free | 🟢 Fresh | 21.5k |
+| [MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights) | 《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients. | `c++` `ai` `tool` | Free | 🟢 Fresh | 20.4k |
 | [resend/react-email](https://github.com/resend/react-email) | 💌 Build and send emails using React | `typescript` | Free | 🟢 Fresh | 18.9k |
 | [DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor: Agent-Native Personalized Learning Assistant | `ai` `agent` `education` | Free | 🟢 Fresh | 18.8k |
 | [rowboat](https://github.com/rowboatlabs/rowboat) | Open-source AI coworker that turns work into a knowledge graph and acts on it. Connects to email and meeting notes, builds long-lived memory, and helps get work done privately on your machine. | `ai` `coworker` `memory` | Free | 🟢 Fresh | 12.6k |
@@ -889,10 +1063,13 @@
 | [CopilotForXcode](https://github.com/github/CopilotForXcode) | AI coding assistant for Xcode | `ai` | Free | 🟢 Fresh | 6.0k |
 | [ppt-master](https://github.com/hugohe3/ppt-master) | AI generates natively editable PPTX from any document — real PowerPoint shapes, not images — no design skills needed | `powerpoint` `presentation` `ppt` | Free | 🟢 Fresh | 5.2k |
 | [ClawTeam](https://github.com/ClawTeam/ClawTeam) | ClawTeam - AI-powered team collaboration and project management platform | `Team` `Collaboration` `AI` | Open Source | 🟢 Fresh | 4.5k |
+| [openvino_notebooks](https://github.com/openvinotoolkit/openvino_notebooks) | 📚 Jupyter notebook tutorials for OpenVINO™ | `jupyter notebook` | Free | 🟢 Fresh | 3.1k |
 | [One-Person Company AI Tools](https://github.com/cyfyifanchen/one-person-company) | Continuously updated AI tools for solo businesses. | `solo-business` `productivity` `entrepreneurship` | Free | 🔴 Stale | 2.7k |
+| [mito](https://github.com/mito-ds/mito) | Jupyter extensions that help you write code faster: Context aware AI Chat, Autocomplete, and Spreadsheet | `jupyter notebook` `ai` | Free | 🟢 Fresh | 2.6k |
 | [AI Products All-In-One](https://github.com/TheExplainthis/AI-Products-All-In-One) | Curated practical ChatGPT and generative AI tools. | `collection` `chatgpt` `generative-ai` | Free | 🔴 Stale | 1.8k |
 | [wecom-cli](https://github.com/WecomTeam/wecom-cli) | WeChat Work CLI and automation tools | `automation` `rust` | Free | 🟢 Fresh | 1.7k |
 | [deepbot](https://github.com/kevinluosl/deepbot) | DeepBot is a system-level AI assistant built for both personal productivity and enterprise workflows — one-click setup, seamless experience, and native Feishu integration. |  | Free | 🟢 Fresh | 1.6k |
+| [Mish](https://github.com/digantamisra98/Mish) | Official Repository for "Mish: A Self Regularized Non-Monotonic Neural Activation Function" [BMVC 2020] | `jupyter notebook` | Free | 🟢 Fresh | 1.3k |
 | [OpenSpace](https://github.com/OpenSpace/OpenSpace) | OpenSpace - AI-powered collaborative workspace and team coordination platform | `Collaboration` `Workspace` `AI` | Open Source | 🟢 Fresh | 1.1k |
 | [MTools](https://github.com/HG-ha/MTools) | Desktop app for media processing with AI enhancement. | `desktop` `media` `video` | Free | 🟢 Fresh | 1.0k |
 | [open-vibe-island](https://github.com/Octane0411/open-vibe-island) | The open-source alternative to vibe-island, designed for heavy code agent users, supporting cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm | `agent` `claudecode` `code-island` | Free | 🟢 Fresh | 0.7k |
@@ -958,6 +1135,7 @@
 | [abu](https://github.com/bbfamily/abu) | 阿布量化交易系统(股票，期权，期货，比特币，机器学习) 基于python的开源量化交易，量化投资架构 | `python` `algorithmic-trading` `bitcoin` | Unknown | 🟠 Aging | 16.9k |
 | [argo-workflows](https://github.com/argoproj/argo-workflows) | Workflow Engine for Kubernetes | `go` `airflow` `argo` | Unknown | 🟢 Fresh | 16.6k |
 | [LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR) | pix2tex: Using a ViT to convert images of equations into LaTeX code. | `dataset` `deep-learning` `im2latex` | Free | 🔴 Stale | 16.3k |
+| [cvat](https://github.com/cvat-ai/cvat) | Annotate better with CVAT, the industry-leading data engine for machine learning. Used and trusted by teams at any scale, for data of any scale. | `python` `rust` | Free | 🟢 Fresh | 15.7k |
 | [albumentations](https://github.com/albumentations-team/albumentations) | Fast and flexible image augmentation library. Paper about the library: https://www.mdpi.com/2078-2489/11/2/125 | `python` `augmentation` `deep-learning` | Unknown | 🔴 Stale | 15.3k |
 | [transferlearning](https://github.com/jindongwang/transferlearning) | Transfer learning / domain adaptation / domain generalization / multi-task learning etc. Papers, codes, datasets, applications, tutorials.-迁移学习 | `deep-learning` `domain-adaptation` `domain-adaption` | Free | 🔴 Stale | 14.3k |
 | [CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | Leaked system prompts for ChatGPT, Gemini, Claude, and more AI systems. | `prompts` `transparency` `research` | Free | 🟢 Fresh | 14.1k |
@@ -972,9 +1150,11 @@
 | [MLAlgorithms](https://github.com/rushter/MLAlgorithms) | Minimal and clean examples of machine learning algorithms implementations | `python` `deep-learning` `machine-learning` | Unknown | 🔴 Stale | 11.0k |
 | [kedro](https://github.com/kedro-org/kedro) | Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular. | `python` `experiment-tracking` `hacktoberfest` | Unknown | 🟢 Fresh | 10.8k |
 | [AutoResearchClaw](https://github.com/AutoResearchClaw/AutoResearchClaw) | AutoResearchClaw - Extended AI research framework with advanced capabilities | `AI Research` `Automation` `Extended` | Open Source | 🟢 Fresh | 10.7k |
+| [tokenizers](https://github.com/huggingface/tokenizers) | 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production | `rust` | Free | 🟢 Fresh | 10.7k |
 | [doccano](https://github.com/doccano/doccano) | Open source annotation tool for machine learning practitioners. | `python` `annotation-tool` `data-labeling` | Unknown | 🟢 Fresh | 10.6k |
 | [server](https://github.com/triton-inference-server/server) | The Triton Inference Server provides an optimized cloud and edge inferencing solution.  | `python` `cloud` `datacenter` | Unknown | 🟢 Fresh | 10.6k |
 | [fiftyone](https://github.com/voxel51/fiftyone) | Refine high-quality datasets and visual AI models | `python` `active-learning` `artificial-intelligence` | Unknown | 🟢 Fresh | 10.6k |
+| [rerun](https://github.com/rerun-io/rerun) | An open source SDK for logging, storing, querying, and visualizing multimodal and multi-rate data | `rust` | Free | 🟢 Fresh | 10.6k |
 | [mlcourse.ai](https://github.com/Yorko/mlcourse.ai) | Open Machine Learning Course | `python` `algorithms` `data-analysis` | Unknown | 🟠 Aging | 10.6k |
 | [autogluon](https://github.com/autogluon/autogluon) | Fast and Accurate ML in 3 Lines of Code | `python` `autogluon` `automated-machine-learning` | Unknown | 🟢 Fresh | 10.2k |
 | [tpot](https://github.com/EpistasisLab/tpot) | A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming. | `ai` | Free | 🟢 Fresh | 10.0k |
@@ -984,9 +1164,11 @@
 | [GoogleCloudPlatform/python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples) | Code samples used on cloud.google.com | `jupyter-notebook` | Free | 🟢 Fresh | 8.0k |
 | [deep-searcher](https://github.com/zilliztech/deep-searcher) | Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python. | `python` `agent` `agentic-rag` | Unknown | 🔴 Stale | 7.8k |
 | [hertzbeat](https://github.com/apache/hertzbeat) | An AI-powered next-generation open source real-time observability system. | `ai` `open-source` | Free | 🟢 Fresh | 7.2k |
+| [lance](https://github.com/lance-format/lance) | Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming.. | `rust` `ai` `pytorch` | Free | 🟢 Fresh | 6.4k |
 | [TagUI](https://github.com/aisingapore/TagUI) | Free RPA tool by AI Singapore | `ai` `javascript` | Free | 🟢 Fresh | 6.3k |
 | [MISP](https://github.com/MISP/MISP) | MISP (core software) - Open Source Threat Intelligence and Sharing Platform | `platform` `open-source` | Free | 🟢 Fresh | 6.2k |
 | [turboquant_plus](https://github.com/turboquant/turboquant_plus) | TurboQuant+ - Advanced quantitative analysis and trading AI system | `Quantitative` `Trading` `Analysis` | Open Source | 🟢 Fresh | 5.8k |
+| [DALI](https://github.com/NVIDIA/DALI) | A GPU-accelerated library containing highly optimized building blocks and an execution engine for data processing to accelerate deep learning training and inference applications. | `c++` `ai` | Free | 🟢 Fresh | 5.7k |
 | [paperless-ai](https://github.com/clusterzx/paperless-ai) | An automated document analyzer for Paperless-ngx using OpenAI API, Ollama, Deepseek-r1, Azure and all OpenAI API compatible Services to automatically analyze and tag your documents. | `ai` `javascript` | Free | 🟢 Fresh | 5.6k |
 | [AI Scientist v2](https://github.com/SakanaAI/AI-Scientist-v2) | The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search | `scientific-discovery` `automated-research` `agentic` | Free | 🔴 Stale | 5.5k |
 | [2026-AI-College-Jobs](https://github.com/speedyapply/2026-AI-College-Jobs) | 2026 AI/ML internship & new graduate job list updated daily | `jobs` `internship` `career` | Open Source | 🟢 Fresh | 5.1k |
@@ -995,6 +1177,7 @@
 | [LLM-RL-Visualized](https://github.com/changyeyu/LLM-RL-Visualized) | 🌟100+ 原创 LLM / RL 原理图📚，《大模型算法》作者巨献！💥（100+  LLM/RL Algorithm Maps ） | `llm` `rl` `visualization` | Open Source | 🟡 Recent | 4.0k |
 | [dora-rs/dora](https://github.com/dora-rs/dora) | DORA (Dataflow-Oriented Robotic Architecture) is middleware designed to streamline and simplify the creation of AI-based robotic applications. It offers low latency, composable, and distributed dataflow capabilities. Applications are modeled as directed graphs, also referred to as pipelines. | `rust` | Free | 🟢 Fresh | 3.7k |
 | [Streamer-Sales](https://github.com/PeterH0323/Streamer-Sales) | Streamer-Sales 销冠 —— 卖货主播 LLM 大模型🛒🎁，一个能够根据给定的商品特点从激发用户购买意愿角度出发进行商品解说的卖货主播大模型。🚀⭐内含详细的数据生成流程❗ 📦另外还集成了 LMDeploy 加速推理🚀、RAG检索增强生成 📚、TTS文字转语音🔊、数字人生成 🦸、 Agent 使用网络查询实时信息🌐、ASR 语音转文字🎙️、Vue 生态搭建前端🍍、FastAPI 搭建后端🗝️、Docker-compose 打包部署🐋 |  | Free | 🟢 Fresh | 3.7k |
+| [SDV](https://github.com/sdv-dev/SDV) | Synthetic data generation for tabular data | `python` | Free | 🟢 Fresh | 3.5k |
 | [datachain](https://github.com/datachain-ai/datachain) | Analytics, Versioning and ETL for multimodal data: video, audio, PDFs, images | `data` `analytics` `versioning` | Open Source | 🟢 Fresh | 2.7k |
 | [google-ai-edge/mediapipe-samples](https://github.com/google-ai-edge/mediapipe-samples) |  | `jupyter-notebook` | Free | 🟢 Fresh | 2.7k |
 | [Lealone](https://github.com/lealone/Lealone) | 一个能安全适用于个人助理和企业应用的全栈自进化通用智能体 | `ai` | Free | 🟢 Fresh | 2.6k |
@@ -1007,6 +1190,7 @@
 | [mlops-python-package](https://github.com/fmind/mlops-python-package) | A comprehensive Python package template to kickstart and standardize your MLOps initiatives and data pipelines. | `ai` | Free | 🟢 Fresh | 1.4k |
 | [AutoResearch MLX](https://github.com/trevin-creator/autoresearch-mlx) | Apple Silicon (MLX) port of Karpathy's autoresearch — autonomous AI research loops on Mac, no PyTorch required | `ai` `autonomous` `apple-silicon` | Free | 🟠 Aging | 1.4k |
 | [AI-Resources-Central](https://github.com/CoderSJX/AI-Resources-Central) |  Bringing together outstanding artificial intelligence (AI) open source projects from around the world.  | `ai` `open-source` | Free | 🟢 Fresh | 1.2k |
+| [lhotse](https://github.com/lhotse-speech/lhotse) | Tools for handling multimodal data in machine learning projects. | `python` `tool` | Free | 🟢 Fresh | 1.1k |
 | [datacleaner](https://github.com/rhiever/datacleaner) | A Python tool that automatically cleans data sets and readies them for analysis. | `ai` | Free | 🟢 Fresh | 1.1k |
 | [deepfabric](https://github.com/always-further/deepfabric) | Generate High-Quality Synthetics, Train, Measure, and Evaluate in a Single Pipeline | `synthetic` `training` `evaluation` | Open Source | 🟢 Fresh | 0.9k |
 | [graphify](https://github.com/graphify/graphify) | Graphify - AI-powered graph database and knowledge graph builder | `Graph Database` `Knowledge` `AI` | Open Source | 🔴 Stale | 0.4k |
@@ -1026,8 +1210,11 @@
 | [video2x](https://github.com/k4yt3x/video2x) | A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018. | `anime4k` `frame-interpolation` `machine-learning` | Free | 🟢 Fresh | 19.5k |
 | [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader) | Desktop App for downloading Videos and Audios from hundreds of sites | `video-generation` `audio` `tts` | Free | 🟢 Fresh | 9.4k |
 | [ShortGPT](https://github.com/RayVentura/ShortGPT) | Experimental AI framework for YouTube shorts / TikTok channel automation | `video` `automation` `youtube` | Free | 🟢 Fresh | 7.3k |
+| [Pixelle-Video](https://github.com/AIDC-AI/Pixelle-Video) | 🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine | `python` `ai` | Free | 🟡 Recent | 6.6k |
+| [Home-AssistantConfig](https://github.com/CCOSTAN/Home-AssistantConfig) | :house: Home Assistant configuration & Documentation for my Smart House.  Write-ups, videos, part lists, and links throughout. Be sure to :star: it. Updated FREQUENTLY! | `python` | Free | 🟢 Fresh | 5.1k |
 | [tonhowtf/omniget](https://github.com/tonhowtf/omniget) | Desktop app to download videos, courses. YouTube, Instagram, TikTok, Bilibili (哔哩哔哩), Douyin (抖音), 小红书, 快手, 优酷, Hotmart, Udemy, Kiwify, Telegram, and 1000+ more via yt-dlp. Download torrents and send files between devices over P2P. | `video-generation` `rust` | Free | 🟢 Fresh | 2.0k |
 | [Edit Mind](https://github.com/IliasHad/edit-mind) | Local-first AI video intelligence platform. Index your video library with multi-modal analysis (YOLO, DeepFace, Whisper), search semantically via natural language, Docker-ready | `ai` `computer-vision` `deepface` | Free | 🟢 Fresh | 1.3k |
+| [Deep-Learning-Experiments](https://github.com/roatienza/Deep-Learning-Experiments) | Videos, notes and experiments to understand deep learning | `jupyter notebook` `deep-learning` | Free | 🟢 Fresh | 1.2k |
 | [StoryGen-Atelier](https://github.com/0xsline/StoryGen-Atelier) | AI-assisted storyboard and video generation tool. Uses Gemini for generating storyboard text and frames, Vertex AI Veo for generating transition clips, and ffmpeg for stitching the final video. Built-in logs and gallery management. | `ai` | Free | 🔴 Stale | 0.7k |
 | [ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `ai` `neural-network` `python` | Free | 🟢 Fresh | 0.6k |
 
@@ -1052,17 +1239,17 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 911
+- **Total Tools:** 1098
 - **Categories:** 9
 - **Last Updated:** April 24, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 713 tools
-- 🟡 Recent: 70 tools
-- 🟠 Aging: 43 tools
-- 🔴 Stale: 85 tools
+- 🟢 Fresh: 867 tools
+- 🟡 Recent: 85 tools
+- 🟠 Aging: 48 tools
+- 🔴 Stale: 98 tools
 
 ---
 
