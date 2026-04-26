@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-26-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-2438-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-2439-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,7 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [obsidian-wiki](https://github.com/Ar9av/obsidian-wiki) | Framework for AI agents to build and maintain an Obsidian wiki using Karpathy's LLM Wiki pattern | Agents & Automation | 🟢 Fresh | April 26, 2026 |
 | [openui](https://github.com/wandb/openui) | OpenUI let's you describe UI using your imagination, then see it rendered live. | Developer Tools | 🟠 Aging | April 25, 2026 |
 | [cube](https://github.com/cube-js/cube) | 📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics | Agents & Automation | 🟢 Fresh | April 25, 2026 |
 | [12-factor-agents](https://github.com/humanlayer/12-factor-agents) | What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers? | Agents & Automation | 🔴 Stale | April 25, 2026 |
@@ -37,7 +38,6 @@
 | [kubesphere](https://github.com/kubesphere/kubesphere) | The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️ | LLMs & Chatbots | 🟢 Fresh | April 25, 2026 |
 | [plate](https://github.com/udecode/plate) | Rich-text editor with AI and shadcn/ui | Developer Tools | 🟢 Fresh | April 25, 2026 |
 | [gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram) | Free, simple, fast interactive diagrams for any GitHub repository | Developer Tools | 🟢 Fresh | April 25, 2026 |
-| [iii](https://github.com/iii-hq/iii) | iii unifies your existing backend stack with a single engine and three primitives: Function, Trigger, and Worker. | Agents & Automation | 🟢 Fresh | April 25, 2026 |
 
 ---
 
@@ -665,6 +665,7 @@
 | [samples](https://github.com/strands-agents/samples) | Agent samples built using the Strands Agents SDK. | `Python` `agentic` `agentic-ai` | Free | 🟢 Fresh | 0.7k |
 | [Trace](https://github.com/microsoft/Trace) | End-to-end Generative Optimization for AI Agents | `Python` `agentic-agi` `agentic-workflow` | Free | 🔴 Stale | 0.7k |
 | [LuaN1aoAgent](https://github.com/SanMuzZzZz/LuaN1aoAgent) | LuaN1aoAgent is a cognitive-driven AI hacker. It is a fully autonomous AI penetration testing agent powered by DeepSeek V3.2. Using dual-graph reasoning, LuaN1ao achieves a success rate of over 90% on the XBOW Benchmark, with a median exploit cost of just $0.09. | `Python` `agents` `ai` | Free | 🟡 Recent | 0.7k |
+| [obsidian-wiki](https://github.com/Ar9av/obsidian-wiki) | Framework for AI agents to build and maintain an Obsidian wiki using Karpathy's LLM Wiki pattern | `agent-skills` `knowledge-base` `llm-tools` | Free | 🟢 Fresh | 0.7k |
 | [figma-mcp-go](https://github.com/vkhanhqui/figma-mcp-go) | Figma MCP for free users — no rate limits, full read/write, text to designs, designs to code | `Go` `agent` `ai` | Free | 🟢 Fresh | 0.7k |
 | [manuscript-core](https://github.com/chainbase-labs/manuscript-core) | Manuscript is a revolutionary blockchain data streaming framework. With Manuscript, you can seamlessly integrate on-chain and off-chain data into target data storage for unrestricted querying and analysis | `Rust` `agents` `ai` | Free | 🟡 Recent | 0.7k |
 | [TheAgentCompany](https://github.com/TheAgentCompany/TheAgentCompany) | An agent benchmark with tasks in a simulated software company. | `Python` `agent` `ai` | Free | 🔴 Stale | 0.7k |
@@ -2579,14 +2580,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 2438
+- **Total Tools:** 2439
 - **Categories:** 9
-- **Last Updated:** April 25, 2026
+- **Last Updated:** April 26, 2026
 - **Last Freshness Check:** April 13, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1195 tools
+- 🟢 Fresh: 1196 tools
 - 🟡 Recent: 661 tools
 - 🟠 Aging: 136 tools
 - 🔴 Stale: 446 tools
