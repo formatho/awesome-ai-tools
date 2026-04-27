@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-04-27-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-2462-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-2464-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -29,6 +29,8 @@
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
 | [Julia](https://github.com/JuliaLang/julia) | The Julia Programming Language - Fast, dynamic, and expressive for technical computing with machine learning capabilities. | Developer Tools | 🟢 Fresh | April 27, 2026 |
+| [skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Production-grade system prompts and agent skills for AI coding agents | Developer Tools | 🟢 Fresh | April 27, 2026 |
+| [hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers | Research & Data | 🟢 Fresh | April 27, 2026 |
 | [WFGY](https://github.com/onestardao/WFGY) | WFGY is an open-source AI Troubleshooting Atlas for RAG, agents, and real-world AI workflows. Includes the 16-problem map. | Developer Tools | 🟢 Fresh | April 26, 2026 |
 | [agentica](https://github.com/wrtnlabs/agentica) | TypeScript AI AI Function Calling Framework enhanced by compiler skills. | Agents & Automation | 🟢 Fresh | April 26, 2026 |
 | [agentic-rag-for-dummies](https://github.com/GiovanniPasq/agentic-rag-for-dummies) | A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes. | Developer Tools | 🟢 Fresh | April 26, 2026 |
@@ -36,8 +38,6 @@
 | [MiniSearch](https://github.com/felladrin/MiniSearch) | Minimalist web-searching platform with an AI assistant that runs directly from your browser. | Research & Data | 🟢 Fresh | April 26, 2026 |
 | [awesome-LLM-resources](https://github.com/WangRongsheng/awesome-LLM-resources) | 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理）| Summary of the world's best LLM resources. | Agents & Automation | 🟢 Fresh | April 26, 2026 |
 | [scikit-image](https://github.com/scikit-image/scikit-image) | Image processing in Python | Image Generation | 🟢 Fresh | April 26, 2026 |
-| [AIGC-Interview-Book](https://github.com/WeThinkIn/AIGC-Interview-Book) | AIGC算法工程师面试秘籍。涵盖AIGC、LLM大模型、AI Agent、传统深度学习、自动驾驶、机器学习、计算机视觉、自然语言处理、强化学习等AI行业面试笔试干货经验与核心知识。 | Agents & Automation | 🟢 Fresh | April 26, 2026 |
-| [MulimgViewer](https://github.com/nachifur/MulimgViewer) | MulimgViewer is a multi-image viewer that can open multiple images in one interface, which is convenient for image comparison and image stitching. | Image Generation | 🟢 Fresh | April 26, 2026 |
 
 ---
 
@@ -945,6 +945,7 @@
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | Frontend stack for agents and generative UI (React + Angular). | `frontend` `agent` `ui` | Freemium | 🟢 Fresh | 30.2k |
 | [openscreen](https://github.com/siddharthvaddem/openscreen) | Create stunning demos for free. Open-source, no subscriptions, no watermarks, and free for commercial use. An alternative to Screen Studio.  | `electron` `open-source` `pixijs` | Free | 🟢 Fresh | 29.3k |
 | [CLI-Anything](https://github.com/CLI-Anything/CLI-Anything) | AI-powered CLI tool that can control anything through command line interface | `CLI` `AI Control` `Automation` | Open Source | 🟢 Fresh | 29.1k |
+| [skills](https://github.com/mattpocock/skills) | Skills for Real Engineers. Production-grade system prompts and agent skills for AI coding agents | `skills` `prompts` `ai-coding` | Free | 🟢 Fresh | 28.6k |
 | [facefusion](https://github.com/facefusion/facefusion) | Industry leading face manipulation platform | `python` `deep-fake` `deepfake` | Unknown | 🟢 Fresh | 27.9k |
 | [vagrant](https://github.com/hashicorp/vagrant) | Vagrant is a tool for building and distributing development environments. | `virtualization` `devops` `development-environment` | Free | 🟢 Fresh | 27.1k |
 | [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | An AI prompt optimizer for writing better prompts and getting better AI results. | `typescript` `ai-prompts` `ai-tools` | Freemium | 🟡 Recent | 26.5k |
@@ -2362,6 +2363,7 @@
 | [LLM Course](https://github.com/mlabonne/llm-course) | Course to get into Large Language Models with roadmaps and Colab notebooks. | `course` `education` `llm` | Free | 🟠 Aging | 78.2k |
 | [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) | A curated list of awesome Machine Learning frameworks, libraries and software. | `machine-learning` `frameworks` `libraries` | Free | 🟢 Fresh | 72.2k |
 | [autoresearch](https://github.com/autoresearch/autoresearch) | AutoResearch - AI-powered research assistant that automates scientific research workflows | `AI Research` `Automation` `Science` | Open Source | 🟢 Fresh | 68.2k |
+| [hackingtool](https://github.com/Z4nzu/hackingtool) | ALL IN ONE Hacking Tool For Hackers | `hacking` `security` `tools` | Free | 🟢 Fresh | 66.8k |
 | [Apollo-11](https://github.com/chrislgarry/Apollo-11) | Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules. | `historical` `assembly` `apollo` | Free | 🟢 Fresh | 66.5k |
 | [scikit-learn](https://github.com/scikit-learn/scikit-learn) | scikit-learn: machine learning in Python | `data-analysis` `data-science` `machine-learning` | Free | 🟢 Fresh | 65.9k |
 | [OpenBB](https://github.com/OpenBB-finance/OpenBB) | Financial data platform for analysts, quants and AI agents. | `ai` `crypto` `derivatives` | Open Source | 🟢 Fresh | 65.8k |
@@ -2603,14 +2605,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 2462
+- **Total Tools:** 2464
 - **Categories:** 9
 - **Last Updated:** April 27, 2026
-- **Last Freshness Check:** April 13, 2026
+- **Last Freshness Check:** April 14, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1219 tools
+- 🟢 Fresh: 1221 tools
 - 🟡 Recent: 661 tools
 - 🟠 Aging: 136 tools
 - 🔴 Stale: 446 tools
