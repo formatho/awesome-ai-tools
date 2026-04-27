@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-26T18:17:20.886Z",
-    "total_tools": 2461,
+    "last_updated": "2026-04-27T06:19:56.140Z",
+    "total_tools": 2462,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,30 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-26T18:17:20.886Z"
+    "last_discovery": "2026-04-27T06:19:56.140Z"
   },
   "tools": [
+    {
+      "name": "Julia",
+      "url": "https://github.com/JuliaLang/julia",
+      "description": "The Julia Programming Language - Fast, dynamic, and expressive for technical computing with machine learning capabilities.",
+      "category": "Developer Tools",
+      "tags": [
+        "programming-language",
+        "julia",
+        "machine-learning",
+        "scientific",
+        "hpc"
+      ],
+      "pricing": "Free",
+      "stars": 48626,
+      "language": "Julia",
+      "added_date": "2026-04-27",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T06:19:56.135Z",
+      "days_since_commit": 0
+    },
     {
       "name": "WFGY",
       "url": "https://github.com/onestardao/WFGY",
