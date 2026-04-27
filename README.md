@@ -2,8 +2,8 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-04-27blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-2461-green)](data/tools.json)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-04-27-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Total Tools](https://img.shields.io/badge/Tools-2462-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,7 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [Julia](https://github.com/JuliaLang/julia) | The Julia Programming Language - Fast, dynamic, and expressive for technical computing with machine learning capabilities. | Developer Tools | 🟢 Fresh | April 27, 2026 |
 | [WFGY](https://github.com/onestardao/WFGY) | WFGY is an open-source AI Troubleshooting Atlas for RAG, agents, and real-world AI workflows. Includes the 16-problem map. | Developer Tools | 🟢 Fresh | April 26, 2026 |
 | [agentica](https://github.com/wrtnlabs/agentica) | TypeScript AI AI Function Calling Framework enhanced by compiler skills. | Agents & Automation | 🟢 Fresh | April 26, 2026 |
 | [agentic-rag-for-dummies](https://github.com/GiovanniPasq/agentic-rag-for-dummies) | A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes. | Developer Tools | 🟢 Fresh | April 26, 2026 |
@@ -37,7 +38,6 @@
 | [scikit-image](https://github.com/scikit-image/scikit-image) | Image processing in Python | Image Generation | 🟢 Fresh | April 26, 2026 |
 | [AIGC-Interview-Book](https://github.com/WeThinkIn/AIGC-Interview-Book) | AIGC算法工程师面试秘籍。涵盖AIGC、LLM大模型、AI Agent、传统深度学习、自动驾驶、机器学习、计算机视觉、自然语言处理、强化学习等AI行业面试笔试干货经验与核心知识。 | Agents & Automation | 🟢 Fresh | April 26, 2026 |
 | [MulimgViewer](https://github.com/nachifur/MulimgViewer) | MulimgViewer is a multi-image viewer that can open multiple images in one interface, which is convenient for image comparison and image stitching. | Image Generation | 🟢 Fresh | April 26, 2026 |
-| [CV](https://github.com/AccumulateMore/CV) | 超级全面的深度学习笔记【土堆 Pytorch】【李沐 动手学深度学习】【吴恩达 深度学习】【大飞 大模型Agent】 | Agents & Automation | 🟢 Fresh | April 26, 2026 |
 
 ---
 
@@ -917,6 +917,7 @@
 | [Mem0](https://github.com/mem0ai/mem0) | Universal memory layer for AI Agents. | `memory` `agent` `persistence` | Freemium | 🟢 Fresh | 53.1k |
 | [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code) | Nano Claude Code-like agent harness built from scratch. | `agent` `claude` `bash` | Free | 🟢 Fresh | 52.8k |
 | [100-Days-Of-ML-Code](https://github.com/Avik-Jain/100-Days-Of-ML-Code) | 100 Days of ML Coding | `coding` `education` `learning` | Free | 🔴 Stale | 50.6k |
+| [Julia](https://github.com/JuliaLang/julia) | The Julia Programming Language - Fast, dynamic, and expressive for technical computing with machine learning capabilities. | `programming-language` `julia` `machine-learning` | Free | 🟢 Fresh | 48.6k |
 | [JeecgBoot](https://github.com/jeecgboot/JeecgBoot) | AI-driven low-code platform with zero-code and code generation modes. | `low-code` `ai` `code-generation` | Freemium | 🟢 Fresh | 45.8k |
 | [mempalace](https://github.com/milla-jovovich/mempalace) | The highest-scoring AI memory system ever benchmarked. And it's free. |  | Free | 🟢 Fresh | 44.8k |
 | [cc-switch](https://github.com/farion1231/cc-switch) | A cross-platform desktop All-in-One assistant tool for Claude Code, Codex, OpenCode, openclaw & Gemini CLI | `assistant` `desktop` `cross-platform` | Free | 🟢 Fresh | 44.6k |
@@ -2602,14 +2603,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 2461
+- **Total Tools:** 2462
 - **Categories:** 9
-- **Last Updated:** April 26, 2026
-- **Last Freshness Check:** April 13, 2026
+- **Last Updated:** April 27, 2026
+- **Last Freshness Check:** April 14, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1218 tools
+- 🟢 Fresh: 1219 tools
 - 🟡 Recent: 661 tools
 - 🟠 Aging: 136 tools
 - 🔴 Stale: 446 tools
