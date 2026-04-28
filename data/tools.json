@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-28T12:14:38.955Z",
-    "total_tools": 2509,
+    "last_updated": "2026-04-28T18:16:15.805Z",
+    "total_tools": 2539,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,536 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-28T12:14:38.955Z"
+    "last_discovery": "2026-04-28T18:16:15.805Z"
   },
   "tools": [
+    {
+      "name": "phantomjs",
+      "url": "https://github.com/ariya/phantomjs",
+      "description": "Scriptable Headless Browser",
+      "category": "Developer Tools",
+      "tags": [
+        "c++"
+      ],
+      "pricing": "Free",
+      "stars": 29485,
+      "language": "C++",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T10:45:35Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "kestra",
+      "url": "https://github.com/kestra-io/kestra",
+      "description": "Event Driven Orchestration & Scheduling Platform for Mission Critical Applications",
+      "category": "Developer Tools",
+      "tags": [
+        "java"
+      ],
+      "pricing": "Free",
+      "stars": 26766,
+      "language": "Java",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T17:43:11Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "watchtower",
+      "url": "https://github.com/containrrr/watchtower",
+      "description": "A process for automating Docker container base image updates. ",
+      "category": "Image Generation",
+      "tags": [
+        "go",
+        "ai",
+        "docker"
+      ],
+      "pricing": "Free",
+      "stars": 24596,
+      "language": "Go",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:25:19Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Tasmota",
+      "url": "https://github.com/arendst/Tasmota",
+      "description": "Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at",
+      "category": "Agents & Automation",
+      "tags": [
+        "c",
+        "automation",
+        "web"
+      ],
+      "pricing": "Free",
+      "stars": 24300,
+      "language": "C",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T17:00:06Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "semantic-release",
+      "url": "https://github.com/semantic-release/semantic-release",
+      "description": ":package::rocket: Fully automated version management and package publishing",
+      "category": "Developer Tools",
+      "tags": [
+        "javascript"
+      ],
+      "pricing": "Free",
+      "stars": 23598,
+      "language": "JavaScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T15:45:25Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "appium",
+      "url": "https://github.com/appium/appium",
+      "description": "Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol",
+      "category": "Agents & Automation",
+      "tags": [
+        "typescript",
+        "automation",
+        "web",
+        "framework"
+      ],
+      "pricing": "Free",
+      "stars": 21466,
+      "language": "TypeScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T18:05:14Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "TensorFlow-Examples",
+      "url": "https://github.com/aymericdamien/TensorFlow-Examples",
+      "description": "TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2)",
+      "category": "Open Source Models",
+      "tags": [
+        "jupyter notebook"
+      ],
+      "pricing": "Free",
+      "stars": 43783,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T15:03:32Z",
+      "days_since_commit": 1
+    },
+    {
+      "name": "nacos",
+      "url": "https://github.com/alibaba/nacos",
+      "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+      "category": "Developer Tools",
+      "tags": [
+        "java",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 32909,
+      "language": "Java",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T08:25:48Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "dbeaver",
+      "url": "https://github.com/dbeaver/dbeaver",
+      "description": "Free universal database tool and SQL client",
+      "category": "Developer Tools",
+      "tags": [
+        "java",
+        "cli",
+        "tool"
+      ],
+      "pricing": "Free",
+      "stars": 49779,
+      "language": "Java",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T17:38:23Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "whisper.cpp",
+      "url": "https://github.com/ggml-org/whisper.cpp",
+      "description": "Port of OpenAI's Whisper model in C/C++",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "c++",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 49121,
+      "language": "C++",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T16:25:05Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "leedl-tutorial",
+      "url": "https://github.com/datawhalechina/leedl-tutorial",
+      "description": "《李宏毅深度学习教程》（李宏毅老师推荐👍，苹果书🍎），PDF下载地址：https://github.com/datawhalechina/leedl-tutorial/releases",
+      "category": "Research & Data",
+      "tags": [
+        "jupyter notebook"
+      ],
+      "pricing": "Free",
+      "stars": 16509,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T13:01:35Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "easydiffusion",
+      "url": "https://github.com/easydiffusion/easydiffusion",
+      "description": "An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image.",
+      "category": "Image Generation",
+      "tags": [
+        "javascript",
+        "ai",
+        "cli"
+      ],
+      "pricing": "Free",
+      "stars": 10345,
+      "language": "JavaScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T15:21:46Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "mmagic",
+      "url": "https://github.com/open-mmlab/mmagic",
+      "description": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic 🪄: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "jupyter notebook",
+        "ai",
+        "ml",
+        "api",
+        "tool"
+      ],
+      "pricing": "Free",
+      "stars": 7423,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T10:47:05Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Sana",
+      "url": "https://github.com/NVlabs/Sana",
+      "description": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 5113,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T15:00:51Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "transformerlab-app",
+      "url": "https://github.com/transformerlab/transformerlab-app",
+      "description": "The open source research environment for AI researchers to seamlessly train, evaluate, and scale models from local hardware to GPU clusters.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "python",
+        "ai",
+        "ml",
+        "open source"
+      ],
+      "pricing": "Open Source",
+      "stars": 4933,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T17:22:10Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "tiny-universe",
+      "url": "https://github.com/datawhalechina/tiny-universe",
+      "description": "《大模型白盒子构建指南》：一个全手搓的Tiny-Universe",
+      "category": "Developer Tools",
+      "tags": [
+        "jupyter notebook"
+      ],
+      "pricing": "Free",
+      "stars": 4782,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:21:30Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "pollinations",
+      "url": "https://github.com/pollinations/pollinations",
+      "description": "Your Friendly Open-Source Gen-AI Platform",
+      "category": "Developer Tools",
+      "tags": [
+        "typescript",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4398,
+      "language": "TypeScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T17:20:59Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "OmniGen",
+      "url": "https://github.com/VectorSpaceLab/OmniGen",
+      "description": "OmniGen: Unified Image Generation. https://arxiv.org/pdf/2409.11340",
+      "category": "Image Generation",
+      "tags": [
+        "jupyter notebook"
+      ],
+      "pricing": "Free",
+      "stars": 4318,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T02:46:46Z",
+      "days_since_commit": 1
+    },
+    {
+      "name": "discoart",
+      "url": "https://github.com/jina-ai/discoart",
+      "description": "🪩 Create Disco Diffusion artworks in one line",
+      "category": "Image Generation",
+      "tags": [
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 3831,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-26T06:55:40Z",
+      "days_since_commit": 2
+    },
+    {
+      "name": "Marigold",
+      "url": "https://github.com/prs-eth/Marigold",
+      "description": "[CVPR 2024 - Oral, Best Paper Award Candidate] Marigold: Repurposing Diffusion-Based Image Generators for Monocular Depth Estimation",
+      "category": "Image Generation",
+      "tags": [
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 3130,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T10:09:06Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Rerender_A_Video",
+      "url": "https://github.com/williamyang1991/Rerender_A_Video",
+      "description": "[SIGGRAPH Asia 2023] Rerender A Video: Zero-Shot Text-Guided Video-to-Video Translation",
+      "category": "Image Generation",
+      "tags": [
+        "jupyter notebook"
+      ],
+      "pricing": "Free",
+      "stars": 3003,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-23T11:16:30Z",
+      "days_since_commit": 5
+    },
+    {
+      "name": "ComfyUI-nunchaku",
+      "url": "https://github.com/nunchaku-ai/ComfyUI-nunchaku",
+      "description": "ComfyUI Plugin of Nunchaku",
+      "category": "Image Generation",
+      "tags": [
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 2862,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T15:30:56Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "whisper-vits-svc",
+      "url": "https://github.com/PlayVoice/whisper-vits-svc",
+      "description": "Core Engine of Singing Voice Conversion & Singing Voice Clone",
+      "category": "Audio & Music",
+      "tags": [
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 2853,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T09:25:51Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "MuseV",
+      "url": "https://github.com/TMElyralab/MuseV",
+      "description": "MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising",
+      "category": "Image Generation",
+      "tags": [
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 2838,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-22T08:32:42Z",
+      "days_since_commit": 6
+    },
+    {
+      "name": "Kandinsky-2",
+      "url": "https://github.com/ai-forever/Kandinsky-2",
+      "description": "Kandinsky 2 — multilingual text2image latent diffusion model",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "jupyter notebook"
+      ],
+      "pricing": "Free",
+      "stars": 2812,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T16:43:01Z",
+      "days_since_commit": 1
+    },
+    {
+      "name": "Awesome-Video-Diffusion-Models",
+      "url": "https://github.com/ChenHsing/Awesome-Video-Diffusion-Models",
+      "description": "[CSUR] A Survey on Video Diffusion Models",
+      "category": "LLMs & Chatbots",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 2295,
+      "language": "Unknown",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-25T03:28:15Z",
+      "days_since_commit": 3
+    },
+    {
+      "name": "Lumina-T2X",
+      "url": "https://github.com/Alpha-VLLM/Lumina-T2X",
+      "description": "Lumina-T2X is a unified framework for Text to Any Modality Generation",
+      "category": "Image Generation",
+      "tags": [
+        "python",
+        "framework"
+      ],
+      "pricing": "Free",
+      "stars": 2253,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟡 Recent",
+      "last_commit_date": "2026-04-20T03:22:18Z",
+      "days_since_commit": 8
+    },
+    {
+      "name": "awesome-diffusion-categorized",
+      "url": "https://github.com/wangkai930418/awesome-diffusion-categorized",
+      "description": "collection of diffusion model papers categorized by their subareas",
+      "category": "LLMs & Chatbots",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 2200,
+      "language": "Unknown",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-25T05:30:14Z",
+      "days_since_commit": 3
+    },
+    {
+      "name": "ICEdit",
+      "url": "https://github.com/River-Zhang/ICEdit",
+      "description": "[NeurIPS 2025] Image editing is worth a single LoRA! 0.1% training data for fantastic image editing! Surpasses GPT-4o in ID persistence~ MoE ckpt released! Only 4GB VRAM is enough to run! ",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "python",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 2097,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T07:28:40Z",
+      "days_since_commit": 1
+    },
+    {
+      "name": "Awesome-Diffusion-Models-in-Medical-Imaging",
+      "url": "https://github.com/amirhossein-kz/Awesome-Diffusion-Models-in-Medical-Imaging",
+      "description": "Diffusion Models in Medical Imaging (Published in Medical Image Analysis Journal)",
+      "category": "LLMs & Chatbots",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 2078,
+      "language": "Unknown",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T04:31:09Z",
+      "days_since_commit": 0
+    },
     {
       "name": "violit-dev/violit",
       "url": "https://github.com/violit-dev/violit",
