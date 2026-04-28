@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-28T00:12:30.840Z",
-    "total_tools": 2477,
+    "last_updated": "2026-04-28T06:16:11.517Z",
+    "total_tools": 2497,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,428 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-28T00:12:30.840Z"
+    "last_discovery": "2026-04-28T06:16:11.517Z"
   },
   "tools": [
+    {
+      "name": "TileKernels",
+      "url": "https://github.com/deepseek-ai/TileKernels",
+      "description": "A kernel library written in tilelang for efficient ML operations",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "kernel",
+        "ml",
+        "optimization",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 1293,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ClawSweeper",
+      "url": "https://github.com/openclaw/clawsweeper",
+      "description": "Automated issue and PR triage bot that suggests what to close and why. Runs weekly on all issues and PRs.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "github",
+        "automation",
+        "triage"
+      ],
+      "pricing": "Free",
+      "stars": 1213,
+      "language": "JavaScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "An open source harness for generating CAD models from natural language descriptions",
+      "category": "Image Generation",
+      "tags": [
+        "ai",
+        "cad",
+        "generation",
+        "3d",
+        "javascript"
+      ],
+      "pricing": "Free",
+      "stars": 977,
+      "language": "JavaScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "agent-sprite-forge",
+      "url": "https://github.com/0x0funky/agent-sprite-forge",
+      "description": "Agent Skill for generating 2D sprite sheets, maps, transparent PNG frames, and animated GIFs from text prompts",
+      "category": "Image Generation",
+      "tags": [
+        "ai",
+        "agent-skill",
+        "sprites",
+        "generation",
+        "gamedev"
+      ],
+      "pricing": "Free",
+      "stars": 917,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "gpt_image_2_skill",
+      "url": "https://github.com/wuyoscar/gpt_image_2_skill",
+      "description": "GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation and editing workflows",
+      "category": "Image Generation",
+      "tags": [
+        "ai",
+        "agent-skill",
+        "image-generation",
+        "openai",
+        "gpt-image-2"
+      ],
+      "pricing": "Free",
+      "stars": 855,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "harmonist",
+      "url": "https://github.com/GammaLabTechnologies/harmonist",
+      "description": "Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "orchestration",
+        "protocol",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 756,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "future-agi",
+      "url": "https://github.com/future-agi/future-agi",
+      "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications with tracing, evals, simulations, datasets, gateway, and guardrails",
+      "category": "Research & Data",
+      "tags": [
+        "ai",
+        "agent",
+        "evaluation",
+        "observability",
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 659,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "wanman",
+      "url": "https://github.com/chekusu/wanman",
+      "description": "Open-source agent matrix runtime inspired by Japanese one-man trains. Coordinates autonomous multi-agent workflows and task execution",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "multi-agent",
+        "orchestration",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 388,
+      "language": "TypeScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "privacy-parser",
+      "url": "https://github.com/chiefautism/privacy-parser",
+      "description": "Reverse of OpenAI Privacy Filter: uses the same 1.5B model to return PII as structured spans instead of masking it",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "privacy",
+        "pii",
+        "nlp",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 364,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "mckinsey-pptx",
+      "url": "https://github.com/seulee26/mckinsey-pptx",
+      "description": "McKinsey-style PPTX generator plugin for Claude Code with 40 slide templates and a subagent that picks the right template",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "agent-skill",
+        "ppt",
+        "presentation",
+        "claude-code"
+      ],
+      "pricing": "Free",
+      "stars": 323,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "clawd.rip",
+      "url": "https://github.com/maria-rcks/clawd.rip",
+      "description": "Everything that went wrong with Claude - A post-mortem and lessons learned repository",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "lessons",
+        "post-mortem",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 65,
+      "language": "TypeScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "smart-rename",
+      "url": "https://github.com/Jane-xiaoer/smart-rename",
+      "description": "Right-click any file in Finder to get an AI-generated meaningful name. Supports images, videos, PDFs, Word, Markdown, and folders on macOS",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "automation",
+        "macos",
+        "file-management",
+        "gemini"
+      ],
+      "pricing": "Free",
+      "stars": 22,
+      "language": "Shell",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "opencode-litellm",
+      "url": "https://github.com/yuseferi/opencode-litellm",
+      "description": "OpenCode plugin for LiteLLM proxy support with automatic model detection and dynamic model discovery",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "opencode",
+        "litellm",
+        "proxy",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 8,
+      "language": "TypeScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "agentgate",
+      "url": "https://github.com/NasirMalik/agentgate",
+      "description": "Agent-native web protocol that exposes your backend directly to AI agents without requiring HTML parsing",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "agent",
+        "api",
+        "protocol",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 6,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "wallasapi",
+      "url": "https://github.com/wubjak/wallasapi",
+      "description": "The unified, OpenAI-compatible AI router supporting 12+ providers and 100+ models with automatic fallback",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "router",
+        "api",
+        "llm",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 5,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "golab",
+      "url": "https://github.com/hoangnecon/golab",
+      "description": "A blazing-fast, native Golang Model Context Protocol (MCP) Server for controlling and scraping Google Colab notebooks locally",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "mcp",
+        "colab",
+        "go",
+        "protocol"
+      ],
+      "pricing": "Free",
+      "stars": 5,
+      "language": "Go",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "archik",
+      "url": "https://github.com/bacharSalleh/archik",
+      "description": "Architecture diagrams as plain YAML. The YAML file is the source of truth; the canvas is a stateless projection",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "architecture",
+        "diagrams",
+        "yaml",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 4,
+      "language": "TypeScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ai-dev-operating-system",
+      "url": "https://github.com/lglucas/ai-dev-operating-system",
+      "description": "Day-zero operating system for AI-assisted SaaS development with Claude Code rules, agents, skills, and Project Genesis Wizard",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "devops",
+        "operating-system",
+        "powershell"
+      ],
+      "pricing": "Free",
+      "stars": 4,
+      "language": "PowerShell",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "polish-humanizer",
+      "url": "https://github.com/waylooking-hub/polish-humanizer",
+      "description": "Markdown skill for Claude/ChatGPT/Gemini that detects 44 AI-tells in Polish text and rewrites them naturally",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "agent-skill",
+        "nlp",
+        "localization",
+        "polish"
+      ],
+      "pricing": "Free",
+      "stars": 3,
+      "language": "Unknown",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "UseIt-Agent",
+      "url": "https://github.com/UseIt-AI/UseIt-Agent",
+      "description": "AI-powered agent with AUI (Agent UI) that knows your apps better than you do - bye to GUI-only solutions",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "ui",
+        "automation",
+        "apps"
+      ],
+      "pricing": "Free",
+      "stars": 2,
+      "language": "Unknown",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T06:16:11.517Z",
+      "days_since_commit": 0
+    },
     {
       "name": "Julia",
       "url": "https://github.com/JuliaLang/julia",
