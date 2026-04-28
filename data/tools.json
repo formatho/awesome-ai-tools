@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-28T06:16:11.517Z",
-    "total_tools": 2497,
+    "last_updated": "2026-04-28T12:14:38.955Z",
+    "total_tools": 2509,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,248 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-28T06:16:11.517Z"
+    "last_discovery": "2026-04-28T12:14:38.955Z"
   },
   "tools": [
+    {
+      "name": "violit-dev/violit",
+      "url": "https://github.com/violit-dev/violit",
+      "description": "Pure Python Web Framework. Streamlit simplicity, no reruns.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 429,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T11:51:17Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "modal-labs/modal-client",
+      "url": "https://github.com/modal-labs/modal-client",
+      "description": "SDK libraries for Modal",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 467,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T11:45:53Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "whiteguo233/OpenBiliClaw",
+      "url": "https://github.com/whiteguo233/OpenBiliClaw",
+      "description": "通用个性化内容推荐 Agent —— 跑在你自己电脑上，用心理画像而不是点击记录跨平台理解你，主动帮你发现从没接触过的好内容。项目最初是想做一个开源、私有、思路完全不同的 B 站推荐算法平替（项目名由此而来：Open + Bili + Claw），现已演进为支持小红书、通用 Web 的通用跨平台 Agent",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 71,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:13:27Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "coding",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 618,
+      "language": "Rust",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:12:50Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "gebruder/wirken",
+      "url": "https://github.com/gebruder/wirken",
+      "description": "The switchboard for the agent era. Per-channel isolation, encrypted credential vault, per-session hash-chained audit log. Single static Rust binary.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 113,
+      "language": "Rust",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:12:33Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "PaddlePaddle/FastDeploy",
+      "url": "https://github.com/PaddlePaddle/FastDeploy",
+      "description": "High-performance Inference and Deployment Toolkit for LLMs and VLMs based on PaddlePaddle",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai",
+        "llm",
+        "deploy",
+        "inference",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 3680,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:12:34Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "opencroc/cube-pets-office",
+      "url": "https://github.com/opencroc/cube-pets-office",
+      "description": "AI Agent OS with visible workflow, real execution, and a 3D office shell. From one sentence to full task lifecycle — plan, run, review, replay.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "review",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 188,
+      "language": "TypeScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:11:58Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "freddy-schuetz/n8n-claw",
+      "url": "https://github.com/freddy-schuetz/n8n-claw",
+      "description": "OpenClaw-inspired autonomous AI agent built entirely in n8n. Adaptive RAG-powered memory, Skills via MCP templates, Expert Agents with delegated sub-agents, proactive task management, media understanding - self-hosted with one setup script",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "autonomous",
+        "rag",
+        "mcp",
+        "self-hosted"
+      ],
+      "pricing": "Free",
+      "stars": 406,
+      "language": "Shell",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:12:36Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "omnimind-ai/OpenOmniBot",
+      "url": "https://github.com/omnimind-ai/OpenOmniBot",
+      "description": "你的端侧 AI 助手，她可以操作终端，也可以完成 Android 世界的广泛任务 || Your on-device AI assistant, capable of operating terminals and performing a wide range of tasks in the Android world",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 1062,
+      "language": "Kotlin",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:06:30Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "mr-karan/hodor",
+      "url": "https://github.com/mr-karan/hodor",
+      "description": "Agentic code reviewer for GitHub PRs and GitLab MRs. Multi-step reasoning with autonomous tool orchestration — catches bugs requiring analysis across files.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "autonomous",
+        "code",
+        "review",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 98,
+      "language": "TypeScript",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:04:20Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "agent-sh/agnix",
+      "url": "https://github.com/agent-sh/agnix",
+      "description": "The missing linter and lsp for AI coding assistants. Validate CLAUDE.md, AGENTS.md, SKILL.md, hooks, MCP. Plugin for all major IDEs included, with autofixes.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "mcp",
+        "coding",
+        "linter",
+        "lsp",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 213,
+      "language": "Rust",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:03:08Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "stakpak/agent",
+      "url": "https://github.com/stakpak/agent",
+      "description": "Ship your code, on autopilot. An open source agent that lives on your machines 24/7 and keeps your apps running. 🦀",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "code",
+        "rust"
+      ],
+      "pricing": "Free",
+      "stars": 1445,
+      "language": "Rust",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T12:03:08Z",
+      "days_since_commit": 0
+    },
     {
       "name": "TileKernels",
       "url": "https://github.com/deepseek-ai/TileKernels",
