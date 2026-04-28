@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-27T18:15:14.468Z",
-    "total_tools": 2464,
+    "last_updated": "2026-04-28T00:12:30.840Z",
+    "total_tools": 2477,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,7 +15,7 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-27T12:13:43.240585+00:00"
+    "last_discovery": "2026-04-28T00:12:30.840Z"
   },
   "tools": [
     {
@@ -51174,6 +51174,273 @@
       "added_date": "2026-04-27",
       "verified": false,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "chatbot",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 183831,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T23:40:48Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "Stable Diffusion web UI",
+      "category": "Image Generation",
+      "tags": [
+        "image-generation",
+        "stable-diffusion",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 162642,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟠 Aging",
+      "last_commit_date": "2026-03-02T07:00:53Z",
+      "days_since_commit": 56
+    },
+    {
+      "name": "langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 135143,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T19:08:12Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "chatbot",
+        "ai",
+        "interface",
+        "web-ui",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 134487,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-24T10:07:14Z",
+      "days_since_commit": 3
+    },
+    {
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 120554,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-28T00:07:45Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "category": "Image Generation",
+      "tags": [
+        "image-generation",
+        "stable-diffusion",
+        "ai",
+        "gui",
+        "node-based",
+        "modular",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 110338,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T23:44:17Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "category": "Image Generation",
+      "tags": [
+        "image-generation",
+        "stable-diffusion",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 92373,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-23T16:42:55Z",
+      "days_since_commit": 4
+    },
+    {
+      "name": "spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "category": "Research & Data",
+      "tags": [
+        "data",
+        "research",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 91248,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-24T21:04:05Z",
+      "days_since_commit": 3
+    },
+    {
+      "name": "LlamaFactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "chatbot",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 70679,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T15:36:24Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "OpenBB",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "description": "Financial data platform for analysts, quants and AI agents.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 66613,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T21:00:49Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 64023,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T23:58:31Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "docling",
+      "url": "https://github.com/docling-project/docling",
+      "description": "Get your documents ready for gen AI",
+      "category": "Research & Data",
+      "tags": [
+        "data",
+        "research",
+        "ai",
+        "document-processing",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 58671,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-27T16:17:35Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "autogen",
+      "url": "https://github.com/microsoft/autogen",
+      "description": "A programming framework for agentic AI",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai",
+        "framework",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 57501,
+      "language": "Python",
+      "added_date": "2026-04-28",
+      "verified": true,
+      "freshness": "🟡 Recent",
+      "last_commit_date": "2026-04-15T11:59:09Z",
+      "days_since_commit": 12
     }
   ]
 }
