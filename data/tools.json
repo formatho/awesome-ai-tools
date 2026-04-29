@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-04-28T18:16:15.805Z",
-    "total_tools": 2539,
+    "last_updated": "2026-04-29T06:21:20Z",
+    "total_tools": 2541,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,39 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": "2026-04-28T18:16:15.805Z"
+    "last_discovery": "2026-04-29T06:21:20Z"
   },
   "tools": [
+    {
+      "name": "sail",
+      "url": "https://github.com/lakehq/sail",
+      "description": "A drop-in Apache Spark replacement written in Rust, unifying batch processing, stream processing, and compute-intensive AI workloads.",
+      "category": "Research & Data",
+      "tags": "[\n  \"rust\",\n  \"ai\"\n]",
+      "pricing": "Free",
+      "stars": 2136,
+      "language": "Rust",
+      "added_date": "2026-04-29",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-29T04:56:02Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Oxen",
+      "url": "https://github.com/Oxen-AI/Oxen",
+      "description": "Lightning fast data version control system for structured and unstructured machine learning datasets. We aim to make versioning datasets as easy as versioning code.",
+      "category": "Research & Data",
+      "tags": "[\n  \"rust\",\n  \"ai\"\n]",
+      "pricing": "Free",
+      "stars": 1140,
+      "language": "Rust",
+      "added_date": "2026-04-29",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-29T06:14:05Z",
+      "days_since_commit": 0
+    },
     {
       "name": "phantomjs",
       "url": "https://github.com/ariya/phantomjs",
