@@ -31,7 +31,8 @@ function generateCategorySection(tools, categoryName) {
   section += `|------|-------------|------|---------|-----------|-------|\n`;
   
   tools.forEach(tool => {
-    const tags = tool.tags.slice(0, 3).map(t => `\`${t}\``).join(' ');
+    // Handle missing or malformed tags
+    const tags = Array.isArray(tool.tags) ? tool.tags.slice(0, 3).map(t => `\`${t}\``).join(' ') : 'N/A';
     const freshness = tool.freshness || '❓ Unknown';
     const stars = tool.stars ? `${(tool.stars / 1000).toFixed(1)}k` : 'N/A';
     const pricing = tool.pricing || 'Unknown';

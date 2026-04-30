@@ -2,7 +2,9 @@
 # Freshness Checker for Awesome AI Tools
 # Updates last_commit_date for all GitHub repos
 
-REPO_DIR="/Users/studio/sandbox/formatho/awesome-ai-tools"
+# Get script directory (works in both CI and local environments)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_DIR="$(dirname "$SCRIPT_DIR")"
 TOOLS_JSON="$REPO_DIR/data/tools.json"
 TEMP_JSON="$REPO_DIR/data/tools_temp.json"
 
