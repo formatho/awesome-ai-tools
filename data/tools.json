@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": 1777573025.82881,
-    "total_tools": 2573,
+    "last_updated": 1777573063.608606,
+    "total_tools": 2574,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,31 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-13T21:44:59.638Z",
-    "last_discovery": 1777573025.828812
+    "last_discovery": 1777573063.608607
   },
   "tools": [
+    {
+      "name": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "category": "Developer Tools",
+      "tags": [
+        "downloader",
+        "youtube",
+        "video",
+        "audio",
+        "cli",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 159818,
+      "language": "Python",
+      "added_date": "2026-04-30",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-19T21:37:26Z",
+      "days_since_commit": 11
+    },
     [
       {
         "name": "AutoGPT",
