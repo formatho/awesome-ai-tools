@@ -2,7 +2,7 @@
   "metadata": {
     "version": "1.0.0",
     "last_updated": 1777573063.608606,
-    "total_tools": 2574,
+    "total_tools": 2586,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,256 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-04-30T19:05:58Z",
-    "last_discovery": 1777573063.608607
+    "last_discovery": 1777594492.145
   },
   "tools": [
+    {
+      "name": "muzic",
+      "url": "https://github.com/microsoft/muzic",
+      "description": "Muzic: Music Understanding and Generation with Artificial Intelligence",
+      "category": "Audio & Music",
+      "tags": [
+        "ai",
+        "music",
+        "generation",
+        "microsoft"
+      ],
+      "pricing": "Free",
+      "stars": 4910,
+      "language": "Python",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "pywinassistant",
+      "url": "https://github.com/a-real-ai/pywinassistant",
+      "description": "The first open-source Artificial Narrow Intelligence generalist agentic framework Computer-Using-Agent that fully operates graphical-user-interfaces (GUIs) by using only natural language. Uses Visualization-of-Thought and Chain-of-Thought reasoning to elicit spatial reasoning and perception, emulates, plans and simulates synthetic HID interactions.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "gui",
+        "automation",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 1335,
+      "language": "Python",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "simpleai",
+      "url": "https://github.com/simpleai-team/simpleai",
+      "description": "simple artificial intelligence utilities",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "utilities",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 990,
+      "language": "Python",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Brain-Cog",
+      "url": "https://github.com/BrainCog-X/Brain-Cog",
+      "description": "Brain-inspired Cognitive Intelligence Engine (BrainCog) is a brain-inspired spiking neural network based platform for Brain-inspired Artificial Intelligence and simulating brains at multiple scales.",
+      "category": "Open Source Models",
+      "tags": [
+        "ai",
+        "neural-network",
+        "brain",
+        "spiking",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 618,
+      "language": "Python",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "beehive",
+      "url": "https://github.com/muesli/beehive",
+      "description": "A flexible event/agent & automation system with lots of bees",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "automation",
+        "events",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 6475,
+      "language": "Go",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ClawTeam",
+      "url": "https://github.com/HKUDS/ClawTeam",
+      "description": "ClawTeam: Agent Swarm Intelligence (One Command - Full Automation)",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "swarm",
+        "automation",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 5051,
+      "language": "Python",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "baserow",
+      "url": "https://github.com/baserow/baserow",
+      "description": "Build databases, automations, apps & agents with AI - no code. Open source platform available on cloud and self-hosted.",
+      "category": "Productivity",
+      "tags": [
+        "ai",
+        "agent",
+        "database",
+        "no-code",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 4755,
+      "language": "Python",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "oxylabs-ai-studio-py",
+      "url": "https://github.com/oxylabs/oxylabs-ai-studio-py",
+      "description": "Structured data gathering from any website using AI-powered scraper, crawler, and browser automation. Scraping and crawling with natural language prompts.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "scraping",
+        "automation",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 2838,
+      "language": "Python",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "vibium",
+      "url": "https://github.com/VibiumDev/vibium",
+      "description": "Browser automation for AI agents and humans",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "agent",
+        "browser",
+        "automation",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 2791,
+      "language": "Go",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "swarm",
+      "url": "https://github.com/parruda/swarm",
+      "description": "Ruby gems for general-purpose AI agent systems: automation, research, data processing, customer support, content creation.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "automation",
+        "ruby"
+      ],
+      "pricing": "Free",
+      "stars": 1708,
+      "language": "Ruby",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "browserwing",
+      "url": "https://github.com/browserwing/browserwing",
+      "description": "BrowserWing turns your browser actions into MCP commands Or Claude Skill, allowing AI agents to control browsers efficiently and reliably.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "agent",
+        "browser",
+        "mcp",
+        "go"
+      ],
+      "pricing": "Free",
+      "stars": 1256,
+      "language": "Go",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Agent-E",
+      "url": "https://github.com/EmergenceAI/Agent-E",
+      "description": "Agent driven automation starting with web.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent",
+        "automation",
+        "web",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 1235,
+      "language": "Python",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T00:14:52.144Z",
+      "days_since_commit": 0
+    },
     {
       "name": "yt-dlp",
       "url": "https://github.com/yt-dlp/yt-dlp",
