@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-05-01-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-2595-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-2597-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -1672,6 +1672,7 @@
 | [ai-toolkit](https://github.com/ostris/ai-toolkit) | The ultimate training toolkit for finetuning diffusion models | N/A | Free | 🟢 Fresh | 10.4k |
 | [easydiffusion](https://github.com/easydiffusion/easydiffusion) | An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image. | `javascript` `ai` `cli` | Free | 🟢 Fresh | 10.3k |
 | [huashu-design](https://github.com/alchaincyf/huashu-design) | HTML-native design skill for Claude Code - enables AI agents to create beautiful, responsive web designs using pure HTML patterns. | `ai` `design` `html` | Free | 🟢 Fresh | 10.3k |
+| [krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) | Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required. | N/A | Free | 🟢 Fresh | 10.0k |
 | [neural-doodle](https://github.com/alexjc/neural-doodle) | Turn your two-bit doodles into fine artworks with deep neural networks, generate seamless textures from photos, transfer style from one image to another, perform example-based upscaling, but wait... there's more! (An implementation of Semantic Style Transfer.) | `deep-learning` `deep-neural-networks` `image-generation` | Free | 🟡 Recent | 9.9k |
 | [manga-image-translator](https://github.com/zyddnys/manga-image-translator) | Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/ (no longer working) | `python` `ai` `image` | Free | 🟢 Fresh | 9.8k |
 | [darts](https://github.com/unit8co/darts) | A python library for user-friendly forecasting and anomaly detection on time series. | `Python` `anomaly-detection` `data-science` | Free | 🟢 Fresh | 9.3k |
@@ -1896,6 +1897,7 @@
 | [aider](https://github.com/Aider-AI/aider) | aider is AI pair programming in your terminal | `ai` `gpt` `claude` | Free | 🟢 Fresh | 43.5k |
 | [ray](https://github.com/ray-project/ray) | Ray is an AI compute engine. Ray consists of a core distributed runtime and a set of AI Libraries for accelerating ML workloads. | `ai` `llm` `python` | Free | 🟢 Fresh | 42.2k |
 | [jan](https://github.com/janhq/jan) | Jan is an open source alternative to ChatGPT that runs 100% offline on your computer. | `ai` `llm` `open-source` | Free | 🟢 Fresh | 41.8k |
+| [FastChat](https://github.com/lm-sys/FastChat) | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. | N/A | Free | 🟢 Fresh | 39.5k |
 | [chatbox](https://github.com/chatboxai/chatbox) | Powerful AI Client | `ai` `chatbot` | Free | 🟢 Fresh | 39.4k |
 | [quivr](https://github.com/QuivrHQ/quivr) | Opiniated RAG for integrating GenAI in your apps 🧠   Focus on your product rather than the RAG. Easy integration in existing products with customisation!  Any LLM: GPT4, Groq, Llama. Any Vectorstore: PGVector, Faiss. Any Files. Anyway you want. | `ai` `llm` `python` | Free | 🔴 Stale | 39.1k |
 | [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | Extracted system prompts from ChatGPT (GPT-5.4, GPT-5.3, Codex), Claude (Opus 4.6, Sonnet 4.6, Claude Code), Gemini (3.1 Pro, 3 Flash, CLI), Grok (4.2, 4), Perplexity, and more. Updated regularly. | `ai` `ai-transparency` `anthropic` | Free | 🟢 Fresh | 38.3k |
@@ -2746,14 +2748,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 2595
+- **Total Tools:** 2597
 - **Categories:** 9
-- **Last Updated:** January 21, 1970
+- **Last Updated:** May 1, 2026
 - **Last Freshness Check:** May 1, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1348 tools
+- 🟢 Fresh: 1350 tools
 - 🟡 Recent: 663 tools
 - 🟠 Aging: 137 tools
 - 🔴 Stale: 446 tools
