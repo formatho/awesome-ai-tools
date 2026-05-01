@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": 1777616076.848275,
-    "total_tools": 2594,
+    "last_updated": 1777637796.43,
+    "total_tools": 2595,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,29 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-01T08:02:30Z",
-    "last_discovery": 1777616076.848277
+    "last_discovery": 1777637796.43
   },
   "tools": [
+    {
+      "name": "chinese-poetry-chinese-poetry",
+      "url": "https://github.com/chinese-poetry/chinese-poetry",
+      "description": "The most comprehensive database of Chinese poetry - over 5.5K Tang poems and 260K Song poems",
+      "category": "Research & Data",
+      "tags": [
+        "ai",
+        "data",
+        "chinese",
+        "poetry"
+      ],
+      "pricing": "Free",
+      "stars": 51372,
+      "language": "JavaScript",
+      "added_date": "2026-05-01",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T12:16:36.429Z",
+      "days_since_commit": 0
+    },
     {
       "name": "h4cker",
       "url": "https://github.com/The-Art-of-Hacking/h4cker",
