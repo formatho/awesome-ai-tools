@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-05-01-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-2594-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-2595-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -29,6 +29,7 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [chinese-poetry-chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | The most comprehensive database of Chinese poetry - over 5.5K Tang poems and 260K Song poems | Research & Data | 🟢 Fresh | May 1, 2026 |
 | [h4cker](https://github.com/The-Art-of-Hacking/h4cker) | This repository is maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org | Research & Data | 🟢 Fresh | May 1, 2026 |
 | [RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques) | This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial. | LLMs & Chatbots | 🟢 Fresh | May 1, 2026 |
 | [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | A list of AI autonomous agents | Agents & Automation | 🟢 Fresh | May 1, 2026 |
@@ -38,7 +39,6 @@
 | [google-research](https://github.com/google-research/google-research) | Google Research | Research & Data | 🟢 Fresh | May 1, 2026 |
 | [GitHubDaily](https://github.com/GitHubDaily/GitHubDaily) | 坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub. | Productivity | 🟢 Fresh | May 1, 2026 |
 | [muzic](https://github.com/microsoft/muzic) | Muzic: Music Understanding and Generation with Artificial Intelligence | Audio & Music | 🟢 Fresh | May 1, 2026 |
-| [pywinassistant](https://github.com/a-real-ai/pywinassistant) | The first open-source Artificial Narrow Intelligence generalist agentic framework Computer-Using-Agent that fully operates graphical-user-interfaces (GUIs) by using only natural language. Uses Visualization-of-Thought and Chain-of-Thought reasoning to elicit spatial reasoning and perception, emulates, plans and simulates synthetic HID interactions. | Agents & Automation | 🟢 Fresh | May 1, 2026 |
 
 ---
 
@@ -2502,6 +2502,7 @@
 | [DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions) | 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述 | `education` `learning` | Free | 🔴 Stale | 57.3k |
 | [ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) | An AI Hedge Fund Team | `ai` `finance` `hedge-fund` | Free | 🟢 Fresh | 55.9k |
 | [TrendRadar](https://github.com/sansan0/TrendRadar) | ⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。 | `ai` `python` | Free | 🟢 Fresh | 51.6k |
+| [chinese-poetry-chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) | The most comprehensive database of Chinese poetry - over 5.5K Tang poems and 260K Song poems | `ai` `data` `chinese` | Free | 🟢 Fresh | 51.4k |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | Multi-agents LLM financial trading framework. | `trading` `agent` `finance` | Free | 🟢 Fresh | 50.1k |
 | [worldmonitor](https://github.com/koala73/worldmonitor) | Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface | `ai` `monitoring` `intelligence` | Free | 🟢 Fresh | 48.1k |
 | [ClickHouse](https://github.com/ClickHouse/ClickHouse) | ClickHouse® is a real-time analytics database management system | `ai` `analytics` `big-data` | Free | 🟢 Fresh | 46.9k |
@@ -2745,14 +2746,14 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 2594
+- **Total Tools:** 2595
 - **Categories:** 9
 - **Last Updated:** January 21, 1970
 - **Last Freshness Check:** May 1, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1347 tools
+- 🟢 Fresh: 1348 tools
 - 🟡 Recent: 663 tools
 - 🟠 Aging: 137 tools
 - 🔴 Stale: 446 tools
