@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-02T12:14:48.972Z",
-    "total_tools": 2611,
+    "last_updated": "2026-05-02T18:14:46.950Z",
+    "total_tools": 2612,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,35 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-02T13:33:51Z",
-    "last_discovery": "2026-05-02T12:14:48.972Z"
+    "last_discovery": "2026-05-02T18:14:46.950Z"
   },
   "tools": [
+    {
+      "name": "maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "category": "Developer Tools",
+      "tags": [
+        "blueteam",
+        "cli",
+        "cybersecurity",
+        "identification",
+        "infosec",
+        "investigation",
+        "namechecker",
+        "open-source",
+        "osint",
+        "osint-framework"
+      ],
+      "pricing": "Free",
+      "stars": 22413,
+      "language": "Python",
+      "added_date": "2026-05-02",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-02T13:30:41Z",
+      "days_since_commit": 0
+    },
     {
       "name": "ruflo",
       "url": "https://github.com/ruvnet/ruflo",
