@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-02T00:15:32.776769+00:00",
-    "total_tools": 2609,
+    "last_updated": "2026-05-02T12:14:48.972Z",
+    "total_tools": 2611,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,54 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-02T08:07:15Z",
-    "last_discovery": "2026-05-02T00:15:32.776916+00:00"
+    "last_discovery": "2026-05-02T12:14:48.972Z"
   },
   "tools": [
+    {
+      "name": "ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent-orchestration",
+        "claude",
+        "multi-agent",
+        "rag",
+        "swarm-intelligence",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 35778,
+      "language": "TypeScript",
+      "added_date": "2026-05-02",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-02T10:45:24Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "agent-sdk",
+        "claude",
+        "web-browsing",
+        "automation",
+        "javascript"
+      ],
+      "pricing": "Free",
+      "stars": 1336,
+      "language": "JavaScript",
+      "added_date": "2026-05-02",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 2
+    },
     {
       "name": "GitNexus",
       "url": "https://github.com/abhigyanpatwari/GitNexus",
