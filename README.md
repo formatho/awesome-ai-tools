@@ -153,19 +153,19 @@
 | [OpenViking](https://github.com/volcengine/OpenViking) | OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving. | `agent` `ai` `llm` | Free | 🟢 Fresh | 22.3k |
 | [prefect](https://github.com/PrefectHQ/prefect) | Prefect is a workflow orchestration framework for building resilient data pipelines in Python. | `python` `framework` | Free | 🟢 Fresh | 22.2k |
 | [stagehand](https://github.com/browserbase/stagehand) | The SDK For Browser Agents | `typescript` `agents` `llms` | Unknown | 🟢 Fresh | 22.1k |
-| [letta](https://github.com/letta-ai/letta) | Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time. | `ai` `agent` `memory` | Free | 🟢 Fresh | 22.1k |
+| [letta](https://github.com/letta-ai/letta) | Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time. | `ai` `agent` `memory` | Free | 🟡 Recent | 22.1k |
 | [activepieces/activepieces](https://github.com/activepieces/activepieces) | AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents | `agents-automation` `typescript` `ai` | Free | 🟢 Fresh | 21.8k |
 | [vector](https://github.com/vectordotdev/vector) | A high-performance observability data pipeline. | `rust` `agent` `cloud-native` | Unknown | 🟢 Fresh | 21.7k |
 | [ claude-howto](https://github.com/luongnv89 / claude-howto) | A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value. | `Agent` `Code` | Open Source | 🟢 Fresh | 21.5k |
 | [appium](https://github.com/appium/appium) | Cross-platform automation framework for all kinds of apps, built on top of the W3C WebDriver protocol | `typescript` `automation` `web` | Free | 🟢 Fresh | 21.5k |
-| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. | `agent` `ai-agents` `jupyter-notebook` | Free | 🟢 Fresh | 21.5k |
+| [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents) | 50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems. | `agent` `ai-agents` `jupyter-notebook` | Free | 🟡 Recent | 21.5k |
 | [openclaude](https://github.com/Gitlawb/openclaude) | Open-source Claude implementation and alternatives | `claude` `typescript` | Free | 🟢 Fresh | 21.2k |
 | [skyvern](https://github.com/Skyvern-AI/skyvern) | Automate browser based workflows with AI | `browser` `automation` `workflow` | Free | 🟢 Fresh | 21.2k |
-| [awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection. | `ai` `agent` `chatbot` | Free | 🟢 Fresh | 21.1k |
+| [awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates) | 280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection. | `ai` `agent` `chatbot` | Free | 🟡 Recent | 21.1k |
 | [openai-agents-python](https://github.com/openai/openai-agents-python) | A lightweight, powerful framework for multi-agent workflows | `ai` `agent` | Free | 🟢 Fresh | 20.8k |
 | [MaxKB](https://github.com/1Panel-dev/MaxKB) | 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。 | `agent` | Free | 🟢 Fresh | 20.7k |
 | [deepagents](https://github.com/langchain-ai/deepagents) | Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks. | `ai` `agent` `langchain` | Free | 🟢 Fresh | 20.6k |
-| [coze-studio](https://github.com/coze-dev/coze-studio) | An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation. | `ai` `agent` | Free | 🟢 Fresh | 20.5k |
+| [coze-studio](https://github.com/coze-dev/coze-studio) | An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation. | `ai` `agent` | Free | 🟡 Recent | 20.5k |
 | [excelize](https://github.com/qax-os/excelize) | Go language library for reading and writing Microsoft Excel™ (XLAM / XLSM / XLSX / XLTM / XLTX) spreadsheets | `ai` `agent` `ml` | Free | 🟢 Fresh | 20.5k |
 | [CV](https://github.com/AccumulateMore/CV) | 超级全面的深度学习笔记【土堆 Pytorch】【李沐 动手学深度学习】【吴恩达 深度学习】【大飞 大模型Agent】 | `ai` `automation` `agent` | Free | 🟢 Fresh | 20.4k |
 | [cube](https://github.com/cube-js/cube) | 📊 Cube Core is open-source semantic layer for AI, BI and embedded analytics | `Rust` `agentic-analytics` `agents` | Free | 🟢 Fresh | 19.9k |
@@ -340,7 +340,7 @@
 | [zenml](https://github.com/zenml-io/zenml) | ZenML 🙏: One AI Platform from Pipelines to Agents. https://zenml.io. |  | Free | 🟢 Fresh | 5.3k |
 | [AutoSploit](https://github.com/NullArray/AutoSploit) | Automated Mass Exploiter | `automation` `exploit` `exploitation` | Free | 🔴 Stale | 5.2k |
 | [zotero-arxiv-daily](https://github.com/TideDra/zotero-arxiv-daily) | Recommend new arxiv papers of your interest daily according to your Zotero libarary. | `arxiv` `automation` `e-mail` | Free | 🟢 Fresh | 5.2k |
-| [ai-data-science-team](https://github.com/business-science/ai-data-science-team) | An AI-powered data science team of agents to help you perform common data science tasks 10X faster. | `Python` `agents` `ai` | Free | 🟠 Aging | 5.2k |
+| [ai-data-science-team](https://github.com/business-science/ai-data-science-team) | An AI-powered data science team of agents to help you perform common data science tasks 10X faster. | `Python` `agents` `ai` | Free | 🔴 Stale | 5.2k |
 | [xtuner](https://github.com/InternLM/xtuner) | A Next-Generation Training Engine Built for Ultra-Large MoE Models | `agent` `deepseek-v3` `gpt-oss` | Free | 🟢 Fresh | 5.1k |
 | [AReaL](https://github.com/inclusionAI/AReaL) | The RL Bridge for LLM-based Agent Applications. Made Simple & Flexible. | `agent` `llm` `llm-agent` | Free | 🟢 Fresh | 5.1k |
 | [ClawTeam](https://github.com/HKUDS/ClawTeam) | ClawTeam: Agent Swarm Intelligence (One Command - Full Automation) | `ai` `agent` `swarm` | Free | 🟢 Fresh | 5.1k |
@@ -402,7 +402,7 @@
 | [excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) | A Model Context Protocol server for Excel file manipulation | `Python` `ai` `automation` | Free | 🟡 Recent | 3.8k |
 | [OpenClawChineseTranslation](https://github.com/1186258278/OpenClawChineseTranslation) | 🦞 OpenClaw (Clawdbot/Moltbot) 汉化版 - 开源个人 AI 助手中文版 | Claude/ChatGPT LLM 接入 | WhatsApp/Telegram/Discord 多平台 | 每小时自动同步 | CLI + Dashboard 全中文 | 全流程搭建教程，以及排错指南！ | `ai` `agent` `llm` | Free | 🟢 Fresh | 3.7k |
 | [Paper2Poster](https://github.com/Paper2Poster/Paper2Poster) | [NeurIPS 2025 D&B] Open-source Multi-agent Poster Generation from Papers | `agent` `multi-agent-systems` `paper` | Free | 🔴 Stale | 3.6k |
-| [chatbot](https://github.com/zhaoyingjun/chatbot) | Chatbot继续沿着LLM前进，近期更新小参数量SLM的和训练脚本，支持本地训练。新增ChatAgent,实现各种有实际场景价值的Agent实现。 |  | Free | 🟢 Fresh | 3.6k |
+| [chatbot](https://github.com/zhaoyingjun/chatbot) | Chatbot继续沿着LLM前进，近期更新小参数量SLM的和训练脚本，支持本地训练。新增ChatAgent,实现各种有实际场景价值的Agent实现。 |  | Free | 🟡 Recent | 3.6k |
 | [AIGC-Interview-Book](https://github.com/WeThinkIn/AIGC-Interview-Book) | AIGC算法工程师面试秘籍。涵盖AIGC、LLM大模型、AI Agent、传统深度学习、自动驾驶、机器学习、计算机视觉、自然语言处理、强化学习等AI行业面试笔试干货经验与核心知识。 | `ai` `automation` `agent` | Free | 🟢 Fresh | 3.6k |
 | [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) | A full-stack AI Red Teaming platform securing AI ecosystems via OpenClaw Security Scan, Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation. | `agent` `agent-security` `ai-infra` | Free | 🟢 Fresh | 3.6k |
 | [tracecat](https://github.com/TracecatHQ/tracecat) | Open-source security automation platform for teams and AI agents | `agents` `automation` `event-driven` | Free | 🟡 Recent | 3.6k |
@@ -776,7 +776,7 @@
 | [ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) |  GUI for a Vocal Remover that uses Deep Neural Networks. | `audio` `instrumental` `karaoke` | Free | 🟡 Recent | 24.4k |
 | [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Faster Whisper transcription with CTranslate2 | `deep-learning` `inference` `openai` | Free | 🟡 Recent | 22.4k |
 | [whisperX](https://github.com/m-bain/whisperX) | WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization) | `python` `speech` | Free | 🟡 Recent | 21.5k |
-| [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability. | `ai` `python` `chatbot` | Free | 🟡 Recent | 20.6k |
+| [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability. | `ai` `python` `chatbot` | Free | 🟢 Fresh | 20.6k |
 | [voicebox](https://github.com/jamiepine/voicebox) | The open-source voice synthesis studio | `ai` `audio` `tts` | Free | 🟢 Fresh | 20.3k |
 | [dia](https://github.com/nari-labs/dia) | A TTS model capable of generating ultra-realistic dialogue in one pass. | `ai` | Free | 🔴 Stale | 19.3k |
 | [ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & 1158+ languages! | `python` `audio` `voice` | Free | 🟢 Fresh | 18.7k |
@@ -1153,7 +1153,7 @@
 | [chainer](https://github.com/chainer/chainer) | A flexible framework of neural networks for deep learning | `Python` `chainer` `cuda` | Free | 🔴 Stale | 5.9k |
 | [countly-server](https://github.com/Countly/countly-server) | Countly is a privacy-first, AI-powered analytics and engagement platform for understanding and optimizing customer journeys across digital applications, from desktop and mobile to IoT and connected environments. | `JavaScript` `ai` `analytics` | Free | 🟢 Fresh | 5.9k |
 | [vibe](https://github.com/thewh1teagle/vibe) | Transcribe on your own! | `TypeScript` `ai` `cross-platform` | Free | 🟢 Fresh | 5.8k |
-| [causalml](https://github.com/uber/causalml) | Uplift modeling and causal inference with machine learning algorithms | `Python` `causal-inference` `incubation` | Free | 🟢 Fresh | 5.8k |
+| [causalml](https://github.com/uber/causalml) | Uplift modeling and causal inference with machine learning algorithms | `Python` `causal-inference` `incubation` | Free | 🟡 Recent | 5.8k |
 | [Awesome AI Tools](https://github.com/ikaijua/Awesome-AITools) | Curated collection of AI-related utilities with community contributions. | `collection` `tools` `community` | Free | 🟢 Fresh | 5.8k |
 | [river](https://github.com/online-ml/river) | 🌊 Online machine learning in Python | `Python` `concept-drift` `data-science` | Free | 🟢 Fresh | 5.8k |
 | [Auto-claude-code-research-in-sleep](https://github.com/developeregwu/Auto-claude-code-research-in-sleep) | Auto-claude-code-research-in-sleep - AI-powered code research and development automation | `AI Code` `Research` `Automation` | Open Source | 🟢 Fresh | 5.8k |
@@ -1208,7 +1208,7 @@
 | [serenata-de-amor](https://github.com/okfn-brasil/serenata-de-amor) | 🕵 Artificial Intelligence for social control of public administration | **This repository does not receive frequent updates. Check out the README** | `Python` `artificial-intelligence` `civic-tech` | Free | 🔴 Stale | 4.6k |
 | [autotrain-advanced](https://github.com/huggingface/autotrain-advanced) | 🤗 AutoTrain Advanced | `Python` `autotrain` `deep-learning` | Free | 🟢 Fresh | 4.6k |
 | [fff.nvim](https://github.com/dmtrKovalenko/fff.nvim) | The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS | `file-search` `neovim` `agent` | Free | 🟢 Fresh | 4.6k |
-| [datasets](https://github.com/tensorflow/datasets) | TFDS is a collection of datasets ready to use with TensorFlow, Jax, ... | `Python` `data` `dataset` | Free | 🟡 Recent | 4.6k |
+| [datasets](https://github.com/tensorflow/datasets) | TFDS is a collection of datasets ready to use with TensorFlow, Jax, ... | `Python` `data` `dataset` | Free | 🟢 Fresh | 4.6k |
 | [dm_control](https://github.com/google-deepmind/dm_control) | Google DeepMind's software stack for physics-based simulation and Reinforcement Learning environments, using MuJoCo. | `Python` `artificial-intelligence` `deep-learning` | Free | 🟢 Fresh | 4.5k |
 | [x](https://github.com/ant-design/x) | Craft AI-driven interface effortlessly🤖 | `TypeScript` `ai` `antd` | Free | 🟢 Fresh | 4.5k |
 | [Merlion](https://github.com/salesforce/Merlion) | Merlion: A Machine Learning Framework for Time Series Intelligence | `Python` `anomaly-detection` `automl` | Free | 🟠 Aging | 4.5k |
@@ -1689,7 +1689,7 @@
 | [caire](https://github.com/esimov/caire) | Content aware image resize library | `go` `computer-vision` `content-aware-resize` | Unknown | 🔴 Stale | 10.5k |
 | [ai-toolkit](https://github.com/ostris/ai-toolkit) | The ultimate training toolkit for finetuning diffusion models | N/A | Free | 🟢 Fresh | 10.4k |
 | [easydiffusion](https://github.com/easydiffusion/easydiffusion) | An easy 1-click way to create beautiful artwork on your PC using AI, with no tech knowledge. Provides a browser UI for generating images from text prompts and images. Just enter your text prompt, and see the generated image. | `javascript` `ai` `cli` | Free | 🟢 Fresh | 10.3k |
-| [huashu-design](https://github.com/alchaincyf/huashu-design) | HTML-native design skill for Claude Code - enables AI agents to create beautiful, responsive web designs using pure HTML patterns. | `ai` `design` `html` | Free | 🟢 Fresh | 10.3k |
+| [huashu-design](https://github.com/alchaincyf/huashu-design) | HTML-native design skill for Claude Code - enables AI agents to create beautiful, responsive web designs using pure HTML patterns. | `ai` `design` `html` | Free | 🟡 Recent | 10.3k |
 | [krita-ai-diffusion](https://github.com/Acly/krita-ai-diffusion) | Streamlined interface for generating images with AI in Krita. Inpaint and outpaint with optional text prompt, no tweaking required. | N/A | Free | 🟢 Fresh | 10.0k |
 | [neural-doodle](https://github.com/alexjc/neural-doodle) | Turn your two-bit doodles into fine artworks with deep neural networks, generate seamless textures from photos, transfer style from one image to another, perform example-based upscaling, but wait... there's more! (An implementation of Semantic Style Transfer.) | `deep-learning` `deep-neural-networks` `image-generation` | Free | 🟡 Recent | 9.9k |
 | [manga-image-translator](https://github.com/zyddnys/manga-image-translator) | Translate manga/image 一键翻译各类图片内文字 https://cotrans.touhou.ai/ (no longer working) | `python` `ai` `image` | Free | 🟢 Fresh | 9.8k |
@@ -1956,12 +1956,12 @@
 | [Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM) | 整理开源的中文大语言模型，以规模较小、可私有化部署、训练成本较低的模型为主，包括底座模型，垂直领域微调及应用，数据集与教程等。 | N/A | Free | 🟢 Fresh | 22.5k |
 | [mlc-llm](https://github.com/mlc-ai/mlc-llm) | Universal LLM Deployment Engine with ML Compilation | `python` `language-model` `llm` | Unknown | 🟢 Fresh | 22.5k |
 | [gpt-crawler](https://github.com/BuilderIO/gpt-crawler) | Crawl a site to generate knowledge files to create your own custom GPT from a URL | `typescript` | Unknown | 🔴 Stale | 22.2k |
-| [unilm](https://github.com/microsoft/unilm) | Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities | `python` `beit` `beit-3` | Unknown | 🟠 Aging | 22.1k |
-| [rasa](https://github.com/RasaHQ/rasa) | 💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants | `bot` `bot-framework` `botkit` | Free | 🟢 Fresh | 21.1k |
+| [unilm](https://github.com/microsoft/unilm) | Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities | `python` `beit` `beit-3` | Unknown | 🔴 Stale | 22.1k |
+| [rasa](https://github.com/RasaHQ/rasa) | 💬   Open source machine learning framework to automate text- and voice-based conversations: NLU, dialogue management, connect to Slack, Facebook, and more - Create chatbots and voice assistants | `bot` `bot-framework` `botkit` | Free | 🔴 Stale | 21.1k |
 | [Qwen](https://github.com/QwenLM/Qwen) | The official repo of Qwen (通义千问) chat & pretrained large language model proposed by Alibaba Cloud. | `python` `chinese` `flash-attention` | Unknown | 🟠 Aging | 21.0k |
 | [peft](https://github.com/huggingface/peft) | 🤗 PEFT: State-of-the-art Parameter-Efficient Fine-Tuning. | `python` `adapter` `diffusion` | Unknown | 🟢 Fresh | 21.0k |
 | [dyad](https://github.com/dyad-sh/dyad) | Local, open-source AI app builder for power users ✨ v0 / Lovable / Replit / Bolt alternative 🌟 Star if you like it! | `typescript` `ai-app-builder` `anthropic` | Unknown | 🟢 Fresh | 20.1k |
-| [chatbot](https://github.com/vercel/chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `ai` `chatbot` | Free | 🟢 Fresh | 20.1k |
+| [chatbot](https://github.com/vercel/chatbot) | A full-featured, hackable Next.js AI chatbot built by Vercel | `ai` `chatbot` | Free | 🟡 Recent | 20.1k |
 | [heretic](https://github.com/p-e-w/heretic) | Fully automatic censorship removal for language models | `python` `abliteration` `llm` | Unknown | 🟢 Fresh | 19.6k |
 | [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) | FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace. | `ai` `open-source` `gpt` | Free | 🟡 Recent | 19.6k |
 | [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca) | 中文LLaMA&Alpaca大语言模型+本地CPU/GPU训练部署 (Chinese LLaMA & Alpaca LLMs) | `python` `alpaca` `alpaca-2` | Unknown | 🟡 Recent | 18.9k |
@@ -2052,7 +2052,7 @@
 | [OpenChat](https://github.com/opencx-labs/OpenChat) | LLMs custom-chatbots console ⚡ |  | Free | 🟢 Fresh | 5.3k |
 | [Bard-API](https://github.com/dsdanielpark/Bard-API) | The unofficial python package that returns response of Google Bard through cookie value. |  | Free | 🟢 Fresh | 5.2k |
 | [chronos-forecasting](https://github.com/amazon-science/chronos-forecasting) | Chronos: Pretrained Models for Time Series Forecasting | `Python` `artificial-intelligence` `forecasting` | Free | 🟢 Fresh | 5.2k |
-| [prompt-master](https://github.com/nidhinjs/prompt-master) | A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention | `ai` `llm` `claude` | Free | 🟡 Recent | 5.2k |
+| [prompt-master](https://github.com/nidhinjs/prompt-master) | A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention | `ai` `llm` `claude` | Free | 🟢 Fresh | 5.2k |
 | [Sana](https://github.com/NVlabs/Sana) | SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer | `python` | Free | 🟡 Recent | 5.1k |
 | [Synonyms](https://github.com/chatopera/Synonyms) | :herb: 中文近义词：聊天机器人，智能问答工具包 | `ai` `chatbot` `nlp` | Free | 🟡 Recent | 5.1k |
 | [Infographic](https://github.com/antvis/Infographic) | 🦋 An Infographic Generation and Rendering Framework, bring words to life with AI! | `TypeScript` `ai` `antv` | Free | 🟢 Fresh | 4.9k |
@@ -2769,10 +2769,10 @@ Top 10 by GitHub stars:
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1319 tools
-- 🟡 Recent: 587 tools
-- 🟠 Aging: 183 tools
-- 🔴 Stale: 532 tools
+- 🟢 Fresh: 1313 tools
+- 🟡 Recent: 592 tools
+- 🟠 Aging: 181 tools
+- 🔴 Stale: 535 tools
 
 ---
 
