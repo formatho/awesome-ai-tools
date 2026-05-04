@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-04T06:50:40.747Z",
-    "total_tools": 2628,
+    "last_updated": "2026-05-04T12:51:13.987Z",
+    "total_tools": 2630,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,46 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-04T09:10:04Z",
-    "last_discovery": "2026-05-04T06:50:40.747Z"
+    "last_discovery": "2026-05-04T12:51:13.987Z"
   },
   "tools": [
+    {
+      "name": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "category": "Agents & Automation",
+      "tags": [
+        "codex",
+        "api",
+        "python"
+      ],
+      "pricing": "Free",
+      "stars": 6343,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T12:51:13.981Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "refactoringhq/tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "category": "Productivity",
+      "tags": [
+        "knowledge-graph",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 9390,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T12:51:13.987Z",
+      "days_since_commit": 0
+    },
     {
       "name": "anthropics/anthropic-sdk-typescript",
       "url": "https://github.com/anthropics/anthropic-sdk-typescript",
