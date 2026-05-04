@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-03T11:46:24.625220Z",
-    "total_tools": 2621,
+    "last_updated": "2026-05-04T06:50:40.747Z",
+    "total_tools": 2628,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,149 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-04T02:44:19Z",
-    "last_discovery": "2026-05-02T18:14:46.950Z"
+    "last_discovery": "2026-05-04T06:50:40.747Z"
   },
   "tools": [
+    {
+      "name": "anthropics/anthropic-sdk-typescript",
+      "url": "https://github.com/anthropics/anthropic-sdk-typescript",
+      "description": "Official TypeScript SDK for Anthropic Claude API",
+      "stars": 1908,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T15:36:53Z",
+      "days_since_commit": 2,
+      "category": "Developer Tools",
+      "tags": [
+        "claude",
+        "api",
+        "sdk",
+        "developer-tools"
+      ],
+      "pricing": "Open Source"
+    },
+    {
+      "name": "openai/openai-node",
+      "url": "https://github.com/openai/openai-node",
+      "description": "Official Node.js library for OpenAI API",
+      "stars": 10871,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-01T23:05:22Z",
+      "days_since_commit": 2,
+      "category": "Developer Tools",
+      "tags": [
+        "ai",
+        "api",
+        "library",
+        "sdk",
+        "developer-tools"
+      ],
+      "pricing": "Open Source"
+    },
+    {
+      "name": "hwchase17/langchain",
+      "url": "https://github.com/hwchase17/langchain",
+      "description": "Building applications with LLMs through composability",
+      "stars": 135712,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T18:54:52Z",
+      "days_since_commit": 0,
+      "category": "Developer Tools",
+      "tags": [
+        "llm",
+        "sdk",
+        "api",
+        "developer-tools"
+      ],
+      "pricing": "Open Source"
+    },
+    {
+      "name": "mckaywrigley/chatbot-ui",
+      "url": "https://github.com/mckaywrigley/chatbot-ui",
+      "description": "Open-source ChatGPT Clone UI",
+      "stars": 33196,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🔴 Stale",
+      "last_commit_date": "2024-08-03T00:38:07Z",
+      "days_since_commit": 639,
+      "category": "Productivity",
+      "tags": [
+        "gpt",
+        "open-source"
+      ],
+      "pricing": "Open Source"
+    },
+    {
+      "name": "mosaicml/llm-foundry",
+      "url": "https://github.com/mosaicml/llm-foundry",
+      "description": "LLM Foundry - MosaicML LLM training code",
+      "stars": 4402,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟠 Aging",
+      "last_commit_date": "2026-03-25T17:22:01Z",
+      "days_since_commit": 39,
+      "category": "Open Source Models",
+      "tags": [
+        "llm",
+        "ai",
+        "ml",
+        "training",
+        "model",
+        "open-source",
+        "weights"
+      ],
+      "pricing": "Open Source"
+    },
+    {
+      "name": "allenai/OLMo",
+      "url": "https://github.com/allenai/OLMo",
+      "description": "Open Language Model - A truly open source LLM",
+      "stars": 6493,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🔴 Stale",
+      "last_commit_date": "2025-11-24T19:13:15Z",
+      "days_since_commit": 160,
+      "category": "Open Source Models",
+      "tags": [
+        "llm",
+        "model",
+        "open-source",
+        "weights"
+      ],
+      "pricing": "Open Source"
+    },
+    {
+      "name": "microsoft/promptbase",
+      "url": "https://github.com/microsoft/promptbase",
+      "description": "Prompt Engineering Framework and Tools",
+      "stars": 5746,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🔴 Stale",
+      "last_commit_date": "2024-06-04T13:26:33Z",
+      "days_since_commit": 698,
+      "category": "Productivity",
+      "tags": [
+        "framework",
+        "prompt"
+      ],
+      "pricing": "Open Source"
+    },
     {
       "name": "SpharxTeam/AgentOS",
       "url": "https://github.com/SpharxTeam/AgentOS",
