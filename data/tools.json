@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-04T12:51:13.987Z",
-    "total_tools": 2630,
+    "last_updated": "2026-05-04T18:50:48.357Z",
+    "total_tools": 2675,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,851 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-04T14:10:36Z",
-    "last_discovery": "2026-05-04T12:51:13.987Z"
+    "last_discovery": "2026-05-04T18:50:48.357Z"
   },
   "tools": [
+    {
+      "name": "awesome-artificial-intelligence",
+      "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+      "category": "Video & Animation",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 13629,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T15:49:50Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Ai-Learn",
+      "url": "https://github.com/tangyudi/Ai-Learn",
+      "description": "人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch tensorflow machine-learning,deep-learning data-analysis data-mining mathematics data-science artificial-intelligence python tensorflow tensorflow2 caffe keras pytorch algorithm numpy pandas matplotlib seaborn nlp cv等热门领域",
+      "category": "Open Source Models",
+      "tags": [
+        "model",
+        "open-source",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 12949,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:37:57Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-generative-ai",
+      "url": "https://github.com/steven2358/awesome-generative-ai",
+      "description": "A curated list of modern Generative Artificial Intelligence projects and services",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 11947,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:37:42Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "paper2gui",
+      "url": "https://github.com/Baiyuetribe/paper2gui",
+      "description": "Convert AI papers to GUI，Make it easy and convenient for everyone to use artificial intelligence technology。让每个人都简单方便的使用前沿人工智能技术",
+      "category": "Developer Tools",
+      "tags": [
+        "Jupyter Notebook",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 10725,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-02T09:37:19Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "aima-python",
+      "url": "https://github.com/aimacode/aima-python",
+      "description": "Python implementation of algorithms from Russell And Norvig's \"Artificial Intelligence - A Modern Approach\"",
+      "category": "Developer Tools",
+      "tags": [
+        "Jupyter Notebook",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 8726,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:01:27Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "paip-lisp",
+      "url": "https://github.com/norvig/paip-lisp",
+      "description": "Lisp code for the textbook \"Paradigms of Artificial Intelligence Programming\"",
+      "category": "Developer Tools",
+      "tags": [
+        "Common Lisp",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 7447,
+      "language": "Common Lisp",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-02T13:48:16Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-chatgpt",
+      "url": "https://github.com/sindresorhus/awesome-chatgpt",
+      "description": "🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "chatbot",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6236,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T07:19:24Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "start-machine-learning",
+      "url": "https://github.com/louisfb01/start-machine-learning",
+      "description": "A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2026 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques!",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 5247,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T14:48:21Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-ai-tools",
+      "url": "https://github.com/mahseema/awesome-ai-tools",
+      "description": "A curated list of Artificial Intelligence Top Tools",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 5090,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:37:46Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "AI-Project-Gallery",
+      "url": "https://github.com/KalyanM45/AI-Project-Gallery",
+      "description": "This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4980,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:27:44Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "EconML",
+      "url": "https://github.com/py-why/EconML",
+      "description": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+      "category": "Research & Data",
+      "tags": [
+        "Jupyter Notebook",
+        "research",
+        "data",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4616,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:18:46Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "sql-translator",
+      "url": "https://github.com/whoiskatrin/sql-translator",
+      "description": "SQL Translator is a tool for converting natural language queries into SQL code using artificial intelligence. This project is 100% free and open source.",
+      "category": "Productivity",
+      "tags": [
+        "TypeScript",
+        "productivity",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4310,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T21:22:18Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "malmo",
+      "url": "https://github.com/microsoft/malmo",
+      "description": "Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment. --- For installation instructions, scroll down to *Getting Started* below, or visit the project page for more information:",
+      "category": "Image Generation",
+      "tags": [
+        "Java",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4254,
+      "language": "Java",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-02T16:01:56Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "C-Plus-Plus",
+      "url": "https://github.com/TheAlgorithms/C-Plus-Plus",
+      "description": "Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.",
+      "category": "Developer Tools",
+      "tags": [
+        "C++",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 34174,
+      "language": "C++",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:33:22Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "applied-ml",
+      "url": "https://github.com/eugeneyan/applied-ml",
+      "description": "📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production.",
+      "category": "Research & Data",
+      "tags": [
+        "research",
+        "data",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 28793,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:06:54Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "machine-learning-for-software-engineers",
+      "url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
+      "description": "A complete daily plan for studying to become a machine learning engineer.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 28763,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T14:13:52Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "homemade-machine-learning",
+      "url": "https://github.com/trekhleb/homemade-machine-learning",
+      "description": "🤖 Python examples of popular machine learning algorithms with interactive Jupyter demos and math being explained",
+      "category": "Developer Tools",
+      "tags": [
+        "Jupyter Notebook",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 24509,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:47:04Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "C",
+      "url": "https://github.com/TheAlgorithms/C",
+      "description": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.",
+      "category": "Developer Tools",
+      "tags": [
+        "C",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 21997,
+      "language": "C",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:12:26Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "deeplearningbook-chinese",
+      "url": "https://github.com/exacity/deeplearningbook-chinese",
+      "description": "Deep Learning Book Chinese Translation",
+      "category": "Developer Tools",
+      "tags": [
+        "TeX",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 37267,
+      "language": "TeX",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T13:54:25Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "caffe",
+      "url": "https://github.com/BVLC/caffe",
+      "description": "Caffe: a fast open framework for deep learning.",
+      "category": "Developer Tools",
+      "tags": [
+        "C++",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 34621,
+      "language": "C++",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:18:43Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "tuning_playbook",
+      "url": "https://github.com/google-research/tuning_playbook",
+      "description": "A playbook for systematically maximizing the performance of deep learning models.",
+      "category": "Open Source Models",
+      "tags": [
+        "model",
+        "open-source",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 30081,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T06:05:34Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-deep-learning",
+      "url": "https://github.com/ChristosChristofidis/awesome-deep-learning",
+      "description": "A curated list of awesome Deep Learning tutorials, projects and communities.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 28018,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:38:53Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-deep-learning-papers",
+      "url": "https://github.com/terryum/awesome-deep-learning-papers",
+      "description": "The most cited deep learning papers",
+      "category": "Developer Tools",
+      "tags": [
+        "TeX",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 26127,
+      "language": "TeX",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T08:42:18Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-computer-vision",
+      "url": "https://github.com/jbhuang0604/awesome-computer-vision",
+      "description": "A curated list of awesome computer vision resources",
+      "category": "Image Generation",
+      "tags": [
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 23248,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:18:55Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "deep-learning-drizzle",
+      "url": "https://github.com/kmario23/deep-learning-drizzle",
+      "description": "Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from these exciting lectures!!",
+      "category": "Image Generation",
+      "tags": [
+        "HTML",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 12805,
+      "language": "HTML",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T12:24:49Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-deep-vision",
+      "url": "https://github.com/kjw0612/awesome-deep-vision",
+      "description": "A curated list of deep learning resources for computer vision ",
+      "category": "Image Generation",
+      "tags": [
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 11158,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:18:11Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "computervision-recipes",
+      "url": "https://github.com/microsoft/computervision-recipes",
+      "description": "Best Practices, code samples, and documentation for Computer Vision.",
+      "category": "Image Generation",
+      "tags": [
+        "Jupyter Notebook",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 9847,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T21:38:58Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "tracking.js",
+      "url": "https://github.com/eduardolundgren/tracking.js",
+      "description": "A modern approach for Computer Vision on the web",
+      "category": "Image Generation",
+      "tags": [
+        "JavaScript",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 9480,
+      "language": "JavaScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-23T21:08:31Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "notebooks",
+      "url": "https://github.com/roboflow/notebooks",
+      "description": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL.",
+      "category": "Image Generation",
+      "tags": [
+        "Jupyter Notebook",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 9367,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:31:56Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "daily-paper-computer-vision",
+      "url": "https://github.com/amusi/daily-paper-computer-vision",
+      "description": "记录每天整理的计算机视觉/深度学习/机器学习相关方向的论文",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6752,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T18:06:14Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "mmcv",
+      "url": "https://github.com/open-mmlab/mmcv",
+      "description": "OpenMMLab Computer Vision Foundation",
+      "category": "Image Generation",
+      "tags": [
+        "Python",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6437,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T00:39:57Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "openMVG",
+      "url": "https://github.com/openMVG/openMVG",
+      "description": "open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.",
+      "category": "Image Generation",
+      "tags": [
+        "C++",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6391,
+      "language": "C++",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T07:58:36Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "super-gradients",
+      "url": "https://github.com/Deci-AI/super-gradients",
+      "description": "Easily train or fine-tune SOTA computer vision models with one open source training library. The home of Yolo-NAS.",
+      "category": "Image Generation",
+      "tags": [
+        "Jupyter Notebook",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 5029,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T14:01:49Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ailearning",
+      "url": "https://github.com/apachecn/ailearning",
+      "description": "AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2",
+      "category": "Open Source Models",
+      "tags": [
+        "Python",
+        "model",
+        "open-source",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 42224,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T12:44:31Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+      "category": "Agents & Automation",
+      "tags": [
+        "Python",
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 40732,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:39:52Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "bert",
+      "url": "https://github.com/google-research/bert",
+      "description": "TensorFlow code and pre-trained models for BERT",
+      "category": "Open Source Models",
+      "tags": [
+        "Python",
+        "model",
+        "open-source",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 40002,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T15:16:58Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "HanLP",
+      "url": "https://github.com/hankcs/HanLP",
+      "description": "Natural Language Processing for the next decade. Tokenization, Part-of-Speech Tagging, Named Entity Recognition, Syntactic & Semantic Dependency Parsing, Document Classification",
+      "category": "Audio & Music",
+      "tags": [
+        "Python",
+        "audio",
+        "music",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 36292,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:02:14Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "storm",
+      "url": "https://github.com/stanford-oval/storm",
+      "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "Python",
+        "llm",
+        "chatbot",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 28156,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T16:39:05Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers ",
+      "category": "Developer Tools",
+      "tags": [
+        "Python",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 13750,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T18:01:53Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "StableStudio",
+      "url": "https://github.com/Stability-AI/StableStudio",
+      "description": "Community interface for generative AI",
+      "category": "Developer Tools",
+      "tags": [
+        "TypeScript",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 9042,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T13:00:54Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ai-collection",
+      "url": "https://github.com/ai-collection/ai-collection",
+      "description": "The Generative AI Landscape - A Collection of Awesome Generative AI Applications",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 8913,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T08:11:50Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "morphic",
+      "url": "https://github.com/miurla/morphic",
+      "description": "An AI-powered search engine with a generative UI",
+      "category": "Developer Tools",
+      "tags": [
+        "TypeScript",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 8811,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T02:27:53Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "sdnext",
+      "url": "https://github.com/vladmandic/sdnext",
+      "description": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing",
+      "category": "Image Generation",
+      "tags": [
+        "Python",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 7078,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:32:21Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "kserve",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "category": "Developer Tools",
+      "tags": [
+        "Go",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 5417,
+      "language": "Go",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T10:30:34Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "generative-ai",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini Enterprise Agent Platform",
+      "category": "Agents & Automation",
+      "tags": [
+        "Jupyter Notebook",
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 16786,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T16:11:08Z",
+      "days_since_commit": 0
+    },
     {
       "name": "ComposioHQ/awesome-codex-skills",
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
