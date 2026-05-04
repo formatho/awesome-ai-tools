@@ -2,7 +2,7 @@
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
-[![Last Updated](https://img.shields.io/badge/Updated-2026-05-03-blue)](https://github.com/formatho/awesome-ai-tools)
+[![Last Updated](https://img.shields.io/badge/Updated-2026-05-04-blue)](https://github.com/formatho/awesome-ai-tools)
 [![Total Tools](https://img.shields.io/badge/Tools-2621-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
@@ -70,7 +70,7 @@
 | [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows | `ai` `gpt` `claude` | Free | 🔴 Stale | 87.7k |
 | [Browser-Use](https://github.com/browser-use/browser-use) | Make websites accessible for AI agents - automate tasks online. | `browser` `automation` `agent` | Free | 🟢 Fresh | 87.6k |
 | [playwright](https://github.com/microsoft/playwright) | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.  | `agent` | Free | 🟢 Fresh | 86.3k |
-| [core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `agent` `open-source` | Free | 🟢 Fresh | 86.0k |
+| [core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `agent` `open-source` | Free | 🟠 Aging | 86.0k |
 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `ai` `ai-agent` `ai-agents` | Free | 🟢 Fresh | 85.1k |
 | [agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | `ai` `agent` | Free | 🟡 Recent | 79.4k |
 | [lobehub](https://github.com/lobehub/lobehub) | The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. | `agent` | Free | 🟢 Fresh | 75.1k |
@@ -442,7 +442,7 @@
 | [claude-devtools](https://github.com/matt1398/claude-devtools) | The missing DevTools for Claude Code — inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source. | `agent` `ai` `llm` | Free | 🟢 Fresh | 3.1k |
 | [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai. | `shell` `ai` `agent` | Free | 🟢 Fresh | 3.1k |
 | [urlwatch](https://github.com/thp/urlwatch) | Watch (parts of) webpages and get notified when something changes via e-mail, on your phone or via other means. Highly configurable. | `automation` `monitor` `python` | Free | 🟡 Recent | 3.0k |
-| [core](https://github.com/cheshire-cat-ai/core) | AI agent microservice | `ai` `agent` | Free | 🟢 Fresh | 3.0k |
+| [core](https://github.com/cheshire-cat-ai/core) | AI agent microservice | `ai` `agent` | Free | 🟠 Aging | 3.0k |
 | [Biomni](https://github.com/snap-stanford/Biomni) | Biomni: a general-purpose biomedical AI agent | `agent` `ai` `biomedicine` | Free | 🟢 Fresh | 3.0k |
 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more | `agent` `ai` `llm` | Free | 🟢 Fresh | 3.0k |
 | [robusta](https://github.com/robusta-dev/robusta) | Better Prometheus alerts for Kubernetes - smart grouping, AI enrichment, and automatic remediation | `alerting` `alertmanager` `automation` | Free | 🟡 Recent | 3.0k |
@@ -450,7 +450,7 @@
 | [habitat-lab](https://github.com/facebookresearch/habitat-lab) | A modular high-level library to train embodied AI agents across a variety of tasks and environments. | `Python` `ai` `computer-vision` | Free | 🟠 Aging | 3.0k |
 | [goclaw](https://github.com/nextlevelbuilder/goclaw) | GoClaw - GoClaw is OpenClaw rebuilt in Go — with multi-tenant isolation, 5-layer security, and native concurrency. Deploy AI agent teams at scale without compromising on safety. | `go` `ai` `agent` | Free | 🟢 Fresh | 2.9k |
 | [mini-agi](https://github.com/muellerberndt/mini-agi) | MiniAGI is a simple general-purpose AI agent based on the OpenAI API. | `agent` `agi` `artificial-intelligence` | Free | 🔴 Stale | 2.9k |
-| [readme-ai](https://github.com/eli64s/readme-ai) | README file generator, powered by AI. | `Python` `agents` `ai` | Free | 🟢 Fresh | 2.9k |
+| [readme-ai](https://github.com/eli64s/readme-ai) | README file generator, powered by AI. | `Python` `agents` `ai` | Free | 🟡 Recent | 2.9k |
 | [honcho](https://github.com/plastic-labs/honcho) |  Memory library for building stateful agents | `Python` `agent-memory` `ai` | Free | 🟢 Fresh | 2.9k |
 | [spiceai/spiceai](https://github.com/spiceai/spiceai) | A portable accelerated SQL query, search, and LLM-inference engine, written in Rust, for data-grounded AI apps and agents. | `agents-automation` `rust` `ai` | Free | 🟢 Fresh | 2.9k |
 | [suno-api](https://github.com/gcui-art/suno-api) | Use API to call the music generation AI of suno.ai, and easily integrate it into agents like GPTs. | `TypeScript` `ai` `music` | Free | 🟠 Aging | 2.9k |
@@ -1256,7 +1256,7 @@
 | [deepvariant](https://github.com/google/deepvariant) | DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data. | `Python` `bioinformatics` `deep-learning` | Free | 🟠 Aging | 3.7k |
 | [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) | C++ implementation of LiteRT-LM for efficient on-device language model inference | `cpp` `inference` `on-device` | Free | 🟢 Fresh | 3.7k |
 | [reinforcement-learning](https://github.com/rlcode/reinforcement-learning) | Minimal and Clean Reinforcement Learning Examples | `Python` `a3c` `actor-critic` | Free | 🔴 Stale | 3.6k |
-| [core](https://github.com/opensumi/core) | A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server. | `TypeScript` `ai` `ai-first` | Free | 🟢 Fresh | 3.6k |
+| [core](https://github.com/opensumi/core) | A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server. | `TypeScript` `ai` `ai-first` | Free | 🟠 Aging | 3.6k |
 | [ploomber](https://github.com/ploomber/ploomber) | The fastest ⚡️ way to build data pipelines. Develop iteratively, deploy anywhere. ☁️ | `Python` `data-engineering` `data-science` | Free | 🔴 Stale | 3.6k |
 | [qsv](https://github.com/dathere/qsv) | Blazing-fast Data-Wrangling toolkit | `Rust` `ai` `ckan` | Free | 🟢 Fresh | 3.6k |
 | [archestra](https://github.com/archestra-ai/archestra) | Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator | `typescript` `ai` | Free | 🟢 Fresh | 3.6k |
@@ -1455,7 +1455,7 @@
 | [memfree](https://github.com/memfreeme/memfree) | MemFree - Hybrid AI Search Engine & AI Page Generator | `TypeScript` `ai` `ai-search` | Free | 🔴 Stale | 1.5k |
 | [zola](https://github.com/ibelick/zola) | Open chat interface for all your models. | `TypeScript` `ai` `chat` | Free | 🔴 Stale | 1.5k |
 | [adblockradio](https://github.com/adblockradio/adblockradio) | An adblocker for live radio streams and podcasts. Machine learning meets Shazam. | `JavaScript` `adblock` `adblockradio` | Free | 🔴 Stale | 1.5k |
-| [core](https://github.com/RedPlanetHQ/core) | Your AI butler that get things done | `TypeScript` `ai` `butler` | Free | 🟢 Fresh | 1.5k |
+| [core](https://github.com/RedPlanetHQ/core) | Your AI butler that get things done | `TypeScript` `ai` `butler` | Free | 🟠 Aging | 1.5k |
 | [mcp-brasil](https://github.com/jxnxts/mcp-brasil) | MCP Server para 41 APIs públicas brasileiras | `python` `api` | Free | 🟢 Fresh | 1.5k |
 | [documind](https://github.com/DocumindHQ/documind) | Open-source platform for extracting structured data from documents using AI. | `JavaScript` `ai` `developer-tools` | Free | 🔴 Stale | 1.5k |
 | [globalthreatmap](https://github.com/unicodeveloper/globalthreatmap) | Global threat map. Learn wars, conflicts, military bases and history of nations.  | `ai` | Free | 🟢 Fresh | 1.5k |
@@ -1764,7 +1764,7 @@
 | [ComfyUI-nunchaku](https://github.com/nunchaku-ai/ComfyUI-nunchaku) | ComfyUI Plugin of Nunchaku | `python` | Free | 🟠 Aging | 2.9k |
 | [MuseV](https://github.com/TMElyralab/MuseV) | MuseV: Infinite-length and High Fidelity Virtual Human Video Generation with Visual Conditioned Parallel Denoising | `python` | Free | 🔴 Stale | 2.8k |
 | [knockknock](https://github.com/huggingface/knockknock) | 🚪✊Knock Knock: Get notified when your training ends with only two additional lines of code | `Python` `computer-vision` `cv` | Free | 🔴 Stale | 2.8k |
-| [dalle-playground](https://github.com/saharmor/dalle-playground) | A playground to generate images from any text prompt using Stable Diffusion (past: using DALL-E Mini) | `ai` | Free | 🟢 Fresh | 2.7k |
+| [dalle-playground](https://github.com/saharmor/dalle-playground) | A playground to generate images from any text prompt using Stable Diffusion (past: using DALL-E Mini) | `ai` | Free | 🔴 Stale | 2.7k |
 | [InfiniteYou](https://github.com/bytedance/InfiniteYou) | 🔥 [ICCV 2025 Highlight] InfiniteYou: Flexible Photo Recrafting While Preserving Your Identity | `diffusers` `diffusion` `diffusion-transformer` | Free | 🟡 Recent | 2.7k |
 | [novelai-bot](https://github.com/koishijs/novelai-bot) | Generate images by NovelAI | 基于 NovelAI 的画图机器人 | `TypeScript` `ai` `bot` | Free | 🔴 Stale | 2.5k |
 | [contrastive-unpaired-translation](https://github.com/taesungp/contrastive-unpaired-translation) | Contrastive unpaired image-to-image translation, faster and lighter training than cyclegan (ECCV 2020, in PyTorch) | `computer-graphics` `computer-vision` `computervision` | Free | 🟡 Recent | 2.5k |
@@ -2105,7 +2105,7 @@
 | [Kandinsky-2](https://github.com/ai-forever/Kandinsky-2) | Kandinsky 2 — multilingual text2image latent diffusion model | `jupyter notebook` | Free | 🔴 Stale | 2.8k |
 | [OpenPipe](https://github.com/OpenPipe/OpenPipe) | Turn expensive prompts into cheap fine-tuned models | `TypeScript` `ai` `llm` | Free | 🔴 Stale | 2.8k |
 | [ramalama](https://github.com/containers/ramalama) | RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers. | `Python` `ai` `containers` | Free | 🟢 Fresh | 2.8k |
-| [guppylm](https://github.com/arman-bd/guppylm) | GuppyLM: A Simple and Fast Large Language Model | `llm` `transformer` `nlp` | Free | 🟢 Fresh | 2.8k |
+| [guppylm](https://github.com/arman-bd/guppylm) | GuppyLM: A Simple and Fast Large Language Model | `llm` `transformer` `nlp` | Free | 🟡 Recent | 2.8k |
 | [shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server) | A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native | `TypeScript` `ai` `expo` | Free | 🟠 Aging | 2.8k |
 | [Gemini-API](https://github.com/HanaokaYuzu/Gemini-API) | ✨ Reverse-engineered Python API for Google Gemini web app | `python` `api` `go` | Free | 🟡 Recent | 2.7k |
 | [TavernAI](https://github.com/TavernAI/TavernAI) | Atmospheric adventure chat for AI language models (KoboldAI, NovelAI, Pygmalion, OpenAI chatgpt, gpt-4) | `JavaScript` `ai` `chat` | Free | 🔴 Stale | 2.7k |
@@ -2765,14 +2765,14 @@ Top 10 by GitHub stars:
 - **Total Tools:** 2621
 - **Categories:** 9
 - **Last Updated:** May 3, 2026
-- **Last Freshness Check:** May 3, 2026
+- **Last Freshness Check:** May 4, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1313 tools
-- 🟡 Recent: 592 tools
-- 🟠 Aging: 181 tools
-- 🔴 Stale: 535 tools
+- 🟢 Fresh: 1306 tools
+- 🟡 Recent: 594 tools
+- 🟠 Aging: 185 tools
+- 🔴 Stale: 536 tools
 
 ---
 
