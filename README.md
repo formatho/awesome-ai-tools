@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-05-04-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-2628-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-2630-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -28,6 +28,8 @@
 
 | Tool | Description | Category | Freshness | Added |
 |------|-------------|----------|-----------|-------|
+| [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) | A curated list of practical Codex skills for automating workflows across the Codex CLI and API. | Agents & Automation | 🟢 Fresh | May 4, 2026 |
+| [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | Desktop app to manage markdown knowledge bases | Productivity | 🟢 Fresh | May 4, 2026 |
 | [anthropics/anthropic-sdk-typescript](https://github.com/anthropics/anthropic-sdk-typescript) | Official TypeScript SDK for Anthropic Claude API | Developer Tools | 🟢 Fresh | May 4, 2026 |
 | [openai/openai-node](https://github.com/openai/openai-node) | Official Node.js library for OpenAI API | Developer Tools | 🟢 Fresh | May 4, 2026 |
 | [hwchase17/langchain](https://github.com/hwchase17/langchain) | Building applications with LLMs through composability | Developer Tools | 🟢 Fresh | May 4, 2026 |
@@ -36,8 +38,6 @@
 | [allenai/OLMo](https://github.com/allenai/OLMo) | Open Language Model - A truly open source LLM | Open Source Models | 🔴 Stale | May 4, 2026 |
 | [microsoft/promptbase](https://github.com/microsoft/promptbase) | Prompt Engineering Framework and Tools | Productivity | 🔴 Stale | May 4, 2026 |
 | [SpharxTeam/AgentOS](https://github.com/SpharxTeam/AgentOS) | Airymax AgentOS: 200K+ context & 10M memory, 1000h tasks at 99.1% accuracy, 80% token reduction, 5× industry efficiency. Natively compatible with OpenClaw, openJiuwen, LangChain, Claude & OpenAI APIs; more agent protocols coming. | Developer Tools | 🟢 Fresh | May 3, 2026 |
-| [gastownhall/gascity](https://github.com/gastownhall/gascity) | Orchestration-builder SDK for multi-agent coding workflows | Developer Tools | 🟢 Fresh | May 3, 2026 |
-| [smithery-ai/cli](https://github.com/smithery-ai/cli) | Install, manage and develop MCP servers and skills for agents | Developer Tools | 🟢 Fresh | May 3, 2026 |
 
 ---
 
@@ -70,7 +70,7 @@
 | [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows | `ai` `gpt` `claude` | Free | 🔴 Stale | 87.7k |
 | [Browser-Use](https://github.com/browser-use/browser-use) | Make websites accessible for AI agents - automate tasks online. | `browser` `automation` `agent` | Free | 🟢 Fresh | 87.6k |
 | [playwright](https://github.com/microsoft/playwright) | Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API.  | `agent` | Free | 🟢 Fresh | 86.3k |
-| [core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `agent` `open-source` | Free | 🟠 Aging | 86.0k |
+| [core](https://github.com/home-assistant/core) | :house_with_garden: Open source home automation that puts local control and privacy first. | `agent` `open-source` | Free | 🟢 Fresh | 86.0k |
 | [hermes-agent](https://github.com/NousResearch/hermes-agent) | The agent that grows with you | `ai` `ai-agent` `ai-agents` | Free | 🟢 Fresh | 85.1k |
 | [agency-agents](https://github.com/msitarzewski/agency-agents) | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. | `ai` `agent` | Free | 🟡 Recent | 79.4k |
 | [lobehub](https://github.com/lobehub/lobehub) | The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction. | `agent` | Free | 🟢 Fresh | 75.1k |
@@ -311,6 +311,7 @@
 | [st2](https://github.com/StackStorm/st2) | StackStorm (aka "IFTTT for Ops") is event-driven automation for auto-remediation, incident responses, troubleshooting, deployments, and more for DevOps and SREs. Includes rules engine, workflow, 160 integration packs with 6000+ actions (see https://exchange.stackstorm.org) and ChatOps. Installer at https://docs.stackstorm.com/install/index.html | `auto-remediation` `automation` `chatops` | Free | 🟠 Aging | 6.4k |
 | [SuperPrompt](https://github.com/NeoVertex1/SuperPrompt) | SuperPrompt is an attempt to engineer prompts that might help us understand AI agents. | `agent` `ai` | Free | 🟢 Fresh | 6.4k |
 | [plano](https://github.com/katanemo/plano) | Plano is an AI-native proxy and data plane for agentic apps — with built-in orchestration, safety, observability, and smart LLM routing so you stay focused on your agents core logic. | `rust` `ai` `llm` | Free | 🟢 Fresh | 6.4k |
+| [ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills) | A curated list of practical Codex skills for automating workflows across the Codex CLI and API. | `codex` `api` `python` | Free | 🟢 Fresh | 6.3k |
 | [LaVague](https://github.com/lavague-ai/LaVague) | Large Action Model framework to develop AI Web Agents | `Python` `ai` `browser` | Free | 🔴 Stale | 6.3k |
 | [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402. | `TypeScript` `ai` `ai-agents` | Free | 🟢 Fresh | 6.3k |
 | [airweave](https://github.com/airweave-ai/airweave) | Open-source context retrieval layer for AI agents | `ai` `agent` `llm` | Free | 🟢 Fresh | 6.2k |
@@ -442,7 +443,7 @@
 | [claude-devtools](https://github.com/matt1398/claude-devtools) | The missing DevTools for Claude Code — inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source. | `agent` `ai` `llm` | Free | 🟢 Fresh | 3.1k |
 | [Generative-Media-Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) | Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai. | `shell` `ai` `agent` | Free | 🟢 Fresh | 3.1k |
 | [urlwatch](https://github.com/thp/urlwatch) | Watch (parts of) webpages and get notified when something changes via e-mail, on your phone or via other means. Highly configurable. | `automation` `monitor` `python` | Free | 🟡 Recent | 3.0k |
-| [core](https://github.com/cheshire-cat-ai/core) | AI agent microservice | `ai` `agent` | Free | 🟠 Aging | 3.0k |
+| [core](https://github.com/cheshire-cat-ai/core) | AI agent microservice | `ai` `agent` | Free | 🟢 Fresh | 3.0k |
 | [Biomni](https://github.com/snap-stanford/Biomni) | Biomni: a general-purpose biomedical AI agent | `agent` `ai` `biomedicine` | Free | 🟢 Fresh | 3.0k |
 | [oh-my-pi](https://github.com/can1357/oh-my-pi) | ⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more | `agent` `ai` `llm` | Free | 🟢 Fresh | 3.0k |
 | [robusta](https://github.com/robusta-dev/robusta) | Better Prometheus alerts for Kubernetes - smart grouping, AI enrichment, and automatic remediation | `alerting` `alertmanager` `automation` | Free | 🟡 Recent | 3.0k |
@@ -720,7 +721,7 @@
 | [fim-one](https://github.com/fim-ai/fim-one) | LLM-powered Agent Runtime with Dynamic DAG Planning & Concurrent Execution | `Python` `ai` `ai-agent` | Free | 🟢 Fresh | 0.6k |
 | [ScreenAgent](https://github.com/niuzaisheng/ScreenAgent) | ScreenAgent: A Computer Control Agent Driven by Visual Language Large Model (IJCAI-24) | `Python` `agent` `ai` | Free | 🔴 Stale | 0.6k |
 | [shai](https://github.com/ovh/shai) | shai is a coding agent, your pair programming buddy that lives in the terminal. Written in rust with love <3 | `Rust` `agentic-ai` `ai` | Free | 🔴 Stale | 0.6k |
-| [WebmGenerator](https://github.com/dfaker/WebmGenerator) | UI and Automation to cut, filter and join high quality webms, mp4s or gifs. | `transition-effects` `video` `video-clip` | Free | 🟡 Recent | 0.6k |
+| [WebmGenerator](https://github.com/dfaker/WebmGenerator) | UI and Automation to cut, filter and join high quality webms, mp4s or gifs. | `transition-effects` `video` `video-clip` | Free | 🔴 Stale | 0.6k |
 | [AutoAgents](https://github.com/liquidos-ai/AutoAgents) | A  multi-agent framework written in Rust that enables you to build, deploy, and coordinate multiple intelligent agents | `Rust` `agents` `ai` | Free | 🟡 Recent | 0.6k |
 | [dreamGPT](https://github.com/DivergentAI/dreamGPT) | Leverage hallucinations from Large Language Models (LLMs) for novelty-driven explorations. | `agents` `artificial-intelligence` `automation` | Free | 🔴 Stale | 0.6k |
 | [YT-Navigator](https://github.com/wassim249/YT-Navigator) | YT Navigator: AI-powered YouTube content explorer that lets you search and chat with channel videos using AI agents. Extract insights from hours of content in seconds with semantic search and precise timestamps. | `Python` `agentic-ai` `agentic-rag` | Free | 🔴 Stale | 0.6k |
@@ -740,7 +741,7 @@
 | [haiku.rag](https://github.com/ggozad/haiku.rag) | Opinionated agentic RAG powered by LanceDB, Pydantic AI, and Docling | `ai` `docling` `lancedb` | Free | 🟡 Recent | 0.5k |
 | [LLM-Agents-Ecosystem-Handbook](https://github.com/oxbshw/LLM-Agents-Ecosystem-Handbook) | One-stop handbook for building, deploying, and understanding LLM agents with 60+ skeletons, tutorials, ecosystem guides, and evaluation tools. | `Python` `ai` `ai-agent` | Free | 🟡 Recent | 0.5k |
 | [agency](https://github.com/neurocult/agency) | 🕵️‍♂️ Library designed for developers eager to explore the potential of Large Language Models (LLMs) and other generative AI through a clean, effective, and Go-idiomatic approach. | `Go` `agents` `ai` | Free | 🔴 Stale | 0.5k |
-| [StreamRAG](https://github.com/video-db/StreamRAG) | Video Search and Streaming Agent 🕵️‍♂️ | `agent` `chatgpt` `llm` | Free | 🟡 Recent | 0.5k |
+| [StreamRAG](https://github.com/video-db/StreamRAG) | Video Search and Streaming Agent 🕵️‍♂️ | `agent` `chatgpt` `llm` | Free | 🔴 Stale | 0.5k |
 | [Tiger](https://github.com/Upsonic/Tiger) | Neuralink for AI agents - connects LangChain, Autogen, CrewAI. | `agent-integration` `langchain` `autogen` | Free | 🔴 Stale | 0.5k |
 | [Light-Heart-Labs/DreamServer](https://github.com/Light-Heart-Labs/DreamServer) | Local AI anywhere, for everyone — LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. No cloud, no subscriptions. | `agents-automation` `rust` `ai` | Free | 🟢 Fresh | 0.4k |
 | [freddy-schuetz/n8n-claw](https://github.com/freddy-schuetz/n8n-claw) | OpenClaw-inspired autonomous AI agent built entirely in n8n. Adaptive RAG-powered memory, Skills via MCP templates, Expert Agents with delegated sub-agents, proactive task management, media understanding - self-hosted with one setup script | `ai` `agent` `autonomous` | Free | 🟢 Fresh | 0.4k |
@@ -773,7 +774,7 @@
 | [spleeter](https://github.com/deezer/spleeter) | Deezer source separation library including pretrained models. | `audio-processing` `bass` `deep-learning` | Free | 🟡 Recent | 28.2k |
 | [so-vits-svc](https://github.com/svc-develop-team/so-vits-svc) | SoftVC VITS Singing Voice Conversion - AI-powered voice conversion system for singing | `voice` `conversion` `singing` | Free | 🟢 Fresh | 28.0k |
 | [labelImg](https://github.com/HumanSignal/labelImg) | LabelImg is now part of the Label Studio community. The popular image annotation tool created by Tzutalin is no longer actively being developed, but you can check out Label Studio, the open source data labeling tool for images, text, hypertext, audio, video and time-series data. | `annotations` `deep-learning` `detection` | Free | 🟡 Recent | 24.9k |
-| [ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) |  GUI for a Vocal Remover that uses Deep Neural Networks. | `audio` `instrumental` `karaoke` | Free | 🟡 Recent | 24.4k |
+| [ultimatevocalremovergui](https://github.com/Anjok07/ultimatevocalremovergui) |  GUI for a Vocal Remover that uses Deep Neural Networks. | `audio` `instrumental` `karaoke` | Free | 🔴 Stale | 24.4k |
 | [faster-whisper](https://github.com/SYSTRAN/faster-whisper) | Faster Whisper transcription with CTranslate2 | `deep-learning` `inference` `openai` | Free | 🟡 Recent | 22.4k |
 | [whisperX](https://github.com/m-bain/whisperX) | WhisperX:  Automatic Speech Recognition with Word-level Timestamps (& Diarization) | `python` `speech` | Free | 🟡 Recent | 21.5k |
 | [CosyVoice](https://github.com/FunAudioLLM/CosyVoice) | Multi-lingual large voice generation model, providing inference, training and deployment full-stack ability. | `ai` `python` `chatbot` | Free | 🟢 Fresh | 20.6k |
@@ -782,18 +783,18 @@
 | [ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook) | Generate audiobooks from e-books, voice cloning & 1158+ languages! | `python` `audio` `voice` | Free | 🟢 Fresh | 18.7k |
 | [NeMo](https://github.com/NVIDIA-NeMo/NeMo) | A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech) | `python` `ai` `generative` | Free | 🟢 Fresh | 17.1k |
 | [VoxCPM](https://github.com/OpenBMB/VoxCPM) | VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning | `audio` `deeplearning` `minicpm` | Free | 🟢 Fresh | 13.8k |
-| [speechbrain](https://github.com/speechbrain/speechbrain) | A PyTorch-based Speech Toolkit | `asr` `audio` `audio-processing` | Free | 🟡 Recent | 11.5k |
+| [speechbrain](https://github.com/speechbrain/speechbrain) | A PyTorch-based Speech Toolkit | `asr` `audio` `audio-processing` | Free | 🟢 Fresh | 11.5k |
 | [pipecat](https://github.com/pipecat-ai/pipecat) | Open Source framework for voice and multimodal conversational AI | `voice` `conversational` `ai` | Free | 🟢 Fresh | 11.3k |
 | [ten-framework](https://github.com/TEN-framework/ten-framework) | Open-source framework for conversational voice AI agents | `voice` `agent` `conversational` | Free | 🟢 Fresh | 10.4k |
-| [AudioGPT](https://github.com/AIGC-Audio/AudioGPT) | AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head | `audio` `gpt` `music` | Free | 🟡 Recent | 10.2k |
+| [AudioGPT](https://github.com/AIGC-Audio/AudioGPT) | AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head | `audio` `gpt` `music` | Free | 🔴 Stale | 10.2k |
 | [livekit-agents](https://github.com/livekit/agents) | A framework for building realtime voice AI agents | `voice` `agent` `realtime` | Free | 🟢 Fresh | 10.1k |
 | [espnet](https://github.com/espnet/espnet) | End-to-End Speech Processing Toolkit | `chainer` `deep-learning` `end-to-end` | Free | 🟡 Recent | 9.8k |
 | [inference](https://github.com/xorbitsai/inference) | Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference API. | `Python` `artificial-intelligence` `chatglm` | Free | 🟢 Fresh | 9.3k |
 | [speech_recognition](https://github.com/Uberi/speech_recognition) | Speech recognition module for Python, supporting several engines and APIs, online and offline. | `audio` `python` `speech-recognition` | Free | 🟡 Recent | 9.0k |
 | [silero-vad](https://github.com/snakers4/silero-vad) | Silero VAD: pre-trained enterprise-grade Voice Activity Detector | `python` `ai` `voice` | Free | 🟡 Recent | 8.9k |
 | [Bert-VITS2](https://github.com/fishaudio/Bert-VITS2) | vits2 backbone with multilingual-bert | `python` `agent` `bert` | Unknown | 🟢 Fresh | 8.7k |
-| [librosa](https://github.com/librosa/librosa) | Python library for audio and music analysis | `audio` `dsp` `librosa` | Free | 🟡 Recent | 8.4k |
-| [jukebox](https://github.com/openai/jukebox) | Code for the paper "Jukebox: A Generative Model for Music" | `audio` `generative-model` `music` | Free | 🟡 Recent | 8.0k |
+| [librosa](https://github.com/librosa/librosa) | Python library for audio and music analysis | `audio` `dsp` `librosa` | Free | 🟢 Fresh | 8.4k |
+| [jukebox](https://github.com/openai/jukebox) | Code for the paper "Jukebox: A Generative Model for Music" | `audio` `generative-model` `music` | Free | 🔴 Stale | 8.0k |
 | [SenseVoice](https://github.com/FunAudioLLM/SenseVoice) | Multilingual Voice Understanding Model | `Python` `ai` `aigc` | Free | 🔴 Stale | 8.0k |
 | [ffsubsync](https://github.com/smacke/ffsubsync) | Automagically synchronize subtitles with video. | `alignment` `audio` `caption` | Free | 🟡 Recent | 7.7k |
 | [machine-learning-course](https://github.com/instillai/machine-learning-course) | :speech_balloon: Machine Learning Course with Python:  | `Python` `algorithms` `artificial-intelligence` | Free | 🔴 Stale | 7.0k |
@@ -808,11 +809,11 @@
 | [basic-pitch](https://github.com/spotify/basic-pitch) | A lightweight yet powerful audio-to-MIDI converter with pitch bend detection | `Python` `audio` `lightweight` | Free | 🔴 Stale | 4.9k |
 | [muzic](https://github.com/microsoft/muzic) | Muzic: Music Understanding and Generation with Artificial Intelligence | `ai` `music` `generation` | Free | 🔴 Stale | 4.9k |
 | [ TaxHacker](https://github.com/vas3k / TaxHacker) | Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions with custom prompts and categories | `Audio` `Prompt` | Open Source | 🟢 Fresh | 4.8k |
-| [picard](https://github.com/metabrainz/picard) | Picard is a cross-platform music tagger powered by the MusicBrainz database | `acoustid` `audio` `id3` | Free | 🟡 Recent | 4.8k |
+| [picard](https://github.com/metabrainz/picard) | Picard is a cross-platform music tagger powered by the MusicBrainz database | `acoustid` `audio` `id3` | Free | 🟢 Fresh | 4.8k |
 | [speech-to-speech](https://github.com/huggingface/speech-to-speech) | Build local voice agents with open-source models | `speech` `voice` `agents` | Open Source | 🟢 Fresh | 4.7k |
 | [stt](https://github.com/jianchang512/stt) | Voice Recognition to Text Tool / 一个离线运行的本地音视频转字幕工具，输出json、srt字幕、纯文字格式 | `python` `tool` `voice` | Free | 🔴 Stale | 4.5k |
 | [ultravox](https://github.com/fixie-ai/ultravox) | A fast multimodal LLM for real-time voice | `Python` `ai` `llm` | Free | 🔴 Stale | 4.4k |
-| [ClearerVoice-Studio](https://github.com/modelscope/ClearerVoice-Studio) | An AI-Powered Speech Processing Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Enhancement, Separation, and Target Speaker Extraction, etc. | `audio` `bandwidth-extension` `deep-learning` | Free | 🟡 Recent | 4.1k |
+| [ClearerVoice-Studio](https://github.com/modelscope/ClearerVoice-Studio) | An AI-Powered Speech Processing Toolkit and Open Source SOTA Pretrained Models, Supporting Speech Enhancement, Separation, and Target Speaker Extraction, etc. | `audio` `bandwidth-extension` `deep-learning` | Free | 🔴 Stale | 4.1k |
 | [DeepFilterNet](https://github.com/Rikorose/DeepFilterNet) | Noise supression using deep filtering | `audio` `deep-learning` `noise-suppression` | Free | 🟡 Recent | 4.1k |
 | [distil-whisper](https://github.com/huggingface/distil-whisper) | Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, within 1% word error rate. | `audio` `speech-recognition` `whisper` | Free | 🟡 Recent | 4.1k |
 | [riffusion-hobby](https://github.com/riffusion/riffusion-hobby) | Stable diffusion for real-time music generation |  | Free | 🔴 Stale | 3.9k |
@@ -894,8 +895,8 @@
 | [auraloss](https://github.com/csteinmetz1/auraloss) | Collection of audio-focused loss functions in PyTorch | `audio` `loss-functions` `pytorch` | Free | 🔴 Stale | 0.9k |
 | [pdf-to-podcast](https://github.com/knowsuchagency/pdf-to-podcast) | Convert any PDF into a podcast episode! | `ai` `audio` `research` | Free | 🔴 Stale | 0.8k |
 | [tinytag](https://github.com/tinytag/tinytag) | Python library for reading audio file metadata | `aiff` `audio` `flac` | Free | 🟠 Aging | 0.8k |
-| [Lulu](https://github.com/iawia002/Lulu) | [Unmaintained] A simple and clean video/music/image downloader 👾 | `crawler` `crawling` `downloader` | Free | 🟡 Recent | 0.8k |
-| [votify](https://github.com/glomatico/votify) | A command-line app for downloading songs, podcasts and videos from Spotify. | `aac` `cli` `downloader` | Free | 🟡 Recent | 0.8k |
+| [Lulu](https://github.com/iawia002/Lulu) | [Unmaintained] A simple and clean video/music/image downloader 👾 | `crawler` `crawling` `downloader` | Free | 🔴 Stale | 0.8k |
+| [votify](https://github.com/glomatico/votify) | A command-line app for downloading songs, podcasts and videos from Spotify. | `aac` `cli` `downloader` | Free | 🟢 Fresh | 0.8k |
 | [pulsemixer](https://github.com/GeorgeFilipkin/pulsemixer) | CLI and curses mixer for PulseAudio | `audio` `cli` `console` | Free | 🔴 Stale | 0.8k |
 | [june](https://github.com/mezbaul-h/june) | Local voice chatbot for engaging conversations, powered by Ollama, Hugging Face Transformers, and  Coqui TTS Toolkit | `Python` `ai` `assistant-chat-bots` | Free | 🔴 Stale | 0.8k |
 | [snac](https://github.com/hubertsiuzdak/snac) | Multi-Scale Neural Audio Codec (SNAC) compresses audio into discrete codes at a low bitrate | `audio` `audio-codec` `deep-learning` | Free | 🔴 Stale | 0.8k |
@@ -903,13 +904,13 @@
 | [S.A.T.U.R.D.A.Y](https://github.com/GRVYDEV/S.A.T.U.R.D.A.Y) | A toolbox for working with WebRTC, Audio and AI | `Go` `ai` `audio` | Free | 🔴 Stale | 0.7k |
 | [free-spoken-digit-dataset](https://github.com/Jakobovski/free-spoken-digit-dataset) | A free audio dataset of spoken digits. An audio version of MNIST. | `audio` `dataset` `machine-learning` | Free | 🟡 Recent | 0.7k |
 | [ZerolanLiveRobot](https://github.com/AkagawaTsurunaki/ZerolanLiveRobot) | AI VTuber with LLM, ASR, TTS, OCR, CV and more technologies to live stream or play Minecraft with you. | `Python` `ai` `ai-vtuber` | Free | 🟡 Recent | 0.7k |
-| [AutoSub](https://github.com/abhirooptalasila/AutoSub) | A CLI script to generate subtitle files (SRT/VTT/TXT) for any video using either DeepSpeech or Coqui | `asr` `autosub` `coqui-ai` | Free | 🟡 Recent | 0.7k |
-| [spiders](https://github.com/xiyaowong/spiders) | Python爬虫，返回一定格式的信息，下载，使用flask提供简易api。抖音无水印、皮皮虾、快手、网易云音乐、qq音乐、咪咕音乐、荔枝FM音频、知乎视频、最右语音、视频、微博...... | `163music` `douyin` `downloader` | Free | 🟡 Recent | 0.6k |
-| [wav2lip_288x288](https://github.com/primepake/wav2lip_288x288) | Wav2Lip version 288 and pipeline to train | `audio-driven-talking-face` `deep-fake` `deep-fakes` | Free | 🟡 Recent | 0.6k |
+| [AutoSub](https://github.com/abhirooptalasila/AutoSub) | A CLI script to generate subtitle files (SRT/VTT/TXT) for any video using either DeepSpeech or Coqui | `asr` `autosub` `coqui-ai` | Free | 🔴 Stale | 0.7k |
+| [spiders](https://github.com/xiyaowong/spiders) | Python爬虫，返回一定格式的信息，下载，使用flask提供简易api。抖音无水印、皮皮虾、快手、网易云音乐、qq音乐、咪咕音乐、荔枝FM音频、知乎视频、最右语音、视频、微博...... | `163music` `douyin` `downloader` | Free | 🔴 Stale | 0.6k |
+| [wav2lip_288x288](https://github.com/primepake/wav2lip_288x288) | Wav2Lip version 288 and pipeline to train | `audio-driven-talking-face` `deep-fake` `deep-fakes` | Free | 🔴 Stale | 0.6k |
 | [nussl](https://github.com/nussl/nussl) | A flexible source separation library in Python | `audio` `duet` `hpss` | Free | 🟡 Recent | 0.6k |
 | [UVR5-UI](https://github.com/Eddycrack864/UVR5-UI) | Ultimate Vocal Remover 5 with Gradio UI. Separate an audio file into various stems, using multiple models | `audio` `gradio-python-app` `instrumental` | Free | 🟡 Recent | 0.6k |
 | [green-recorder](https://github.com/mhsabbagh/green-recorder) | A simple screen recorder for Linux desktop. Supports Wayland & Xorg | `audio` `desktop` `desktop-app` | Free | 🟡 Recent | 0.6k |
-| [python-mpv](https://github.com/jaseg/python-mpv) | Python interface to the awesome mpv media player | `audio` `bindings` `ffi` | Free | 🟡 Recent | 0.6k |
+| [python-mpv](https://github.com/jaseg/python-mpv) | Python interface to the awesome mpv media player | `audio` `bindings` `ffi` | Free | 🔴 Stale | 0.6k |
 | [mkv-muxing-batch-gui](https://github.com/yaser01/mkv-muxing-batch-gui) | App to muxing videos with audios/subtitles with so many options! | `audio` `batch` `mkvtoolnix` | Free | 🟡 Recent | 0.6k |
 | [neutone_sdk](https://github.com/Neutone/neutone_sdk) | Join the community on Discord for more discussions around Neutone! https://discord.gg/VHSMzb8Wqp | `Python` `ai` `audio` | Free | 🔴 Stale | 0.6k |
 | [FullSubNet](https://github.com/Audio-WestlakeU/FullSubNet) | PyTorch implementation of "FullSubNet: A Full-Band and Sub-Band Fusion Model for Real-Time Single-Channel Speech Enhancement." | `audio` `band` `denoising` | Free | 🟡 Recent | 0.6k |
@@ -1258,7 +1259,7 @@
 | [deepvariant](https://github.com/google/deepvariant) | DeepVariant is an analysis pipeline that uses a deep neural network to call genetic variants from next-generation DNA sequencing data. | `Python` `bioinformatics` `deep-learning` | Free | 🟠 Aging | 3.7k |
 | [LiteRT-LM](https://github.com/google-ai-edge/LiteRT-LM) | C++ implementation of LiteRT-LM for efficient on-device language model inference | `cpp` `inference` `on-device` | Free | 🟢 Fresh | 3.7k |
 | [reinforcement-learning](https://github.com/rlcode/reinforcement-learning) | Minimal and Clean Reinforcement Learning Examples | `Python` `a3c` `actor-critic` | Free | 🔴 Stale | 3.6k |
-| [core](https://github.com/opensumi/core) | A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server. | `TypeScript` `ai` `ai-first` | Free | 🟠 Aging | 3.6k |
+| [core](https://github.com/opensumi/core) | A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server. | `TypeScript` `ai` `ai-first` | Free | 🟢 Fresh | 3.6k |
 | [ploomber](https://github.com/ploomber/ploomber) | The fastest ⚡️ way to build data pipelines. Develop iteratively, deploy anywhere. ☁️ | `Python` `data-engineering` `data-science` | Free | 🔴 Stale | 3.6k |
 | [qsv](https://github.com/dathere/qsv) | Blazing-fast Data-Wrangling toolkit | `Rust` `ai` `ckan` | Free | 🟢 Fresh | 3.6k |
 | [archestra](https://github.com/archestra-ai/archestra) | Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator | `typescript` `ai` | Free | 🟢 Fresh | 3.6k |
@@ -1301,7 +1302,7 @@
 | [all-api-hub](https://github.com/qixing-jk/all-api-hub) | ​一站式 New-API/Sub2API 等中转站账号管理：余额/用量看板、自动签到、密钥一键使用、价格对比、可用性测试，另提供高级渠道管理 | All-in-one New-API/Sub2API account hub: balance/usage dashboard, auto check-in, one-click keys, price comparison, health checks, plus advanced channel management | `TypeScript` `ai` `cc-switch` | Free | 🟢 Fresh | 3.2k |
 | [pennylane](https://github.com/PennyLaneAI/pennylane) | PennyLane is an open-source quantum software platform for quantum computing, quantum machine learning, and quantum chemistry. Create meaningful quantum algorithms, from inspiration to implementation. | `python` `go` | Free | 🟢 Fresh | 3.2k |
 | [siamese-triplet](https://github.com/adambielski/siamese-triplet) | Siamese and triplet networks with online pair/triplet mining in PyTorch | `Python` `contrastive-loss` `deep-learning` | Free | 🔴 Stale | 3.2k |
-| [agentic-rag-for-dummies](https://github.com/GiovanniPasq/agentic-rag-for-dummies) | A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes. | `ai` `rag` `retrieval` | Free | 🟢 Fresh | 3.2k |
+| [agentic-rag-for-dummies](https://github.com/GiovanniPasq/agentic-rag-for-dummies) | A modular Agentic RAG built with LangGraph — learn Retrieval-Augmented Generation Agents in minutes. | `ai` `rag` `retrieval` | Free | 🟡 Recent | 3.2k |
 | [smart-excalidraw-next](https://github.com/liujuntao123/smart-excalidraw-next) | A smart, powerful, and beautiful excalidraw drawing tool.Draw Professional Charts with Natural Language | `JavaScript` `ai` `chart` | Free | 🔴 Stale | 3.2k |
 | [tslearn](https://github.com/tslearn-team/tslearn) | The machine learning toolkit for time series analysis in Python | `Python` `dtw` `dynamic-time-warping` | Free | 🟢 Fresh | 3.1k |
 | [opyrator](https://github.com/ml-tooling/opyrator) | 🪄 Turns your machine learning code into microservices with web API, interactive GUI, and more. | `Python` `deployment` `faas` | Free | 🟢 Fresh | 3.1k |
@@ -1458,7 +1459,7 @@
 | [memfree](https://github.com/memfreeme/memfree) | MemFree - Hybrid AI Search Engine & AI Page Generator | `TypeScript` `ai` `ai-search` | Free | 🔴 Stale | 1.5k |
 | [zola](https://github.com/ibelick/zola) | Open chat interface for all your models. | `TypeScript` `ai` `chat` | Free | 🔴 Stale | 1.5k |
 | [adblockradio](https://github.com/adblockradio/adblockradio) | An adblocker for live radio streams and podcasts. Machine learning meets Shazam. | `JavaScript` `adblock` `adblockradio` | Free | 🔴 Stale | 1.5k |
-| [core](https://github.com/RedPlanetHQ/core) | Your AI butler that get things done | `TypeScript` `ai` `butler` | Free | 🟠 Aging | 1.5k |
+| [core](https://github.com/RedPlanetHQ/core) | Your AI butler that get things done | `TypeScript` `ai` `butler` | Free | 🟢 Fresh | 1.5k |
 | [mcp-brasil](https://github.com/jxnxts/mcp-brasil) | MCP Server para 41 APIs públicas brasileiras | `python` `api` | Free | 🟢 Fresh | 1.5k |
 | [documind](https://github.com/DocumindHQ/documind) | Open-source platform for extracting structured data from documents using AI. | `JavaScript` `ai` `developer-tools` | Free | 🔴 Stale | 1.5k |
 | [globalthreatmap](https://github.com/unicodeveloper/globalthreatmap) | Global threat map. Learn wars, conflicts, military bases and history of nations.  | `ai` | Free | 🟢 Fresh | 1.5k |
@@ -1636,7 +1637,7 @@
 | [privacy-parser](https://github.com/chiefautism/privacy-parser) | Reverse of OpenAI Privacy Filter: uses the same 1.5B model to return PII as structured spans instead of masking it | `ai` `privacy` `pii` | Free | 🟡 Recent | 0.4k |
 | [microsoft/power-platform-skills](https://github.com/microsoft/power-platform-skills) | A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions. | `agent` `ai-agents` `claude` | Free | 🟢 Fresh | 0.2k |
 | [opencode-litellm](https://github.com/yuseferi/opencode-litellm) | OpenCode plugin for LiteLLM proxy support with automatic model detection and dynamic model discovery | `ai` `opencode` `litellm` | Free | 🟢 Fresh | 0.0k |
-| [agentgate](https://github.com/NasirMalik/agentgate) | Agent-native web protocol that exposes your backend directly to AI agents without requiring HTML parsing | `ai` `agent` `api` | Free | 🟢 Fresh | 0.0k |
+| [agentgate](https://github.com/NasirMalik/agentgate) | Agent-native web protocol that exposes your backend directly to AI agents without requiring HTML parsing | `ai` `agent` `api` | Free | 🟡 Recent | 0.0k |
 | [golab](https://github.com/hoangnecon/golab) | A blazing-fast, native Golang Model Context Protocol (MCP) Server for controlling and scraping Google Colab notebooks locally | `ai` `mcp` `colab` | Free | 🟢 Fresh | 0.0k |
 
 ---
@@ -1826,7 +1827,7 @@
 | [whatlang-rs](https://github.com/greyblake/whatlang-rs) | Natural language detection library for Rust. Try demo online: https://whatlang.org/ | `Rust` `ai` `algorithm` | Free | 🔴 Stale | 1.1k |
 | [talking-head-anime-3-demo](https://github.com/pkhungurn/talking-head-anime-3-demo) | Demo Programs for the "Talking Head(?) Anime from a Single Image 3: Now the Body Too" Project | `Python` `ai` `anime` | Free | 🔴 Stale | 1.0k |
 | [MAX-Image-Resolution-Enhancer](https://github.com/IBM/MAX-Image-Resolution-Enhancer) | Upscale an image by a factor of 4, while generating photo-realistic details. | `Python` `ai` `codait` | Free | 🔴 Stale | 1.0k |
-| [Foxel](https://github.com/DrizzleTime/Foxel) | A highly extensible private cloud storage solution for individuals and teams, featuring AI-powered semantic search. | `ai` `cloud` `filesystem` | Free | 🟡 Recent | 1.0k |
+| [Foxel](https://github.com/DrizzleTime/Foxel) | A highly extensible private cloud storage solution for individuals and teams, featuring AI-powered semantic search. | `ai` `cloud` `filesystem` | Free | 🟢 Fresh | 1.0k |
 | [BlenderNeRF](https://github.com/maximeraafat/BlenderNeRF) | Easy NeRF synthetic dataset creation within Blender | `Python` `addons` `ai` | Free | 🔴 Stale | 1.0k |
 | [text-to-cad](https://github.com/earthtojake/text-to-cad) | An open source harness for generating CAD models from natural language descriptions | `ai` `cad` `generation` | Free | 🟢 Fresh | 1.0k |
 | [MixNMatch](https://github.com/WisconsinAIVision/MixNMatch) | Pytorch implementation of MixNMatch | `deep-learning` `disentangled-representations` `fine-grained` | Free | 🟡 Recent | 1.0k |
@@ -1845,7 +1846,7 @@
 | [VLN-CE](https://github.com/jacobkrantz/VLN-CE) | Vision-and-Language Navigation in Continuous Environments using Habitat | `Python` `ai` `computer-vision` | Free | 🔴 Stale | 0.8k |
 | [chaos_genius](https://github.com/chaos-genius/chaos_genius) | ML powered analytics engine for outlier detection and root cause analysis. | `Python` `ai` `alert` | Free | 🔴 Stale | 0.8k |
 | [stable-diffusion-docker](https://github.com/fboulnois/stable-diffusion-docker) | Run the official Stable Diffusion releases in a Docker container with txt2img, img2img, depth2img, pix2pix, upscale4x, and inpaint. | `dall-e` `dalle` `diffusion` | Free | 🟡 Recent | 0.7k |
-| [kandinsky-5](https://github.com/kandinskylab/kandinsky-5) | Kandinsky 5.0: A family of diffusion models for Video & Image generation | `diffusion` `distillation` `kandinsky` | Free | 🟡 Recent | 0.7k |
+| [kandinsky-5](https://github.com/kandinskylab/kandinsky-5) | Kandinsky 5.0: A family of diffusion models for Video & Image generation | `diffusion` `distillation` `kandinsky` | Free | 🟠 Aging | 0.7k |
 | [texturize](https://github.com/texturedesign/texturize) | 🤖🖌️ Generate photo-realistic textures based on source images or (soon) PBR materials. Remix, remake, mashup! Useful if you want to create variations on a theme or elaborate on an existing texture. | `command-line-tool` `computational-photography` `deep-learning` | Free | 🟡 Recent | 0.7k |
 | [onepanel](https://github.com/onepanelio/onepanel) | The open source, end-to-end computer vision platform. Label, build, train, tune, deploy and automate in a unified platform that runs on any cloud and on-premises. | `Go` `ai` `aiops` | Free | 🔴 Stale | 0.7k |
 | [local_ai_ocr](https://github.com/th1nhhdk/local_ai_ocr) | An local, offline (after initial setup), portable OCR software that can process images and PDF files, using DeepSeek-OCR AI (running directly on your machine). | `Python` `ai` `deepseek-ocr` | Free | 🟡 Recent | 0.7k |
@@ -1858,11 +1859,11 @@
 | [HunyuanImage-2.1](https://github.com/Tencent-Hunyuan/HunyuanImage-2.1) | HunyuanImage-2.1: An Efficient Diffusion Model for High-Resolution (2K) Text-to-Image Generation​ | `aigc` `diffusion-models` `diffusion-transformer` | Free | 🟡 Recent | 0.7k |
 | [SEAN](https://github.com/ZPdesu/SEAN) | SEAN: Image Synthesis with Semantic Region-Adaptive Normalization (CVPR 2020, Oral) | `cvpr2020` `face-editing` `face-manipulation` | Free | 🟡 Recent | 0.7k |
 | [ISP-Guide](https://github.com/mikeroyal/ISP-Guide) | Image Signal Processing (ISP) Guide. Learn all about the process of converting an image/video into digital form by performing tasks like noise reduction, filtering, auto exposure, autofocus, HDR correction, and image sharpening with a Specialized type of media processor. | `awesome` `digital-image-processing` `digital-signal-processing` | Free | 🟡 Recent | 0.7k |
-| [mpv-upscale-2x_animejanai](https://github.com/the-database/mpv-upscale-2x_animejanai) | Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models | `4k` `anime` `anime-upscaling` | Free | 🟡 Recent | 0.7k |
+| [mpv-upscale-2x_animejanai](https://github.com/the-database/mpv-upscale-2x_animejanai) | Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models | `4k` `anime` `anime-upscaling` | Free | 🟢 Fresh | 0.7k |
 | [NOVA](https://github.com/baaivision/NOVA) | [ICLR 2025] Autoregressive Video Generation without Vector Quantization | `autoregressive-models` `diffusion-models` `image-generation` | Free | 🟡 Recent | 0.6k |
 | [auto-maple](https://github.com/tanjeffreyz/auto-maple) | Artificial intelligence for MapleStory that uses machine learning and computer vision to navigate challenging in-game environments | `Python` `ai` `computer-vision` | Free | 🔴 Stale | 0.6k |
 | [BetterOCR](https://github.com/junhoyeo/BetterOCR) | 🔍 Better text detection by combining multiple OCR engines (EasyOCR, Tesseract, and Pororo) with 🧠 LLM. | `Python` `ai` `chatgpt` | Free | 🔴 Stale | 0.6k |
-| [videoseal](https://github.com/facebookresearch/videoseal) | Open and efficient video and image watermarking | `image` `video` `watermarking` | Free | 🟡 Recent | 0.6k |
+| [videoseal](https://github.com/facebookresearch/videoseal) | Open and efficient video and image watermarking | `image` `video` `watermarking` | Free | 🔴 Stale | 0.6k |
 | [ai-art-generator](https://github.com/rbbrdckybk/ai-art-generator) | For automating the creation of large batches of AI-generated artwork locally. | `clip-guided-diffusion` `deep-learning` `generative-art` | Free | 🟡 Recent | 0.6k |
 | [myvision](https://github.com/OvidijusParsiunas/myvision) | Computer vision based ML training data generation tool :rocket: | `JavaScript` `ai` `annotation` | Free | 🔴 Stale | 0.6k |
 | [stable-diffusion-pytorch](https://github.com/kjsman/stable-diffusion-pytorch) | Yet another PyTorch implementation of Stable Diffusion (probably easy to read) | `diffusion` `image-generation` `pytorch` | Free | 🟡 Recent | 0.6k |
@@ -1881,7 +1882,7 @@
 | [FontDiffuser](https://github.com/yeungchenwa/FontDiffuser) | [AAAI2024] FontDiffuser: One-Shot Font Generation via Denoising Diffusion with Multi-Scale Content Aggregation and Style Contrastive Learning | `deep-learning` `diffusers` `diffusion` | Free | 🟡 Recent | 0.5k |
 | [BlendGAN](https://github.com/onion-liu/BlendGAN) | Official PyTorch implementation of "BlendGAN: Implicitly GAN Blending for Arbitrary Stylized Face Generation" (NeurIPS 2021) | `gan` `generative-adversarial-network` `image-generation` | Free | 🟡 Recent | 0.5k |
 | [ReVersion](https://github.com/ziqihuangg/ReVersion) | [SIGGRAPH Asia 2024] ReVersion: Diffusion-Based Relation Inversion from Images | `aigc` `diffusion-model` `gen-ai` | Free | 🟡 Recent | 0.5k |
-| [Tensorflow_Object_Tracking_Video](https://github.com/DrewNF/Tensorflow_Object_Tracking_Video) | Object Tracking in Tensorflow ( Localization Detection Classification ) developed to partecipate to ImageNET VID competition | `classification` `dataset` `detection` | Free | 🟡 Recent | 0.5k |
+| [Tensorflow_Object_Tracking_Video](https://github.com/DrewNF/Tensorflow_Object_Tracking_Video) | Object Tracking in Tensorflow ( Localization Detection Classification ) developed to partecipate to ImageNET VID competition | `classification` `dataset` `detection` | Free | 🔴 Stale | 0.5k |
 | [PITI](https://github.com/PITI-Synthesis/PITI) | PITI: Pretraining is All You Need for Image-to-Image Translation | `computer-vision` `image-generation` `image-synthesis` | Free | 🟡 Recent | 0.5k |
 
 ---
@@ -2463,6 +2464,7 @@
 | [omi](https://github.com/BasedHardware/omi) | AI that sees your screen, listens to your conversations and tells you what to do |  | Free | 🟢 Fresh | 10.9k |
 | [inbox-zero](https://github.com/elie222/inbox-zero) | The world's best AI personal assistant for email. Open source app to help you reach inbox zero fast. |  | Free | 🟢 Fresh | 10.5k |
 | [design.md](https://github.com/google-labs-code/design.md) | A format specification for describing a visual identity to coding agents - enables consistent AI-generated design systems. | `ai` `design` `specification` | Free | 🟢 Fresh | 10.2k |
+| [refactoringhq/tolaria](https://github.com/refactoringhq/tolaria) | Desktop app to manage markdown knowledge bases | `knowledge-graph` `typescript` | Free | 🟢 Fresh | 9.4k |
 | [Noi](https://github.com/lencx/Noi) | AI tools launcher with minimal chaos and maximum flow. | `launcher` `productivity` `desktop` | Free | 🟠 Aging | 8.9k |
 | [claudian](https://github.com/YishenTu/claudian) | An Obsidian plugin that embeds Claude Code as an AI collaborator in your vault | `obsidian` `plugin` `collaboration` | Free | 🟢 Fresh | 7.8k |
 | [zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | Zhang Xuefeng's cognitive operating system - practical thinking frameworks for college entrance exams, graduate studies, and career planning, generated by Nuwa Skill. | `ai` `agent` `skill` | Free | 🟡 Recent | 6.7k |
@@ -2490,7 +2492,7 @@
 | [AI Infinity](https://github.com/meetpateltech/AI-Infinity) | Collection of AI tools for exploring possibilities. | `collection` `tools` | Free | 🟠 Aging | 0.6k |
 | [mckinsey-pptx](https://github.com/seulee26/mckinsey-pptx) | McKinsey-style PPTX generator plugin for Claude Code with 40 slide templates and a subagent that picks the right template | `ai` `agent-skill` `ppt` | Free | 🟡 Recent | 0.3k |
 | [clawd.rip](https://github.com/maria-rcks/clawd.rip) | Everything that went wrong with Claude - A post-mortem and lessons learned repository | `ai` `lessons` `post-mortem` | Free | 🟢 Fresh | 0.1k |
-| [smart-rename](https://github.com/Jane-xiaoer/smart-rename) | Right-click any file in Finder to get an AI-generated meaningful name. Supports images, videos, PDFs, Word, Markdown, and folders on macOS | `ai` `automation` `macos` | Free | 🟢 Fresh | 0.0k |
+| [smart-rename](https://github.com/Jane-xiaoer/smart-rename) | Right-click any file in Finder to get an AI-generated meaningful name. Supports images, videos, PDFs, Word, Markdown, and folders on macOS | `ai` `automation` `macos` | Free | 🟡 Recent | 0.0k |
 | [archik](https://github.com/bacharSalleh/archik) | Architecture diagrams as plain YAML. The YAML file is the source of truth; the canvas is a stateless projection | `ai` `architecture` `diagrams` | Free | 🟢 Fresh | 0.0k |
 | [polish-humanizer](https://github.com/waylooking-hub/polish-humanizer) | Markdown skill for Claude/ChatGPT/Gemini that detects 44 AI-tells in Polish text and rewrites them naturally | `ai` `agent-skill` `nlp` | Free | 🟢 Fresh | 0.0k |
 
@@ -2708,45 +2710,45 @@
 | [cloud-morph](https://github.com/giongto35/cloud-morph) | Decentralize, Self-host Cloud Gaming/Application | `cloud-gaming` `cloud-service` `cloudgaming` | Free | 🟡 Recent | 1.2k |
 | [ai-game-devtools](https://github.com/Yuan-ManX/ai-game-devtools) | Your AI Game Dev Hub. The ultimate resource hub for AI-powered game development tools. | `ai` `game-development` `javascript` | Free | 🟢 Fresh | 1.2k |
 | [vardbg](https://github.com/CCExtractor/vardbg) | A simple Python debugger and profiler that generates animated visualizations of program flow, useful for algorithm learning. | `debugger` `flow` `gci` | Free | 🟡 Recent | 1.1k |
-| [AutoSubSync](https://github.com/denizsafak/AutoSubSync) | Automatic subtitle synchronization tool. | `automatic-subtitle` `caption` `captions` | Free | 🟡 Recent | 1.0k |
-| [autoclip_mvp](https://github.com/zhouxiaoka/autoclip_mvp) | AutoClip: AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具 | `ai-video-editing` `auto-highlight` `llm` | Free | 🟡 Recent | 1.0k |
-| [Zooming-Slow-Mo-CVPR-2020](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020) | Fast and Accurate One-Stage Space-Time Video Super-Resolution (accepted in CVPR 2020) | `cvpr` `cvpr2020` `pytorch` | Free | 🟡 Recent | 0.9k |
-| [khan-dl](https://github.com/rand-net/khan-dl) | Download courses from  khanacademy.org  | `khan-academy` `khan-academy-download` `khan-dl` | Free | 🟡 Recent | 0.9k |
-| [two-stream-action-recognition](https://github.com/jeffreyyihuang/two-stream-action-recognition) | Using two stream architecture to implement a classic action recognition method on UCF101 dataset | `action-detection` `action-recognition` `pytorch` | Free | 🟡 Recent | 0.9k |
-| [matrix](https://github.com/kebenxiaoming/matrix) | matrix是抖音，快手，视频号，小红书等短视频矩阵内容分发系统的脚本代码，基于python3，旨在借助playwright实现自动化发布视频到各个社交媒体平台 | `douyin` `kuaishou` `matrix` | Free | 🟡 Recent | 0.9k |
-| [Human-detection-and-Tracking](https://github.com/ITCoders/Human-detection-and-Tracking) | Human-detection-and-Tracking | `cplusplus` `detect-faces` `face` | Free | 🟡 Recent | 0.9k |
-| [python-ffmpeg-video-streaming](https://github.com/quasarstream/python-ffmpeg-video-streaming) | 📼 Package media content for online streaming(DASH and HLS) using FFmpeg | `dash` `dash-video` `drm` | Free | 🟡 Recent | 0.9k |
-| [video_analyst](https://github.com/megvii-research/video_analyst) | A series of basic algorithms that are useful for video understanding, including Single Object Tracking (SOT), Video Object Segmentation (VOS) and so on. | `segmentation` `sot` `video` | Free | 🟡 Recent | 0.9k |
-| [generative-manim](https://github.com/marcelo-earth/generative-manim) | 🎨 GPT for video generation ⚡️ | `2d` `animation` `gpt` | Free | 🟡 Recent | 0.8k |
+| [AutoSubSync](https://github.com/denizsafak/AutoSubSync) | Automatic subtitle synchronization tool. | `automatic-subtitle` `caption` `captions` | Free | 🔴 Stale | 1.0k |
+| [autoclip_mvp](https://github.com/zhouxiaoka/autoclip_mvp) | AutoClip: AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具 | `ai-video-editing` `auto-highlight` `llm` | Free | 🔴 Stale | 1.0k |
+| [Zooming-Slow-Mo-CVPR-2020](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020) | Fast and Accurate One-Stage Space-Time Video Super-Resolution (accepted in CVPR 2020) | `cvpr` `cvpr2020` `pytorch` | Free | 🔴 Stale | 0.9k |
+| [khan-dl](https://github.com/rand-net/khan-dl) | Download courses from  khanacademy.org  | `khan-academy` `khan-academy-download` `khan-dl` | Free | 🔴 Stale | 0.9k |
+| [two-stream-action-recognition](https://github.com/jeffreyyihuang/two-stream-action-recognition) | Using two stream architecture to implement a classic action recognition method on UCF101 dataset | `action-detection` `action-recognition` `pytorch` | Free | 🔴 Stale | 0.9k |
+| [matrix](https://github.com/kebenxiaoming/matrix) | matrix是抖音，快手，视频号，小红书等短视频矩阵内容分发系统的脚本代码，基于python3，旨在借助playwright实现自动化发布视频到各个社交媒体平台 | `douyin` `kuaishou` `matrix` | Free | 🔴 Stale | 0.9k |
+| [Human-detection-and-Tracking](https://github.com/ITCoders/Human-detection-and-Tracking) | Human-detection-and-Tracking | `cplusplus` `detect-faces` `face` | Free | 🔴 Stale | 0.9k |
+| [python-ffmpeg-video-streaming](https://github.com/quasarstream/python-ffmpeg-video-streaming) | 📼 Package media content for online streaming(DASH and HLS) using FFmpeg | `dash` `dash-video` `drm` | Free | 🔴 Stale | 0.9k |
+| [video_analyst](https://github.com/megvii-research/video_analyst) | A series of basic algorithms that are useful for video understanding, including Single Object Tracking (SOT), Video Object Segmentation (VOS) and so on. | `segmentation` `sot` `video` | Free | 🔴 Stale | 0.9k |
+| [generative-manim](https://github.com/marcelo-earth/generative-manim) | 🎨 GPT for video generation ⚡️ | `2d` `animation` `gpt` | Free | 🟢 Fresh | 0.8k |
 | [Savant](https://github.com/insight-platform/Savant) | Python Computer Vision & Video Analytics Framework With Batteries Included | `computer-vision` `cuda` `deep-learning` | Free | 🟡 Recent | 0.8k |
-| [python_video_stab](https://github.com/AdamSpannbauer/python_video_stab) | A Python package to stabilize videos using OpenCV | `computer-vision` `opencv` `python` | Free | 🟡 Recent | 0.8k |
+| [python_video_stab](https://github.com/AdamSpannbauer/python_video_stab) | A Python package to stabilize videos using OpenCV | `computer-vision` `opencv` `python` | Free | 🔴 Stale | 0.8k |
 | [sense](https://github.com/quic/sense) | Enhance your application with the ability to see and interact with humans using any RGB camera. | `activity-recognition` `calorie-estimation` `computer-vision` | Free | 🔴 Stale | 0.7k |
 | [StoryGen-Atelier](https://github.com/0xsline/StoryGen-Atelier) | AI-assisted storyboard and video generation tool. Uses Gemini for generating storyboard text and frames, Vertex AI Veo for generating transition clips, and ffmpeg for stitching the final video. Built-in logs and gallery management. | `ai` | Free | 🔴 Stale | 0.7k |
-| [scikit-video](https://github.com/scikit-video/scikit-video) | Video Processing in Python | `ffmpeg-wrapper` `python` `quality-assessment` | Free | 🟡 Recent | 0.7k |
+| [scikit-video](https://github.com/scikit-video/scikit-video) | Video Processing in Python | `ffmpeg-wrapper` `python` `quality-assessment` | Free | 🔴 Stale | 0.7k |
 | [vit](https://github.com/LucasHJin/vit) | Git for video editing. | `version-control` `video` `video-editing` | Free | 🟡 Recent | 0.7k |
-| [tennis-tracking](https://github.com/ArtLabss/tennis-tracking) | Open-source Monocular Python HawkEye for Tennis | `ball-tracking` `deep-learning` `line-detection` | Free | 🟡 Recent | 0.7k |
-| [AnimateLCM](https://github.com/G-U-N/AnimateLCM) | [SIGGRAPH ASIA 2024 TCS] AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data | `animatelcm` `consistency-models` `deep-learning` | Free | 🟡 Recent | 0.7k |
-| [video2dataset](https://github.com/iejMac/video2dataset) | Easily create large video dataset from video urls | `big-data` `dataset` `video` | Free | 🟡 Recent | 0.7k |
-| [TwitchLink](https://github.com/devhotteok/TwitchLink) | Twitch Stream & Video & Clip Downloader/Recorder. This GUI downloader helps you download and record Twitch videos, including broadcasts and VODs. | `broadcast` `clip` `downloader` | Free | 🟡 Recent | 0.6k |
+| [tennis-tracking](https://github.com/ArtLabss/tennis-tracking) | Open-source Monocular Python HawkEye for Tennis | `ball-tracking` `deep-learning` `line-detection` | Free | 🔴 Stale | 0.7k |
+| [AnimateLCM](https://github.com/G-U-N/AnimateLCM) | [SIGGRAPH ASIA 2024 TCS] AnimateLCM: Computation-Efficient Personalized Style Video Generation without Personalized Video Data | `animatelcm` `consistency-models` `deep-learning` | Free | 🔴 Stale | 0.7k |
+| [video2dataset](https://github.com/iejMac/video2dataset) | Easily create large video dataset from video urls | `big-data` `dataset` `video` | Free | 🔴 Stale | 0.7k |
+| [TwitchLink](https://github.com/devhotteok/TwitchLink) | Twitch Stream & Video & Clip Downloader/Recorder. This GUI downloader helps you download and record Twitch videos, including broadcasts and VODs. | `broadcast` `clip` `downloader` | Free | 🔴 Stale | 0.6k |
 | [ai4animationpy](https://github.com/facebookresearch/ai4animationpy) | A Python framework for AI-driven character animation using neural networks. | `ai` `neural-network` `python` | Free | 🟢 Fresh | 0.6k |
-| [ytdl-patched](https://github.com/ytdl-patched/ytdl-patched) | yt-dlp fork with some more features | `video` `youtube` `youtube-dl` | Free | 🟡 Recent | 0.6k |
-| [TLG_JoinCaptchaBot](https://github.com/J-Rios/TLG_JoinCaptchaBot) | Telegram Bot to verify if users joining a group are human. The Bot sends a captcha challenge to each new user and removes those who fail to solve it within a specified time. | `bot` `captcha` `hacktoberfest` | Free | 🟡 Recent | 0.6k |
+| [ytdl-patched](https://github.com/ytdl-patched/ytdl-patched) | yt-dlp fork with some more features | `video` `youtube` `youtube-dl` | Free | 🟢 Fresh | 0.6k |
+| [TLG_JoinCaptchaBot](https://github.com/J-Rios/TLG_JoinCaptchaBot) | Telegram Bot to verify if users joining a group are human. The Bot sends a captcha challenge to each new user and removes those who fail to solve it within a specified time. | `bot` `captcha` `hacktoberfest` | Free | 🟠 Aging | 0.6k |
 | [vcsi](https://github.com/amietn/vcsi) | Create video contact sheets, thumbnails | `contact-sheet` `python` `screenshots` | Free | 🟡 Recent | 0.6k |
-| [VideoPainter](https://github.com/TencentARC/VideoPainter) | [SIGGRAPH2025] Official repo for paper "Any-length Video Inpainting and Editing with Plug-and-Play Context Control" | `video` `video-dataset` `video-editing` | Free | 🟡 Recent | 0.6k |
+| [VideoPainter](https://github.com/TencentARC/VideoPainter) | [SIGGRAPH2025] Official repo for paper "Any-length Video Inpainting and Editing with Plug-and-Play Context Control" | `video` `video-dataset` `video-editing` | Free | 🔴 Stale | 0.6k |
 | [parse-video-py](https://github.com/wujunwei928/parse-video-py) | Python短视频去水印爬虫：抖音,皮皮虾,火山,微视,最右,快手,全民小视频,皮皮搞笑,西瓜视频,虎牙,梨视频,acfun,好看视频... | `python` `spider` `video` | Free | 🟡 Recent | 0.6k |
-| [two-stream-pytorch](https://github.com/bryanyzhu/two-stream-pytorch) | PyTorch implementation of  two-stream networks for video action recognition | `action-recognition` `pytorch` `two-stream` | Free | 🟡 Recent | 0.6k |
-| [BiliDownloader](https://github.com/Majjcom/BiliDownloader) | 超级好用简洁的GUI BiliBili视频下载器 | `bilibili` `danmaku` `download` | Free | 🟡 Recent | 0.6k |
-| [pi-timolo](https://github.com/pageauc/pi-timolo) | Raspberry PI-TIMOLO ( PI-TImelapse, MOtion, LOwLight ) uses RPI picamera and OpenCV for Remote Headless Security Monitoring using Motion Tracking, Rclone Auto Sync files with remote storage services. Auto Twilight Transitions and Low Light Camera Settings.  Panoramic images using PanTiltHat and More. This project is featured on GitHub Awesome software. | `awesome-list` `curl` `lowlight` | Free | 🟡 Recent | 0.6k |
-| [LLaVA-Mini](https://github.com/ictnlp/LLaVA-Mini) | LLaVA-Mini is a unified large multimodal model (LMM) that can support the understanding of images, high-resolution images, and videos in an efficient manner.  | `efficient` `gpt4o` `gpt4v` | Free | 🟡 Recent | 0.6k |
-| [common_metrics_on_video_quality](https://github.com/JunyaoHu/common_metrics_on_video_quality) | You can easily calculate FVD, PSNR, SSIM, LPIPS for evaluating the quality of generated or predicted videos. | `fvd` `metrics` `psnr` | Free | 🟡 Recent | 0.6k |
-| [PyInstaLive](https://github.com/dvingerh/PyInstaLive) | Python script to download Instagram livestreams. | `broadcast` `download` `download-instagram-livestreams` | Free | 🟡 Recent | 0.6k |
+| [two-stream-pytorch](https://github.com/bryanyzhu/two-stream-pytorch) | PyTorch implementation of  two-stream networks for video action recognition | `action-recognition` `pytorch` `two-stream` | Free | 🔴 Stale | 0.6k |
+| [BiliDownloader](https://github.com/Majjcom/BiliDownloader) | 超级好用简洁的GUI BiliBili视频下载器 | `bilibili` `danmaku` `download` | Free | 🔴 Stale | 0.6k |
+| [pi-timolo](https://github.com/pageauc/pi-timolo) | Raspberry PI-TIMOLO ( PI-TImelapse, MOtion, LOwLight ) uses RPI picamera and OpenCV for Remote Headless Security Monitoring using Motion Tracking, Rclone Auto Sync files with remote storage services. Auto Twilight Transitions and Low Light Camera Settings.  Panoramic images using PanTiltHat and More. This project is featured on GitHub Awesome software. | `awesome-list` `curl` `lowlight` | Free | 🔴 Stale | 0.6k |
+| [LLaVA-Mini](https://github.com/ictnlp/LLaVA-Mini) | LLaVA-Mini is a unified large multimodal model (LMM) that can support the understanding of images, high-resolution images, and videos in an efficient manner.  | `efficient` `gpt4o` `gpt4v` | Free | 🔴 Stale | 0.6k |
+| [common_metrics_on_video_quality](https://github.com/JunyaoHu/common_metrics_on_video_quality) | You can easily calculate FVD, PSNR, SSIM, LPIPS for evaluating the quality of generated or predicted videos. | `fvd` `metrics` `psnr` | Free | 🔴 Stale | 0.6k |
+| [PyInstaLive](https://github.com/dvingerh/PyInstaLive) | Python script to download Instagram livestreams. | `broadcast` `download` `download-instagram-livestreams` | Free | 🔴 Stale | 0.6k |
 | [ffmpeg-quality-metrics](https://github.com/slhck/ffmpeg-quality-metrics) | Calculate quality metrics with FFmpeg (SSIM, PSNR, VMAF, VIF) | `ffmpeg` `video` | Free | 🟡 Recent | 0.5k |
-| [bdd100k](https://github.com/bdd100k/bdd100k) | Toolkit of BDD100K Dataset for Heterogeneous Multitask Learning - CVPR 2020 Oral Paper | `dataset` `detection` `segmentation` | Free | 🟡 Recent | 0.5k |
-| [venom-xbmc-addons](https://github.com/Kodi-vStream/venom-xbmc-addons) | Addon de Streaming français pour Xbmc | `kodi` `python` `video` | Free | 🟡 Recent | 0.5k |
-| [Object-detection](https://github.com/lbeaucourt/Object-detection) | Object detection project for real-time (webcam) and offline (video processing) application. | `object-detection` `python3` `realtime` | Free | 🟡 Recent | 0.5k |
-| [FLAVR](https://github.com/tarun005/FLAVR) | Code for FLAVR: A fast and efficient frame interpolation technique. | `8x-interpolation` `artificial-intelligence` `deep-learning` | Free | 🟡 Recent | 0.5k |
-| [Heart-rate-measurement-using-camera](https://github.com/habom2310/Heart-rate-measurement-using-camera) | real time application to measure heart rate | `camera` `fft` `heart-rate` | Free | 🟡 Recent | 0.5k |
-| [FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) | A Telegram File Renamer Bot With Permanent Thumbnail Support Also It Can Convert Files Into Video!!  | `bot` `convert-files` `converter` | Free | 🟡 Recent | 0.5k |
+| [bdd100k](https://github.com/bdd100k/bdd100k) | Toolkit of BDD100K Dataset for Heterogeneous Multitask Learning - CVPR 2020 Oral Paper | `dataset` `detection` `segmentation` | Free | 🔴 Stale | 0.5k |
+| [venom-xbmc-addons](https://github.com/Kodi-vStream/venom-xbmc-addons) | Addon de Streaming français pour Xbmc | `kodi` `python` `video` | Free | 🟢 Fresh | 0.5k |
+| [Object-detection](https://github.com/lbeaucourt/Object-detection) | Object detection project for real-time (webcam) and offline (video processing) application. | `object-detection` `python3` `realtime` | Free | 🔴 Stale | 0.5k |
+| [FLAVR](https://github.com/tarun005/FLAVR) | Code for FLAVR: A fast and efficient frame interpolation technique. | `8x-interpolation` `artificial-intelligence` `deep-learning` | Free | 🔴 Stale | 0.5k |
+| [Heart-rate-measurement-using-camera](https://github.com/habom2310/Heart-rate-measurement-using-camera) | real time application to measure heart rate | `camera` `fft` `heart-rate` | Free | 🔴 Stale | 0.5k |
+| [FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) | A Telegram File Renamer Bot With Permanent Thumbnail Support Also It Can Convert Files Into Video!!  | `bot` `convert-files` `converter` | Free | 🔴 Stale | 0.5k |
 
 ---
 
@@ -2769,17 +2771,17 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 2628
+- **Total Tools:** 2630
 - **Categories:** 9
 - **Last Updated:** May 4, 2026
 - **Last Freshness Check:** May 4, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1297 tools
-- 🟡 Recent: 590 tools
-- 🟠 Aging: 192 tools
-- 🔴 Stale: 549 tools
+- 🟢 Fresh: 1309 tools
+- 🟡 Recent: 542 tools
+- 🟠 Aging: 190 tools
+- 🔴 Stale: 589 tools
 
 ---
 
