@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-04T12:51:13.987Z",
-    "total_tools": 2630,
+    "last_updated": "2026-05-04T18:50:48.357Z",
+    "total_tools": 2675,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -14,10 +14,852 @@
       "Agents & Automation",
       "Open Source Models"
     ],
-    "last_freshness_check": "2026-05-04T09:10:04Z",
-    "last_discovery": "2026-05-04T12:51:13.987Z"
+    "last_freshness_check": "2026-05-04T14:10:36Z",
+    "last_discovery": "2026-05-04T18:50:48.357Z"
   },
   "tools": [
+    {
+      "name": "awesome-artificial-intelligence",
+      "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
+      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+      "category": "Video & Animation",
+      "tags": [
+        "video",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 13629,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T15:49:50Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "Ai-Learn",
+      "url": "https://github.com/tangyudi/Ai-Learn",
+      "description": "人工智能学习路线图，整理近200个实战案例与项目，免费提供配套教材，零基础入门，就业实战！包括：Python，数学，机器学习，数据分析，深度学习，计算机视觉，自然语言处理，PyTorch tensorflow machine-learning,deep-learning data-analysis data-mining mathematics data-science artificial-intelligence python tensorflow tensorflow2 caffe keras pytorch algorithm numpy pandas matplotlib seaborn nlp cv等热门领域",
+      "category": "Open Source Models",
+      "tags": [
+        "model",
+        "open-source",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 12949,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:37:57Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-generative-ai",
+      "url": "https://github.com/steven2358/awesome-generative-ai",
+      "description": "A curated list of modern Generative Artificial Intelligence projects and services",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 11947,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:37:42Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "paper2gui",
+      "url": "https://github.com/Baiyuetribe/paper2gui",
+      "description": "Convert AI papers to GUI，Make it easy and convenient for everyone to use artificial intelligence technology。让每个人都简单方便的使用前沿人工智能技术",
+      "category": "Developer Tools",
+      "tags": [
+        "Jupyter Notebook",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 10725,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-02T09:37:19Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "aima-python",
+      "url": "https://github.com/aimacode/aima-python",
+      "description": "Python implementation of algorithms from Russell And Norvig's \"Artificial Intelligence - A Modern Approach\"",
+      "category": "Developer Tools",
+      "tags": [
+        "Jupyter Notebook",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 8726,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:01:27Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "paip-lisp",
+      "url": "https://github.com/norvig/paip-lisp",
+      "description": "Lisp code for the textbook \"Paradigms of Artificial Intelligence Programming\"",
+      "category": "Developer Tools",
+      "tags": [
+        "Common Lisp",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 7447,
+      "language": "Common Lisp",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-02T13:48:16Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-chatgpt",
+      "url": "https://github.com/sindresorhus/awesome-chatgpt",
+      "description": "🤖 Awesome list for ChatGPT — an artificial intelligence chatbot developed by OpenAI",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "chatbot",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6236,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T07:19:24Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "start-machine-learning",
+      "url": "https://github.com/louisfb01/start-machine-learning",
+      "description": "A complete guide to start and improve in machine learning (ML), artificial intelligence (AI) in 2026 without ANY background in the field and stay up-to-date with the latest news and state-of-the-art techniques!",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 5247,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T14:48:21Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-ai-tools",
+      "url": "https://github.com/mahseema/awesome-ai-tools",
+      "description": "A curated list of Artificial Intelligence Top Tools",
+      "category": "Productivity",
+      "tags": [
+        "productivity",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 5090,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:37:46Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "AI-Project-Gallery",
+      "url": "https://github.com/KalyanM45/AI-Project-Gallery",
+      "description": "This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4980,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:27:44Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "EconML",
+      "url": "https://github.com/py-why/EconML",
+      "description": "ALICE (Automated Learning and Intelligence for Causation and Economics) is a Microsoft Research project aimed at applying Artificial Intelligence concepts to economic decision making. One of its  goals is to build a toolkit that combines state-of-the-art machine learning techniques with econometrics in order to bring automation to complex causal inference problems. To date, the ALICE Python SDK (econml) implements orthogonal machine learning algorithms such as the double machine learning work of Chernozhukov et al. This toolkit is designed to measure the causal effect of some treatment variable(s) t on an outcome variable y, controlling for a set of features x.",
+      "category": "Research & Data",
+      "tags": [
+        "Jupyter Notebook",
+        "research",
+        "data",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4616,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:18:46Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "sql-translator",
+      "url": "https://github.com/whoiskatrin/sql-translator",
+      "description": "SQL Translator is a tool for converting natural language queries into SQL code using artificial intelligence. This project is 100% free and open source.",
+      "category": "Productivity",
+      "tags": [
+        "TypeScript",
+        "productivity",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4310,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T21:22:18Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "malmo",
+      "url": "https://github.com/microsoft/malmo",
+      "description": "Project Malmo is a platform for Artificial Intelligence experimentation and research built on top of Minecraft. We aim to inspire a new generation of research into challenging new problems presented by this unique environment. --- For installation instructions, scroll down to *Getting Started* below, or visit the project page for more information:",
+      "category": "Image Generation",
+      "tags": [
+        "Java",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 4254,
+      "language": "Java",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-02T16:01:56Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "C-Plus-Plus",
+      "url": "https://github.com/TheAlgorithms/C-Plus-Plus",
+      "description": "Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.",
+      "category": "Developer Tools",
+      "tags": [
+        "C++",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 34174,
+      "language": "C++",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:33:22Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "applied-ml",
+      "url": "https://github.com/eugeneyan/applied-ml",
+      "description": "📚 Papers & tech blogs by companies sharing their work on data science & machine learning in production.",
+      "category": "Research & Data",
+      "tags": [
+        "research",
+        "data",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 28793,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:06:54Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "machine-learning-for-software-engineers",
+      "url": "https://github.com/ZuzooVn/machine-learning-for-software-engineers",
+      "description": "A complete daily plan for studying to become a machine learning engineer.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 28763,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T14:13:52Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "homemade-machine-learning",
+      "url": "https://github.com/trekhleb/homemade-machine-learning",
+      "description": "🤖 Python examples of popular machine learning algorithms with interactive Jupyter demos and math being explained",
+      "category": "Developer Tools",
+      "tags": [
+        "Jupyter Notebook",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 24509,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:47:04Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "C",
+      "url": "https://github.com/TheAlgorithms/C",
+      "description": "Collection of various algorithms in mathematics, machine learning, computer science, physics, etc implemented in C for educational purposes.",
+      "category": "Developer Tools",
+      "tags": [
+        "C",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 21997,
+      "language": "C",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:12:26Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "deeplearningbook-chinese",
+      "url": "https://github.com/exacity/deeplearningbook-chinese",
+      "description": "Deep Learning Book Chinese Translation",
+      "category": "Developer Tools",
+      "tags": [
+        "TeX",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 37267,
+      "language": "TeX",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T13:54:25Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "caffe",
+      "url": "https://github.com/BVLC/caffe",
+      "description": "Caffe: a fast open framework for deep learning.",
+      "category": "Developer Tools",
+      "tags": [
+        "C++",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 34621,
+      "language": "C++",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:18:43Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "tuning_playbook",
+      "url": "https://github.com/google-research/tuning_playbook",
+      "description": "A playbook for systematically maximizing the performance of deep learning models.",
+      "category": "Open Source Models",
+      "tags": [
+        "model",
+        "open-source",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 30081,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T06:05:34Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-deep-learning",
+      "url": "https://github.com/ChristosChristofidis/awesome-deep-learning",
+      "description": "A curated list of awesome Deep Learning tutorials, projects and communities.",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 28018,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:38:53Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-deep-learning-papers",
+      "url": "https://github.com/terryum/awesome-deep-learning-papers",
+      "description": "The most cited deep learning papers",
+      "category": "Developer Tools",
+      "tags": [
+        "TeX",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 26127,
+      "language": "TeX",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T08:42:18Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-computer-vision",
+      "url": "https://github.com/jbhuang0604/awesome-computer-vision",
+      "description": "A curated list of awesome computer vision resources",
+      "category": "Image Generation",
+      "tags": [
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 23248,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:18:55Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "deep-learning-drizzle",
+      "url": "https://github.com/kmario23/deep-learning-drizzle",
+      "description": "Drench yourself in Deep Learning, Reinforcement Learning, Machine Learning, Computer Vision, and NLP by learning from these exciting lectures!!",
+      "category": "Image Generation",
+      "tags": [
+        "HTML",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 12805,
+      "language": "HTML",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T12:24:49Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "awesome-deep-vision",
+      "url": "https://github.com/kjw0612/awesome-deep-vision",
+      "description": "A curated list of deep learning resources for computer vision ",
+      "category": "Image Generation",
+      "tags": [
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 11158,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:18:11Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "computervision-recipes",
+      "url": "https://github.com/microsoft/computervision-recipes",
+      "description": "Best Practices, code samples, and documentation for Computer Vision.",
+      "category": "Image Generation",
+      "tags": [
+        "Jupyter Notebook",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 9847,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T21:38:58Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "tracking.js",
+      "url": "https://github.com/eduardolundgren/tracking.js",
+      "description": "A modern approach for Computer Vision on the web",
+      "category": "Image Generation",
+      "tags": [
+        "JavaScript",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 9480,
+      "language": "JavaScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-04-23T21:08:31Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "notebooks",
+      "url": "https://github.com/roboflow/notebooks",
+      "description": "A collection of tutorials on state-of-the-art computer vision models and techniques. Explore everything from foundational architectures like ResNet to cutting-edge models like RF-DETR, YOLO11, SAM 3, and Qwen3-VL.",
+      "category": "Image Generation",
+      "tags": [
+        "Jupyter Notebook",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 9367,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T17:31:56Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "daily-paper-computer-vision",
+      "url": "https://github.com/amusi/daily-paper-computer-vision",
+      "description": "记录每天整理的计算机视觉/深度学习/机器学习相关方向的论文",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6752,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T18:06:14Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "mmcv",
+      "url": "https://github.com/open-mmlab/mmcv",
+      "description": "OpenMMLab Computer Vision Foundation",
+      "category": "Image Generation",
+      "tags": [
+        "Python",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6437,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T00:39:57Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "openMVG",
+      "url": "https://github.com/openMVG/openMVG",
+      "description": "open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.",
+      "category": "Image Generation",
+      "tags": [
+        "C++",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 6391,
+      "language": "C++",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T07:58:36Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "super-gradients",
+      "url": "https://github.com/Deci-AI/super-gradients",
+      "description": "Easily train or fine-tune SOTA computer vision models with one open source training library. The home of Yolo-NAS.",
+      "category": "Image Generation",
+      "tags": [
+        "Jupyter Notebook",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 5029,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T14:01:49Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ailearning",
+      "url": "https://github.com/apachecn/ailearning",
+      "description": "AiLearning：数据分析+机器学习实战+线性代数+PyTorch+NLTK+TF2",
+      "category": "Open Source Models",
+      "tags": [
+        "Python",
+        "model",
+        "open-source",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 42224,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T12:44:31Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+      "category": "Agents & Automation",
+      "tags": [
+        "Python",
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 40732,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:39:52Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "bert",
+      "url": "https://github.com/google-research/bert",
+      "description": "TensorFlow code and pre-trained models for BERT",
+      "category": "Open Source Models",
+      "tags": [
+        "Python",
+        "model",
+        "open-source",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 40002,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T15:16:58Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "HanLP",
+      "url": "https://github.com/hankcs/HanLP",
+      "description": "Natural Language Processing for the next decade. Tokenization, Part-of-Speech Tagging, Named Entity Recognition, Syntactic & Semantic Dependency Parsing, Document Classification",
+      "category": "Audio & Music",
+      "tags": [
+        "Python",
+        "audio",
+        "music",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 36292,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:02:14Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "storm",
+      "url": "https://github.com/stanford-oval/storm",
+      "description": "An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "Python",
+        "llm",
+        "chatbot",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 28156,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T16:39:05Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers ",
+      "category": "Developer Tools",
+      "tags": [
+        "Python",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 13750,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-03T18:01:53Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "StableStudio",
+      "url": "https://github.com/Stability-AI/StableStudio",
+      "description": "Community interface for generative AI",
+      "category": "Developer Tools",
+      "tags": [
+        "TypeScript",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 9042,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T13:00:54Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ai-collection",
+      "url": "https://github.com/ai-collection/ai-collection",
+      "description": "The Generative AI Landscape - A Collection of Awesome Generative AI Applications",
+      "category": "Developer Tools",
+      "tags": [
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 8913,
+      "language": "",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T08:11:50Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "morphic",
+      "url": "https://github.com/miurla/morphic",
+      "description": "An AI-powered search engine with a generative UI",
+      "category": "Developer Tools",
+      "tags": [
+        "TypeScript",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 8811,
+      "language": "TypeScript",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T02:27:53Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "sdnext",
+      "url": "https://github.com/vladmandic/sdnext",
+      "description": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing",
+      "category": "Image Generation",
+      "tags": [
+        "Python",
+        "image",
+        "generation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 7078,
+      "language": "Python",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T18:32:21Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "kserve",
+      "url": "https://github.com/kserve/kserve",
+      "description": "Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes",
+      "category": "Developer Tools",
+      "tags": [
+        "Go",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 5417,
+      "language": "Go",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T10:30:34Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "generative-ai",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini Enterprise Agent Platform",
+      "category": "Agents & Automation",
+      "tags": [
+        "Jupyter Notebook",
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 16786,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-04",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T16:11:08Z",
+      "days_since_commit": 0
+    },
     {
       "name": "ComposioHQ/awesome-codex-skills",
       "url": "https://github.com/ComposioHQ/awesome-codex-skills",
@@ -34,8 +876,8 @@
       "added_date": "2026-05-04",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T12:51:13.981Z",
-      "days_since_commit": 0
+      "last_commit_date": "2026-04-28T07:25:44Z",
+      "days_since_commit": 6
     },
     {
       "name": "refactoringhq/tolaria",
@@ -52,7 +894,7 @@
       "added_date": "2026-05-04",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T12:51:13.987Z",
+      "last_commit_date": "2026-05-04T13:18:45Z",
       "days_since_commit": 0
     },
     {
@@ -204,7 +1046,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T07:57:36Z",
+      "last_commit_date": "2026-05-04T11:43:42Z",
       "category": "Developer Tools",
       "tags": [
         "agent-os",
@@ -225,7 +1067,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T07:43:55Z",
+      "last_commit_date": "2026-05-04T11:19:41Z",
       "category": "Developer Tools",
       "tags": [
         "orchestration",
@@ -267,7 +1109,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:16:33Z",
+      "last_commit_date": "2026-05-04T13:08:59Z",
       "category": "Developer Tools",
       "tags": [
         "editor",
@@ -298,7 +1140,7 @@
         "mcp"
       ],
       "pricing": "Open Source",
-      "days_since_commit": 0
+      "days_since_commit": 1
     },
     {
       "name": "Armur-Ai/Pentest-Swarm-AI",
@@ -330,7 +1172,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T03:19:19Z",
+      "last_commit_date": "2026-05-04T08:42:44Z",
       "category": "Developer Tools",
       "tags": [
         "agent",
@@ -372,7 +1214,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T07:56:27Z",
+      "last_commit_date": "2026-05-04T10:44:57Z",
       "category": "Developer Tools",
       "tags": [
         "ide",
@@ -407,7 +1249,7 @@
       "added_date": "2026-05-02",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T18:02:47Z",
+      "last_commit_date": "2026-05-04T12:24:51Z",
       "days_since_commit": 0
     },
     {
@@ -452,8 +1294,8 @@
       "added_date": "2026-05-02",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T13:58:42Z",
-      "days_since_commit": 0
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 4
     },
     {
       "name": "GitNexus",
@@ -473,7 +1315,7 @@
       "added_date": "2026-05-02",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:11:35Z",
+      "last_commit_date": "2026-05-04T13:22:04Z",
       "days_since_commit": 0
     },
     {
@@ -494,7 +1336,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-28T09:07:55Z",
-      "days_since_commit": 5
+      "days_since_commit": 6
     },
     {
       "name": "h4cker",
@@ -551,7 +1393,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-02-26T10:04:45Z",
-      "days_since_commit": 431
+      "days_since_commit": 432
     },
     {
       "name": "semantic-kernel",
@@ -571,7 +1413,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-01T08:50:17Z",
-      "days_since_commit": 2
+      "days_since_commit": 3
     },
     {
       "name": "Mr.-Ranedeer-AI-Tutor",
@@ -606,7 +1448,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2024-04-17T09:44:37Z",
-      "days_since_commit": 746
+      "days_since_commit": 747
     },
     {
       "name": "google-research",
@@ -786,7 +1628,7 @@
       "added_date": "2026-05-01",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T06:54:39Z",
+      "last_commit_date": "2026-05-04T11:01:37Z",
       "days_since_commit": 0
     },
     {
@@ -869,7 +1711,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-24T10:18:02Z",
-      "days_since_commit": 9
+      "days_since_commit": 10
     },
     {
       "name": "Agent-E",
@@ -932,7 +1774,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:13:07Z",
+      "last_commit_date": "2026-05-04T13:02:16Z",
       "days_since_commit": 0
     },
     {
@@ -1016,7 +1858,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:10:48Z",
+      "last_commit_date": "2026-05-04T13:22:51Z",
       "days_since_commit": 0
     },
     {
@@ -1037,7 +1879,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T07:25:54Z",
+      "last_commit_date": "2026-05-04T13:24:57Z",
       "days_since_commit": 0
     },
     {
@@ -1058,7 +1900,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T00:51:53Z",
+      "last_commit_date": "2026-05-04T13:04:09Z",
       "days_since_commit": 0
     },
     {
@@ -1079,7 +1921,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T07:51:23Z",
+      "last_commit_date": "2026-05-04T13:17:12Z",
       "days_since_commit": 0
     },
     {
@@ -1100,7 +1942,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:18:07Z",
+      "last_commit_date": "2026-05-04T13:24:41Z",
       "days_since_commit": 0
     },
     {
@@ -1184,7 +2026,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-23T12:04:08Z",
-      "days_since_commit": 10
+      "days_since_commit": 11
     },
     {
       "name": "gbrain",
@@ -1331,7 +2173,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-05T11:01:18Z",
-      "days_since_commit": 28
+      "days_since_commit": 29
     },
     {
       "name": "video-use",
@@ -1414,7 +2256,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:10:09Z",
+      "last_commit_date": "2026-05-04T13:17:05Z",
       "days_since_commit": 0
     },
     {
@@ -1435,8 +2277,8 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-28T15:19:03Z",
-      "days_since_commit": 5
+      "last_commit_date": "2026-05-04T10:39:22Z",
+      "days_since_commit": 0
     },
     {
       "name": "CubeSandbox",
@@ -1456,8 +2298,8 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-30T09:16:14Z",
-      "days_since_commit": 3
+      "last_commit_date": "2026-05-04T10:39:55Z",
+      "days_since_commit": 0
     },
     {
       "name": "codeburn",
@@ -1493,7 +2335,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-03T02:24:35Z",
-      "days_since_commit": 0
+      "days_since_commit": 1
     },
     {
       "name": "Oxen",
@@ -1508,7 +2350,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-03T03:15:02Z",
-      "days_since_commit": 0
+      "days_since_commit": 1
     },
     {
       "name": "phantomjs",
@@ -1525,7 +2367,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2022-11-26T19:43:12Z",
-      "days_since_commit": 1253
+      "days_since_commit": 1254
     },
     {
       "name": "kestra",
@@ -1541,8 +2383,8 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-01T20:29:39Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-05-04T12:49:37Z",
+      "days_since_commit": 0
     },
     {
       "name": "watchtower",
@@ -1596,8 +2438,8 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-01T22:39:53Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-05-04T04:58:28Z",
+      "days_since_commit": 0
     },
     {
       "name": "appium",
@@ -1616,8 +2458,8 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-02T13:37:00Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-05-04T09:34:12Z",
+      "days_since_commit": 0
     },
     {
       "name": "TensorFlow-Examples",
@@ -1634,7 +2476,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2024-07-26T19:46:13Z",
-      "days_since_commit": 645
+      "days_since_commit": 646
     },
     {
       "name": "nacos",
@@ -1652,7 +2494,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-29T01:58:48Z",
-      "days_since_commit": 4
+      "days_since_commit": 5
     },
     {
       "name": "dbeaver",
@@ -1670,7 +2512,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T16:38:55Z",
+      "last_commit_date": "2026-05-04T12:34:59Z",
       "days_since_commit": 0
     },
     {
@@ -1689,7 +2531,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-02T12:02:47Z",
-      "days_since_commit": 1
+      "days_since_commit": 2
     },
     {
       "name": "leedl-tutorial",
@@ -1706,7 +2548,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-11-23T09:12:43Z",
-      "days_since_commit": 161
+      "days_since_commit": 162
     },
     {
       "name": "easydiffusion",
@@ -1725,7 +2567,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-30T05:33:50Z",
-      "days_since_commit": 3
+      "days_since_commit": 4
     },
     {
       "name": "mmagic",
@@ -1746,7 +2588,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2024-08-06T07:19:40Z",
-      "days_since_commit": 635
+      "days_since_commit": 636
     },
     {
       "name": "Sana",
@@ -1817,7 +2659,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:06:40Z",
+      "last_commit_date": "2026-05-04T13:11:39Z",
       "days_since_commit": 0
     },
     {
@@ -1852,7 +2694,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2023-05-16T09:48:00Z",
-      "days_since_commit": 1083
+      "days_since_commit": 1084
     },
     {
       "name": "Marigold",
@@ -1869,7 +2711,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-12-10T09:56:30Z",
-      "days_since_commit": 144
+      "days_since_commit": 145
     },
     {
       "name": "Rerender_A_Video",
@@ -1886,7 +2728,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2024-03-09T12:34:21Z",
-      "days_since_commit": 785
+      "days_since_commit": 786
     },
     {
       "name": "ComfyUI-nunchaku",
@@ -1920,7 +2762,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2024-04-23T10:50:32Z",
-      "days_since_commit": 740
+      "days_since_commit": 741
     },
     {
       "name": "MuseV",
@@ -1987,7 +2829,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-02-16T11:34:43Z",
-      "days_since_commit": 441
+      "days_since_commit": 442
     },
     {
       "name": "awesome-diffusion-categorized",
@@ -2052,8 +2894,8 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-02T20:15:18Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-05-04T11:05:47Z",
+      "days_since_commit": 0
     },
     {
       "name": "modal-labs/modal-client",
@@ -2089,7 +2931,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T06:13:21Z",
+      "last_commit_date": "2026-05-04T12:22:58Z",
       "days_since_commit": 0
     },
     {
@@ -2208,7 +3050,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T05:17:43Z",
+      "last_commit_date": "2026-05-04T12:32:45Z",
       "days_since_commit": 0
     },
     {
@@ -2253,8 +3095,8 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-01T23:19:59Z",
-      "days_since_commit": 2
+      "last_commit_date": "2026-05-04T13:21:36Z",
+      "days_since_commit": 0
     },
     {
       "name": "stakpak/agent",
@@ -2273,7 +3115,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T23:34:59Z",
+      "last_commit_date": "2026-05-04T11:11:32Z",
       "days_since_commit": 0
     },
     {
@@ -2295,7 +3137,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-23T10:19:21Z",
-      "days_since_commit": 10
+      "days_since_commit": 11
     },
     {
       "name": "ClawSweeper",
@@ -2315,7 +3157,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T06:06:59Z",
+      "last_commit_date": "2026-05-04T09:15:06Z",
       "days_since_commit": 0
     },
     {
@@ -2420,7 +3262,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:17:54Z",
+      "last_commit_date": "2026-05-04T11:43:53Z",
       "days_since_commit": 0
     },
     {
@@ -2442,7 +3284,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-25T10:38:39Z",
-      "days_since_commit": 8
+      "days_since_commit": 9
     },
     {
       "name": "privacy-parser",
@@ -2523,9 +3365,9 @@
       "language": "Shell",
       "added_date": "2026-04-28",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-26T09:52:58Z",
-      "days_since_commit": 7
+      "days_since_commit": 8
     },
     {
       "name": "opencode-litellm",
@@ -2546,7 +3388,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-28T12:15:27Z",
-      "days_since_commit": 5
+      "days_since_commit": 6
     },
     {
       "name": "agentgate",
@@ -2565,9 +3407,9 @@
       "language": "Python",
       "added_date": "2026-04-28",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-26T11:16:28Z",
-      "days_since_commit": 7
+      "days_since_commit": 8
     },
     {
       "name": "wallasapi",
@@ -2609,7 +3451,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-30T12:34:42Z",
-      "days_since_commit": 3
+      "days_since_commit": 4
     },
     {
       "name": "archik",
@@ -2629,7 +3471,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T06:39:05Z",
+      "last_commit_date": "2026-05-04T10:52:21Z",
       "days_since_commit": 0
     },
     {
@@ -2650,7 +3492,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T18:10:56Z",
+      "last_commit_date": "2026-05-04T13:05:28Z",
       "days_since_commit": 0
     },
     {
@@ -2672,7 +3514,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-27T12:29:43Z",
-      "days_since_commit": 6
+      "days_since_commit": 7
     },
     {
       "name": "UseIt-Agent",
@@ -2713,8 +3555,8 @@
       "added_date": "2026-04-27",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-01T21:42:17Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-05-04T07:34:39Z",
+      "days_since_commit": 0
     },
     {
       "name": "WFGY",
@@ -2733,7 +3575,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-02T07:49:07Z",
+      "last_commit_date": "2026-05-04T08:33:44Z",
       "days_since_commit": 0
     },
     {
@@ -2755,7 +3597,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-27T05:58:49Z",
-      "days_since_commit": 5
+      "days_since_commit": 7
     },
     {
       "name": "agentic-rag-for-dummies",
@@ -2774,9 +3616,9 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-26",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-25T19:46:40Z",
-      "days_since_commit": 7
+      "days_since_commit": 8
     },
     {
       "name": "swirl-search",
@@ -2795,7 +3637,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T00:30:02Z",
+      "last_commit_date": "2026-05-04T02:15:44Z",
       "days_since_commit": 0
     },
     {
@@ -2815,7 +3657,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T01:05:00Z",
+      "last_commit_date": "2026-05-04T08:51:59Z",
       "days_since_commit": 0
     },
     {
@@ -2836,7 +3678,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-30T01:32:01Z",
-      "days_since_commit": 3
+      "days_since_commit": 4
     },
     {
       "name": "scikit-image",
@@ -2857,7 +3699,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-29T21:05:28Z",
-      "days_since_commit": 3
+      "days_since_commit": 4
     },
     {
       "name": "AIGC-Interview-Book",
@@ -2876,7 +3718,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-02T13:04:31Z",
+      "last_commit_date": "2026-05-04T10:02:50Z",
       "days_since_commit": 0
     },
     {
@@ -2899,7 +3741,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-02T02:35:57Z",
-      "days_since_commit": 0
+      "days_since_commit": 2
     },
     {
       "name": "CV",
@@ -2920,7 +3762,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-27T00:45:57Z",
-      "days_since_commit": 6
+      "days_since_commit": 7
     },
     {
       "name": "geoai",
@@ -2939,8 +3781,8 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-01T17:31:08Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-05-04T03:07:34Z",
+      "days_since_commit": 0
     },
     {
       "name": "ai-game-devtools",
@@ -2959,7 +3801,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-30T03:12:10Z",
-      "days_since_commit": 2
+      "days_since_commit": 4
     },
     {
       "name": "PyHealth",
@@ -2979,7 +3821,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-26T15:48:00Z",
-      "days_since_commit": 6
+      "days_since_commit": 7
     },
     {
       "name": "x-transformers",
@@ -2999,7 +3841,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-26T14:44:12Z",
-      "days_since_commit": 5
+      "days_since_commit": 7
     },
     {
       "name": "skforecast",
@@ -3017,8 +3859,8 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-29T09:09:33Z",
-      "days_since_commit": 3
+      "last_commit_date": "2026-05-04T11:19:43Z",
+      "days_since_commit": 0
     },
     {
       "name": "root",
@@ -3037,7 +3879,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-02T05:57:13Z",
+      "last_commit_date": "2026-05-04T12:06:23Z",
       "days_since_commit": 0
     },
     {
@@ -3055,7 +3897,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-02T12:36:02Z",
+      "last_commit_date": "2026-05-04T12:51:19Z",
       "days_since_commit": 0
     },
     {
@@ -3075,7 +3917,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-02T08:59:12Z",
+      "last_commit_date": "2026-05-04T09:38:24Z",
       "days_since_commit": 0
     },
     {
@@ -3096,7 +3938,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-26T15:20:06Z",
-      "days_since_commit": 5
+      "days_since_commit": 7
     },
     {
       "name": "Daft",
@@ -3116,7 +3958,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-02T01:24:35Z",
-      "days_since_commit": 0
+      "days_since_commit": 2
     },
     {
       "name": "catboost",
@@ -3134,7 +3976,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-01T17:52:06Z",
-      "days_since_commit": 0
+      "days_since_commit": 2
     },
     {
       "name": "iree",
@@ -3152,7 +3994,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T06:03:52Z",
+      "last_commit_date": "2026-05-04T11:33:47Z",
       "days_since_commit": 0
     },
     {
@@ -3175,7 +4017,7 @@
       "added_date": "2026-04-26",
       "verified": true,
       "last_commit_date": "2026-05-02T16:07:17Z",
-      "days_since_commit": 0,
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3191,7 +4033,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-03T12:48:59Z",
+      "last_commit_date": "2026-05-04T13:13:45Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3214,7 +4056,7 @@
       "language": "C++",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-03T09:36:25Z",
+      "last_commit_date": "2026-05-04T13:24:44Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3232,7 +4074,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-04T08:18:07Z",
+      "last_commit_date": "2026-05-04T13:24:41Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3252,7 +4094,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-04T08:13:07Z",
+      "last_commit_date": "2026-05-04T13:02:16Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3273,8 +4115,8 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-30T21:49:51Z",
-      "days_since_commit": 2,
+      "last_commit_date": "2026-05-04T11:02:36Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3293,7 +4135,7 @@
       "language": "Go",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-03T03:46:36Z",
+      "last_commit_date": "2026-05-04T06:24:37Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3314,7 +4156,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-02T07:00:53Z",
-      "days_since_commit": 62,
+      "days_since_commit": 63,
       "freshness": "🟠 Aging"
     },
     {
@@ -3426,7 +4268,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-30T22:17:14Z",
-      "days_since_commit": 2
+      "days_since_commit": 3
     },
     {
       "name": "Langflow",
@@ -3445,7 +4287,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-03T01:49:31Z",
+      "last_commit_date": "2026-05-04T13:26:06Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3464,7 +4306,7 @@
       "added_date": "2026-04-12T13:23:45.457176",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T07:25:54Z",
+      "last_commit_date": "2026-05-04T13:24:57Z",
       "days_since_commit": 0
     },
     {
@@ -3521,7 +4363,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-03T18:54:52Z",
+      "last_commit_date": "2026-05-04T10:14:29Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3560,8 +4402,8 @@
       "added_date": "2026-04-12T13:23:46.982959",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T13:58:42Z",
-      "days_since_commit": 0
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 4
     },
     {
       "name": "claude-code",
@@ -3881,7 +4723,7 @@
       "added_date": "2026-04-17",
       "verified": true,
       "last_commit_date": "2025-12-02T17:05:02Z",
-      "days_since_commit": 151,
+      "days_since_commit": 152,
       "freshness": "🔴 Stale"
     },
     {
@@ -3918,7 +4760,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-05-03T02:02:20Z",
-      "days_since_commit": 0,
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3939,8 +4781,8 @@
       "language": "C++",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-04-30T14:30:02Z",
-      "days_since_commit": 2,
+      "last_commit_date": "2026-05-04T06:55:03Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3956,8 +4798,8 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-01T23:08:43Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-04T10:42:26Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3974,9 +4816,9 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-03-14T21:20:37Z",
-      "days_since_commit": 50,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-05-04T13:05:42Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ML-For-Beginners",
@@ -3996,7 +4838,7 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2026-04-26T20:44:11Z",
-      "days_since_commit": 6,
+      "days_since_commit": 7,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4021,7 +4863,7 @@
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-05-03T12:49:14Z",
+      "last_commit_date": "2026-05-04T13:23:54Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -13850,7 +14692,7 @@
       "language": "Go",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-04T07:25:54Z",
+      "last_commit_date": "2026-05-04T13:24:57Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -14959,8 +15801,8 @@
       "language": "C#",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-05-03T13:58:42Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -24261,9 +25103,9 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-03-14T21:20:37Z",
-      "days_since_commit": 50,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-05-04T13:05:42Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ploomber",
@@ -26386,9 +27228,9 @@
       "language": "Python",
       "added_date": "2026-04-16",
       "verified": true,
-      "freshness": "🟠 Aging",
-      "last_commit_date": "2026-03-14T21:20:37Z",
-      "days_since_commit": 50
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T13:05:42Z",
+      "days_since_commit": 0
     },
     {
       "name": "imgclsmob",
@@ -33749,9 +34591,9 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-03-14T21:20:37Z",
-      "days_since_commit": 50,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-05-04T13:05:42Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "mcp-brasil",
@@ -50776,9 +51618,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-19T08:42:35Z",
-      "days_since_commit": 6,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-04T05:51:57Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "AutoSubSync",
@@ -50803,8 +51645,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-12-12T01:28:20Z",
-      "days_since_commit": 134,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 143,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "autoclip_mvp",
@@ -50824,8 +51666,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-09-15T18:59:45Z",
-      "days_since_commit": 221,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 230,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Zooming-Slow-Mo-CVPR-2020",
@@ -50848,8 +51690,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2021-09-05T07:28:51Z",
-      "days_since_commit": 1693,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 1702,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "khan-dl",
@@ -50872,8 +51714,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-07-05T09:07:35Z",
-      "days_since_commit": 658,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 668,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "two-stream-action-recognition",
@@ -50894,8 +51736,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2019-10-14T21:38:10Z",
-      "days_since_commit": 2384,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 2393,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "matrix",
@@ -50916,8 +51758,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-12-27T01:36:59Z",
-      "days_since_commit": 119,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 128,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Human-detection-and-Tracking",
@@ -50942,8 +51784,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2022-12-30T18:57:14Z",
-      "days_since_commit": 1211,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 1220,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "python-ffmpeg-video-streaming",
@@ -50968,8 +51810,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-08-14T01:11:11Z",
-      "days_since_commit": 619,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 628,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "video_analyst",
@@ -50988,8 +51830,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2023-08-03T16:40:06Z",
-      "days_since_commit": 995,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 1004,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "generative-manim",
@@ -51013,9 +51855,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-03-14T21:59:52Z",
-      "days_since_commit": 41,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-03T16:24:28Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Lulu",
@@ -51038,8 +51880,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2021-03-29T16:43:42Z",
-      "days_since_commit": 1852,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 1861,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "votify",
@@ -51063,9 +51905,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-22T11:38:15Z",
-      "days_since_commit": 2,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-04-27T09:46:26Z",
+      "days_since_commit": 7,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Savant",
@@ -51111,8 +51953,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2023-07-19T22:27:44Z",
-      "days_since_commit": 1010,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 1019,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "kandinsky-5",
@@ -51133,8 +51975,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-03-31T12:56:49Z",
-      "days_since_commit": 24,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 34,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "sense",
@@ -51181,8 +52023,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-07-04T07:37:03Z",
-      "days_since_commit": 295,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 304,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "vit",
@@ -51200,7 +52042,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-19T14:22:43Z",
-      "days_since_commit": 5,
+      "days_since_commit": 14,
       "freshness": "🟡 Recent"
     },
     {
@@ -51225,8 +52067,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-02-14T18:36:18Z",
-      "days_since_commit": 800,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 809,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "AnimateLCM",
@@ -51247,8 +52089,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-10-22T03:10:41Z",
-      "days_since_commit": 550,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 559,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "video2dataset",
@@ -51266,8 +52108,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-07-30T06:29:13Z",
-      "days_since_commit": 634,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 643,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "AutoSub",
@@ -51292,8 +52134,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2023-12-24T09:57:22Z",
-      "days_since_commit": 852,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 862,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "mpv-upscale-2x_animejanai",
@@ -51317,9 +52159,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-18T05:03:59Z",
-      "days_since_commit": 7,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-03T21:03:08Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "spiders",
@@ -51344,8 +52186,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2021-07-28T11:42:54Z",
-      "days_since_commit": 1731,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 1741,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "wav2lip_288x288",
@@ -51370,8 +52212,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-08-13T10:18:56Z",
-      "days_since_commit": 254,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 264,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "TwitchLink",
@@ -51396,8 +52238,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-11-11T01:51:08Z",
-      "days_since_commit": 165,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 174,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "videoseal",
@@ -51415,8 +52257,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-01-28T13:48:08Z",
-      "days_since_commit": 86,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 96,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "python-mpv",
@@ -51441,8 +52283,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-04-25T09:55:50Z",
-      "days_since_commit": 364,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 374,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "ytdl-patched",
@@ -51460,9 +52302,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-19T05:00:46Z",
-      "days_since_commit": 6,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-03T05:40:51Z",
+      "days_since_commit": 1,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "TLG_JoinCaptchaBot",
@@ -51487,8 +52329,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-03-22T11:08:20Z",
-      "days_since_commit": 33,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 43,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "vcsi",
@@ -51511,7 +52353,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-13T22:44:09Z",
-      "days_since_commit": 11,
+      "days_since_commit": 20,
       "freshness": "🟡 Recent"
     },
     {
@@ -51531,8 +52373,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-04-08T03:54:58Z",
-      "days_since_commit": 382,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 391,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "WebmGenerator",
@@ -51555,8 +52397,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-08-06T13:56:44Z",
-      "days_since_commit": 626,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 636,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "parse-video-py",
@@ -51574,7 +52416,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-23T15:39:58Z",
-      "days_since_commit": 1,
+      "days_since_commit": 10,
       "freshness": "🟡 Recent"
     },
     {
@@ -51594,8 +52436,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2020-12-22T17:31:50Z",
-      "days_since_commit": 1949,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 1958,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "BiliDownloader",
@@ -51617,8 +52459,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-01-21T12:46:06Z",
-      "days_since_commit": 93,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 103,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "pi-timolo",
@@ -51643,8 +52485,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-05-07T10:47:44Z",
-      "days_since_commit": 352,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 362,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "LLaVA-Mini",
@@ -51669,8 +52511,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-06-29T07:56:15Z",
-      "days_since_commit": 300,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 309,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "common_metrics_on_video_quality",
@@ -51693,8 +52535,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-01-17T15:24:46Z",
-      "days_since_commit": 97,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 106,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "PyInstaLive",
@@ -51719,8 +52561,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-01-05T11:29:48Z",
-      "days_since_commit": 840,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 850,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "ffmpeg-quality-metrics",
@@ -51737,7 +52579,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-14T07:50:01Z",
-      "days_since_commit": 11,
+      "days_since_commit": 20,
       "freshness": "🟡 Recent"
     },
     {
@@ -51758,8 +52600,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-03-09T10:30:02Z",
-      "days_since_commit": 776,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 786,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "venom-xbmc-addons",
@@ -51778,9 +52620,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-22T23:34:35Z",
-      "days_since_commit": 2,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-04T07:15:07Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "Object-detection",
@@ -51800,8 +52642,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2020-02-10T20:38:19Z",
-      "days_since_commit": 2265,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 2274,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "FLAVR",
@@ -51822,8 +52664,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-05-07T22:02:36Z",
-      "days_since_commit": 717,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 726,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Heart-rate-measurement-using-camera",
@@ -51848,8 +52690,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-08-30T23:52:37Z",
-      "days_since_commit": 602,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 611,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "StreamRAG",
@@ -51873,8 +52715,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-01-31T12:14:58Z",
-      "days_since_commit": 814,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 824,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "Tensorflow_Object_Tracking_Video",
@@ -51899,8 +52741,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2020-01-21T13:23:40Z",
-      "days_since_commit": 2285,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 2295,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "FileRenameBot",
@@ -51925,8 +52767,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-05-01T07:04:46Z",
-      "days_since_commit": 724,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 733,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "ultimatevocalremovergui",
@@ -51951,8 +52793,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-03-13T21:44:03Z",
-      "days_since_commit": 407,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 416,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "speechbrain",
@@ -51976,9 +52818,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-03T15:45:42Z",
-      "days_since_commit": 21,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-03T17:30:53Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "AudioGPT",
@@ -51999,8 +52841,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-07-06T21:35:18Z",
-      "days_since_commit": 657,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 666,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "speech_recognition",
@@ -52019,7 +52861,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-24T14:57:55Z",
-      "days_since_commit": 0,
+      "days_since_commit": 9,
       "freshness": "🟡 Recent"
     },
     {
@@ -52040,9 +52882,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-21T19:16:38Z",
+      "last_commit_date": "2026-04-30T19:51:25Z",
       "days_since_commit": 3,
-      "freshness": "🟡 Recent"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "jukebox",
@@ -52064,8 +52906,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-06-19T05:14:24Z",
-      "days_since_commit": 675,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 684,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "picard",
@@ -52089,9 +52931,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-25T06:35:57Z",
+      "last_commit_date": "2026-05-04T11:17:26Z",
       "days_since_commit": 0,
-      "freshness": "🟡 Recent"
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ClearerVoice-Studio",
@@ -52116,8 +52958,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-08-14T08:26:31Z",
-      "days_since_commit": 254,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 263,
+      "freshness": "🔴 Stale"
     },
     {
       "name": "DeepFilterNet",
@@ -53845,8 +54687,8 @@
       "added_date": "2026-04-27",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T13:58:42Z",
-      "days_since_commit": 0
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 4
     },
     {
       "name": "hackingtool",
@@ -53883,7 +54725,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:13:07Z",
+      "last_commit_date": "2026-05-04T13:02:16Z",
       "days_since_commit": 0
     },
     {
@@ -53923,7 +54765,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T18:54:52Z",
+      "last_commit_date": "2026-05-04T10:14:29Z",
       "days_since_commit": 0
     },
     {
@@ -53965,7 +54807,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T12:49:14Z",
+      "last_commit_date": "2026-05-04T13:23:54Z",
       "days_since_commit": 0
     },
     {
