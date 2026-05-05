@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-05T06:49:59.323Z",
-    "total_tools": 2682,
+    "last_updated": "2026-05-05T12:51:54.446Z",
+    "total_tools": 2690,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,161 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-05T08:47:14Z",
-    "last_discovery": "2026-05-05T06:49:59.323Z"
+    "last_discovery": "2026-05-05T12:51:54.446Z"
   },
   "tools": [
+    {
+      "name": "garden-skills",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "description": "ConardLi open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Open Source",
+      "stars": 2339,
+      "language": "TypeScript",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "world2agent",
+      "url": "https://github.com/machinepulse-ai/world2agent",
+      "description": "World2Agent(W2A) is an open protocol that standardizes how AI agents perceive real world.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Open Source",
+      "stars": 1299,
+      "language": "TypeScript",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "open-slide",
+      "url": "https://github.com/1weiho/open-slide",
+      "description": "A slide framework built for agents.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Open Source",
+      "stars": 883,
+      "language": "TypeScript",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "OmniAgent",
+      "url": "https://github.com/YeQing17-2026/OmniAgent",
+      "description": "An agent capable of self-evolving and dynamically hardening security",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Open Source",
+      "stars": 768,
+      "language": "Python",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "baguette",
+      "url": "https://github.com/tddworks/baguette",
+      "description": "Headless iOS Simulator manager/farm + host-side input injection for iOS 26 — taps, swipes, multi-finger gestures, and 60 fps streaming",
+      "category": "Developer Tools",
+      "tags": [
+        "ios",
+        "testing",
+        "automation"
+      ],
+      "pricing": "Open Source",
+      "stars": 587,
+      "language": "Rust",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "hands-on-modern-rl",
+      "url": "https://github.com/walkinglabs/hands-on-modern-rl",
+      "description": "An open-source, hands-on curriculum bridging gap from basic RL concepts to LLM alignment, RLVR, and advanced Agentic systems.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Open Source",
+      "stars": 564,
+      "language": "Python",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "docsagent",
+      "url": "https://github.com/docsagent/docsagent",
+      "description": "DocsAgent is a local-first AI documents assistant that lets you securely index and chat with thousands of desktop documents with zero cloud leakage.",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "automation",
+        "ai"
+      ],
+      "pricing": "Open Source",
+      "stars": 561,
+      "language": "Rust",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "WorldX",
+      "url": "https://github.com/YGYOOO/WorldX",
+      "description": "One sentence creates an AI-driven world — generate maps, characters, and watch stories emerge on their own.",
+      "category": "Research & Data",
+      "tags": [
+        "reinforcement-learning",
+        "machine-learning",
+        "ai"
+      ],
+      "pricing": "Open Source",
+      "stars": 520,
+      "language": "TypeScript",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "days_since_commit": 0
+    },
     {
       "name": "modular",
       "url": "https://github.com/modular/modular",
