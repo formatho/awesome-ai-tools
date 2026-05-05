@@ -14,7 +14,7 @@
       "Agents & Automation",
       "Open Source Models"
     ],
-    "last_freshness_check": "2026-05-05T08:47:14Z",
+    "last_freshness_check": "2026-05-05T14:07:05Z",
     "last_discovery": "2026-05-05T12:51:54.446Z"
   },
   "tools": [
@@ -34,7 +34,7 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "last_commit_date": "2026-05-05T06:03:08Z",
       "days_since_commit": 0
     },
     {
@@ -53,8 +53,8 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T12:51:54.444Z",
-      "days_since_commit": 0
+      "last_commit_date": "2026-04-30T13:57:10Z",
+      "days_since_commit": 4
     },
     {
       "name": "open-slide",
@@ -72,7 +72,7 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "last_commit_date": "2026-05-05T05:16:17Z",
       "days_since_commit": 0
     },
     {
@@ -90,9 +90,9 @@
       "language": "Python",
       "added_date": "2026-05-05",
       "verified": false,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T12:51:54.444Z",
-      "days_since_commit": 0
+      "freshness": "🟡 Recent",
+      "last_commit_date": "2026-04-19T14:28:59Z",
+      "days_since_commit": 15
     },
     {
       "name": "baguette",
@@ -110,7 +110,7 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "last_commit_date": "2026-05-04T14:50:11Z",
       "days_since_commit": 0
     },
     {
@@ -129,7 +129,7 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "last_commit_date": "2026-05-05T12:01:35Z",
       "days_since_commit": 0
     },
     {
@@ -147,9 +147,9 @@
       "language": "Rust",
       "added_date": "2026-05-05",
       "verified": false,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T12:51:54.444Z",
-      "days_since_commit": 0
+      "freshness": "🟡 Recent",
+      "last_commit_date": "2026-04-12T12:11:34Z",
+      "days_since_commit": 23
     },
     {
       "name": "WorldX",
@@ -167,7 +167,7 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T12:51:54.444Z",
+      "last_commit_date": "2026-05-05T12:19:21Z",
       "days_since_commit": 0
     },
     {
@@ -212,7 +212,7 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T14:15:37Z",
+      "last_commit_date": "2026-05-05T10:13:15Z",
       "days_since_commit": 0
     },
     {
@@ -277,7 +277,7 @@
       "verified": false,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-08-12T11:48:08Z",
-      "days_since_commit": 265
+      "days_since_commit": 266
     },
     {
       "name": "Ai-Learn",
@@ -497,7 +497,7 @@
       "verified": false,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-09-03T13:10:21Z",
-      "days_since_commit": 243
+      "days_since_commit": 244
     },
     {
       "name": "C-Plus-Plus",
@@ -659,7 +659,7 @@
       "verified": false,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-05-26T12:28:00Z",
-      "days_since_commit": 343
+      "days_since_commit": 344
     },
     {
       "name": "awesome-deep-learning-papers",
@@ -735,7 +735,7 @@
       "verified": false,
       "freshness": "🔴 Stale",
       "last_commit_date": "2023-08-15T10:52:15Z",
-      "days_since_commit": 993
+      "days_since_commit": 994
     },
     {
       "name": "computervision-recipes",
@@ -795,7 +795,7 @@
       "verified": false,
       "freshness": "🟠 Aging",
       "last_commit_date": "2026-03-27T09:29:56Z",
-      "days_since_commit": 38
+      "days_since_commit": 39
     },
     {
       "name": "daily-paper-computer-vision",
@@ -812,7 +812,7 @@
       "verified": false,
       "freshness": "🔴 Stale",
       "last_commit_date": "2023-07-08T08:14:09Z",
-      "days_since_commit": 1031
+      "days_since_commit": 1032
     },
     {
       "name": "mmcv",
@@ -872,7 +872,7 @@
       "verified": false,
       "freshness": "🟠 Aging",
       "last_commit_date": "2026-02-24T12:31:01Z",
-      "days_since_commit": 69
+      "days_since_commit": 70
     },
     {
       "name": "ailearning",
@@ -1062,7 +1062,7 @@
       "added_date": "2026-05-04",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:31:08Z",
+      "last_commit_date": "2026-05-05T12:39:55Z",
       "days_since_commit": 0
     },
     {
@@ -1119,8 +1119,8 @@
       "added_date": "2026-05-04",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-28T07:25:44Z",
-      "days_since_commit": 6
+      "last_commit_date": "2026-05-05T06:21:36Z",
+      "days_since_commit": 0
     },
     {
       "name": "refactoringhq/tolaria",
@@ -1137,7 +1137,7 @@
       "added_date": "2026-05-04",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T01:59:05Z",
+      "last_commit_date": "2026-05-05T13:14:38Z",
       "days_since_commit": 0
     },
     {
@@ -1169,7 +1169,7 @@
       "added_date": "2026-05-04",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T00:42:18Z",
+      "last_commit_date": "2026-05-05T08:08:47Z",
       "days_since_commit": 0,
       "category": "Developer Tools",
       "tags": [
@@ -1289,7 +1289,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T15:16:57Z",
+      "last_commit_date": "2026-05-05T06:08:23Z",
       "category": "Developer Tools",
       "tags": [
         "agent-os",
@@ -1310,7 +1310,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T18:36:46Z",
+      "last_commit_date": "2026-05-05T11:42:06Z",
       "category": "Developer Tools",
       "tags": [
         "orchestration",
@@ -1331,7 +1331,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T20:54:40Z",
+      "last_commit_date": "2026-05-05T08:15:02Z",
       "category": "Developer Tools",
       "tags": [
         "mcp",
@@ -1352,7 +1352,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T16:53:30Z",
+      "last_commit_date": "2026-05-05T13:13:05Z",
       "category": "Developer Tools",
       "tags": [
         "editor",
@@ -1383,7 +1383,7 @@
         "mcp"
       ],
       "pricing": "Open Source",
-      "days_since_commit": 1
+      "days_since_commit": 2
     },
     {
       "name": "Armur-Ai/Pentest-Swarm-AI",
@@ -1404,7 +1404,7 @@
         "cybersecurity"
       ],
       "pricing": "Open Source",
-      "days_since_commit": 1
+      "days_since_commit": 2
     },
     {
       "name": "dohooo/helmor",
@@ -1415,7 +1415,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:42:44Z",
+      "last_commit_date": "2026-05-05T11:59:12Z",
       "category": "Developer Tools",
       "tags": [
         "agent",
@@ -1436,7 +1436,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T15:32:21Z",
+      "last_commit_date": "2026-05-05T12:10:28Z",
       "category": "Developer Tools",
       "tags": [
         "observability",
@@ -1457,7 +1457,7 @@
       "added_date": "2026-05-03",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T19:10:53Z",
+      "last_commit_date": "2026-05-05T10:37:50Z",
       "category": "Developer Tools",
       "tags": [
         "ide",
@@ -1492,7 +1492,7 @@
       "added_date": "2026-05-02",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T12:24:51Z",
+      "last_commit_date": "2026-05-05T12:02:40Z",
       "days_since_commit": 0
     },
     {
@@ -1515,7 +1515,7 @@
       "added_date": "2026-05-02",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T03:31:37Z",
+      "last_commit_date": "2026-05-05T12:49:13Z",
       "days_since_commit": 0
     },
     {
@@ -1537,8 +1537,8 @@
       "added_date": "2026-05-02",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T13:58:42Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 5
     },
     {
       "name": "GitNexus",
@@ -1558,7 +1558,7 @@
       "added_date": "2026-05-02",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T18:33:39Z",
+      "last_commit_date": "2026-05-05T12:55:23Z",
       "days_since_commit": 0
     },
     {
@@ -1579,7 +1579,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-28T09:07:55Z",
-      "days_since_commit": 6
+      "days_since_commit": 7
     },
     {
       "name": "h4cker",
@@ -2122,7 +2122,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:54:29Z",
+      "last_commit_date": "2026-05-05T12:45:10Z",
       "days_since_commit": 0
     },
     {
@@ -2143,7 +2143,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T06:03:32Z",
+      "last_commit_date": "2026-05-05T13:12:50Z",
       "days_since_commit": 0
     },
     {
@@ -2164,7 +2164,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:07:59Z",
+      "last_commit_date": "2026-05-05T13:05:01Z",
       "days_since_commit": 0
     },
     {
@@ -2185,7 +2185,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:54:38Z",
+      "last_commit_date": "2026-05-05T13:15:22Z",
       "days_since_commit": 0
     },
     {
@@ -2269,7 +2269,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-23T12:04:08Z",
-      "days_since_commit": 11
+      "days_since_commit": 12
     },
     {
       "name": "gbrain",
@@ -2416,7 +2416,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-05T11:01:18Z",
-      "days_since_commit": 29
+      "days_since_commit": 30
     },
     {
       "name": "video-use",
@@ -2479,7 +2479,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-01T08:00:56Z",
-      "days_since_commit": 3
+      "days_since_commit": 4
     },
     {
       "name": "open-design",
@@ -2499,7 +2499,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:50:35Z",
+      "last_commit_date": "2026-05-05T13:09:21Z",
       "days_since_commit": 0
     },
     {
@@ -2521,7 +2521,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-04T10:39:22Z",
-      "days_since_commit": 0
+      "days_since_commit": 1
     },
     {
       "name": "CubeSandbox",
@@ -2542,7 +2542,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-04T10:39:55Z",
-      "days_since_commit": 0
+      "days_since_commit": 1
     },
     {
       "name": "codeburn",
@@ -2626,7 +2626,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:47:17Z",
+      "last_commit_date": "2026-05-05T13:14:32Z",
       "days_since_commit": 0
     },
     {
@@ -2701,7 +2701,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T06:07:25Z",
+      "last_commit_date": "2026-05-05T08:16:37Z",
       "days_since_commit": 0
     },
     {
@@ -2755,7 +2755,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:33:47Z",
+      "last_commit_date": "2026-05-05T13:09:46Z",
       "days_since_commit": 0
     },
     {
@@ -2774,7 +2774,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-02T12:02:47Z",
-      "days_since_commit": 2
+      "days_since_commit": 3
     },
     {
       "name": "leedl-tutorial",
@@ -2791,7 +2791,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-11-23T09:12:43Z",
-      "days_since_commit": 162
+      "days_since_commit": 163
     },
     {
       "name": "easydiffusion",
@@ -2902,7 +2902,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:44:34Z",
+      "last_commit_date": "2026-05-05T13:05:54Z",
       "days_since_commit": 0
     },
     {
@@ -2937,7 +2937,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2023-05-16T09:48:00Z",
-      "days_since_commit": 1084
+      "days_since_commit": 1085
     },
     {
       "name": "Marigold",
@@ -2954,7 +2954,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-12-10T09:56:30Z",
-      "days_since_commit": 145
+      "days_since_commit": 146
     },
     {
       "name": "Rerender_A_Video",
@@ -2971,7 +2971,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2024-03-09T12:34:21Z",
-      "days_since_commit": 786
+      "days_since_commit": 787
     },
     {
       "name": "ComfyUI-nunchaku",
@@ -3005,7 +3005,7 @@
       "verified": true,
       "freshness": "🔴 Stale",
       "last_commit_date": "2024-04-23T10:50:32Z",
-      "days_since_commit": 741
+      "days_since_commit": 742
     },
     {
       "name": "MuseV",
@@ -3358,7 +3358,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T22:13:17Z",
+      "last_commit_date": "2026-05-05T12:55:24Z",
       "days_since_commit": 0
     },
     {
@@ -3380,7 +3380,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-23T10:19:21Z",
-      "days_since_commit": 11
+      "days_since_commit": 12
     },
     {
       "name": "ClawSweeper",
@@ -3442,7 +3442,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T14:58:19Z",
+      "last_commit_date": "2026-05-04T19:52:46Z",
       "days_since_commit": 0
     },
     {
@@ -3464,7 +3464,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-28T15:08:57Z",
-      "days_since_commit": 5
+      "days_since_commit": 6
     },
     {
       "name": "harmonist",
@@ -3485,7 +3485,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-23T05:48:48Z",
-      "days_since_commit": 11
+      "days_since_commit": 12
     },
     {
       "name": "future-agi",
@@ -3505,7 +3505,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T11:43:53Z",
+      "last_commit_date": "2026-05-05T12:17:56Z",
       "days_since_commit": 0
     },
     {
@@ -3527,7 +3527,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-25T10:38:39Z",
-      "days_since_commit": 9
+      "days_since_commit": 10
     },
     {
       "name": "privacy-parser",
@@ -3548,7 +3548,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-23T16:48:36Z",
-      "days_since_commit": 10
+      "days_since_commit": 11
     },
     {
       "name": "mckinsey-pptx",
@@ -3569,7 +3569,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-24T05:03:27Z",
-      "days_since_commit": 10
+      "days_since_commit": 11
     },
     {
       "name": "clawd.rip",
@@ -3589,7 +3589,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-03T23:15:42Z",
-      "days_since_commit": 0
+      "days_since_commit": 1
     },
     {
       "name": "smart-rename",
@@ -3610,7 +3610,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-26T09:52:58Z",
-      "days_since_commit": 8
+      "days_since_commit": 9
     },
     {
       "name": "opencode-litellm",
@@ -3631,7 +3631,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-28T12:15:27Z",
-      "days_since_commit": 6
+      "days_since_commit": 7
     },
     {
       "name": "agentgate",
@@ -3652,7 +3652,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-26T11:16:28Z",
-      "days_since_commit": 8
+      "days_since_commit": 9
     },
     {
       "name": "wallasapi",
@@ -3673,7 +3673,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-02T19:09:54Z",
-      "days_since_commit": 1
+      "days_since_commit": 2
     },
     {
       "name": "golab",
@@ -3694,7 +3694,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-30T12:34:42Z",
-      "days_since_commit": 4
+      "days_since_commit": 5
     },
     {
       "name": "archik",
@@ -3714,7 +3714,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T10:52:21Z",
+      "last_commit_date": "2026-05-05T12:53:35Z",
       "days_since_commit": 0
     },
     {
@@ -3735,7 +3735,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T13:05:28Z",
+      "last_commit_date": "2026-05-05T12:39:34Z",
       "days_since_commit": 0
     },
     {
@@ -3755,9 +3755,9 @@
       "language": "Unknown",
       "added_date": "2026-04-28",
       "verified": true,
-      "freshness": "🟢 Fresh",
+      "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-27T12:29:43Z",
-      "days_since_commit": 7
+      "days_since_commit": 8
     },
     {
       "name": "UseIt-Agent",
@@ -4317,7 +4317,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-05T07:54:38Z",
+      "last_commit_date": "2026-05-05T13:15:22Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4549,7 +4549,7 @@
       "added_date": "2026-04-12T13:23:45.457176",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:54:29Z",
+      "last_commit_date": "2026-05-05T12:45:10Z",
       "days_since_commit": 0
     },
     {
@@ -4645,8 +4645,8 @@
       "added_date": "2026-04-12T13:23:46.982959",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T13:58:42Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 5
     },
     {
       "name": "claude-code",
@@ -4706,7 +4706,7 @@
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-30T09:47:28Z",
-      "days_since_commit": 4,
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4726,7 +4726,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-04T18:31:33Z",
+      "last_commit_date": "2026-05-05T12:51:46Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4745,7 +4745,7 @@
       "added_date": "2026-04-12T13:23:50.154442",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T15:56:08Z",
+      "last_commit_date": "2026-05-05T12:54:11Z",
       "days_since_commit": 0
     },
     {
@@ -4787,7 +4787,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-05-04T06:35:39Z",
-      "days_since_commit": 0,
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4807,7 +4807,7 @@
       "language": "C++",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-04T19:13:31Z",
+      "last_commit_date": "2026-05-05T10:47:13Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4826,7 +4826,7 @@
       "added_date": "2026-04-23",
       "verified": true,
       "last_commit_date": "2025-08-28T03:24:37Z",
-      "days_since_commit": 249,
+      "days_since_commit": 250,
       "freshness": "🔴 Stale"
     },
     {
@@ -4843,7 +4843,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-04T19:14:34Z",
+      "last_commit_date": "2026-05-05T12:49:49Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4860,7 +4860,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-04T19:12:42Z",
+      "last_commit_date": "2026-05-05T13:17:39Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4882,7 +4882,7 @@
       "language": "Python",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-04T19:14:33Z",
+      "last_commit_date": "2026-05-05T13:05:00Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4899,7 +4899,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-04T16:39:22Z",
+      "last_commit_date": "2026-05-05T09:54:03Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4982,7 +4982,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-04T19:08:08Z",
+      "last_commit_date": "2026-05-04T22:14:32Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5002,8 +5002,8 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-03T02:02:20Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-05T03:37:58Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -5024,7 +5024,7 @@
       "language": "C++",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-04T06:55:03Z",
+      "last_commit_date": "2026-05-05T13:00:03Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5041,7 +5041,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-04T18:58:36Z",
+      "last_commit_date": "2026-05-05T12:50:32Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5059,9 +5059,9 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-03-14T21:20:37Z",
-      "days_since_commit": 51,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-05-05T13:06:20Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ML-For-Beginners",
@@ -5081,8 +5081,8 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2026-04-26T20:44:11Z",
-      "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 8,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "hermes-agent",
@@ -5106,7 +5106,7 @@
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-05-04T19:18:10Z",
+      "last_commit_date": "2026-05-05T13:15:28Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5152,7 +5152,7 @@
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-05-04T06:07:51Z",
+      "last_commit_date": "2026-05-05T05:59:07Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5202,7 +5202,7 @@
       "added_date": "2026-04-20",
       "verified": true,
       "last_commit_date": "2024-05-10T07:38:24Z",
-      "days_since_commit": 724,
+      "days_since_commit": 725,
       "freshness": "🔴 Stale"
     },
     {
@@ -5238,7 +5238,7 @@
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-12T04:25:59Z",
-      "days_since_commit": 22,
+      "days_since_commit": 23,
       "freshness": "🟡 Recent"
     },
     {
@@ -5257,7 +5257,7 @@
       "language": "C",
       "added_date": "2026-04-12",
       "verified": true,
-      "last_commit_date": "2026-05-04T18:51:03Z",
+      "last_commit_date": "2026-05-05T13:04:51Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5278,7 +5278,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-02-05T13:09:26Z",
-      "days_since_commit": 88,
+      "days_since_commit": 89,
       "freshness": "🟠 Aging"
     },
     {
@@ -5298,8 +5298,8 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-01T13:34:13Z",
-      "days_since_commit": 3,
+      "last_commit_date": "2026-05-05T10:14:39Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -5319,7 +5319,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2025-05-27T20:05:19Z",
-      "days_since_commit": 341,
+      "days_since_commit": 342,
       "freshness": "🔴 Stale"
     },
     {
@@ -5340,7 +5340,7 @@
       "added_date": "2026-04-20",
       "verified": true,
       "last_commit_date": "2024-07-30T09:32:19Z",
-      "days_since_commit": 643,
+      "days_since_commit": 644,
       "freshness": "🔴 Stale"
     },
     {
@@ -5359,7 +5359,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-04T18:46:00Z",
+      "last_commit_date": "2026-05-05T13:10:03Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5377,8 +5377,8 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-28T03:51:17Z",
-      "days_since_commit": 6,
+      "last_commit_date": "2026-05-04T23:13:53Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -5394,7 +5394,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-04T18:35:10Z",
+      "last_commit_date": "2026-05-05T11:18:05Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5411,7 +5411,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-04T19:19:12Z",
+      "last_commit_date": "2026-05-05T13:11:52Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5427,7 +5427,7 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2026-03-26T00:07:37Z",
-      "days_since_commit": 39,
+      "days_since_commit": 40,
       "freshness": "🟠 Aging"
     },
     {
@@ -5447,8 +5447,8 @@
       "added_date": "2026-04-22",
       "verified": true,
       "last_commit_date": "2026-04-27T05:53:42Z",
-      "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 8,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "Prompt-Engineering-Guide",
@@ -5473,7 +5473,7 @@
       "added_date": "2026-04-17",
       "verified": true,
       "last_commit_date": "2026-03-11T20:09:13Z",
-      "days_since_commit": 53,
+      "days_since_commit": 54,
       "freshness": "🟠 Aging"
     },
     {
@@ -5495,8 +5495,8 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-01T22:29:39Z",
-      "days_since_commit": 2,
+      "last_commit_date": "2026-05-04T23:47:03Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -5515,7 +5515,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-11",
       "verified": true,
-      "last_commit_date": "2026-05-04T19:15:47Z",
+      "last_commit_date": "2026-05-05T12:56:38Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -5698,7 +5698,7 @@
       "verified": true,
       "freshness": "🟠 Aging",
       "last_commit_date": "2026-03-26T00:07:37Z",
-      "days_since_commit": 39
+      "days_since_commit": 40
     },
     {
       "name": "ui-ux-pro-max-skill",
@@ -6950,7 +6950,7 @@
       "language": "Go",
       "added_date": "2026-04-12",
       "verified": true,
-      "last_commit_date": "2026-05-03T07:06:31Z",
+      "last_commit_date": "2026-05-05T13:10:17Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -6972,7 +6972,7 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2024-08-16T12:07:14Z",
-      "days_since_commit": 625,
+      "days_since_commit": 627,
       "freshness": "🔴 Stale"
     },
     {
@@ -6988,7 +6988,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-03T18:12:03Z",
+      "last_commit_date": "2026-05-05T13:20:09Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7009,7 +7009,7 @@
       "added_date": "2026-04-12",
       "verified": true,
       "last_commit_date": "2026-05-03T06:54:10Z",
-      "days_since_commit": 0,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -7029,7 +7029,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-03T06:54:10Z",
-      "days_since_commit": 0
+      "days_since_commit": 2
     },
     {
       "name": "mempalace",
@@ -7043,7 +7043,7 @@
       "added_date": "2026-04-08",
       "verified": true,
       "last_commit_date": "2026-05-03T06:54:10Z",
-      "days_since_commit": 0,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -7063,7 +7063,7 @@
       "added_date": "2026-04-14",
       "verified": true,
       "last_commit_date": "2026-05-02T13:36:08Z",
-      "days_since_commit": 1,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -7128,7 +7128,7 @@
       "language": "Python",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-05T07:59:51Z",
+      "last_commit_date": "2026-05-05T13:12:32Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7154,7 +7154,7 @@
       "language": "Python",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-05-05T08:00:53Z",
+      "last_commit_date": "2026-05-05T12:27:06Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7195,7 +7195,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-19",
       "verified": true,
-      "last_commit_date": "2026-05-04T18:58:52Z",
+      "last_commit_date": "2026-05-05T12:44:52Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7242,7 +7242,7 @@
       "language": "Python",
       "added_date": "2026-04-16",
       "verified": true,
-      "last_commit_date": "2026-05-05T06:53:43Z",
+      "last_commit_date": "2026-05-05T11:36:34Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7324,7 +7324,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-05T07:46:54Z",
+      "last_commit_date": "2026-05-05T09:15:15Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7347,7 +7347,7 @@
       "language": "Python",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-05-01T16:08:14Z",
+      "last_commit_date": "2026-05-05T11:47:41Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7373,7 +7373,7 @@
       "language": "Python",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-02T12:33:49Z",
+      "last_commit_date": "2026-05-05T12:35:14Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7398,7 +7398,7 @@
       "language": "Python",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-02T06:44:28Z",
+      "last_commit_date": "2026-05-05T03:01:33Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7417,7 +7417,7 @@
       "language": "Rust",
       "added_date": "2026-04-12",
       "verified": true,
-      "last_commit_date": "2026-05-02T12:37:49Z",
+      "last_commit_date": "2026-05-05T13:18:02Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7442,7 +7442,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-04-17T08:06:41Z",
+      "last_commit_date": "2026-05-05T02:54:39Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7460,8 +7460,8 @@
       "language": "Python",
       "added_date": "2026-04-10",
       "verified": true,
-      "last_commit_date": "2026-04-13T17:31:24Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-27T17:41:15Z",
+      "days_since_commit": 7,
       "freshness": "🟢 Fresh"
     },
     {
@@ -7477,8 +7477,8 @@
       "language": "Ruby",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-04-08T10:16:39Z",
-      "days_since_commit": 5,
+      "last_commit_date": "2026-05-05T12:54:19Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -7503,7 +7503,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-04-20T02:23:58Z",
+      "last_commit_date": "2026-05-05T09:14:40Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7529,9 +7529,9 @@
       "language": "Python",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-04-17T08:21:57Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-22T07:08:01Z",
+      "days_since_commit": 13,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "Fabric",
@@ -7552,8 +7552,8 @@
       "language": "Go",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-04-17T22:42:33Z",
-      "days_since_commit": 2,
+      "last_commit_date": "2026-05-04T22:18:49Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -7573,7 +7573,7 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-15",
       "verified": true,
-      "last_commit_date": "2026-04-15T08:50:37Z",
+      "last_commit_date": "2026-05-05T05:03:57Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7594,7 +7594,7 @@
       "language": "Go",
       "added_date": "2026-04-22",
       "verified": true,
-      "last_commit_date": "2026-04-22",
+      "last_commit_date": "2026-05-05T12:56:24Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -7620,8 +7620,8 @@
       "language": "Python",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-04-20T00:58:49Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-27T14:40:18Z",
+      "days_since_commit": 7,
       "freshness": "🟢 Fresh"
     },
     {
@@ -10424,7 +10424,7 @@
       "language": "Rust",
       "added_date": "2026-04-15",
       "verified": true,
-      "last_commit_date": "2026-05-05T06:55:08Z",
+      "last_commit_date": "2026-05-05T12:07:21Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -12707,7 +12707,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-09",
       "verified": true,
-      "last_commit_date": "2026-04-13T21:08:34Z",
+      "last_commit_date": "2026-05-05T13:26:34Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -12733,7 +12733,7 @@
       "language": "Python",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-05-04T15:01:07Z",
+      "last_commit_date": "2026-05-05T09:20:10Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -12749,7 +12749,7 @@
       "added_date": "2026-04-09",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T17:09:45Z",
+      "last_commit_date": "2026-05-05T00:55:32Z",
       "days_since_commit": 0
     },
     {
@@ -12774,7 +12774,7 @@
       "added_date": "2026-04-20",
       "verified": true,
       "last_commit_date": "2026-05-04T07:59:38Z",
-      "days_since_commit": 0,
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -12795,7 +12795,7 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2026-03-16T20:03:20Z",
-      "days_since_commit": 48,
+      "days_since_commit": 49,
       "freshness": "🟠 Aging"
     },
     {
@@ -12814,7 +12814,7 @@
       "language": "Python",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-05-04T12:07:05Z",
+      "last_commit_date": "2026-05-05T11:52:42Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -14937,7 +14937,7 @@
       "language": "Go",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-05T07:54:29Z",
+      "last_commit_date": "2026-05-05T12:45:10Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -16047,8 +16047,8 @@
       "language": "C#",
       "added_date": "2026-04-08",
       "verified": true,
-      "last_commit_date": "2026-05-03T13:58:42Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -24226,7 +24226,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2021-06-29T09:55:15Z",
-      "days_since_commit": 1770,
+      "days_since_commit": 1771,
       "freshness": "🔴 Stale"
     },
     {
@@ -24265,7 +24265,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-10-28T12:44:12Z",
-      "days_since_commit": 188,
+      "days_since_commit": 189,
       "freshness": "🔴 Stale"
     },
     {
@@ -24284,7 +24284,7 @@
       "language": "Go",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-05T06:55:08Z",
+      "last_commit_date": "2026-05-05T12:07:21Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -24344,7 +24344,7 @@
       "language": "Python",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-05-05T03:07:28Z",
+      "last_commit_date": "2026-05-05T09:03:31Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -24365,8 +24365,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-25T13:14:09Z",
-      "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 10,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "DeepAnalyze",
@@ -24385,7 +24385,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-13T02:06:27Z",
-      "days_since_commit": 20
+      "days_since_commit": 22
     },
     {
       "name": "deepchecks",
@@ -24404,7 +24404,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-12-28T12:07:44Z",
-      "days_since_commit": 125,
+      "days_since_commit": 128,
       "freshness": "🔴 Stale"
     },
     {
@@ -24423,8 +24423,8 @@
       "language": "TypeScript",
       "added_date": "2026-04-22",
       "verified": true,
-      "last_commit_date": "2026-05-01T16:43:56Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-05T12:51:05Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -24444,7 +24444,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-03-19T09:40:41Z",
-      "days_since_commit": 409,
+      "days_since_commit": 412,
       "freshness": "🔴 Stale"
     },
     {
@@ -24461,7 +24461,7 @@
       "language": "Python",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-05-03T00:38:46Z",
+      "last_commit_date": "2026-05-05T13:34:36Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -24482,7 +24482,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-05-02T00:20:24Z",
-      "days_since_commit": 1,
+      "days_since_commit": 3,
       "freshness": "🟢 Fresh"
     },
     {
@@ -24501,8 +24501,8 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-27T20:45:00Z",
-      "days_since_commit": 5,
+      "last_commit_date": "2026-05-03T13:58:54Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -24524,7 +24524,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-02T20:41:08Z",
-      "days_since_commit": 0
+      "days_since_commit": 2
     },
     {
       "name": "snips-nlu",
@@ -24543,7 +24543,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2023-05-22T16:10:15Z",
-      "days_since_commit": 1076,
+      "days_since_commit": 1078,
       "freshness": "🔴 Stale"
     },
     {
@@ -24563,7 +24563,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-03-05T11:09:29Z",
-      "days_since_commit": 58,
+      "days_since_commit": 61,
       "freshness": "🟠 Aging"
     },
     {
@@ -24582,7 +24582,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-02T05:49:25Z",
+      "last_commit_date": "2026-05-05T13:33:05Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -24603,7 +24603,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-09-19T02:49:32Z",
-      "days_since_commit": 590,
+      "days_since_commit": 593,
       "freshness": "🔴 Stale"
     },
     {
@@ -24623,7 +24623,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-30T08:25:25Z",
-      "days_since_commit": 2,
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -24643,7 +24643,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-08-25T02:32:32Z",
-      "days_since_commit": 250,
+      "days_since_commit": 253,
       "freshness": "🔴 Stale"
     },
     {
@@ -24658,7 +24658,7 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2024-07-22T18:09:39Z",
-      "days_since_commit": 649,
+      "days_since_commit": 651,
       "freshness": "🔴 Stale"
     },
     {
@@ -24678,7 +24678,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-12-07T18:48:24Z",
-      "days_since_commit": 511,
+      "days_since_commit": 513,
       "freshness": "🔴 Stale"
     },
     {
@@ -24695,8 +24695,8 @@
       "language": "C#",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-05-01T15:46:49Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-04T16:43:34Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -24715,8 +24715,8 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-02T15:23:19Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-05-04T10:13:48Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -24735,7 +24735,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-01-06T07:07:25Z",
-      "days_since_commit": 116,
+      "days_since_commit": 119,
       "freshness": "🔴 Stale"
     },
     {
@@ -24759,9 +24759,9 @@
       "language": "Ruby",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-04-15T17:21:08Z",
-      "days_since_commit": 17,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-05T12:14:06Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "telegram-search",
@@ -25349,9 +25349,9 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-03-14T21:20:37Z",
-      "days_since_commit": 51,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-05-05T13:06:20Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "ploomber",
@@ -26137,7 +26137,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-06-22T19:22:15Z",
-      "days_since_commit": 679,
+      "days_since_commit": 681,
       "freshness": "🔴 Stale"
     },
     {
@@ -26157,7 +26157,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-06-27T02:59:05Z",
-      "days_since_commit": 309,
+      "days_since_commit": 312,
       "freshness": "🔴 Stale"
     },
     {
@@ -26173,7 +26173,7 @@
       "language": "Python",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-05-02T05:36:02Z",
+      "last_commit_date": "2026-05-04T14:19:09Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -26195,7 +26195,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-28T14:13:36Z",
-      "days_since_commit": 4
+      "days_since_commit": 6
     },
     {
       "name": "rio",
@@ -26213,8 +26213,8 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-28T05:39:03Z",
-      "days_since_commit": 4,
+      "last_commit_date": "2026-05-05T04:48:28Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -26234,7 +26234,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-06-23T06:44:06Z",
-      "days_since_commit": 313,
+      "days_since_commit": 316,
       "freshness": "🔴 Stale"
     },
     {
@@ -26254,7 +26254,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2025-06-11T04:40:44Z",
-      "days_since_commit": 317,
+      "days_since_commit": 328,
       "freshness": "🔴 Stale"
     },
     {
@@ -26274,7 +26274,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2024-03-05T15:56:06Z",
-      "days_since_commit": 780,
+      "days_since_commit": 790,
       "freshness": "🔴 Stale"
     },
     {
@@ -26293,8 +26293,8 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-03-25T16:23:39Z",
-      "days_since_commit": 19,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 40,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "deep-prove",
@@ -26310,8 +26310,8 @@
       "added_date": "2026-04-09",
       "verified": true,
       "last_commit_date": "2026-04-01T15:49:12Z",
-      "days_since_commit": 12,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 33,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "ii-agent",
@@ -26328,9 +26328,9 @@
       "language": "Python",
       "added_date": "2026-04-16",
       "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-04-16T05:09:44Z",
-      "days_since_commit": 0
+      "freshness": "🟡 Recent",
+      "last_commit_date": "2026-04-13T03:54:06Z",
+      "days_since_commit": 22
     },
     {
       "name": "lazypredict",
@@ -26348,9 +26348,9 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-24T16:27:02Z",
-      "days_since_commit": 0,
-      "freshness": "🟢 Fresh"
+      "last_commit_date": "2026-04-26T03:34:19Z",
+      "days_since_commit": 9,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "solace-agent-mesh",
@@ -26369,7 +26369,7 @@
       "language": "Python",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-04-24T20:50:44Z",
+      "last_commit_date": "2026-05-05T13:31:43Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -26389,8 +26389,8 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-24T18:18:15Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-05-04T07:31:38Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -26408,7 +26408,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-04-24T20:48:38Z",
+      "last_commit_date": "2026-05-05T09:13:45Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -26428,7 +26428,7 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-24T23:07:10Z",
+      "last_commit_date": "2026-05-04T22:09:07Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -26448,9 +26448,9 @@
       "language": "Rust",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-07T14:30:23Z",
-      "days_since_commit": 17,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-01T10:11:35Z",
+      "days_since_commit": 4,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "mcp-server-browserbase",
@@ -26468,9 +26468,9 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-03-31T01:51:54Z",
-      "days_since_commit": 25,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-04T18:38:33Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "SparkyFitness",
@@ -26488,7 +26488,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-23T13:36:48Z",
+      "last_commit_date": "2026-05-04T07:47:48Z",
       "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
@@ -26509,8 +26509,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-20T09:26:04Z",
-      "days_since_commit": 4,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 15,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "trulens",
@@ -26528,8 +26528,8 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-23T14:31:34Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-04T16:56:40Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -26548,8 +26548,8 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-23T21:59:25Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-04T23:24:15Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -26569,8 +26569,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-17T08:50:38Z",
-      "days_since_commit": 7,
-      "freshness": "🟢 Fresh"
+      "days_since_commit": 18,
+      "freshness": "🟡 Recent"
     },
     {
       "name": "metorial",
@@ -26586,7 +26586,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-04-24T20:16:03Z",
+      "last_commit_date": "2026-05-05T13:36:36Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -26607,8 +26607,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-03-26T10:21:36Z",
-      "days_since_commit": 29,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 40,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "godot-mcp",
@@ -26627,7 +26627,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-04-16T23:37:00Z",
-      "days_since_commit": 8,
+      "days_since_commit": 18,
       "freshness": "🟡 Recent"
     },
     {
@@ -26647,8 +26647,8 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2026-03-31T02:03:01Z",
-      "days_since_commit": 25,
-      "freshness": "🟡 Recent"
+      "days_since_commit": 35,
+      "freshness": "🟠 Aging"
     },
     {
       "name": "beeai-framework",
@@ -26666,7 +26666,7 @@
       "language": "Python",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-24T16:31:20Z",
+      "last_commit_date": "2026-05-05T12:21:24Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -26683,8 +26683,8 @@
       "language": "Python",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-04-24T20:34:14Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-05-04T04:59:19Z",
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -26703,7 +26703,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-04-24T23:43:31Z",
+      "last_commit_date": "2026-05-05T13:08:03Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -26721,8 +26721,8 @@
       "language": "Python",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-04-24T19:25:01Z",
-      "days_since_commit": 0,
+      "last_commit_date": "2026-04-30T12:28:33Z",
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -27474,9 +27474,9 @@
       "language": "Python",
       "added_date": "2026-04-16",
       "verified": true,
-      "freshness": "🟠 Aging",
-      "last_commit_date": "2026-03-14T21:20:37Z",
-      "days_since_commit": 51
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T13:06:20Z",
+      "days_since_commit": 0
     },
     {
       "name": "imgclsmob",
@@ -33960,7 +33960,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-05T06:55:08Z",
+      "last_commit_date": "2026-05-05T12:07:21Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -34837,9 +34837,9 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-03-14T21:20:37Z",
-      "days_since_commit": 51,
-      "freshness": "🟠 Aging"
+      "last_commit_date": "2026-05-05T13:06:20Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "mcp-brasil",
@@ -54933,8 +54933,8 @@
       "added_date": "2026-04-27",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-03T13:58:42Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-04-30T00:54:53Z",
+      "days_since_commit": 5
     },
     {
       "name": "hackingtool",
@@ -55053,7 +55053,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T19:18:10Z",
+      "last_commit_date": "2026-05-05T13:15:28Z",
       "days_since_commit": 0
     },
     {
@@ -55076,7 +55076,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T18:31:33Z",
+      "last_commit_date": "2026-05-05T12:51:46Z",
       "days_since_commit": 0
     },
     {
@@ -55116,7 +55116,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T19:08:08Z",
+      "last_commit_date": "2026-05-04T22:14:32Z",
       "days_since_commit": 0
     },
     {
