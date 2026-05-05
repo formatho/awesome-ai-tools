@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-04T18:50:48.357Z",
-    "total_tools": 2675,
+    "last_updated": "2026-05-05T00:52:42.730Z",
+    "total_tools": 2679,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,100 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-04T20:02:35Z",
-    "last_discovery": "2026-05-04T18:50:48.357Z"
+    "last_discovery": "2026-05-05T00:52:42.731Z"
   },
   "tools": [
+    {
+      "name": "modular",
+      "url": "https://github.com/modular/modular",
+      "description": "The Modular Platform (includes MAX & Mojo) - A unified platform for AI development with the Mojo programming language and MAX inference engine",
+      "category": "Developer Tools",
+      "tags": [
+        "mojo",
+        "programming-language",
+        "machine-learning",
+        "ai-platform",
+        "inference",
+        "max"
+      ],
+      "pricing": "Open Source",
+      "stars": 25931,
+      "language": "Mojo",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T22:06:27Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility and extraction. Open-source solution for parsing PDFs into structured formats for AI applications",
+      "category": "Research & Data",
+      "tags": [
+        "pdf",
+        "parser",
+        "ocr",
+        "document-extraction",
+        "rag",
+        "ai-ready",
+        "accessibility"
+      ],
+      "pricing": "Open Source",
+      "stars": 20168,
+      "language": "Java",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T00:47:51Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "description": "Structured Outputs - A library for controlling text generation with structured outputs like JSON, regex, and CFG for LLMs",
+      "category": "Developer Tools",
+      "tags": [
+        "structured-generation",
+        "llm",
+        "prompt-engineering",
+        "json",
+        "regex",
+        "cfg",
+        "python"
+      ],
+      "pricing": "Open Source",
+      "stars": 13784,
+      "language": "Python",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T21:29:23Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "evidently",
+      "url": "https://github.com/evidentlyai/evidently",
+      "description": "Evidently is an open-source ML and LLM observability framework. Evaluate, test, and monitor any AI-powered system or data pipeline with 100+ metrics",
+      "category": "Research & Data",
+      "tags": [
+        "monitoring",
+        "llmops",
+        "mlops",
+        "model-evaluation",
+        "data-quality",
+        "observability",
+        "testing"
+      ],
+      "pricing": "Open Source",
+      "stars": 7447,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-05",
+      "verified": false,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T09:17:53Z",
+      "days_since_commit": 0
+    },
     {
       "name": "awesome-artificial-intelligence",
       "url": "https://github.com/owainlewis/awesome-artificial-intelligence",
