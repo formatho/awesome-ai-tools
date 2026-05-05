@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-05T00:52:42.730Z",
-    "total_tools": 2679,
+    "last_updated": "2026-05-05T06:49:59.323Z",
+    "total_tools": 2682,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,7 +15,7 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-05T02:47:15Z",
-    "last_discovery": "2026-05-05T00:52:42.731Z"
+    "last_discovery": "2026-05-05T06:49:59.323Z"
   },
   "tools": [
     {
@@ -55335,6 +55335,51 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-01T17:24:35Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "StabilityMatrix",
+      "url": "https://github.com/LykosAI/StabilityMatrix",
+      "description": "Multi-Platform Package Manager for Stable Diffusion",
+      "category": "Image Generation",
+      "tags": "[\"diffusion\",\"c#\"]",
+      "pricing": "Free",
+      "stars": 8107,
+      "language": "C#",
+      "added_date": "2026-05-05",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T03:40:16Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "fish-speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
+      "category": "Audio & Music",
+      "tags": "[\"python\"]",
+      "pricing": "Free",
+      "stars": 30076,
+      "language": "Python",
+      "added_date": "2026-05-05",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T05:10:33Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "vit-pytorch",
+      "url": "https://github.com/lucidrains/vit-pytorch",
+      "description": "Implementation of Vision Transformer, a simple way to achieve SOTA in vision classification with only a single transformer encoder, in Pytorch",
+      "category": "Developer Tools",
+      "tags": "[\"code\",\"transformer\",\"python\"]",
+      "pricing": "Free",
+      "stars": 25140,
+      "language": "Python",
+      "added_date": "2026-05-05",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-05T04:06:05Z",
       "days_since_commit": 0
     }
   ]
