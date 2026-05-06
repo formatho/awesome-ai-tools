@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-06T12:53:01.713Z",
-    "total_tools": 2741,
+    "last_updated": "2026-05-06T18:53:51.204Z",
+    "total_tools": 2744,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -14,213 +14,10 @@
       "Agents & Automation",
       "Open Source Models"
     ],
-    "last_freshness_check": "2026-05-06T09:03:15Z",
-    "last_discovery": "2026-05-06T12:53:01.713Z"
+    "last_freshness_check": "2026-05-06T14:20:14Z",
+    "last_discovery": "2026-05-06T18:53:51.205Z"
   },
   "tools": [
-    {
-      "name": "banana-slides",
-      "url": "https://github.com/Anionex/banana-slides",
-      "description": "一个基于nano banana pro🍌的原生AI PPT生成应用，迈向真正的＂Vibe PPT＂; 支持上传任意模板图片；上传任意素材&智能解析；一句话/大纲/页面描述自动生成PPT；口头修改指定区域、一键导出可编辑ppt - An AI-native slides generator based on nano banana pro🍌",
-      "category": "Image Generation",
-      "tags": [
-        "ai-ppt-maker",
-        "ai-slide-builder",
-        "ai-slides",
-        "document-recognition",
-        "editable-pptx",
-        "llm",
-        "nanobananapro",
-        "ppt",
-        "ppt-generator",
-        "slides"
-      ],
-      "pricing": "Free",
-      "stars": 14367,
-      "language": "Python",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:14:05Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "waoowaoo",
-      "url": "https://github.com/waooAI/waoowaoo",
-      "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai-agent",
-        "ai-agents",
-        "automation",
-        "film-production",
-        "generative-ai",
-        "short-drama",
-        "storyboard",
-        "video-generation"
-      ],
-      "pricing": "Free",
-      "stars": 12028,
-      "language": "TypeScript",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:46:05Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "chef",
-      "url": "https://github.com/chef/chef",
-      "description": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale",
-      "category": "Agents & Automation",
-      "tags": [
-        "automation",
-        "cfgmgt",
-        "chef",
-        "deployment",
-        "devops",
-        "hacktoberfest",
-        "infrastructure"
-      ],
-      "pricing": "Free",
-      "stars": 8171,
-      "language": "Ruby",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T10:31:07Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "HuLa",
-      "url": "https://github.com/HuLaSpark/HuLa",
-      "description": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Win",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "chatbot",
-        "cross-platform",
-        "cross-platform-app",
-        "macos",
-        "mobile",
-        "rust",
-        "tauri",
-        "tsx",
-        "vue3",
-        "webview"
-      ],
-      "pricing": "Free",
-      "stars": 7279,
-      "language": "Vue",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:42:25Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "vespa",
-      "url": "https://github.com/vespa-engine/vespa",
-      "description": "AI + Data, online. https://vespa.ai",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "big-data",
-        "java",
-        "machine-learning",
-        "rag",
-        "search",
-        "search-engine",
-        "server",
-        "serving-recommendation",
-        "tensor"
-      ],
-      "pricing": "Free",
-      "stars": 6908,
-      "language": "Java",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:18:42Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai-agent",
-        "algorithmic-trading",
-        "backtesting",
-        "fintech",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "python",
-        "quantitative-finance",
-        "trading"
-      ],
-      "pricing": "Free",
-      "stars": 5230,
-      "language": "Python",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:50:30Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "openagent",
-      "url": "https://github.com/the-open-agent/openagent",
-      "description": "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "a2a",
-        "agent",
-        "agentic",
-        "agentic-ai",
-        "agi",
-        "chatbot",
-        "chatgpt",
-        "gpt",
-        "harness",
-        "knowledge-base"
-      ],
-      "pricing": "Free",
-      "stars": 4546,
-      "language": "Go",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:39:24Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "App-Store-Connect-CLI",
-      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
-      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
-      "category": "Agents & Automation",
-      "tags": [
-        "app-store-connect",
-        "apple",
-        "automation",
-        "cicd",
-        "cli",
-        "command-line-tool",
-        "developer-tools",
-        "devops",
-        "go",
-        "golang"
-      ],
-      "pricing": "Free",
-      "stars": 4250,
-      "language": "Go",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T11:15:49Z",
-      "days_since_commit": 0
-    },
     {
       "name": "free-programming-books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
@@ -240,7 +37,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-05T13:27:47Z",
-      "days_since_commit": 0
+      "days_since_commit": 1
     },
     {
       "name": "openclaw",
@@ -255,7 +52,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:04:21Z",
+      "last_commit_date": "2026-05-06T13:29:08Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -278,7 +75,7 @@
       "language": "C++",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:06:19Z",
+      "last_commit_date": "2026-05-06T13:26:59Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -300,7 +97,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T08:07:38Z",
+      "last_commit_date": "2026-05-06T13:29:56Z",
       "days_since_commit": 0
     },
     {
@@ -321,7 +118,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T07:00:59Z",
+      "last_commit_date": "2026-05-06T13:26:45Z",
       "days_since_commit": 0
     },
     {
@@ -338,7 +135,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:07:38Z",
+      "last_commit_date": "2026-05-06T13:29:56Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -359,7 +156,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T07:00:59Z",
+      "last_commit_date": "2026-05-06T13:26:45Z",
       "days_since_commit": 0
     },
     {
@@ -378,7 +175,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:00:59Z",
+      "last_commit_date": "2026-05-06T13:26:45Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -442,7 +239,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T00:46:48Z",
+      "last_commit_date": "2026-05-06T09:16:16Z",
       "days_since_commit": 0
     },
     {
@@ -461,7 +258,7 @@
       "language": "Go",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T00:46:48Z",
+      "last_commit_date": "2026-05-06T09:16:16Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -544,7 +341,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T08:06:07Z",
+      "last_commit_date": "2026-05-06T13:25:44Z",
       "days_since_commit": 0
     },
     {
@@ -625,7 +422,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:06:07Z",
+      "last_commit_date": "2026-05-06T13:25:44Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -721,7 +518,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T08:07:27Z",
+      "last_commit_date": "2026-05-06T13:01:42Z",
       "days_since_commit": 0
     },
     {
@@ -760,7 +557,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T04:53:03Z",
+      "last_commit_date": "2026-05-06T13:25:52Z",
       "days_since_commit": 0
     },
     {
@@ -780,7 +577,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T04:53:03Z",
+      "last_commit_date": "2026-05-06T13:25:52Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -799,7 +596,7 @@
       "added_date": "2026-04-12T13:23:45.457176",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T08:07:27Z",
+      "last_commit_date": "2026-05-06T13:01:42Z",
       "days_since_commit": 0
     },
     {
@@ -820,7 +617,7 @@
       "added_date": "2026-04-30",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T08:04:11Z",
+      "last_commit_date": "2026-05-06T13:11:26Z",
       "days_since_commit": 0
     },
     {
@@ -840,7 +637,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:04:11Z",
+      "last_commit_date": "2026-05-06T13:11:26Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -980,7 +777,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T05:33:48Z",
+      "last_commit_date": "2026-05-06T12:44:38Z",
       "days_since_commit": 0
     },
     {
@@ -1039,7 +836,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T05:22:48Z",
+      "last_commit_date": "2026-05-06T10:03:51Z",
       "days_since_commit": 0
     },
     {
@@ -1064,7 +861,7 @@
       "language": "Python",
       "added_date": "2026-04-22",
       "verified": true,
-      "last_commit_date": "2026-05-06T05:33:48Z",
+      "last_commit_date": "2026-05-06T12:44:38Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1082,7 +879,7 @@
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-30T09:47:28Z",
-      "days_since_commit": 5,
+      "days_since_commit": 6,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1102,7 +899,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T05:22:48Z",
+      "last_commit_date": "2026-05-06T10:03:51Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1121,7 +918,7 @@
       "added_date": "2026-04-12T13:23:50.154442",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T07:03:54Z",
+      "last_commit_date": "2026-05-06T13:11:27Z",
       "days_since_commit": 0
     },
     {
@@ -1183,7 +980,7 @@
       "language": "C++",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:41:14Z",
+      "last_commit_date": "2026-05-06T12:56:16Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1236,7 +1033,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:03:57Z",
+      "last_commit_date": "2026-05-06T13:31:13Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1440,7 +1237,7 @@
       "language": "C++",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:05:02Z",
+      "last_commit_date": "2026-05-06T13:25:03Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1457,7 +1254,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-06T06:34:09Z",
+      "last_commit_date": "2026-05-06T12:19:12Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1475,8 +1272,8 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-05T07:31:44Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-06T13:30:40Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -1522,7 +1319,7 @@
       "language": "Python",
       "added_date": "2026-04-04",
       "verified": true,
-      "last_commit_date": "2026-05-06T05:33:48Z",
+      "last_commit_date": "2026-05-06T12:44:38Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1545,6 +1342,26 @@
       "last_commit_date": "2026-05-02T16:08:17Z",
       "days_since_commit": 3,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "category": "Developer Tools",
+      "tags": [
+        "gpui",
+        "rust-lang",
+        "text-editor",
+        "zed"
+      ],
+      "pricing": "Free",
+      "stars": 81965,
+      "language": "Rust",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T18:52:48Z",
+      "days_since_commit": 0
     },
     {
       "name": "sherlock",
@@ -1673,7 +1490,7 @@
       "language": "C",
       "added_date": "2026-04-12",
       "verified": true,
-      "last_commit_date": "2026-05-06T00:33:52Z",
+      "last_commit_date": "2026-05-06T10:07:28Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1694,7 +1511,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-02-05T13:09:26Z",
-      "days_since_commit": 89,
+      "days_since_commit": 90,
       "freshness": "🟠 Aging"
     },
     {
@@ -1714,7 +1531,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:19:38Z",
+      "last_commit_date": "2026-05-06T13:10:36Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1756,7 +1573,7 @@
       "added_date": "2026-04-20",
       "verified": true,
       "last_commit_date": "2024-07-30T09:32:19Z",
-      "days_since_commit": 644,
+      "days_since_commit": 645,
       "freshness": "🔴 Stale"
     },
     {
@@ -1775,7 +1592,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:00:56Z",
+      "last_commit_date": "2026-05-06T13:16:25Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1810,7 +1627,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:06:40Z",
+      "last_commit_date": "2026-05-06T13:30:47Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1827,7 +1644,7 @@
       "language": "Rust",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:05:15Z",
+      "last_commit_date": "2026-05-06T13:32:04Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1911,7 +1728,7 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-06T00:26:18Z",
+      "last_commit_date": "2026-05-06T12:54:16Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -1931,7 +1748,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-11",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:18:53Z",
+      "last_commit_date": "2026-05-06T13:16:13Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2010,7 +1827,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:52:55Z",
+      "last_commit_date": "2026-05-06T12:59:26Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2032,7 +1849,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-03T10:36:56Z",
-      "days_since_commit": 2
+      "days_since_commit": 3
     },
     {
       "name": "awesome-scalability",
@@ -2076,7 +1893,7 @@
       "added_date": "2026-04-17",
       "verified": true,
       "last_commit_date": "2026-01-25T12:33:10Z",
-      "days_since_commit": 100,
+      "days_since_commit": 101,
       "freshness": "🔴 Stale"
     },
     {
@@ -2096,7 +1913,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-05-03T10:36:56Z",
-      "days_since_commit": 2,
+      "days_since_commit": 3,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2178,7 +1995,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-01-21T10:12:33Z",
-      "days_since_commit": 104,
+      "days_since_commit": 105,
       "freshness": "🔴 Stale"
     },
     {
@@ -2298,7 +2115,7 @@
       "language": "Python",
       "added_date": "2026-04-19",
       "verified": true,
-      "last_commit_date": "2026-05-06T00:45:39Z",
+      "last_commit_date": "2026-05-06T13:18:07Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2388,7 +2205,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-05T06:41:44Z",
+      "last_commit_date": "2026-05-06T08:37:05Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2405,7 +2222,7 @@
       "language": "Python",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-05T05:31:17Z",
+      "last_commit_date": "2026-05-06T05:26:51Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2429,7 +2246,7 @@
       "added_date": "2026-04-17",
       "verified": true,
       "last_commit_date": "2026-05-04T07:36:10Z",
-      "days_since_commit": 1,
+      "days_since_commit": 2,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2475,7 +2292,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-06T01:48:31Z",
+      "last_commit_date": "2026-05-06T13:20:46Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2501,7 +2318,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-06T01:27:11Z",
+      "last_commit_date": "2026-05-06T10:35:11Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2522,7 +2339,7 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-05-05T15:17:43Z",
+      "last_commit_date": "2026-05-06T07:27:35Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2545,8 +2362,8 @@
       "language": "Python",
       "added_date": "2026-04-24",
       "verified": true,
-      "last_commit_date": "2026-05-03T20:14:33Z",
-      "days_since_commit": 2,
+      "last_commit_date": "2026-05-06T11:17:35Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2569,7 +2386,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-05-06T00:57:56Z",
+      "last_commit_date": "2026-05-06T08:30:25Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2589,7 +2406,7 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2026-01-07T11:59:38Z",
-      "days_since_commit": 118,
+      "days_since_commit": 119,
       "freshness": "🔴 Stale"
     },
     {
@@ -2610,7 +2427,7 @@
       "added_date": "2026-04-17",
       "verified": true,
       "last_commit_date": "2026-03-09T10:31:58Z",
-      "days_since_commit": 57,
+      "days_since_commit": 58,
       "freshness": "🟠 Aging"
     },
     {
@@ -2631,7 +2448,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T19:53:34Z",
+      "last_commit_date": "2026-05-06T13:21:19Z",
       "days_since_commit": 0
     },
     {
@@ -2671,7 +2488,7 @@
       "language": "Python",
       "added_date": "2026-04-10",
       "verified": true,
-      "last_commit_date": "2026-05-05T19:53:34Z",
+      "last_commit_date": "2026-05-06T13:21:19Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2687,7 +2504,7 @@
       "added_date": "2026-04-18",
       "verified": true,
       "last_commit_date": "2026-04-20T10:05:04Z",
-      "days_since_commit": 15,
+      "days_since_commit": 16,
       "freshness": "🟡 Recent"
     },
     {
@@ -2709,7 +2526,7 @@
       "verified": true,
       "freshness": "🟡 Recent",
       "last_commit_date": "2026-04-15T11:59:09Z",
-      "days_since_commit": 20
+      "days_since_commit": 21
     },
     {
       "name": "DeepLearning-500-questions",
@@ -2726,7 +2543,7 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2024-06-26T12:10:14Z",
-      "days_since_commit": 678,
+      "days_since_commit": 679,
       "freshness": "🔴 Stale"
     },
     {
@@ -2765,7 +2582,7 @@
       "added_date": "2026-04-23",
       "verified": true,
       "last_commit_date": "2026-02-26T09:56:49Z",
-      "days_since_commit": 68,
+      "days_since_commit": 69,
       "freshness": "🟠 Aging"
     },
     {
@@ -2784,7 +2601,7 @@
       "language": "Rust",
       "added_date": "2026-04-12",
       "verified": true,
-      "last_commit_date": "2026-05-05T13:24:24Z",
+      "last_commit_date": "2026-05-06T07:43:58Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2805,7 +2622,7 @@
       "added_date": "2026-04-02",
       "verified": true,
       "last_commit_date": "2026-04-15T11:59:09Z",
-      "days_since_commit": 20,
+      "days_since_commit": 21,
       "freshness": "🟡 Recent"
     },
     {
@@ -2825,7 +2642,7 @@
       "added_date": "2026-04-19",
       "verified": true,
       "last_commit_date": "2026-04-30T11:25:22Z",
-      "days_since_commit": 5,
+      "days_since_commit": 6,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2847,7 +2664,7 @@
       "added_date": "2026-04-24",
       "verified": true,
       "last_commit_date": "2026-04-30T07:01:46Z",
-      "days_since_commit": 5,
+      "days_since_commit": 6,
       "freshness": "🟢 Fresh"
     },
     {
@@ -2884,7 +2701,7 @@
       "added_date": "2026-04-20",
       "verified": true,
       "last_commit_date": "2024-08-21T06:22:36Z",
-      "days_since_commit": 622,
+      "days_since_commit": 623,
       "freshness": "🔴 Stale"
     },
     {
@@ -2906,7 +2723,7 @@
       "language": "Python",
       "added_date": "2026-04-17",
       "verified": true,
-      "last_commit_date": "2026-05-05T22:23:26Z",
+      "last_commit_date": "2026-05-06T12:27:02Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -2947,7 +2764,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-23",
       "verified": true,
-      "last_commit_date": "2026-05-06T01:57:27Z",
+      "last_commit_date": "2026-05-06T12:10:59Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3005,7 +2822,7 @@
       "added_date": "2026-04-10",
       "verified": true,
       "last_commit_date": "2025-05-14T10:15:10Z",
-      "days_since_commit": 356,
+      "days_since_commit": 357,
       "freshness": "🔴 Stale"
     },
     {
@@ -3027,7 +2844,7 @@
       "added_date": "2026-04-17",
       "verified": true,
       "last_commit_date": "2026-05-01T09:36:42Z",
-      "days_since_commit": 4,
+      "days_since_commit": 5,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3044,7 +2861,7 @@
       "language": "Go",
       "added_date": "2026-04-21",
       "verified": true,
-      "last_commit_date": "2026-05-05T19:55:20Z",
+      "last_commit_date": "2026-05-06T13:31:40Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3066,7 +2883,7 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T01:51:49Z",
+      "last_commit_date": "2026-05-06T13:17:05Z",
       "days_since_commit": 0
     },
     {
@@ -3089,7 +2906,7 @@
       "added_date": "2026-04-17",
       "verified": true,
       "last_commit_date": "2026-04-20T10:05:04Z",
-      "days_since_commit": 15,
+      "days_since_commit": 16,
       "freshness": "🟡 Recent"
     },
     {
@@ -3132,7 +2949,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-05-03T01:34:06Z",
+      "last_commit_date": "2026-05-06T10:58:55Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3152,8 +2969,8 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-30T22:29:23Z",
-      "days_since_commit": 2,
+      "last_commit_date": "2026-05-06T10:03:37Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3248,7 +3065,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-11",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:59:35Z",
+      "last_commit_date": "2026-05-06T09:43:59Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3308,7 +3125,7 @@
       "added_date": "2026-04-28",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T07:38:01Z",
+      "last_commit_date": "2026-05-06T13:11:07Z",
       "days_since_commit": 0
     },
     {
@@ -3327,7 +3144,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-02T12:02:47Z",
-      "days_since_commit": 3
+      "days_since_commit": 4
     },
     {
       "name": "huginn",
@@ -3343,7 +3160,7 @@
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-05-02T08:39:59Z",
-      "days_since_commit": 3,
+      "days_since_commit": 4,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3362,7 +3179,7 @@
       "language": "Python",
       "added_date": "2026-04-10",
       "verified": true,
-      "last_commit_date": "2026-05-06T06:23:08Z",
+      "last_commit_date": "2026-05-06T12:46:50Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3388,8 +3205,8 @@
       "language": "Python",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-05-04T22:31:14Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-06T10:21:37Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -3410,7 +3227,7 @@
       "added_date": "2026-04-27",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T23:50:52Z",
+      "last_commit_date": "2026-05-06T13:16:06Z",
       "days_since_commit": 0
     },
     {
@@ -3429,7 +3246,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-11",
       "verified": true,
-      "last_commit_date": "2026-05-06T06:38:03Z",
+      "last_commit_date": "2026-05-06T13:16:14Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3515,7 +3332,7 @@
       "language": "C++",
       "added_date": "2026-04-12",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:55:13Z",
+      "last_commit_date": "2026-05-06T13:30:56Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -3557,7 +3374,7 @@
       "added_date": "2026-04-12",
       "verified": true,
       "last_commit_date": "2026-04-24T10:39:56Z",
-      "days_since_commit": 11,
+      "days_since_commit": 12,
       "freshness": "🟡 Recent"
     },
     {
@@ -4290,7 +4107,7 @@
       "added_date": "2026-04-20",
       "verified": true,
       "last_commit_date": "2026-05-04T22:18:49Z",
-      "days_since_commit": 0,
+      "days_since_commit": 1,
       "freshness": "🟢 Fresh"
     },
     {
@@ -4310,7 +4127,7 @@
       "language": "Jupyter Notebook",
       "added_date": "2026-04-15",
       "verified": true,
-      "last_commit_date": "2026-05-05T05:03:57Z",
+      "last_commit_date": "2026-05-06T08:48:21Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4332,7 +4149,7 @@
       "verified": false,
       "freshness": "🔴 Stale",
       "last_commit_date": "2024-07-23T23:39:41Z",
-      "days_since_commit": 650
+      "days_since_commit": 651
     },
     {
       "name": "tidb",
@@ -4351,7 +4168,7 @@
       "language": "Go",
       "added_date": "2026-04-22",
       "verified": true,
-      "last_commit_date": "2026-05-06T06:26:30Z",
+      "last_commit_date": "2026-05-06T10:18:51Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4394,7 +4211,7 @@
       "language": "TypeScript",
       "added_date": "2026-04-03",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:20:59Z",
+      "last_commit_date": "2026-05-06T10:05:15Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4419,7 +4236,7 @@
       "language": "Go",
       "added_date": "2026-04-20",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:02:13Z",
+      "last_commit_date": "2026-05-06T13:08:29Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4442,7 +4259,7 @@
       "language": "Python",
       "added_date": "2026-04-15",
       "verified": true,
-      "last_commit_date": "2026-05-06T07:53:14Z",
+      "last_commit_date": "2026-05-06T13:26:40Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4460,7 +4277,7 @@
       "added_date": "2026-04-25",
       "verified": true,
       "last_commit_date": "2022-11-27T13:18:32Z",
-      "days_since_commit": 1255,
+      "days_since_commit": 1256,
       "freshness": "🔴 Stale"
     },
     {
@@ -4476,7 +4293,7 @@
       "verified": true,
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-05-01T00:25:53Z",
-      "days_since_commit": 4
+      "days_since_commit": 5
     },
     {
       "name": "chatbox",
@@ -4493,7 +4310,7 @@
       "added_date": "2026-04-03",
       "verified": true,
       "last_commit_date": "2026-04-09T03:24:43Z",
-      "days_since_commit": 26,
+      "days_since_commit": 27,
       "freshness": "🟡 Recent"
     },
     {
@@ -4510,7 +4327,7 @@
       "language": "Python",
       "added_date": "2026-04-10",
       "verified": true,
-      "last_commit_date": "2026-05-05T18:47:42Z",
+      "last_commit_date": "2026-05-06T13:31:23Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -4531,9 +4348,9 @@
       "language": "Python",
       "added_date": "2026-04-02",
       "verified": true,
-      "last_commit_date": "2026-04-24T17:12:20Z",
-      "days_since_commit": 11,
-      "freshness": "🟡 Recent"
+      "last_commit_date": "2026-05-06T06:49:25Z",
+      "days_since_commit": 0,
+      "freshness": "🟢 Fresh"
     },
     {
       "name": "quivr",
@@ -4551,7 +4368,7 @@
       "added_date": "2026-04-10",
       "verified": true,
       "last_commit_date": "2025-07-09T12:55:23Z",
-      "days_since_commit": 300,
+      "days_since_commit": 301,
       "freshness": "🔴 Stale"
     },
     {
@@ -6990,6 +6807,21 @@
       "last_commit_date": "2026-04-17T22:16:25Z",
       "days_since_commit": 2,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "zapret-discord-youtube",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "description": "",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 27452,
+      "language": "Batchfile",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T15:52:14Z",
+      "days_since_commit": 0
     },
     {
       "name": "vagrant",
@@ -12241,6 +12073,35 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "docuseal",
+      "url": "https://github.com/docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "category": "Developer Tools",
+      "tags": [
+        "document-signing",
+        "documents",
+        "e-signature",
+        "hotwired-turbo",
+        "open-source",
+        "pdf",
+        "pdf-sign",
+        "pdf-signature",
+        "ruby-on-rails",
+        "self-hosted",
+        "tailwindcss",
+        "vue",
+        "webpack"
+      ],
+      "pricing": "Free",
+      "stars": 14700,
+      "language": "Ruby",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T11:33:08Z",
+      "days_since_commit": 2
+    },
+    {
       "name": "the-gan-zoo",
       "url": "https://github.com/hindupuravinash/the-gan-zoo",
       "description": "A list of all named GANs!",
@@ -12549,6 +12410,32 @@
       "last_commit_date": "2025-10-27T18:11:31Z",
       "days_since_commit": 187,
       "freshness": "🔴 Stale"
+    },
+    {
+      "name": "banana-slides",
+      "url": "https://github.com/Anionex/banana-slides",
+      "description": "一个基于nano banana pro🍌的原生AI PPT生成应用，迈向真正的＂Vibe PPT＂; 支持上传任意模板图片；上传任意素材&智能解析；一句话/大纲/页面描述自动生成PPT；口头修改指定区域、一键导出可编辑ppt - An AI-native slides generator based on nano banana pro🍌",
+      "category": "Image Generation",
+      "tags": [
+        "ai-ppt-maker",
+        "ai-slide-builder",
+        "ai-slides",
+        "document-recognition",
+        "editable-pptx",
+        "llm",
+        "nanobananapro",
+        "ppt",
+        "ppt-generator",
+        "slides"
+      ],
+      "pricing": "Free",
+      "stars": 14367,
+      "language": "Python",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T12:13:56Z",
+      "days_since_commit": 0
     },
     {
       "name": "FinceptTerminal",
@@ -14117,7 +14004,7 @@
       "language": "Go",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-06T08:07:27Z",
+      "last_commit_date": "2026-05-06T13:01:42Z",
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
@@ -14230,6 +14117,30 @@
       "freshness": "🟡 Recent"
     },
     {
+      "name": "waoowaoo",
+      "url": "https://github.com/waooAI/waoowaoo",
+      "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai-agent",
+        "ai-agents",
+        "automation",
+        "film-production",
+        "generative-ai",
+        "short-drama",
+        "storyboard",
+        "video-generation"
+      ],
+      "pricing": "Free",
+      "stars": 12028,
+      "language": "TypeScript",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T10:55:49Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "nofx",
       "url": "https://github.com/NoFxAiOS/nofx",
       "description": "Your personal AI trading assistant. Any market. Any model. Pay with USDC, not API keys.",
@@ -14292,8 +14203,8 @@
       "added_date": "2026-05-05",
       "verified": false,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-04T08:55:27Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-05-06T10:55:49Z",
+      "days_since_commit": 0
     },
     {
       "name": "chainlit",
@@ -18385,6 +18296,29 @@
       "days_since_commit": 4
     },
     {
+      "name": "chef",
+      "url": "https://github.com/chef/chef",
+      "description": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale",
+      "category": "Agents & Automation",
+      "tags": [
+        "automation",
+        "cfgmgt",
+        "chef",
+        "deployment",
+        "devops",
+        "hacktoberfest",
+        "infrastructure"
+      ],
+      "pricing": "Free",
+      "stars": 8171,
+      "language": "Ruby",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T13:04:26Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "umap",
       "url": "https://github.com/lmcinnes/umap",
       "description": "Uniform Manifold Approximation and Projection",
@@ -19613,6 +19547,32 @@
       "freshness": "🟡 Recent"
     },
     {
+      "name": "HuLa",
+      "url": "https://github.com/HuLaSpark/HuLa",
+      "description": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Win",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "chatbot",
+        "cross-platform",
+        "cross-platform-app",
+        "macos",
+        "mobile",
+        "rust",
+        "tauri",
+        "tsx",
+        "vue3",
+        "webview"
+      ],
+      "pricing": "Free",
+      "stars": 7279,
+      "language": "Vue",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T05:59:20Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "vectorbt",
       "url": "https://github.com/polakowo/vectorbt",
       "description": "The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.",
@@ -20233,6 +20193,32 @@
       "last_commit_date": null,
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "vespa",
+      "url": "https://github.com/vespa-engine/vespa",
+      "description": "AI + Data, online. https://vespa.ai",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "big-data",
+        "java",
+        "machine-learning",
+        "rag",
+        "search",
+        "search-engine",
+        "server",
+        "serving-recommendation",
+        "tensor"
+      ],
+      "pricing": "Free",
+      "stars": 6908,
+      "language": "Java",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T12:39:21Z",
+      "days_since_commit": 0
     },
     {
       "name": "steel-browser",
@@ -23457,6 +23443,32 @@
       "freshness": "🔴 Stale"
     },
     {
+      "name": "Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ],
+      "pricing": "Free",
+      "stars": 5230,
+      "language": "Python",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T12:31:11Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "AutoSploit",
       "url": "https://github.com/NullArray/AutoSploit",
       "description": "Automated Mass Exploiter",
@@ -25582,6 +25594,32 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "openagent",
+      "url": "https://github.com/the-open-agent/openagent",
+      "description": "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "a2a",
+        "agent",
+        "agentic",
+        "agentic-ai",
+        "agi",
+        "chatbot",
+        "chatgpt",
+        "gpt",
+        "harness",
+        "knowledge-base"
+      ],
+      "pricing": "Free",
+      "stars": 4546,
+      "language": "Go",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T06:41:29Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "vscode-antigravity-cockpit",
       "url": "https://github.com/jlcodes99/vscode-antigravity-cockpit",
       "description": "VS Code extension for monitoring Google Antigravity AI quotas. Features Webview dashboard, QuickPick mode, and quota grouping.",
@@ -26373,6 +26411,32 @@
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-09-03T13:10:21Z",
       "days_since_commit": 244
+    },
+    {
+      "name": "App-Store-Connect-CLI",
+      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
+      "category": "Agents & Automation",
+      "tags": [
+        "app-store-connect",
+        "apple",
+        "automation",
+        "cicd",
+        "cli",
+        "command-line-tool",
+        "developer-tools",
+        "devops",
+        "go",
+        "golang"
+      ],
+      "pricing": "Free",
+      "stars": 4250,
+      "language": "Go",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T12:00:42Z",
+      "days_since_commit": 0
     },
     {
       "name": "AnyDoor",
@@ -28344,8 +28408,8 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-05T07:31:44Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-06T13:30:40Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
@@ -31174,8 +31238,8 @@
       "added_date": "2026-04-16",
       "verified": true,
       "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-05T07:31:44Z",
-      "days_since_commit": 1
+      "last_commit_date": "2026-05-06T13:30:40Z",
+      "days_since_commit": 0
     },
     {
       "name": "imgclsmob",
@@ -41326,8 +41390,8 @@
       "language": "TypeScript",
       "added_date": "2026-04-25",
       "verified": true,
-      "last_commit_date": "2026-05-05T07:31:44Z",
-      "days_since_commit": 1,
+      "last_commit_date": "2026-05-06T13:30:40Z",
+      "days_since_commit": 0,
       "freshness": "🟢 Fresh"
     },
     {
