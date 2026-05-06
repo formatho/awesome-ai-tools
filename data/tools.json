@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-06T12:53:01.713Z",
-    "total_tools": 2741,
+    "last_updated": "2026-05-06T18:53:51.204Z",
+    "total_tools": 2744,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,212 +15,9 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-06T14:20:14Z",
-    "last_discovery": "2026-05-06T12:53:01.713Z"
+    "last_discovery": "2026-05-06T18:53:51.205Z"
   },
   "tools": [
-    {
-      "name": "banana-slides",
-      "url": "https://github.com/Anionex/banana-slides",
-      "description": "一个基于nano banana pro🍌的原生AI PPT生成应用，迈向真正的＂Vibe PPT＂; 支持上传任意模板图片；上传任意素材&智能解析；一句话/大纲/页面描述自动生成PPT；口头修改指定区域、一键导出可编辑ppt - An AI-native slides generator based on nano banana pro🍌",
-      "category": "Image Generation",
-      "tags": [
-        "ai-ppt-maker",
-        "ai-slide-builder",
-        "ai-slides",
-        "document-recognition",
-        "editable-pptx",
-        "llm",
-        "nanobananapro",
-        "ppt",
-        "ppt-generator",
-        "slides"
-      ],
-      "pricing": "Free",
-      "stars": 14367,
-      "language": "Python",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:13:56Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "waoowaoo",
-      "url": "https://github.com/waooAI/waoowaoo",
-      "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai-agent",
-        "ai-agents",
-        "automation",
-        "film-production",
-        "generative-ai",
-        "short-drama",
-        "storyboard",
-        "video-generation"
-      ],
-      "pricing": "Free",
-      "stars": 12028,
-      "language": "TypeScript",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T10:55:49Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "chef",
-      "url": "https://github.com/chef/chef",
-      "description": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale",
-      "category": "Agents & Automation",
-      "tags": [
-        "automation",
-        "cfgmgt",
-        "chef",
-        "deployment",
-        "devops",
-        "hacktoberfest",
-        "infrastructure"
-      ],
-      "pricing": "Free",
-      "stars": 8171,
-      "language": "Ruby",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T13:04:26Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "HuLa",
-      "url": "https://github.com/HuLaSpark/HuLa",
-      "description": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Win",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "chatbot",
-        "cross-platform",
-        "cross-platform-app",
-        "macos",
-        "mobile",
-        "rust",
-        "tauri",
-        "tsx",
-        "vue3",
-        "webview"
-      ],
-      "pricing": "Free",
-      "stars": 7279,
-      "language": "Vue",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T05:59:20Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "vespa",
-      "url": "https://github.com/vespa-engine/vespa",
-      "description": "AI + Data, online. https://vespa.ai",
-      "category": "Agents & Automation",
-      "tags": [
-        "ai",
-        "big-data",
-        "java",
-        "machine-learning",
-        "rag",
-        "search",
-        "search-engine",
-        "server",
-        "serving-recommendation",
-        "tensor"
-      ],
-      "pricing": "Free",
-      "stars": 6908,
-      "language": "Java",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:39:21Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "ai-agent",
-        "algorithmic-trading",
-        "backtesting",
-        "fintech",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "python",
-        "quantitative-finance",
-        "trading"
-      ],
-      "pricing": "Free",
-      "stars": 5230,
-      "language": "Python",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:31:11Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "openagent",
-      "url": "https://github.com/the-open-agent/openagent",
-      "description": "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
-      "category": "LLMs & Chatbots",
-      "tags": [
-        "a2a",
-        "agent",
-        "agentic",
-        "agentic-ai",
-        "agi",
-        "chatbot",
-        "chatgpt",
-        "gpt",
-        "harness",
-        "knowledge-base"
-      ],
-      "pricing": "Free",
-      "stars": 4546,
-      "language": "Go",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T06:41:29Z",
-      "days_since_commit": 0
-    },
-    {
-      "name": "App-Store-Connect-CLI",
-      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
-      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
-      "category": "Agents & Automation",
-      "tags": [
-        "app-store-connect",
-        "apple",
-        "automation",
-        "cicd",
-        "cli",
-        "command-line-tool",
-        "developer-tools",
-        "devops",
-        "go",
-        "golang"
-      ],
-      "pricing": "Free",
-      "stars": 4250,
-      "language": "Go",
-      "added_date": "2026-05-06",
-      "verified": true,
-      "freshness": "🟢 Fresh",
-      "last_commit_date": "2026-05-06T12:00:42Z",
-      "days_since_commit": 0
-    },
     {
       "name": "free-programming-books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
@@ -1545,6 +1342,26 @@
       "last_commit_date": "2026-05-02T16:08:17Z",
       "days_since_commit": 3,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "category": "Developer Tools",
+      "tags": [
+        "gpui",
+        "rust-lang",
+        "text-editor",
+        "zed"
+      ],
+      "pricing": "Free",
+      "stars": 81965,
+      "language": "Rust",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T18:52:48Z",
+      "days_since_commit": 0
     },
     {
       "name": "sherlock",
@@ -6992,6 +6809,21 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "zapret-discord-youtube",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "description": "",
+      "category": "Developer Tools",
+      "tags": [],
+      "pricing": "Free",
+      "stars": 27452,
+      "language": "Batchfile",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T15:52:14Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "vagrant",
       "url": "https://github.com/hashicorp/vagrant",
       "description": "Vagrant is a tool for building and distributing development environments.",
@@ -12241,6 +12073,35 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "docuseal",
+      "url": "https://github.com/docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "category": "Developer Tools",
+      "tags": [
+        "document-signing",
+        "documents",
+        "e-signature",
+        "hotwired-turbo",
+        "open-source",
+        "pdf",
+        "pdf-sign",
+        "pdf-signature",
+        "ruby-on-rails",
+        "self-hosted",
+        "tailwindcss",
+        "vue",
+        "webpack"
+      ],
+      "pricing": "Free",
+      "stars": 14700,
+      "language": "Ruby",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-04T11:33:08Z",
+      "days_since_commit": 2
+    },
+    {
       "name": "the-gan-zoo",
       "url": "https://github.com/hindupuravinash/the-gan-zoo",
       "description": "A list of all named GANs!",
@@ -12549,6 +12410,32 @@
       "last_commit_date": "2025-10-27T18:11:31Z",
       "days_since_commit": 187,
       "freshness": "🔴 Stale"
+    },
+    {
+      "name": "banana-slides",
+      "url": "https://github.com/Anionex/banana-slides",
+      "description": "一个基于nano banana pro🍌的原生AI PPT生成应用，迈向真正的＂Vibe PPT＂; 支持上传任意模板图片；上传任意素材&智能解析；一句话/大纲/页面描述自动生成PPT；口头修改指定区域、一键导出可编辑ppt - An AI-native slides generator based on nano banana pro🍌",
+      "category": "Image Generation",
+      "tags": [
+        "ai-ppt-maker",
+        "ai-slide-builder",
+        "ai-slides",
+        "document-recognition",
+        "editable-pptx",
+        "llm",
+        "nanobananapro",
+        "ppt",
+        "ppt-generator",
+        "slides"
+      ],
+      "pricing": "Free",
+      "stars": 14367,
+      "language": "Python",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T12:13:56Z",
+      "days_since_commit": 0
     },
     {
       "name": "FinceptTerminal",
@@ -14228,6 +14115,30 @@
       "last_commit_date": "2024-05-29T04:48:27Z",
       "days_since_commit": 696,
       "freshness": "🟡 Recent"
+    },
+    {
+      "name": "waoowaoo",
+      "url": "https://github.com/waooAI/waoowaoo",
+      "description": "首家工业级全流程 AI 影视生产平台。Industry-first professional AI Agent platform for controllable film & video production. From shorts to live-action with Hollywood-standard workflows.",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai-agent",
+        "ai-agents",
+        "automation",
+        "film-production",
+        "generative-ai",
+        "short-drama",
+        "storyboard",
+        "video-generation"
+      ],
+      "pricing": "Free",
+      "stars": 12028,
+      "language": "TypeScript",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T10:55:49Z",
+      "days_since_commit": 0
     },
     {
       "name": "nofx",
@@ -18385,6 +18296,29 @@
       "days_since_commit": 4
     },
     {
+      "name": "chef",
+      "url": "https://github.com/chef/chef",
+      "description": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale",
+      "category": "Agents & Automation",
+      "tags": [
+        "automation",
+        "cfgmgt",
+        "chef",
+        "deployment",
+        "devops",
+        "hacktoberfest",
+        "infrastructure"
+      ],
+      "pricing": "Free",
+      "stars": 8171,
+      "language": "Ruby",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T13:04:26Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "umap",
       "url": "https://github.com/lmcinnes/umap",
       "description": "Uniform Manifold Approximation and Projection",
@@ -19613,6 +19547,32 @@
       "freshness": "🟡 Recent"
     },
     {
+      "name": "HuLa",
+      "url": "https://github.com/HuLaSpark/HuLa",
+      "description": "🍀 A cross-platform instant messaging desktop application with exceptional performance built on Rust + Vue3, compatible with Windows, macOS, Linux, Android, and iOS（一款基于Rust+Vue3极致性能的跨平台即时通讯桌面应用，兼容Win",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "chatbot",
+        "cross-platform",
+        "cross-platform-app",
+        "macos",
+        "mobile",
+        "rust",
+        "tauri",
+        "tsx",
+        "vue3",
+        "webview"
+      ],
+      "pricing": "Free",
+      "stars": 7279,
+      "language": "Vue",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T05:59:20Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "vectorbt",
       "url": "https://github.com/polakowo/vectorbt",
       "description": "The backtesting engine that gives you an unfair advantage. Run thousands of trading ideas before others finish one.",
@@ -20233,6 +20193,32 @@
       "last_commit_date": null,
       "days_since_commit": 0,
       "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "vespa",
+      "url": "https://github.com/vespa-engine/vespa",
+      "description": "AI + Data, online. https://vespa.ai",
+      "category": "Agents & Automation",
+      "tags": [
+        "ai",
+        "big-data",
+        "java",
+        "machine-learning",
+        "rag",
+        "search",
+        "search-engine",
+        "server",
+        "serving-recommendation",
+        "tensor"
+      ],
+      "pricing": "Free",
+      "stars": 6908,
+      "language": "Java",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T12:39:21Z",
+      "days_since_commit": 0
     },
     {
       "name": "steel-browser",
@@ -23457,6 +23443,32 @@
       "freshness": "🔴 Stale"
     },
     {
+      "name": "Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ],
+      "pricing": "Free",
+      "stars": 5230,
+      "language": "Python",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T12:31:11Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "AutoSploit",
       "url": "https://github.com/NullArray/AutoSploit",
       "description": "Automated Mass Exploiter",
@@ -25582,6 +25594,32 @@
       "freshness": "🟢 Fresh"
     },
     {
+      "name": "openagent",
+      "url": "https://github.com/the-open-agent/openagent",
+      "description": "⚡️next-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "a2a",
+        "agent",
+        "agentic",
+        "agentic-ai",
+        "agi",
+        "chatbot",
+        "chatgpt",
+        "gpt",
+        "harness",
+        "knowledge-base"
+      ],
+      "pricing": "Free",
+      "stars": 4546,
+      "language": "Go",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T06:41:29Z",
+      "days_since_commit": 0
+    },
+    {
       "name": "vscode-antigravity-cockpit",
       "url": "https://github.com/jlcodes99/vscode-antigravity-cockpit",
       "description": "VS Code extension for monitoring Google Antigravity AI quotas. Features Webview dashboard, QuickPick mode, and quota grouping.",
@@ -26373,6 +26411,32 @@
       "freshness": "🔴 Stale",
       "last_commit_date": "2025-09-03T13:10:21Z",
       "days_since_commit": 244
+    },
+    {
+      "name": "App-Store-Connect-CLI",
+      "url": "https://github.com/rorkai/App-Store-Connect-CLI",
+      "description": "Fast, scriptable CLI for the App Store Connect API. Automate TestFlight, builds, submissions, signing, analytics, screenshots, subscriptions, and more. JSON-first, no interactive prompts",
+      "category": "Agents & Automation",
+      "tags": [
+        "app-store-connect",
+        "apple",
+        "automation",
+        "cicd",
+        "cli",
+        "command-line-tool",
+        "developer-tools",
+        "devops",
+        "go",
+        "golang"
+      ],
+      "pricing": "Free",
+      "stars": 4250,
+      "language": "Go",
+      "added_date": "2026-05-06",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-06T12:00:42Z",
+      "days_since_commit": 0
     },
     {
       "name": "AnyDoor",
