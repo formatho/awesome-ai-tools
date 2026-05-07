@@ -3,7 +3,7 @@
 > A continuously updated, curated list of high-quality AI tools and resources.
 
 [![Last Updated](https://img.shields.io/badge/Updated-2026-05-07-blue)](https://github.com/formatho/awesome-ai-tools)
-[![Total Tools](https://img.shields.io/badge/Tools-2750-green)](data/tools.json)
+[![Total Tools](https://img.shields.io/badge/Tools-2760-green)](data/tools.json)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 📋 Table of Contents
@@ -34,10 +34,10 @@
 | [agent-builder](https://github.com/strands-agents/agent-builder) | An example agent demonstrating streaming, tool use, and interactivity from your terminal. This agent builder can help you to build your own agents and tools. | Agents & Automation | 🟢 Fresh | May 7, 2026 |
 | [lionagi](https://github.com/khive-ai/lionagi) | AGI SDK | Agents & Automation | 🟢 Fresh | May 7, 2026 |
 | [quick-start-guide-to-llms](https://github.com/sinanuozdemir/quick-start-guide-to-llms) | The Official Repo for "Quick Start Guide to Large Language Models" | Research & Data | 🟢 Fresh | May 7, 2026 |
-| [zed](https://github.com/zed-industries/zed) | Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. | Developer Tools | 🟢 Fresh | May 6, 2026 |
-| [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) |  | Developer Tools | 🟢 Fresh | May 6, 2026 |
-| [docuseal](https://github.com/docusealco/docuseal) | Open source DocuSign alternative. Create, fill, and sign digital documents ✍️ | Developer Tools | 🟢 Fresh | May 6, 2026 |
-| [banana-slides](https://github.com/Anionex/banana-slides) | 一个基于nano banana pro🍌的原生AI PPT生成应用，迈向真正的＂Vibe PPT＂; 支持上传任意模板图片；上传任意素材&智能解析；一句话/大纲/页面描述自动生成PPT；口头修改指定区域、一键导出可编辑ppt - An AI-native slides generator based on nano banana pro🍌 | Image Generation | 🟢 Fresh | May 6, 2026 |
+| [VARAG](https://github.com/adithya-s-k/VARAG) | Vision-Augmented Retrieval and Generation (VARAG) - Vision first RAG Engine | Research & Data | 🟡 Recent | May 7, 2026 |
+| [ichigo](https://github.com/janhq/ichigo) | Local realtime voice AI | Audio & Music | 🟡 Recent | May 7, 2026 |
+| [RCLI](https://github.com/RunanywhereAI/RCLI) | Talk to your Mac, query your docs, no cloud required. On-device voice AI + RAG | Audio & Music | 🟡 Recent | May 7, 2026 |
+| [local-voice-ai](https://github.com/ShayneP/local-voice-ai) | Local voice AI powered by Ollama, Kokoro, Nemotron STT, and LiveKit. | Audio & Music | 🟡 Recent | May 7, 2026 |
 
 ---
 
@@ -865,6 +865,7 @@
 | [gTTS](https://github.com/pndurette/gTTS) | Python library and CLI tool to interface with Google Translate's text-to-speech API | `python` `api` `tool` | Free | 🟡 Recent | 2.6k |
 | [Scriberr](https://github.com/rishikanthc/Scriberr) | Self-hosted AI audio transcription | `Go` `ai` `audio` | Free | 🟢 Fresh | 2.6k |
 | [matchering](https://github.com/sergree/matchering) | 🎚️ Open Source Audio Matching and Mastering | `audio` `docker-image` `dsp` | Free | 🟡 Recent | 2.5k |
+| [ichigo](https://github.com/janhq/ichigo) | Local realtime voice AI | `voice` `ai` `realtime` | Free | 🟡 Recent | 2.5k |
 | [Qwen3-ASR](https://github.com/QwenLM/Qwen3-ASR) | Qwen3-ASR is an open-source series of ASR models developed by the Qwen team at Alibaba Cloud, supporting stable multilingual speech/music/song recognition, language detection and timestamp prediction. | `ai` | Free | 🔴 Stale | 2.4k |
 | [mkchromecast](https://github.com/muammar/mkchromecast) | Cast macOS and Linux Audio/Video to your Google Cast and Sonos Devices | `alsa` `audio` `cast-audio` | Free | 🟠 Aging | 2.3k |
 | [audiomentations](https://github.com/iver56/audiomentations) | A Python library for audio data augmentation. Useful for making audio ML models work well in the real world, not just in the lab. | `audio` `audio-data-augmentation` `audio-effects` | Free | 🟡 Recent | 2.3k |
@@ -891,6 +892,7 @@
 | [AudioMuse-AI](https://github.com/NeptuneHub/AudioMuse-AI) | AudioMuse-AI is a self-hosted, Dockerized music playlist generator using sonic analysis to discover related tracks for Jellyfin, Navidrome, LMS, Lyrion, and Emby: no metadata or external APIs needed. | `ai` `llm` `open-source` | Free | 🟢 Fresh | 1.6k |
 | [Review-Gate](https://github.com/LakshmanTurlapati/Review-Gate) | Review-Gate V2 is a powerful rule for the Cursor IDE that helps you get up to 5x more value from your monthly requests. It creates an interactive loop where the AI waits for your follow-up commands—via text, voice, or image upload—allowing you to perform deep, iterative work all within a single request. | `JavaScript` `ai` `claude` | Free | 🟡 Recent | 1.5k |
 | [Genie-TTS](https://github.com/High-Logic/Genie-TTS) | GPT-SoVITS ONNX Inference Engine & Model Converter | `python` `gpt` `tts` | Free | 🟢 Fresh | 1.5k |
+| [RCLI](https://github.com/RunanywhereAI/RCLI) | Talk to your Mac, query your docs, no cloud required. On-device voice AI + RAG | `voice` `ai` `rag` | Free | 🟡 Recent | 1.5k |
 | [amica](https://github.com/semperai/amica) | Amica is an open source interface for interactive communication with 3D characters with voice synthesis and speech recognition. | `TypeScript` `ai` `assistant-chat-bots` | Free | 🔴 Stale | 1.5k |
 | [StarrySky](https://github.com/EspoirX/StarrySky) | 🔥A Powerful and Streamline MusicLibrary(一个丰富的音乐播放封装库,支持多种音频格式,完美解决你的问题。) | `kotlin` `ml` | Free | 🔴 Stale | 1.5k |
 | [dsnote](https://github.com/mkiol/dsnote) | Speech Note Linux app. Note taking, reading and translating with offline Speech to Text, Text to Speech and Machine translation. | `c++` `speech` | Free | 🟡 Recent | 1.4k |
@@ -957,6 +959,7 @@
 | [ICASSP-2023-24-Papers](https://github.com/DmitryRyumin/ICASSP-2023-24-Papers) | ICASSP 2023-2024 Papers: A complete collection of influential and exciting research papers from the ICASSP 2023-24 conferences. Explore the latest advancements in acoustics, speech and signal processing. Code included. Star the repository to support the advancement of audio and signal processing! | `asr` `denoising` `domain-adaptation` | Free | 🟡 Recent | 0.5k |
 | [ollama-voice-mac](https://github.com/apeatling/ollama-voice-mac) | Mac compatible Ollama Voice | `Python` `ai` `assistant` | Free | 🔴 Stale | 0.5k |
 | [muspy](https://github.com/salu133445/muspy) | A toolkit for symbolic music generation | `audio` `machine-learning` `music` | Free | 🟡 Recent | 0.5k |
+| [local-voice-ai](https://github.com/ShayneP/local-voice-ai) | Local voice AI powered by Ollama, Kokoro, Nemotron STT, and LiveKit. | `voice` `ai` `local` | Free | 🟡 Recent | 0.5k |
 
 ---
 
@@ -2597,6 +2600,7 @@
 | [Mish](https://github.com/digantamisra98/Mish) | Official Repository for "Mish: A Self Regularized Non-Monotonic Neural Activation Function" [BMVC 2020] | `jupyter notebook` | Free | 🟢 Fresh | 1.3k |
 | [OpenSpace](https://github.com/OpenSpace/OpenSpace) | OpenSpace - AI-powered collaborative workspace and team coordination platform | `Collaboration` `Workspace` `AI` | Open Source | 🟢 Fresh | 1.1k |
 | [MTools](https://github.com/HG-ha/MTools) | Desktop app for media processing with AI enhancement. | `desktop` `media` `video` | Free | 🟡 Recent | 1.0k |
+| [APT](https://github.com/rnchg/APT) | AI Productivity Tool - Free and open source, improve user productivity, and protect privacy and data security. Including but not limited to: built-in local exclusive ChatGPT, DeepSeek, Phi, Qwen and other models, one-click batch intelligent processing of pictures, videos, audio, etc. | `productivity` `ai` `local` | Free | 🟢 Fresh | 0.8k |
 | [open-vibe-island](https://github.com/Octane0411/open-vibe-island) | The open-source alternative to vibe-island, designed for heavy code agent users, supporting cc/codex/opencode, terminal/ghostty/cmux/kaku/iterm | `agent` `claudecode` `code-island` | Free | 🟢 Fresh | 0.7k |
 | [openclaw-auto-dream](https://github.com/LeoYeAI/openclaw-auto-dream) | OpenClaw automation and dream interpretation tools | `automation` | Free | 🟡 Recent | 0.6k |
 | [AI Infinity](https://github.com/meetpateltech/AI-Infinity) | Collection of AI tools for exploring possibilities. | `collection` `tools` | Free | 🟠 Aging | 0.6k |
@@ -2773,6 +2777,7 @@
 | [Basic4AI](https://github.com/1033020837/Basic4AI) | 机器学习、深度学习、自然语言处理等人工智能基础知识总结。 | `Python` `ai` `machine-learning` | Free | 🔴 Stale | 0.6k |
 | [happy-transformer](https://github.com/EricFillion/happy-transformer) | Happy Transformer makes it easy to fine-tune and perform inference with  NLP Transformer models.   | `Python` `ai` `artificial-intelligence` | Free | 🔴 Stale | 0.5k |
 | [WorldX](https://github.com/YGYOOO/WorldX) | One sentence creates an AI-driven world — generate maps, characters, and watch stories emerge on their own. | `reinforcement-learning` `machine-learning` `ai` | Open Source | 🟢 Fresh | 0.5k |
+| [VARAG](https://github.com/adithya-s-k/VARAG) | Vision-Augmented Retrieval and Generation (VARAG) - Vision first RAG Engine | `rag` `vision` `retrieval` | Free | 🟡 Recent | 0.5k |
 | [Advanced_RAG](https://github.com/NisaarAgharia/Advanced_RAG) | Advanced Retrieval-Augmented Generation (RAG) through practical notebooks, using power of Langchain, OpenAI GPTs, META LLAMA3, Agents. | `rag` `langchain` `openai` | Free | 🟢 Fresh | 0.5k |
 | [graphify](https://github.com/graphify/graphify) | Graphify - AI-powered graph database and knowledge graph builder | `Graph Database` `Knowledge` `AI` | Open Source | 🟢 Fresh | 0.4k |
 | [quick-start-guide-to-llms](https://github.com/sinanuozdemir/quick-start-guide-to-llms) | The Official Repo for "Quick Start Guide to Large Language Models" | `llms` `guide` `tutorial` | Free | 🟢 Fresh | 0.4k |
@@ -2811,6 +2816,7 @@
 | [frame-interpolation](https://github.com/google-research/frame-interpolation) | FILM: Frame Interpolation for Large Motion, In ECCV 2022. | `forward-warp` `frame-interpolation` `optical-flow` | Free | 🔴 Stale | 3.1k |
 | [viseron](https://github.com/roflcoopter/viseron) | Self-hosted, local only NVR and AI Computer Vision software.  With features such as object detection, motion detection, face recognition and more, it gives you the power to keep an eye on your home, office or any other place you want to monitor. | `ai` `video` | Open Source | 🟢 Fresh | 3.1k |
 | [mirotalksfu](https://github.com/miroslavpejic85/mirotalksfu) | 🏆 Self-hosted, open-source WebRTC video conferencing platform for real-time communication and collaboration. A modern alternative to Zoom, built on SFU architecture. | `JavaScript` `ai` `collaboration` | Free | 🟢 Fresh | 2.9k |
+| [Everlyn-1](https://github.com/Everlyn-Labs/Everlyn-1) | The first open autoregressive foundational video AI model. | `video` `ai` `model` | Free | 🟠 Aging | 2.9k |
 | [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl) | mPLUG-Owl: The Powerful Multi-modal Large Language Model  Family | `alpaca` `chatbot` `chatgpt` | Free | 🟡 Recent | 2.5k |
 | [video-starter-kit](https://github.com/fal-ai-community/video-starter-kit) | Enable AI models for video production in the browser | `TypeScript` `ai` `media` | Free | 🔴 Stale | 2.3k |
 | [intro-to-apis-course](https://github.com/craigsdennis/intro-to-apis-course) | Introduction to APIs course | `api` `apis` `free` | Free | 🔴 Stale | 2.2k |
@@ -2843,6 +2849,7 @@
 | [Savant](https://github.com/insight-platform/Savant) | Python Computer Vision & Video Analytics Framework With Batteries Included | `computer-vision` `cuda` `deep-learning` | Free | 🟡 Recent | 0.8k |
 | [python_video_stab](https://github.com/AdamSpannbauer/python_video_stab) | A Python package to stabilize videos using OpenCV | `computer-vision` `opencv` `python` | Free | 🔴 Stale | 0.8k |
 | [sense](https://github.com/quic/sense) | Enhance your application with the ability to see and interact with humans using any RGB camera. | `activity-recognition` `calorie-estimation` `computer-vision` | Free | 🔴 Stale | 0.7k |
+| [Text-To-Video-AI](https://github.com/SamurAIGPT/Text-To-Video-AI) | Generate video from text using AI | `video` `ai` `text-to-video` | Free | 🟡 Recent | 0.7k |
 | [StoryGen-Atelier](https://github.com/0xsline/StoryGen-Atelier) | AI-assisted storyboard and video generation tool. Uses Gemini for generating storyboard text and frames, Vertex AI Veo for generating transition clips, and ffmpeg for stitching the final video. Built-in logs and gallery management. | `ai` | Free | 🔴 Stale | 0.7k |
 | [scikit-video](https://github.com/scikit-video/scikit-video) | Video Processing in Python | `ffmpeg-wrapper` `python` `quality-assessment` | Free | 🔴 Stale | 0.7k |
 | [vit](https://github.com/LucasHJin/vit) | Git for video editing. | `version-control` `video` `video-editing` | Free | 🟡 Recent | 0.7k |
@@ -2869,6 +2876,9 @@
 | [FLAVR](https://github.com/tarun005/FLAVR) | Code for FLAVR: A fast and efficient frame interpolation technique. | `8x-interpolation` `artificial-intelligence` `deep-learning` | Free | 🔴 Stale | 0.5k |
 | [Heart-rate-measurement-using-camera](https://github.com/habom2310/Heart-rate-measurement-using-camera) | real time application to measure heart rate | `camera` `fft` `heart-rate` | Free | 🔴 Stale | 0.5k |
 | [FileRenameBot](https://github.com/No-OnE-Kn0wS-Me/FileRenameBot) | A Telegram File Renamer Bot With Permanent Thumbnail Support Also It Can Convert Files Into Video!!  | `bot` `convert-files` `converter` | Free | 🔴 Stale | 0.5k |
+| [RealScaler](https://github.com/Djdefrag/RealScaler) | RealScaler - image/video AI upscaler app (Real-ESRGAN) | `video` `ai` `upscaler` | Free | 🟡 Recent | 0.4k |
+| [FluidFrames](https://github.com/Djdefrag/FluidFrames) | FluidFrames | video AI frame-generation app | `video` `ai` `frame` | Free | 🟡 Recent | 0.3k |
+| [openclip](https://github.com/linzzzzzz/openclip) | OpenClip - AI-powered highlight extraction for long videos (AI 驱动的长视频精彩时刻提取工具) | `video` `ai` `highlights` | Free | 🟡 Recent | 0.2k |
 
 ---
 
@@ -2891,16 +2901,16 @@ Top 10 by GitHub stars:
 
 ## 📊 Statistics
 
-- **Total Tools:** 2750
+- **Total Tools:** 2760
 - **Categories:** 9
-- **Last Updated:** Invalid Date
+- **Last Updated:** May 7, 2026
 - **Last Freshness Check:** May 7, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1320 tools
-- 🟡 Recent: 511 tools
-- 🟠 Aging: 219 tools
+- 🟢 Fresh: 1321 tools
+- 🟡 Recent: 519 tools
+- 🟠 Aging: 220 tools
 - 🔴 Stale: 700 tools
 
 ---

@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "name": "Hacker News AI",
+      "url": "https://hn.algolia.com/?q=ai&sort=byDate&dateRange=pastWeek",
+      "type": "search"
+    },
+    {
+      "name": "Reddit Machine Learning",
+      "url": "https://www.reddit.com/r/MachineLearning/top/",
+      "type": "social"
+    },
+    {
+      "name": "Reddit LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/top/",
+      "type": "social"
+    },
+    {
+      "name": "Product Hunt AI",
+      "url": "https://www.producthunt.com/search?q=ai",
+      "type": "directory"
+    }
+  ],
+  "github_search_queries": [
+    "language:python topic:ai stars:>500 pushed:>2026-04-23",
+    "language:javascript topic:ml stars:>500 pushed:>2026-04-23",
+    "language:typescript topic:llm stars:>500 pushed:>2026-04-23",
+    "language:rust topic:ai stars:>500 pushed:>2026-04-23",
+    "language:go topic:automation stars:>500 pushed:>2026-04-23"
+  ]
+}
