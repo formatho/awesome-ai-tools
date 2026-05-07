@@ -1,4 +1,4 @@
-# 🤖 Awesome AI Tools
+# 🤖 Awesome AI Tools 2026
 
 > A continuously updated, curated list of high-quality AI tools and resources.
 
