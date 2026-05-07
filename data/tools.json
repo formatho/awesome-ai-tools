@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-06T18:53:51.204Z",
-    "total_tools": 2744,
+    "last_updated": "2026-05-07T00:52:22.3NZ",
+    "total_tools": 2750,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,7 +15,7 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-06T20:12:35Z",
-    "last_discovery": "2026-05-06T18:53:51.205Z"
+    "last_discovery": "2026-05-07T00:52:22.3NZ"
   },
   "tools": [
     {
@@ -56603,6 +56603,117 @@
       "freshness": "🟢 Fresh",
       "last_commit_date": "2026-04-28T06:16:11.517Z",
       "days_since_commit": 0
+    },
+    {
+      "name": "sdk-typescript",
+      "url": "https://github.com/strands-agents/sdk-typescript",
+      "description": "A model-driven approach to building AI agents in just a few lines of code.",
+      "category": "Agents & Automation",
+      "tags": [
+        "typescript",
+        "agents",
+        "sdk",
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 644,
+      "language": "TypeScript",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "agency",
+      "url": "https://github.com/operand/agency",
+      "description": "A fast and minimal framework for building agentic systems",
+      "category": "Agents & Automation",
+      "tags": [
+        "python",
+        "agents",
+        "framework",
+        "agentic"
+      ],
+      "pricing": "Free",
+      "stars": 484,
+      "language": "Python",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "Advanced_RAG",
+      "url": "https://github.com/NisaarAgharia/Advanced_RAG",
+      "description": "Advanced Retrieval-Augmented Generation (RAG) through practical notebooks, using power of Langchain, OpenAI GPTs, META LLAMA3, Agents.",
+      "category": "Research & Data",
+      "tags": [
+        "rag",
+        "langchain",
+        "openai",
+        "llama3",
+        "agents",
+        "retrieval"
+      ],
+      "pricing": "Free",
+      "stars": 470,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "agent-builder",
+      "url": "https://github.com/strands-agents/agent-builder",
+      "description": "An example agent demonstrating streaming, tool use, and interactivity from your terminal. This agent builder can help you to build your own agents and tools.",
+      "category": "Agents & Automation",
+      "tags": [
+        "python",
+        "agents",
+        "tools",
+        "builder"
+      ],
+      "pricing": "Free",
+      "stars": 408,
+      "language": "Python",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "lionagi",
+      "url": "https://github.com/khive-ai/lionagi",
+      "description": "AGI SDK",
+      "category": "Agents & Automation",
+      "tags": [
+        "python",
+        "agi",
+        "sdk",
+        "llm"
+      ],
+      "pricing": "Free",
+      "stars": 393,
+      "language": "Python",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh"
+    },
+    {
+      "name": "quick-start-guide-to-llms",
+      "url": "https://github.com/sinanuozdemir/quick-start-guide-to-llms",
+      "description": "The Official Repo for \"Quick Start Guide to Large Language Models\"",
+      "category": "Research & Data",
+      "tags": [
+        "llms",
+        "guide",
+        "tutorial",
+        "jupyter",
+        "learning"
+      ],
+      "pricing": "Free",
+      "stars": 380,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh"
     }
   ]
 }
