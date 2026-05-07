@@ -1044,7 +1044,7 @@
 | [awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning) | A curated list of awesome Deep Learning tutorials, projects and communities. | `ai` | Free | 🔴 Stale | 28.0k |
 | [facefusion](https://github.com/facefusion/facefusion) | Industry leading face manipulation platform | `python` `deep-fake` `deepfake` | Unknown | 🟢 Fresh | 27.9k |
 | [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) |  |  | Free | 🟢 Fresh | 27.5k |
-| [vagrant](https://github.com/hashicorp/vagrant) | Vagrant is a tool for building and distributing development environments. | `virtualization` `devops` `development-environment` | Free | 🟢 Fresh | 27.1k |
+| [vagrant](https://github.com/hashicorp/vagrant) | Vagrant is a tool for building and distributing development environments. | `virtualization` `devops` `development-environment` | Free | 🟡 Recent | 27.1k |
 | [kestra](https://github.com/kestra-io/kestra) | Event Driven Orchestration & Scheduling Platform for Mission Critical Applications | `java` | Free | 🟢 Fresh | 26.8k |
 | [prompt-optimizer](https://github.com/linshenkx/prompt-optimizer) | An AI prompt optimizer for writing better prompts and getting better AI results. | `typescript` `ai-prompts` `ai-tools` | Freemium | 🟡 Recent | 26.5k |
 | [rustfs/rustfs](https://github.com/rustfs/rustfs) | 🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph. | `rag` `retrieval-augmented-generation` `open-source` | Free | 🟢 Fresh | 26.3k |
@@ -1643,7 +1643,7 @@
 | [StratosphereLinuxIPS](https://github.com/stratosphereips/StratosphereLinuxIPS) | Slips, a free software behavioral Python intrusion prevention system (IDS/IPS) that uses machine learning to detect malicious behaviors in the network traffic. Stratosphere Laboratory, AIC, FEL, CVUT in Prague. | `Python` `ai` `docker` | Free | 🟢 Fresh | 0.9k |
 | [council](https://github.com/chain-ml/council) | Council is an open-source platform for the rapid development and robust deployment of customized generative AI applications | `Python` `agent` `ai` | Free | 🔴 Stale | 0.8k |
 | [BlazeUp-AI/Observal](https://github.com/BlazeUp-AI/Observal) | Observal is an AI agent registry with first in class observabilty and eval framework | `observability` `monitoring` `agent` | Open Source | 🟢 Fresh | 0.8k |
-| [pg_vectorize](https://github.com/ChuckHend/pg_vectorize) | Full-text and semantic search on any Postgres | `Rust` `ai` `rag` | Free | 🟢 Fresh | 0.8k |
+| [pg_vectorize](https://github.com/ChuckHend/pg_vectorize) | Full-text and semantic search on any Postgres | `Rust` `ai` `rag` | Free | 🟡 Recent | 0.8k |
 | [k8m](https://github.com/weibaohui/k8m) | 一款轻量级、跨平台的 Mini Kubernetes AI Dashboard，支持大模型+智能体+MCP(支持设置操作权限)，集成多集群管理、智能分析、实时异常检测等功能，支持多架构并可单文件部署，助力高效集群管理与运维优化。 | `Go` `2fa` `ai` | Free | 🟡 Recent | 0.8k |
 | [aiwechat-vercel](https://github.com/pwh-pwh/aiwechat-vercel) | 使用vercel的functions，将ai功能加入微信公众号 | `Go` `ai` `bot` | Free | 🔴 Stale | 0.8k |
 | [Open-AF3](https://github.com/kyegomez/Open-AF3) | Implementation of Alpha Fold 3 from the paper: "Accurate structure prediction of biomolecular interactions with AlphaFold3" in PyTorch | `ai` `alphafold` `artificial-intelligence` | Free | 🟡 Recent | 0.8k |
@@ -1731,7 +1731,7 @@
 | [Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | Browser-based interface for Stable Diffusion image generation. | `image` `stable-diffusion` `web-ui` | Free | 🟠 Aging | 162.3k |
 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. | `image-generation` `stable-diffusion` `ai` | Free | 🟢 Fresh | 110.3k |
 | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Powerful and modular diffusion model GUI with graph/nodes interface. | `image` `diffusion` `gui` | Free | 🟢 Fresh | 108.7k |
-| [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake with only a single image | `image-generation` `stable-diffusion` `ai` | Free | 🟢 Fresh | 92.4k |
+| [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | real time face swap and one-click video deepfake with only a single image | `image-generation` `stable-diffusion` `ai` | Free | 🟡 Recent | 92.4k |
 | [opencv](https://github.com/opencv/opencv) | Open Source Computer Vision Library | `deep-learning` `computer-vision` `library` | Free | 🟢 Fresh | 87.2k |
 | [cs-video-courses](https://github.com/Developer-Y/cs-video-courses) | List of Computer Science courses with video lectures. | `machine-learning` `deep-learning` `computer-vision` | Free | 🟢 Fresh | 80.2k |
 | [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages. | `ai` `llm` | Free | 🟢 Fresh | 75.5k |
@@ -1928,10 +1928,10 @@
 | [agent-sprite-forge](https://github.com/0x0funky/agent-sprite-forge) | Agent Skill for generating 2D sprite sheets, maps, transparent PNG frames, and animated GIFs from text prompts | `ai` `agent-skill` `sprites` | Free | 🟢 Fresh | 0.9k |
 | [HR-VITON](https://github.com/sangyun884/HR-VITON) | Official PyTorch implementation for the paper High-Resolution Virtual Try-On with Misalignment and Occlusion-Handled Conditions (ECCV 2022). | `image-generation` `image-synthesis` `virtual-try-on` | Free | 🟡 Recent | 0.9k |
 | [icevision](https://github.com/airctic/icevision) | An Agnostic Computer Vision Framework - Pluggable to any Training Library: Fastai, Pytorch-Lightning with more to come | `Python` `ai` `annotation-parsers` | Free | 🔴 Stale | 0.9k |
-| [UniPic](https://github.com/SkyworkAI/UniPic) | Open-source SOTA multi-image editing model | `aigc` `diffusion-models` `image` | Free | 🟡 Recent | 0.9k |
-| [domain-transfer-network](https://github.com/yunjey/domain-transfer-network) | TensorFlow Implementation of Unsupervised Cross-Domain Image Generation  | `domain-transfer` `image-generation` `tensorflow` | Free | 🟡 Recent | 0.9k |
+| [UniPic](https://github.com/SkyworkAI/UniPic) | Open-source SOTA multi-image editing model | `aigc` `diffusion-models` `image` | Free | 🔴 Stale | 0.9k |
+| [domain-transfer-network](https://github.com/yunjey/domain-transfer-network) | TensorFlow Implementation of Unsupervised Cross-Domain Image Generation  | `domain-transfer` `image-generation` `tensorflow` | Free | 🔴 Stale | 0.9k |
 | [gpt_image_2_skill](https://github.com/wuyoscar/gpt_image_2_skill) | GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation and editing workflows | `ai` `agent-skill` `image-generation` | Free | 🟢 Fresh | 0.9k |
-| [refiners](https://github.com/finegrain-ai/refiners) | A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation | `background-generation` `background-removal` `controlnet` | Free | 🟡 Recent | 0.8k |
+| [refiners](https://github.com/finegrain-ai/refiners) | A microframework on top of PyTorch with first-class citizen APIs for foundation model adaptation | `background-generation` `background-removal` `controlnet` | Free | 🔴 Stale | 0.8k |
 | [APDrawingGAN](https://github.com/yiranran/APDrawingGAN) | Code for APDrawingGAN: Generating Artistic Portrait Drawings from Face Photos with Hierarchical GANs (CVPR 2019 Oral) | `apdrawinggan` `computer-graphics` `computer-vision` | Free | 🟡 Recent | 0.8k |
 | [caer](https://github.com/jasmcaus/caer) | High-performance Vision library in Python. Scale your research, not boilerplate.  | `Python` `ai` `artificial-intelligence` | Free | 🔴 Stale | 0.8k |
 | [anycost-gan](https://github.com/mit-han-lab/anycost-gan) | [CVPR 2021] Anycost GANs for Interactive Image Synthesis and Editing | `computer-graphics` `computer-vision` `deep-learning` | Free | 🟡 Recent | 0.8k |
@@ -2349,14 +2349,14 @@
 | [HacxGPT](https://github.com/lucija8320nhung4/HacxGPT) | HacxGPT CLI — Open-source command-line interface for unrestricted AI model access with multi-provider support, prompt injection research capabilities, configurable API endpoints, Termux/Linux/Windows compatibility, and Rich terminal UI for security research and red-team evaluation | `Python` `ai` `api-wrapper` | Free | 🟠 Aging | 0.9k |
 | [Claude-API](https://github.com/KoushikNavuluri/Claude-API) | This project provides an unofficial API for Claude AI, allowing users to access and interact with Claude AI . | `ai` `api` `chatbot` | Free | 🔴 Stale | 0.9k |
 | [hyper-mcp](https://github.com/hyper-mcp-rs/hyper-mcp) | 📦️ A fast, secure MCP server that extends its capabilities through WebAssembly plugins. | `Rust` `ai` `extism` | Free | 🟢 Fresh | 0.9k |
-| [BianQue](https://github.com/scutcyr/BianQue) | 中文医疗对话模型扁鹊(BianQue) | `chat-application` `chatbot` `conversational-ai` | Free | 🟡 Recent | 0.9k |
+| [BianQue](https://github.com/scutcyr/BianQue) | 中文医疗对话模型扁鹊(BianQue) | `chat-application` `chatbot` `conversational-ai` | Free | 🔴 Stale | 0.9k |
 | [openmed](https://github.com/maziyarpanahi/openmed) | Open-source healthcare AI platform supporting multiple LLMs (BERT, DeepSeek, GPT, LLaMA, Qwen) with on-device and on-premise deployment options | `healthcare` `llm` `on-device` | Free | 🟢 Fresh | 0.9k |
 | [InferenceX](https://github.com/SemiAnalysisAI/InferenceX) | Open Source Continuous Inference Benchmarking Qwen3.5, DeepSeek, GPTOSS - GB200 NVL72 vs MI355X vs B200 vs GB300 NVL72 vs H100 & soon™ TPUv6e/v7/Trainium2/3 | `Python` `ai` `amd` | Free | 🟢 Fresh | 0.9k |
 | [NeumAI](https://github.com/NeumTry/NeumAI) | Neum AI is a best-in-class framework to manage the creation and synchronization of vector embeddings at large scale. | `Python` `ai` `chatgpt` | Free | 🔴 Stale | 0.9k |
 | [llama-node](https://github.com/Atome-FE/llama-node) | Believe in AI democratization. llama for nodejs backed by llama-rs, llama.cpp and rwkv.cpp, work locally on your laptop CPU. support llama/alpaca/gpt4all/vicuna/rwkv model. | `Rust` `ai` `embeddings` | Free | 🔴 Stale | 0.9k |
 | [llm-ls](https://github.com/huggingface/llm-ls) | LSP server leveraging LLMs for code completion (and more?) | `Rust` `ai` `code-generation` | Free | 🟡 Recent | 0.9k |
 | [rag-demystified](https://github.com/pchunduri6/rag-demystified) | An LLM-powered advanced RAG pipeline built from scratch | `Python` `ai` `chatgpt` | Free | 🔴 Stale | 0.9k |
-| [secure-exec](https://github.com/rivet-dev/secure-exec) | Secure Node.js Execution Without a Sandbox  A lightweight library for secure Node.js execution. No containers, no VMs — just npm-compatible sandboxing out of the box. | `JavaScript` `agent` `ai` | Free | 🟡 Recent | 0.8k |
+| [secure-exec](https://github.com/rivet-dev/secure-exec) | Secure Node.js Execution Without a Sandbox  A lightweight library for secure Node.js execution. No containers, no VMs — just npm-compatible sandboxing out of the box. | `JavaScript` `agent` `ai` | Free | 🟠 Aging | 0.8k |
 | [ChatIE](https://github.com/cocacola-lab/ChatIE) | The online version is temporarily unavailable because we cannot afford the key. You can clone and run it locally. Note: we set defaul openai key. If keys exceed plan and are invalid, please tell us. The response speed depends on openai. ( sometimes, the official is too crowded and slow) | `Python` `ai` `chatgpt` | Free | 🔴 Stale | 0.8k |
 | [lingoose](https://github.com/henomis/lingoose) | 🪿 LinGoose is a Go framework for building awesome AI/LLM applications. | `Go` `ai` `chatgpt` | Free | 🟠 Aging | 0.8k |
 | [aws-lex-web-ui](https://github.com/aws-samples/aws-lex-web-ui) | Sample Amazon Lex chat bot web interface | `JavaScript` `ai` `aws` | Free | 🟢 Fresh | 0.8k |
@@ -2530,7 +2530,7 @@
 | [kodus-ai](https://github.com/kodustech/kodus-ai) | AI Code Review with Full Control Over Model Choice and Costs. | `typescript` `ai` | Free | 🟢 Fresh | 1.1k |
 | [ai-hub-models](https://github.com/qualcomm/ai-hub-models) | Qualcomm® AI Hub Models is our collection of state-of-the-art machine learning models optimized for performance (latency, memory etc.) and ready to deploy on Qualcomm® devices. | `python` `ai` | Free | 🟢 Fresh | 1.0k |
 | [compression](https://github.com/tensorflow/compression) | Data compression in TensorFlow | `compression` `data-compression` `deep-learning` | Free | 🟡 Recent | 0.9k |
-| [meerkat](https://github.com/HazyResearch/meerkat) | Explore and understand your training and validation data. | `data-science` `foundation-models` `machine-learning` | Free | 🟡 Recent | 0.9k |
+| [meerkat](https://github.com/HazyResearch/meerkat) | Explore and understand your training and validation data. | `data-science` `foundation-models` `machine-learning` | Free | 🔴 Stale | 0.9k |
 | [causallib](https://github.com/BiomedSciAI/causallib) | A Python package for modular causal inference analysis and model evaluations | `causal` `causal-inference` `causal-models` | Free | 🟡 Recent | 0.8k |
 | [decision-forests](https://github.com/tensorflow/decision-forests) | A collection of state-of-the-art algorithms for the training, serving and interpretation of Decision Forest models in Keras. | `decision-forest` `decision-trees` `gradient-boosting` | Free | 🟠 Aging | 0.7k |
 | [irl-imitation](https://github.com/yrlu/irl-imitation) | Implementation of Inverse Reinforcement Learning (IRL) algorithms in Python/Tensorflow. Deep MaxEnt, MaxEnt, LPIRL | `imitation` `imitation-learning` `inverse-reinforcement-learning` | Free | 🔴 Stale | 0.7k |
@@ -2800,7 +2800,7 @@
 
 | Tool | Description | Tags | Pricing | Freshness | Stars |
 |------|-------------|------|---------|-----------|-------|
-| [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | Real time face swap and one-click video deepfake with only a single image | `face-swap` `deepfake` `video` | Free | 🟢 Fresh | 90.2k |
+| [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) | Real time face swap and one-click video deepfake with only a single image | `face-swap` `deepfake` `video` | Free | 🟡 Recent | 90.2k |
 | [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Generate short videos with one click using AI LLM. | `video` `generation` `automation` | Free | 🟡 Recent | 55.6k |
 | [video2x](https://github.com/k4yt3x/video2x) | A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018. | `anime4k` `frame-interpolation` `machine-learning` | Free | 🟠 Aging | 19.5k |
 | [moviepy](https://github.com/Zulko/moviepy) | Video editing with Python | `animation` `gif` `hacktoberfest` | Free | 🟡 Recent | 14.6k |
@@ -2911,15 +2911,15 @@ Top 10 by GitHub stars:
 
 - **Total Tools:** 2768
 - **Categories:** 9
-- **Last Updated:** May 8, 2026
+- **Last Updated:** May 7, 2026
 - **Last Freshness Check:** May 7, 2026
 - **Update Frequency:** Every 6 hours (discovery) + Daily (freshness)
 
 **Freshness Distribution:**
-- 🟢 Fresh: 1329 tools
-- 🟡 Recent: 519 tools
-- 🟠 Aging: 220 tools
-- 🔴 Stale: 700 tools
+- 🟢 Fresh: 1325 tools
+- 🟡 Recent: 517 tools
+- 🟠 Aging: 221 tools
+- 🔴 Stale: 705 tools
 
 ---
 
