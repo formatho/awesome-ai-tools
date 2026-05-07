@@ -1,8 +1,8 @@
 {
   "metadata": {
     "version": "1.0.0",
-    "last_updated": "2026-05-07T18:28:28.651979",
-    "total_tools": 2760,
+    "last_updated": "2026-05-07T18:54:31.772Z",
+    "total_tools": 2768,
     "categories": [
       "LLMs & Chatbots",
       "Image Generation",
@@ -15,9 +15,173 @@
       "Open Source Models"
     ],
     "last_freshness_check": "2026-05-07T14:17:25Z",
-    "last_discovery": "2026-05-07T18:28:28.651985"
+    "last_discovery": "2026-05-07T18:54:31.772Z"
   },
   "tools": [
+    {
+      "name": "Peekaboo",
+      "url": "https://github.com/openclaw/Peekaboo",
+      "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
+      "category": "Agents & Automation",
+      "tags": [
+        "screenshot",
+        "mcp",
+        "macos",
+        "visual-ai",
+        "automation"
+      ],
+      "pricing": "Free",
+      "stars": 3256,
+      "language": "Swift",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-07T18:54:31.771Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "mx-space/core",
+      "url": "https://github.com/mx-space/core",
+      "description": "AI-powered CMS core for personal blogs and creator websites, with AI summaries, translation, moderation, and writing workflows.",
+      "category": "Productivity",
+      "tags": [
+        "cms",
+        "ai",
+        "blog",
+        "translation",
+        "moderation"
+      ],
+      "pricing": "Free",
+      "stars": 525,
+      "language": "TypeScript",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-07T18:54:31.771Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "stacks",
+      "url": "https://github.com/stacksjs/stacks",
+      "description": "Modern full-stack framework. Develop powerful apps, clouds & framework-agnostic libraries—faster.",
+      "category": "Developer Tools",
+      "tags": [
+        "framework",
+        "full-stack",
+        "developer-tools",
+        "typescript"
+      ],
+      "pricing": "Free",
+      "stars": 620,
+      "language": "TypeScript",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-07T18:54:31.771Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "neurolink",
+      "url": "https://github.com/juspay/neurolink",
+      "description": "Streams are the future of AI powered by unlimited free tokens.",
+      "category": "LLMs & Chatbots",
+      "tags": [
+        "llm",
+        "streams",
+        "ai",
+        "tokens"
+      ],
+      "pricing": "Free",
+      "stars": 87,
+      "language": "TypeScript",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-07T18:54:31.771Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "hivemind",
+      "url": "https://github.com/activeloopai/hivemind",
+      "description": "One brain for all your agents",
+      "category": "Agents & Automation",
+      "tags": [
+        "agent",
+        "multi-agent",
+        "collaboration",
+        "ai"
+      ],
+      "pricing": "Free",
+      "stars": 68,
+      "language": "JavaScript",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-07T18:54:31.771Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "free-llm-api-keys",
+      "url": "https://github.com/alistaitsacle/free-llm-api-keys",
+      "description": "Free LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok — copy, paste, use. Updated 3-5x daily. No credit card needed.",
+      "category": "Productivity",
+      "tags": [
+        "llm",
+        "api-keys",
+        "free",
+        "gpt",
+        "claude"
+      ],
+      "pricing": "Free",
+      "stars": 241,
+      "language": "Python",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-07T18:54:31.771Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "deepshot",
+      "url": "https://github.com/saccofrancesco/deepshot",
+      "description": "AI model predicting NBA game outcomes using advanced stats and trends",
+      "category": "Research & Data",
+      "tags": [
+        "ai",
+        "prediction",
+        "nba",
+        "sports",
+        "analytics"
+      ],
+      "pricing": "Free",
+      "stars": 142,
+      "language": "Jupyter Notebook",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-07T18:54:31.771Z",
+      "days_since_commit": 0
+    },
+    {
+      "name": "ITBench",
+      "url": "https://github.com/itbench-hub/ITBench",
+      "description": "An open source benchmarking framework for IT automation",
+      "category": "Research & Data",
+      "tags": [
+        "benchmarking",
+        "automation",
+        "testing",
+        "framework"
+      ],
+      "pricing": "Free",
+      "stars": 315,
+      "language": "Python",
+      "added_date": "2026-05-07",
+      "verified": true,
+      "freshness": "🟢 Fresh",
+      "last_commit_date": "2026-05-07T18:54:31.771Z",
+      "days_since_commit": 0
+    },
     {
       "name": "free-programming-books",
       "url": "https://github.com/EbookFoundation/free-programming-books",
